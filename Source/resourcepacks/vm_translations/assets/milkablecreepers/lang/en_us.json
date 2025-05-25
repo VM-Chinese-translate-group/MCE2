@@ -1,0 +1,6 @@
+{
+  "effect.milkablecreepers.living_bomb": "§aLiving Bomb",
+  "item.milkablecreepers.creeper_milk": "§aCreeper Milk",
+  "effect.milkablecreepers.living_bomb.description": "Pretty self explanatory I'd say! Mmmmmm Creeper Milk!",
+  "death.milkablecreepers.creeper_milk_explosion": "%1$s couldn't handle their creeper milk!"
+}
