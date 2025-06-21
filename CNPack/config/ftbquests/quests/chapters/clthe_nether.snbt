@@ -338,8 +338,10 @@
 		{
 			dependencies: ["3BD8D1FD1252A183"]
 			description: [
-				"{chapter.22.quest.2.description.1}"
-				"{image:modpack:textures/2022-11-03_23.33.09.png width:180 height:100 align:center}"
+				""
+				""
+				"&oExpert Mode will start upon entering The Nether, if you do not know what this means please come prepared and read the Quest Chapter &6\"Difficulty Modes\""
+			  "{image:modpack:textures/2022-11-03_23.33.09.png width:180 height:100 align:center}"
 			]
 			id: "0D88B45349B3E660"
 			rewards: [
@@ -348,7 +350,7 @@
 					command: "/gamestage add @p expert"
 					icon: "rats:golden_rat_skull"
 					id: "7AAA477D924F4B0E"
-					title: "{chapter.22.quest.2.reward.2.title}"
+					title: "&eActivate Expert Mode"
 					type: "command"
 				}
 				{
@@ -386,18 +388,28 @@
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "{chapter.22.quest.2.subtitle}"
+			subtitle: "&oThe Nether is unlike anything you've seen before, come prepared..."
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "48A198B6D461B9E0"
 				type: "dimension"
 			}]
-			title: "{chapter.22.quest.2.title}"
+			title: "&c&lEnter The Nether!"
 			x: 3.0d
 			y: -2.0d
 		}
 		{
-			description: ["{chapter.9.quest.7.description.1}"]
+			description: [
+			  "This strange orb was left behind by the last great Nether invasion of The Overworld. "
+			  ""
+			  "Legend says, they who wield the &eObsidian Palinteer&r, gain the power to enter &eThe Nether&r unscathed. "
+			  ""
+			  "Something which has been impossible for hundreds of years."
+			  ""
+			  ""
+			  ""
+			  "&4&lThe Nether - Progression"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -528,7 +540,7 @@
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "{chapter.22.quest.4.subtitle}"
+			subtitle: "Venture deep into The Nether and seek out a Fortress"
 			tasks: [{
 				advancement: "minecraft:nether/find_fortress"
 				criterion: ""
@@ -545,10 +557,10 @@
 					}
 				}
 				id: "35012FAE0AF4A31B"
-				title: "{chapter.22.quest.4.task.1.title}"
+				title: "&eLocate a Nether Fortress"
 				type: "advancement"
 			}]
-			title: "{chapter.22.quest.4.title}"
+			title: "&oDiscover a Nether Fortress"
 			x: 5.224489795918359d
 			y: -2.0306122448979593d
 		}
@@ -610,12 +622,12 @@
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "{chapter.22.quest.5.subtitle}"
+			subtitle: "&oWatch out for baby Wither Skeletons!"
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "102D5D268B74AB68"
-				title: "{chapter.22.quest.5.task.1.title}"
+				title: "&c&oKill 15 Wither Skeletons"
 				type: "kill"
 				value: 15L
 			}]
@@ -624,7 +636,10 @@
 		}
 		{
 			dependencies: ["479494C1FD505646"]
-			description: ["{chapter.22.quest.6.description.1}"]
+			description: [
+			  "Once you have a strider in range of you, use it with the saddle to saddle it. "
+			  "Afterwards, use the strider to ride it. Then, select the warped fungus on a stick and ride the strider. Then, once again use the warped fungus on a stick to boost the strider. This will use up one durability on your warped fungus on a stick."
+			]
 			id: "10C1A1C3CF267607"
 			rewards: [
 				{
@@ -683,12 +698,12 @@
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "{chapter.22.quest.6.subtitle}"
+			subtitle: "&oTame a Strider and boost it using Warped Fungus"
 			tasks: [{
 				advancement: "minecraft:nether/ride_strider"
 				criterion: ""
 				id: "2D77B01AD9E9933A"
-				title: "{chapter.22.quest.6.task.1.title}"
+				title: "&eThe Hottest Way To Travel"
 				type: "advancement"
 			}]
 			x: 3.0d
@@ -696,7 +711,9 @@
 		}
 		{
 			dependencies: ["3CC4D8AC7D27AE94"]
-			description: ["{image:modpack:textures/2022-11-03_23.35.08.png width:180 height:100 align:1}"]
+			description: [
+			  "{image:modpack:textures/2022-11-03_23.35.08.png width:180 height:100 align:1}"
+			]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -724,7 +741,7 @@
 					command: "/titles add @p titles:demon_slayer"
 					icon: "titles:title_scroll_uncommon"
 					id: "4676D913C6156C6D"
-					title: "{chapter.22.quest.7.reward.5.title}"
+					title: "&eUnlock Title:&r Demon Slayer"
 					type: "command"
 				}
 				{
@@ -769,7 +786,7 @@
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "{chapter.22.quest.7.subtitle}"
+			subtitle: "&oLocate a Nether Soul Forge and Slay the &eNetherite Monstrosity"
 			tasks: [
 				{
 					icon: {
@@ -795,13 +812,17 @@
 					value: 1L
 				}
 			]
-			title: "{chapter.22.quest.7.title}"
+			title: "&cNether Forgery"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["21DA031BE994B045"]
-			description: ["{chapter.22.quest.9.description.1}"]
+			description: [
+			  "Click the Altar of Fire with &bBurning Ashes&r and swiftly prepare yourself. "
+			  ""
+			  "Ancient Fire Demons do not take kindly to being woken up from their ten thousand year slumber!"
+			]
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
@@ -824,7 +845,7 @@
 					command: "/titles add @p twilightforest:fiery_set"
 					icon: "titles:title_scroll_rare"
 					id: "22DA422A1A1EAEC3"
-					title: "{chapter.22.quest.9.reward.6.title}"
+					title: "&eUnlock Title: &rThe Flame Forged"
 					type: "command"
 				}
 				{
@@ -899,14 +920,14 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{chapter.22.quest.9.subtitle}"
+			subtitle: "Locate the Altar Of Fire inside the Blazing Arena"
 			tasks: [
 				{
 					icon: "cataclysm:altar_of_fire"
 					id: "37162A57BF274981"
 					observe_type: 0
 					timer: 0L
-					title: "{chapter.22.quest.9.task.1.title}"
+					title: "&e&lHell Bent"
 					to_observe: "cataclysm:altar_of_fire"
 					type: "observation"
 				}
@@ -922,7 +943,9 @@
 		}
 		{
 			dependencies: ["10C1A1C3CF267607"]
-			description: ["{image:modpack:textures/2022-11-03_23.32.41.png width:180 height:100 align:1}"]
+			description: [
+			  "{image:modpack:textures/2022-11-03_23.32.41.png width:180 height:100 align:1}"
+			]
 			id: "1947FABCE1A302BE"
 			rewards: [
 				{
@@ -980,7 +1003,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{chapter.22.quest.10.subtitle}"
+			subtitle: "&oLocate The &eBurning Arena&r. This structure can be found rarely in The Nether. Get to explorin'!"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1006,7 +1029,7 @@
 			dependencies: ["1947FABCE1A302BE"]
 			description: [
 				"{image:modpack:textures/2022-11-03_23.33.25.png width:180 height:100 align:1}"
-				"{chapter.22.quest.11.description.1}"
+				"&6Tip: &rTry to avoid the &e\"Ashen Breath\"&r, attack &ryou &lcannot&r block it and it does high amounts of damage!"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -1036,7 +1059,7 @@
 					command: "/titles add @p titles:ashen"
 					icon: "titles:title_scroll_uncommon"
 					id: "0067A1BE49111658"
-					title: "{chapter.22.quest.11.reward.6.title}"
+					title: "&eUnlock Title:&r of the Ashen Breath"
 					type: "command"
 				}
 				{
@@ -1080,7 +1103,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{chapter.22.quest.11.subtitle}"
+			subtitle: "Defeat the Ignited Revenant and claim their &bBurning Ashes&r, you will be needing this very soon.."
 			tasks: [
 				{
 					entity: "cataclysm:ignited_revenant"
@@ -1190,7 +1213,7 @@
 					type: "biome"
 				}
 			]
-			title: "{chapter.22.quest.14.title}"
+			title: "&oNether Explorer!"
 			x: 4.109693877551017d
 			y: -1.9666666666666401d
 		}
@@ -1261,13 +1284,13 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{chapter.22.quest.17.subtitle}"
+			subtitle: "&oReturn to The Overworld after defeating Ignis"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "1BD8D5E17FDF1B5E"
 				type: "dimension"
 			}]
-			title: "{chapter.22.quest.17.title}"
+			title: "&6&lHeaven Sent"
 			x: 11.0d
 			y: 2.0d
 		}
@@ -1331,5 +1354,5 @@
 			y: -1.0d
 		}
 	]
-	title: "{chapter.22.title}"
+	title: "&cThe Nether &r&6☆☆"
 }

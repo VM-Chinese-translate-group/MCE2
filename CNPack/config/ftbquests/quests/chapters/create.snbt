@@ -8,7 +8,9 @@
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
-		description: ["Chapter coming soon!™"]
+		description: [
+		  "Chapter coming soon!™"
+		]
 		id: "324A94DFF4CF15A7"
 		rewards: [{
 			amount: 50L
@@ -25,5 +27,5 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "{chapter.25.title}"
+	title: "&6Create"
 }

@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"{chapter.32.quest.3.description.1}"
+			"Go inside the trainers house and use the special chair inside to inject your that garlic vaccination. It will make you immune to the Vampire's poisonous \"Sanguinare Vampiris\" bite.This is more or less the only advantage that you will have at that level. But you can train yourself to become stronger and learn some useful skills."
 			"{image:vampirism:textures/item/injection_garlic.png width:100 height:100 align:1}"
 			""
 			"Chapter coming soon!"
@@ -58,7 +58,7 @@
 				type: "item"
 			}
 		]
-		subtitle: "{chapter.32.quest.3.subtitle}"
+		subtitle: "To become a Vampire Hunter you will need to right-click a Garlic Injection on a Injection Chair"
 		tasks: [{
 			id: "1618A5334A7B52DE"
 			item: {
@@ -72,9 +72,9 @@
 			}
 			type: "item"
 		}]
-		title: "{chapter.32.quest.3.title}"
+		title: "&eBecome a Vampire Hunter"
 		x: 2.0d
 		y: 0.0d
 	}]
-	title: "{chapter.33.title}"
+	title: "&6Vampirism - Hunter"
 }

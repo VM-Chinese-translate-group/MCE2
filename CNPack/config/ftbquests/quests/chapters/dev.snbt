@@ -34,7 +34,9 @@
 			y: -0.1d
 		}
 		{
-			description: ["for developer use"]
+			description: [
+			  "for developer use"
+			]
 			disable_toast: true
 			id: "3B97D75865A88DAD"
 			rewards: [{

@@ -438,5 +438,5 @@
 		}
 		{ item: "rats:rat_upgrade_sculked" }
 	]
-	title: "{loot_table.17}"
+	title: "&aCheesy Cache"
 }

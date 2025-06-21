@@ -283,7 +283,13 @@
 	quests: [
 		{
 			dependencies: ["4313289FDB40498E"]
-			description: ["{chapter.20.quest.1.description.1}"]
+			description: [
+			  "The Everdawn has its sun forever rising. With this being a much more humid and warm world, insects and reptiles flourish. Before entering, it’s worth preparing for poison and fire as many parts of this world may inflict those on you. Venture across this diverse landscape to uncover the Alchemist’s Blinding Dungeon and then the new Poison Dungeon, lair of the Arachnarch."
+			  ""
+			  ""
+			  ""
+			  "&8Source:&r &ohttps://moddinglegacy.com/mods/blue-skies/"
+			]
 			icon: {
 				Count: 1
 				id: "blue_skies:aquatic_arc"
@@ -330,12 +336,12 @@
 					command: "/titles add @p titles:everdawn"
 					icon: "titles:title_scroll_common"
 					id: "225BD4DCD8406218"
-					title: "{chapter.20.quest.1.reward.3.title}"
+					title: "&eUnlock Title:&r of the Everdawn"
 					type: "command"
 				}
 			]
 			shape: "square"
-			subtitle: "{chapter.20.quest.1.subtitle}"
+			subtitle: "Enter &eThe Everdawn Dimension!"
 			tasks: [{
 				dimension: "blue_skies:everdawn"
 				id: "776C7299C7C1ECCE"
@@ -347,7 +353,11 @@
 		}
 		{
 			dependencies: ["4E90959F6A5BF5D6"]
-			description: ["{chapter.20.quest.2.description.1}"]
+			description: [
+			  "The Zeal Lighter can be used to open a portal to both &aThe Everdawn &rand &bThe Everbright"
+			  "&eTip:&r Unfinished portals can often be found hidden inside The Gatekeepers house! Investigate!"
+			  "&6Hint:&r Regular non-blue skies equipment will be far less effective in The Everbright and Everdawn"
+			]
 			id: "4313289FDB40498E"
 			rewards: [
 				{
@@ -387,12 +397,12 @@
 					command: "/titles add @p titles:gatekeeper"
 					icon: "titles:title_scroll_common"
 					id: "7231850986077ED9"
-					title: "{chapter.20.quest.2.reward.3.title}"
+					title: "&eUnlock Title:&r Gatekeeper"
 					type: "command"
 				}
 			]
 			shape: "rsquare"
-			subtitle: "{chapter.20.quest.2.subtitle}"
+			subtitle: "Purchase the &eZeal Lighter&r from The Gatekeeper"
 			tasks: [{
 				id: "64CAF381B1391CDD"
 				item: {
@@ -409,7 +419,12 @@
 		}
 		{
 			dependency_requirement: "one_completed"
-			description: ["{chapter.20.quest.3.description.1}"]
+			description: [
+			  "The Gatekeeper can be found in many different biomes but can be found most often in a Plains biome! "
+			  ""
+			  "&eTip:&r The Gatekeeper has a very special trade! "
+			  "&6Hint:&r Living near a Gatekeeper can sometimes be a good idea, they are quite powerful and will attack your enemies!"
+			]
 			id: "661DDA7256AD220A"
 			rewards: [
 				{
@@ -423,20 +438,26 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "{chapter.20.quest.3.subtitle}"
+			subtitle: "Find a Gatekeeper's House!"
 			tasks: [{
 				icon: "minecraft:filled_map"
 				id: "0E7CC45BC7EF343B"
 				structure: "blue_skies:gatekeeper_house"
 				type: "structure"
 			}]
-			title: "{chapter.20.quest.3.title}"
+			title: "&eLocate The Gatekeeper"
 			x: 0.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["33510AE07F5B45AB"]
-			description: ["{chapter.20.quest.4.description.1}"]
+			description: [
+			  "Resting at the top of the Nature Dungeon, you’ll be met face to face with the Starlit Crusher. This sentient tree may not move much, but makes up for it by rooting into the ground to produce wide area attacks from below and enough brutal strength to cause the ground itself to shake. Seeing as it’s still a tree, axes deal far more damage against it and are required to bypass its defenses. Look out for opportunities to stun it with a spear for an opening to attack."
+			  ""
+			  ""
+			  ""
+			  "&8Source:&r &ohttps://moddinglegacy.com/mods/blue-skies/"
+			]
 			id: "7E3C72608EBCAD1C"
 			rewards: [
 				{
@@ -487,7 +508,7 @@
 					command: "/titles add @p titles:crusher"
 					icon: "titles:title_scroll_rare"
 					id: "1E2923F8D4C2DD6A"
-					title: "{chapter.20.quest.4.reward.4.title}"
+					title: "&eUnlock Title:&r The Crusher"
 					type: "command"
 				}
 				{
@@ -497,7 +518,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.20.quest.4.subtitle}"
+			subtitle: "Kill &eThe Starlit Crusher&r in their Dungeon"
 			tasks: [{
 				entity: "blue_skies:starlit_crusher"
 				id: "496320B2FA859547"
@@ -509,7 +530,12 @@
 		}
 		{
 			dependencies: ["50A4F20448480244"]
-			description: ["{chapter.20.quest.5.description.1}"]
+			description: [
+			  "Found in the Everdawn, the Alchemist uses potions and physical constructs to fight. Many of his attacks can be predicted by looking out for visual queues, but missing those queues may result in heavy damage. Once defeated, you’ll gain access to the &ePoison Dungeon."
+			  ""
+			  "&8Source:&r &ohttps://moddinglegacy.com/mods/blue-skies/"
+			  ""
+			]
 			id: "3534B1F85C96C177"
 			rewards: [
 				{
@@ -549,7 +575,7 @@
 					command: "/titles add @p titles:alchemist"
 					icon: "titles:title_scroll_common"
 					id: "1CAA2F47D6480580"
-					title: "{chapter.20.quest.5.reward.3.title}"
+					title: "&eUnlock Title:&r The Alchemist"
 					type: "command"
 				}
 				{
@@ -573,7 +599,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.20.quest.5.subtitle}"
+			subtitle: "Kill &eThe Alchemist &rin their Tower"
 			tasks: [
 				{
 					entity: "blue_skies:alchemist"
@@ -593,7 +619,13 @@
 		}
 		{
 			dependencies: ["4313289FDB40498E"]
-			description: ["{chapter.20.quest.6.description.1}"]
+			description: [
+			  "The Everbright is a realm of eternal day and frigid cold. Home to large beasts and ethereal mobs, you’ll need to keep an eye on your back as you traverse through this world. Be sure to watch out for snow storms that bring thick fog and more enemies than usual. As you explore, you’ll encounter the Summoner’s Blinding Dungeon and the new Nature Dungeon, home of the Starlit Crusher."
+			  ""
+			  ""
+			  ""
+			  "&8Source:&r &ohttps://moddinglegacy.com/mods/blue-skies/"
+			]
 			icon: {
 				Count: 1
 				id: "blue_skies:life_arc"
@@ -640,12 +672,12 @@
 					command: "/titles add @p titles:everbright"
 					icon: "titles:title_scroll_common"
 					id: "171C350F9B9D482D"
-					title: "{chapter.20.quest.6.reward.3.title}"
+					title: "&eUnlock Title:&r of the Everbright"
 					type: "command"
 				}
 			]
 			shape: "square"
-			subtitle: "{chapter.20.quest.6.subtitle}"
+			subtitle: "Enter &eThe Everbright"
 			tasks: [{
 				dimension: "blue_skies:everbright"
 				id: "4F96F230599DCD84"
@@ -657,18 +689,24 @@
 		}
 		{
 			dependencies: ["490826EE6F3FBF01"]
-			description: ["{chapter.20.quest.7.description.1}"]
+			description: [
+			  "The Nature Dungeon is a massive labyrinth consisting of 4 floors. Each floor contains one of the required keys and a staircase up to the next floor. Be sure to check every nook and cranny and to not be overrun by the Stonlets living within."
+			  ""
+			  ""
+			  ""
+			  "&8Source:&r &ohttps://moddinglegacy.com/mods/blue-skies/"
+			]
 			id: "33510AE07F5B45AB"
 			rewards: [{
 				id: "4F0AAA672AF7ADED"
 				type: "custom"
 			}]
-			subtitle: "{chapter.20.quest.7.subtitle}"
+			subtitle: "The Nature Dungeon Generates in the &eSnow Covered Pines biome."
 			tasks: [{
 				icon: "blue_skies:winter_leaves"
 				id: "3CEDBD6237BE4547"
 				structure: "blue_skies:nature_dungeon"
-				title: "{chapter.20.quest.7.task.1.title}"
+				title: "&eLocate The Nature Dungeon"
 				type: "structure"
 			}]
 			x: -4.0d
@@ -676,18 +714,24 @@
 		}
 		{
 			dependencies: ["3534B1F85C96C177"]
-			description: ["{chapter.20.quest.8.description.1}"]
+			description: [
+			  "The Poison Dungeon is a large maze buried beneath the surface. On the surface, you’ll find a large, hollowed, maple tree covered in cobwebs. Made of 4 floors, you’ll need to find the key on each one and then descend to the next. Be sure not to lose your way in the spiders’ nest."
+			  ""
+			  ""
+			  ""
+			  "&8Source:&r &ohttps://moddinglegacy.com/mods/blue-skies/"
+			]
 			id: "24ADC056211E8DBC"
 			rewards: [{
 				id: "2C85171D49095B89"
 				type: "custom"
 			}]
-			subtitle: "{chapter.20.quest.8.subtitle}"
+			subtitle: "The Poison Dungeon can be found in &eThe Sunset Maple Forest"
 			tasks: [{
 				icon: "blue_skies:scalefruit"
 				id: "7F8023E0B03460D6"
 				structure: "blue_skies:poison_dungeon"
-				title: "{chapter.20.quest.8.task.1.title}"
+				title: "&eLocate The Poison Dungeon"
 				type: "structure"
 			}]
 			x: 4.0d
@@ -695,7 +739,13 @@
 		}
 		{
 			dependencies: ["24ADC056211E8DBC"]
-			description: ["{chapter.20.quest.9.description.1}"]
+			description: [
+			  "Lurking in the lowest depths of the Poison Dungeon, you’ll find the Arachnarch in her lair. This venomous foe lunges at targets and sprays poison from the ceiling above. Being the queen of this nest, expect reinforcements to come crawling from the walls. With such an aggressive method of attacking, you may be able to stun her when she lunges by blocking with your shield."
+			  ""
+			  ""
+			  ""
+			  "&8Source:&r &ohttps://moddinglegacy.com/mods/blue-skies/"
+			]
 			id: "77EA6458B8B677C6"
 			rewards: [
 				{
@@ -746,7 +796,7 @@
 					command: "/titles add @p titles:exterminator"
 					icon: "titles:title_scroll_rare"
 					id: "5FB6A487F104F78D"
-					title: "{chapter.20.quest.9.reward.4.title}"
+					title: "&eUnlock Title:&r The Exterminator"
 					type: "command"
 				}
 				{
@@ -756,7 +806,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.20.quest.9.subtitle}"
+			subtitle: "Kill &eThe Arachnarch&r in her lair"
 			tasks: [{
 				entity: "blue_skies:arachnarch"
 				icon: "blue_skies:arachnarch_spawn_egg"
@@ -769,7 +819,15 @@
 		}
 		{
 			dependencies: ["73408B8FDCD30826"]
-			description: ["{chapter.20.quest.10.description.1}"]
+			description: [
+			  "Residing in the Everbright, the Summoner fights with lightning, energy attacks, and his golem guards. Be sure to watch your back as these golems can quickly overwhelm you if not properly tended to. Defeating him will allow you to access the &eNature Dungeon."
+			  ""
+			  "&6Hint:&r The Summoner drops the &e&oNovice Spell Book"
+			  ""
+			  ""
+			  ""
+			  "&8Source:&r &ohttps://moddinglegacy.com/mods/blue-skies/"
+			]
 			id: "490826EE6F3FBF01"
 			rewards: [
 				{
@@ -809,7 +867,7 @@
 					command: "/titles add @p titles:summoner"
 					icon: "titles:title_scroll_uncommon"
 					id: "654513973EB7AADB"
-					title: "{chapter.20.quest.10.reward.3.title}"
+					title: "&eUnlock Title:&r The Summoner"
 					type: "command"
 				}
 				{
@@ -833,7 +891,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.20.quest.10.subtitle}"
+			subtitle: "Kill &eThe Summoner&r in their Tower"
 			tasks: [
 				{
 					entity: "blue_skies:summoner"
@@ -861,7 +919,9 @@
 				"73408B8FDCD30826"
 				"50A4F20448480244"
 			]
-			description: ["&6Tip:&r You must kill all Blue Skies bosses to be able to claim this reward"]
+			description: [
+			  "&6Tip:&r You must kill all Blue Skies bosses to be able to claim this reward"
+			]
 			hide_dependency_lines: true
 			id: "375C5DD8C635AA77"
 			optional: true
@@ -947,5 +1007,5 @@
 			y: -3.0d
 		}
 	]
-	title: "{chapter.20.title}"
+	title: "&aEverdawn &rand &bEverbright &r&6☆☆"
 }

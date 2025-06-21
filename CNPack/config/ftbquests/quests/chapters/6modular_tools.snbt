@@ -164,7 +164,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "{chapter.4.quest.2.subtitle}"
+			subtitle: "&oForge new tools and weapons with Tinkers Construct!"
 			tasks: [{
 				id: "2052B7B5B04159CA"
 				item: {

@@ -146,14 +146,16 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.24.quest.1.subtitle}"
-			title: "{chapter.24.quest.1.title}"
+			subtitle: "&oCollect all of the Legendary Eyes and save them for use in a &oAncient Portal Frame"
+			title: "&eThe End? No only the beginning!"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5406B7F8719CFC26"]
-			description: ["{image:modpack:textures/end_portal.png width:200 height:110 align:1}"]
+			description: [
+			  "{image:modpack:textures/end_portal.png width:200 height:110 align:1}"
+			]
 			id: "0B0289E1D66B61D1"
 			rewards: [
 				{
@@ -201,7 +203,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.24.quest.2.subtitle}"
+			subtitle: "Place each &6&lLegendary Eye&r inside the &dPortal Frame"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -215,7 +217,7 @@
 				id: "25D1BD3B4F9873F5"
 				observe_type: 0
 				timer: 0L
-				title: "{chapter.24.quest.2.task.1.title}"
+				title: "&eUncover The Ancient Portal Frame"
 				to_observe: "endrem:ancient_portal_frame"
 				type: "observation"
 			}]
@@ -288,7 +290,7 @@
 				structure: "integrated_stronghold:stronghold"
 				type: "structure"
 			}]
-			title: "{chapter.24.quest.3.title}"
+			title: "&eLocate The End Gate"
 			x: -2.0d
 			y: -1.0d
 		}
@@ -346,7 +348,7 @@
 					id: "minecraft:end_crystal"
 				}
 				id: "4D768685DB45CC67"
-				title: "{chapter.24.quest.4.task.1.title}"
+				title: "&eEnter The End!"
 				type: "dimension"
 			}]
 			x: 0.0051020408163253705d
@@ -354,7 +356,9 @@
 		}
 		{
 			dependencies: ["253E532D09E3AA9B"]
-			description: ["{chapter.24.quest.5.description.1}"]
+			description: [
+			  "The Ender Dragon rests upon its lair forged outside of spacetime, located inside the void this beast exists outside of time and seems to play an important role in the balance between The Nether and The Overworld"
+			]
 			hide_dependency_lines: true
 			id: "46C671151AE613A1"
 			rewards: [
@@ -371,7 +375,7 @@
 						id: "rats:corrupt_rat_skull"
 					}
 					id: "6D587B8039B56B56"
-					title: "{chapter.24.quest.5.reward.2.title}"
+					title: "&eActivate Master Mode"
 					type: "command"
 				}
 				{
@@ -415,7 +419,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{chapter.24.quest.5.subtitle}"
+			subtitle: "Defeat &eThe Ender Dragon"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_egg"
@@ -423,10 +427,10 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "{chapter.24.quest.5.title}"
+			title: "&eDragon Slayer"
 			x: 0.0d
 			y: 1.642857142857146d
 		}
 	]
-	title: "{chapter.24.title}"
+	title: "&5The End &r&6☆☆☆"
 }

@@ -24,7 +24,9 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{chapter.2.quest.2.description.1}"]
+			description: [
+			  "&eTip:&r Sometimes you can fire a crit arrow! these will appear golden and do 2x damage!"
+			]
 			hide_dependency_lines: true
 			id: "33A4B3720D6DC690"
 			rewards: [
@@ -71,7 +73,9 @@
 		}
 		{
 			dependencies: ["4789D17B88722641"]
-			description: ["{chapter.2.quest.3.description.1}"]
+			description: [
+			  "Target Dummies are an excellent way to practice and figure out the best weapon combo for you!"
+			]
 			id: "205016AEFFD748F7"
 			rewards: [{
 				amount: 50L
@@ -80,7 +84,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.2.quest.3.subtitle}"
+			subtitle: "&oCraft a Target Dummy and use it to test your DPS (Damage Per Second) "
 			tasks: [{
 				id: "58D922E0401D7B64"
 				item: "dummmmmmy:target_dummy"
@@ -312,5 +316,5 @@
 			y: -3.375000000000007d
 		}
 	]
-	title: "{chapter.2.title}"
+	title: "&6Combat (ii)"
 }

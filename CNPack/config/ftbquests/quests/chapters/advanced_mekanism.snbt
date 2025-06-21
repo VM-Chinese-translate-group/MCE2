@@ -211,7 +211,11 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.30.image.24}"]
+			hover: [
+			  "v"
+			  "Hydrogen"
+			  "v"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -220,7 +224,11 @@
 		}
 		{
 			height: 0.75d
-			hover: ["{chapter.30.image.25}"]
+			hover: [
+			  "v"
+			  "Hydrogen Chloride"
+			  "v"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -229,7 +237,9 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.30.image.26}"]
+			hover: [
+			  "> Gunpowder >"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.25d
@@ -238,7 +248,11 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.30.image.27}"]
+			hover: [
+			  "v"
+			  "Chlorine"
+			  "v"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -247,7 +261,11 @@
 		}
 		{
 			height: 0.75d
-			hover: ["{chapter.30.image.28}"]
+			hover: [
+			  "v"
+			  "Sulfur"
+			  "v"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_logistical_transporter_vertical.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -256,7 +274,11 @@
 		}
 		{
 			height: 0.75d
-			hover: ["{chapter.30.image.29}"]
+			hover: [
+			  "v"
+			  "Sulfur Dioxide"
+			  "v"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -265,7 +287,9 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.30.image.30}"]
+			hover: [
+			  "< Oxygen <"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.25d
@@ -274,7 +298,9 @@
 		}
 		{
 			height: 1.25d
-			hover: ["{chapter.30.image.31}"]
+			hover: [
+			  "> Water Vapor >"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: -45.0d
 			width: 0.5d
@@ -283,7 +309,11 @@
 		}
 		{
 			height: 0.75d
-			hover: ["{chapter.30.image.32}"]
+			hover: [
+			  "v"
+			  "Sulfur Trioxide"
+			  "v"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -292,7 +322,11 @@
 		}
 		{
 			height: 0.75d
-			hover: ["{chapter.30.image.33}"]
+			hover: [
+			  "v"
+			  "Sulfuric Acid"
+			  "v"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -301,7 +335,9 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.30.image.34}"]
+			hover: [
+			  "> Uranium Ingot >"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.25d
@@ -310,7 +346,11 @@
 		}
 		{
 			height: 0.75d
-			hover: ["{chapter.30.image.35}"]
+			hover: [
+			  "v"
+			  "Yellow Cake Uranium"
+			  "v"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_logistical_transporter_vertical.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -319,7 +359,9 @@
 		}
 		{
 			height: 1.25d
-			hover: ["{chapter.30.image.36}"]
+			hover: [
+			  "> Uranium Oxide >"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_pressurized_tube_vertical.png"
 			rotation: -45.0d
 			width: 0.5d
@@ -328,7 +370,9 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.30.image.37}"]
+			hover: [
+			  "< Fluorite <"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.25d
@@ -337,7 +381,11 @@
 		}
 		{
 			height: 0.75d
-			hover: ["{chapter.30.image.38}"]
+			hover: [
+			  "v"
+			  "Hydrofluoric Acid"
+			  "v"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -346,7 +394,9 @@
 		}
 		{
 			height: 0.5d
-			hover: ["{chapter.30.image.39}"]
+			hover: [
+			  "< Nuclear Waste <"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -355,7 +405,11 @@
 		}
 		{
 			height: 0.75d
-			hover: ["{chapter.30.image.40}"]
+			hover: [
+			  "v"
+			  "Uranium Hexafluoride"
+			  "v"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -364,7 +418,11 @@
 		}
 		{
 			height: 2.0d
-			hover: ["{chapter.30.image.41}"]
+			hover: [
+			  "v"
+			  "Fissile Fuel"
+			  "v"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -373,7 +431,11 @@
 		}
 		{
 			height: 1.5d
-			hover: ["{chapter.30.image.42}"]
+			hover: [
+			  "v"
+			  "Steam"
+			  "v"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 33.75d
 			width: 0.5d
@@ -382,7 +444,9 @@
 		}
 		{
 			height: 2.0d
-			hover: ["{chapter.30.image.43}"]
+			hover: [
+			  "> Steam >"
+			]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -1031,7 +1095,7 @@
 				item: "mekanismgenerators:turbine_valve"
 				type: "item"
 			}]
-			title: "{chapter.30.quest.10.title}"
+			title: "Steam Turbine"
 			x: 0.0d
 			y: 3.5d
 		}
@@ -1888,7 +1952,9 @@
 			y: 2.0d
 		}
 		{
-			description: ["{chapter.30.quest.25.description.1}"]
+			description: [
+			  "Want to go one step further in the thermal evaporation process? Feed your brine into this plant and get liquid lithium, an essential component for your induction matrix!"
+			]
 			icon: "mekanism:boiler_valve"
 			id: "79F576DF3FAE106D"
 			rewards: [
@@ -1943,7 +2009,9 @@
 		}
 		{
 			dependencies: ["79F576DF3FAE106D"]
-			description: ["{chapter.30.quest.26.description.1}"]
+			description: [
+			  "Want to get the most out of your liquid lithium? Decondensentrate it to proceed further!"
+			]
 			id: "5CE0355D04836962"
 			rewards: [
 				{
@@ -2005,7 +2073,9 @@
 		}
 		{
 			dependencies: ["5CE0355D04836962"]
-			description: ["{chapter.30.quest.27.description.1}"]
+			description: [
+			  "Experience the power of lithium! Pump it into the chemical crystallizer for dust that can be used to craft induction cells and providers, giving you access to supreme storable energy."
+			]
 			id: "55F3999C8FD2F5CC"
 			rewards: [
 				{
@@ -2067,7 +2137,9 @@
 		}
 		{
 			dependencies: ["55F3999C8FD2F5CC"]
-			description: ["{chapter.30.quest.28.description.1}"]
+			description: [
+			  "Whether you need to store or transfer power, you can easily customize your matrix to fit your needs—from a small 3x3x4 to a massive 18x18x18."
+			]
 			id: "311464847571C38D"
 			rewards: [
 				{
@@ -2121,7 +2193,9 @@
 		}
 		{
 			dependencies: ["311464847571C38D"]
-			description: ["{chapter.30.quest.29.description.1}"]
+			description: [
+			  "Indulge your inner creeper with this custom-made induction matrix! You can create a one-of-a-kind centerpiece using a mix of basic and ultimate blocks."
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "0E67A5956755E873"
@@ -2697,5 +2771,5 @@
 			y: 1.5d
 		}
 	]
-	title: "{chapter.30.title}"
+	title: "&6Late Mekanism"
 }

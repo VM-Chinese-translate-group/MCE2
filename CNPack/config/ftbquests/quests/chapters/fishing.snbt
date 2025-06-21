@@ -199,7 +199,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.3.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "02D7F682906D1A4D"
@@ -254,7 +254,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.4.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "7613CB9F7B35C890"
@@ -309,7 +309,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.5.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "0D713389033C59B2"
@@ -364,7 +364,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.6.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "554E78A2DDE9EE96"
@@ -436,7 +436,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.7.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "447D3BBAC0F803E5"
@@ -491,7 +491,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.8.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "0929E1D58BBAE5C2"
@@ -563,7 +563,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.9.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "77DEE4CEA325D491"
@@ -618,7 +618,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.10.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "4BB0F1A901C93317"
@@ -673,7 +673,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.11.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "2B4435A793980CA8"
@@ -728,7 +728,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.12.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "6F7939D27678905C"
@@ -783,7 +783,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.13.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "6E2BE78EFF32200D"
@@ -817,7 +817,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.14.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "1680C91BDAF7C584"
@@ -880,7 +880,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.15.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "42EC997AA1CFA256"
@@ -943,7 +943,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.16.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "1768A7ADE3A3FC1E"
@@ -1006,7 +1006,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.17.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "3FA3E0E3A73A8546"
@@ -1069,7 +1069,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.18.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "694278757AEEEC5C"
@@ -1132,7 +1132,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.19.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "7A7D2D4719F10F8D"
@@ -1195,7 +1195,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.20.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "016DFDBE2FC3CCB8"
@@ -1258,7 +1258,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.21.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "1F91898363D2D8EE"
@@ -1324,7 +1324,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.22.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "5794C0999D193E48"
@@ -1387,7 +1387,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.23.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "6D046EC563D5CB63"
@@ -1467,7 +1467,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.24.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "12A12ED5914CF635"
@@ -1530,7 +1530,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.25.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "12474556A334ABC1"
@@ -1593,7 +1593,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.26.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "34CE9CAA1BB6A38F"
@@ -1656,7 +1656,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.27.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "2F57F080A75047F9"
@@ -1719,7 +1719,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.28.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "77CBFFAC748E76E2"
@@ -1782,7 +1782,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.29.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 16L
 				id: "0889E4574A68522C"
@@ -1845,7 +1845,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.30.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "1593516AFA704024"
@@ -1908,7 +1908,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.31.subtitle}"
+			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
 				count: 32L
 				id: "7D779281A6F70757"
@@ -1949,7 +1949,7 @@
 					command: "/titles add @p titles:angler"
 					icon: "titles:title_scroll_common"
 					id: "67B4BA738E9E28F4"
-					title: "{chapter.16.quest.32.reward.3.title}"
+					title: "&eUnlock Title:&r Angler"
 					type: "command"
 				}
 				{
@@ -1967,7 +1967,7 @@
 			]
 			shape: "rsquare"
 			size: 0.7d
-			subtitle: "{chapter.16.quest.32.subtitle}"
+			subtitle: "&oEvery fishing journey begins with some sticks and string"
 			tasks: [{
 				id: "363A5BB41A559525"
 				item: {
@@ -2035,7 +2035,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.33.subtitle}"
+			subtitle: "&oUsing a Tackle Box, you can attach multiple upgrades to a Fishing Rod. Such as Bait, Bobbers and Hooks!"
 			tasks: [{
 				id: "529F37CDDCA50855"
 				item: {
@@ -2049,7 +2049,7 @@
 				}
 				type: "item"
 			}]
-			title: "{chapter.16.quest.33.title}"
+			title: "&eEquipment Upgrade!"
 			x: -5.0d
 			y: -1.0d
 		}
@@ -2070,7 +2070,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.34.subtitle}"
+			subtitle: "&oBobbers can be used to customise your Fishing Rod! Combine any colour of dye in a crafting window with a Bobber to colour it!"
 			tasks: [{
 				id: "398CFC32E0924DC8"
 				item: {
@@ -2084,7 +2084,7 @@
 				}
 				type: "item"
 			}]
-			title: "{chapter.16.quest.34.title}"
+			title: "&eFlashy Fisher"
 			x: -5.0d
 			y: -7.0d
 		}
@@ -2118,7 +2118,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.35.subtitle}"
+			subtitle: "&oWorms can be an excellent way to encourage rarer fish to bite! Using a Worm Farm, you can produce Worms through Composting living matter. "
 			tasks: [{
 				id: "6E1C371BC43CBE4B"
 				item: {
@@ -2132,13 +2132,15 @@
 				}
 				type: "item"
 			}]
-			title: "{chapter.16.quest.35.title}"
+			title: "&eWorms: Episode III Return of The Worms"
 			x: -5.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5ED6CC6FBA450EC0"]
-			description: ["{chapter.16.quest.36.description.1}"]
+			description: [
+			  ""
+			]
 			id: "12948A1DDC98DEC9"
 			rewards: [
 				{
@@ -2154,7 +2156,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.36.subtitle}"
+			subtitle: "&oAre you proud of a special catch? Use a Fish Mount and hang up that dead creature for all to appreciate. &8(it sure was more majestic before you killed but what can you do)"
 			tasks: [{
 				id: "1A2745DED08FAE02"
 				item: {
@@ -2166,7 +2168,7 @@
 					}
 					id: "aquaculture:oak_fish_mount"
 				}
-				title: "{chapter.16.quest.36.task.1.title}"
+				title: "&eFish Trophy!"
 				type: "item"
 			}]
 			x: -5.0d
@@ -2174,7 +2176,11 @@
 		}
 		{
 			dependencies: ["616371BC1EF5ECC6"]
-			description: ["{chapter.16.quest.37.description.1}"]
+			description: [
+			  "&eNeptunium Items are incredibly rare. Rumour has it only the most talented and experienced anglers are blessed by its presence. "
+			  ""
+			  "&3For most though its very existence is questioned. Does it truly exist? or is it nothing more than an old wives tale.."
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "3492A28AFAC628CA"
@@ -2209,7 +2215,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.16.quest.37.subtitle}"
+			subtitle: "&oCollect all pieces of the illusive Neptunium Armor Set and Fishing Rod"
 			tasks: [
 				{
 					id: "6CB01A9C8A80333D"
@@ -2292,13 +2298,15 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.16.quest.37.title}"
+			title: "&6Neptune's Blessing"
 			x: -0.47380952380952834d
 			y: 0.007142857142852677d
 		}
 		{
 			dependencies: ["3492A28AFAC628CA"]
-			description: ["{chapter.16.quest.38.description.1}"]
+			description: [
+			  "&eGather these items and its possible Neptune could reward you with a weapon!"
+			]
 			id: "506339C57E34FC7F"
 			optional: true
 			rewards: [
@@ -2402,7 +2410,7 @@
 							rpgloot.randomize: 0b
 						}
 					}
-					title: "{chapter.16.quest.38.reward.1.title}"
+					title: "&e???"
 					type: "item"
 				}
 				{
@@ -2411,7 +2419,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "7116565D5C8F0516"
-					title: "{chapter.16.quest.38.reward.2.title}"
+					title: "&eUnlock Title:&r Lord of The Deep"
 					type: "command"
 				}
 				{
@@ -2460,7 +2468,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{chapter.16.quest.38.subtitle}"
+			subtitle: "Behold! The power of The Ocean!!"
 			tasks: [
 				{
 					consume_items: true
@@ -2514,7 +2522,7 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.16.quest.38.title}"
+			title: "&6Ritual of The Depths"
 			x: -0.448979591836725d
 			y: 1.8775510204081627d
 		}
@@ -2535,7 +2543,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.39.subtitle}"
+			subtitle: "&oWhen a full Air Suit is equipped, you will be able to breath under-water! Until durability runs out."
 			tasks: [
 				{
 					id: "49D1ABA72D0A1101"
@@ -2607,7 +2615,12 @@
 		}
 		{
 			dependencies: ["0D4D2C4884395067"]
-			description: ["{chapter.16.quest.40.description.1}"]
+			description: [
+			  "Note: Jellyfish Jelly can be obtained by watching and waiting. Jellyfish will sometimes shed their jelly."
+			  ""
+			  ""
+			  ""
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "557FE184A38249C7"
@@ -2641,7 +2654,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.16.quest.40.subtitle}"
+			subtitle: "&oJellyfish Nets can be used to capture Jellyfish for future use and observation. "
 			tasks: [{
 				id: "34F51CB772C0DBB4"
 				item: {
@@ -2716,5 +2729,5 @@
 			y: -2.0d
 		}
 	]
-	title: "{chapter.16.title}"
+	title: "&2Fishing"
 }

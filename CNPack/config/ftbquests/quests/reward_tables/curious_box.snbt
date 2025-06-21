@@ -784,5 +784,5 @@
 		{ item: "botania:tiny_potato" }
 		{ item: "biomancy:fleshkin_chest" }
 	]
-	title: "{loot_table.34}"
+	title: "Curious Box"
 }

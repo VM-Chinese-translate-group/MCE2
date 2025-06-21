@@ -8,7 +8,9 @@
 	order_index: 2
 	quest_links: [ ]
 	quests: [{
-		description: ["Chapter coming soon!"]
+		description: [
+		  "Chapter coming soon!"
+		]
 		id: "16A7C49E6CDC24DD"
 		rewards: [
 			{
@@ -59,5 +61,5 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "{chapter.34.title}"
+	title: "&6Ars Nouveau"
 }

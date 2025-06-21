@@ -44,7 +44,9 @@
 	quests: [
 		{
 			dependencies: ["4789D17B88722641"]
-			description: ["{chapter.3.quest.3.description.1}"]
+			description: [
+			  "Ol' Reliable"
+			]
 			hide_until_deps_complete: true
 			id: "39AD340D4971B4F5"
 			rewards: [
@@ -66,7 +68,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.3.quest.3.subtitle}"
+			subtitle: "&oFind or Craft an Iron Pickaxe"
 			tasks: [{
 				id: "3486D6580A337C12"
 				item: {
@@ -107,7 +109,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.3.quest.4.subtitle}"
+			subtitle: "&oTools made from Netherite have incredible durability and mining speed. Netherite Pickaxe's are also immune to fire!"
 			tasks: [{
 				id: "6846CE31AE41E313"
 				item: {
@@ -124,7 +126,9 @@
 		}
 		{
 			dependencies: ["39AD340D4971B4F5"]
-			description: ["{chapter.3.quest.5.description.1}"]
+			description: [
+			  "Mining blocks since 2011!!"
+			]
 			id: "5239A5F8AE9FC855"
 			rewards: [
 				{
@@ -181,7 +185,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.3.quest.5.subtitle}"
+			subtitle: "&oFind or Craft a Diamond Pickaxe"
 			tasks: [{
 				id: "65193D8BFFCA4291"
 				item: {
@@ -262,7 +266,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.3.quest.6.subtitle}"
+			subtitle: "&oCollect earthly &mrocks&r minerals"
 			tasks: [
 				{
 					count: 32L
@@ -295,7 +299,7 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.3.quest.6.title}"
+			title: "&eDiggy Diggy Hole! (1)"
 			x: -0.8d
 			y: -0.8d
 		}
@@ -374,7 +378,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.3.quest.7.subtitle}"
+			subtitle: "&oCollect earthly &mrocks&r minerals"
 			tasks: [
 				{
 					count: 8L
@@ -433,7 +437,7 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.3.quest.7.title}"
+			title: "&eDiggy Diggy Hole Part (2)"
 			x: 0.8d
 			y: -0.8d
 		}
@@ -508,7 +512,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.3.quest.8.subtitle}"
+			subtitle: "&oCollect earthly &mrocks&r minerals"
 			tasks: [{
 				count: 64L
 				id: "7FAC63CEA2FA1521"
@@ -523,13 +527,15 @@
 				}
 				type: "item"
 			}]
-			title: "{chapter.3.quest.8.title}"
+			title: "&eDiggy Diggy Hole! (3)"
 			x: -1.221428571428575d
 			y: -0.3795918367346971d
 		}
 		{
 			dependencies: ["39AD340D4971B4F5"]
-			description: ["&d&o/give xephos 46 64"]
+			description: [
+			  "&d&o/give xephos 46 64"
+			]
 			hide_dependency_lines: true
 			id: "7D797FEC73ABD484"
 			rewards: [
@@ -689,7 +695,7 @@
 				type: "questsadditions:break"
 				value: 4664L
 			}]
-			title: "{chapter.3.quest.9.title}"
+			title: "&eDiggy Diggy Hole! (4)"
 			x: 1.2642857142857196d
 			y: -0.3795918367346971d
 		}
@@ -699,7 +705,9 @@
 				"106D4AB2F2861EAD"
 				"6BF472202E3C5BEE"
 			]
-			description: ["{chapter.3.quest.10.description.1}"]
+			description: [
+			  "Requires &eDiggy Diggy Part 1,2,3,4."
+			]
 			hide_dependency_lines: true
 			id: "58F66F8BB4A5A686"
 			rewards: [
@@ -744,7 +752,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.3.quest.10.subtitle}"
+			subtitle: "&oIt's deep underground! Not quite past the bedrock, but don't dig straight down, you'll regret that!"
 			tasks: [{
 				biome: "minecraft:dripstone_caves"
 				icon: {
@@ -753,7 +761,7 @@
 					tag: { }
 				}
 				id: "681D67B3FE0C4388"
-				title: "{chapter.3.quest.10.task.1.title}"
+				title: "&eLocate The Dripstone Caves"
 				type: "biome"
 			}]
 			x: 2.0d
@@ -765,7 +773,9 @@
 				"106D4AB2F2861EAD"
 				"6BF472202E3C5BEE"
 			]
-			description: ["{chapter.3.quest.11.description.1}"]
+			description: [
+			  "Requires &eDiggy Diggy Part 1,2,3,4."
+			]
 			hide_dependency_lines: true
 			id: "2D8A85C1AA11CCD5"
 			rewards: [
@@ -773,7 +783,7 @@
 					command: "/titles add @p titles:dwarf"
 					icon: "titles:title_scroll_uncommon"
 					id: "1751F3FB18D062B6"
-					title: "{chapter.3.quest.11.reward.3.title}"
+					title: "&eUnlock Title:&r Dwarf"
 					type: "command"
 				}
 				{
@@ -817,7 +827,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.3.quest.11.subtitle}"
+			subtitle: "&oUncover the mysteries of the &eLush Caves!"
 			tasks: [{
 				biome: "minecraft:lush_caves"
 				icon: {
@@ -826,7 +836,7 @@
 					tag: { }
 				}
 				id: "3FF3FC9541AFDB07"
-				title: "{chapter.3.quest.11.task.1.title}"
+				title: "&eLocate The Lush Caves"
 				type: "biome"
 			}]
 			x: -2.0d
@@ -1119,5 +1129,5 @@
 			y: 2.761904761904752d
 		}
 	]
-	title: "{chapter.3.title}"
+	title: "&6Mining (iii)"
 }
