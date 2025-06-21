@@ -5,12 +5,9 @@ import datetime
 
 # ===============================================================
 # ▼▼▼ 请在这里设置您要处理的文件夹的完整路径 ▼▼▼
-#
-# 路径示例 (Windows): TARGET_FOLDER_PATH = r"C:\MyQuestPack\kubejs\server_scripts"
-# 路径示例 (macOS/Linux): TARGET_FOLDER_PATH = "/home/user/mc/quests"
 # ===============================================================
 
-TARGET_FOLDER_PATH = r"D:\mc\mod\MCE2\CNPack\config\ftbquests\quests\chapters"
+TARGET_FOLDER_PATH = r"./MCE2/CNPack/config/ftbquests/quests/chapters"
 
 # ===============================================================
 # ▲▲▲ 路径设置结束，通常无需修改下面的代码 ▲▲▲

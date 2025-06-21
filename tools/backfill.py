@@ -3,12 +3,12 @@ import json
 import os
 
 # 读取语言文件，并将所有值中的换行符替换为 \n 字符串
-with open('d:/mc/mod/MCE2/CNPack/kubejs/assets/ftbquests_botania/lang/en_us.json', 'r', encoding='utf-8') as f:
+with open('./CNPack/kubejs/assets/ftbquests_botania/lang/en_us.json', 'r', encoding='utf-8') as f:
     lang_raw = json.load(f)
 lang = {k: v.replace('\n', '\\n') for k, v in lang_raw.items()}
 
 # SNBT 文件目录
-snbt_dir = 'd:/mc/mod/MCE2/CNPack/config/ftbquests/quests'
+snbt_dir = './MCE2/CNPack/config/ftbquests/quests'
 
 def replace_key(match):
     key = match.group(1)
