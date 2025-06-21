@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Look out for the Plague! if you become infected, you won't be able to regenerate health until the effect has worn off! Plague Doctors can sometimes sell you the cure."
+  }
+}

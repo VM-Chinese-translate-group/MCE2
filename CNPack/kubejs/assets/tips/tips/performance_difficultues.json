@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "If you are having performance difficulties, try adjusting your graphics settings and increasing your RAM!"
+  }
+}

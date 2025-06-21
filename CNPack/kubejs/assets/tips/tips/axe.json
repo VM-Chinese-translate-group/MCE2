@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Axes are now weapons! They will not lose any additional damage or durability when used as a weapon!"
+  }
+}

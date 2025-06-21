@@ -1,0 +1,83 @@
+  {
+  "entity": "minecraft:piglin_brute",
+  "name": "§cPiglin Lord",
+  "visualscale": 1.5,
+  "protect_treasure": true,
+  "experience": 15,
+  "droppeditemamount": 4,
+  "effects": {
+    "minecraft:slowness": 1
+  },
+  "attributes": {
+    "generic.max_health": 650,
+    "generic.follow_range": 50,
+    "generic.knockback_resistance": 10,
+    "generic.movement_speed": 0.3
+  },
+  "customattributes": { 
+	  "attack_speed": 1.6,
+    "dropgear": 6
+  },
+  "gear": {
+   "mainhand": "{id: \"iceandfire:dragonbone_sword_fire\", Count: 1b, tag: {display:{Name:'{\"text\":\"Meteorite Katana\"}',Lore:['{\"text\":\"This blade belonged to a feared and powerful Piglin Lord, The Legend states it was forged thousands of years ago from a Meteorite containing and unknown metal. Use it with caution, for its blade is regarded as one of the sharpest objects in existence\"}']},Enchantments:[{lvl: 8s, id: \"minecraft:sharpness\"}]}}",
+	"helmet": "{id: \"rats:rat_king_crown\", Count: 1b, tag: {display:{Name:'{\"text\":\"Piglin Crown\"}',Lore:['{\"text\":\"Belongs to a Piglin Lord!\"}']},Enchantments:[{lvl: 3s, id: \"minecraft:protection\"}]}}",
+"offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Half Digested Loyalty Card\"}',Lore:['{\"text\":\"§2§oYuck! You should wash your hands after touching this... Someone lost their loyalty card...\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
+	"leggings": "{id: \"immersive_armors:wither_leggings\", Count: 1b, tag: {Damage: 20}}",
+	"boots": "{id: \"immersive_armors:wither_boots\", Count: 1b, tag: {Damage: 20}}",
+    "chestplate": "{id: \"immersive_armors:wither_chestplate\", Count: 1b, tag: {Damage: 30}}"
+  },
+  "ai-goals": {
+    "minecraft:target": {},
+    "brutalbosses:shootfireballs": {
+"healthinterval": "100-0",
+"teleport": true,
+"damage": 45,  
+"projectile_count": 3,             
+"projectile_interval": 60,         
+"projectile_distance": 10,                 
+"projectile_aoe": true          
+},
+    "brutalbosses:charge": {},
+	  "brutalbosses:lavarescue": {}, 
+    "brutalbosses:shieldmelee": {},
+    "brutalbosses:whirldwind": {           
+"attackdist": 2,                        
+"extradamage": 15,                       
+"potiononhit": "minecraft:wither",   
+"potionlevel": 2,                       
+"potionduration": 80,                   
+"knockback": 6,                         
+"cooldown": 800,                         
+"knockup": false                       
+},
+    "brutalbosses:chasetarget": {},
+    "brutalbosses:meleehit":
+    {
+      "damage": 45,
+      "potiononhit": "goety:apostle_curse",
+      "cooldown": 300
+    },
+    "brutalbosses:summonmobs": {
+      "interval": 100,
+      "maxcount": 3,
+      "count": 2,
+	  "ownerdamagepct": 10,   
+      "entities": [
+ 
+        {
+          "entityid": "minecraft:piglin",
+		  "entitynbt": "{Health:40f,Attributes:[{Name:generic.max_health,Base:65}],CustomName: '{\"text\":\"Royal Court\"}',HandItems: [{id: \"minecraft:netherite_sword\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], ArmorDropChances: [0.000f, 0.000f, 0.000f, 0.000f], Type: 2, Pos: [-219.23330579212924d, 70.0d, -410.2335834433557d], Fire: -1s, ArmorItems: [{id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:gold_chestplate\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:gold_helmet\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], CanPickUpLoot: 0b, HurtTime: 0s, RunningToEat: 0b, Inventory: [{Slot: 0b, id: \"minecraft:gold_helmet\", Count: 1b, tag: {Damage: 0}}, {Slot: 1b, id: \"minecraft:gold_chestplate\", Count: 1b, tag: {Damage: 0}}, {Slot: 2b, id: \"minecraft:gold_leggings\", Count: 1b, tag: {Damage: 0}}, {Slot: 3b, id: \"minecraft:gold_boots\", Count: 1b, tag: {Damage: 0}}, {Slot: 4b, id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0}}, {Slot: 5b, id: \"minecraft:gold_sword\", Count: 1b, tag: {Damage: 0}}]}"
+        },
+        {
+          "entityid": "minecraft:piglin_brute",
+		  "entitynbt": "{Health:50f,Attributes:[{Name:generic.max_health,Base:40}],CustomName: '{\"text\":\"Royal Guard\"}',HandItems: [{id: \"legendary_monsters:soul_great_sword\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], ArmorDropChances: [0.000f, 0.000f, 0.000f, 0.000f], Type: 2, Pos: [-219.23330579212924d, 70.0d, -410.2335834433557d], Fire: -1s, ArmorItems: [{id: \"minecraft:netherite_boots\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:netherite_leggings\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:netherite_chestplate\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:netherite_helmet\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], CanPickUpLoot: 0b, HurtTime: 0s, RunningToEat: 0b, Inventory: [{Slot: 0b, id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0}}, {Slot: 1b, id: \"minecraft:netherite_chestplate\", Count: 1b, tag: {Damage: 0}}, {Slot: 2b, id: \"minecraft:netherite_leggings\", Count: 1b, tag: {Damage: 0}}, {Slot: 3b, id: \"minecraft:netherite_boots\", Count: 1b, tag: {Damage: 0}}, {Slot: 4b, id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0}}, {Slot: 5b, id: \"minecraft:netherite_sword\", Count: 1b, tag: {Damage: 0}}]}"
+        }
+      ]
+    }
+  },
+  "spawnatchest": {
+"minecraft:chests/bastion_treasure": 5, 
+	  "minecraft:chests/bastion_bridge": 3,
+	  "minecraft:chests/nether_bridge":3
+  }
+}

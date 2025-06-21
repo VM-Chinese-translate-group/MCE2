@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Multiblocks can exhibit unexpected behavior when they cross chunks. Press F9 twice to see chunk borders."
+  }
+}

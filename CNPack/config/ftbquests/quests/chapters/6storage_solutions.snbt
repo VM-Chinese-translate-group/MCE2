@@ -1,0 +1,652 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6storage_solutions"
+	group: "12BCDDCCCA65FD77"
+	icon: "cloudstorage:cloud_chest"
+	id: "06911768DBF8A5A5"
+	images: [
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 0.4642857142857153d
+			y: -4.017857142857142d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 1.3571428571428612d
+			y: -4.017857142857142d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 0.9285714285714235d
+			y: -3.9107142857142883d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 2.2857142857142847d
+			y: -4.017857142857142d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 1.8214285714285694d
+			y: -4.053571428571431d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 2.7142857142857153d
+			y: -3.9821428571428577d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 3.5357142857142847d
+			y: -3.9821428571428577d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 4.0d
+			y: -3.9821428571428577d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 4.857142857142861d
+			y: -3.946428571428573d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 4.428571428571438d
+			y: -4.017857142857142d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 5.285714285714285d
+			y: -4.053571428571431d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 5.678571428571431d
+			y: -3.9821428571428577d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904766303d
+			y: -3.404761904761891d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: -0.01666666666666572d
+			y: -2.5761904761904653d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904766303d
+			y: -3.0333333333333243d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: -0.01666666666666572d
+			y: -1.7761904761904646d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: -0.01666666666666572d
+			y: -2.1761904761904702d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: -0.4333333333333158d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: 0.33809523809524933d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: -1.4619047619047478d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: 0.6809523809523981d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.06904761904763035d
+			y: -0.0047619047618923105d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: 1.0523809523809646d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: -0.04523809523808353d
+			y: 1.3666666666666742d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.040476190476198326d
+			y: 1.652380952380966d
+		}
+		{
+			dependency: "58042E701E7AD105"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependency: "58042E701E7AD105"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 3.011904761904759d
+			y: -5.488095238095244d
+		}
+		{
+			dependency: "58042E701E7AD105"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 3.011904761904759d
+			y: -4.583333333333336d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: [
+				"The Iron Chest is an example of an upgraded type of basic chest! There are many more to craft!"
+				""
+				"&8Note:&r These do &nnot&r work with &dCloud Storage"
+			]
+			id: "1112EF0CF9ECC76B"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "403D29D05E0048E5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "113B04B6DB80A76E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft an &eIron Chest"
+			tasks: [{
+				id: "10E1D863C70FBBD4"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						accentColor: 16383998
+						mainColor: 16383998
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4789D17B88722641"]
+			description: [
+				"As I'm sure you've noticed, there are a &olot&r of items in MC Eternal!"
+				"Thus, you'll want to learn about all of the awesome ways to store your trash and your treasure!"
+				""
+				"The most notable mods to watch out for are &dCloud Storage&r which lets you send your items up into the cloud (&oliterally!&r) and &dSophisticated Storage&r which adds all sorts of upgraded chests and barrels, perfect for storing large quantities of items! "
+				""
+				"They are even upgradable!"
+			]
+			hide_until_deps_complete: true
+			id: "127BD669F19CC02C"
+			optional: true
+			rewards: [
+				{
+					amount: 10L
+					currency: "eternalcurrencies:coins"
+					id: "36BFB24455926443"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "082201EE0A372329"
+					item: "cloudstorage:guide_book"
+					type: "item"
+				}
+			]
+			subtitle: "Read Me!"
+			tasks: [{
+				id: "63B4C0E2B51D2241"
+				title: "&eInfo Quest&r: Storage Solutions!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: [
+				"&eBalloon Pieces&r drop from &eBalloons&r which spawn high up in the sky!"
+				""
+				"&6Hint:&r If you are having no luck with mob spawns, I've heard The Goblin Trader occasionally sells &eBalloon Pieces!"
+			]
+			id: "5142D2CE8498C688"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "53010AF36C9C5F8C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "13515AE9874AF508"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Gather 4x Balloon Piece"
+			tasks: [{
+				count: 4L
+				id: "44833EB5E42CEBB4"
+				item: { Count: 4, id: "cloudstorage:balloon_bit" }
+				type: "item"
+			}]
+			title: "Don't let It Burst Your Balloon!"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5142D2CE8498C688"]
+			description: [
+				"&eThe Cloud Chest&r is the most important block in the mod, it acts as your central \"hub\"."
+				"You will interact with your Cloud Chest to access items!"
+				""
+				"Cloud blocks can be found in the sky and also drop from the &dBloviator&r mob!"
+				""
+				"&6Hint:&r Just like the &eBalloon Piece&r, if you run into problems finding the mob, The Goblin Trader can sometimes sell &eClouds!"
+				""
+				"&8AWS or Azure? 🥁"
+			]
+			id: "58042E701E7AD105"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "7374AEB1C713287E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "06E932A966E37F4D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7781E34954689A46"
+					item: "cloudstorage:balloon_arrow"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a &eCloud Chest"
+			tasks: [{
+				id: "4244ECE730F65A55"
+				item: { Count: 9, id: "cloudstorage:cloud_chest" }
+				type: "item"
+			}]
+			title: "The Cloud!"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["58042E701E7AD105"]
+			description: [
+				"In order to send items into the cloud, you must first place a &eChest&r"
+				"Then attach a &dBalloon&r to the chest and watch it soar! "
+				"Your Cloud Chest is exclusive to you! So no need to worry about thieves!"
+				""
+				"It is worth mentioning that your &eCloud Chest&r is linked to the colour balloon you pick."
+				"You can dye your balloon multiple colours to get a unique colour! "
+				"This will let you have multiple Cloud Chests!"
+				""
+				"Every chest you send up into the sky will add storage space to your Cloud Chest&r"
+				"Just make sure to attach a balloon of the same colour to your Cloud Chest&r"
+				"&dRight-Click&r with a Balloon to pair it to the cloud! "
+				""
+				"Every chest with a balloon attached that safely makes it into the sky will have its items added to your Cloud Chest&r"
+				""
+				"&6Hint:&r Balloons can be popped midair! "
+				"To ensure your items are safe and not griefed by monsters or other players. "
+				"It is wise to send up empty chests and access your Cloud Chest&r directly to store items!"
+			]
+			id: "58A5DEFA4F4E50F1"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "14B5CC9257BB5E9A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "68A411DAEBF3E7FC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46C9150BBAB07C62"
+					table_id: 659864593193856198L
+					type: "choice"
+				}
+			]
+			subtitle: "Craft a &eBalloon"
+			tasks: [
+				{
+					id: "15B0ABD7BCA6CC03"
+					item: "cloudstorage:balloon"
+					type: "item"
+				}
+				{
+					advancement: "cloudstorage:cloudstorage/upload"
+					criterion: ""
+					id: "10C60C6A896383D8"
+					type: "advancement"
+				}
+				{
+					id: "5A4A06C9732877B3"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			title: "Oh Don't Mind Me! Just Popping By!"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["58042E701E7AD105"]
+			description: [
+				"Sky Temples can be rarely found high up in the sky! "
+				""
+				"&6Hint:&r Watch out for angry Bloviators!"
+			]
+			hide_until_deps_complete: true
+			id: "79E57A21066A296D"
+			optional: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "47C26D49F0FDC33B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "659DB06B01D215F0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&dFind a Sky Temple!"
+			tasks: [{
+				icon: "cloudstorage:static_cloud_chest"
+				id: "5AD5375CA360B7B5"
+				structure: "cloudstorage:sky_temple"
+				title: "&dFind a Sky Temple!"
+				type: "structure"
+			}]
+			title: "The Skies The Limit!"
+			x: 3.0d
+			y: -6.0d
+		}
+	]
+	title: "&6Storage Solutions!"
+}

@@ -1,0 +1,183 @@
+{
+	icon: {
+		Count: 1
+		id: "blue_skies:loot_bag_arachnarch"
+		tag: {
+			LootTable: "blue_skies:loot_bags/arachnarch/common"
+			Rarity: 0
+		}
+	}
+	id: "1F92E171A1841920"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "blueskies_reward"
+	}
+	loot_size: 70
+	order_index: 16
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"agricraft:gene_inspector": {
+						agri_flag: 0b
+					}
+				}
+				id: "blue_skies:shadow_helmet"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "tombstone:soulbound"
+							lvl: 1
+						}
+						{
+							id: "modular_enchantments:magic_protection"
+							lvl: 3
+						}
+					]
+					Unbreakable: 1b
+					itemModifier: "modifiers:none"
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:black_rune"
+					}
+					rpgloot.randomize: 0b
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1
+				id: "blue_skies:shadow_chestplate"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "tombstone:soulbound"
+							lvl: 1
+						}
+						{
+							id: "ensorcellation:magic_protection"
+							lvl: 3
+						}
+					]
+					Unbreakable: 1b
+					itemModifier: "modifiers:none"
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:black_rune"
+					}
+					rpgloot.randomize: 0b
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1
+				id: "blue_skies:shadow_leggings"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "tombstone:soulbound"
+							lvl: 1
+						}
+						{
+							id: "modular_enchantments:magic_protection"
+							lvl: 3
+						}
+					]
+					Unbreakable: 1b
+					itemModifier: "modifiers:none"
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:black_rune"
+					}
+					rpgloot.randomize: 0b
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1
+				id: "blue_skies:shadow_boots"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "tombstone:soulbound"
+							lvl: 1
+						}
+						{
+							id: "modular_enchantments:magic_protection"
+							lvl: 3
+						}
+					]
+					Unbreakable: 1b
+					itemModifier: "modifiers:none"
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:black_rune"
+					}
+					rpgloot.randomize: 0b
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1
+				id: "blue_skies:infused_arc_sword"
+				tag: {
+					Damage: 4
+					Enchantments: [
+						{
+							id: "modular_enchantments:shadowforged"
+							lvl: 2
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 5
+						}
+						{
+							id: "tombstone:soulbound"
+							lvl: 1
+						}
+						{
+							id: "cursed:misfortune"
+							lvl: 1
+						}
+					]
+					InfusedHits: 4b
+					Unbreakable: 1b
+					display: {
+						Name: "{\"text\":\"§5Shadow Arc Sword\"}"
+					}
+					itemModifier: "modifiers:none"
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:red_rune"
+					}
+					rpgloot.randomize: 0b
+				}
+			}
+			only_one: true
+		}
+	]
+	title: "blueskies_reward"
+}

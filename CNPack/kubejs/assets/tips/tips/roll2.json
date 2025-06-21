@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Upon doing a Combat Roll, you will gain half a second of i-frames! Making you evade an attack if timed correctly!"
+  }
+}

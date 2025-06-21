@@ -1,0 +1,951 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "everdawn"
+	group: "0194595A09DF4755"
+	icon: "blue_skies:multi_portal_item"
+	id: "6A043DC6A14908C2"
+	images: [
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/frostbright_vine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/lunar_vine.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.3714285714285737d
+			y: -1.971428571428568d
+		}
+		{
+			dependency: "73408B8FDCD30826"
+			height: 1.0d
+			image: "blue_skies:textures/block/misc/lunar_stalactite_tip.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0109890109890074d
+			y: 0.6373626373626422d
+		}
+		{
+			dependency: "50A4F20448480244"
+			height: 1.0d
+			image: "blue_skies:textures/block/misc/turquoise_stalactite_tip.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.9670329670329636d
+			y: 0.5714285714285694d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/lunar_vine.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -2.6734693877551052d
+			y: -1.95918367346939d
+		}
+		{
+			height: 0.8d
+			image: "blue_skies:textures/item/tools/spears/lunar_spear.png"
+			rotation: 88.0d
+			width: 0.8d
+			x: -0.6285714285714263d
+			y: -2.5428571428571445d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/lunar_vine.png"
+			rotation: -33.0d
+			width: 1.0d
+			x: -1.3469387755102034d
+			y: -0.6938775510204138d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/frostbright_vine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.3095238095238102d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/maple_vine.png"
+			rotation: 30.0d
+			width: 1.0d
+			x: 1.2857142857142776d
+			y: -0.5476190476190439d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/maple_vine.png"
+			rotation: 33.0d
+			width: 1.0d
+			x: 1.6734693877550981d
+			y: -1.3061224489795933d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/maple_vine.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.6190476190476133d
+			y: -1.952380952380949d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/maple_vine.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.452380952380956d
+			y: -1.9761904761904745d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/maple_vine.png"
+			rotation: -33.0d
+			width: 1.0d
+			x: 0.3571428571428612d
+			y: -1.2380952380952408d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/maple_vine.png"
+			rotation: -33.0d
+			width: 1.0d
+			x: 0.7857142857142847d
+			y: -0.5952380952380949d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/brumble_vine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.142857142857142d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/brumble_vine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.3061224489795933d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/brumble_vine_top.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: -0.020408163265308588d
+			y: -2.448979591836732d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/lunar_vine.png"
+			rotation: -33.0d
+			width: 1.0d
+			x: -1.816326530612244d
+			y: -1.3877551020408134d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/starlit_vine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.020408163265309d
+			y: -0.6530612244897966d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/starlit_vine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.061224489795919d
+			y: -1.4693877551020407d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/lunar_vine.png"
+			rotation: 33.0d
+			width: 1.0d
+			x: -0.6285714285714334d
+			y: -0.7999999999999972d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/lunar_vine.png"
+			rotation: 33.0d
+			width: 1.0d
+			x: -0.2857142857142918d
+			y: -1.3999999999999986d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/misc/spider_webbing_corner.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.1190476190476133d
+			y: -0.952380952380949d
+		}
+		{
+			dependency: "24ADC056211E8DBC"
+			height: 1.0d
+			image: "blue_skies:textures/gui/journal/icons/alchemist.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.9761904761904745d
+			y: -2.9285714285714306d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/misc/charoite_block.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/misc/ventium_block.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/dungeon/carved_poison_stonebrick.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/misc/charoite_block.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/lunar_vine.png"
+			rotation: 33.0d
+			width: 1.0d
+			x: -0.9591836734693899d
+			y: -0.16326530612244738d
+		}
+		{
+			dependency: "33510AE07F5B45AB"
+			height: 1.0d
+			image: "blue_skies:textures/gui/journal/icons/summoner.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.8775510204081627d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/villager/alchemy_table_bottom.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependency: "7E3C72608EBCAD1C"
+			height: 1.0d
+			image: "blue_skies:textures/gui/journal/icons/starlit_crusher.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependency: "77EA6458B8B677C6"
+			height: 1.0d
+			image: "blue_skies:textures/gui/journal/icons/arachnarch.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4313289FDB40498E"]
+			description: ["{chapter.20.quest.1.description.1}"]
+			icon: {
+				Count: 1
+				id: "blue_skies:aquatic_arc"
+				tag: {
+					ArcLevel: 0
+				}
+			}
+			id: "50A4F20448480244"
+			rewards: [
+				{
+					id: "0F954F4E6C8CC652"
+					type: "custom"
+				}
+				{
+					id: "15AA399EB4923509"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add @p titles:everdawn"
+					icon: "titles:title_scroll_common"
+					id: "225BD4DCD8406218"
+					title: "{chapter.20.quest.1.reward.3.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.20.quest.1.subtitle}"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				id: "776C7299C7C1ECCE"
+				type: "dimension"
+			}]
+			title: "Mr. Bluesky: &3Everdawn"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E90959F6A5BF5D6"]
+			description: ["{chapter.20.quest.2.description.1}"]
+			id: "4313289FDB40498E"
+			rewards: [
+				{
+					id: "2757A5004EF916EA"
+					type: "custom"
+				}
+				{
+					id: "45C9DA0C116D5137"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add @p titles:gatekeeper"
+					icon: "titles:title_scroll_common"
+					id: "7231850986077ED9"
+					title: "{chapter.20.quest.2.reward.3.title}"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{chapter.20.quest.2.subtitle}"
+			tasks: [{
+				id: "64CAF381B1391CDD"
+				item: {
+					Count: 1
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["{chapter.20.quest.3.description.1}"]
+			id: "661DDA7256AD220A"
+			rewards: [
+				{
+					id: "22E27E9966134F08"
+					type: "custom"
+				}
+				{
+					id: "5485D5B713D93421"
+					item: "thermal:xp_stew"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{chapter.20.quest.3.subtitle}"
+			tasks: [{
+				icon: "minecraft:filled_map"
+				id: "0E7CC45BC7EF343B"
+				structure: "blue_skies:gatekeeper_house"
+				type: "structure"
+			}]
+			title: "{chapter.20.quest.3.title}"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["33510AE07F5B45AB"]
+			description: ["{chapter.20.quest.4.description.1}"]
+			id: "7E3C72608EBCAD1C"
+			rewards: [
+				{
+					id: "339937459F3B94B6"
+					type: "custom"
+				}
+				{
+					id: "45B32FA50D4EF915"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23A97040CFBC4E7C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add @p titles:crusher"
+					icon: "titles:title_scroll_rare"
+					id: "1E2923F8D4C2DD6A"
+					title: "{chapter.20.quest.4.reward.4.title}"
+					type: "command"
+				}
+				{
+					id: "6128C9DB7E137D6B"
+					item: "blue_skies:everbright_portal"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{chapter.20.quest.4.subtitle}"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				id: "496320B2FA859547"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50A4F20448480244"]
+			description: ["{chapter.20.quest.5.description.1}"]
+			id: "3534B1F85C96C177"
+			rewards: [
+				{
+					id: "28F403FB052BFA67"
+					type: "custom"
+				}
+				{
+					id: "18F825C015DEC915"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add @p titles:alchemist"
+					icon: "titles:title_scroll_common"
+					id: "1CAA2F47D6480580"
+					title: "{chapter.20.quest.5.reward.3.title}"
+					type: "command"
+				}
+				{
+					id: "0CA402A9AEA65CA6"
+					item: {
+						Count: 1
+						id: "botania:black_lotus"
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§7Can be crafted with a §eGrave Key§7 to create \"}"
+									"{\"text\":\"§dEnchanted Grave Key\"}"
+									"{\"text\":\"\"}"
+									"{\"text\":\"§n§5§nOne Time Use\"}"
+								]
+								Name: "{\"text\":\"§5Black Lotus\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{chapter.20.quest.5.subtitle}"
+			tasks: [
+				{
+					entity: "blue_skies:alchemist"
+					id: "77B18AB72697C06D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: "minecraft:filled_map"
+					id: "6C3689D33AF59D90"
+					structure: "blue_skies:everdawn_blinding_dungeon"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4313289FDB40498E"]
+			description: ["{chapter.20.quest.6.description.1}"]
+			icon: {
+				Count: 1
+				id: "blue_skies:life_arc"
+				tag: {
+					ArcLevel: 0
+				}
+			}
+			id: "73408B8FDCD30826"
+			rewards: [
+				{
+					id: "6C0D11E726DD9997"
+					type: "custom"
+				}
+				{
+					id: "4A0DEF475EDC6F48"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add @p titles:everbright"
+					icon: "titles:title_scroll_common"
+					id: "171C350F9B9D482D"
+					title: "{chapter.20.quest.6.reward.3.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.20.quest.6.subtitle}"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				id: "4F96F230599DCD84"
+				type: "dimension"
+			}]
+			title: "Mr. Bluesky: &4Everbright"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["490826EE6F3FBF01"]
+			description: ["{chapter.20.quest.7.description.1}"]
+			id: "33510AE07F5B45AB"
+			rewards: [{
+				id: "4F0AAA672AF7ADED"
+				type: "custom"
+			}]
+			subtitle: "{chapter.20.quest.7.subtitle}"
+			tasks: [{
+				icon: "blue_skies:winter_leaves"
+				id: "3CEDBD6237BE4547"
+				structure: "blue_skies:nature_dungeon"
+				title: "{chapter.20.quest.7.task.1.title}"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3534B1F85C96C177"]
+			description: ["{chapter.20.quest.8.description.1}"]
+			id: "24ADC056211E8DBC"
+			rewards: [{
+				id: "2C85171D49095B89"
+				type: "custom"
+			}]
+			subtitle: "{chapter.20.quest.8.subtitle}"
+			tasks: [{
+				icon: "blue_skies:scalefruit"
+				id: "7F8023E0B03460D6"
+				structure: "blue_skies:poison_dungeon"
+				title: "{chapter.20.quest.8.task.1.title}"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24ADC056211E8DBC"]
+			description: ["{chapter.20.quest.9.description.1}"]
+			id: "77EA6458B8B677C6"
+			rewards: [
+				{
+					id: "57B971F6D4FB1AC2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ADAA60C40CCCB85"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47173C547A38E579"
+					type: "custom"
+				}
+				{
+					command: "/titles add @p titles:exterminator"
+					icon: "titles:title_scroll_rare"
+					id: "5FB6A487F104F78D"
+					title: "{chapter.20.quest.9.reward.4.title}"
+					type: "command"
+				}
+				{
+					id: "1C63404CF49D8E7A"
+					item: "blue_skies:everdawn_portal"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{chapter.20.quest.9.subtitle}"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				icon: "blue_skies:arachnarch_spawn_egg"
+				id: "625975AB7B50B73F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73408B8FDCD30826"]
+			description: ["{chapter.20.quest.10.description.1}"]
+			id: "490826EE6F3FBF01"
+			rewards: [
+				{
+					id: "1D071E9801443503"
+					type: "custom"
+				}
+				{
+					id: "5D475044A23C2BBD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add @p titles:summoner"
+					icon: "titles:title_scroll_uncommon"
+					id: "654513973EB7AADB"
+					title: "{chapter.20.quest.10.reward.3.title}"
+					type: "command"
+				}
+				{
+					id: "232B290E36ABBCFC"
+					item: {
+						Count: 1
+						id: "botania:black_lotus"
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§7Can be crafted with a §eGrave Key§7 to create \"}"
+									"{\"text\":\"§dEnchanted Grave Key\"}"
+									"{\"text\":\"\"}"
+									"{\"text\":\"§n§5§nOne Time Use\"}"
+								]
+								Name: "{\"text\":\"§5Black Lotus\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{chapter.20.quest.10.subtitle}"
+			tasks: [
+				{
+					entity: "blue_skies:summoner"
+					id: "43F32252DE220F28"
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: "minecraft:filled_map"
+					id: "756B6F0EE73A53E8"
+					structure: "blue_skies:everbright_dungeon"
+					type: "structure"
+				}
+			]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7E3C72608EBCAD1C"
+				"77EA6458B8B677C6"
+				"490826EE6F3FBF01"
+				"3534B1F85C96C177"
+				"4313289FDB40498E"
+				"73408B8FDCD30826"
+				"50A4F20448480244"
+			]
+			description: ["&6Tip:&r You must kill all Blue Skies bosses to be able to claim this reward"]
+			hide_dependency_lines: true
+			id: "375C5DD8C635AA77"
+			optional: true
+			rewards: [
+				{
+					id: "0554A07B001C2D09"
+					type: "custom"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "treasure2:iron_strongbox"
+						tag: {
+							Enchantments: [{
+								id: "wonderful_enchantments:dodge"
+								lvl: 1
+							}]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:purple_rune"
+							}
+							rpgloot.randomize: 0b
+						}
+					}
+					id: "0C197A928273ED88"
+					table_id: 2275128639932864800L
+					title: "&5Cache of Shadows"
+					type: "loot"
+				}
+				{
+					icon: "etched:album_jukebox"
+					id: "5F7E37E98005DF35"
+					title: "&8Musical Cache"
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Complete both The Everdawn and Everbright"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				icon: {
+					Count: 1
+					id: "blue_skies:alchemy_scroll"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "64F2DB96E657AD39"
+				title: "&e100% Everdawn and Everbright Progress"
+				type: "dimension"
+			}]
+			title: "&eHero's Bounty"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["661DDA7256AD220A"]
+			description: [
+				"&eThe Blue Journal&r is a book written by The Gatekeeper himself! Inside this magical book contains all of his personal research notes. &oThis is a worthy purchase! "
+				"&6Tip:&r The book will reveal more pages as you discover new things! "
+			]
+			id: "4E90959F6A5BF5D6"
+			rewards: [
+				{
+					id: "108E7C512626CBD1"
+					type: "custom"
+				}
+				{
+					id: "32493F745211EEB4"
+					item: "majruszs_difficulty:recall_potion"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Purchase the &eBlue Journal&r from The Gatekeeper"
+			tasks: [{
+				id: "4BED0B92B9A48B8C"
+				item: "blue_skies:blue_journal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "{chapter.20.title}"
+}

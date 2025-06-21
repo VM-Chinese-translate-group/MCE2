@@ -1,0 +1,206 @@
+{
+	id: "7CB4328E5FD5760C"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ item: "minecraft:porkchop", random_bonus: 10, weight: 5.0f }
+		{ item: "minecraft:cod", random_bonus: 10, weight: 5.0f }
+		{ item: "minecraft:salmon", random_bonus: 10, weight: 5.0f }
+		{ item: "minecraft:pufferfish", weight: 5.0f }
+		{ item: "minecraft:chicken", weight: 5.0f }
+		{ item: "minecraft:poisonous_potato" }
+		{ item: "aquaculture:frog_legs_raw" }
+		{ item: "aquamirae:spinefish" }
+		{ item: "alexsdelight:ice_dragon_flesh_cuts" }
+		{ item: "farmersdelight:shepherds_pie" }
+		{ item: "farmersdelight:cooked_cod_slice" }
+		{ item: "farmersdelight:grilled_salmon" }
+		{ item: "farmersdelight:fried_rice" }
+		{ count: 8, item: "blue_skies:horizofin_tunid" }
+		{ item: "farmersdelight:stuffed_pumpkin" }
+		{ item: "infernalexp:raw_hogchop", random_bonus: 5 }
+		{ item: "prehistoricfauna:raw_large_ornithischian_meat" }
+		{ item: "prehistoricfauna:raw_large_sauropod_meat" }
+		{ item: "farmersrespite:green_tea_cookie", random_bonus: 10 }
+		{ count: 15, item: "minecraft:cookie", weight: 5.0f }
+		{ item: "farmersdelight:smoked_ham", random_bonus: 5 }
+		{ item: "farmersdelight:vegetable_noodles" }
+		{ item: "farmersdelight:cake_slice", random_bonus: 10, weight: 5.0f }
+		{ item: "environmental:duck", random_bonus: 3 }
+		{ item: "neapolitan:banana", random_bonus: 8, weight: 5.0f }
+		{ item: "aquamirae:poseidons_breakfast" }
+		{ count: 8, item: "prehistoricfauna:raw_gar", random_bonus: 10 }
+		{ item: "prehistoricfauna:raw_large_ornithischian_meat" }
+		{ item: "farmersdelight:vegetable_soup" }
+		{ item: "farmersdelight:roast_chicken" }
+		{ item: "farmersdelight:hamburger" }
+		{ item: "farmersdelight:cooked_chicken_cuts", random_bonus: 5 }
+		{ item: "farmersdelight:vegetable_noodles" }
+		{ item: "farmersrespite:coffee" }
+		{ item: "farmersdelight:apple_cider" }
+		{
+			item: {
+				Count: 1b
+				id: "culinaryconstruct:sandwich"
+				tag: {
+					Base: {
+						Count: 1b
+						id: "minecraft:bread"
+					}
+					Food: 20
+					Ingredients: {
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "minecraft:nether_star"
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "minecraft:nether_star"
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "minecraft:nether_star"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "minecraft:nether_star"
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "minecraft:nether_star"
+							}
+						]
+					}
+					Quality: 4
+					Saturation: 1.0f
+					Size: 5
+				}
+			}
+		}
+		{ item: "blue_skies:monitor_tail", random_bonus: 8 }
+		{ item: "farmersdelight:chicken_sandwich" }
+		{ item: "farmersdelight:steak_and_potatoes" }
+		{ item: "farmersdelight:baked_cod_stew" }
+		{ item: "farmersdelight:noodle_soup" }
+		{ item: "farmersdelight:grilled_salmon" }
+		{ item: "farmersdelight:fried_rice" }
+		{ count: 8, item: "farmersdelight:cooked_bacon" }
+		{ item: "farmersdelight:pasta_with_meatballs" }
+		{ count: 8, item: "farmersdelight:cabbage_rolls" }
+		{ item: "farmersdelight:stuffed_potato" }
+		{ item: "thermal:sushi_maki", random_bonus: 8 }
+		{ item: "farmersdelight:squid_ink_pasta" }
+		{ item: "alexsdelight:mungus_jelly_sandwich" }
+		{ item: "alexsdelight:lobster_and_potatoes" }
+		{ item: "alexsdelight:seafood_pasta" }
+		{ count: 8, item: "alexsdelight:minced_raw_kangaroo" }
+		{ count: 5, item: "alexsdelight:cheesecake_slice" }
+		{ item: "alexsdelight:pizza" }
+		{ count: 8, item: "alexsdelight:chocolate_cannoli" }
+		{ item: "alexsdelight:rat_cheeseburger" }
+		{ item: "alexsdelight:rat_stew" }
+		{ item: "alexsdelight:roasted_rat" }
+		{ item: "alexsdelight:bacon_egg_and_cheese_sandwich" }
+		{ item: "alexsdelight:monstrous_soup" }
+		{ item: "alexsdelight:cheese_pasta" }
+		{
+			item: {
+				Count: 1
+				id: "relics:infinity_ham"
+				tag: {
+					Damage: 0
+					pieces: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:eternal_steak"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "tombstone:soulbound"
+							lvl: 1
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5
+						}
+					]
+					display: {
+						Lore: ["{\"text\":\"§e§oSteak procured from the legendary \\\"Ghow\\\"\"}"]
+						Name: "{\"text\":\"§dGhow Steak\"}"
+					}
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:white_rune"
+					}
+				}
+			}
+		}
+		{ item: "alexsdelight:grilled_cheese_sandwich" }
+		{ count: 5, item: "alexsdelight:rat_kebab" }
+		{ item: "farmersdelight:dog_food" }
+		{ item: "drinkbeer:beer_mug" }
+		{
+			item: {
+				Count: 1
+				id: "farmersrespite:blazing_chili"
+				tag: {
+					display: {
+						Name: "{\"text\":\"§eAdam's World Famous Blazing Chilli Extravaganza\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "drinkbeer:beer_mug_sweet_berry_kriek"
+				tag: {
+					display: {
+						Lore: [
+							"{\"text\":\"§7§oNeeded for the quest §e\\\"Shopping\\\"\"}"
+							"{\"text\":\"§7§oBatch number 23 \"}"
+						]
+						Name: "{\"text\":\"§8Speciality §8Craft Beer\"}"
+					}
+				}
+			}
+		}
+		{ item: "accessoriumeternia:accessory_half_eaten_sandwich" }
+		{ item: "ends_delight:fried_dragon_egg" }
+		{
+			item: {
+				Count: 1
+				id: "kubejs:s_soup"
+				tag: {
+					Enchantments: [{
+						id: "ars_nouveau:reactive"
+						lvl: 1
+					}]
+					HideFlags: 1
+					display: {
+						Lore: ["{\"text\":\"§bUnlocks the power of §lThe Sculptor! §r§b§o(briefly)\"}"]
+					}
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:rainbow_rune"
+					}
+				}
+			}
+		}
+		{ item: "farmersdelight:mutton_wrap" }
+	]
+	title: "food_slot"
+}

@@ -1,0 +1,60 @@
+{
+  "entity": "iceandfire:ghost",
+  "name": "Lost Explorer",
+  "visualscale": 1.2,
+  "experience": 300,
+  "droppeditemamount": 5,
+  "effects": {
+    "minecraft:resistance": 1,
+    "minecraft:glowing": 1,
+    "minecraft:fire_resistance": 1
+  },
+  "attributes": {
+    "generic.max_health": 70,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+    "dropgear": 6,
+    "projectile_damage_bonus": 2
+  },
+  "gear": {
+    "mainhand": "{id: \"minecraft:potion\", Count: 3b, tag: {Potion: \"minecraft:long_fire_resistance\"}}",
+	  "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Half Digested Loyalty Card\"}',Lore:['{\"text\":\"§2§oYuck! You should wash your hands after touching this... Someone lost their loyalty card...\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
+  },
+  "ai-goals": {
+    "brutalbosses:shootfireballs": {
+      "projectile_count": 3,
+      "projectile_interval": 60,
+      "projectile_aoe": true,
+      "projectile_distance": 25
+    },
+    "minecraft:target": {}
+  },
+  "spawnatchest": {
+    "minecraft:chests/simple_dungeon": 10,
+    "minecraft:chests/stronghold_library": 3,
+    "minecraft:chests/jungle_temple": 3,
+    "minecraft:chests/woodland_mansion": 3,
+    "dungeons_enhanced:castle_library": 1,
+    "legendary_monsters:chests/ancient_stronghold_luxury_loot_table": 20,
+    "legendary_monsters:chests/ancient_stronghold_loot_table": 20,
+    "legendary_monsters:chests/cloudy_temple_loot_table": 20,
+    "legendary_monsters:chests/abandoned_crypt_loot_table": 20,
+    "dungeons_arise:chests/jungle_tree_house/jungle_tree_house_treasure": 1,
+    "dungeons_arise:chests/shiraz_palace/shiraz_palace_library": 1,
+    "dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_enchants": 1,
+    "endrem:chests/biblio": 1,
+    "illagers_plus:structure/illager_tower_enchanting": 1,
+    "mostructures:jungle_temple_treasure": 1,
+    "dungeoncrawl:chests/stage_5": 1,
+    "dungeons_enhanced:jungle_monument_treasure": 1,
+    "dungeons_arise:chests/mining_system/mining_system_treasure": 1,
+	"ba_bt:chests/land_tower/8": 20,
+	"ba_bt:chests/land_tower/7": 20,
+	"ba_bt:chests/land_tower/roof": 20,
+	"ba_bt:chests/land_tower/library_extra": 20,
+	"dungeoncrawl:chests/stage_4": 1,
+    "dungeons_arise:chests/plague_asylum/plague_asylum_treasure": 1
+  }
+}

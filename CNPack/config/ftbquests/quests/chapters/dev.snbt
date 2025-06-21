@@ -1,0 +1,135 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dev"
+	group: "12BCDDCCCA65FD77"
+	id: "3F5F5331D7F0E669"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			hide_until_deps_visible: true
+			icon: "undergarden:mogmoss"
+			id: "757234016AD66E49"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" All of a sudden you feel afraid of the dark... You feel deeply unsettled.. Better stay in the light.. Who knows what lurks in the dark...\"}]"
+				icon: "autumnity:red_maple_sapling"
+				id: "1A0517AB986A5101"
+				title: "&cOminous Warning"
+				type: "command"
+			}]
+			size: 1.0d
+			subtitle: "for developer use"
+			tasks: [{
+				dimension: "midnight:the_midnight"
+				disable_toast: true
+				id: "39D3F87D1451E5A3"
+				type: "dimension"
+			}]
+			title: "pack setup"
+			x: 0.0d
+			y: -0.1d
+		}
+		{
+			description: ["for developer use"]
+			disable_toast: true
+			id: "3B97D75865A88DAD"
+			rewards: [{
+				auto: "enabled"
+				id: "30A31047D86E715D"
+				item: {
+					Count: 1
+					id: "ftbquests:book"
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§5§6✎ §nLore Text\"}"
+								"{\"text\":\"§7§o\\\"Each Quest Book is meticulously hand printed by The Questmaster! Don't lose it! They take it personally!\\\"\"}"
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "&eRewards The Player with &dThe Quest Book"
+			tasks: [{
+				block: "minecraft:logs"
+				block_type: 1
+				checkItem: false
+				id: "2CF28C7ABA71E31C"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "&6The Questmasters Gift!"
+			x: 1.0d
+			y: -0.1d
+		}
+		{
+			id: "70147B2F28595BEB"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p {\"text\":\"You feel... afraid ... Like something is watching you... Hunting you... Maybe I shouldn't have done that..\",\"italic\":true,\"color\":\"dark_gray\"}"
+				console: true
+				id: "624172FF6FE62976"
+				type: "command"
+			}]
+			tasks: [{
+				id: "18FF477E06EEDB12"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "11C63B988512F565"
+			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				id: "369BF8740B018820"
+				item: "kubejs:mobdrop_endermanheart_beating"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "warwither:war_wither"
+				id: "3D8C819AAAE3E303"
+				secret: true
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "31EA68E22CCC44CB"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p {\"text\":\"Hi! You have started a new world! Amazing! Give it a few minutes for spawn to generate and expect a bit of lag, The rats are building your world!\",\"italic\":true,\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"Grab a warm drink or something! :D\",\"color\":\"gold\"}]}}"
+				console: true
+				elevate_perms: true
+				id: "265DF6C4B9A97718"
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "3FFB354201BB453A"
+				secret: true
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+	]
+	title: "dev"
+}

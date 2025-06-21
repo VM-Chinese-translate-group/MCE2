@@ -1,0 +1,164 @@
+{
+  "entity": "irons_spellbooks:priest",
+  "name": "§eThe Pope",
+  "visualscale": 1.3,
+  "protect_treasure": true,
+  "experience": 10,
+  "droppeditemamount": 2,
+  "effects": {
+    "tombstone:unstable_intangibility": 1,
+    "cataclysm:monstrous": 2
+  },
+  "attributes": {
+    "generic.max_health": 450,
+    "generic.follow_range": 50,
+    "generic.knockback_resistance": 10,
+    "generic.movement_speed": 0.4
+  },
+  "customattributes": { 
+	  "attack_speed": 2.6,
+    "dropgear": 6
+  },
+ "gear": {
+  "mainhand": "{id: \"irons_spellbooks:artificer_cane\", Count: 1b, tag: {display:{Name:'{\"text\":\"The Wrath of God\"}',Lore:['{\"text\":\"Ancient Staff\"}']},Enchantments:[{lvl: 6s, id: \"minecraft:sharpness\"}]}}", 
+  "helmet": "{id: \"rats:rat_king_crown\", Count: 1b, tag: {display:{Name:'{\"text\":\"The Pride of God\"}',Lore:['{\"text\":\"Ancient Crown\"}']},Enchantments:[{lvl: 6s, id: \"minecraft:unbreaking\"}]}}", 
+  "offhand": "{id: \"irons_spellbooks:villager_spell_book\", Count: 1b, tag: {display:{Name:'{\"text\":\"The Word of God\"}',Lore:['{\"text\":\"Ancient Spellbook\"}']},Enchantments:[{lvl: 6s, id: \"minecraft:unbreaking\"}]}}",
+    "chestplate": "{id: \"irons_spellbooks:priest_chestplate\", Count: 1b, tag: {display:{Name:'{\"text\":\"Blessed Chestplate\"}',Lore:['{\"text\":\"Belongs to The Pope.. Give it back!\"}']},Enchantments:[{lvl: 5s, id: \"minecraft:unbreaking\"}]}}",
+     "leggings": "{id: \"irons_spellbooks:priest_leggings\", Count: 1b, tag: {display:{Name:'{\"text\":\"Blessed Helmet\"}',Lore:['{\"text\":\"Belongs to The Pope.. Give it back!\"}']},Enchantments:[{lvl: 5s, id: \"minecraft:unbreaking\"}]}}",
+      "boots": "{id: \"irons_spellbooks:priest_boots\", Count: 1b, tag: {display:{Name:'{\"text\":\"Blessed Boots\"}',Lore:['{\"text\":\"Belongs to The Pope.. Give it back!\"}']},Enchantments:[{lvl: 5s, id: \"minecraft:unbreaking\"}]}}"
+  },
+  "ai-goals": {
+   
+    "brutalbosses:shieldmelee":{},
+	   "brutalbosses:itemshootgoal": {
+    },
+    
+    "brutalbosses:meleehit":
+    {
+      "damage": 25,
+      "potiononhit": "minecraft:weakness",
+      "cooldown": 300
+    },
+  
+"minecraft:randomwalk": {},
+"brutalbosses:summonmobs": {
+      "interval": 100,
+      "maxcount": 1,
+      "count": 1,
+	  "ownerdamagepct": 10,   
+      "entities": [
+ 
+        {
+          "entityid": "alshanex_familiars:cleric_pet",
+		  "entitynbt": "{Health:80f,Attributes:[{Name:generic.max_health,Base:80}],CustomName: '{\"text\":\"Archbishop Benedictus\"}',HandItems: [{id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], ArmorDropChances: [0.000f, 0.000f, 0.000f, 0.000f], Type: 2, Pos: [-219.23330579212924d, 70.0d, -410.2335834433557d], Fire: -1s, ArmorItems: [{id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], CanPickUpLoot: 0b, HurtTime: 0s, RunningToEat: 0b, Inventory: [{Slot: 0b, id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0}}, {Slot: 1b, id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0}}, {Slot: 2b, id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0}}, {Slot: 3b, id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0}}, {Slot: 4b, id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0}}, {Slot: 5b, id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0}}]}"
+        },
+        {
+          "entityid": "alshanex_familiars:scorcher_pet",
+		  "entitynbt": "{Health:80f,Attributes:[{Name:generic.max_health,Base:80}],CustomName: '{\"text\":\"Archbishop Bellator\"}',HandItems: [{id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], ArmorDropChances: [0.000f, 0.000f, 0.000f, 0.000f], Type: 2, Pos: [-219.23330579212924d, 70.0d, -410.2335834433557d], Fire: -1s, ArmorItems: [{id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], CanPickUpLoot: 0b, HurtTime: 0s, RunningToEat: 0b, Inventory: [{Slot: 0b, id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0}}, {Slot: 1b, id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0}}, {Slot: 2b, id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0}}, {Slot: 3b, id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0}}, {Slot: 4b, id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0}}, {Slot: 5b, id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0}}]}"
+        },
+        {
+          "entityid": "alshanex_familiars:bard_pet",
+		  "entitynbt": "{Health:80f,Attributes:[{Name:generic.max_health,Base:80}],CustomName: '{\"text\":\"Archbishop Risio\"}',HandItems: [{id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], ArmorDropChances: [0.000f, 0.000f, 0.000f, 0.000f], Type: 2, Pos: [-219.23330579212924d, 70.0d, -410.2335834433557d], Fire: -1s, ArmorItems: [{id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], CanPickUpLoot: 0b, HurtTime: 0s, RunningToEat: 0b, Inventory: [{Slot: 0b, id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0}}, {Slot: 1b, id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0}}, {Slot: 2b, id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0}}, {Slot: 3b, id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0}}, {Slot: 4b, id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0}}, {Slot: 5b, id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0}}]}"
+        }
+      ]
+    },
+"brutalbosses:changegear": {
+"healthinterval": "50-0",            
+"gear": {"mainhand": "{id: \"iceandfire:dragonbone_sword_fire\", Count: 1b, tag: {display:{Name:'{\"text\":\"Hand of Justice\"}',Lore:['{\"text\":\"This sword radiates powerful holy energy. Sometimes even the most holy priests need to enact justice..\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:mending\"}]}}"
+      
+
+},
+"brutalbosses:jumpattack": {"healthinterval": "100-0",          
+"attackdist": 12,                     
+"extraDamage": 2,                    
+"maxdist": 15,                       
+"mindist": 2,                        
+"maxheight": 15,                      
+"duration": 80,                      
+"interval": 200,                     
+"potions": {                         
+"minecraft:wither":                  
+{
+  "duration": 200,                   
+  "amplifier": 1,                    
+  "particle": "irons_spellbooks:dragon_fire"      
+}}},
+	  "brutalbosses:lavarescue": {}, 
+    "brutalbosses:shieldmelee": {},
+    "brutalbosses:whirldwind": {           
+"attackdist": 2,                        
+"extradamage": 25,                       
+"potiononhit": "minecraft:weakness",   
+"potionlevel": 3,                       
+"potionduration": 5,                   
+"knockback": 8,                         
+"cooldown": 800,                         
+"knockup": false                       
+},
+    "brutalbosses:chasetarget": {},
+    "brutalbosses:meleehit":
+    {
+      "damage": 8,
+      "potiononhit": "minecraft:weakness",
+      "cooldown": 300
+    }
+    
+  },
+  "spawnatchest": {
+"minecraft:chests/bastion_treasure": 5, 
+	  "minecraft:chests/bastion_bridge": 3,
+	  "minecraft:chests/nether_bridge":3,
+	  "minecraft:chests/woodland_mansion":10,
+      "minecraft:chests/pillager_outpost":10,
+      "idas:chests/ancient_portal/ancient_portal_nether":5,
+	  "dungeoncrawl:chests/stage_5": 10,
+	"ba_bt:chests/land_tower/library_extra": 20,
+	"dungeoncrawl:chests/stage_4": 1,
+      "idas:chests/pillager_fortress/pillager_jail":5,
+	   "minecraft:chests/simple_dungeon": 3,
+    "minecraft:chests/stronghold_library": 1,
+    "legendary_monsters:chests/ancient_stronghold_luxury_loot_table": 20,
+    "legendary_monsters:chests/ancient_stronghold_loot_table": 20,
+    "legendary_monsters:chests/cloudy_temple_loot_table": 20,
+    "legendary_monsters:chests/abandoned_crypt_loot_table": 20,
+    "minecraft:chests/stronghold_crossing": 5,
+    "minecraft:chests/stronghold_corridor": 1,
+    "minecraft:chests/desert_pyramid": 1,
+    "minecraft:chests/jungle_temple": 1,
+    "betterdungeons:skeleton_dungeon/chests/common": 1,
+    "betterdungeons:skeleton_dungeon/chests/middle": 1,
+    "betterdungeons:zombie_dungeon/chests/common": 1,
+    "betterdungeons:zombie_dungeon/chests/special": 1,
+    "betterdungeons:zombie_dungeon/chests/tombstone": 1,
+    "betterdungeons:spider_dungeon/chests/egg_room": 3,
+    "dungeons_enhanced:castle_cellar": 1,
+    "endrem:chests/hided": 30,
+    "mostructures:pyramid_custom": 1,
+    "minecraft:chests/abandoned_mineshaft": 1,
+    "betterstrongholds:chests/crypt": 1,
+    "dungeons_enhanced:large_dungeon_treasury": 1,
+    "dungeons_enhanced:chests/monster_maze/treasure": 1,
+    "dungeons_plus:chests/vanilla_dungeon": 1,
+    "minecraft:chests/village/village_weaponsmith": 3,
+	  "ercerus:chests/ship_villager": 5,
+"minecraft:chests/village/village_toolsmith": 3,
+"idas:chests/redhorn_guild/redhorn_guild_bedroom": 5,
+"idas:chests/castle/castle_throne": 5,
+"minecraft:chests/village/village_armorer": 3,
+"minecraft:chests/village/village_cartographer": 8,
+"minecraft:chests/village/village_mason": 1,
+"minecraft:chests/village/village_shepherd": 1,
+"minecraft:chests/village/village_butcher": 1,
+"minecraft:chests/village/village_fletcher": 1,
+"minecraft:chests/village/village_fisher": 1,
+"minecraft:chests/village/village_tannery": 1,
+"minecraft:chests/village/village_temple": 8,
+"minecraft:chests/village/village_desert_house": 1,
+"minecraft:chests/village/village_plains_house": 1,
+"minecraft:chests/village/village_taiga_house": 1,
+"minecraft:chests/village/village_snowy_house": 1,
+"minecraft:chests/village/village_savanna_house": 1
+
+  }
+}
+}

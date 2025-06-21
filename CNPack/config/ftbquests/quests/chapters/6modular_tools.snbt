@@ -1,0 +1,674 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6modular_tools"
+	group: "12BCDDCCCA65FD77"
+	icon: {
+		Count: 1
+		id: "tconstruct:tinkers_anvil"
+		tag: {
+			texture: "emendatusenigmatica:steel_block"
+		}
+	}
+	id: "781E3789949DB186"
+	images: [
+		{
+			dependency: "54246711BB8366BD"
+			height: 1.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependency: "54246711BB8366BD"
+			height: 1.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.028571428571432d
+			y: 6.285714285714285d
+		}
+		{
+			dependency: "54246711BB8366BD"
+			height: 1.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.057142857142857d
+			y: 5.628571428571433d
+		}
+		{
+			dependency: "54246711BB8366BD"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.028571428571432d
+			y: 8.542857142857144d
+		}
+		{
+			dependency: "54246711BB8366BD"
+			height: 1.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 7.600000000000001d
+		}
+		{
+			dependency: "54246711BB8366BD"
+			height: 1.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.74285714285714d
+			y: 5.085714285714289d
+		}
+		{
+			dependency: "54246711BB8366BD"
+			height: 1.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.6000000000000014d
+			y: 5.000000000000007d
+		}
+		{
+			dependency: "54246711BB8366BD"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: -90.0d
+			width: 1.0d
+			x: 4.48571428571428d
+			y: 5.028571428571432d
+		}
+		{
+			dependency: "116CDE1481CC3846"
+			height: 1.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.5428571428571445d
+			y: 4.971428571428575d
+		}
+		{
+			dependency: "033F072A5A4913D0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.657142857142858d
+			y: 4.971428571428575d
+		}
+		{
+			dependency: "033F072A5A4913D0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines"
+			rotation: -90.0d
+			width: 1.0d
+			x: 7.457142857142863d
+			y: 5.000000000000007d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.5d
+			image: "tconstruct:textures/block/smeltery/seared/bricks.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.028571428571425d
+			y: 6.657142857142858d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4789D17B88722641"]
+			description: [
+				"Tinkers' Construct is a mod about putting tools together in a wide variety of ways, then modifying them until they turn into something else. The tools never disappear and can be named and changed to your heart's desire. Once you make them, they're yours forever. Many different materials can be used to make your tools!"
+				""
+				"&eSource:&r &9&ohttps://www.curseforge.com/minecraft/mc-mods/tinkers-construct"
+				""
+				"&7Difficulty: &6☆☆"
+				"&7Cost: &6☆☆☆"
+				"&7Strength: &6☆☆☆☆"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1B7C076BADC93616"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "107E1D7620EEFB90"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			subtitle: "{chapter.4.quest.2.subtitle}"
+			tasks: [{
+				id: "2052B7B5B04159CA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:materials_and_you"
+				}
+				type: "item"
+			}]
+			title: "&dModular Tools - &r&6Tinker's Construct"
+			x: 5.425000000000004d
+			y: 6.825000000000003d
+		}
+		{
+			dependencies: ["1B7C076BADC93616"]
+			description: [
+				"The &e&nPart Builder&r is used to create parts for tools! Parts are needed to assemble tools! The parts you use will determine the strength, speed, durability and special traits of your tool!"
+				"The &e&nTool Station&r is used to assemble tool parts into fully fledged basic tools!"
+				"The &e&nPart Chest&r is used to store unused parts!"
+				""
+				"&l&eTip:&r When these blocks are touching, they will share their inventories! Making it easier to move items between them."
+				"{image:modpack:textures/tc_1.png width:200 height:110 align:1}"
+				""
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "54246711BB8366BD"
+			rewards: [
+				{
+					id: "4C7DA29A350ED393"
+					item: "tconstruct:bacon"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "6A0E45F22FD30195"
+					item: "tconstruct:puny_smelting"
+					type: "item"
+				}
+				{
+					id: "470801D793C77DD0"
+					item: "tconstruct:seared_brick"
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			subtitle: "Craft a &eTinker Station &rand &ePart Builder"
+			tasks: [
+				{
+					id: "5E26E19BA05262AC"
+					item: {
+						Count: 1
+						id: "tconstruct:part_builder"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "724A7B766099AAC9"
+					item: {
+						Count: 1
+						id: "tconstruct:tinker_station"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "614440B893714189"
+					item: "tconstruct:part_chest"
+					type: "item"
+				}
+			]
+			title: "&eTinkering &r(Part I)"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["54246711BB8366BD"]
+			description: [
+				"The &eTinker's Anvil&r is used to assemble more powerful tools! The &eTinker's Anvil &ris strong enough to craft tools made from Metals and Alloys!"
+				"{image:modpack:textures/tc_3.png width:200 height:110 align:1}"
+				"&e&lTip:&r You will need to aquire metal tool parts, this requires a &eSeared Smeltery&r"
+			]
+			hide_until_deps_visible: true
+			id: "5D2ED1168A45A14A"
+			optional: true
+			rewards: [
+				{
+					command: "/titles add @p titles:tinker"
+					icon: "titles:title_scroll_common"
+					id: "7A4D51810C68ED21"
+					title: "&eUnlock Title:&r the Tinkerer"
+					type: "command"
+				}
+				{
+					id: "1C0BEFFBE6C88DC1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "633A4CB9F001DB64"
+					item: "tconstruct:seared_brick"
+					random_bonus: 14
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7F6041B8A8FA45B2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Craft a &eTinker's Anvil"
+			tasks: [{
+				id: "51A6B28A9E7C07C5"
+				item: {
+					Count: 1
+					id: "tconstruct:tinkers_anvil"
+					tag: {
+						texture: "emendatusenigmatica:steel_block"
+					}
+				}
+				type: "item"
+			}]
+			title: "&eTinkering &r(Part II)"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["116CDE1481CC3846"]
+			description: [
+				"&eThe Smeltery&r is a multi-block structure used in the creation of higher-tier weapons and tools using metal and alloys."
+				""
+				"&e&lTip:&r Ore smelted in a Tinker's Smeltery will be doubled!"
+				"&6&lHint:&r Adding extra layers of &eSeared Bricks&r will increase the Smeltery's capacity!"
+				"{image:modpack:textures/tc_4.png width:200 height:120 align:1}"
+				"For more detailed information, read &eMighty Smelting"
+			]
+			hide_until_deps_visible: true
+			id: "35A0BA1BB8DDE343"
+			rewards: [
+				{
+					count: 2
+					id: "35E7A1D5860F7668"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7A9AC1FBC3A5EC12"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "square"
+			subtitle: "Craft the blocks needed and build a &eTinker's Smeltery"
+			tasks: [
+				{
+					id: "1F03ED9C97882BBB"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					count: 46L
+					id: "55C3973D89CD2CA5"
+					item: "tconstruct:seared_bricks"
+					type: "item"
+				}
+				{
+					id: "3984226396078F98"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "261901933F68D2C6"
+					item: "tconstruct:seared_glass"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2B9754DAB1266BF8"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "12A7D02044A4C640"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "6765BAD2186682B4"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					hasCustomPicture: false
+					icon: "tconstruct:mighty_smelting"
+					id: "47BF5C1504AF1F21"
+					ignoreState: false
+					layer: true
+					name: "tc_smeltery"
+					rightclick: false
+					type: "questsadditions:structure"
+				}
+			]
+			title: "&eThe Smeltery"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["54246711BB8366BD"]
+			description: [
+				"The &eSeared Melter &rand &eSeared Heater&r can be used as a compacted and rudimentary way to melt metals into liquids. Place lava in the Tank! "
+				""
+				"&6Tip: &rThis is a Multi-Block! "
+				"&eHint:&r This will be needed for the next quest!"
+			]
+			hide_until_deps_visible: true
+			id: "116CDE1481CC3846"
+			rewards: [
+				{
+					id: "245B3AD8C08D8E85"
+					item: "tconstruct:bacon"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "334E9B0BF9234227"
+					item: "tconstruct:mighty_smelting"
+					type: "item"
+				}
+				{
+					id: "13758162728F965F"
+					item: "tconstruct:seared_brick"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "4B5D5E7E93155CAC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Craft a &eSeared Melter&r and &eSeared Ingot Tank"
+			tasks: [
+				{
+					id: "5867F7FFCC51181B"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "1B53F1765C5668CF"
+					item: "tconstruct:seared_ingot_tank"
+					type: "item"
+				}
+				{
+					id: "3963953F6F13EBBD"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "6C551E5AD1AF2F9B"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["116CDE1481CC3846"]
+			description: [
+				"Using the &eSeared Melter&r create a &eSmeltery Controller&r by pouring molten copper over a &eSeared Heater"
+				""
+				"&e&lHint:&r This will be needed for the next quest!"
+			]
+			hide_until_deps_visible: true
+			id: "033F072A5A4913D0"
+			rewards: [
+				{
+					id: "21A60B58BA86E3CE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F8DB909D270F59A"
+					item: "tconstruct:seared_brick"
+					random_bonus: 14
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "519D7170628E44C9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Craft a &eSmeltery Controller&r"
+			tasks: [
+				{
+					id: "53B009F706E3DB34"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "17E1E07CAB57E25A"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35A0BA1BB8DDE343"]
+			description: [
+				"In order to create tool parts from Metals and Alloys, you first need to create a &eCast&r. These are used to forge metal tool parts!"
+				""
+				"&l&6Hint:&r First make a tool part out of stone and then place it inside a &eSeared Casting Table&r, fill the &eSmeltery&r with &eMolten Gold&r and pour the Gold over the stone tool part! Allow it to dry and you will be left with a cast! You can then pour metals into the cast to create metal/alloy tool parts! Which you can combine to craft a tool inside the &eTinker's Anvil"
+				""
+				"&l&6Hint:&r You can create ingot casts to remove metals from the smeltery! You can also pour directly into a basin to get a block of material!"
+				""
+				"&l&eTip:&r This can be repeated for all tool parts! You should ideally make a tool out of multiple materials to get increased stats and traits! There are thousands of possible tool combinations!"
+			]
+			hide_until_deps_visible: true
+			id: "6567F9EEFDDB5CAB"
+			rewards: [
+				{
+					id: "07BF4A7412A7909F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "772138044A7A9D9C"
+					item: "tconstruct:cast_chest"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "20ED29705B6CE042"
+					item: "minecraft:gold_ingot"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					command: "/titles add @p titles:blacksmith"
+					icon: "titles:title_scroll_common"
+					id: "7E247892D81601C5"
+					title: "&eUnlock Title:&r the Blacksmith"
+					type: "command"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2BBC80C98E312F70"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Craft a &eGold Hammer Cast"
+			tasks: [
+				{
+					id: "04234FD4A04EBD4A"
+					item: "tconstruct:hammer_head_cast"
+					type: "item"
+				}
+				{
+					id: "18374C45F3AD2CF5"
+					item: {
+						Count: 1
+						id: "tconstruct:hammer_head"
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eLearning About Casts!"
+			x: 8.0d
+			y: 7.0d
+		}
+	]
+	title: "&6Tinker's Construct &o(Modular Tools)"
+}

@@ -1,0 +1,44 @@
+{
+	id: "24632A7C365B26E7"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			count: 20
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "iceandfire:dragonsteel_ice_ingot"
+			}
+		}
+		{
+			count: 20
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "iceandfire:dragonsteel_fire_ingot"
+			}
+		}
+		{
+			count: 20
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "iceandfire:dragonsteel_lightning_ingot"
+			}
+		}
+	]
+	title: "{loot_table.23}"
+}

@@ -1,0 +1,530 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cldifficulty_modes"
+	group: "53833FE85BBBE6D0"
+	icon: "rats:rat_skull"
+	id: "091DFC1661BC6A6C"
+	images: [
+		{
+			corner: true
+			height: 14.0d
+			image: "minecraft:textures/misc/elegant_letter.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: 2.1785714285714306d
+			y: 3.357142857142861d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/moss_block/lime_moss_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.013605442176867655d
+			y: 1.5782312925170103d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/block/crimson_nylium_side.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.591836734693878d
+			y: 0.0d
+		}
+		{
+			height: 0.7d
+			image: "rats:textures/item/corrupt_rat_skull.png"
+			rotation: 66.0d
+			width: 0.7d
+			x: -1.0612244897959044d
+			y: -0.34693877551020336d
+		}
+		{
+			height: 0.7d
+			image: "rats:textures/item/golden_rat_skull.png"
+			rotation: -24.0d
+			width: 0.7d
+			x: 2.0204081632653157d
+			y: -0.5510204081632608d
+		}
+		{
+			height: 1.5d
+			image: "iceandfire:textures/item/dragon_sword_lightning.png"
+			rotation: 100.0d
+			width: 1.5d
+			x: -1.718367346938777d
+			y: -0.5632653061224602d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:textures/item/dragon_sword.png"
+			rotation: 120.0d
+			width: 1.0d
+			x: -0.0952380952380949d
+			y: 0.9523809523809419d
+		}
+		{
+			height: 0.5d
+			image: "farmersdelight:textures/block/brown_mushroom_colony_stage2.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.4285714285714306d
+			y: 1.6666666666666643d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/campfire_fire"
+			rotation: 180.0d
+			width: 0.8d
+			x: 1.6122448979591866d
+			y: 0.6122448979591866d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.0238095238095255d
+			y: 2.1904761904761827d
+		}
+		{
+			dependency: "2CABBF8B8A8F3755"
+			height: 0.6d
+			image: "minecraft:textures/particle/soul_8.png"
+			rotation: -33.0d
+			width: 0.6d
+			x: -2.085714285714282d
+			y: -0.48571428571428754d
+		}
+		{
+			dependency: "099610C83CC67421"
+			height: 0.2d
+			image: "illuminations:textures/particle/chorus_petal_0.png"
+			rotation: 90.0d
+			width: 0.2d
+			x: -1.6530612244897966d
+			y: -0.9795918367346914d
+		}
+		{
+			dependency: "7F19D1DB91CD0463"
+			height: 0.2d
+			image: "supplementaries:textures/entity/firefly.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 1.7142857142857153d
+			y: -0.9387755102040813d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:textures/particle/big_smoke_5.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 1.408163265306122d
+			y: -0.5102040816326507d
+		}
+		{
+			dependency: "099610C83CC67421"
+			height: 0.5d
+			image: "minecraft:textures/particle/big_smoke_9.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.7346938775510239d
+			y: -0.6530612244897966d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/item/chain.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5142857142857196d
+			y: -2.1999999999999993d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:textures/item/soul_lantern.png"
+			rotation: 3.0d
+			width: 0.8d
+			x: -2.571428571428555d
+			y: -1.6000000000000014d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/item/chain.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.4285714285714306d
+			y: -2.1999999999999993d
+		}
+		{
+			height: 0.7d
+			image: "mcwlights:textures/item/chain_lantern.png"
+			rotation: -3.0d
+			width: 0.7d
+			x: 2.4000000000000057d
+			y: -1.6285714285714263d
+		}
+		{
+			height: 0.6d
+			image: "rats:textures/item/rat_skull.png"
+			rotation: 9.0d
+			width: 0.6d
+			x: -0.3999999999999986d
+			y: 1.2000000000000028d
+		}
+		{
+			height: 0.8d
+			image: "occultism:block/spirit_campfire_fire"
+			order: 2
+			rotation: 180.0d
+			width: 0.8d
+			x: -1.6547619047619122d
+			y: 0.6360544217686908d
+		}
+		{
+			height: 1.0d
+			image: "modpack:textures/difficulty_title.png"
+			rotation: 0.0d
+			width: 11.252747252747254d
+			x: -0.08333333333332149d
+			y: -4.0714285714285765d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6&n&lMaster Mode Changes"
+				"&d&l→ &rNew items for sale in &e&oThe Shop!"
+				"&d&l→ &r+1&r Combat Roll Charge"
+				"&d&l→ &rSpace Travel Technology Unlocked!"
+				"&d&l→ &rTeleportation Unlocked! &e(Waystones, Warp Stone)"
+				"&c&l→ &rNew Monsters begin spawning! &e&o(Watch out for &nMutant Monsters&r)"
+				"&c&l→ &rRegional Difficulty increased!"
+				"{image:modpack:textures/master.png width:170 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "cataclysm:ender_guardian"
+				}
+			}
+			id: "2CABBF8B8A8F3755"
+			optional: true
+			rewards: [
+				{
+					command: "/titles add @p titles:master"
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "6D22DF9F16F321D3"
+					title: "{chapter.7.quest.1.reward.5.title}"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Questmaster]\",\"color\":\"green\",\"bold\":true},{\"text\":\" Player just unlocked Master Mode!\"}]"
+					console: true
+					icon: "farmersdelight:cake_slice"
+					id: "32CDD8391E6706FC"
+					title: "&d&oBragging Rights"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at @a run playsound tinkerslevellingaddon:tool_level_up_chime player @a ~ ~ ~ 880 0.8 1"
+					console: true
+					icon: "advancementframes:advancement_frame"
+					id: "5919949F4CF3F6DA"
+					title: "&eCelebratory Sounds"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at @a run playsound tombstone:ghost_howl player @a ~ ~ ~ 880 0.8 1"
+					console: true
+					icon: "rats:ghost_pirat_ectoplasm"
+					id: "7FABF25282CE4908"
+					title: "&e??"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @p master"
+					console: true
+					icon: {
+						Count: 1
+						id: "rats:golden_rat_skull"
+						tag: { }
+					}
+					id: "755EC0C5227D7ECB"
+					title: "&6Master Mode"
+					type: "command"
+				}
+				{
+					id: "64C574B72B26C0B0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "supplementaries:present_purple"
+					id: "3548001947D5CA39"
+					table_id: 4371317505818580465L
+					title: "&dMaster Mode Cache"
+					type: "choice"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			subtitle: "Master Mode starts when &6The Player&r defeats &5The Ender Dragon"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					Count: 1
+					id: "alexsmobs:void_worm_eye"
+					tag: { }
+				}
+				id: "3D5139F6C946ECC3"
+				title: "&5&lMaster Mode &r&5★★★★"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.591836734693878d
+			y: 0.020408163265301482d
+		}
+		{
+			description: [
+				"&6&n&lExpert Mode Changes"
+				"&d&l→ &rNew items for sale in &e&oThe &e&oShop!"
+				"&d&l→ &r&e&oThe Great Below&r can now be visited!"
+				"&d&l→ &rExperience from all sources is increased by &225%"
+				"&c&l→ &rNew monsters begin spawning."
+				"&c&l→ &r&e&oRegional Difficulty&r increased!"
+				""
+				""
+				"{image:modpack:textures/expert.png width:170 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "cataclysm:ignis"
+				}
+			}
+			id: "099610C83CC67421"
+			optional: true
+			rewards: [
+				{
+					command: "/titles add @p titles:expert"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "4D62D854404D9939"
+					title: "{chapter.7.quest.2.reward.6.title}"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Questmaster]\",\"color\":\"green\",\"bold\":true},{\"text\":\" Player just unlocked Expert Mode!\"}]"
+					console: true
+					elevate_perms: true
+					icon: "farmersdelight:cake_slice"
+					id: "23945D7FCFD659B9"
+					title: "&d&oBragging Rights"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at @p run playsound minecraft:entity.warden.sonic_boom master @p ~ ~ ~"
+					console: true
+					icon: "advancementframes:advancement_frame"
+					id: "4E26632A395FC492"
+					title: "&eCelebratory Sounds"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at @p run playsound cataclysm:flame_burst player @a ~ ~ ~ 180 0.1 0.5"
+					console: true
+					icon: "minecraft:soul_campfire"
+					id: "3AE1D7667E067F9F"
+					title: "&e???"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @p expert"
+					console: true
+					icon: {
+						Count: 1
+						id: "rats:corrupt_rat_skull"
+						tag: { }
+					}
+					id: "52AC7F0176A6FB53"
+					title: "&6Expert Mode"
+					type: "command"
+				}
+				{
+					id: "6CBC0ABCF77B7217"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "supplementaries:present"
+					id: "533F4E8B061AB629"
+					table_id: 1718805351174656688L
+					title: "&eExpert Mode Cache"
+					type: "choice"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			subtitle: "Expert Mode starts when &6The Player&r enters &cThe Nether"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					Count: 1
+					id: "cataclysm:flame_eye"
+					tag: { }
+				}
+				id: "0C99492A5E0F7F81"
+				title: "&c&lExpert Mode &r&c★★"
+				type: "dimension"
+			}]
+			x: 1.6d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{chapter.7.quest.3.description.1}"
+				"{image:modpack:textures/2025-03-14_00.41.44.png width:170 height:100 align:center}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "minecraft:fox"
+				}
+			}
+			id: "7F19D1DB91CD0463"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/gamestage add @p normal"
+					console: true
+					icon: "rats:rat_skull"
+					id: "062D5DD2C84B35D2"
+					title: "{chapter.7.quest.3.reward.2.title}"
+					type: "command"
+				}
+				{
+					id: "667094CFB127B6A0"
+					item: "mce2lib:main_theme_music_disc"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			subtitle: "{chapter.7.quest.3.subtitle}"
+			tasks: [{
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+				disable_toast: true
+				icon: "minecraft:ender_eye"
+				id: "4B4BA4F4F7D280D8"
+				title: "&9Normal Mode ★"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.5918367346938709d
+		}
+		{
+			description: [
+				"{chapter.7.quest.4.description.1}"
+				"{image:modpack:textures/barry.png width:100 height:100 align:1}"
+				"Barry in Normal Mode"
+				"{image:modpack:textures/barry-the-rat-demon-transparent-no-white.png width:100 height:100 align:1}"
+				"Barry in Expert Mode"
+				"{image:modpack:textures/barry-the-rat-uwu-transparent-no-white.png width:100 height:100 align:1}"
+				"Barry in Master Mode"
+			]
+			icon: {
+				Count: 1
+				id: "botania:cosmetic_questgiver_mark"
+				tag: { }
+			}
+			id: "2D1F7756EA4BE2CB"
+			shape: "rsquare"
+			subtitle: "Learn About Difficulty Modes!"
+			tasks: [{
+				id: "7DBD819B4A70A424"
+				title: "&eInfo Quest &r(Right-Click To Complete)"
+				type: "checkmark"
+			}]
+			title: "&6&lDifficulty Modes - &r&eInformation! &l⬅"
+			x: -0.024489795918370305d
+			y: -0.21020408163264648d
+		}
+	]
+	title: "{chapter.7.title}"
+}

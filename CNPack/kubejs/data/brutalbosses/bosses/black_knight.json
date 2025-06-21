@@ -1,0 +1,126 @@
+{
+  "entity": "irons_spellbooks:cryomancer",
+  "name": "§8The Black Knight",
+  "visualscale": 1.1,
+  "protect_treasure": true,
+  "experience": 10,
+  "droppeditemamount": 2,
+  "effects": {
+    "tombstone:unstable_intangibility": 1,
+    "cataclysm:monstrous": 2
+  },
+  "attributes": {
+    "generic.max_health": 250,
+    "generic.follow_range": 50,
+    "generic.knockback_resistance": 10,
+    "generic.movement_speed": 0.4
+  },
+  "customattributes": { 
+	  "attack_speed": 2.6,
+    "dropgear": 6
+  },
+  "gear": {
+   "mainhand": "{id: \"iceandfire:dragonbone_sword\", Count: 1b, tag: {display:{Name:'{\"text\":\"Blade of The Black Knight\"}',Lore:['{\"text\":\"Tis but a scratch!\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:mending\"}]}}",
+	"helmet": "{id: \"iceandfire:armor_black_helmet\", Count: 1b, tag: {display:{Name:'{\"text\":\"Helmet of The Black Knight\"}',Lore:['{\"text\":\"The Black Knight moves for no man!\"}']},Enchantments:[{lvl: 3s, id: \"minecraft:protection\"}]}}",
+"offhand": "{id: \"minecraft:shield\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Shield of The Black Knight\"}',Lore:['{\"text\":\"§2§oAh HAH!\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
+	"leggings": "{id: \"iceandfire:armor_black_leggings\", Count: 1b, tag: {Damage: 200}}",
+	"boots": "{id: \"iceandfire:armor_black_boots\", Count: 1b, tag: {Damage: 200}}",
+    "chestplate": "{id: \"iceandfire:armor_black_chestplate\", Count: 1b, tag: {Damage: 250}}"
+  },
+  "ai-goals": {
+    "minecraft:meleeattack": {},
+  
+    "brutalbosses:shieldmelee":{},
+
+    
+    "minecraft:target": {},
+    "brutalbosses:shootsnowballs": {
+"healthinterval": "50-0",
+"damage": 35,  
+"projectile_count": 3,             
+"projectile_interval": 160,         
+"projectile_distance": 35,         
+"projectile_speed": 1.5,        
+"projectile_aoe": true          
+},
+"minecraft:randomwalk": {},
+"brutalbosses:changegear": {
+"healthinterval": "50-0",            
+"gear": {"mainhand": "{id: \"iceandfire:dragonbone_sword_ice\", Count: 1b, tag: {display:{Name:'{\"text\":\"Blade of The Black Knight\"}',Lore:['{\"text\":\"Tis but a scratch!\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:mending\"}]}}"
+      
+
+},
+"brutalbosses:jumpattack": {"healthinterval": "100-0",          
+"attackdist": 12,                     
+"extraDamage": 2,                    
+"maxdist": 15,                       
+"mindist": 2,                        
+"maxheight": 15,                      
+"duration": 80,                      
+"interval": 200,                     
+"potions": {                         
+"minecraft:wither":                  
+{
+  "duration": 200,                   
+  "amplifier": 1,                    
+  "particle": "minecraft:snowflake"      
+}}},
+	  "brutalbosses:lavarescue": {}, 
+    "brutalbosses:shieldmelee": {},
+    "brutalbosses:whirldwind": {           
+"attackdist": 2,                        
+"extradamage": 25,                       
+"potiononhit": "mowziesmobs:frozen",   
+"potionlevel": 3,                       
+"potionduration": 3,                   
+"knockback": 8,                         
+"cooldown": 800,                         
+"knockup": false                       
+},
+    "brutalbosses:chasetarget": {},
+    "brutalbosses:meleehit":
+    {
+      "damage": 8,
+      "potiononhit": "goety:apostle_curse",
+      "cooldown": 300
+    }
+  },
+  "spawnatchest": {
+"minecraft:chests/bastion_treasure": 5, 
+	  "minecraft:chests/bastion_bridge": 3,
+	  "minecraft:chests/nether_bridge":3,
+	  "minecraft:chests/woodland_mansion":10,
+      "minecraft:chests/pillager_outpost":10,
+      "idas:chests/ancient_portal/ancient_portal_nether":5,
+	  "dungeoncrawl:chests/stage_5": 10,
+	"ba_bt:chests/land_tower/library_extra": 20,
+	"dungeoncrawl:chests/stage_4": 1,
+      "idas:chests/pillager_fortress/pillager_jail":5,
+	   "minecraft:chests/simple_dungeon": 3,
+    "minecraft:chests/stronghold_library": 1,
+    "legendary_monsters:chests/ancient_stronghold_luxury_loot_table": 20,
+    "legendary_monsters:chests/ancient_stronghold_loot_table": 20,
+    "legendary_monsters:chests/cloudy_temple_loot_table": 20,
+    "legendary_monsters:chests/abandoned_crypt_loot_table": 20,
+    "minecraft:chests/stronghold_crossing": 5,
+    "minecraft:chests/stronghold_corridor": 1,
+    "minecraft:chests/desert_pyramid": 1,
+    "minecraft:chests/jungle_temple": 1,
+    "betterdungeons:skeleton_dungeon/chests/common": 1,
+    "betterdungeons:skeleton_dungeon/chests/middle": 1,
+    "betterdungeons:zombie_dungeon/chests/common": 1,
+    "betterdungeons:zombie_dungeon/chests/special": 1,
+    "betterdungeons:zombie_dungeon/chests/tombstone": 1,
+    "betterdungeons:spider_dungeon/chests/egg_room": 3,
+    "dungeons_enhanced:castle_cellar": 1,
+    "endrem:chests/hided": 30,
+    "mostructures:pyramid_custom": 1,
+    "minecraft:chests/abandoned_mineshaft": 1,
+    "betterstrongholds:chests/crypt": 1,
+    "dungeons_enhanced:large_dungeon_treasury": 1,
+    "dungeons_enhanced:chests/monster_maze/treasure": 1,
+    "dungeons_plus:chests/vanilla_dungeon": 1
+
+  }
+}
+}

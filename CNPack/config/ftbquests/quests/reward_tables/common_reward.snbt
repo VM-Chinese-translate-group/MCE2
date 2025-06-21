@@ -1,0 +1,27 @@
+{
+	id: "61E9DEB9A78917B0"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "common_reward"
+	}
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "farmersdelight:melon_juice" }
+	]
+	title: "{loot_table.4}"
+}

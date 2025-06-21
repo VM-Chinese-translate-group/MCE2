@@ -1,0 +1,61 @@
+{
+  "entity": "iceandfire:troll",
+  "name": "Dungeon Troll",
+  "visualscale": 1,
+  "experience": 3010,
+  "droppeditemamount": 6,
+  "effects": {
+    "minecraft:weakness": 1,
+    "minecraft:water_breathing": 1,
+    "minecraft:slowness": 1
+  },
+  "attributes": {
+    "generic.max_health": 80,
+    "generic.follow_range": 50,
+    "generic.knockback_resistance": 10
+  },
+  "customattributes": {
+  },
+  "gear": {
+	  "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Half Digested Loyalty Card\"}',Lore:['{\"text\":\"§2§oYuck! You should wash your hands after touching this... Someone lost their loyalty card...\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
+  },
+  "ai-goals": {
+    "minecraft:target": {},
+    "brutalbosses:whirldwind": {},
+    "brutalbosses:summonmobs": {
+      "interval": 300,
+      "maxcount": 2,
+      "count": 1,
+      "entities": [
+        {
+          "entityid": "minecraft:zombie"
+        }
+      ]
+    }
+  },
+  "spawnatchest": {
+    "minecraft:chests/stronghold_crossing": 5,
+    "minecraft:chests/stronghold_corridor": 5,
+    "minecraft:chests/woodland_mansion": 1,
+    "betterdungeons:skeleton_dungeon/chests/common": 1,
+    "betterdungeons:skeleton_dungeon/chests/middle": 1,
+    "betterdungeons:zombie_dungeon/chests/common": 1,
+    "betterdungeons:zombie_dungeon/chests/special": 1,
+    "dungeons_arise:chests/eerie/heavenly_challenger/heavenly_challenger_treasure": 1,
+    "legendary_monsters:chests/ancient_stronghold_luxury_loot_table": 20,
+    "legendary_monsters:chests/ancient_stronghold_loot_table": 20,
+    "legendary_monsters:chests/cloudy_temple_loot_table": 20,
+    "legendary_monsters:chests/abandoned_crypt_loot_table": 20,
+    "dungeons_arise:chests/shiraz_palace/shiraz_palace_elite": 1,
+    "dungeons_arise:chests/thornborn_towers/thornborn_towers_top_treasure": 1,
+    "betterstrongholds:chests/common": 1,
+    "dungeoncrawl:chests/stage_5": 1,
+	"ba_bt:chests/land_tower/8": 20,
+	"ba_bt:chests/land_tower/7": 20,
+	"ba_bt:chests/land_tower/roof": 20,
+	"ba_bt:chests/land_tower/library_extra": 20,
+	"dungeoncrawl:chests/stage_4": 1,
+    "dungeons_enhanced:chests/ice_pit/hall": 1,
+    "dungeons_enhanced:chests/monster_maze/treasure": 1
+  }
+}

@@ -1,0 +1,442 @@
+{
+	id: "24B3181DF0A07D80"
+	loot_crate: {
+		color: 16755200
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "cheesy_cache"
+	}
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "rats:rat_upgrade_basic", weight: 20.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_jury_rigged"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_speed"
+			}
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_platter"
+			}
+			weight: 10.0f
+		}
+		{ item: "rats:rat_upgrade_health", weight: 8.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_armor"
+			}
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_bow"
+			}
+			weight: 8.0f
+		}
+		{ item: "rats:rat_upgrade_crossbow", weight: 7.0f }
+		{ item: "rats:rat_upgrade_demon", weight: 3.0f }
+		{ item: "rats:rat_upgrade_strength", weight: 10.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_warrior"
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_god"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_chef"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_crafting"
+			}
+			weight: 8.0f
+		}
+		{ item: "rats:rat_upgrade_blacklist", weight: 4.0f }
+		{ item: "rats:rat_upgrade_whitelist", weight: 8.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_replanter"
+			}
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_flight"
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_bee"
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_aquatic"
+			}
+			weight: 7.0f
+		}
+		{ item: "rats:rat_upgrade_ender", weight: 3.0f }
+		{ item: "rats:rat_upgrade_lumberjack", weight: 8.0f }
+		{ item: "rats:rat_upgrade_quarry", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_farmer"
+			}
+			weight: 7.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_breeder"
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_fisherman"
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_tick_accelerator"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_asbestos"
+			}
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_underwater"
+			}
+			weight: 8.0f
+		}
+		{ item: "rats:rat_upgrade_poison", weight: 8.0f }
+		{ item: "rats:rat_upgrade_damage_protection", weight: 3.0f }
+		{ item: "rats:rat_upgrade_ore_doubling", weight: 5.0f }
+		{ item: "rats:rat_upgrade_basic_energy", weight: 5.0f }
+		{ item: "rats:rat_upgrade_advanced_energy", weight: 3.0f }
+		{ item: "rats:rat_upgrade_elite_energy", weight: 2.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_extreme_energy"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_bucket"
+			}
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_big_bucket"
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_milker"
+			}
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_shears"
+			}
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_aristocrat"
+			}
+			weight: 5.0f
+		}
+		{ item: "rats:rat_upgrade_tnt_survivor", weight: 4.0f }
+		{ item: "rats:rat_upgrade_enchanter", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_christmas"
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_no_flute"
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_carrat"
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_angel"
+			}
+			weight: 2.0f
+		}
+		{ item: "rats:rat_upgrade_undead", weight: 4.0f }
+		{ item: "rats:rat_upgrade_basic_mount", weight: 3.0f }
+		{ item: "rats:rat_upgrade_chicken_mount", weight: 7.0f }
+		{ item: "rats:rat_upgrade_golem_mount", weight: 3.0f }
+		{ item: "rats:rat_upgrade_strider_mount", weight: 3.0f }
+		{ item: "rats:rat_upgrade_beast_mount", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_automaton_mount"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_biplane_mount"
+			}
+		}
+		{ item: "rats:rat_upgrade_feral_bite", weight: 7.0f }
+		{ item: "rats:rat_upgrade_buccaneer", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_ratinator"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_psychic"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_upgrade_ethereal"
+			}
+		}
+		{ item: "rats:rat_upgrade_sculked" }
+	]
+	title: "{loot_table.17}"
+}

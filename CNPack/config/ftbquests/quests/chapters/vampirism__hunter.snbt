@@ -1,0 +1,80 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vampirism__hunter"
+	group: "701563945253F512"
+	icon: "vampirism:item_garlic"
+	id: "52FDEA33A9076353"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"{chapter.32.quest.3.description.1}"
+			"{image:vampirism:textures/item/injection_garlic.png width:100 height:100 align:1}"
+			""
+			"Chapter coming soon!"
+		]
+		id: "5EE84DC9D93FEECC"
+		incompatible: ["738D0748DDD99C54"]
+		optional: true
+		rewards: [
+			{
+				amount: 250L
+				currency: "eternalcurrencies:coins"
+				id: "0571C69BC9399983"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}
+			{
+				id: "619F190294D22DD0"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						Enchantments: [{
+							id: "ars_nouveau:reactive"
+							lvl: 1
+						}]
+						HideFlags: 33
+						display: {
+							Lore: [
+								"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+								"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+								"{\"text\":\"§5§6✎ §nLore Text\"}"
+								"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+								"{\"text\":\"\"}"
+							]
+							Name: "{\"text\":\"§eQuest Loot\"}"
+						}
+						"quark:RuneAttached": 1b
+						"quark:RuneColor": {
+							Count: 1b
+							id: "quark:rainbow_rune"
+						}
+						rpgloot.randomize: 0b
+						type: "quest_loot"
+					}
+				}
+				type: "item"
+			}
+		]
+		subtitle: "{chapter.32.quest.3.subtitle}"
+		tasks: [{
+			id: "1618A5334A7B52DE"
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "vampirism:injection_garlic"
+			}
+			type: "item"
+		}]
+		title: "{chapter.32.quest.3.title}"
+		x: 2.0d
+		y: 0.0d
+	}]
+	title: "{chapter.33.title}"
+}

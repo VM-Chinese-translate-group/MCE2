@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Night time temporarily increases the max count and max health of monsters, making monsters more plentiful and powerful!"
+  }
+}

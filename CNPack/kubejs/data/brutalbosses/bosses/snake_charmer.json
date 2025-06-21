@@ -1,0 +1,91 @@
+{
+   "entity":"minecraft:pillager",
+   "name":"§2Professional Snake Charmer",
+   "visualscale":1.5,
+   "protect_treasure":true,
+   "experience":9,
+   "droppeditemamount":4,
+   "effects":{
+      "minecraft:speed":1
+   },
+   "attributes":{
+      "generic.max_health":40,
+      "generic.follow_range":50,
+      "generic.knockback_resistance":10,
+      "generic.movement_speed":0.3
+   },
+   "customattributes":{
+      "attack_speed":1.3,
+      "dropgear":6
+   },
+   "gear":{
+      "mainhand":"{id: \"aquamirae:poisoned_blade\", Count: 1b, tag: {display:{Name:'{\"text\":\"Stabby\"}',Lore:['{\"text\":\"The blade given to trained Snake Charmers upon completing their 2 week Snake Handling course\"}']},Enchantments:[{lvl: 2s, id: \"minecraft:sharpness\"}]}}",
+      "helmet":"{id: \"minecraft:gold_helmet\", Count: 1b, tag: {Damage: 30}}",
+	   "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Half Digested Loyalty Card\"}',Lore:['{\"text\":\"§2§oYuck! You should wash your hands after touching this... Someone lost their loyalty card...\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
+      "chestplate":"{id: \"alexsmobs:crocodile_chestplate\", Count: 1b, tag: {Damage: 80}}"
+   },
+   "ai-goals":{
+      "minecraft:target":{
+         
+      },
+      "brutalbosses:spitcobweb":{
+         "healthinterval":"45-0",
+         "projectile_count":2,
+         "projectile_interval":60,
+         "projectile_distance":25,
+         "projectile_speed":3.0,
+         "projectile_aoe":false
+      },
+      "brutalbosses:charge":{
+         
+      },
+      "brutalbosses:shieldmelee":{
+         
+      },
+      "brutalbosses:chasetarget":{
+         
+      },
+      "brutalbosses:meleehit":{
+         "damage":8,
+         "potiononhit":"minecraft:weakness",
+         "cooldown":300
+      },
+      "brutalbosses:summonmobs":{
+         "interval":10,
+         "maxcount":1,
+         "count":1,
+         "ownerdamagepct":10,
+         "entities":[
+            {
+               "entityid":"alexsmobs:rattlesnake",
+               "entitynbt":"{Health:80f,Attributes:[{Name:generic.max_health,Base:10}],CustomName: '{\"text\":\"Scales\"}',HandItems: [{id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], ArmorDropChances: [0.000f, 0.000f, 0.000f, 0.000f], Type: 2, Pos: [-219.23330579212924d, 70.0d, -410.2335834433557d], Fire: -1s, ArmorItems: [{id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], CanPickUpLoot: 0b, HurtTime: 0s, RunningToEat: 0b, Inventory: [{Slot: 0b, id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0}}, {Slot: 1b, id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0}}, {Slot: 2b, id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0}}, {Slot: 3b, id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0}}, {Slot: 4b, id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0}}, {Slot: 5b, id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0}}]}"
+            },
+            {
+               "entityid":"alexsmobs:rattlesnake",
+               "entitynbt":"{Health:10f,Attributes:[{Name:generic.max_health,Base:10}],CustomName: '{\"text\":\"Slippy\"}',HandItems: [{id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], ArmorDropChances: [0.000f, 0.000f, 0.000f, 0.000f], Type: 2, Pos: [-219.23330579212924d, 70.0d, -410.2335834433557d], Fire: -1s, ArmorItems: [{id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], CanPickUpLoot: 0b, HurtTime: 0s, RunningToEat: 0b, Inventory: [{Slot: 0b, id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0}}, {Slot: 1b, id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0}}, {Slot: 2b, id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0}}, {Slot: 3b, id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0}}, {Slot: 4b, id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0}}, {Slot: 5b, id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0}}]}"
+            },
+            {
+               "entityid":"alexsmobs:rattlesnake",
+               "entitynbt":"{Health:20f,Attributes:[{Name:generic.max_health,Base:20}],CustomName: '{\"text\":\"Scales\"}',HandItems: [{id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], ArmorDropChances: [0.000f, 0.000f, 0.000f, 0.000f], Type: 2, Pos: [-219.23330579212924d, 70.0d, -410.2335834433557d], Fire: -1s, ArmorItems: [{id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], CanPickUpLoot: 0b, HurtTime: 0s, RunningToEat: 0b, Inventory: [{Slot: 0b, id: \"minecraft:iron_helmet\", Count: 1b, tag: {Damage: 0}}, {Slot: 1b, id: \"minecraft:iron_chestplate\", Count: 1b, tag: {Damage: 0}}, {Slot: 2b, id: \"minecraft:iron_leggings\", Count: 1b, tag: {Damage: 0}}, {Slot: 3b, id: \"minecraft:iron_boots\", Count: 1b, tag: {Damage: 0}}, {Slot: 4b, id: \"minecraft:shield\", Count: 1b, tag: {Damage: 0}}, {Slot: 5b, id: \"minecraft:iron_sword\", Count: 1b, tag: {Damage: 0}}]}"
+            }
+         ]
+      }
+   },
+   "spawnatchest":{
+      "minecraft:chests/woodland_mansion":10,
+	   "ercerus:chests/ship_illager": 5,
+      "minecraft:chests/pillager_outpost":10,
+      "idas:chests/ancient_portal/ancient_portal_nether":5,
+	  "dungeoncrawl:chests/stage_5": 10,
+     "legendary_monsters:chests/ancient_stronghold_luxury_loot_table": 20,
+     "legendary_monsters:chests/ancient_stronghold_loot_table": 20,
+     "legendary_monsters:chests/cloudy_temple_loot_table": 20,
+     "legendary_monsters:chests/abandoned_crypt_loot_table": 20,
+	"ba_bt:chests/land_tower/8": 20,
+	"ba_bt:chests/land_tower/7": 20,
+	"ba_bt:chests/land_tower/roof": 20,
+	"ba_bt:chests/land_tower/library_extra": 20,
+	"dungeoncrawl:chests/stage_4": 1,
+      "idas:chests/pillager_fortress/pillager_jail":5
+   }
+}

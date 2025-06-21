@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Villagers have a chance of converting into Heretics if they're sleeping near an active Nether Portal!"
+  }
+}

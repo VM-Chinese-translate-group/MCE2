@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Watch out! Certain humanoid creatures can dodge, roll and use special attacks! Avoid heavy attacks or you might get stunned!"
+  }
+}

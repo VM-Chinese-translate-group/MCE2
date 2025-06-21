@@ -1,0 +1,147 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "etitles"
+	group: "372D1188C5A9B800"
+	icon: "titles:title_scroll_rare"
+	id: "07B0889E156BC1E9"
+	images: [
+		{
+			height: 22.0d
+			image: "modpack:textures/book_of_titles.png"
+			rotation: 0.0d
+			width: 22.0d
+			x: -0.4285714285714235d
+			y: 3.857142857142861d
+		}
+		{
+			height: 1.1d
+			image: "modpack:textures/mc-eternal-gems-comm-gem-1-slot.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.265306122448976d
+			y: -2.4132653061224545d
+		}
+		{
+			dependency: "5ECDB3568B93B03C"
+			height: 1.0d
+			image: "modpack:textures/mc-eternal-gems-comm-gem-1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -8.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3F7C96CEB926C321"
+			shape: "circle"
+			tasks: [{
+				advancement: "undergarden:undergarden/64gloomgourds"
+				criterion: ""
+				id: "4B7B3DD267C8A315"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "24D1CA770F2C1F33"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/hemolymph_blaster"
+				criterion: ""
+				id: "079051B4B69C3C65"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "5FE6A1EFE58D7704"
+			tasks: [{
+				advancement: "someassemblyrequired:consume_blt_sandwich"
+				criterion: ""
+				id: "23D79DCB926EE579"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "06BA1E7DE345028F"
+			tasks: [{
+				advancement: "atum:core/kingslayer"
+				criterion: ""
+				id: "296A2526DA08739A"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: ["{chapter.40.quest.5.description.1}"]
+			id: "5ECDB3568B93B03C"
+			rewards: [{
+				id: "73621B015668A50D"
+				type: "custom"
+			}]
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "{chapter.40.quest.5.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "titles:title_scroll_uncommon"
+				}
+				id: "65E781F651F35B55"
+				title: "{chapter.40.quest.5.task.1.title}"
+				type: "checkmark"
+			}]
+			x: -7.547619047619037d
+			y: -3.345238095238102d
+		}
+		{
+			id: "5CCA92D1F4EF1398"
+			tasks: [{
+				id: "3964D22FB6349200"
+				title: "{chapter.40.quest.6.task.1.title}"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "7B84B68443613B99"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/sunbird_blessing"
+				criterion: ""
+				id: "1ECAA6C9CE0EE124"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "7B54C00475F0A841"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito_sick"
+				criterion: ""
+				id: "0D77B20F0B39381F"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "Book of Titles (NYI)"
+}

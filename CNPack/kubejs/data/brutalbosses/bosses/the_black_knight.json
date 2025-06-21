@@ -1,0 +1,87 @@
+  {
+  "entity": "minecraft:skeleton",
+  "name": "§cThe Silver Knight",
+  "visualscale": 1.3,
+  "protect_treasure": true,
+  "experience": 900,
+  "droppeditemamount": 3,
+  "effects": {
+    "ob_core:massacre": 1
+  },
+  "attributes": {
+    "generic.max_health": 350,
+    "generic.follow_range": 150,
+    "generic.knockback_resistance": 10,
+    "generic.movement_speed": 0.4
+  },
+  "customattributes": {
+    "dropgear": 2
+  },
+  "gear": {
+    "mainhand": "{id: \"iceandfire:ghost_sword\", Count: 1b, tag: {Damage: 20}}",
+    "helmet": "{id: \"iceandfire:armor_silver_metal_helmet\", Count: 1b, tag: {Damage: 80}}",
+    "chestplate": "{id: \"iceandfire:armor_silver_metal_chestplate\", Count: 1b, tag: {Damage: 0}}"
+  },
+  "ai-goals": {
+    "minecraft:target": {},
+      "brutalbosses:itemshootgoal": {
+      "item": "{id: \"iceandfire:dread_shard\", Count: 5b}",
+      "projectile_count": 10,
+      "projectilesize": 0.5,  
+      "projectile_interval": 1,    
+      "damage": 10,
+      "projectile_distance": 5
+    },
+    "brutalbosses:charge": {},
+	"brutalbosses:aftercombatregen": {"amount": 8},
+    "brutalbosses:shieldmelee": {},
+    "brutalbosses:whirldwind": {           
+"attackdist": 4,                        
+"extradamage": 12,                       
+"potiononhit": "goety:cursed",   
+"potionlevel": 3,                       
+"potionduration": 80,                   
+"knockback": 8,                         
+"cooldown": 80,                         
+"knockup": true                       
+},
+    "brutalbosses:chasetarget": {},
+    "brutalbosses:meleehit":
+    {
+      "damage": 45,
+      "potiononhit": "minecraft:hunger",
+      "cooldown": 300
+    },
+    "brutalbosses:summonmobs": {
+      "interval": 600,
+      "maxcount": 2,
+      "count": 1,
+      "entities": [
+        {
+          "entityid": "minecraft:skeleton"
+        }
+      ]
+    }
+  },
+  "spawnatchest": {
+  "minecraft:chests/stronghold_crossing": 5,
+  "legendary_monsters:chests/ancient_stronghold_luxury_loot_table": 20,
+  "legendary_monsters:chests/ancient_stronghold_loot_table": 20,
+  "legendary_monsters:chests/cloudy_temple_loot_table": 20,
+  "legendary_monsters:chests/abandoned_crypt_loot_table": 20,
+    "minecraft:chests/stronghold_corridor": 5,
+    "minecraft:chests/woodland_mansion": 1,
+    "betterdungeons:skeleton_dungeon/chests/common": 1,
+    "betterdungeons:skeleton_dungeon/chests/middle": 1,
+    "betterdungeons:zombie_dungeon/chests/common": 1,
+    "betterdungeons:zombie_dungeon/chests/special": 1,
+    "dungeoncrawl:chests/stage_5": 10,
+	"ba_bt:chests/land_tower/8": 20,
+	"ba_bt:chests/land_tower/7": 20,
+	"ba_bt:chests/land_tower/roof": 20,
+	"ba_bt:chests/land_tower/library_extra": 20,
+	"dungeoncrawl:chests/stage_4": 1,
+    "dungeons_enhanced:chests/ice_pit/hall": 1,
+    "dungeons_enhanced:chests/monster_maze/treasure": 1
+  }
+}

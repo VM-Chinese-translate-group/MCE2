@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Strays have a chance to freeze their targets, this effect will go through shields! Make sure to evade their attacks!"
+  }
+}

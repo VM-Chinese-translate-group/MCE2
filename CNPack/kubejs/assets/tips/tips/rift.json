@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP:",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "After killing a boss, a rift will appear! click the rift to activate it! click it again to teleport you home!"
+  }
+}

@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eapplied_energistics_2"
+	group: "3EBF424A99DA33B7"
+	icon: "ae2:singularity"
+	id: "24965CC4F763480E"
+	images: [
+		{
+			height: 1.0d
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 1.5d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"These Meteorites have advanced technology far beyond what we are capable of creating, we must reverse-engineer this tech and see what it can be used for!"
+			""
+			"<rainb>Curious... I seem to be typing in rainbow."
+			""
+			"Chapter coming soon!™"
+		]
+		id: "0C59541433431FDD"
+		subtitle: "Find a &eCrashed Meteorite"
+		tasks: [{
+			icon: "ae2:sky_stone_chest"
+			id: "35BE2CE0FF4E2929"
+			structure: "ae2:meteorite"
+			title: "Find a &eCrashed Meteorite"
+			type: "structure"
+		}]
+		title: "A Strange Discovery"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&6Applied Energistics 2"
+}

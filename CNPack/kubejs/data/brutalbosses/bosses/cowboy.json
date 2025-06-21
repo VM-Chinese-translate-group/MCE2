@@ -1,0 +1,94 @@
+  {
+  "entity": "illager_additions:cowboy",
+  "name": "§eBodega the Space Cowboy",
+  "visualscale": 1.1,
+  "protect_treasure": true,
+  "experience": 20,
+  "droppeditemamount": 4,
+  "effects": {
+    "cataclysm:monstrous": 2
+  },
+  "attributes": {
+    "generic.max_health": 450,
+    "generic.follow_range": 150,
+    "generic.knockback_resistance": 10,
+    "generic.movement_speed": 0.4
+  },
+  "customattributes": { 
+	  "attack_speed": 4.6,
+    "dropgear": 4
+  },
+  "gear": {
+  "leggings": "{id: \"ad_astra:space_pants\", Count: 1b, tag: {Damage: 30}}",
+  "boots": "{id: \"ad_astra:space_boots\", Count: 1b, tag: {Damage: 30}}",
+	"helmet": "{id: \"illager_additions:cowboy_hat\", Count: 1b, tag: {Damage: 30}}",
+  "offhand": "{id: \"alexscaves:raygun\", Count: 1b, tag: {display:{Name:'{\"text\":\"Famed Lazgun\"}',Lore:['{\"text\":\"The best of the best of the best.. Belongs to Bodega.. Get your hands off!\"}']},Enchantments:[{lvl: 1s, id: \"alexscaves:gamma_ray\"}]}}",
+    "chestplate": "{id: \"ad_astra:space_suit\", Count: 1b, tag: {Damage: 80}}"
+  },
+  
+  "ai-goals": {
+
+    "minecraft:randomwalk": {},
+
+
+    
+ "brutalbosses:aftercombatregen": {"amount": 2},
+    
+ "brutalbosses:summonmobs": {
+  "interval": 100,
+  "maxcount": 1,
+  "count": 1,
+  "entities": [
+
+  
+{
+      "entityid": "cataclysm:amethyst_crab",
+  "entitynbt": "{Health:240f,Attributes:[{Name:generic.max_health,Base:250}],CustomName: '{\"text\":\"Tredorian Trap Crab\"}',HandItems: [{id: \"minecraft:air\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}}, {id: \"minecraft:air\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], ArmorDropChances: [0.000f, 0.000f, 0.000f, 0.000f], Type: 2, Pos: [-219.23330579212924d, 70.0d, -410.2335834433557d], Fire: -1s, ArmorItems: [{id: \"iceandfire:tide_deepblue_boots\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"iceandfire:tide_deepblue_leggings\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"iceandfire:tide_deepblue_chestplate\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}, {id: \"iceandfire:tide_deepblue_helmet\", Count: 1b, tag: {Damage: 0, Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}}], CanPickUpLoot: 0b, HurtTime: 0s, RunningToEat: 0b, Inventory: [{Slot: 0b, id: \"iceandfire:tide_deepblue_helmet\", Count: 1b, tag: {Damage: 0}}, {Slot: 1b, id: \"iceandfire:tide_deepblue_chestplate\", Count: 1b, tag: {Damage: 0}}, {Slot: 2b, id: \"iceandfire:tide_deepblue_leggings\", Count: 1b, tag: {Damage: 0}}, {Slot: 3b, id: \"iceandfire:tide_deepblue_boots\", Count: 1b, tag: {Damage: 0}}, {Slot: 4b, id: \"minecraft:air\", Count: 1b, tag: {Damage: 0}}, {Slot: 5b, id: \"minecraft:air\", Count: 1b, tag: {Damage: 0}}]}"
+    }
+  ]
+}
+	
+    
+ 
+  },
+  "spawnatchest": {
+"minecraft:chests/bastion_treasure": 5, 
+	  "minecraft:chests/bastion_bridge": 3,
+	  "minecraft:chests/nether_bridge":3,
+	  "minecraft:chests/woodland_mansion":10,
+      "minecraft:chests/pillager_outpost":10,
+      "idas:chests/ancient_portal/ancient_portal_nether":5,
+	  "dungeoncrawl:chests/stage_5": 10,
+	"ba_bt:chests/land_tower/8": 20,
+	"ba_bt:chests/land_tower/7": 20,
+	"ba_bt:chests/land_tower/roof": 20,
+	"ba_bt:chests/land_tower/library_extra": 20,
+	"dungeoncrawl:chests/stage_4": 1,
+      "idas:chests/pillager_fortress/pillager_jail":5,
+	   "minecraft:chests/simple_dungeon": 10,
+    "minecraft:chests/stronghold_library": 1,
+    "minecraft:chests/stronghold_crossing": 5,
+    "minecraft:chests/stronghold_corridor": 1,
+    "minecraft:chests/desert_pyramid": 1,
+    "minecraft:chests/jungle_temple": 1,
+    "betterdungeons:skeleton_dungeon/chests/common": 1,
+    "legendary_monsters:chests/ancient_stronghold_luxury_loot_table": 20,
+    "legendary_monsters:chests/ancient_stronghold_loot_table": 20,
+    "legendary_monsters:chests/cloudy_temple_loot_table": 20,
+    "legendary_monsters:chests/abandoned_crypt_loot_table": 20,
+    "betterdungeons:skeleton_dungeon/chests/middle": 1,
+    "betterdungeons:zombie_dungeon/chests/common": 1,
+    "betterdungeons:zombie_dungeon/chests/special": 1,
+    "betterdungeons:zombie_dungeon/chests/tombstone": 1,
+    "betterdungeons:spider_dungeon/chests/egg_room": 3,
+    "dungeons_enhanced:castle_cellar": 1,
+    "endrem:chests/hided": 30,
+    "mostructures:pyramid_custom": 1,
+    "minecraft:chests/abandoned_mineshaft": 1,
+    "betterstrongholds:chests/crypt": 1,
+    "dungeons_enhanced:large_dungeon_treasury": 1,
+    "dungeons_enhanced:chests/monster_maze/treasure": 1,
+    "dungeons_plus:chests/vanilla_dungeon": 1
+
+  }
+}

@@ -1,0 +1,71 @@
+{
+	id: "30F5CC3A03EA220A"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_polka_dotted_bows"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_tiny_potato_mask"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_questgiver_mark"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_thinking_hand"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_eerie_mask"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_puffy_scarf"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_groucho_glasses"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_black_tie"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_black_bowtie"
+				tag: { }
+			}
+		}
+	]
+	title: "cosmetic"
+}

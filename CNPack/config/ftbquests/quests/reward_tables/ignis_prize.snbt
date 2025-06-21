@@ -1,0 +1,76 @@
+{
+	id: "04301AEE51D5093F"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "ignis_prize"
+	}
+	loot_size: 2
+	order_index: 23
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "relics:rage_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:magma_walker"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:bastion_ring"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:reflection_necklace"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:obsidian_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cataclysm:music_disc_netherite_monstrosity" }
+		{ item: "cataclysm:burning_ashes" }
+		{ item: "cataclysm:music_disc_ignis" }
+		{ item: "cataclysm:ignitium_ingot" }
+		{
+			item: {
+				Count: 1
+				id: "cataclysm:zweiender"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "ignis_prize"
+}

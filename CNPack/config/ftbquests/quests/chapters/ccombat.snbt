@@ -1,0 +1,316 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ccombat"
+	group: "12BCDDCCCA65FD77"
+	icon: {
+		Count: 1
+		id: "iceandfire:dragonbone_sword_fire"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "101F545333568603"
+	images: [{
+		height: 10.0d
+		image: "minecraft:textures/misc/scorched_letter.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 2.107142857142861d
+		y: -0.8928571428571459d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{chapter.2.quest.2.description.1}"]
+			hide_dependency_lines: true
+			id: "33A4B3720D6DC690"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "0CA2D530462E5AC7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 20
+					id: "259BAF28F8E1DA1C"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			size: 0.8d
+			subtitle: "Bow Crits!"
+			tasks: [{
+				id: "44415B0C565937E5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Improved Bows!"
+			x: 1.4193877551020648d
+			y: -2.2295918367347056d
+		}
+		{
+			dependencies: ["4789D17B88722641"]
+			description: ["{chapter.2.quest.3.description.1}"]
+			id: "205016AEFFD748F7"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1C36221FE682E243"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{chapter.2.quest.3.subtitle}"
+			tasks: [{
+				id: "58D922E0401D7B64"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: 0.3928571428571459d
+			y: -2.250000000000007d
+		}
+		{
+			description: [
+				"Shields can block an attack, after blocking it will enter into a cooldown."
+				"Shields have different stats that vary between them!"
+				""
+				"&eTip:&r Stamina will increase or decrease the number of times you can block before a cooldown is applied!"
+				"&eTip:&r Holding a shield in your off-hand will grant a passive 30% damage reduction!"
+				""
+				"&6Hint:&r You can only block incoming damage from the direction you received it!"
+			]
+			hide_dependency_lines: true
+			id: "114DC7895D34A4CC"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5BFFE1EA31874462"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "circle"
+			size: 0.8d
+			subtitle: "Craft a &eShield"
+			tasks: [{
+				id: "6967C0E278EE8406"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.6418367346938467d
+			y: -2.1887755102040956d
+		}
+		{
+			dependencies: ["114DC7895D34A4CC"]
+			description: [
+				"The Shield of The Deep is an excellent shield to use pre-Expert Mode!"
+				"It has great stats and durability! At the cost of movement speed however."
+			]
+			hide_dependency_lines: true
+			id: "609DFA2516344795"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "3A348FA410C08159"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6D3F4D1DD5ECF35B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft a &eShield of The Deep"
+			tasks: [{
+				id: "757562C0CCDE3365"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:shield_of_the_deep"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bFrom Down Under!"
+			x: -1.435714285714269d
+			y: -2.171428571428571d
+		}
+		{
+			dependencies: ["33A4B3720D6DC690"]
+			hide_dependency_lines: true
+			id: "727F0FEF3DEC8FC7"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "26164EA7379614A5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a Crossbow"
+			tasks: [{
+				id: "59A38541F2A1B204"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.1693877551020435d
+			y: -2.243877551020411d
+		}
+		{
+			description: [
+				"You charged up your &dRage&r by taking damage consecutively or by doing damage consecutively to the same target. Your next melee attack will do bonus damage!"
+				""
+				"&6Hint:&r Entites can also become &dEnraged!&r Be careful to dodge their &oSuper-Charged attacks!"
+				""
+				"&eTip:&r Upon becoming Enraged, you will find a flurry of Critical Hit particles at your feet and will hear a distinctive Ding sound upon landing a Super-Charged Rage hit."
+				""
+				"☠ = Rage!"
+			]
+			id: "630307C5BD2AD306"
+			rewards: [
+				{
+					command: "/titles add @p titles:angry"
+					icon: "titles:title_scroll_common"
+					id: "3E5B9143E7B23C1A"
+					title: "&eUnlock Title:&r the Angry"
+					type: "command"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "59B9D4873D23C6D2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			secret: true
+			shape: "rsquare"
+			subtitle: "Charge up your &eRage!"
+			tasks: [{
+				advancement: "rage:full_rage"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "rats:corrupt_rat_skull"
+				}
+				id: "678B2EDB46E53BFB"
+				title: "&6Become Enraged!"
+				type: "advancement"
+			}]
+			x: 0.4297619047619108d
+			y: -0.0714285714285765d
+		}
+		{
+			description: [
+				"Each weapon type has their own attack animation and combos!"
+				"Depending on the weapon type (IE: sword, axe, spear) the combo multipler varies!"
+				""
+				"For example, attacking with a &dSword&r weapon type grants a 50% damage boost every third attack on the \"stab forward\" animation! "
+			]
+			icon: "goety_cataclysm:arcane_spirit"
+			id: "50CCB6DDC0CE2FFE"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "4E64DA658E8BFB93"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "Learn about Combos"
+			tasks: [{
+				id: "45664EB1D172AB9C"
+				title: "&eCombat Info:&r Combos"
+				type: "checkmark"
+			}]
+			x: 0.3928571428571459d
+			y: -3.375000000000007d
+		}
+	]
+	title: "{chapter.2.title}"
+}

@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Middle Mouse Clicking another player will let you inspect their currently equipped gear!"
+  }
+}

@@ -1,0 +1,788 @@
+{
+	hide_tooltip: true
+	icon: "treasure2:gold_strongbox"
+	id: "69AADD4A1CE16BAE"
+	loot_crate: {
+		color: 16733695
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "curious_box"
+	}
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "relics:reflection_necklace"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:magma_walker"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:midnight_robe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:drowned_belt"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:jellyfish_necklace"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:hunter_belt"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:rage_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:ice_skates"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:bastion_ring"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:arrow_quiver"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:holy_locket"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:enders_hand"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:elytra_booster"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:magic_mirror"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:ice_breaker"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:blazing_flask"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:spore_sack"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:amphibian_boot"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:leather_belt"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:horse_flute"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:wool_mitten"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:umbrella"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:plastic_drinking_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{ item: "artifacts:novelty_drinking_hat", weight: 5.0f }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:snorkel"
+				tag: {
+					Damage: 0
+				}
+			}
+			random_bonus: 1
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:night_vision_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:villager_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:superstitious_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:lucky_scarf"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:scarf_of_invisibility"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:cross_necklace"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:panic_necklace"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:flame_pendant"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:thorn_pendant"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:charm_of_sinking"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:cloud_in_a_bottle"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:obsidian_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:antidote_vessel"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{ item: "artifacts:universal_attractor", weight: 10.0f }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:crystal_heart"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:helium_flamingo"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:digging_claws"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{ item: "artifacts:feral_claws", weight: 10.0f }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:power_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:fire_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{ item: "artifacts:pocket_piston", weight: 10.0f }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:vampiric_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:golden_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:aqua_dashers"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:bunny_hoppers"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:kitty_slippers"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:running_shoes"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:steadfast_spikes"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:flippers"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{ item: "artifacts:whoopee_cushion", weight: 10.0f }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:running_shoes"
+				tag: {
+					Damage: 0
+					rpgloot.randomize: 0b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:infinity_ham"
+				tag: {
+					Damage: 0
+					pieces: 3
+				}
+			}
+		}
+		{ count: 3, item: "rats:garbage_pile" }
+		{
+			item: {
+				Count: 1
+				id: "relics:shadow_glaive"
+				tag: {
+					Damage: 0
+					charges: 8
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_eerie_mask"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_ancient_mask"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_botanist_emblem"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_hyper_plus"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_hyper_plus"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_polka_dotted_bows"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_alien_antenna"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_clock_eye"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_four_leaf_clover"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_googly_eyes"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_devil_tail"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_anaglyph_glasses"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_blue_butterfly"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_wicked_eyepatch"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_pink_flower_bud"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_eyepatch"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_engineer_goggles"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_puffy_scarf"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_black_bowtie"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_red_glasses"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_black_tie"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_groucho_glasses"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_tiny_potato_mask"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_witch_pin"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_unicorn_horn"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_thinking_hand"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_thick_eyebrows"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_questgiver_mark"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_devil_horns"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_orange_shades"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_cat_ears"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:pocket_watch"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:roller_skates"
+				tag: {
+					abilities: {
+						skating: {
+							points: 0
+							stats: {
+								duration: 24.4659d
+								speed: 0.00339d
+							}
+						}
+					}
+				}
+			}
+		}
+		{ item: "artifacts:rooted_boots" }
+		{ item: "artifacts:chorus_totem" }
+		{ item: "artifacts:onion_ring" }
+		{ item: "goety:haunted_painting" }
+		{ item: "kubejs:artifact_endergem" }
+		{ item: "botania:tiny_potato" }
+		{ item: "biomancy:fleshkin_chest" }
+	]
+	title: "{loot_table.34}"
+}

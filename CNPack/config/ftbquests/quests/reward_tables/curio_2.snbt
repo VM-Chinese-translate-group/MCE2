@@ -1,0 +1,69 @@
+{
+	id: "15235DCD65E221AA"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "artifacts:charm_of_sinking"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ramcompat:stink_gland"
+				tag: {
+					abilities: {
+						dash: {
+							points: 0
+							stats: {
+								cooldown: 9.86964d
+								power: 1.40775d
+							}
+						}
+						defense: {
+							points: 0
+							stats: {
+								cooldown: 16.38971d
+								duration: 4.98025d
+								radius: 1.60426d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:hunter_belt"
+				tag: {
+					abilities: {
+						slots: {
+							points: 0
+							stats: {
+								charm: 1.98545d
+							}
+						}
+						training: {
+							points: 0
+							stats: {
+								damage: 1.78572d
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+	title: "{loot_table.32}"
+}

@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Rule of Thumb: if there's no Casting recipe for a Tinkers' part, it's done in the Part Builder"
+  }
+}

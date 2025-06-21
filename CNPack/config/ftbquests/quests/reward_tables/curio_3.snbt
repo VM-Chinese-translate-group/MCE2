@@ -1,0 +1,40 @@
+{
+	id: "3A7232217154F449"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "relics:hunter_belt"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:obsidian_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "artifacts:cloud_in_a_bottle"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "{loot_table.33}"
+}

@@ -1,0 +1,51 @@
+{
+	hide_tooltip: true
+	id: "3E11B3F8CECBDB53"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "holiday_hamper"
+	}
+	loot_size: 4
+	order_index: 24
+	rewards: [
+		{ item: "tropicraft:purple_beach_float", only_one: true }
+		{ item: "tropicraft:exploding_coconut", only_one: true }
+		{
+			item: {
+				Count: 1b
+				id: "tropicraft:pina_colada"
+				tag: {
+					display: {
+						Lore: ["{\"text\":\"§f§oYou've arrived! Hooray! And you are only slightly seasick!\"}"]
+						Name: "{\"text\":\"§7Piña Colada\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1
+				id: "etched:boombox"
+				tag: {
+					HideFlags: 32
+					Record: {
+						Count: 1b
+						id: "tropicraft:music_disc_eastern_isles"
+					}
+					display: {
+						Lore: ["{\"text\":\"§8§oYou don't bring the party.. You ARE the party!\"}"]
+						Name: "{\"text\":\"§dHoliday Boombox\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+	]
+	title: "holiday_hamper"
+}

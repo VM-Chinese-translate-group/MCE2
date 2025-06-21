@@ -1,0 +1,48 @@
+{
+  "entity": "minecraft:turtle",
+  "name": "Ancient Turtle",
+  "visualscale": 3.5,
+  "experience": 300,
+  "droppeditemamount": 5,
+  "effects": {
+    "minecraft:resistance": 2
+  },
+  "attributes": {
+    "generic.max_health": 90,
+    "generic.follow_range": 50,
+    "generic.attack_damage": 5,
+    "generic.knockback_resistance": 10
+  },
+  "customattributes": {
+  },
+  "gear": {
+    "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Half Digested Loyalty Card\"}',Lore:['{\"text\":\"§2§oYuck! You should wash your hands after touching this... Someone lost their loyalty card...\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
+  },
+  "ai-goals": {
+    "brutalbosses:itemshootgoal": {
+      "item": "{id: \"minecraft:turtle_egg\", Count: 1b}",
+      "projectile_count": 8,
+      "projectile_interval": 100,
+      "damage": 40,
+      "projectile_distance": 50
+    },
+    "brutalbosses:aftercombatregen": {
+      "amount": 2
+    },
+    "brutalbosses:summonmobs": {
+      "interval": 200,
+      "maxcount": 3,
+      "count": 1,
+      "entities": [
+        {
+          "entityid": "alexsmobs:orca"
+        }
+      ]
+    }
+  },
+  "spawnatchest": {
+    "minecraft:chests/underwater_ruin_big": 3,
+    "minecraft:chests/shipwreck_treasure": 8
+ 
+  }
+}

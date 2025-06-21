@@ -1,0 +1,147 @@
+{
+	id: "09284F59F52D6CC6"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "cloudstorage:balloon_buddy"
+				tag: {
+					Health: 6.0f
+					MobNBT: {
+						AbsorptionAmount: 0.0f
+						Age: 1
+						ArmorDropChances: [
+							0.085f
+							0.085f
+							0.085f
+							0.085f
+						]
+						ArmorItems: [
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+						Attributes: [
+							{
+								Base: 0.0d
+								Name: "minecraft:generic.armor_toughness"
+							}
+							{
+								Base: 0.0d
+								Name: "minecraft:generic.armor"
+							}
+							{
+								Base: 0.0d
+								Name: "forge:step_height_addition"
+							}
+							{
+								Base: 0.0d
+								Name: "minecraft:generic.knockback_resistance"
+							}
+							{
+								Base: 0.1d
+								Name: "caelus:fall_flying"
+							}
+							{
+								Base: 0.08d
+								Name: "forge:entity_gravity"
+							}
+							{
+								Base: 0.0d
+								Name: "obscure_api:regeneration"
+							}
+							{
+								Base: 6.0d
+								Name: "minecraft:generic.max_health"
+							}
+							{
+								Base: 1.0d
+								Name: "minecraft:generic.attack_damage"
+							}
+							{
+								Base: 32.0d
+								Name: "minecraft:generic.follow_range"
+							}
+							{
+								Base: 1.0d
+								Name: "forge:swim_speed"
+							}
+							{
+								Base: 0.15000000596046448d
+								Name: "minecraft:generic.movement_speed"
+							}
+						]
+						BaguData: { }
+						BalloonColor: 15149353
+						BalloonCommand: 2
+						Brain: {
+							memories: { }
+						}
+						CanPickUpLoot: 0b
+						ChildUUID: [I;
+							552161388
+							691686721
+							-1419609844
+							-1029430479
+						]
+						CitadelData: { }
+						DeathTime: 0s
+						Face: 3
+						FallFlying: 0b
+						ForcedAge: 0
+						HandDropChances: [
+							0.085f
+							0.085f
+						]
+						HandItems: [
+							{ }
+							{ }
+						]
+						Health: 6.0f
+						HurtByTimestamp: 0
+						HurtTime: 0s
+						InLove: 0
+						LeftHanded: 0b
+						Owner: [I;
+							-1743009176
+							-448117200
+							-1885164842
+							210784931
+						]
+						PersistenceRequired: 0b
+						Personality: 3
+						Sitting: 0b
+					}
+					Personality: 3
+					display: {
+						Name: "{\"text\":\"Balloony\"}"
+						color: 13084752
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cloudstorage:propeller_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cloudstorage:cloud_blower"
+				tag: {
+					PrevUseTime: 0
+					UseTime: 0
+				}
+			}
+		}
+	]
+	title: "balloony"
+}

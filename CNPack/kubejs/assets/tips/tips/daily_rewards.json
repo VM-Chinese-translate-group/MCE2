@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Every day you log in you can claim a Daily Reward! use /DailyRewards Claim to check your progress!"
+  }
+}

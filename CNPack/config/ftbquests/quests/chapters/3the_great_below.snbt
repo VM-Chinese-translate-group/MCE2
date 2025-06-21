@@ -1,0 +1,956 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3the_great_below"
+	group: "0194595A09DF4755"
+	icon: {
+		Count: 1
+		id: "thegreatbelow:primordial_gem"
+		tag: { }
+	}
+	id: "2093117385E8FF1D"
+	images: [
+		{
+			dependency: "6741B77BBC23A95C"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.9880952380952337d
+			y: -0.745238095238097d
+		}
+		{
+			dependency: "6741B77BBC23A95C"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.75d
+			y: 0.016666666666662167d
+		}
+		{
+			dependency: "6741B77BBC23A95C"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: -90.0d
+			width: 1.0d
+			x: 2.297619047619044d
+			y: 0.016666666666662167d
+		}
+		{
+			dependency: "6741B77BBC23A95C"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 180.0d
+			width: 1.0d
+			x: 3.011904761904759d
+			y: 0.754761904761903d
+		}
+		{
+			dependency: "6248503684C49C89"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 180.0d
+			width: 1.0d
+			x: 2.9642857142857224d
+			y: 3.930952380952373d
+		}
+		{
+			dependency: "6741B77BBC23A95C"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.8571428571428683d
+			y: 3.0380952380952344d
+		}
+		{
+			dependency: "6248503684C49C89"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: -90.0d
+			width: 1.0d
+			x: 2.1071428571428683d
+			y: 3.0023809523809497d
+		}
+		{
+			dependency: "6248503684C49C89"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.000000000000007d
+			y: 2.109523809523804d
+		}
+		{
+			dependency: "6741B77BBC23A95C"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 180.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependency: "6248503684C49C89"
+			height: 1.0d
+			image: "the_bumblezone:block/super_candle/candle_wick_lit_soul_2_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.3285714285714505d
+			y: 1.3273809523809526d
+		}
+		{
+			dependency: "26E27FB78FB855CE"
+			height: 1.0d
+			image: "minecraft:textures/particle/sculk_soul_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.014285714285734d
+			y: -0.6440476190476225d
+		}
+		{
+			height: 1.0d
+			image: "modpack:textures/title_great_below.png"
+			rotation: 0.0d
+			width: 9.592417061611375d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependency: "6248503684C49C89"
+			height: 1.0d
+			image: "modpack:textures/title_great_below_1.png"
+			rotation: 0.0d
+			width: 10.56842105263158d
+			x: 3.0d
+			y: -3.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The Great Below&r... not much is known about this place..."
+				"All I know is &eThe Wither&r is connected to all of this, I would suggest you defeat it and see what you can learn."
+				""
+				"The Quest Book will not be able to advise you until you make the discoveries yourself!"
+				""
+				"Look out for clues and let's uncover the secrets of <shake>&d<shake>THE GREAT BELOW!!!"
+			]
+			id: "6741B77BBC23A95C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p {\"text\":\"The Wither Heart beats in your hand, making you feel unwell.\",\"italic\":true,\"color\":\"dark_gray\"}"
+					console: true
+					icon: {
+						Count: 1
+						id: "minecraft:wither_rose"
+						tag: { }
+					}
+					id: "1904176D6494CD17"
+					title: "&8Wither Sickness"
+					type: "command"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2640320E2432C96F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3922401D889A6F90"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Find a &eWither Heart"
+			tasks: [{
+				id: "2C1D01CDCE864250"
+				item: {
+					Count: 1
+					id: "kubejs:mobdrop_endermanheart_beating"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&8Wither Me This"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6741B77BBC23A95C"]
+			description: [
+				"The corruption from the &eSculk Catalyst&r seems to have turned the &eWither Heart&r into something much more sinister... "
+				""
+				"I can hear whis&kd&rpers... I fe&k3&rel... str&k!&range... "
+				""
+				"We have to push on! <shake>&c<shake>FOR SCIENCE!"
+			]
+			hide_until_deps_complete: true
+			id: "20D7639E7B4A9C96"
+			invisible: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "597E75EF0A12165C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "326CB2EA9C4E8511"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Find a &eMysterious Object"
+			tasks: [{
+				id: "7381ACBFBD89DC42"
+				item: {
+					Count: 1
+					id: "kubejs:artifact_beating_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&bFeelings of Dread"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20D7639E7B4A9C96"]
+			description: [
+				"The &eAncient City!&r OF COURSE! It all makes sense now... "
+				"But why are we even following its instructions... "
+				""
+				"Have we questioned that yet?"
+				""
+				"I don't know if we should be doing thi-"
+				""
+				"NEVERMIND THAT, ignore my moment of WEA&k2&rKNESS. We WILL co&kf&rmply. "
+				""
+				"We WILL op&k!&ren th&k!&re portal."
+				""
+				"The po&k!&rrtal to &d&l<shake>TH&k!&r&d&l<shake>E GRE&k!&r&d&l<shake>AT BEL&k!&d&l<shake>OW! "
+				""
+				"I think we both know what we need to do next.... "
+			]
+			hide_until_deps_complete: true
+			id: "26E27FB78FB855CE"
+			invisible: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "640855572F83603E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0BFB684D1C3E92E2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BA241E942DFA168"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Locate an &eAncient City"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:reinforced_deepslate"
+					tag: { }
+				}
+				id: "071074176E32A326"
+				structure: "minecraft:ancient_city"
+				title: "Ancient City"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26E27FB78FB855CE"]
+			description: [
+				"&3&oWhat awaits us on the other side? "
+				""
+				"&eTip:&r If you die in The Great Below, you will NOT create a Gravestone. You will be reduced to just another forgotten soul forever lost in The Great Below..."
+				""
+				"&8\"We do not believe in human feelings, nor in human senses, nor human needs, human values, human fears, or even human hopes. The only purpose or belief is the path from the mind to the brain.\""
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "blighted_beasts:seer"
+				}
+			}
+			id: "6248503684C49C89"
+			invisible: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:entity.warden.sonic_boom master @p ~ ~ ~"
+					console: true
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "kubejs:artifact_beating_heart"
+						tag: { }
+					}
+					id: "66BB5BACCA1C4803"
+					silent: true
+					title: "&d???"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p {\"text\":\"The echos of The Great Below contaminate your mind.. Tendrils writhing and wreathing...  Causing you lose touch with reality and giving you a primal fear you cannot fully explain.. You hear it deep within your brain. Your thoughts are not your own and you are not alone..\",\"italic\":true,\"color\":\"aqua\"}"
+					console: true
+					icon: {
+						Count: 1
+						id: "netherexp:sculk_grinder"
+						tag: { }
+					}
+					id: "01A3CC5570C3085D"
+					title: "&d???"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/effect give @p minecraft:darkness 6"
+					console: true
+					icon: {
+						Count: 1
+						id: "minecraft:sculk_sensor"
+						tag: { }
+					}
+					id: "1F2F580CFAE32B29"
+					title: "&d???"
+					type: "command"
+				}
+				{
+					command: "/titles add @p titles:great_below"
+					console: true
+					icon: {
+						Count: 1
+						id: "titles:title_scroll_uncommon"
+						tag: { }
+					}
+					id: "3E57EBE779AB9556"
+					title: "&eUnlock Title:&r of The Great Below"
+					type: "command"
+				}
+				{
+					id: "133299A55105E3F4"
+					item: {
+						Count: 1
+						id: "minecraft:silence_armor_trim_smithing_template"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "1BB3A71168BC4CBF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "10E77376C6159100"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.4d
+			subtitle: "Enter &eThe Great Below"
+			tasks: [{
+				dimension: "thegreatbelow:thegreatbelow"
+				icon: {
+					Count: 1
+					id: "minecraft:echo_shard"
+					tag: { }
+				}
+				id: "1F1E155EB340725D"
+				title: "&3Enter The Great Below"
+				type: "dimension"
+			}]
+			title: "&8From The Mind To The Brain"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: [
+				"It seems deep down here in &eThe Great Below&r, a strange and alien material has formed."
+				""
+				"Perhaps all of the lost the souls somehow have contributed to its formation, nonetheless we should mine as much of this stuff as possible. "
+				""
+				"It is very durable and dense, this could be the wonder material &mI've&r WE'VE been looking for!"
+				""
+				"Who knows what sort of technology we can create!"
+			]
+			hide_until_deps_complete: true
+			id: "29B96385E819818D"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "696793274C047C4A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "752C34E4826E2ABD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Mine 1x Osmium Ore"
+			tasks: [{
+				block: "mekanism:deepslate_osmium_ore"
+				block_type: 0
+				checkItem: false
+				id: "6679187E997E703E"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "&3The Wonder Material"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: [
+				"From translating these &eKnowledge Fragments&r I have learned a great deal of information.."
+				""
+				"Firstly, it seems whoever wrote these manuscripts speak of a &b\"⊣∷ᒷᔑℸ ̣. ʖᒷꖎ𝙹∴\"&r or as we would say"
+				"Great Below.."
+				""
+				"They mention a &b\"ᔑʖ||ᓭᓭ\"&r or an \"Abyss\". "
+				""
+				"They seem to consider The Great Below as some sort of Soul Prison.. or Purgatory for damned souls to be tormented while they await their pilgrimage into &b\"ℸ ̣ ⍑ᒷ. ⊣∷ᒷᔑℸ ̣. ʖᒷ||𝙹リ↸\"&r "
+				"- The Great Beyond.."
+				""
+				"The Warden is mentioned briefly and considered to be a force of nature. "
+				"With the sole purpose of keeping souls contained and removing any outside &b\"⍑⚍ᒲᔑリ\"&r "
+				"- Interlopers."
+				""
+				"Great work! We are &othis much closer&r to uncovering the secrets of life, death and rebirth. "
+			]
+			id: "56B35C1DDC5C2A52"
+			invisible: true
+			rewards: [
+				{
+					id: "0BF7E8AF04FB655F"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "unknown"
+							pages: [
+								"{\"text\":\"Staring at the sea...\\nWill she come?\\n\\nIs there hope for me?\\nAfter all is said and done..\\n\\nAnything at any price.\\nAll of this is for you..\\n\\nAll the spoils of a wasted life...\\n\\nAll of this for you..\"}"
+								"{\"text\":\"All the world has closed her eyes.\\n\\nTired faith all worn and thin..\\n\\nFor all we could have done..\\n\\nAnd all that could have been.\\n\\nOcean pulls me close..\\n\"}"
+								"{\"text\":\"It whispers in my ear..\\n\\nThe destiny I've chose.\\n\\nAll becoming clear..\\n\\nThe currents have their say..\\n\\nThe time is drawing near..\\n\\nWashes me away...\"}"
+								"{\"text\":\"Makes me disappear.\\n\\nAnd I descend from grace.\\n\\nIn arms of undertow..\\n\\nI will take my place...\\n\\n\\n\\n\\n\\nIN THE GREAT BELOW!\"}"
+								"{\"text\":\"I can still feel you..\\n\\nEven so far away..\\n\"}"
+							]
+							resolved: 1b
+							title: "The Great Below"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "7E5653B93B92D81F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "02C2DF95E728F930"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Gather Ancient Knowledge Fragments"
+			tasks: [{
+				count: 8L
+				id: "324E50F6668C179F"
+				item: {
+					Count: 8
+					id: "irons_spellbooks:ancient_knowledge_fragment"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&8Lost Knowledge"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: [
+				"This item seems to be sculk condensed down into a small flawless orb."
+				"It is quite beautiful... I wonder what we can use it for?"
+			]
+			hide_until_deps_complete: true
+			id: "3D3563EEC4E93B7D"
+			invisible: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "129E7A70144AC87D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "25A9516468A5F5CF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A35B8C5089390BB"
+					item: "thegreatbelow:murmur_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "Find a &eSculk Pearl"
+			tasks: [{
+				id: "62FBD4F6497D5652"
+				item: {
+					Count: 1
+					id: "blighted_beasts:sculk_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&bSculked Up"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: [
+				"It is said when a soul finally escapes The Great Below and ascends to The Great Beyond, they hear the most beautiful symphony ever created.."
+				""
+				"Whoever was trapped down here has clearly tried to recreate it... "
+				""
+				"Well to the best of their mortal ability.."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "60C0ECC202A595F1"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "283D248422B3961A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "33A224409B5F7FEF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			secret: true
+			shape: "octagon"
+			subtitle: "Find the rare music disc &e\"Gone\""
+			tasks: [{
+				id: "6D506A73B0C02772"
+				item: {
+					Count: 1
+					id: "thegreatbelow:gone_music_disc"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&dThe Final Echo"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: [
+				"So it seems regular old Night Vision just doesn't cut it here..."
+				"We will have to get creative! Craft one of these and see if we can adapt!"
+				""
+				"&6Hint:&r You can combine your Echo Location Device with a Precision Mechanism to control when the ability activates with a keybind! (By default K)"
+			]
+			id: "32B78ADD4FECE592"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5B06D6AABE65B9DB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "11D072BF03100D83"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft a &eEcho Location Device"
+			tasks: [{
+				id: "2BDED14454E034BC"
+				item: {
+					Count: 1
+					id: "thegreatbelow:echo_location_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6741B77BBC23A95C"]
+			description: [
+				"Did you lose your &dWither Heart&r?"
+				"Well lucky for you I can return it to you for 10 Levels of XP!"
+				""
+				"This is only relevant if you lost your &dWither Heart!"
+			]
+			hide_until_deps_complete: true
+			id: "02C2F57C2EDC118A"
+			optional: true
+			rewards: [{
+				id: "7AA10D55DF051753"
+				item: "kubejs:mobdrop_endermanheart_beating"
+				type: "item"
+			}]
+			subtitle: "&6Lost and Found!"
+			tasks: [{
+				id: "27FCD3243B62E668"
+				points: false
+				type: "xp"
+				value: 10L
+			}]
+			title: "&dDid You Lose Your Wither Heart?"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20D7639E7B4A9C96"]
+			description: [
+				"Did you lose your &dMysterious Object&r?"
+				"Well lucky for you I can return it to you for 10 Levels of XP!"
+				""
+				"This is only relevant if you lost your &dMysterious Object!"
+			]
+			hide_until_deps_complete: true
+			id: "5E06348DE2B973AF"
+			optional: true
+			rewards: [{
+				id: "6C3F73C108CBC47B"
+				item: "kubejs:artifact_beating_heart"
+				type: "item"
+			}]
+			subtitle: "&6Lost and Found!"
+			tasks: [{
+				id: "0AD6B8811FF6A343"
+				points: false
+				type: "xp"
+				value: 10L
+			}]
+			title: "&dDid You Lose Your Mysterious Object?"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "&3The Great Below &6☆☆☆"
+}

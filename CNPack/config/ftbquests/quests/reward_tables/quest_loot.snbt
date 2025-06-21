@@ -1,0 +1,4801 @@
+{
+	icon: {
+		Count: 1
+		id: "quark:purpur_trapped_chest"
+		tag: { }
+	}
+	id: "4EDB916E3F8F9FE8"
+	loot_crate: {
+		color: 5579434
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "quest_loot"
+	}
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "cheesy_cache"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "curious_box"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "blackmarket_cache"
+				}
+			}
+		}
+		{ item: "minecraft:oak_sapling" }
+		{ item: "minecraft:dark_oak_sapling" }
+		{ count: 8, item: "minecraft:kelp" }
+		{ item: "advancementframes:advancement_frame" }
+		{ count: 8, item: "archers_paradox:blaze_arrow" }
+		{ item: "minecraft:spectral_arrow" }
+		{ count: 8, item: "archers_paradox:verdant_arrow" }
+		{ count: 16, item: "archers_paradox:training_arrow" }
+		{ count: 8, item: "archers_paradox:spore_arrow" }
+		{ count: 8, item: "archers_paradox:slime_arrow" }
+		{ count: 8, item: "archers_paradox:shulker_arrow" }
+		{ count: 8, item: "archers_paradox:quartz_arrow" }
+		{ count: 8, item: "archers_paradox:prismarine_arrow" }
+		{ item: "archers_paradox:lightning_arrow" }
+		{ count: 8, item: "archers_paradox:frost_arrow" }
+		{ count: 8, item: "archers_paradox:explosive_arrow" }
+		{ count: 3, item: "archers_paradox:ender_arrow" }
+		{ count: 8, item: "archers_paradox:diamond_arrow" }
+		{ item: "archers_paradox:challenge_arrow" }
+		{ count: 8, item: "iceandfire:stymphalian_arrow" }
+		{ count: 8, item: "iceandfire:amphithere_arrow" }
+		{ count: 8, item: "iceandfire:sea_serpent_arrow" }
+		{ count: 8, item: "iceandfire:hydra_arrow" }
+		{ count: 8, item: "iceandfire:dragonbone_arrow" }
+		{ count: 8, item: "alexsmobs:shark_tooth_arrow" }
+		{ item: "rats:rat_arrow" }
+		{
+			item: {
+				Count: 1
+				id: "relics:arrow_quiver"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 8, item: "cataclysm:void_scatter_arrow" }
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:wool_mitten"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:horse_flute"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:leather_belt"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:spore_sack"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:ice_breaker"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:ice_skates"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:hunter_belt"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:drowned_belt"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:rage_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:umbrella"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:plastic_drinking_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:novelty_drinking_hat" }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:snorkel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:night_vision_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:villager_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:superstitious_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:lucky_scarf"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:scarf_of_invisibility"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:cross_necklace"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:panic_necklace"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:shock_pendant"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:flame_pendant"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:thorn_pendant"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:charm_of_sinking"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:cloud_in_a_bottle"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:obsidian_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:antidote_vessel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:universal_attractor" }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:crystal_heart"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:helium_flamingo"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:digging_claws"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:feral_claws" }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:power_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:fire_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:pocket_piston" }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:vampiric_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:golden_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:aqua_dashers"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:bunny_hoppers"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:running_shoes"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:steadfast_spikes"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:flippers"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "farmingforblockheads:market" }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:mimic_spawn_egg"
+				tag: {
+					display: {
+						Lore: ["{\"text\":\"\\\"§7§oYour my friend now were having soft tacos later!!\\\"\"}"]
+						Name: "{\"text\":\"§d\\\"Friend\\\"\"}"
+					}
+				}
+			}
+		}
+		{ item: "kubejs:mcejaffa" }
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:vein_hammer"
+				tag: {
+					Damage: 110
+					HideFlags: 3
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Old Mining Hammer\"}"
+					}
+					etstlib_tool_uuid: "748b822e-eaeb-4137-b3cc-e8b114964d43"
+					rpgloot.randomize: 0b
+					tic_broken: 1b
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:wood"
+						"tconstruct:flint"
+						"tconstruct:flint"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:cultivated"
+						}
+						{
+							level: 2
+							name: "tconstruct:jagged"
+						}
+						{
+							level: 2
+							name: "tconstruct:pierce"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.25f
+						"tconstruct:durability": 5.0f
+						"tconstruct:mining_speed": 0.3f
+					}
+					tic_persistent: { }
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 6.328125f
+						"tconstruct:attack_speed": 0.85f
+						"tconstruct:durability": 110.0f
+						"tconstruct:harvest_tier": "minecraft:stone"
+						"tconstruct:mining_speed": 0.4875f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+		}
+		{ count: 8, item: "rats:raw_plastic" }
+		{ item: "farmersdelight:honey_glazed_ham_block" }
+		{
+			item: {
+				Count: 1
+				id: "botania:mana_bottle"
+				tag: { }
+			}
+		}
+		{ item: "thermal:hearty_stew" }
+		{ item: "supplementaries:spring_launcher" }
+		{ item: "supplementaries:spring_launcher" }
+		{
+			item: {
+				Count: 1
+				id: "the_bumblezone:honey_crystal_shield"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "shieldmechanics:block_damage_enchant"
+							lvl: 5
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 4
+						}
+					]
+					HideFlags: 33
+					display: {
+						Lore: ["{\"text\":\"§9§7§oEmbued with special Anti Magic™ properties\"}"]
+						Name: "{\"text\":\"§9§e§9Arcane Shield\"}"
+					}
+					dmcloot.arcaneshielding: 50
+					dmcloot.rarity: "rare"
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:blue_rune"
+					}
+					rpgloot.randomize: 0b
+				}
+			}
+		}
+		{ count: 16, item: "minecraft:ladder" }
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:worm"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "aquaculture:iron_hook" }
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:rope_arrow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "farmersdelight:cooking_pot" }
+		{ item: "minecraft:emerald" }
+		{ item: "minecraft:diamond" }
+		{ item: "minecraft:lapis_lazuli" }
+		{ item: "minecraft:iron_ingot" }
+		{ count: 8, item: "minecraft:redstone" }
+		{ count: 8, item: "supplementaries:bomb" }
+		{ item: "minecraft:damaged_anvil" }
+		{ item: "rats:rat_upgrade_lumberjack" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 16, item: "minecraft:oak_log" }
+		{ item: "minecraft:apple" }
+		{ count: 3, item: "create:honeyed_apple" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					AS_Amulet_Holder: [I;
+						-1227576764
+						-1560065926
+						-2081613911
+						2036351875
+					]
+					Damage: 276
+					Enchantments: [
+						{
+							id: "cursery:curse_stubby"
+							lvl: 1
+						}
+						{
+							id: "minecraft:power"
+							lvl: 3
+						}
+					]
+					display: {
+						Name: "{\"text\":\"§eNearly Broken Bow\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:turtle_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "autumnity:snail_shell_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "supplementaries:candy" }
+		{ item: "quark:bottled_cloud" }
+		{ item: "minecraft:cake" }
+		{
+			item: {
+				Count: 1
+				id: "quark:forgotten_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "idas:music_disc_slither" }
+		{ item: "idas:music_disc_calidum" }
+		{ item: "supplementaries:globe" }
+		{ item: "supplementaries:jar" }
+		{ item: "supplementaries:tater_in_a_jar" }
+		{ item: "supplementaries:jar_boat" }
+		{ item: "supplementaries:bomb_blue_projectile" }
+		{ item: "supplementaries:pancake" }
+		{ count: 16, item: "supplementaries:checker_block" }
+		{ item: "supplementaries:cage" }
+		{ item: "supplementaries:speaker_block" }
+		{ item: "supplementaries:doormat" }
+		{ item: "supplementaries:sack" }
+		{ item: "etched:radio" }
+		{ item: "etched:boombox" }
+		{ item: "etched:etching_table" }
+		{ item: "thermal:glowstone_grenade" }
+		{ item: "thermal:redstone_grenade" }
+		{ item: "thermal:slime_grenade" }
+		{
+			item: {
+				Count: 1
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fire_protection"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{ item: "skillcloaks:green_sack" }
+		{ item: "skillcloaks:red_sack" }
+		{ item: "skillcloaks:blue_sack" }
+		{
+			item: {
+				Count: 1
+				id: "skillcloaks:black_sack"
+				tag: { }
+			}
+		}
+		{ item: "skillcloaks:mining_cloak" }
+		{ item: "skillcloaks:crafting_cloak" }
+		{ item: "tombstone:dust_of_vanishing" }
+		{ item: "minecraft:sunflower" }
+		{ item: "mowziesmobs:glowing_jelly" }
+		{
+			item: {
+				Count: 1
+				id: "rats:rat_fez"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "rats:rat_burger" }
+		{ item: "rats:confit_byaldi" }
+		{ item: "rats:ratbow_essence" }
+		{ item: "rats:rat_papers" }
+		{ item: "rats:plague_doctorate" }
+		{ item: "rats:rat_wheel" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "farmersdelight:smoked_ham"
+			}
+			weight: 15.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:artifact_endergem"
+			}
+			weight: 100.0f
+		}
+		{ item: "farmersdelight:stove" }
+		{ item: "farmersdelight:basket" }
+		{ item: "farmersdelight:fried_rice" }
+		{ item: "farmersdelight:squid_ink_pasta" }
+		{ item: "farmersdelight:ratatouille" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "farmersdelight:vegetable_soup"
+			}
+			weight: 10.0f
+		}
+		{ item: "cookingforblockheads:cooking_table" }
+		{ item: "cookingforblockheads:oven" }
+		{ item: "cookingforblockheads:sink" }
+		{ item: "cookingforblockheads:tool_rack" }
+		{ item: "cookingforblockheads:cow_jar" }
+		{ item: "cookingforblockheads:toaster" }
+		{ item: "cookingforblockheads:fruit_basket" }
+		{ item: "minecraft:music_disc_13" }
+		{ item: "rats:music_disc_mice_on_venus" }
+		{ item: "goety:music_disc_apostle" }
+		{
+			item: {
+				Count: 1
+				id: "rats:top_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 8, item: "tconstruct:glow_ball" }
+		{ count: 16, item: "tconstruct:seared_brick" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "farmersdelight:melon_popsicle"
+			}
+			weight: 10.0f
+		}
+		{ item: "quark:diamond_heart" }
+		{ item: "minecraft:music_disc_pigstep" }
+		{ item: "tconstruct:efln_ball" }
+		{ }
+		{
+			item: {
+				Count: 1
+				id: "rats:chef_toque"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "rats:assorted_vegetables" }
+		{ item: "rats:cheese" }
+		{ item: "rats:tiny_coin" }
+		{ item: "rats:plague_leech" }
+		{ item: "rats:rat_sack" }
+		{ item: "rats:contaminated_food" }
+		{ item: "rats:token_fragment" }
+		{ item: "rats:rat_upgrade_basic" }
+		{ item: "infinitybuttons:spruce_bookshelf_secret_button" }
+		{ item: "alexsmobs:mysterious_worm" }
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:hemolymph_blaster"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:hummingbird_feeder" }
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:echolocator"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:fedora"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:naga_fang_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mowziesmobs:foliaath_seed" }
+		{ item: "thermal:syrup_bottle" }
+		{ count: 3, item: "iceandfire:manuscript", weight: 8.0f }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_silver_metal_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:pixie_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "iceandfire:pixie_jar_0" }
+		{ item: "iceandfire:ectoplasm" }
+		{ item: "iceandfire:cannoli" }
+		{ item: "iceandfire:chain" }
+		{ item: "iceandfire:siren_tear" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:earplugs"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mcwtrpdoors:metal_warning_trapdoor" }
+		{ item: "thermal:redstone_servo" }
+		{ item: "rats:little_black_squash_balls" }
+		{ item: "farmersdelight:sweet_berry_cheesecake_slice" }
+		{ item: "thermal:rf_coil" }
+		{ item: "iceandfire:pixie_house_mushroom_red" }
+		{ count: 2, item: "iceandfire:pixie_dust" }
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					Enchantments: [{
+						id: "ars_nouveau:reactive"
+						lvl: 1
+					}]
+					HideFlags: 33
+					display: {
+						Lore: [
+							"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+							"{\"text\":\"§4§oRobbed from an unsuspecting Player\"}"
+							"{\"text\":\"§7§oRight-Click to Open\"}"
+						]
+						Name: "{\"text\":\"§eStolen Quest Loot\"}"
+					}
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:rainbow_rune"
+					}
+					rpgloot.randomize: 0b
+					type: "quest_loot"
+				}
+			}
+		}
+		{ item: "botania:tiny_potato" }
+		{ count: 8, item: "minecraft:poisonous_potato" }
+		{
+			item: {
+				Count: 1
+				id: "thermal:rf_potato"
+				tag: { }
+			}
+		}
+		{ item: "rats:tiny_coin" }
+		{ item: "kubejs:mcejaffa" }
+		{ item: "iceandfire:rotten_egg" }
+		{ item: "waystones:warp_scroll" }
+		{ item: "mcwfurnitures:oak_chair" }
+		{
+			item: {
+				Count: 1
+				id: "fairylights:letter_bunting"
+				tag: {
+					text: {
+						styling: [I; ]
+						value: ""
+					}
+				}
+			}
+		}
+		{ item: "fairylights:garland" }
+		{
+			item: {
+				Count: 1
+				id: "immersive_armors:divine_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_armors:divine_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_armors:divine_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_armors:divine_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_armors:steampunk_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "immersive_aircraft:steel_boiler" }
+		{
+			item: {
+				Count: 1
+				id: "thermal:pbj_sandwich"
+				tag: {
+					display: {
+						Lore: ["{\"text\":\"§7§oPacked lunch! The crusts are cut off just how you like it! §d-Mom §r§d❤\"}"]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "thermal:rf_potato"
+				tag: { }
+			}
+		}
+		{ item: "thermal:redstone_servo" }
+		{ item: "thermal:upgrade_augment_1" }
+		{ item: "thermal:upgrade_augment_2" }
+		{ count: 8, item: "thermal:hazmat_fabric" }
+		{
+			item: {
+				Count: 1
+				id: "thermal:flux_capacitor"
+				tag: {
+					itemModifier: "modifiers:none"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "occultism:butcher_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "create:goggles" }
+		{ item: "create:purple_toolbox" }
+		{ item: "quark:lavender_blossom_sapling" }
+		{ item: "skillcloaks:brown_sack" }
+		{ item: "skillcloaks:red_sack" }
+		{
+			item: {
+				Count: 1
+				id: "quark:pickarang"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 8, item: "mcwdoors:wooden_portcullis" }
+		{ count: 2, item: "cookingforblockheads:fridge" }
+		{ count: 16, item: "tconstruct:grout" }
+		{ item: "infinitybuttons:hoglin_mount_button" }
+		{ item: "infinitybuttons:pink_emergency_button" }
+		{ item: "infinitybuttons:bookshelf_secret_button" }
+		{ count: 3, item: "cataclysm:void_scatter_arrow" }
+		{ item: "skillcloaks:woodcutting_cloak" }
+		{ item: "skillcloaks:mining_cloak" }
+		{ item: "skillcloaks:defence_cloak" }
+		{ item: "skillcloaks:fishing_cloak" }
+		{ item: "skillcloaks:thieving_cloak" }
+		{ item: "skillcloaks:hitpoints_cloak" }
+		{ item: "skillcloaks:construction_cloak" }
+		{ item: "skillcloaks:agility_cloak" }
+		{ item: "skillcloaks:crafting_cloak" }
+		{ item: "skillcloaks:cooking_cloak" }
+		{ item: "skillcloaks:firemaking_cloak" }
+		{ item: "skillcloaks:magic_cloak" }
+		{ item: "skillcloaks:hunter_cloak" }
+		{ item: "skillcloaks:fletching_cloak" }
+		{ item: "rats:nether_cheese" }
+		{ item: "rats:rat_arrow" }
+		{ item: "rats:rat_burger" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"agricraft:gene_inspector": {
+						agri_flag: 0b
+					}
+				}
+				id: "rats:piper_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "rats:rat_whistle" }
+		{ item: "rats:rat_capture_net" }
+		{ item: "rats:purifying_liquid" }
+		{ item: "rats:plague_stew" }
+		{ item: "rats:plague_leech" }
+		{ count: 8, item: "rats:string_cheese" }
+		{ item: "rats:plague_tome" }
+		{ item: "rats:ratbow_essence" }
+		{ item: "rats:plague_doctorate" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"agricraft:gene_inspector": {
+						agri_flag: 0b
+					}
+				}
+				id: "rats:plague_doctor_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "rats:contaminated_food", weight: 10.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"agricraft:gene_inspector": {
+						agri_flag: 0b
+					}
+				}
+				id: "rats:santa_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "rats:auto_curdler" }
+		{ item: "rats:rattling_gun" }
+		{ item: "rats:rat_wheel" }
+		{ item: "rats:tiny_coin" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"agricraft:gene_inspector": {
+						agri_flag: 0b
+					}
+				}
+				id: "rats:rat_fez"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "rats:little_black_worm" }
+		{ item: "rats:little_black_squash_balls" }
+		{ item: "rats:rat_flute" }
+		{ item: "rats:potato_pancake" }
+		{ item: "rats:rat_trap" }
+		{ item: "rats:confit_byaldi" }
+		{ item: "rats:rat_breeding_lantern" }
+		{ item: "rats:herb_bundle" }
+		{
+			item: {
+				Count: 1
+				id: "rats:gilded_rat_flute"
+				tag: {
+					AS_Amulet_Holder: [I;
+						-1227576764
+						-1560065926
+						-2081613911
+						2036351875
+					]
+					Damage: 78
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:blood_sprayer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "etched:portal_radio" }
+		{ item: "rats:cheese_banner_pattern" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_strength"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:invisibility"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:long_night_vision"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "goblintraders:powerful_instant_health"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:crafting_station"
+				tag: {
+					texture: "minecraft:dark_oak_log"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:livingwood_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:laputa_shard"
+				tag: {
+					level: 9
+				}
+			}
+		}
+		{ item: "botania:laputa_shard" }
+		{
+			item: {
+				Count: 1
+				id: "botania:laputa_shard"
+				tag: {
+					level: 4
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"agricraft:gene_inspector": {
+						agri_flag: 0b
+					}
+				}
+				id: "rats:halo_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 16, item: "tconstruct:seared_brick" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "davespotioneering:milk"
+				}
+			}
+		}
+		{ count: 3, item: "minecraft:ender_pearl" }
+		{ item: "botania:ender_eye_block" }
+		{
+			item: {
+				Count: 1
+				id: "quark:pickarang"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_hoe"
+				tag: {
+					Damage: 0
+					display: {
+						Name: "{\"font\":\"minecraft:alt\",\"translate\":\"item.minecraft.golden_hoe\"}"
+					}
+				}
+			}
+		}
+		{ item: "minecraft:anvil" }
+		{ item: "illageandspillage:totem_of_banishment" }
+		{ item: "botania:tiny_potato" }
+		{
+			item: {
+				Count: 1
+				id: "botania:tiny_potato"
+				tag: {
+					display: {
+						Lore: ["{\"text\":\"§o§7this potato woke up and chose violence\"}"]
+						Name: "{\"text\":\"vazkill\"}"
+					}
+					notMyNameTicks: 17
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:tiny_potato"
+				tag: {
+					display: {
+						Lore: ["{\"text\":\"§7tiny potato is a mod by ..\"}"]
+						Name: "{\"text\":\"Vazkii\"}"
+					}
+					notMyNameTicks: 17
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:tiny_potato"
+				tag: {
+					display: {
+						Name: "{\"text\":\"direwolf20\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:tiny_potato"
+				tag: {
+					display: {
+						Name: "{\"text\":\"magic\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:tiny_potato"
+				tag: {
+					display: {
+						Lore: ["{\"text\":\"§c§o10000 degrees\"}"]
+						Name: "{\"text\":\"hot\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:tiny_potato"
+				tag: {
+					display: {
+						Lore: ["{\"text\":\"§c§o10000 degrees\"}"]
+						Name: "{\"text\":\"snoop\"}"
+					}
+				}
+			}
+		}
+		{ item: "illageandspillage:totem_of_banishment" }
+		{ item: "goety:music_disc_apostle" }
+		{ item: "mekanism:flamethrower" }
+		{ item: "supplementaries:clock_block" }
+		{ item: "immersive_aircraft:eco_engine" }
+		{ item: "immersive_aircraft:engine" }
+		{ item: "immersive_aircraft:sturdy_pipes" }
+		{
+			item: {
+				Count: 1
+				id: "immersive_armors:robe_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "immersive_aircraft:quadrocopter" }
+		{ item: "immersive_aircraft:industrial_gears" }
+		{ item: "immersive_aircraft:boiler" }
+		{ item: "immersive_aircraft:propeller" }
+		{ count: 3, item: "tconstruct:pig_iron_ingot" }
+		{ count: 8, item: "autumnity:cooked_turkey_piece" }
+		{ item: "mekanism:industrial_alarm" }
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_groucho_glasses"
+				tag: { }
+			}
+		}
+		{ item: "alexsmobs:warped_mixture" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:hippocampus_slapper"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 6, item: "autumnity:pumpkin_bread" }
+		{ count: 2, item: "mcwdoors:oak_western_door" }
+		{ item: "mekanism:chargepad" }
+		{
+			item: {
+				Count: 1
+				id: "fairylights:snowflake_light"
+				tag: {
+					color: 15961002
+				}
+			}
+		}
+		{ item: "fairylights:garland" }
+		{
+			item: {
+				Count: 1
+				id: "fairylights:hanging_lights"
+				tag: {
+					pattern: [{
+						Count: 1b
+						id: "fairylights:fairy_light"
+						tag: {
+							color: 16383998
+						}
+					}]
+					string: "fairylights:black_string"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "fairylights:pennant_bunting"
+				tag: {
+					color: 16383998
+					pattern: [{
+						Count: 1b
+						id: "fairylights:triangle_pennant"
+						tag: {
+							color: 16383998
+						}
+					}]
+					text: {
+						styling: [I; ]
+						value: ""
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "fairylights:meteor_light"
+				tag: {
+					color: 15961002
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "fairylights:flower_light"
+				tag: {
+					color: 8991416
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "fairylights:meteor_light"
+				tag: {
+					color: 8991416
+				}
+			}
+		}
+		{
+			command: "/titles add @p titles:lucky"
+			icon: "titles:title_scroll_uncommon"
+			title: "&eUnlock Title:&r the Lucky"
+			type: "command"
+		}
+		{ item: "titles:title_scroll_common" }
+		{ item: "botania:world_seed" }
+		{ item: "tombstone:bag_of_seeds" }
+		{
+			item: {
+				Count: 1
+				id: "tombstone:lollipop"
+				tag: {
+					model_color: 0s
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"agricraft:gene_inspector": {
+						agri_flag: 0b
+					}
+				}
+				id: "occultism:otherworld_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "fairylights:square_pennant"
+				tag: {
+					color: 8991416
+				}
+			}
+		}
+		{ item: "mcwfurnitures:birch_chair" }
+		{ item: "mcwfurnitures:oak_bookshelf" }
+		{ item: "pneumaticcraft:smart_chest" }
+		{ item: "pneumaticcraft:air_cannon" }
+		{ item: "pneumaticcraft:cod_n_chips" }
+		{ item: "pneumaticcraft:vortex_cannon" }
+		{ item: "pneumaticcraft:drone" }
+		{ item: "pneumaticcraft:upgrade_matrix" }
+		{ count: 3, item: "mowziesmobs:glowing_jelly" }
+		{ item: "create:purple_toolbox" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"agricraft:gene_inspector": {
+						agri_flag: 0b
+					}
+				}
+				id: "quark:forgotten_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "farmersdelight:fried_egg" }
+		{ item: "mcwtrpdoors:oak_bark_trapdoor" }
+		{ item: "mcwtrpdoors:metal_warning_trapdoor" }
+		{ item: "mcwdoors:metal_warning_door" }
+		{ item: "mcwtrpdoors:bamboo_trapdoor" }
+		{
+			command: "/tellraw @p {\"text\":\"Adam98991 joined the game\",\"color\":\"yellow\"}"
+			console: true
+			elevate_perms: true
+			icon: "rats:rat_burger"
+			title: "&eA Wild Modpack Dev Appeared!"
+			type: "command"
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:pocket_sand"
+				tag: {
+					AS_Amulet_Holder: [I;
+						-1227576764
+						-1560065926
+						-2081613911
+						2036351875
+					]
+					Damage: 0
+				}
+			}
+		}
+		{ item: "tombstone:christmas_gift" }
+		{
+			command: "/tellraw @p {\"text\":\"Emperdog joined the game\",\"color\":\"yellow\"}"
+			console: true
+			elevate_perms: true
+			icon: "create:brass_hand"
+			title: "&eA Wild Modpack Dev Appeared!"
+			type: "command"
+		}
+		{
+			command: "/tellraw @p {\"text\":\"Herobrine joined the game\",\"color\":\"yellow\"}"
+			console: true
+			elevate_perms: true
+			icon: "alexsmobs:void_worm_eye"
+			title: "&c???"
+			type: "command"
+		}
+		{
+			command: "/tellraw @p {\"text\":\"I opened this Quest Loot and all I got was this stupid message!\",\"color\":\"yellow\"}"
+			console: true
+			elevate_perms: true
+			icon: {
+				Count: 1
+				id: "alexscaves:desolate_dagger"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "fd3efa54-6c66-4669-bedd-0dea3b346446"
+					tic_persistent: { }
+				}
+			}
+			title: "&eUseless Reward"
+			type: "command"
+		}
+		{
+			command: "/tellraw @p {\"text\":\"criscky joined the game\",\"color\":\"yellow\"}"
+			icon: "minecolonies:golden_bread"
+			title: "&eA Wild Modpack Dev Appeared!"
+			type: "command"
+		}
+		{
+			command: "/summon ghastcow:ghast_cow 0 100 0"
+			icon: "minecraft:milk_bucket"
+			title: "&cYou have chosen poorly..."
+			type: "command"
+		}
+		{ count: 3, item: "tconstruct:glow_ball" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:lingering_potion"
+				tag: {
+					Potion: "minecraft:strong_turtle_master"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{ item: "minecraft:purple_bed" }
+		{ item: "botania:flower_bag" }
+		{ item: "minecraft:flower_pot" }
+		{
+			item: {
+				Count: 1
+				id: "botania:cosmetic_pink_flower_bud"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:lingering_potion"
+				tag: {
+					Potion: "minecraft:strong_strength"
+				}
+			}
+		}
+		{ item: "goety:grave_glove" }
+		{ item: "pneumaticcraft:vacuum_trap" }
+		{
+			item: {
+				Count: 1
+				id: "botania:knockback_belt"
+				tag: {
+					baubleUUIDLeast: -5871990344449427595L
+					baubleUUIDMost: 5799030885311859003L
+				}
+			}
+		}
+		{ item: "iceandfire:ectoplasm" }
+		{ item: "etched:jukebox_minecart" }
+		{ item: "create:minecart_coupling" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"agricraft:gene_inspector": {
+						agri_flag: 0b
+					}
+				}
+				id: "immersive_armors:warrior_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:bear_fur" }
+		{ item: "tconstruct:large_plate_cast" }
+		{ item: "iceandfire:banner_pattern_bird" }
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "autumnity:pumpkin_bread"
+			}
+			weight: 2.0f
+		}
+		{ count: 8, item: "autumnity:foul_berries" }
+		{
+			item: {
+				Count: 1
+				id: "jellyfishing:master_karate_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "quark:paper_lantern_sakura" }
+		{ item: "quark:paper_wall_sakura" }
+		{ item: "mekanism:configurator" }
+		{ item: "pneumaticcraft:liquid_hopper" }
+		{ item: "quark:cloud" }
+		{ item: "rats:rat_burger", weight: 5.0f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "tombstone:soulbound"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:thorns"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:power"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:multishot"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "wonderful_enchantments:phoenix_dive"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "wonderful_enchantments:horse_frost_walker"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ensorcellation:bulwark"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "create:potato_recovery"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "create:potato_cannon"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tombstone:scroll_of_aquatic_life"
+				tag: {
+					enchant: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "allurement:shockwave"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tombstone:scroll_of_unstable_intangibility"
+				tag: {
+					enchant: 1b
+				}
+			}
+		}
+		{ count: 3, item: "minecraft:rotten_flesh", weight: 2.0f }
+		{ item: "farmersdelight:basket" }
+		{ item: "create:smart_chute" }
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:roadrunner_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tombstone:magic_scroll"
+				tag: {
+					magic_effect: {
+						amplifier: 2b
+						id: "accessoriumeternia:breakfast_tea_effect"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "fairylights:witch_light"
+				tag: {
+					color: 8991416
+				}
+			}
+		}
+		{ count: 8, item: "tconstruct:flint_shuriken" }
+		{ item: "tconstruct:iron_reinforcement" }
+		{ item: "mekanism:basic_fluid_tank" }
+		{ item: "create:spout" }
+		{ item: "create:mechanical_harvester" }
+		{
+			item: {
+				Count: 1
+				id: "botania:manasteel_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "tconstruct:copper_can" }
+		{ item: "minecolonies:chorus_bread" }
+		{
+			item: {
+				Count: 1
+				id: "relics:chorus_inhibitor"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "mcwfurnitures:jungle_bookshelf_drawer" }
+		{ item: "mekanism:personal_chest" }
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "pneumaticcraft:wall_lamp_purple" }
+		{ item: "create:nixie_tube" }
+		{ item: "create:mechanical_arm" }
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:crafting_station"
+				tag: {
+					texture: "minecraft:dark_oak_log"
+				}
+			}
+		}
+		{ item: "create:cuckoo_clock", weight: 2.0f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:vanishing_curse"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ item: "mowziesmobs:music_disc_petiole" }
+		{ count: 8, item: "thermal:diving_fabric" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"agricraft:gene_inspector": {
+						agri_flag: 0b
+					}
+				}
+				id: "iceandfire:forest_troll_leather_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 32, item: "mcwfences:oak_horse_fence" }
+		{
+			item: {
+				Count: 1
+				id: "relics:elytra_booster"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:mountain_troll_leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_black_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "quark:bonded_leather" }
+		{
+			item: {
+				Count: 1
+				id: "thermal:flux_capacitor"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "thermal:watering_can"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "convenientcurioscontainer:curios_container"
+				tag: {
+					convenient_inventory: [
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+				}
+			}
+		}
+		{ item: "minecraft:lodestone" }
+		{ item: "aquaculture:gold_hook" }
+		{ item: "mowziesmobs:naga_fang" }
+		{ count: 8, item: "rats:rat_nugget" }
+		{
+			item: {
+				Count: 1
+				id: "thermal:flux_magnet"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vampirism:oil_bottle"
+				tag: {
+					oil: "vampirism:fire_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vampirism:oil_bottle"
+				tag: {
+					oil: "vampirism:swiftness"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vampirism:oil_bottle"
+				tag: {
+					oil: "vampirism:regeneration"
+				}
+			}
+		}
+		{ item: "thermal:detonator" }
+		{
+			item: {
+				Count: 1
+				id: "thermal:rf_potato"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "thermal:potion_quiver"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "thermal:flux_saw"
+				tag: { }
+			}
+		}
+		{ item: "vampirism:throne" }
+		{ item: "rats:token_piece" }
+		{ item: "rats:chunky_cheese_token" }
+		{ item: "rats:charged_creeper_chunk" }
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					Enchantments: [{
+						id: "ars_nouveau:reactive"
+						lvl: 1
+					}]
+					HideFlags: 33
+					display: {
+						Lore: [
+							"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+							"{\"text\":\"§7§oRight-Click to Open\"}"
+						]
+						Name: "{\"text\":\"§eQuest Loot\"}"
+					}
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:rainbow_rune"
+					}
+					rpgloot.randomize: 0b
+					type: "quest_loot"
+				}
+			}
+		}
+		{
+			count: 10
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:string"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "fairylights:letter_bunting"
+				tag: {
+					text: {
+						styling: [I; ]
+						value: ""
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "farmersdelight:grilled_salmon"
+				tag: {
+					display: {
+						Lore: [
+							"{\"text\":\"§8§oHow do you not have fish? It says fresh fish daily on the menu!\"}"
+							"{\"text\":\"§8§oJust get me the snapper bozo!\"}"
+						]
+						Name: "{\"text\":\"§7Guigino's §744$ Snapper\"}"
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "alexsmobs:rattlesnake_rattle"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "alexsmobs:banner_pattern_bear"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "alexsmobs:banner_pattern_australia_0"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "alexsmobs:music_disc_daze"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "alexsmobs:banana_peel"
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "alexsmobs:banner_pattern_new_mexico"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "iceandfire:banner_pattern_fire_head"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_banner_pattern"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_and_sickle_banner_pattern"
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:rat_trap"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:plague_doctorate"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "alexsmobs:maraca"
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:cooked_rat"
+				tag: {
+					StoredEffect: { }
+					"StoredEffectminecraft:health_boost": {
+						EffectAmplifier: 0
+						EffectDuration: 1200
+						EffectName: "minecraft:health_boost"
+					}
+					display: {
+						Lore: [
+							"{\"text\":\"\"}"
+							"{\"text\":\"§7Effect: §9Health Boost\"}"
+							"{\"text\":\"§7Duration: §91:00\"}"
+							"{\"text\":\"§7Amplifier: §91\"}"
+							"{\"text\":\"§5§6✎ §nLore Text\"}"
+							"{\"text\":\"§7§oI think this rat drowned in a Potion of Health Boost...\"}"
+						]
+						Name: "{\"text\":\"§dRat of Life\"}"
+					}
+				}
+			}
+		}
+		{ item: "mekanism:robit" }
+		{ item: "mekanism:chargepad" }
+		{ count: 16, item: "mcwdoors:iron_portcullis" }
+		{ item: "rats:rat_burger", random_bonus: 3, weight: 30.0f }
+		{ count: 3, item: "alexsmobs:kangaroo_burger" }
+		{ item: "iceandfire:siren_tear" }
+		{ item: "minecraft:heart_of_the_sea" }
+		{ item: "minecraft:ender_pearl" }
+		{ item: "minecolonies:chorus_bread" }
+		{ count: 3, item: "minecolonies:golden_bread" }
+		{ item: "minecolonies:sugary_bread" }
+		{ item: "minecraft:golden_horse_armor" }
+		{ count: 16, item: "mcwfences:spruce_horse_fence" }
+		{ item: "mcwfurnitures:oak_striped_chair" }
+		{ item: "mcwfurnitures:oak_bookshelf" }
+		{ item: "mcwfurnitures:oak_bookshelf_cupboard" }
+		{ item: "mcwfurnitures:stripped_jungle_coffee_table" }
+		{ item: "cookingforblockheads:fridge" }
+		{ item: "iceandfire:rotten_egg" }
+		{ count: 3, item: "minecraft:rotten_flesh" }
+		{ item: "minecraft:dark_oak_sapling" }
+		{ count: 64, item: "minecraft:bricks" }
+		{ count: 8, item: "quark:pink_framed_glass_pane" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:dirt"
+				tag: {
+					Enchantments: [{
+						id: "broomsmod:land_skills"
+						lvl: 1
+					}]
+					HideFlags: 1
+					display: {
+						Lore: [
+							"{\"text\":\"§b§l§nTHANK YOU FOR YOUR PURCHASE\"}"
+							"{\"text\":\"§3`\"}"
+							"{\"text\":\"§3Subjected to extreme quality control for the best quality dirt\"}"
+							"{\"text\":\"§3§lTriple infused §r§3with our patented diamond dirt refining technique!™\"}"
+							"{\"text\":\"§3§oEach dirt block is inspected by Sips_ himself before shipment to ensure perfection.. nothing less... \"}"
+							"{\"text\":\"§3`\"}"
+							"{\"text\":\"§7Boring Legal Gibberish For Nerds  §r§7↓\"}"
+							"{\"text\":\"§8§oNo diamonds are present in the product, our dirt is momentarily exposed to a diamond at some point during the manufacturing process as per regulation and then promptly removed as documented in the \\\"Sips Co. 32 Secret Herbs and Spices™\\\" dirt manufacturing process. \"}"
+						]
+						Name: "{\"text\":\"Premium Diamond Grade Sips Co.™ Quality Dirt\"}"
+					}
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:cyan_rune"
+					}
+				}
+			}
+		}
+		{ item: "iceandfire:dragonegg_silver" }
+		{ item: "rats:trash_can" }
+		{ item: "create:schematicannon" }
+		{ count: 3, item: "farmersdelight:sweet_berry_cheesecake_slice" }
+		{ item: "minecraft:poisonous_potato" }
+		{
+			item: {
+				Count: 1
+				id: "occultism:otherworld_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 8, item: "supplementaries:candy" }
+		{
+			item: {
+				Count: 1
+				id: "tombstone:lollipop"
+				tag: {
+					model_color: 0s
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonbone_axe"
+				tag: {
+					AS_Amulet_Holder: [I;
+						-1227576764
+						-1560065926
+						-2081613911
+						2036351875
+					]
+					Damage: 1660
+					Enchantments: [
+						{
+							id: "minecraft:sharpness"
+							lvl: 4
+						}
+						{
+							id: "minecraft:knockback"
+							lvl: 8
+						}
+					]
+					itemModifier: "modifiers:damaged"
+				}
+			}
+		}
+		{ item: "rats:dye_sponge" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:siren_flute"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:flute"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 10
+		}
+		{ item: "goety:tall_skull" }
+		{ item: "minecraft:bell" }
+		{ item: "supplementaries:bellows" }
+		{ item: "kubejs:loyalty_card_generic" }
+		{ item: "rats:marbled_cheese_rat_head" }
+		{ item: "rats:rat_breeding_lantern" }
+		{ item: "rats:compressed_rat" }
+		{ item: "alexsmobs:hemolymph_sac" }
+		{
+			item: {
+				Count: 1
+				id: "mininggadgets:mininggadget_fancy"
+				tag: {
+					Enchantments: [{
+						id: "tombstone:soulbound"
+						lvl: 1
+					}]
+					HideFlags: 1
+					beamRange: 20
+					breakType: 0b
+					canMine: 1b
+					colorBlue: 255s
+					colorBlueInner: 255s
+					colorGreen: 99s
+					colorGreenInner: 25s
+					colorRed: 255s
+					colorRedInner: 255s
+					display: {
+						Lore: ["{\"text\":\"§7§oInvented by a mad scientist who once was so lonely his only friend was a balloon called Balloony... which eventually left him too..\"}"]
+						Name: "{\"text\":\"§5The Mining Laser-inator!\"}"
+					}
+					energy: 0
+					filters: { }
+					freeze_particle_delay: 0
+					isWhitelist: 1b
+					maxBeamRange: 20
+					precisionMode: 0b
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:pink_rune"
+					}
+					range: 1
+					upgrades: [
+						{
+							enabled: 1b
+							upgrade: "range_3"
+						}
+						{
+							enabled: 1b
+							upgrade: "magnet"
+						}
+						{
+							enabled: 1b
+							upgrade: "light_placer"
+						}
+						{
+							enabled: 1b
+							upgrade: "efficiency_3"
+						}
+					]
+					volume: 1.0f
+				}
+			}
+		}
+		{ item: "kubejs:loyalty_card_generic" }
+		{ item: "alexsmobs:warped_muscle" }
+		{ item: "iceandfire:summoning_crystal_fire" }
+		{ item: "rats:plastic_waste", random_bonus: 10, weight: 10.0f }
+		{ item: "mekanism:block_charcoal" }
+		{ item: "rats:herb_bundle" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					display: {
+						Lore: [
+							"{\"text\":\"\"}"
+							"{\"text\":\"§8§oBelonged to The Questmaster, what is inside you ask? Gross! why would you even care?\"}"
+						]
+						Name: "{\"text\":\"§7§o§8Forgotten Trashcan\"}"
+					}
+					type: "forgotten_trashcan"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:paper"
+				tag: {
+					display: {
+						Lore: [
+							"{\"text\":\"§7§o1x Rat - 24 Hours \"}"
+							"{\"text\":\"§4§o§eStatus: §cLATE!\"}"
+							"{\"text\":\"\"}"
+							"{\"text\":\"§4§nRETURN ON TIME OR FACE FINES!\"}"
+							"{\"text\":\"\"}"
+							"{\"text\":\"§7§oYOU WOULDN'T STEAL A CAR\"}"
+							"{\"text\":\"§7§oYOU WOULDN'T STEAL A HANDBAG\"}"
+							"{\"text\":\"§7§oYOU WOULDN'T STEAL A TELEVISION\"}"
+							"{\"text\":\"§7§o§4§lSO DON'T STEAL A RAT! RAT THEFT IS A CRIME!\"}"
+							"{\"text\":\"\"}"
+						]
+						Name: "{\"text\":\"§8§oRent-a-Rat Reciept\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:bagpipe"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:didgeridoo"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:flute"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:lute"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:piano"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:triangle"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:trumpet"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:tiny_drum"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_codex"
+				tag: {
+					CaveBiome: "alexscaves:magnetic_caves"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_codex"
+				tag: {
+					CaveBiome: "alexscaves:primordial_caves"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_codex"
+				tag: {
+					CaveBiome: "alexscaves:toxic_caves"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_codex"
+				tag: {
+					CaveBiome: "alexscaves:abyssal_chasm"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_codex"
+				tag: {
+					CaveBiome: "alexscaves:forlorn_hollows"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_codex"
+				tag: {
+					CaveBiome: "alexscaves:candy_cavity"
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "alexscaves:jelly_bean"
+				tag: {
+					Potion: "alexscaves:deepsight"
+				}
+			}
+		}
+		{ item: "alexscaves:sack_of_sating" }
+		{ item: "alexscaves:subterranodon_egg" }
+		{ item: "domesticationinnovation:sinister_carrot" }
+		{ item: "interiors:purple_floor_chair" }
+		{ item: "goety:crystal_ball" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:troll_weapon_trunk"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 2, item: "chipped:big_lantern" }
+		{ item: "alexscaves:raygun" }
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:squid_grapple"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexscaves:radgill_bucket" }
+		{ item: "alexscaves:sundae" }
+		{ item: "alexscaves:sharpened_candy_cane" }
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:shot_gum"
+				tag: {
+					CrankAngle: 11070.0f
+					PrevCrankAngle: 11070.0f
+					PrevShootTime: 0
+					ShootTime: 0
+					Shooting: 0b
+				}
+			}
+		}
+		{ item: "alexsmobs:music_disc_thime" }
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:sand_rake"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mowziesmobs:gong" }
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:sculptor_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "infinitybuttons:red_safe_emergency_button" }
+		{ item: "infinitybuttons:console_button" }
+		{ item: "infinitybuttons:doorbell_button" }
+		{ item: "immersive_aircraft:gyrodyne" }
+		{ item: "immersive_aircraft:quadrocopter" }
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:piano"
+				tag: {
+					display: {
+						Name: "{\"text\":\"Worn Keyboard\"}"
+					}
+					enabled_tracks: [I; ]
+					melody: "immersive_melodies:melodies/all_my_fellas.midi"
+					playing: 1b
+					start_time: 434009L
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:rocky_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:candy_cane_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:hippocampus_slapper"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 2, item: "bosses_of_mass_destruction:crystal_fruit" }
+		{
+			item: {
+				Count: 1
+				id: "cloudstorage:cloud_blower"
+				tag: {
+					Mode: 1
+					PrevUseTime: 0
+					UseTime: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cloudstorage:balloon_buddy"
+				tag: {
+					Personality: 5
+					color: 15149353
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cloudstorage:propeller_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cloudstorage:balloon_arrow" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:axolotl_bucket"
+				tag: {
+					display: {
+						Name: "{\"text\":\"friend\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					display: {
+						Name: "{\"text\":\"Forgotten Trashcan\"}"
+					}
+					type: "forgotten_trashcan"
+				}
+			}
+		}
+		{ count: 3, item: "rats:cheese" }
+		{ item: "ars_nouveau:source_gem" }
+		{
+			item: {
+				Count: 1
+				id: "vampiresneedumbrellas:purple_gold_umbrella"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecolonies:tacos" }
+		{ item: "alexscaves:seething_stew" }
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:stink_bottle"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:stink_ray"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ramcompat:stink_gland"
+				tag: {
+					abilities: {
+						dash: {
+							points: 0
+							stats: {
+								cooldown: 7.91713d
+								power: 0.99663d
+							}
+						}
+						defense: {
+							points: 0
+							stats: {
+								cooldown: 15.98333d
+								duration: 3.59132d
+								radius: 2.94522d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Open: 0b
+						SelectedSlot: 1b
+						Size: 6
+					}
+				}
+				id: "supplementaries:lunch_basket"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "biomeswevegone:music_disc_pixie_club"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:earth_globe"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:moon_globe"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:mars_globe"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:mercury_globe"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:venus_globe"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:glacio_globe"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:radio"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cataclysm:lava_power_cell"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cataclysm:netherite_effigy"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:graybeard_staff"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:rotten_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:copper_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 5
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:silver_ring"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:cooldown_ring"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:cast_time_ring"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:amethyst_resonance_charm"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_machinery:tunnel_digger"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:music_disc_tasty"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alekiships:music_disc_pirate_crafting"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "hexcasting:sub_sandwich"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:conversion_crucible"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jellyfishing:blue_jellyfish_jelly_sandwich"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:sharpened_candy_cane"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "masquerader_mod:invitation"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vampiresdelight:eye_croissant"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:wind_vane"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "goety:star_amulet"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:kangaroo_burger"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:farmer_hat"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:fisherman_hat"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:plague_leech"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:assorted_vegetables"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:trash_can"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "rats:string_cheese"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:filth_corruption"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:rat_arrow"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:centipede"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:crimson_liquid"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:plague_tome"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:music_disc_mice_on_venus"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:rat_wheel"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:herb_bundle"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:pirat_hat"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:rat_flute"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:rat_seed_bowl"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:rat_cage"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:music_disc_mice_on_venus"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:ratbow_essence"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:charged_creeper_chunk"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:rat_nugget"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "piglinproliferation:buckler"
+				tag: {
+					ChargeTicks: 0
+					Damage: 0
+					Ready: 0b
+				}
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "alexsmobs:rainbow_glass"
+				tag: { }
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "minecraft:string"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:lightning_rod"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:lightning_rod"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:red_banner"
+				tag: {
+					BlockEntityTag: {
+						Patterns: [{
+							Color: 15
+							Pattern: "iaf_fire_head"
+						}]
+						id: "minecraft:banner"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "goety:blazing_horn"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cataclysm:black_steel_sword"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:raise_dead"
+							index: 0
+							level: 4
+							locked: 0b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+					display: {
+						Name: "{\"text\":\"Sword of Undeath\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:electromancer_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "waystones:return_scroll"
+				tag: { }
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "alexscaves:purple_soda_bottle_rocket"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublemounts:vehicle_bauble"
+				tag: {
+					ID: {
+						ID: [I;
+							-964412739
+							1975993322
+							-2025853711
+							-786346138
+						]
+					}
+					Mount: { }
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublemounts:mount_bauble"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:slingshot"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cgs:flintlock"
+				tag: {
+					AmmoCount: 1
+					variant: "default"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "biomancy:living_flesh"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "biomancy:flesh_fence_gate"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "biomancy:tongue"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "biomancy:mob_gland"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vampiresdelight:spirit_lantern"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "biomancy:flesh_spike"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "biomancy:fertilizer"
+				tag: { }
+			}
+		}
+		{ item: "milkablecreepers:creeper_milk", weight: 2.0f }
+		{ item: "thermal:blizz_rod" }
+		{ item: "supplementaries:safe" }
+		{ item: "infinitybuttons:red_safe_emergency_button" }
+		{ item: "alexscaves:siren_light" }
+		{ item: "alexscaves:nuclear_siren" }
+		{ item: "nuke_bay:nuke_bay" }
+		{ item: "vampiresdelight:blood_wine_glass" }
+		{ item: "iceandfire:pixie_jar_1" }
+		{
+			item: {
+				Count: 1
+				id: "betterarcheology:torrent_totem"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 3, item: "miners_delight:bat_rolls" }
+		{ item: "miners_delight:milk_cup" }
+		{ item: "miners_delight:squid" }
+		{ item: "miners_delight:rock_soup_cup" }
+		{ item: "miners_delight:squid_sandwich" }
+		{ item: "miners_delight:spicy_hoglin_stew_cup" }
+		{ item: "miners_delight:chicken_soup_cup" }
+		{ item: "hexcasting:sub_sandwich" }
+		{
+			item: {
+				Count: 1
+				id: "raccompat:acid_walker"
+				tag: {
+					abilities: {
+						walking: {
+							points: 0
+							stats: {
+								duration: 9.42969d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "raccompat:vine_ring"
+				tag: {
+					abilities: {
+						vine: {
+							points: 0
+							stats: {
+								cooldown: 25.96736d
+								length: 13.71958d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "raccompat:polar_boot"
+				tag: {
+					abilities: {
+						polarity: {
+							points: 0
+							stats: {
+								speed: 0.9073d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "raccompat:desolate_pendant"
+				tag: {
+					abilities: {
+						desolate: {
+							points: 0
+							stats: {
+								chance: 0.14454d
+								damage: 0.23371d
+							}
+						}
+						devastate: {
+							points: 0
+							stats: {
+								cooldown: 33.27402d
+								count: 1.24546d
+							}
+						}
+					}
+				}
+			}
+		}
+		{ item: "minecraft:calibrated_sculk_sensor" }
+		{
+			item: {
+				Count: 1
+				id: "jellyfishing:karate_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "betterarcheology:bomb" }
+		{
+			item: {
+				Count: 1
+				id: "betterarcheology:iron_brush"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "thermal:xp_stew" }
+		{
+			item: {
+				Count: 1
+				id: "constructs_casting:tinkerers_spellbook"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 6
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+					etstlib_tool_uuid: "f79f7468-e25f-4cc3-b419-a9ff25305858"
+					tic_modifiers: [
+						{
+							level: 1
+							name: "constructs_casting:cooldown_upgrade"
+						}
+						{
+							level: 1
+							name: "constructs_casting:mana_upgrade"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: { }
+					tic_volatile_data: {
+						upgrades: 5
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "monobank:monobank"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "untitledduckmod:duck_sack"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:sculptor_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:geomancer_robe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "iceandfire:weezer_blue_album" }
+		{ item: "advancementframes:stat_frame" }
+		{ item: "siegeweapons:siege_table_block" }
+		{
+			item: {
+				Count: 1
+				id: "champions:champion_egg"
+				tag: {
+					Champion: {
+						Affix: [ ]
+						Tier: 5
+					}
+					EntityTag: {
+						Id: "cataclysm:amethyst_crab"
+					}
+					display: {
+						Name: "{\"text\":\"Greg\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cgs:flintlock"
+				tag: {
+					AmmoCount: 1
+					variant: "default"
+				}
+			}
+		}
+		{ item: "cataclysm:amethyst_crab_meat" }
+		{
+			item: {
+				Count: 1
+				id: "thegreatbelow:echo_location_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "supplementaries:sconce_lever" }
+		{ item: "thegreatbelow:sculkshroom_item" }
+		{ item: "bosses_of_mass_destruction:soul_star" }
+		{ item: "netherexp:warped_sporeshroom" }
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:dreadbow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					CustomPotionColor: 16701501
+					CustomPotionEffects: [
+						{
+							Duration: 100
+							Id: 15
+						}
+						{
+							Amplifier: 2
+							Duration: 2000
+							Id: 3
+						}
+						{
+							Amplifier: 2
+							Duration: 2000
+							Id: 1
+						}
+						{
+							Amplifier: 0
+							Duration: 8500
+							Id: 24
+						}
+						{
+							Amplifier: 1
+							Duration: 2000
+							Id: 5
+						}
+						{
+							Amplifier: 0
+							Duration: 100
+							Id: 20
+						}
+					]
+					display: {
+						Name: "{\"text\":\"Bottle of \\\"Skooma\\\"\"}"
+					}
+				}
+			}
+		}
+		{ count: 6, item: "quark:torch_arrow" }
+		{
+			item: {
+				Count: 1
+				id: "piglinproliferation:buckler"
+				tag: {
+					ChargeTicks: 0
+					Damage: 0
+					Enchantments: [{
+						id: "piglinproliferation:bang"
+						lvl: 3s
+					}]
+					Ready: 0b
+					display: {
+						Name: "{\"text\":\"Ancient Buckler\"}"
+					}
+					"quark:RuneColor": "red"
+				}
+			}
+		}
+		{ item: "bosses_of_mass_destruction:soul_star" }
+		{
+			item: {
+				Count: 1
+				id: "rats:centipede"
+				tag: { }
+			}
+		}
+		{ item: "majruszsdifficulty:soul_jar" }
+		{ item: "alexscaves:radiant_essence" }
+		{ item: "cloudstorage:happy_cloud_in_a_bottle" }
+		{ item: "cloudstorage:angry_cloud_in_a_bottle" }
+		{ item: "minecraft:leather" }
+		{
+			item: {
+				Count: 1
+				id: "cloudstorage:cloud_blower"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tiab:time_in_a_bottle"
+				tag: {
+					storedTime: 160
+					totalAccumulatedTime: 160
+				}
+			}
+		}
+		{ item: "transmog:void_fragment" }
+		{
+			item: {
+				Count: 1
+				id: "thermal:beekeeper_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "illager_additions:samurai_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "bosses_of_mass_destruction:soul_star"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "xercapaint:item_palette" }
+		{
+			item: {
+				Count: 1
+				id: "xercapaint:item_canvas"
+				tag: {
+					author: "adam989911"
+					generation: 1
+					name: "981bca68-e54a-4630-8fa2-aad60c9052a3_1749214125"
+					pixels: [I;
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-393218
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-9735490
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-9735490
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-9735490
+						-393218
+						-393218
+						-9735490
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-9735490
+						-393218
+						-393218
+						-9735490
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-9735490
+						-393218
+						-393218
+						-9735490
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-9735490
+						-393218
+						-393218
+						-9735490
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-9735490
+						-393218
+						-393218
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-9735490
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+						-393218
+					]
+					title: "The Smiling Man"
+					v: 14
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:lute"
+				tag: {
+					display: {
+						Name: "{\"text\":\"Billy's Lute\"}"
+					}
+					enabled_tracks: [I; ]
+					melody: "immersive_melodies:melodies/today.mid"
+					playing: 1b
+					start_time: 208903L
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:piano"
+				tag: {
+					display: {
+						Name: "{\"text\":\"Reznor Piano\"}"
+					}
+					enabled_tracks: [I; ]
+					melody: "immersive_melodies:melodies/something_i_can_never_have.mid"
+					playing: 1b
+					start_time: 213662L
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:piano"
+				tag: {
+					display: {
+						Name: "{\"text\":\"Adam and Liam\"}"
+					}
+					enabled_tracks: [I; ]
+					melody: "immersive_melodies:melodies/the_sign.mid"
+					playing: 1b
+					start_time: 219507L
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:handpan"
+				tag: {
+					display: {
+						Name: "{\"text\":\"Crazy Handpan\"}"
+					}
+					enabled_tracks: [I; ]
+					melody: "immersive_melodies:melodies/axel_f.midi"
+					playing: 1b
+					start_time: 39002L
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ramcompat:stink_gland"
+				tag: {
+					abilities: {
+						dash: {
+							points: 0
+							stats: {
+								cooldown: 9.86964d
+								power: 1.40775d
+							}
+						}
+						defense: {
+							points: 0
+							stats: {
+								cooldown: 16.38971d
+								duration: 4.98025d
+								radius: 1.60426d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "complicated_bees:bee_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 2, item: "goety:apparition_door" }
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:bubble_blower"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "goety_spillage:factory_package" }
+		{ item: "goety_spillage:hinder_package" }
+		{ item: "goety_spillage:chagrin_package" }
+		{
+			item: {
+				Count: 1
+				id: "goety_spillage:engineer_mallet"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "d33840bb-6112-4b5e-aeee-8804ab30de9e"
+				}
+			}
+		}
+		{ item: "goety_spillage:pumpkin_bomb" }
+		{ item: "goety_spillage:skull_bomb" }
+		{ count: 3, item: "minecraft:emerald" }
+		{ item: "irons_spellbooks:emerald_stoneplate_ring" }
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:ring"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "17360161-f7cb-4b36-888c-1530a7309d0a"
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:copper"
+						"tconstruct:rock"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tinkersjewelry:ductile"
+						}
+						{
+							level: 1
+							name: "tinkersjewelry:armor_gem"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:durability": 143.0f
+						"tinkersjewelry:amplification": 0.963f
+					}
+				}
+			}
+		}
+		{ item: "kubejs:scorched_letter" }
+		{ item: "kubejs:mossy_letter" }
+		{ item: "kubejs:elegant_letter" }
+		{
+			item: {
+				Count: 1
+				id: "betterarcheology:torrent_totem"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:chorus_totem" }
+		{
+			item: {
+				Count: 1
+				id: "goety:totem_of_roots"
+				tag: {
+					"Max Souls": 100
+					Souls: 0
+				}
+			}
+		}
+		{ item: "cloudstorage:guide_book" }
+		{
+			item: {
+				Count: 1
+				id: "cloudstorage:balloon_buddy"
+				tag: {
+					Personality: 3
+					color: 15149353
+				}
+			}
+		}
+		{ item: "biofactory:nutrients_fluid_bottle" }
+		{ count: 8, item: "minecraft:rotten_flesh" }
+		{ item: "mce2lib:porkus_summon" }
+		{ item: "thegreatbelow:murmur_crystal" }
+		{ item: "thegreatbelow:firework_bundle" }
+		{
+			item: {
+				Count: 1
+				id: "vc_gliders:paraglider_gold"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vc_gliders:paraglider_iron"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vc_gliders:paraglider_wood"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:pumpkin_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 8, item: "tconstruct:scorched_brick" }
+		{ count: 8, item: "ars_nouveau:sourceberry_bush" }
+		{ item: "rats:confit_byaldi" }
+		{
+			item: {
+				Count: 1
+				id: "cloudstorage:balloon_buddy"
+				tag: {
+					Personality: 3
+					color: 15149353
+				}
+			}
+		}
+		{ item: "hexcasting:sub_sandwich" }
+		{ item: "dummmmmmy:target_dummy" }
+		{
+			item: {
+				Count: 1
+				id: "constructs_casting:eldritch_staff"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "31d48e3e-6793-4ae7-a9f6-3b305c7d98d9"
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							level: 1
+							name: "constructs_casting:casting"
+						}
+						{
+							level: 3
+							name: "constructs_casting:eldritch_upgrade"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:block_amount": 20.0f
+						"tconstruct:block_angle": 50.0f
+						"tconstruct:durability": 1337.0f
+						"tconstruct:use_item_speed": 0.4f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tinkers_advanced:compressed_iron"
+				}
+			}
+		}
+		{ item: "ae2:tiny_tnt" }
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:micromissiles"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "supplementaries:cage" }
+		{ item: "vampirism:bat_cage" }
+		{ item: "infinitybuttons:bookshelf_secret_button" }
+		{ item: "rats:rat_wheel" }
+		{ item: "aquaculture:glowstone_hook" }
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:hither_thither_wand"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:portal"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:sea_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "kubejs:artifact_endergem", weight: 150.0f }
+		{ count: 8, item: "irons_spellbooks:arcane_essence", weight: 50.0f }
+		{ count: 2, item: "irons_spellbooks:frozen_bone" }
+		{ item: "jadensnetherexpansiondelight:nether_dog_food" }
+		{ item: "jadensnetherexpansiondelight:glowcheese_sandwich" }
+		{ item: "jadensnetherexpansiondelight:lightspores_popsicle" }
+		{ item: "arsdelight:bombegrante_pie_slice" }
+		{ item: "arsdelight:unstable_cocktail" }
+		{ item: "jadensnetherexpansiondelight:blue_scale_fungus_roll" }
+		{ item: "ends_delight:chorus_fruit_pie_slice" }
+		{ item: "mynethersdelight:deviled_egg" }
+		{ item: "vampiresdelight:blood_hot_dog" }
+		{ item: "arsdelight:bombegrante_jelly" }
+		{ item: "nethersdelight:nether_skewer" }
+		{ item: "jadensnetherexpansiondelight:pearlescent_cookie" }
+		{ item: "jadensnetherexpansiondelight:wisp_custard" }
+		{ item: "oceansdelight:cooked_stuffed_cod" }
+		{ item: "trailandtales_delight:cherry_cheese_pie_slice" }
+		{ item: "trailandtales_delight:cheese_wheel" }
+		{ item: "trailandtales_delight:pitcher_plant_tea" }
+		{ item: "trailandtales_delight:fried_sniffer_egg" }
+		{ item: "trailandtales_delight:lantern_fruit" }
+		{ item: "trailandtales_delight:cherry_petal_tea" }
+		{ item: "trailandtales_delight:torchflower_tea" }
+		{ item: "trailandtales_delight:ancient_coffee" }
+		{
+			item: {
+				Count: 1
+				id: "trailandtales_delight:cherry_iron_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "oceansdelight:baked_tentacle_on_a_stick" }
+		{ item: "farmersdelight:mushroom_rice" }
+		{ item: "oceansdelight:bowl_of_guardian_soup" }
+		{ item: "nethersdelight:magma_gelatin" }
+		{ item: "oceansdelight:cooked_guardian_tail" }
+		{ item: "oceansdelight:fugu_roll" }
+		{ item: "farmersdelight:smoked_ham" }
+		{ item: "farmersdelight:ratatouille" }
+		{ item: "oceansdelight:braised_sea_pickle" }
+		{ item: "farmersdelight:tomato_sauce" }
+		{ item: "miners_delight:bat_cookie" }
+		{ item: "miners_delight:powder_snow_cup" }
+		{ item: "miners_delight:silverfish_eggs" }
+		{ item: "miners_delight:glow_squid" }
+		{ item: "miners_delight:bat_rolls" }
+		{ item: "miners_delight:squid_sandwich" }
+		{ item: "miners_delight:cave_soup_cup" }
+		{ item: "miners_delight:weird_caviar" }
+		{ item: "miners_delight:insect_stew" }
+		{ item: "miners_delight:seasoned_arthropods" }
+		{ item: "mce2lib:chicken_nugget_summon" }
+		{ item: "mce2lib:main_theme_music_disc" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1479480850
+							551765588
+							-1869922526
+							-753427457
+						]
+						Name: "Sips_"
+						Properties: {
+							textures: [{
+								Signature: "mEZ9Xc3o+bBM1zjnw1v/sHnUny4xDhszFERebUYhLnDWmzJxZ8ng5hQpplmJ685JzNGwCQz2g63rimH3adTLJ6Z82BaEnLxOCXVQg/fPzOGyH0oczg4EPjNLskBHBIYCviFhUEDgA4CirlGAEuowg2BhDFZEfaWHBQ6AxLlC0VuIt3zVx+1JhGNYJ4/v024Sj5hfIvrawe94+kb6lS/ecsiTnpFqkW1sH1iqSUZ1FPntVBhpJK07SxhkFqyIh6Ox0Ng26OtFTaOXBJqtatDbInyzmeFrILfj4irvGN7aaurz1QZXBhsaNk2O9df7d7CsdHXST3TRGXpL8kDL1/nqnGR1cEQLx656Fo+TDYHKM5mgqeIloTZbIo10h7Kc499QaoMiykojAHiAhGnk47tIxpxXPM6uRcpricdk16EVDEJOkCtRhbIZNdJjyU9o3XJN6gfnN//j7GSNxW2ctimG5re6qbeRPG1OPuau5+0KwqMo3cPMsK1qXP9qwEAySz1T53P5fX0ZiEFIJBe9FTgJV2lH1nSMLRpF+w5q32Eu7PmW3P2poAGnzU0ybwuUfd528ugnmg9u8RTUuJBlA8XIY2cKkdSlURQXVX67sU6q2SFTs60Ie2OiopgXhT75FTrDFOkE9iMRhanizHiqJn9qlA8RCrRam3G6A0djpk6Gngo="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1MDM1OTcxOTU1MCwKICAicHJvZmlsZUlkIiA6ICJhN2QwZTllZTIwZTM0NjU0OTA4YjNmMjJkMzE3OWJmZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaXBzXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNzhiMWRiYjRlOTMzZmFkZTVmNWE5NjIxYjZiMzBhN2Y0M2NmYzZlMTkzYzYzNjM5Zjg2MjcyYjBiYjE1ZDYiCiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "some_assembly_required:sandwich"
+				tag: {
+					BlockEntityTag: {
+						Sandwich: [
+							{
+								Count: 1b
+								id: "some_assembly_required:bread_slice"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bread"
+							}
+							{
+								Count: 1b
+								id: "some_assembly_required:bread_slice"
+							}
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Cursed \\\"Sandwich\\\"\"}"
+					}
+				}
+			}
+		}
+		{
+			command: "/brutalbosses spawnboss sips"
+			console: true
+			elevate_perms: true
+			type: "command"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					Enchantments: [
+						{
+							id: "minecraft:protection"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+					]
+					SkullOwner: {
+						Id: [I;
+							-1479480850
+							551765588
+							-1869922526
+							-753427457
+						]
+						Name: "Sips_"
+						Properties: {
+							textures: [{
+								Signature: "PF4x9Xg5by7LBon+De8fijiIz5DGxBSLW2KpA+5cD3KeVpsYbxRkUVtXyh5TH70Z+CoSGjmdgtdDL2ya1UXIBpcHMBqDZEA1NbgP9shQE8fDiYGhVeYZy8ZzpfEIgLfDVGEsvzYefxwIK53glTI6B7A/q1Eo6Gr3IfgPPjc019gUfJN7D9houQDbwDiAjK1sn7Qyeo2JJ35jr8VhbQagSMZyfVyamrNSEvE087yh0Ohx4csyQWEQ/uTra/IAPT08d6L05Jw2y3+PEbQQDb2HUSGbQ6tKrGaRyN8GyD9YjcF+EppXB/Homua/sMKKYw3p0o63tVa/haeoX2Q19lIe6s14yvwMpHay+25ieC+j40NJLThwJYMN+LcuhmUEMYOM2Uw1Ud5k1MI66SYR+cCOHKcv4yT8dgXWqD7nVahd+Mi1ioS5+/i8GJRK1vV59dz3IdMdnp4sMKme4Ax2gVev1Vvr7YCTfoQRTGG0c1wPiWzHXK8ri2cXqCzHUpT7zjUOgvtKBCpOK+0pO+FqejYIa84LCrYbft430M7kBx5Y/WlIyvwbBAPWRnwODhWzc3uREwwkffSuuRaaC4bKAdObOqfWdXGF13OQViOzhcEh68yZM7B9o/KXtcMKPbI5JomqA3mHNV5iIEud89MQicD0VwsF0HeT1S17n9PNUpGUL+Q="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1MDM3MzYxOTk0NiwKICAicHJvZmlsZUlkIiA6ICJhN2QwZTllZTIwZTM0NjU0OTA4YjNmMjJkMzE3OWJmZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaXBzXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNzhiMWRiYjRlOTMzZmFkZTVmNWE5NjIxYjZiMzBhN2Y0M2NmYzZlMTkzYzYzNjM5Zjg2MjcyYjBiYjE1ZDYiCiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+					display: {
+						Name: "{\"text\":\"The Boss\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "netherexp:valor_armor_trim_smithing_template" }
+		{ item: "minecraft:sentry_armor_trim_smithing_template" }
+		{ item: "minecraft:wild_armor_trim_smithing_template" }
+		{ item: "minecraft:shaper_armor_trim_smithing_template" }
+		{ item: "minecraft:snout_armor_trim_smithing_template" }
+		{ item: "minecraft:eye_armor_trim_smithing_template" }
+		{ item: "minecraft:wayfinder_armor_trim_smithing_template" }
+		{ item: "minecraft:coast_armor_trim_smithing_template" }
+		{ item: "minecraft:spire_armor_trim_smithing_template" }
+		{ item: "minecraft:host_armor_trim_smithing_template" }
+		{ item: "minecraft:shaper_armor_trim_smithing_template" }
+		{ item: "minecraft:rib_armor_trim_smithing_template" }
+		{ item: "netherexp:rift_armor_trim_smithing_template" }
+		{ item: "netherexp:spirit_armor_trim_smithing_template" }
+		{ item: "alexscaves:polarity_armor_trim_smithing_template" }
+		{
+			item: {
+				Count: 1
+				id: "tombstone:scroll_of_aquatic_life"
+				tag: {
+					enchant: 1b
+				}
+			}
+		}
+		{ item: "cataclysm:azure_seastone_mural_urchinkin" }
+		{ item: "cataclysm:azure_seastone_mural_clawdian" }
+		{ item: "cataclysm:curved_azure_seastone_scylla_8" }
+		{ item: "cataclysm:curved_azure_seastone_cindaria_3" }
+		{ item: "cataclysm:aptrgangr_head" }
+	]
+	title: "&e"
+	use_title: true
+}

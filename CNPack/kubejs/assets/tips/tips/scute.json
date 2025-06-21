@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Scute can be used to craft Turtle Armor which provides resistance and increased swim speed at the cost of slowness on land!"
+  }
+}

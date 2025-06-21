@@ -1,0 +1,405 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6transport__quick_travel"
+	group: "12BCDDCCCA65FD77"
+	icon: "immersive_aircraft:biplane"
+	id: "273CA855185B20FF"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["099610C83CC67421"]
+			description: [
+				"&6Hint:&r When you complete this quest, you will be automatically transported! Hoppy will keep you entertained all night with spooky stories and their famous Seafood Soup! &oTime moves fast when you are having fun!"
+				"&dDon't forget to thank the pilot!"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "immersive_aircraft:cargo_airship"
+				}
+			}
+			id: "7F3938A1B2F358DD"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/execute in mce:primordium run tp @p ~ 140 ~"
+					console: true
+					icon: {
+						Count: 1
+						id: "sophisticatedbackpacks:backpack"
+						tag: {
+							borderColor: 16351261
+							clothColor: 16351261
+						}
+					}
+					id: "5A6164294D4D4B1B"
+					silent: true
+					title: "&6Loading Luggage"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at @p run playsound immersive_aircraft:engine_start player @p ~ 140 ~ 1000 1.4 1"
+					console: true
+					icon: "immersive_aircraft:cargo_airship"
+					id: "25104EDEED35ACF6"
+					title: "&6TAKE OFF!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw @p {\"text\":\"§6[Hoppy]§7 Thank you for flying with me! Be careful out there! Primordium is endlessly dark and freezing. I won't land I'm afraid! I'm far too handsome to be eaten by undead! So I'll have to air-drop you down! Good Luck!!\",\"color\":\"gold\"}"
+					console: true
+					icon: "etched:radio"
+					id: "0BE26572B78516D4"
+					title: "&eAirline Announcment"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/effect give @p minecraft:slow_falling 20"
+					console: true
+					icon: "thermal:junk_net"
+					id: "5290461985F31E61"
+					title: "&6Equip Parachute"
+					type: "command"
+				}
+				{
+					id: "5C460A0C166D6E1E"
+					item: "aquaculture:turtle_soup"
+					type: "item"
+				}
+			]
+			secret: true
+			shape: "diamond"
+			subtitle: "Thank you for travelling with Hoppy's Blimp Transport Services™, we hope you &msurvive&r enjoy your experience flying with us!"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "artifacts:crystal_heart"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "624471483FE0D265"
+					title: "&d&lThank Hoppy!"
+					type: "checkmark"
+				}
+				{
+					amount: 1500L
+					currency: "eternalcurrencies:coins"
+					id: "25D1C3AC22C4C52D"
+					title: "&6Fare"
+					type: "eternalcurrencies:currency"
+				}
+			]
+			title: "&6One-Way-Ticket To: &dPrimordium"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["33DBFD4B00935B0A"]
+			description: [
+				"&6Hint:&r When you complete this quest, you will be automatically transported! &oIt's a fast plane!"
+				"&eTip:&r Monsters do not spawn above ground in The Sakura Dimension! It is also always day-time! Watch out for structures though, monsters will populate those!"
+				"&dDon't forget to thank the pilot!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "rats:rat_mount_biplane"
+				}
+			}
+			id: "6EDE355877B11C4F"
+			optional: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/execute in mce:sakura_dimension run tp @p ~ ~ ~"
+					console: true
+					icon: "sophisticatedbackpacks:backpack"
+					id: "65A461C8BB254C3A"
+					title: "&eLoading Luggage"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at @p run playsound immersive_aircraft:engine_start player @p ~ ~ ~ 1000 1 1"
+					console: true
+					icon: "immersive_aircraft:biplane"
+					id: "1FFDEEEFCE354804"
+					title: "&eTAKE OFF!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "0FB632C433C408F7"
+					item: {
+						Count: 1
+						id: "rats:cheese"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"§e§oThis is the best airplane food you've ever eaten you whisper to yourself...\"}"]
+								Name: "{\"text\":\"§eComplimentary Meal\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw @p {\"text\":\"[Rat Pilot Romone] Thank you for flying Rat-Air! We have arrived at our destination. The Sakura Dimension is beautiful this time of year! Enjoy!\",\"color\":\"gold\"}"
+					console: true
+					icon: "etched:radio"
+					id: "0A5C817676118FAC"
+					title: "&eAirline Announcement"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/titles add @p titles:tourist"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "6D0328AD3E6697B7"
+					title: "&eUnlock Title:&r the Tourist"
+					type: "command"
+				}
+				{
+					id: "4EDB8855D5C72968"
+					item: {
+						Count: 1
+						id: "majruszsdifficulty:recall_potion"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			secret: true
+			shape: "diamond"
+			subtitle: "Thank you for travelling with Rat-Air™, we hope you enjoy your flight and complimentary meal!"
+			tasks: [
+				{
+					id: "39CD14D74B05C58F"
+					title: "&d&lThank The Pilot"
+					type: "checkmark"
+				}
+				{
+					amount: 1500L
+					currency: "eternalcurrencies:coins"
+					id: "172DD2098EEA440E"
+					title: "&6Fare"
+					type: "eternalcurrencies:currency"
+				}
+			]
+			title: "&6One-Way-Ticket To: &dSakura Dimension"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"&eFor the &olow low&r &eprice of 3500 coins you can experience our world class &o\"All Inclusive\"&r&e cruise to a beautiful paradise island! Say goodbye to worries and &l&oHello To Sunshine!"
+				"&dGot Questions? Contact us at 555-I-Want-a-Cruise-NOW!"
+				"&cNYI"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "man_of_many_planes:scarlet_biplane"
+				}
+			}
+			id: "35EFC7B10B7F5CF9"
+			invisible: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/playsound tropicraft:bongo.low ambient @p ~ 120 ~ 1000 0.5"
+					icon: {
+						Count: 1
+						id: "sophisticatedbackpacks:backpack"
+						tag: {
+							borderColor: 8439583
+							clothColor: 8439583
+						}
+					}
+					id: "77E5971EFBF6DCEB"
+					title: "&eLoad Baggage"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/playsound minecraft:event.raid.horn ambient @p ~ 120 ~ 1000 1.1"
+					icon: {
+						Count: 1
+						id: "artifacts:helium_flamingo"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "669D4DF73D0CEC14"
+					title: "&eKick Back!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute in tropicraft:tropics run tp @p ~ 130 ~"
+					icon: "minecraft:oak_boat"
+					id: "351D6353E92F0AF1"
+					title: "&eDock Safely"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw @p {\"text\":\"§6[Ship Captain]§7 We have arrived! We hope you have enjoyed your time with DreamCruise! Please make your way off the ship and to the beach! Enjoy a complimentary Piña colada on us to help get you in the tropical spirit! I've been your captain! Farewell!\",\"color\":\"gold\"}"
+					icon: "supplementaries:cracked_bell"
+					id: "74D271C2C30B27DF"
+					title: "&7Ship Announcment! "
+					type: "command"
+				}
+				{
+					icon: "farmersdelight:basket"
+					id: "32ECDC30471D23E6"
+					title: "&6Complementary Holiday Hamper"
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Do &lyou&r need a holiday? You &llook&r like you need a holiday!"
+			tasks: [
+				{
+					id: "683CAD39499157D8"
+					title: "&6&lPAY FOR 1 CRUISE TICKET "
+					type: "custom"
+				}
+				{
+					id: "642660295B743904"
+					title: "&dThank The Captain!"
+					type: "checkmark"
+				}
+				{
+					icon: "snailmail:envelope_closed"
+					id: "6E0484E21818805E"
+					title: "&3You've Got Mail! "
+					type: "custom"
+				}
+			]
+			title: "&7Junk Mail: &eDreamCruise LTD! "
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2785A42DDDEB324C"]
+			description: [
+				"&eTip:&r This will bring you to spawn. It is Quick-Travel."
+				"&6Hint:&r When you complete this quest, you will be automatically transported! &oIt's a fast blimp and Rats make great pilots!"
+				"&dDon't forget to thank the pilot!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "immersive_aircraft:cargo_airship"
+				}
+			}
+			id: "389A5C22260E4104"
+			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute at @p run playsound immersive_aircraft:engine_start_warship ambient @p ~ ~ ~ 100"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:backpack"
+					id: "3437F8CD1FA0538C"
+					title: "&eLoading Luggage"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute in minecraft:overworld run tp @p ~ 160 ~"
+					elevate_perms: true
+					icon: "immersive_aircraft:gyrodyne"
+					id: "28C1AA62E1A62664"
+					title: "&eTake Off!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "480CB9DB1D619451"
+					item: {
+						Count: 1
+						id: "rats:blue_cheese"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"§b§oThis is the second best airline food you've ever eaten you whisper to yourself..\"}"]
+								Name: "{\"text\":\"§bComplimentary Meal\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[Pilot Mr Whiskers]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" Thank you for flying Rat-Air! We have arrived at our destination! Brace for impact and put on your parachute!\"}]"
+					elevate_perms: true
+					icon: "etched:radio"
+					id: "10BAB3A2DBA1A772"
+					title: "&eAirline Announcement"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/effect give @p minecraft:slow_falling 20"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "vc_gliders:paraglider_iron"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "068C089EEF8B20AA"
+					title: "&6Equip Parachute"
+					type: "command"
+				}
+			]
+			secret: true
+			shape: "diamond"
+			subtitle: "Thank you for travelling with Rat-Air™, we hope you enjoy your flight and complimentary meal!"
+			tasks: [
+				{
+					id: "38A274064D6BB8FA"
+					title: "&d&lThank The Pilot"
+					type: "checkmark"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "45678AF158EBF895"
+					title: "&6Fare"
+					type: "eternalcurrencies:currency"
+				}
+			]
+			title: "&6Return-Ticket To: &eSpawn - The Overworld"
+			x: 1.0357142857142918d
+			y: 3.5535714285714306d
+		}
+	]
+	title: "&6Fast Travel"
+}

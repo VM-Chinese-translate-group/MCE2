@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Claiming chunks will prevent explosions and unwanted players/entities from breaking blocks. Always claim your chunks! You can claim chunks by opening &dThe Chunk Map"
+  }
+}

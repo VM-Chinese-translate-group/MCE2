@@ -1,0 +1,2077 @@
+{
+	empty_weight: 25.0f
+	icon: "mekanism:personal_chest"
+	id: "6DBE03BB0E0DCBED"
+	loot_crate: {
+		color: 0
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Unclaimed Black Market Container"
+		string_id: "blackmarket_cache"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:netherite_scrap"
+			}
+			weight: 800.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:neptunium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 300.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "supplementaries:pancake"
+			}
+			weight: 300.0f
+		}
+		{ item: "iceandfire:dragonsteel_lightning_ingot", weight: 20.0f }
+		{ item: "create:schematicannon", weight: 800.0f }
+		{ item: "create:cuckoo_clock", weight: 800.0f }
+		{ item: "rats:rat_upgrade_tnt_survivor", weight: 20.0f }
+		{ item: "rats:creative_cheese", weight: 20.0f }
+		{ item: "rats:dragon_wing", weight: 300.0f }
+		{
+			item: {
+				Count: 1
+				id: "rats:piper_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 800.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:gilded_rat_flute"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 300.0f
+		}
+		{ item: "rats:ratbow_essence", weight: 300.0f }
+		{ item: "rats:marbled_cheese_rat_head", weight: 300.0f }
+		{ item: "rats:purifying_liquid", weight: 300.0f }
+		{
+			item: {
+				Count: 1
+				id: "rats:chef_toque"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 300.0f
+		}
+		{ item: "thermal:ice_grenade", weight: 800.0f }
+		{ item: "thermal:explosive_grenade", random_bonus: 10, weight: 800.0f }
+		{ item: "thermal:slime_grenade", weight: 800.0f }
+		{ item: "thermal:redstone_grenade", weight: 800.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "thermal:glowstone_grenade"
+			}
+			weight: 1000.0f
+		}
+		{ item: "thermal:ender_grenade", random_bonus: 10, weight: 800.0f }
+		{ item: "thermal:earth_grenade", random_bonus: 10, weight: 800.0f }
+		{ item: "thermal:fire_grenade", random_bonus: 10, weight: 800.0f }
+		{ item: "thermal:lightning_grenade", weight: 800.0f }
+		{
+			item: {
+				Count: 1
+				id: "jellyfishing:golden_spatula"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{ item: "jellyfishing:krabby_patty", weight: 1600.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "jellyfishing:power_karate_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 1200.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "jellyfishing:master_karate_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 800.0f
+		}
+		{ item: "jellyfishing:triple_gooberberry_sunrise", weight: 1000.0f }
+		{ item: "minecraft:music_disc_pigstep", weight: 800.0f }
+		{ item: "quark:music_disc_endermosh", weight: 800.0f }
+		{ count: 8, item: "minecraft:diamond", random_bonus: 15, weight: 1400.0f }
+		{ count: 16, item: "minecraft:emerald", random_bonus: 10, weight: 1400.0f }
+		{ count: 3, item: "iceandfire:manuscript", random_bonus: 20, weight: 1800.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "iceandfire:dragonscales_red"
+			}
+			random_bonus: 15
+			weight: 250.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "iceandfire:dragonscales_copper"
+			}
+			random_bonus: 10
+			weight: 250.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "iceandfire:dragonscales_sapphire"
+			}
+			weight: 250.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "iceandfire:dragonscales_black"
+			}
+			random_bonus: 10
+			weight: 250.0f
+		}
+		{ item: "iceandfire:ice_dragon_blood", weight: 800.0f }
+		{ item: "iceandfire:fire_dragon_blood", weight: 800.0f }
+		{ count: 8, item: "iceandfire:dragonbone", weight: 1000.0f }
+		{ item: "iceandfire:pixie_wings", weight: 300.0f }
+		{ count: 16, item: "iceandfire:gold_pile", weight: 600.0f }
+		{ item: "iceandfire:siren_tear", weight: 300.0f }
+		{ item: "iceandfire:shiny_scales", random_bonus: 10, weight: 300.0f }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:hippogryph_egg"
+				tag: {
+					EggOrdinal: 0
+				}
+			}
+			weight: 300.0f
+		}
+		{ item: "iceandfire:deathworm_egg_giant", weight: 1000.0f }
+		{ item: "iceandfire:deathworm_tounge", weight: 300.0f }
+		{ item: "iceandfire:rotten_egg", weight: 700.0f }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:umbrella"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 900.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:plastic_drinking_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 800.0f
+		}
+		{ item: "artifacts:whoopee_cushion", weight: 1000.0f }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:flippers"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 500.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:steadfast_spikes"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 500.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:kitty_slippers"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 1000.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:bunny_hoppers"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 500.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:aqua_dashers"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 500.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:antidote_vessel"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 500.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:cloud_in_a_bottle"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 700.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:superstitious_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 500.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:ice_skates"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 900.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:midnight_robe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 500.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:rage_glove"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 500.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:blazing_flask"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 700.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:elytra_booster"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 900.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:fire_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 300.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:arrow_quiver"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 800.0f
+		}
+		{ item: "rats:rat_upgrade_strider_mount", weight: 20.0f }
+		{ item: "rats:rat_upgrade_chicken_mount", weight: 20.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:little_black_squash_balls"
+			}
+			weight: 1000.0f
+		}
+		{ item: "rats:rat_upgrade_golem_mount", weight: 20.0f }
+		{ item: "rats:oratchalcum_ingot", random_bonus: 10, weight: 20.0f }
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "blackmarket_cache"
+				}
+			}
+			weight: 1200.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:rat_king_crown"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:ghost_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 900.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:travelers_helmet"
+				tag: {
+					Damage: 0
+					HideFlags: 3
+					etstlib_tool_uuid: "201c70d2-6cbc-4be6-8f48-ade5e4cf04e1"
+					tic_broken: 0b
+					tic_modifiers: [{
+						level: 1
+						name: "tconstruct:tanned"
+					}]
+					tic_persistent: { }
+					tic_persistent_data: {
+						abilities: 1
+						defense: 2
+						upgrades: 3
+					}
+					tic_stats: {
+						"tconstruct:armor": 1.0f
+						"tconstruct:durability": 110.0f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						defense: 2
+						upgrades: 3
+					}
+				}
+			}
+			weight: 300.0f
+		}
+		{ item: "vampirism:vampire_minion_upgrade_special", weight: 300.0f }
+		{ item: "tconstruct:iron_reinforcement", weight: 300.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "tconstruct:bacon"
+			}
+			weight: 1000.0f
+		}
+		{ item: "tconstruct:jeweled_apple", weight: 300.0f }
+		{ item: "iceandfire:stymphalian_feather_bundle", weight: 500.0f }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dread_queen_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "iceandfire:dread_key"
+			}
+		}
+		{ item: "iceandfire:hydra_heart", weight: 20.0f }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:tide_trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 600.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					CustomPotionEffects: [{
+						Ambient: 0b
+						Duration: 600
+						Id: 108b
+					}]
+					Effects: [{
+						Ambient: 0b
+						Duration: 600
+						Id: 108b
+					}]
+					display: {
+						Lore: [
+							"{\"text\":\"§oWith great power comes a terrible hangover\"}"
+							"{\"text\":\"§6Become invulnerable for a limited time \"}"
+						]
+						Name: "{\"text\":\"§9§6§5§4§3§2§1§0§r§a§b§c§d§e§f§k§l§m§m§l§k§f§m§m§m§m§n§n§n§n§o§r§r§o§o§r§r§r§r§9§7§6§5Insaneo Style\"}"
+					}
+				}
+			}
+			weight: 20.0f
+		}
+		{ count: 16, item: "alexsmobs:centipede_leg", weight: 700.0f }
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:fedora"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 500.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:frontier_cap"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 500.0f
+		}
+		{ item: "alexsmobs:guster_eye", weight: 700.0f }
+		{ item: "alexsmobs:warped_mixture", weight: 700.0f }
+		{ count: 6, item: "alexsmobs:crocodile_scute", weight: 500.0f }
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:present_brown"
+				tag: {
+					BlockEntityTag: {
+						Description: "Please accept this as a memento. Please do not forget me. I will not forget you.."
+						Items: [{
+							Count: 1b
+							Slot: 0b
+							id: "aquaculture:gold_fishing_rod"
+							tag: {
+								AttributeModifiers: [
+									{
+										Amount: 1.0d
+										AttributeName: "forge:swim_speed"
+										Name: "ResourceKey[minecraft:attribute / forge:swim_speed]"
+										Operation: 0
+										Slot: "mainhand"
+										UUID: [I;
+											-1083509514
+											335168917
+											-1810419543
+											752042334
+										]
+									}
+									{
+										Amount: 1.0d
+										AttributeName: "generic.luck"
+										Name: "ResourceKey[minecraft:attribute / minecraft:generic.luck]"
+										Operation: 0
+										Slot: "mainhand"
+										UUID: [I;
+											1735088204
+											-1248901693
+											-1563675801
+											-404394871
+										]
+									}
+								]
+								Damage: 0
+								Enchantments: [
+									{
+										id: "minecraft:luck_of_the_sea"
+										lvl: 3
+									}
+									{
+										id: "minecraft:lure"
+										lvl: 3
+									}
+								]
+								Unbreakable: 1b
+								display: {
+									Name: "{\"text\":\"§6Jeweled Fishing Pole\"}"
+								}
+							}
+						}]
+						Recipient: "To my dear friend"
+						Sender: "adam989911"
+						id: "supplementaries:present"
+					}
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:safe"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "minecraft:gold_nugget"
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "rats:golden_rat_skull"
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "minecraft:gold_block"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "rats:rat_king_crown"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "rats:ratlantis_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "iceandfire:dragonarmor_gold_head"
+							}
+							{
+								Count: 1b
+								Slot: 8b
+								id: "minecraft:gold_nugget"
+							}
+							{
+								Count: 1b
+								Slot: 9b
+								id: "gunswithoutroses:gold_gun"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								Slot: 10b
+								id: "minecraft:gold_nugget"
+							}
+							{
+								Count: 1b
+								Slot: 13b
+								id: "supplementaries:flute"
+								tag: {
+									AttributeModifiers: [
+										{
+											Amount: 1.0d
+											AttributeName: "tetra:ability_cooldown"
+											Name: "ResourceKey[minecraft:attribute / tetra:ability_cooldown]"
+											Operation: 0
+											Slot: "mainhand"
+											UUID: [I;
+												-117088698
+												-2058598416
+												-2001893390
+												-1689827079
+											]
+										}
+										{
+											Amount: 1.0d
+											AttributeName: "generic.follow_range"
+											Name: "ResourceKey[minecraft:attribute / minecraft:generic.follow_range]"
+											Operation: 0
+											Slot: "offhand"
+											UUID: [I;
+												1767962875
+												619659908
+												-1119968789
+												-648617361
+											]
+										}
+									]
+									Damage: 0
+									display: {
+										Lore: ["{\"text\":\"§o§7Oh so special!\"}"]
+										Name: "{\"text\":\"§6Special Flute\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 16b
+								id: "majruszs_difficulty:golden_bandage"
+							}
+							{
+								Count: 1b
+								Slot: 17b
+								id: "artifacts:golden_hook"
+							}
+							{
+								Count: 1b
+								Slot: 18b
+								id: "minecraft:gold_nugget"
+							}
+							{
+								Count: 1b
+								Slot: 19b
+								id: "jellyfishing:golden_spatula"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								Slot: 23b
+								id: "minecraft:gold_block"
+							}
+							{
+								Count: 1b
+								Slot: 25b
+								id: "atum:golden_date_enchanted"
+							}
+							{
+								Count: 1b
+								Slot: 26b
+								id: "minecraft:gold_nugget"
+							}
+						]
+						Owner: [I;
+							-1227576764
+							-1560065926
+							-2081613911
+							2036351875
+						]
+						OwnerName: "adam989911"
+					}
+				}
+			}
+			weight: 200.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "iceandfire:armor_silver_metal_helmet"
+				tag: {
+					AS_Amulet_Holder: [I;
+						-1227576764
+						-1560065926
+						-2081613911
+						2036351875
+					]
+					AttributeModifiers: [
+						{
+							Amount: 1.0d
+							AttributeName: "generic.armor_toughness"
+							Name: "ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								1540309582
+								1036140861
+								-2123955565
+								1421430351
+							]
+						}
+						{
+							Amount: 4.0d
+							AttributeName: "generic.armor"
+							Name: "ResourceKey[minecraft:attribute / minecraft:generic.armor]"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								-1277563567
+								112479803
+								-1198367923
+								894305067
+							]
+						}
+						{
+							Amount: 1.0d
+							AttributeName: "horse.jump_strength"
+							Name: "ResourceKey[minecraft:attribute / minecraft:horse.jump_strength]"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								-1052030903
+								591285008
+								-1742480726
+								-185783517
+							]
+						}
+					]
+					Damage: 101
+					Enchantments: [
+						{
+							id: "minecraft:mending"
+							lvl: 1
+						}
+						{
+							id: "cursery:curse_illusion"
+							lvl: 1
+						}
+					]
+					display: {
+						Lore: ["{\"text\":\"§3§3Feels slightly magical, has a taste for Experience\"}"]
+						Name: "{\"text\":\"§bRusty Knight Helmet\"}"
+					}
+				}
+			}
+			weight: 1200.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:ratlantis_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "hats_hats_hats"
+				}
+			}
+			weight: 500.0f
+		}
+		{ item: "rats:plague_tome", weight: 300.0f }
+		{ item: "rats:filth_corruption", weight: 300.0f }
+		{
+			item: {
+				Count: 1
+				id: "cataclysm:final_fractal"
+				tag: {
+					AS_Amulet_Holder: [I;
+						-1227576764
+						-1560065926
+						-2081613911
+						2036351875
+					]
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "cataclysm:zweiender"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "cataclysm:void_core"
+			}
+			weight: 380.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:heart_of_the_sea"
+			}
+			weight: 1000.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "rats:gilded_rat_flute"
+				tag: {
+					AS_Amulet_Holder: [I;
+						-1227576764
+						-1560065926
+						-2081613911
+						2036351875
+					]
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:mending"
+						lvl: 1
+					}]
+					HideFlags: 1
+					display: {
+						Lore: ["{\"text\":\"§7\\\"Tastes like Cheese!\\\"\"}"]
+						Name: "{\"text\":\"§6Adam's Flute\"}"
+					}
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:rainbow_rune"
+					}
+					rpgloot.randomize: 0b
+				}
+			}
+			weight: 900.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "thermal:gold_coin"
+			}
+			random_bonus: 20
+			weight: 1400.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:fin_cutter"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 1600.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:music_disc_forsaken_drownage"
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:terrible_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 1600.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:divider"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:whisper_of_the_abyss"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:abyssal_heaume"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:abyssal_brigantine"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:abyssal_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:abyssal_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:abyssal_tiara"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:coral_lance"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 4s
+					}]
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:shell_horn"
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:poisoned_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:three_bolt_suit"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:three_bolt_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:three_bolt_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:three_bolt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:poisoned_chakra"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:sweet_lance"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:looting"
+						lvl: 1s
+					}]
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:treasure_pouch"
+			}
+			weight: 2000.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:pirate_pouch"
+			}
+			weight: 2800.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:terrible_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 800.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:abyssal_brigantine"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:terrible_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 800.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:terrible_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 800.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:terrible_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 800.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:frozen_chest"
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:poseidons_breakfast"
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:ship_graveyard_echo"
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:dead_sea_scroll"
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:painting_aurora"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:fin"
+			}
+			weight: 1000.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:shell_horn"
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:luminescent_bubble"
+			}
+			weight: 1000.0f
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:anglers_fang"
+			}
+			weight: 1600.0f
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:luminescent_lamp"
+			}
+			weight: 1600.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquamirae:maze_rose"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 400.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "supplementaries:bomb_blue"
+			}
+			weight: 600.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "iceandfire:deathworm_egg_giant"
+			}
+			weight: 1600.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "botania:record_gaia_2"
+			}
+			weight: 800.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "botania:record_gaia_1"
+			}
+			weight: 800.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "artifacts:helium_flamingo"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 1000.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:tc_level"
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "quark:ravager_hide"
+			}
+			weight: 1000.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "quark:diamond_heart"
+			}
+			weight: 1000.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "dreadsteel:dreadsteel_ingot"
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "iceandfire:lich_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 500.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:mcejaffa"
+			}
+			weight: 800.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					AS_Amulet_Holder: [I;
+						-1227576764
+						-1560065926
+						-2081613911
+						2036351875
+					]
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:punch"
+						lvl: 11
+					}]
+					display: {
+						Lore: ["{\"text\":\"§o§oPreviously owned by goat3045\"}"]
+						Name: "{\"text\":\"§0§lBOW OF YEETING\"}"
+					}
+				}
+			}
+			weight: 200.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:written_book"
+				tag: {
+					Enchantments: [{
+						id: "ars_nouveau:reactive"
+						lvl: 1
+					}]
+					HideFlags: 1
+					author: "The Grand Nagus"
+					display: {
+						Lore: ["{\"text\":\"§e§oThe 245th Edition\"}"]
+					}
+					pages: [
+						"{\"text\":\"What the Nagus wants, we acquire.\\n\\nOnce you have their money... you never give it back.\\n\\nMoney is §leverything\\n\\n§8§oThis page is damaged\\n-----------------\"}"
+						"{\"text\":\"Never spend more for an acquisition than you have to.\\n\\nSedition and treason are always profitable\\n\\nAlways exaggerate your estimates.\\n\\nNever allow family law stand in the way of opportunity.\"}"
+						"{\"text\":\"Keep your ears open.\\n\\nSmall print leads to large risk\\n\\nOpportunity plus instinct equals profit\\n\\nGreed is eternal\\n\\nAnything worth doing is worth doing for money.\"}"
+						"{\"text\":\"Sometimes the quickest way to find profits is to let them find you.\\n\\nDead men close no deals.\\n\\nA deal is a deal... until a better one comes along.\\n\\n\"}"
+						"{\"text\":\"A contract is a contract is a contract... but only between Ferengi\\n\\nA Ferengi without profit is no Ferengi at all\\n\\nSatisfaction is not guaranteed.\\n\\n\"}"
+						"{\"text\":\"He who dives under the table today lives to profit tomorrow.\\n\\nNever place friendship above profit.\\n\\nA wise man can hear profit in the wind.\\n\\n\"}"
+						"{\"text\":\"Nothing is more important than your health... except for your money.\\n\\nThere's nothing more dangerous than an honest businessman.\\n\\nWhat's in it for me?\\n\\n\\\"Confidentiality equals profit.\\\"\"}"
+						"{\"text\":\"Never make fun of a Ferengi's mother. Insult something he cares about instead.\\n\\nIt never hurts to suck up to the boss\\n\\nWar is good for business.\\n\\nPeace is good for business.\"}"
+						"{\"text\":\"The early investor reaps the most interest.\\n\\nDon't tell customers more than they need to know.\\n\\nShe can touch your lobes but never your latinum.\"}"
+						"{\"text\":\"Profit is its own reward.\\n\\nFeed your greed, but not enough to choke it.\\n\\nNever confuse wisdom with luck.\\n\\nExpand or die.\"}"
+						"{\"text\":\"Don't trust a man wearing a better suit than your own.\\n\\nThe bigger the smile, the sharper the knife.\\n\\nNever ask when you can take.\\n\\nNever trust anybody taller than you.\"}"
+						"{\"text\":\"Rate divided by time equals profit. (Also known as \\\"The Velocity of Wealth.\\\")\\n\\nTake joy from profit, and profit from joy.\\n\\nGood customers are as rare as latinum—treasure them.\"}"
+						"{\"text\":\"There is no substitute for success.\\n\\nFree advice is seldom cheap.\\n\\nKeep your lies consistent.\\n\\nThe riskier the road, the greater the profit.\\n\"}"
+						"{\"text\":\"§8§oThe rest of the book is damaged... The pages seem to have been forcefully removed\\n\\n\"}"
+					]
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:orange_rune"
+					}
+					rpgloot.randomize: 0b
+					title: "§6The Rules of Acquisition"
+				}
+			}
+			weight: 300.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:eternal_steak"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "tombstone:soulbound"
+							lvl: 1
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5
+						}
+					]
+					display: {
+						Lore: ["{\"text\":\"§e§oSteak procured from the legendary \\\"Ghow\\\"\"}"]
+						Name: "{\"text\":\"§dGhow Steak\"}"
+					}
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:white_rune"
+					}
+				}
+			}
+			weight: 250.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "kubejs:s_soup"
+				tag: {
+					Enchantments: [{
+						id: "ars_nouveau:reactive"
+						lvl: 1
+					}]
+					HideFlags: 1
+					display: {
+						Lore: ["{\"text\":\"§bUnlocks the power of §lThe Sculptor! §r§b§o(briefly)\"}"]
+					}
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:rainbow_rune"
+					}
+				}
+			}
+			weight: 1000.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:tiny_potato"
+				tag: {
+					display: {
+						Name: "{\"text\":\"pahimar\"}"
+					}
+				}
+			}
+			weight: 250.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:tiny_potato"
+				tag: {
+					display: {
+						Name: "{\"text\":\"gold\"}"
+					}
+				}
+			}
+			weight: 350.0f
+		}
+		{ item: "rats:chunky_cheese_token", weight: 200.0f }
+		{
+			item: {
+				Count: 1
+				id: "bosses_of_mass_destruction:gauntlet_blackstone"
+				tag: {
+					display: {
+						Lore: ["{\"text\":\"§4§oBreak at your own peril....\"}"]
+					}
+				}
+			}
+			weight: 500.0f
+		}
+		{ item: "bosses_of_mass_destruction:brimstone_nectar", weight: 800.0f }
+		{
+			item: {
+				Count: 1
+				id: "bosses_of_mass_destruction:earthdive_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 800.0f
+		}
+		{ item: "bosses_of_mass_destruction:mob_ward", weight: 400.0f }
+		{
+			item: {
+				Count: 1
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 150.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 150.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 150.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endrem:old_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 150.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 150.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 150.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endrem:cold_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 150.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endrem:corrupted_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 150.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endrem:black_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 150.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 150.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endrem:witch_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 150.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:pocket_watch"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:tc_kill"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:nuclear_bomb"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:tier_4_rocket"
+				tag: {
+					BotariumData: {
+						StoredFluids: [{
+							Amount: 3000L
+							Fluid: "ad_astra:fuel"
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "untitledduckmod:duck_sack"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:earthrend_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "nuke_bay:nuke_bay" }
+		{ count: 3, item: "bfr:solidified_waste" }
+		{ item: "vampiresneedumbrellas:creative_umbrella" }
+		{ item: "minecraft:bedrock" }
+		{ item: "kubejs:mobdrop_endermanheart_beating" }
+		{ item: "iceandfire:ice_dragon_heart" }
+		{ item: "bosses_of_mass_destruction:obsidian_heart" }
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:raygun"
+				tag: {
+					PrevRayX: -201.75290974205123d
+					PrevRayY: 76.91203857276014d
+					PrevRayZ: -45.0d
+					PrevUseTime: 0
+					RayX: -201.75290974205123d
+					RayY: 76.91203857276014d
+					RayZ: -45.0d
+					UseTime: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:ratlantis_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cgs:gatling"
+				tag: {
+					AmmoCount: 100
+					FireMode: "ntgl:auto"
+					variant: "default"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_weathering:ice_sickle"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 3
+					}]
+					Unbreakable: 1b
+					display: {
+						Lore: ["{\"text\":\"Despite being made of solid ice, this weapon is not cold...\",\"italic\":true,\"color\":\"gray\"}"]
+						Name: "{\"text\":\"Death's Grasp\",\"color\":\"gold\",\"italic\":false}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:plague_scythe"
+				tag: {
+					AS_Amulet_Holder: [I;
+						-1227576764
+						-1560065926
+						-2081613911
+						2036351875
+					]
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Lore: ["{\"text\":\"§7§kk§f§7\\\"LIFE DEATH LIFE DEATH LIFE DEATH\\\"§kf\"}"]
+						Name: "{\"text\":\"§8\\\"Death\\\"\"}"
+					}
+					etstlib_tool_uuid: "e749a354-00e9-4f72-bc8f-a699c97d9067"
+				}
+			}
+		}
+	]
+	title: "{loot_table.2}"
+	use_title: true
+}

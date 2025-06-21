@@ -1,0 +1,34 @@
+{
+	id: "5A39920C0FF1F852"
+	loot_size: 1
+	order_index: 19
+	rewards: [{
+		item: {
+			Count: 1
+			id: "ftbquests:lootcrate"
+			tag: {
+				Enchantments: [{
+					id: "ars_nouveau:reactive"
+					lvl: 1
+				}]
+				HideFlags: 33
+				display: {
+					Lore: [
+						"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+						"{\"text\":\"§7§oRight-Click to Open\"}"
+					]
+					Name: "{\"text\":\"§eQuest Loot\"}"
+				}
+				"quark:RuneAttached": 1b
+				"quark:RuneColor": {
+					Count: 1b
+					id: "quark:rainbow_rune"
+				}
+				rpgloot.randomize: 0b
+				type: "quest_loot"
+			}
+		}
+		weight: 10.0f
+	}]
+	title: "penny"
+}

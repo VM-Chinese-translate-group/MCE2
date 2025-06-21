@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Iron Golems have a ranged attack and can be repaired by a Blacksmith Villager!"
+  }
+}

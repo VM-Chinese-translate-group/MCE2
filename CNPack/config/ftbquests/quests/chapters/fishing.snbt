@@ -1,0 +1,2720 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fishing"
+	group: "6ACD28698B988220"
+	icon: {
+		Count: 1
+		id: "rats:fisherman_hat"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "41A4C8DD57C58D66"
+	images: [
+		{
+			height: 13.0d
+			image: "modpack:textures/mossy_letter_fish.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 1.6734693877551052d
+			y: -2.2380952380952337d
+		}
+		{
+			dependency: "0D4D2C4884395067"
+			height: 1.7d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependency: "0D4D2C4884395067"
+			height: 1.7d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependency: "0D4D2C4884395067"
+			height: 1.7d
+			image: "minecraft:block/cave_vines"
+			rotation: 180.0d
+			width: 1.2d
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependency: "3492A28AFAC628CA"
+			height: 1.0d
+			image: "mcwlights:block/golden_chain"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.24489795918367463d
+			y: 1.2040816326530646d
+		}
+		{
+			dependency: "3492A28AFAC628CA"
+			height: 1.0d
+			image: "mcwlights:block/golden_chain"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.24489795918367463d
+			y: 0.5102040816326507d
+		}
+		{
+			height: 1.0d
+			image: "aquaculture:textures/item/neptunium_sword.png"
+			rotation: 88.0d
+			width: 1.0d
+			x: -1.3877551020408134d
+			y: 1.224489795918366d
+		}
+		{
+			height: 1.0d
+			image: "aquaculture:textures/item/neptunium_sword.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: 0.46938775510204067d
+			y: 1.183673469387763d
+		}
+		{
+			dependency: "3EBD648693877A38"
+			height: 0.5d
+			image: "aquaculture:textures/item/worm.png"
+			rotation: 88.0d
+			width: 0.5d
+			x: -5.591836734693885d
+			y: -1.04081632653061d
+		}
+		{
+			dependency: "3EBD648693877A38"
+			height: 0.5d
+			image: "aquaculture:textures/item/worm.png"
+			rotation: 180.0d
+			width: 0.5d
+			x: -4.380952380952387d
+			y: -1.0238095238095326d
+		}
+		{
+			height: 3.0d
+			image: "jellyfishing:textures/particle/cloud_combo_two.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.857142857142854d
+			y: -8.999999999999996d
+		}
+		{
+			height: 3.0d
+			image: "jellyfishing:textures/particle/cloud_combo.png"
+			rotation: 180.0d
+			width: 3.0d
+			x: 8.380952380952387d
+			y: 4.000000000000007d
+		}
+		{
+			dependency: "557FE184A38249C7"
+			height: 1.0d
+			image: "jellyfishing:textures/block/pineapple_fan_small.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.964285714285715d
+			y: -3.642857142857146d
+		}
+		{
+			dependency: "557FE184A38249C7"
+			height: 1.7d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependency: "3EBD648693877A38"
+			height: 1.0d
+			image: "jellyfishing:textures/block/pineapple_fan_small.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -7.666666666666664d
+		}
+		{
+			height: 1.0d
+			image: "modpack:textures/fishing_title.png"
+			rotation: 0.0d
+			width: 5.132832080200501d
+			x: -0.4523809523809561d
+			y: -8.38095238095238d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "117DE24427FD8DE4"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "277C5F19F1141196"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "00A0C72E341B01BF"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "00001D9D2D70B1BC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.3.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "02D7F682906D1A4D"
+				item: "aquaculture:atlantic_cod"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "6A1D4FA54C7C12BB"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4AF2DEEDB5A95A57"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "26D5C692F81A7E3D"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "097B6034C983F1CB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.4.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "7613CB9F7B35C890"
+				item: "aquaculture:blackfish"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "45B4C69CD741533F"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "50A6B3B6CC882D45"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "229EFCC83E224F90"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "0D5E56FDA14F205C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.5.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "0D713389033C59B2"
+				item: "aquaculture:pacific_halibut"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "73E5BEDB416CCB57"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "766A3EFC8171D591"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7BAA3128ED35F2ED"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "232DA4D1D9AD2EB6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.6.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "554E78A2DDE9EE96"
+				item: "aquaculture:atlantic_halibut"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "18F5957F3881A748"
+			rewards: [
+				{
+					id: "1CA45131E01E162E"
+					type: "custom"
+				}
+				{
+					id: "4F352C0D282994C9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "alexsdelight:seafood_soup"
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "73DD67DA881B557A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5C2A2B1A98E38A7E"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "15BE793EC7ECE2C7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.7.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "447D3BBAC0F803E5"
+				item: "aquaculture:atlantic_herring"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "78E8AE5C3C992959"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "654A08071C5F241B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7199C8DBD7C868D9"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "075731E697B5E618"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.8.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "0929E1D58BBAE5C2"
+				item: "aquaculture:pink_salmon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "4899A9806C832A8B"
+			rewards: [
+				{
+					id: "264786F278AA8FB2"
+					type: "custom"
+				}
+				{
+					id: "2F5037397C829843"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "alexsdelight:seafood_soup"
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "79F4CD3172351486"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "32460B3B8FA01E72"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "33E8A2DE2470BD50"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.9.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "77DEE4CEA325D491"
+				item: "aquaculture:pollock"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "07B59C8502FFF2C6"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "788C891733B00530"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0A6E42C51A12CF2F"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "48A571D29473DA36"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.10.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "4BB0F1A901C93317"
+				item: "aquaculture:rainbow_trout"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "09B1AFE0223D9D00"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "769551296544D8A2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1A9D263586A40501"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "1A0EA5BE35761561"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.11.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "2B4435A793980CA8"
+				item: "aquaculture:bayad"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "26298FA7EB517B92"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "3A7D79945EFF033E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5A63B180C857BF2F"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "5CA7E8ED75DB6CEC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.12.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "6F7939D27678905C"
+				item: "aquaculture:boulti"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "1BF8B8A54982CD9C"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "0345CD913191B657"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "373CD5D797E0EC34"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "152E47CF63DB7352"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.13.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "6E2BE78EFF32200D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:capitaine"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "5BD178FE872B6070"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "5F20101A5F95EC24"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "65751C2038F34CA3"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.14.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "1680C91BDAF7C584"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:synodontis"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "3066B4BED84580A8"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "7C112F6AE3FB41C9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "49B1D5E60F278545"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "27C33F9B41CD2EC5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.15.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "42EC997AA1CFA256"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:smallmouth_bass"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			id: "7AD5F42193C2BBDF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4434F5A84F980EC4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "280F04BD6E7AF9C2"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "2BCD86234197FCDD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.16.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "1768A7ADE3A3FC1E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:bluegill"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "589BEDE5E1737A92"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "35F6CA0571487285"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1A76BD63A25397B6"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "3A8B5B9077FFA839"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.17.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "3FA3E0E3A73A8546"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:brown_trout"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "3CDB2D08E65A7879"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "3A7E9DEA8B83E097"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3485DC03F01C9DBF"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "0657A5E32E04F368"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.18.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "694278757AEEEC5C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:carp"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			id: "759526FE303D24C7"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "564D3C12EA657A7E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0B6D3928FE3E4256"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "4007943901D03003"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.19.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "7A7D2D4719F10F8D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:catfish"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "5DF21F9F0A19B54A"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4DADBB762652505B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "39F0FBFA8B3426FA"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "162175B398D4E80D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.20.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "016DFDBE2FC3CCB8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:gar"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "0648D6BD6C5BBA22"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "5C4AAEAC66411D7D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0B3BA4A694BC2AEB"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "314F06733613E9E8"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.21.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "1F91898363D2D8EE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:minnow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "1E6F4923A9E3C9AD"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "65B2026EC6341868"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1EF5EBC15EA2B34E"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "4341423C67309074"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.22.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "5794C0999D193E48"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:muskellunge"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "3EF14C2ED31E04E3"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "5D7A4B41E52C3DDE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2E9D7095540E0A10"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "74E2FE3E438D616B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.23.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "6D046EC563D5CB63"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:perch"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "60F34266DE963342"
+			rewards: [
+				{
+					id: "5DF489FFACF74AFC"
+					type: "custom"
+				}
+				{
+					id: "18BAEA160B8EC796"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "alexsdelight:seafood_soup"
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "6E301114C1977335"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "40D28D7DEB1C6808"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "46C4F2623A5175A5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.24.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "12A12ED5914CF635"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:arapaima"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "3B3124E38FFD9E0C"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "61BE93A6E416D4FC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "797F1AA113DDF8D9"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "0BCC2E3457B99325"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.25.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "12474556A334ABC1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:piranha"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "06C4CDC90BADA0A1"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "6A47B99FF86B9A52"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "28DD308501DFA1A8"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "3D079B686072EC0F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.26.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "34CE9CAA1BB6A38F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:tambaqui"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "096BD876E5BBF17E"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "583CA06C840C7C77"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "699516A9AD631952"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "68DADD6D53F83832"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.27.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "2F57F080A75047F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:brown_shrooma"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "0EE897FCA8B9A27F"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "026D4AE75E06F7C8"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0A3271AC772C2847"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "635E11D98732E1B8"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.28.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "77CBFFAC748E76E2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:red_shrooma"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			id: "7470499058488405"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "73FF3659078EB442"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "67D2868D95062C5D"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "134D421DA4EC321B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.29.subtitle}"
+			tasks: [{
+				count: 16L
+				id: "0889E4574A68522C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:jellyfish"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "0CCD6520D8895339"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "33C312424A0F4C65"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5FB54751C2C30550"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "489B51ADFC3D5689"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.30.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "1593516AFA704024"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:red_grouper"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "7CEADFEF47C6107D"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "5125F79A7F6F10C7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "73CAEA37AD2FAD06"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "486DB5CCDEF41154"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.31.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "7D779281A6F70757"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:tuna"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "0D4D2C4884395067"
+			rewards: [
+				{
+					id: "74F9313C5ABBBEB7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "rats:fisherman_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add @p titles:angler"
+					icon: "titles:title_scroll_common"
+					id: "67B4BA738E9E28F4"
+					title: "{chapter.16.quest.32.reward.3.title}"
+					type: "command"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "7EDD0FAC52FC3D2B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2BC91B45143A02C6"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "{chapter.16.quest.32.subtitle}"
+			tasks: [{
+				id: "363A5BB41A559525"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5000000000000071d
+			y: -1.0892857142857153d
+		}
+		{
+			dependencies: ["0D4D2C4884395067"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3EBD648693877A38"
+			rewards: [
+				{
+					id: "42CAC776A1577285"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7ABC6F0FA196B8B3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:redstone_hook"
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "3B739F3542142BEE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "40707E7DBCF9526D"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.33.subtitle}"
+			tasks: [{
+				id: "529F37CDDCA50855"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:tackle_box"
+				}
+				type: "item"
+			}]
+			title: "{chapter.16.quest.33.title}"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12948A1DDC98DEC9"]
+			id: "616371BC1EF5ECC6"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "093319F87AB4AC04"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0AC30997412BBC0A"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.34.subtitle}"
+			tasks: [{
+				id: "398CFC32E0924DC8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:bobber"
+				}
+				type: "item"
+			}]
+			title: "{chapter.16.quest.34.title}"
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3EBD648693877A38"]
+			id: "5ED6CC6FBA450EC0"
+			rewards: [
+				{
+					id: "6F6BEACEC86EC7AF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:algae"
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "2C9A08EA188F4844"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3C236C3BE5577759"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.35.subtitle}"
+			tasks: [{
+				id: "6E1C371BC43CBE4B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:worm_farm"
+				}
+				type: "item"
+			}]
+			title: "{chapter.16.quest.35.title}"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5ED6CC6FBA450EC0"]
+			description: ["{chapter.16.quest.36.description.1}"]
+			id: "12948A1DDC98DEC9"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "5AA7F61CAA5E29D9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "75A06343DD082DBF"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.36.subtitle}"
+			tasks: [{
+				id: "1A2745DED08FAE02"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:oak_fish_mount"
+				}
+				title: "{chapter.16.quest.36.task.1.title}"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["616371BC1EF5ECC6"]
+			description: ["{chapter.16.quest.37.description.1}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: false
+			id: "3492A28AFAC628CA"
+			rewards: [
+				{
+					id: "080BFA3633CFAC06"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "6079266FF8D03705"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5DAFDDEA59246322"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{chapter.16.quest.37.subtitle}"
+			tasks: [
+				{
+					id: "6CB01A9C8A80333D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:neptunium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C30978E83F91FE9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:neptunium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6440467F25F64B3F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:neptunium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "590B3261B23BBBA5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:neptunium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76A552F1E9268A0A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:neptunium_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{chapter.16.quest.37.title}"
+			x: -0.47380952380952834d
+			y: 0.007142857142852677d
+		}
+		{
+			dependencies: ["3492A28AFAC628CA"]
+			description: ["{chapter.16.quest.38.description.1}"]
+			id: "506339C57E34FC7F"
+			optional: true
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:warped_trapped_chest"
+					}
+					id: "2F6A280585AA1A59"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_gear:bow": {
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:neptunium_bow"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 5.0d
+									AttributeName: "dmcloot:dmcloot.learning"
+									Name: "ResourceKey[minecraft:attribute / dmcloot:dmcloot.learning]"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										837935974
+										-1799074076
+										-1141029091
+										493448342
+									]
+								}
+								{
+									Amount: 5.0d
+									AttributeName: "dmcloot:dmcloot.lightning.damage"
+									Name: "ResourceKey[minecraft:attribute / dmcloot:dmcloot.lightning.damage]"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										549620702
+										1095385522
+										-1506714154
+										153576622
+									]
+								}
+								{
+									Amount: 2.0d
+									AttributeName: "forge:swim_speed"
+									Name: "ResourceKey[minecraft:attribute / forge:swim_speed]"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										939211062
+										-1710800586
+										-2036653743
+										-587029317
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [
+								{
+									id: "miningmaster:freezing"
+									lvl: 3
+								}
+								{
+									id: "embellishedenchanting:thunderbolt"
+									lvl: 1
+								}
+								{
+									id: "minecraft:power"
+									lvl: 3
+								}
+							]
+							HideFlags: 1
+							Unbreakable: 1b
+							display: {
+								Lore: ["{\"text\":\"§6Legendary\"}"]
+								Name: "{\"text\":\"§9Ocean Piercer\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+						}
+					}
+					title: "{chapter.16.quest.38.reward.1.title}"
+					type: "item"
+				}
+				{
+					command: "/titles add @p titles:deep"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "7116565D5C8F0516"
+					title: "{chapter.16.quest.38.reward.2.title}"
+					type: "command"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4B844EE5A51CA0B6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "625C5DDED0EC5660"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "72FB9621F42C76C8"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{chapter.16.quest.38.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "0C2DC558B1620B1F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:heart_of_the_sea"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3C5F7984C20F43E4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_gear:bow": {
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:neptunium_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 15L
+					id: "6F9AB5B3F626B828"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquamirae:anglers_fang"
+					}
+					type: "item"
+				}
+			]
+			title: "{chapter.16.quest.38.title}"
+			x: -0.448979591836725d
+			y: 1.8775510204081627d
+		}
+		{
+			dependencies: ["557FE184A38249C7"]
+			id: "0694AD42F3D43182"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "75FC1AE80E997AD1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "45AFFBD63489431C"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.39.subtitle}"
+			tasks: [
+				{
+					id: "49D1ABA72D0A1101"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "jellyfishing:air_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "186A0CB57A7F41C2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "jellyfishing:air_suit_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B766ECF1BC0BBF2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "jellyfishing:air_suit_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E96F6646BEF8D9E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "jellyfishing:air_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0D4D2C4884395067"]
+			description: ["{chapter.16.quest.40.description.1}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "557FE184A38249C7"
+			rewards: [
+				{
+					id: "2CB908A7644A8AF5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "jellyfishing:kelp_mustache"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4D3C467F085BA6D8"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "25B93AB5D7971E1F"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.16.quest.40.subtitle}"
+			tasks: [{
+				id: "34F51CB772C0DBB4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "jellyfishing:jellyfish_net"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "5576B1567B7B2557"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "009947C36E580392"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "342F2D8587460945"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "0A4CF46DF66EAC46"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "2FF249F8ABEE8CAC"
+				item: { Count: 32, id: "lavafishing:steam_flying_fish" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "{chapter.16.title}"
+}

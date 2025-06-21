@@ -1,0 +1,1784 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "animal_compendium"
+	group: "6ACD28698B988220"
+	icon: "alexsmobs:tab_icon"
+	id: "3348CB91A5659884"
+	images: [
+		{
+			height: 1.0d
+			image: "mowziesmobs:textures/particle/flare_radial.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "fairylights:textures/entity/letter/exclamation_mark.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0170068027210917d
+			y: -6.795918367346932d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/mimic_octopus.png"
+			rotation: 180.0d
+			width: 3.0d
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/roadrunner.png"
+			rotation: 180.0d
+			width: 3.0d
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			height: 1.5d
+			image: "modpack:textures/bone_serpent_head_with_horns.png"
+			rotation: 180.0d
+			width: 1.5d
+			x: -2.0d
+			y: 1.7865646258503531d
+		}
+		{
+			height: 1.5d
+			image: "modpack:textures/rattlesnake.png"
+			rotation: 180.0d
+			width: 1.5d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/frilled_shark.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/dropbear.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.0d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.0d
+			y: 12.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.0d
+			y: 15.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 15.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			height: 1.5d
+			image: "astralsorcery:textures/gui/overlay/item_frame.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/moose_antlered.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/gorilla.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/alligator_snapping_turtle_moss.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/bald_eagle.png"
+			rotation: 180.0d
+			width: 3.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/mob_effect/orcas_might.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/mungus.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/blobfish_depressurized.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			height: 1.5d
+			image: "modpack:textures/cachalot_whale.png"
+			rotation: 180.0d
+			width: 1.5d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/platypus.png"
+			rotation: 180.0d
+			width: 3.0d
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/mantis_shrimp_0.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/cockroach.png"
+			rotation: 180.0d
+			width: 3.0d
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/capuchin_monkey.png"
+			rotation: 180.0d
+			width: 3.0d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/tiger.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/tasmanian_devil.png"
+			rotation: 180.0d
+			width: 3.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.5d
+			image: "modpack:textures/guster.png"
+			rotation: 180.0d
+			width: 1.5d
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/crocodile_0.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/kangaroo.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/seal.png"
+			rotation: 180.0d
+			width: 3.0d
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/komodo_dragon.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			height: 2.8d
+			image: "modpack:textures/hammerhead_shark.png"
+			rotation: 180.0d
+			width: 2.8d
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/emu.png"
+			rotation: 180.0d
+			width: 3.0d
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/lobster_redblue.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/tarantula_hawk.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: -10.0d
+			y: 14.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/sunbird.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: -10.0d
+			y: 11.0d
+		}
+		{
+			height: 1.5d
+			image: "modpack:textures/grizzly_bear.png"
+			rotation: 180.0d
+			width: 1.5d
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/hummingbird_0.png"
+			rotation: 180.0d
+			width: 3.0d
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/elephant.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/leafcutter_ant.png"
+			rotation: 180.0d
+			width: 3.0d
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/shoebill.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: -10.0d
+			y: 8.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.1.description.1}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "cavesandcliffs:spyglass"
+			id: "0EBF6A9719BB7574"
+			rewards: [
+				{
+					id: "4DD1232E66944C21"
+					item: "aquaculture:turtle_soup"
+					type: "item"
+				}
+				{
+					id: "519B32ACB27B25EA"
+					type: "custom"
+				}
+			]
+			subtitle: "{chapter.18.quest.1.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "76054D04B7784C1C"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.1.task.1.title}"
+				to_observe: "alexsmobs:alligator_snapping_turtle"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "cavesandcliffs:spyglass"
+			id: "730AA8FF3B1D5FFF"
+			rewards: [
+				{
+					id: "6A42FEDC6AD98B2A"
+					type: "custom"
+				}
+				{
+					id: "47F35E1E9DA26A12"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "26B87A7CB472D164"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "alexsmobs:falconry_glove"
+					}
+					type: "item"
+				}
+				{
+					id: "7CD3A80180EB6CC4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "alexsmobs:falconry_hood"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.2.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "prehistoricfauna:dromaeosaur_claw"
+				}
+				id: "0CB8065005D0B569"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.2.task.1.title}"
+				to_observe: "alexsmobs:bald_eagle"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.3.description.1}"]
+			id: "053690126EB056CD"
+			rewards: [
+				{
+					id: "1D91AC099141A580"
+					item: "camera:album"
+					type: "item"
+				}
+				{
+					id: "6F74E6CC7147CC14"
+					type: "custom"
+				}
+				{
+					command: "/titles add @p titles:wildlife_photographer"
+					icon: "titles:title_scroll_uncommon"
+					id: "3A27C008C589C25D"
+					title: "{chapter.18.quest.3.reward.3.title}"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{chapter.18.quest.3.subtitle}"
+			tasks: [{
+				id: "11E406F3114981AA"
+				item: "camera:camera"
+				type: "item"
+			}]
+			title: "{chapter.18.quest.3.title}"
+			x: -2.047619047619051d
+			y: -6.076190476190476d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6E43E3720CAD62BD"
+			rewards: [
+				{
+					id: "018FA73EC2416F08"
+					type: "custom"
+				}
+				{
+					id: "7B62F8EFD29B9365"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.4.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "381DFF9EEAD5FA70"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.4.task.1.title}"
+				to_observe: "alexsmobs:gorilla"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_text_until_complete: false
+			hide_until_deps_visible: true
+			id: "3EF16F008734E0EA"
+			rewards: [
+				{
+					id: "4557CDE34D14FA6D"
+					type: "custom"
+				}
+				{
+					id: "7ACD38512EB32702"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.5.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "51182E2755DB26A4"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.5.task.1.title}"
+				to_observe: "alexsmobs:blobfish"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "59C69C0FF435E15E"
+			rewards: [
+				{
+					id: "5849A9416BB981D5"
+					type: "custom"
+				}
+				{
+					id: "7033EEB59012B795"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "15CB2C4EBB02C585"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			subtitle: "{chapter.18.quest.6.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "520D202B35B5352C"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.6.task.1.title}"
+				to_observe: "alexsmobs:bone_serpent"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5D80C2726C373333"
+			rewards: [
+				{
+					id: "4ABFDD23A964E1F4"
+					type: "custom"
+				}
+				{
+					id: "39B1D9DFE0C151FE"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "10AAD8B1527E00FB"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			subtitle: "{chapter.18.quest.7.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "5E71DD895A88FE1C"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.7.task.1.title}"
+				to_observe: "alexsmobs:cachalot_whale"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "232342855D8AE067"
+			rewards: [
+				{
+					id: "3263E2173CCFAC19"
+					type: "custom"
+				}
+				{
+					id: "0CA80BE83863E580"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.8.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "5E0E18B45C03EA7D"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.8.task.1.title}"
+				to_observe: "alexsmobs:cockroach"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			id: "22E9B4362EEED53D"
+			rewards: [
+				{
+					id: "487CEDC052C97E3E"
+					type: "custom"
+				}
+				{
+					id: "328D35F00F523355"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.9.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "634A05BE60F664B1"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.9.task.1.title}"
+				to_observe: "alexsmobs:capuchin_monkey"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "cavesandcliffs:spyglass"
+			id: "3870E2F1E8A34005"
+			rewards: [
+				{
+					id: "2789173AF833FCBA"
+					type: "custom"
+				}
+				{
+					id: "6A35C5D0B76ABEF3"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "36AE6CE0C93F5B93"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			subtitle: "{chapter.18.quest.10.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "1625623617E19376"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.10.task.1.title}"
+				to_observe: "alexsmobs:tiger"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.11.description.1}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "388E3887FCC8BDE7"
+			rewards: [
+				{
+					id: "301B19AA584A2CEF"
+					type: "custom"
+				}
+				{
+					id: "52F553CBC968E699"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.11.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "3D39B7FB11ACE69D"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.11.task.1.title}"
+				to_observe: "alexsmobs:seal"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7300391FE576F1BC"
+			rewards: [
+				{
+					id: "2194D5423FDF7BCF"
+					type: "custom"
+				}
+				{
+					id: "55006ECA17F6E2F4"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "32D72FF064DF10CF"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.12.task.1.title}"
+				to_observe: "alexsmobs:kangaroo"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.13.description.1}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0A7356BD545B8804"
+			rewards: [
+				{
+					id: "1080F1CA23FBC8FF"
+					type: "custom"
+				}
+				{
+					id: "47F864735BDADF87"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "791E7CAC86F0AEE2"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			subtitle: "{chapter.18.quest.13.subtitle}"
+			tasks: [{
+				disable_toast: true
+				icon: "cavesandcliffs:spyglass"
+				id: "4DBF98E89057C4F8"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.13.task.1.title}"
+				to_observe: "alexsmobs:crocodile"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5ABA30D635FE45A0"
+			rewards: [
+				{
+					id: "259B0F2528F65C4B"
+					type: "custom"
+				}
+				{
+					id: "162648F4CA1A7701"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "7E88E4564502DAC6"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			subtitle: "{chapter.18.quest.14.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "496D5F100324EE3A"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.14.task.1.title}"
+				to_observe: "alexsmobs:grizzly_bear"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7FA7D1B6CBD832F0"
+			rewards: [
+				{
+					id: "4AAA0F9352A93D85"
+					type: "custom"
+				}
+				{
+					id: "22C9FAF74AC123C9"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.15.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "05E8CE72F38687DB"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.15.task.1.title}"
+				to_observe: "alexsmobs:hummingbird"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.16.description.1}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "13B3866B14C773F2"
+			rewards: [
+				{
+					id: "0D3E797439F919AD"
+					type: "custom"
+				}
+				{
+					id: "689BF0D28F6F282A"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.16.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "194F81481391938C"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.16.task.1.title}"
+				to_observe: "alexsmobs:elephant"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0436475F60226CC8"
+			rewards: [
+				{
+					id: "27528F8CC3B1FE32"
+					type: "custom"
+				}
+				{
+					id: "7072E35AC32ED41E"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.17.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "54465F83E2C712DB"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.17.task.1.title}"
+				to_observe: "alexsmobs:komodo_dragon"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "76B71254CBDAB702"
+			rewards: [
+				{
+					id: "21512DF993374940"
+					type: "custom"
+				}
+				{
+					id: "7AC8C9996B85A2F4"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.18.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "78D5CF015EC831E3"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.18.task.1.title}"
+				to_observe: "alexsmobs:hammerhead_shark"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "05599EF83F42E8D6"
+			rewards: [
+				{
+					id: "168B91471BCD7235"
+					type: "custom"
+				}
+				{
+					id: "3174FF68E845EE31"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.19.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "292E3F5498E8FD14"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.19.task.1.title}"
+				to_observe: "alexsmobs:emu"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "59326A796BADA195"
+			rewards: [
+				{
+					id: "21E7B10532DB7D2F"
+					type: "custom"
+				}
+				{
+					id: "5465F0844209F14F"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.20.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "6E43E06EC4C50C39"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.20.task.1.title}"
+				to_observe: "alexsmobs:moose"
+				type: "observation"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.21.description.1}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6D87086232516F07"
+			rewards: [
+				{
+					id: "568A1CBB44488C86"
+					type: "custom"
+				}
+				{
+					id: "1F0EEF637CFF2BB6"
+					item: "abnormals_delight:perch_with_mushrooms"
+					type: "item"
+				}
+				{
+					id: "1CB18C1A8243F0D1"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			subtitle: "{chapter.18.quest.21.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "0B3A7844463754A9"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.21.task.1.title}"
+				to_observe: "alexsmobs:mungus"
+				type: "observation"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2B7240B6990E8874"
+			rewards: [
+				{
+					id: "44239D991FEF89C4"
+					type: "custom"
+				}
+				{
+					id: "0DC86058D7FCEA88"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.22.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "15CFA4EB4D1CA91C"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.22.task.1.title}"
+				to_observe: "alexsmobs:mantis_shrimp"
+				type: "observation"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "33691B511ACF083D"
+			rewards: [
+				{
+					id: "6AA95AB07929BAC4"
+					type: "custom"
+				}
+				{
+					id: "18EB8EAECBFF2DBF"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.23.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "16D93481357F3448"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.23.task.1.title}"
+				to_observe: "alexsmobs:shoebill"
+				type: "observation"
+			}]
+			x: -10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.24.description.1}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "15582BA5C979FE3C"
+			rewards: [
+				{
+					id: "531037725FC9C077"
+					type: "custom"
+				}
+				{
+					id: "46D83DBE04E79454"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "5DFD76528F73D859"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "meetyourfight:spectres_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "28531919DBF7A127"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			subtitle: "{chapter.18.quest.24.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "38DB30C0321078EA"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.24.task.1.title}"
+				to_observe: "alexsmobs:sunbird"
+				type: "observation"
+			}]
+			x: -10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "56E396A50F7A78C0"
+			rewards: [
+				{
+					id: "1666CFBE14A221DE"
+					type: "custom"
+				}
+				{
+					id: "5144340EC7CDCC0D"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.25.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "378F04C9EA892CB1"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.25.task.1.title}"
+				to_observe: "alexsmobs:tarantula_hawk"
+				type: "observation"
+			}]
+			x: -10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.26.description.1}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "68F17AADA59CCF04"
+			rewards: [
+				{
+					id: "344C57233C68EC15"
+					type: "custom"
+				}
+				{
+					id: "5E130E3804610AD1"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.26.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "74B43A75C49BEDA5"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.26.task.1.title}"
+				to_observe: "alexsmobs:orca"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.27.description.1}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3B1C64F1AD2B2091"
+			rewards: [
+				{
+					id: "7D42336C9B0F0339"
+					type: "custom"
+				}
+				{
+					id: "5882325095B93E2B"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.27.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "720C5F0AA36B93E0"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.27.task.1.title}"
+				to_observe: "alexsmobs:platypus"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0982619083F925C3"
+			rewards: [
+				{
+					id: "73C1BBFBA45440C2"
+					type: "custom"
+				}
+				{
+					id: "61DCC339E5D8F4DA"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.28.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "123D03A9055161E0"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.28.task.1.title}"
+				to_observe: "alexsmobs:tasmanian_devil"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.29.description.1}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "1213871C91C1FB7B"
+			rewards: [
+				{
+					id: "25E3D7EC87B6344D"
+					type: "custom"
+				}
+				{
+					id: "2F5C2F5515ED2FA7"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.29.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "1802635A0C9F502D"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.29.task.1.title}"
+				to_observe: "alexsmobs:guster"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3E9FD1EA9E4FD2A2"
+			rewards: [
+				{
+					id: "21DE846418327F9C"
+					type: "custom"
+				}
+				{
+					id: "3EB47A81C58AAD2A"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.30.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "7DE7D557BD1B9F28"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.30.task.1.title}"
+				to_observe: "alexsmobs:leafcutter_ant"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5DCE2D084DEC7B4F"
+			rewards: [
+				{
+					id: "12D15453132E265F"
+					type: "custom"
+				}
+				{
+					id: "4816D0B9DB61E03E"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.31.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "604C1B61CD35881C"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.31.task.1.title}"
+				to_observe: "alexsmobs:lobster"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "63383AEB0455A3C0"
+			rewards: [
+				{
+					id: "356FB7CD66F301B1"
+					type: "custom"
+				}
+				{
+					id: "36373202A9A062D3"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "090B65E03F6DEB15"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			subtitle: "{chapter.18.quest.32.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "004C0CF35F3996E9"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.32.task.1.title}"
+				to_observe: "alexsmobs:mimic_octopus"
+				type: "observation"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "1FABE803DFFE00F1"
+			rewards: [
+				{
+					id: "5D4B589949153458"
+					type: "custom"
+				}
+				{
+					id: "1BAFE995F57144B5"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.33.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "62DD99FF012333CC"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.33.task.1.title}"
+				to_observe: "alexsmobs:frilled_shark"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			id: "3F89F0FD757BE0D5"
+			rewards: [
+				{
+					id: "2B27296F762FFFAA"
+					type: "custom"
+				}
+				{
+					id: "3F4C8E35121C6E16"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.34.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "1D00063D20ABADEA"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.34.task.1.title}"
+				to_observe: "alexsmobs:rattlesnake"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "628E57AF66B08D65"
+			rewards: [
+				{
+					id: "76B8F2EDB1F8C2AB"
+					type: "custom"
+				}
+				{
+					id: "7D1E1A444D1FB7AC"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.18.quest.35.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "110E28CF2C0024C6"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.35.task.1.title}"
+				to_observe: "alexsmobs:roadrunner"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.36.description.1}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "327CFFB01545E1F2"
+			rewards: [
+				{
+					id: "73141F7B01AB2BBA"
+					type: "custom"
+				}
+				{
+					id: "6FFB8552E78C0100"
+					item: "nethers_delight:grilled_strider"
+					type: "item"
+				}
+				{
+					id: "2AA21D87D70E947A"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			subtitle: "{chapter.18.quest.36.subtitle}"
+			tasks: [{
+				icon: "cavesandcliffs:spyglass"
+				id: "0FBD34818E439285"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.36.task.1.title}"
+				to_observe: "alexsmobs:dropbear"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7F3BE05DDE9DB59B"
+			rewards: [{
+				id: "0B3C8D60246ED91D"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Rat Police Chief"
+						pages: ["{\"text\":\"§c§lHALT!\\n------\\n\\n§7Please do make sure to not disturb the animals! You will be granted a wildlife photography licence on the condition that you §d§nRESPECT NATURE!\\n\\n§7Don't make me get Swampy Bogbeard!\"}"]
+						resolved: 1b
+						title: "Terms & Conditions!"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{chapter.18.quest.37.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"soulbound:contract": {
+							Contract: { }
+						}
+					}
+					id: "soulbound:ownership_contract"
+					tag: {
+						ContractData: { }
+					}
+				}
+				id: "5F64014F55ED35D7"
+				title: "{chapter.18.quest.37.task.1.title}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+	]
+	title: "{chapter.18.title}"
+}

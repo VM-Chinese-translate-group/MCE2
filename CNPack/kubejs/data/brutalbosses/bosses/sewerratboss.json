@@ -1,0 +1,83 @@
+{
+  "entity": "rats:feral_ratlantean",
+  "name": "Sewer Rat",
+  "visualscale": 1.5,
+  "experience": 10,
+  "droppeditemamount": 5,
+  "effects": {
+    "minecraft:resistance": 1
+  },
+  "attributes": {
+    "generic.max_health": 60,
+    "generic.follow_range": 50,
+    "generic.attack_damage": 5,
+    "generic.knockback_resistance": 10
+  },
+  "customattributes": {
+  },
+  "gear": {
+	  "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Half Digested Loyalty Card\"}',Lore:['{\"text\":\"§2§oYuck! You should wash your hands after touching this... Someone lost their loyalty card...\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
+  },
+  "ai-goals": {
+    "brutalbosses:itemshootgoal": {
+      "item": "{id: \"rats:plastic_waste\", Count: 1b}",
+      "projectile_count": 1,
+      "projectile_interval": 100,
+      "damage": 4,
+      "projectile_distance": 20
+    },
+    "brutalbosses:aftercombatregen": {
+      "amount": 2
+    },
+    "brutalbosses:summonmobs": {
+      "interval": 200,
+      "maxcount": 3,
+      "count": 1,
+      "entities": [
+        {
+          "entityid": "rats:rat",
+          "entitynbt":"{Brain: {memories: {}}, HurtByTimestamp: 0, Attributes: [{Base: 0.0d, Name: \"minecraft:generic.armor\"}, {Base: 128.0d, Modifiers: [{Amount: -0.004815218500765528d, Operation: 1, UUID: [I; -2117456386, 635521571, -1944430804, -2063884229], Name: \"Random spawn bonus\"}], Name: \"minecraft:generic.follow_range\"}, {Base: 0.3d, Name: \"minecraft:generic.movement_speed\"}, {Base: 1.0d, Name: \"minecraft:generic.attack_damage\"}, {Base: 8.0d, Name: \"minecraft:generic.max_health\"}, {Base: 0.08d, Name: \"forge:entity_gravity\"}], Invulnerable: 0b, AbsorptionAmount: 0.0f, CheeseFeedings: 0, RandomEffectCooldown: 0, FallDistance: 0.0f, Toga: 0b, InLove: 0, CanUpdate: 1b, TransportingRF: 0, ForgeCaps: {\"citadel:extended_entity_data_citadel\": {\"Ice And Fire - Chicken Property Tracker\": {TimeUntilNextEgg: 1}, \"Ice And Fire - Siren Property Tracker\": {CharmedBySiren: 0b, SirenID: 0}, \"Ice And Fire - Frozen Property Tracker\": {TicksUntilUnfrozen: 0, IsFrozen: 0b}, \"Ice and Fire - Player Property Tracker\": {DismountedDragon: 0b, GauntletDamage: 0, DreadPortalZ: 0, DreadPortalY: 0, DreadPortalX: 0}, \"Ice And Fire - Chain Property Tracker\": {ConnectedEntities: []}}}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 0b, Items: [], UUID: [I; -1476239239, -1142404231, -1253305268, 1340129326], RadiusPosZ: 0, ColorVariant: 2, Air: 300s, CitadelData: {}, DyeColor: 0b, RadiusPosY: 0, HandItems: [{}, {}], RadiusPosX: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], CustomSearchZone: 0b, Dyed: 0b, Pos: [155.5d, 72.0d, 271.5d], WildTrust: 0, CanPickUpLoot: 0b, HurtTime: 0s, TransportingFluid: {FluidName: \"minecraft:empty\", Amount: 0}, CoinCooldown: 0, Sitting: 0b, FallFlying: 0b, ForcedAge: 0, SearchRadius: 16, PortalCooldown: 0, MonsterOwnerUUID: \"\", DeathTime: 0s, MountCooldown: 0, EatenItems: 0, DigCooldown: 0, VisualFlag: 0b, Age: 0, TamedByMonster: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], HomeDistance: -1.0f, Health: 8.0f, LeftHanded: 0b, OnGround: 1b, Rotation: [81.828964f, 0.0f], Plague: 1b, Command: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], HomePosZ: 0, HomePosY: 0, Dancing: 0b, CookingProgress: 0, IsMale: 0b, HomePosX: 0, RespawnCountdown: 0, BreedCooldown: 0}"
+        }
+      ]
+    }
+  },
+  "spawnatchest": {
+    "minecraft:chests/simple_dungeon": 3,
+    "minecraft:chests/stronghold_library": 1,
+    "minecraft:chests/stronghold_crossing": 5,
+    "minecraft:chests/stronghold_corridor": 1,
+    "minecraft:chests/desert_pyramid": 1,
+    "minecraft:chests/jungle_temple": 1,
+    "minecraft:chests/woodland_mansion": 1,
+    "minecraft:chests/pillager_outpost": 1,
+    "betterdungeons:skeleton_dungeon/chests/common": 1,
+    "betterdungeons:skeleton_dungeon/chests/middle": 1,
+    "betterdungeons:zombie_dungeon/chests/common": 1,
+    "betterdungeons:zombie_dungeon/chests/special": 1,
+    "betterdungeons:zombie_dungeon/chests/tombstone": 1,
+    "betterdungeons:spider_dungeon/chests/egg_room": 3,
+    "dungeons_enhanced:castle_cellar": 1,
+    "endrem:chests/hided": 30,
+    "mostructures:pyramid_custom": 1,
+    "graveyard:chests/large_loot": 1,
+    "valhelsia_structures:chests/treasure": 1,
+    "valhelsia_structures:chests/spawner_dungeon": 2,
+    "minecraft:chests/abandoned_mineshaft": 1,
+    "betterstrongholds:chests/crypt": 1,
+"dungeoncrawl:chests/stage_5": 10,
+	"ba_bt:chests/land_tower/8": 20,
+	"ba_bt:chests/land_tower/7": 20,
+	"ba_bt:chests/land_tower/roof": 20,
+  "legendary_monsters:chests/ancient_stronghold_luxury_loot_table": 20,
+  "legendary_monsters:chests/ancient_stronghold_loot_table": 20,
+  "legendary_monsters:chests/cloudy_temple_loot_table": 20,
+  "legendary_monsters:chests/abandoned_crypt_loot_table": 20,
+	"ba_bt:chests/land_tower/library_extra": 20,
+	"dungeoncrawl:chests/stage_4": 1,
+    "dungeons_enhanced:large_dungeon_treasury": 1,
+    "dungeons_enhanced:chests/monster_maze/treasure": 1,
+    "dungeons_plus:chests/vanilla_dungeon": 1,
+    "dungeons_arise:chests/mining_system/mining_system_treasure": 1,
+    "dungeons_arise:chests/mines_treasure_medium": 1
+  }
+}

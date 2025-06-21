@@ -1,0 +1,137 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "9help_from_barry"
+	group: "53833FE85BBBE6D0"
+	icon: {
+		Count: 1
+		id: "rats:cheese"
+		tag: { }
+	}
+	id: "63EF9023D9FBE489"
+	images: [{
+		height: 2.0d
+		image: "modpack:textures/barry.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: -0.009523809523805937d
+		y: -0.8023809523809469d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Are you having a hard time finding &6The Legendary Eyes&r?"
+				"Well lucky for you, it is in both of our best interests to find em! "
+				""
+				"I can sell you a &dMap&r for each of the Eyes that are in rare structures."
+				"I will also provide you with a convenient &eWaypoint&r for your &dMinimap!"
+				"{image:modpack:textures/barry-the-rat-uwu-transparent-no-white.png width:100 height:100 align:center}"
+				""
+				"&8&oOh don't mind me! I was just rummaging through trashcans for cheese!"
+			]
+			icon: {
+				Count: 1
+				id: "rats:trash_can"
+				tag: { }
+			}
+			id: "192F4B3655700BD1"
+			rewards: [{
+				id: "295FC3D5394C6C37"
+				item: {
+					Count: 1
+					id: "rats:cheese"
+					tag: {
+						BrewChewPotionData: {
+							Potions: [{
+								Effects: [
+									{
+										Amplifier: 0
+										Duration: 300
+										Effect: "rats:plague"
+									}
+									{
+										Amplifier: 0
+										Duration: 300
+										Effect: "irons_spellbooks:antigravity"
+									}
+									{
+										Amplifier: 0
+										Duration: 300
+										Effect: "alexscaves:sugar_rush"
+									}
+									{
+										Amplifier: 0
+										Duration: 300
+										Effect: "minecraft:fire_resistance"
+									}
+								]
+							}]
+						}
+						display: {
+							Lore: [
+								"{\"text\":\" \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Plague\"}],\"text\":\"Effect: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Amplifier: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Duration: \"}"
+								"{\"text\":\" \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Anti-Gravity\"}],\"text\":\"Effect: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Amplifier: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Duration: \"}"
+								"{\"text\":\" \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Sugar Rush\"}],\"text\":\"Effect: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Amplifier: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Duration: \"}"
+								"{\"text\":\" \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Fire Resistance\"}],\"text\":\"Effect: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Amplifier: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Duration: \"}"
+							]
+							Name: "{\"text\":\"Dumpster Cheese\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Barry can offer help... for a price!"
+			tasks: [{
+				id: "3AA86C3F1FA9FE0A"
+				title: "Info Quest - &eClick To Complete"
+				type: "checkmark"
+			}]
+			title: "&d<wave>Barry's Help!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{image:minecolonies:block/books/map width:150 height:100 align:center}"
+				""
+				"&6☠ Difficulty: &4&lHARD"
+				""
+				"&6Tip:&r Barry can also send you a &dWaypoint&r to the structure if you click the link provided in chat after claiming this quest!"
+			]
+			id: "5F46FEA139983775"
+			rewards: [{
+				command: "/loot give @p loot kubejs:quest/frostmaw"
+				console: true
+				elevate_perms: true
+				id: "0FF388EE4038AB6A"
+				type: "command"
+			}]
+			subtitle: "Proudly brought to you by amateur cartographer Barry!"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "7D8C5AFC4FF47C92"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "Purchase Map:&r &dFrostmaw&r"
+			x: -2.0d
+			y: 2.0d
+		}
+	]
+	title: "&9Help From Barry!"
+}

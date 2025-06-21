@@ -1,0 +1,62 @@
+{
+	id: "3CAA0A1C7EC355F1"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mce2lib:amethyst_helmet"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:space_dissector"
+				tag: {
+					abilities: {
+						dissection: {
+							points: 0
+							stats: {
+								distance: 30.75853d
+								time: 5.03037d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:midnight_robe"
+				tag: {
+					abilities: {
+						backstab: {
+							points: 0
+							stats: {
+								damage: 1.29337d
+								distance: 16.45801d
+							}
+						}
+						vanish: {
+							points: 0
+							stats: {
+								light: 1.72992d
+								speed: 0.15299d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+	title: "master"
+}

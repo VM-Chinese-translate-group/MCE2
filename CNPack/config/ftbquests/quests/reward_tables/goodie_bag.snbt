@@ -1,0 +1,105 @@
+{
+	empty_weight: 100.0f
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "blue_skies:loot_bag"
+		tag: {
+			Rarity: 0
+		}
+	}
+	id: "5DAE368999CA7D72"
+	loot_size: 3
+	order_index: 0
+	rewards: [
+		{ item: "artifacts:whoopee_cushion" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:written_book"
+				tag: {
+					Enchantments: [{
+						id: "ars_nouveau:reactive"
+						lvl: 1
+					}]
+					HideFlags: 1
+					author: "adam989911"
+					display: {
+						Lore: ["{\"text\":\"§6§oNo refunds!\"}"]
+					}
+					pages: [
+						"{\"text\":\" (\\\\__/)  .~    ~. ))\\n /O O `./      .'\\n{O__,   \\\\    {\\n  / .  . )    \\\\\\n  |-| '-' \\\\    } ))\\n .(   _(   )_.'\\n'---.~_ _ _&\\n\\n§l§7§3SQUIRREL\"}"
+						"{\"text\":\"     c~~p ,---------.\\n ,---'oo  )           \\\\\\n( O O                  )/\\n `=^='                 /\\n       \\\\    ,     .   /\\n       \\\\\\\\  |-----'|  /\\n       ||__|    |_|__|\\n\\n§3Hippopotamus\"}"
+						"{\"text\":\"|\\\\_/|,,_____,~~`\\n(.\\\".)~~     )`~}}\\n \\\\o/\\\\ /---~\\\\\\\\ ~}}\\n   _//    _// ~}\\n\\n§3FOX\"}"
+						"{\"text\":\" .|||||||||.          .|||||||||.\\n |||||||||||||        |||||||||||||\\n|||||||||||' .\\\\      /. `|||||||||||\\n`||||||||||_,__o    o__,_||||||||||'\\n\\n§3HEDGEHOGS\"}"
+						"{\"text\":\"  o\\n_`O'_\\n\\n§3FROG\"}"
+						"{\"text\":\"|\\\\---/|\\n| o_o |\\n \\\\_^_/\\n§3\\n§3CAT\"}"
+						"{\"text\":\" /\\\\_/\\\\\\n( o.o )\\n > ^ <\\n\\n§3CAT\"}"
+						"{\"text\":\"  ;,//;,    ,;/\\n o:::::::;;///\\n>::::::::;;\\\\\\\\\\\\\\n  ''\\\\\\\\\\\\\\\\\\\\'\\\" ';\\\\\\n\\n§3FISH\"}"
+						"{\"text\":\" __v_\\n(____\\\\/{\\n\\n§3WHALE\"}"
+						"{\"text\":\"\\\\_____)\\\\_____\\n/--v____ __`<         \\n        )/           \\n        '\\n§3SHARK\"}"
+						"{\"text\":\"       .\\n      \\\":\\\"\\n    ___:____     |\\\"\\\\/\\\"|\\n  ,'        `.    \\\\  /\\n  |  O        \\\\___/  |\\n~^~^~^~^~^~^~^~^~^~^~^~^~\\n\\n§3WHALE!\"}"
+						"{\"text\":\" /\\\\ \\\\  / /\\\\\\n//\\\\\\\\ .. //\\\\\\\\\\n//\\\\((  ))/\\\\\\\\\\n/  < `' >  \\\\\\n\\n§3SPIDER\"}"
+						"{\"text\":\"^..^      /\\n/_/\\\\_____/\\n   /\\\\   /\\\\\\n  /  \\\\ /  \\\\\\n\\n§3DOG\"}"
+						"{\"text\":\"\\\\|/          (__)    \\n     `\\\\------(oo)\\n       ||    (__)\\n       ||w--||     \\\\|/\\n   \\\\|/\\n\\n§3COW\"}"
+						"{\"text\":\"§d§oThank you for reading.\\n\\nBe sure to purchase our second book \\\"Animals 2\\\".\\n\\nNow at village libraries near you!\"}"
+					]
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:rainbow_rune"
+					}
+					resolved: 1b
+					title: "§7Animals Vol 1."
+				}
+			}
+		}
+		{ item: "rats:rat_arrow" }
+		{
+			item: {
+				Count: 1
+				id: "immersive_weathering:flower_crown"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:black_banner"
+				tag: {
+					BlockEntityTag: {
+						Patterns: [{
+							Color: 0
+							Pattern: "ratb"
+						}]
+						id: "minecraft:banner"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:piano"
+				tag: {
+					display: {
+						Name: "{\"text\":\"Suspicious Piano\"}"
+					}
+					enabled_tracks: [I; ]
+					melody: "immersive_melodies:melodies/sus.midi"
+					playing: 1b
+					start_time: 37509L
+				}
+			}
+		}
+	]
+	title: "{loot_table.1}"
+	use_title: true
+}

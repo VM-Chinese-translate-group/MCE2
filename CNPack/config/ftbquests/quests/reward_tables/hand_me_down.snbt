@@ -1,0 +1,74 @@
+{
+	id: "7A4FB9A7FDF16754"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "alexsmobs:fedora"
+				tag: {
+					Damage: 24
+					Enchantments: [
+						{
+							id: "minecraft:fire_protection"
+							lvl: 3
+						}
+						{
+							id: "cursery:curse_poison"
+							lvl: 2
+						}
+					]
+					display: {
+						Lore: [
+							"{\"text\":\"§5§6✎ §nLore Text\"}"
+							"{\"text\":\"§7§oUsed to belong to my great uncle! Apparently he was eaten by a dragon. The hat is mostly fireproof, made of asbestos he proudly said! Which is why it is the only part of him that was found §orelatively intact...\"}"
+						]
+						Name: "{\"text\":\"§8Slightly Scorched Hand-Me-Down\"}"
+					}
+					itemModifier: "modifiers:rash"
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:gray_rune"
+					}
+					rpgloot.randomize: 0b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecolonies:pirate_shoes"
+				tag: {
+					AS_Amulet_Holder: [I;
+						-1227576764
+						-1560065926
+						-2081613911
+						2036351875
+					]
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§5§6✎ §nLore Text\"}"
+							"{\"text\":\"§7§oThese shoes belong to your father! You haven't seen him since he set sail in search of treasure! I wonder if he found any...\"}"
+						]
+						Name: "{\"text\":\"§8Dad's Old Shoes\"}"
+					}
+					itemModifier: "modifiers:jagged"
+				}
+			}
+		}
+	]
+	title: "hand_me_down"
+}

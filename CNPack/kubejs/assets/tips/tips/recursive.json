@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "Don't put backpacks in backpacks... And do not put containers that store items into your ME system - you might have a hard time extracting them again"
+  }
+}

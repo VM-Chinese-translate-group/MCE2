@@ -1,0 +1,28 @@
+{
+	hide_tooltip: true
+	icon: "supplementaries:present_purple"
+	id: "1D440C86A56F58F6"
+	loot_size: 1
+	order_index: 10
+	rewards: [{
+		item: {
+			Count: 1b
+			ForgeCaps: {
+				"dungeons_libraries:built_in_enchantments": {
+					BuiltInEnchantments: [ ]
+				}
+			}
+			id: "itemcapes:cape"
+			tag: {
+				CapeType: "challenge_cape"
+				display: {
+					Lore: ["{\"text\":\"§6Unlocked: §eQuesting\"}"]
+					Name: "{\"text\":\"§6Cosmetic Cape\"}"
+				}
+				rpgloot.randomize: 0b
+			}
+		}
+	}]
+	title: "{loot_table.25}"
+	use_title: true
+}

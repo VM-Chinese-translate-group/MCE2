@@ -1,0 +1,201 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rats"
+	group: "6ACD28698B988220"
+	id: "42E60799F4AECBB9"
+	images: [
+		{
+			height: 1.0d
+			image: "rats:block/block_of_cheese"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "rats:block/block_of_cheese"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "rats:block/block_of_cheese"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			height: 0.6d
+			image: "rats:item/cheese"
+			rotation: -88.0d
+			width: 0.6d
+			x: -0.035714285714277594d
+			y: 2.160714285714281d
+		}
+		{
+			height: 0.6d
+			image: "rats:item/cheese"
+			rotation: 33.0d
+			width: 0.6d
+			x: -0.7499999999999929d
+			y: 3.4464285714285694d
+		}
+		{
+			height: 0.6d
+			image: "rats:item/cheese"
+			rotation: -88.0d
+			width: 0.6d
+			x: 2.535714285714292d
+			y: 2.2678571428571423d
+		}
+		{
+			height: 0.6d
+			image: "rats:item/cheese"
+			rotation: 33.0d
+			width: 0.6d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "rats:block/block_of_nether_cheese"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:textures/entity/flags/rats/rat_and_crossbones.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.2452380952381077d
+			y: 0.934523809523796d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{chapter.15.quest.69.description.1}"]
+			hide_dependency_lines: true
+			id: "4BF96C95CFE9D92D"
+			rewards: [
+				{
+					id: "538E475E6F8ABCDC"
+					item: "rats:rat_burger"
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "3C2A11B659DF9AA1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{chapter.15.quest.69.subtitle}"
+			tasks: [
+				{
+					id: "2EB66AAD8E0A6C6A"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "386F989E12CAF87B"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: ["{chapter.15.quest.70.description.1}"]
+			id: "483F374B33EAB505"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "709ADB9418A36122"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{chapter.15.quest.70.subtitle}"
+			tasks: [{
+				id: "633A34E9333CF014"
+				item: "rats:auto_curdler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: ["{chapter.15.quest.113.description.1}"]
+			hide_dependency_lines: true
+			id: "345F8558DB7253AA"
+			rewards: [
+				{
+					id: "25DF0DCC8F5D8B49"
+					item: "rats:rat_sack"
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "604A9AAC13D4B765"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7375BCB2E600DCFF"
+					table_id: 2644483923066781056L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			subtitle: "{chapter.15.quest.113.subtitle}"
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				icon: "rats:cheese"
+				id: "0773FC5376E06CFB"
+				title: "{chapter.15.quest.113.task.1.title}"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Wild Rats can sometimes spawn near your crops! They are very crafty.. and hungry!!"
+				"They will eat all they can and even burrow through wood/dirt to steal food from chests!"
+				""
+				"Behold! The humble Rat Trap! Place or two of these around your farm and food storage to scare off those no good wild rats! "
+			]
+			id: "0328BC07E0F0215E"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3AB28F4AC8231015"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &eRat Trap"
+			tasks: [{
+				id: "4F263B92FD679E39"
+				item: "rats:rat_trap"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+	]
+	title: "&2Rats"
+}

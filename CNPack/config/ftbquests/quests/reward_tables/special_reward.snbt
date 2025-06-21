@@ -1,0 +1,62 @@
+{
+	icon: "supplementaries:present_purple"
+	id: "17DA6C5C3ACE52B0"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "relics:magic_mirror"
+				tag: {
+					abilities: {
+						teleport: {
+							points: 0
+							stats: {
+								cooldown: 80.97289d
+								distance: 501.34549d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:holy_locket"
+				tag: {
+					abilities: {
+						belief: {
+							points: 0
+							stats: {
+								amount: 0.23107d
+								capacity: 9.86588d
+								count: 1.39131d
+								radius: 3.55939d
+							}
+						}
+						blessing: {
+							points: 0
+							stats: {
+								consumption: 7.0926d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+						repentance: {
+							points: 0
+							stats: {
+								damage: 0.17396d
+								radius: 2.20373d
+							}
+						}
+					}
+				}
+			}
+		}
+		{ item: "mce2lib:porkus_summon" }
+	]
+	title: "special_reward"
+}

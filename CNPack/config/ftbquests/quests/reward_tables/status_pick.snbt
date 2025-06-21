@@ -1,0 +1,62 @@
+{
+	id: "56FBE869317F1218"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{
+			command: "/effect give @p minecraft:jump_boost 500 8"
+			icon: {
+				Count: 1
+				id: "artifacts:bunny_hoppers"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&eBlessing of The Rabbit"
+			type: "command"
+		}
+		{
+			command: "/effect give @p minecraft:strength 500 1"
+			icon: "cataclysm:necklace_of_the_desert"
+			title: "&eBlessing of The Dragon"
+			type: "command"
+		}
+		{
+			command: "/effect give @p minecraft:night_vision 500 10"
+			icon: "goety:amethyst_necklace"
+			title: "&eBlessing of The Bat"
+			type: "command"
+		}
+		{
+			command: "/effect give @p minecraft:dolphins_grace 500 3"
+			icon: {
+				Count: 1
+				id: "relics:jellyfish_necklace"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&eBlessing of The Dolphin"
+			type: "command"
+		}
+		{
+			command: "/effect give @p alexsmobs:bug_pheromones 500 1"
+			icon: {
+				Count: 1
+				id: "fairylights:spider_light"
+				tag: {
+					color: 3289650
+				}
+			}
+			title: "&eBlessing of The Spider"
+			type: "command"
+		}
+		{
+			command: "/effect give @p rats:synesthesia 200 1"
+			icon: "rats:creative_cheese"
+			title: "&eBlessing of The Rat"
+			type: "command"
+		}
+	]
+	title: "status_pick"
+}

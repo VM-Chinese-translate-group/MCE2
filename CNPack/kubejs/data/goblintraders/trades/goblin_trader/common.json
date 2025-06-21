@@ -1,0 +1,293 @@
+{
+  "replace": false,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "ftbquests:lootcrate",
+	"nbt": "{type:\"quest_loot\"}",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "kubejs:loyalty_card_generic",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 5,
+      "experience": 4
+    },
+	  {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "ftbquests:lootcrate",
+	"nbt": "{type:\"blackmarket_cache\"}",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "kubejs:loyalty_card_bm",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 3,
+      "experience": 4
+    },
+    {
+  "type": "goblintraders:basic",
+  "experience": 6,
+  "max_trades": 3,
+  "offer_item": {
+    "count": 1,
+    "item": "minecraft:potion",
+    "nbt": "{CustomPotionColor:16701501,CustomPotionEffects:[{Duration:100,Id:15},{Amplifier:2,Duration:2000,Id:3},{Amplifier:2,Duration:2000,Id:1},{Amplifier:0,Duration:8500,Id:24},{Amplifier:1,Duration:2000,Id:5},{Amplifier:0,Duration:100,Id:20}],display:{Name:'{\"text\":\"Bottle of \\\\\"Skooma\\\\\"\"}'}}"
+  },
+  "payment_item": {
+    "count": 13,
+    "item": "minecraft:emerald"
+  },
+  "price_multiplier": 0.5
+},
+	  {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "ftbquests:lootcrate",
+	"nbt": "{type:\"curious_box\"}",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "kubejs:loyalty_card_curio",
+	      
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 4,
+      "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 32,
+      "offer_item": {
+        "count": 1,
+        "item": "immersive_melodies:trumpet"
+      },
+      "payment_item": {
+        "count": 2,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 32,
+      "offer_item": {
+        "count": 2,
+        "item": "alexscaves:dinosaur_nugget"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 5,
+      "offer_item": {
+        "count": 1,
+        "item": "kubejs:artifact_endergem"
+      },
+      "payment_item": {
+        "count": 3,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+    
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "alexscaves:gelatin_green"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 24,
+      "offer_item": {
+        "count": 1,
+        "item": "create:honeyed_apple"
+      },
+      "payment_item": {
+        "count": 2,
+        "item": "minecraft:apple"
+      },
+      "price_multiplier": 0.0
+    },
+    
+      {"type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 2,
+        "item": "minecraft:iron_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:raw_iron"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 3,
+        "item": "minecraft:gold_ingot"
+      },
+      "payment_item": {
+        "count": 2,
+        "item": "minecraft:raw_gold"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:raw_iron"
+      },
+      "payment_item": {
+        "count": 3,
+        "item": "thermal:raw_nickel"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 8,
+        "item": "minecraft:redstone"
+      },
+      "payment_item": {
+        "count": 3,
+        "item": "thermal:raw_silver"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:raw_copper"
+      },
+      "payment_item": {
+        "count": 3,
+        "item": "create:raw_zinc"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:raw_gold"
+      },
+      "payment_item": {
+        "count": 3,
+        "item": "thermal:raw_lead"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 2,
+        "item": "minecraft:copper_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:raw_copper"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 24,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:coal"
+      },
+      "payment_item": {
+        "count": 4,
+        "item": "minecraft:rotten_flesh"
+      },
+      "price_multiplier": 0.0
+    },
+  
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 32,
+      "offer_item": {
+        "count": 2,
+        "item": "minecraft:flint"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:gravel"
+      },
+      "price_multiplier": 0.0
+    },
+  
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 5,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:emerald"
+      },
+      "payment_item": {
+        "count": 32,
+        "item": "minecraft:cobblestone"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 22,
+      "offer_item": {
+        "count": 4,
+        "item": "minecraft:torch"
+      },
+      "payment_item": {
+        "count": 16,
+        "item": "minecraft:cobblestone"
+      },
+      "price_multiplier": 0.0
+    }
+  ]
+}

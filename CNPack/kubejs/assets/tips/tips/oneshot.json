@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "MCE2 TIP",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "You will never be one-shot, you will always be reduced to 1/2 a heart if you take fatal damage, giving you time to react"
+  }
+}

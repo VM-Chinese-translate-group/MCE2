@@ -1,0 +1,30 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal"
+	group: "3EBF424A99DA33B7"
+	icon: "thermal:lead_gear"
+	id: "21CD0B400036DF54"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: ["Chapter coming soon!™"]
+		id: "0AA8A23A683CFA57"
+		rewards: [{
+			amount: 250L
+			currency: "eternalcurrencies:coins"
+			id: "080D1B46E5F26528"
+			ignore_reward_blocking: true
+			type: "eternalcurrencies:currency"
+		}]
+		tasks: [{
+			id: "58E66C383739E43F"
+			item: "thermal:machine_frame"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "{chapter.28.title}"
+}

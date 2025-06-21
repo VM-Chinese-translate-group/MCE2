@@ -1,0 +1,73 @@
+{
+  "entity": "alexsmobs:grizzly_bear",
+  "name": "Honey Paw",
+  "visualscale": 1,
+  "experience": 12,
+  "droppeditemamount": 5,
+  "effects": {
+    "minecraft:resistance": 1,
+    "minecraft:water_breathing": 1
+  },
+  "attributes": {
+    "generic.max_health": 150,
+    "generic.follow_range": 50,
+    "generic.knockback_resistance": 10,
+    "generic.attack_damage": 35
+  },
+  "customattributes": {
+  },
+  "gear": {
+	   "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Half Digested Loyalty Card\"}',Lore:['{\"text\":\"§2§oYuck! You should wash your hands after touching this... Someone lost their loyalty card...\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
+  },
+  "ai-goals": {
+    "minecraft:target": {},
+    "brutalbosses:aftercombatregen": {
+      "amount": 2
+    },
+    "brutalbosses:itemshootgoal": {
+      "item": "{id: \"minecraft:honeycomb\", Count: 1b}",
+      "projectile_count": 1,
+      "projectilesize": 1.5,
+      "projectile_interval": 200,
+      "damage": 4,
+      "projectile_distance": 20
+    },
+    "brutalbosses:summonmobs": {
+      "interval": 400,
+      "maxcount": 1,
+      "count": 1,
+      "entities": [
+        {
+          "entityid": "minecraft:bee",
+          "entitynbt": "{NoGravity: 1b, Brain: {memories: {}}, HurtByTimestamp: 23, HasStung: 0b, Attributes: [{Base: 0.30000001192092896d, Name: \"minecraft:generic.movement_speed\"}, {Base: 48.0d, Modifiers: [{Amount: 0.013635812737710602d, Operation: 1, UUID: [I; -1972112843, 947471786, -1771137441, -64533377], Name: \"Random spawn bonus\"}], Name: \"minecraft:generic.follow_range\"}, {Base: 0.08d, Name: \"forge:entity_gravity\"}], Invulnerable: 0b, FallFlying: 0b, ForcedAge: 0, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, DeathTime: 0s, ForgeCaps: {\"citadel:extended_entity_data_citadel\": {\"Ice And Fire - Chicken Property Tracker\": {TimeUntilNextEgg: 1}, \"Ice And Fire - Siren Property Tracker\": {CharmedBySiren: 0b, SirenID: 0}, \"Ice And Fire - Frozen Property Tracker\": {TicksUntilUnfrozen: 0, IsFrozen: 0b}, \"Ice and Fire - Player Property Tracker\": {DismountedDragon: 0b, GauntletDamage: 0, DreadPortalZ: 0, DreadPortalY: 0, DreadPortalX: 0}, \"Ice And Fire - Chain Property Tracker\": {ConnectedEntities: []}}}, HandDropChances: [0.085f, 0.085f], CannotEnterHiveTicks: 0, PersistenceRequired: 0b, UUID: [I; -1400386380, 949111537, -1157695673, -1830252709], Age: 0, TicksSincePollination: 48, AngerTime: 0, Motion: [-0.03820411257861696d, -0.04680720726601494d, 0.01847565515779989d], Health: 9.0f, HasNectar: 0b, LeftHanded: 0b, Air: 300s, OnGround: 0b, CitadelData: {}, Rotation: [93.97125f, 0.0f], HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Pos: [190.32316628770138d, 16.740359658222797d, -391.4196372075385d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CropsGrownSincePollination: 0, CanPickUpLoot: 0b, HurtTime: 0s}"
+        }
+      ]
+    }
+  },
+  "spawnatchest": {
+    "minecraft:chests/stronghold_crossing": 5,
+    "minecraft:chests/stronghold_corridor": 5,
+    "minecraft:chests/woodland_mansion": 1,
+    "betterdungeons:skeleton_dungeon/chests/common": 1,
+    "betterdungeons:skeleton_dungeon/chests/middle": 1,
+    "betterdungeons:zombie_dungeon/chests/common": 1,
+    "betterdungeons:zombie_dungeon/chests/special": 1,
+    "legendary_monsters:chests/ancient_stronghold_luxury_loot_table": 20,
+    "legendary_monsters:chests/ancient_stronghold_loot_table": 20,
+    "legendary_monsters:chests/cloudy_temple_loot_table": 20,
+    "legendary_monsters:chests/abandoned_crypt_loot_table": 20,
+    "minecraft:chests/simple_dungeon": 3,
+    "dungeons_arise:chests/eerie/heavenly_challenger/heavenly_challenger_treasure": 1,
+    "dungeons_arise:chests/shiraz_palace/shiraz_palace_elite": 1,
+    "dungeons_arise:chests/thornborn_towers/thornborn_towers_top_treasure": 1,
+    "betterstrongholds:chests/common": 1,
+    "dungeons_enhanced:chests/ice_pit/hall": 1,
+	"dungeoncrawl:chests/stage_5": 10,
+	"ba_bt:chests/land_tower/8": 20,
+	"ba_bt:chests/land_tower/7": 20,
+	"ba_bt:chests/land_tower/roof": 20,
+	"ba_bt:chests/land_tower/library_extra": 20,
+	"dungeoncrawl:chests/stage_4": 1,
+    "dungeons_enhanced:chests/monster_maze/treasure": 1
+  }
+}

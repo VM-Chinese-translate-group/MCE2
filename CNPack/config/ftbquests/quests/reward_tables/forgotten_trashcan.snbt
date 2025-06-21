@@ -1,0 +1,66 @@
+{
+	hide_tooltip: true
+	id: "031850ED17CA9970"
+	loot_crate: {
+		color: 5592405
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "forgotten_trashcan"
+	}
+	loot_size: 4
+	order_index: 27
+	rewards: [
+		{ count: 3, item: "rats:cheese", only_one: true }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:paper"
+				tag: {
+					display: {
+						Lore: [
+							"{\"text\":\"§7§o1x Rat - 24 Hours \"}"
+							"{\"text\":\"§4§o§eStatus: §cLATE!\"}"
+							"{\"text\":\"\"}"
+							"{\"text\":\"§4§nRETURN ON TIME OR FACE FINES!\"}"
+							"{\"text\":\"\"}"
+							"{\"text\":\"§7§oYOU WOULDN'T STEAL A CAR\"}"
+							"{\"text\":\"§7§oYOU WOULDN'T STEAL A HANDBAG\"}"
+							"{\"text\":\"§7§oYOU WOULDN'T STEAL A TELEVISION\"}"
+							"{\"text\":\"§7§o§4§lSO DON'T STEAL A RAT! RAT THEFT IS A CRIME!\"}"
+							"{\"text\":\"\"}"
+						]
+						Name: "{\"text\":\"§8§oRent-a-Rat Reciept\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersrespite:green_tea_cookie"
+				tag: {
+					display: {
+						Lore: [
+							"{\"text\":\"§2Store Bought\"}"
+							"{\"text\":\"Doesn't seem very homemade to me\"}"
+						]
+						Name: "{\"text\":\"§aQuestmaster's Famous Homemade Cookie\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+		{ item: "alexscaves:green_soylent" }
+		{ item: "rats:raw_rat" }
+	]
+	title: "forgotten_trashcan"
+}
