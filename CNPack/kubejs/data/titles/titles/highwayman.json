@@ -1,0 +1,6 @@
+ {
+  "type": "command",
+  "id": "titles:highwayman",
+  "rarity": "uncommon",
+  "defaultDisplay": "the Highwayman"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:pawnshop",
+  "rarity": "rare",
+  "defaultDisplay": "of the Pawnshop"
+}

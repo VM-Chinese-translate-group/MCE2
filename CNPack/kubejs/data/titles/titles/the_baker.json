@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:baker",
+  "rarity": "rare",
+  "defaultDisplay": "the Baker"
+}

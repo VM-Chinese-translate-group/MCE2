@@ -1,0 +1,8 @@
+{
+  "type": "command",
+  "id": "titles:pool_boy",
+  "rarity": "common",
+  "defaultDisplay": "the Pool Boy",
+  "variantDisplay": "the Pool Guy"
+  
+}

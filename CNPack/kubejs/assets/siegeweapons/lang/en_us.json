@@ -1,0 +1,28 @@
+{
+  "entity.siegeweapons.catapult" : "Catapult",
+  "entity.siegeweapons.cart" : "Cart",
+  "entity.siegeweapons.transportCart" : "Transport Cart",
+  "entity.siegeweapons.ballista" : "Ballista",
+
+  "item.siegeweapons.ballista_item" : "Ballista Item",
+  "item.siegeweapons.catapult_item" : "Catapult Item",
+  "item.siegeweapons.ballista_projectile_item" : "Ballista Bolt",
+  "item.siegeweapons.explosion_pot_item" : "Explosion Pot Shot",
+  "item.siegeweapons.fire_pot_item" : "Fire Pot Shot",
+  "item.siegeweapons.cobble_cluster_item" : "Cobble Cluster Shot",
+
+  "block.siegeweapons.siege_table_block" : "Siege Table",
+
+  "gui.siegeweapons.craft" : "Craft",
+  "gui.siegeweapons.siegewapontable" : "Siege Weapon Table",
+
+  "tips.siegeweapons.vehicle_aim" : "Aim",
+  "tips.siegeweapons.vehicle_move" : "Drive",
+  "tips.siegeweapons.vehicle_load_shoot" : "Load and Shoot",
+  "tips.siegeweapons.catapult_change_range" : "Change Range",
+  "tips.siegeweapons.ballista_reload" : "Reload",
+
+  "itemGroup.siegeweapons.siegeweapons_tab" : "Siege Weapons Tab"
+
+
+}

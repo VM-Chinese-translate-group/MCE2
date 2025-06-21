@@ -1,0 +1,311 @@
+{
+	"root_health+2": {
+		"title": "Rogue: +8% Attack Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "alexscaves:desolate_dagger"
+			}
+		},
+		"rewards": [
+				{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"root_resistance+1%": {
+		"title": "Tank: +10% Resistance",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shieldexp:golden_shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"root_melee_damage+3%": {
+		"title": "Warrior: +12% Melee Damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iceandfire:dragonbone_sword_fire"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.12,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"root_ranged_damage+3%": {
+		"title": "Archer: +7% Ranged Damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "rats:ratlantis_bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.07,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"health+2": {
+		"title": "+1 Heart",
+			"icon": {
+			"type": "item",
+			"data": {
+				"item": "artifacts:crystal_heart"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"resistance+1%": {
+		"title": "+1% Resistance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shieldexp:iron_shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"melee_damage+3%": {
+		"title": "+3% Melee Damage",
+			"icon": {
+			"type": "item",
+			"data": {
+				"item": "iceandfire:dragonbone_sword_fire"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"ranged_damage+3%": {
+		"title": "+3% Ranged Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "alexscaves:dreadbow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"attack_speed+5%": {
+		"title": "+5% Attack Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "mowziesmobs:naga_fang_dagger"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"movement_speed+5%": {
+		"title": "+5% Movement Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"luck+0.25": {
+		"title": "+0.10 Combat Roll Recharge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "relics:roller_skates"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:recharge",
+					"value": 0.10,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+		"roll+1.0": {
+		"title": "+1.0 Combat Roll Charge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "relics:ice_breaker"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:count",
+					"value": 1.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"stamina+5%": {
+		"title": "+5% Stamina",
+	"icon": {
+			"type": "item",
+			"data": {
+				"item": "brewinandchewin:vodka"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"healing+5%": {
+		"title": "+5% Healing",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"jump+5%": {
+		"title": "+5% Jump",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+}

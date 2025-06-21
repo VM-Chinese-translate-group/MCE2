@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:landlord",
+  "rarity": "rare",
+  "defaultDisplay": "the Landlord",
+    "variantDisplay": "the Landlady"
+}

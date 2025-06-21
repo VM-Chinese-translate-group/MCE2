@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:gatekeeper",
+  "rarity": "uncommon",
+  "defaultDisplay": "the Gatekeeper"
+}

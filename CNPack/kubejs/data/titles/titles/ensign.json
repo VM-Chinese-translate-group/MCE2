@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:ensign",
+  "rarity": "uncommon",
+  "defaultDisplay": "Ensign"
+}

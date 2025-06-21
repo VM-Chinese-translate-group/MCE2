@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:lucky",
+  "rarity": "rare",
+  "defaultDisplay": "the Lucky"
+}

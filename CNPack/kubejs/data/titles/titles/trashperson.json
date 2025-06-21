@@ -1,0 +1,15 @@
+{
+  
+  "type": "command",
+"id": "titles:trash",
+
+  "rarity": "rare",
+
+  
+  "defaultDisplay": "the Trashman",
+  
+  "variantDisplay": "the Trashperson",
+  
+ 
+  "flavorText": "Save the planet from climate change!"
+}

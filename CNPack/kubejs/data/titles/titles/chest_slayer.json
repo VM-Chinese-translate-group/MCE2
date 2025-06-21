@@ -1,0 +1,14 @@
+{
+  
+  "type": "command",
+
+ "id": "titles:chest_slayer",
+  "rarity": "uncommon",
+
+  
+  "defaultDisplay": "the Chest Slayer",
+  
+
+ 
+  "flavorText": "Kill a Mimic"
+}

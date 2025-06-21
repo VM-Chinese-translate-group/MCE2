@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:tourist",
+  "rarity": "common",
+  "defaultDisplay": "the Tourist"
+}

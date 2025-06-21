@@ -1,0 +1,22 @@
+{
+  "item.dreadsteel.kit_default": "默认染料套件",
+  "item.dreadsteel.kit_white": "白色染料套件",
+  "item.dreadsteel.kit_black": "黑色染料套件",
+  "item.dreadsteel.kit_bronze": "青铜色染料套件",
+  "item.dreadsteel.dreadsteel_ingot": "悚怖钢",
+  "item.dreadsteel.dreadsteel_helmet": "悚怖钢头盔",
+  "item.dreadsteel.dreadsteel_chestplate": "悚怖钢胸甲",
+  "item.dreadsteel.dreadsteel_leggings": "悚怖钢护腿",
+  "item.dreadsteel.dreadsteel_boots": "悚怖钢靴子",
+  "item.dreadsteel.dreadsteel_scythe": "悚怖魔镰",
+  "item.dreadsteel.dreadsteel_shield": "悚怖盾",
+  "tooltip.dreadsteel.dreadsteel_ingot": "§7聆听悚怖之焰的低语§r",
+  "tooltip.dreadsteel.cosmetic_kit": "§7消耗该物品对当前穿着的和持有的Dreadsteel物品进行染色§r",
+  "tooltip.dreadsteel.dreadsteel_scythe": "§7攻击时：召唤一把魔法旋转剑，击中时刺穿所有敌人和护甲§r",
+  "tooltip.dreadsteel.dreadsteel_shield": "§7格挡时：焚化所有投射物并点燃近战攻击者§r",
+  "tooltip.dreadsteel.dreadsteel_setbonus": "§7悚怖钢全套：免疫火焰，尖刺和闪电的伤害§r",
+  "tooltip.dreadsteel.dreadsteel_color_white": "§7颜色：§r§f白色§r",
+  "tooltip.dreadsteel.dreadsteel_color_black": "§7颜色：§r§8黑色§r",
+  "tooltip.dreadsteel.dreadsteel_color_bronze": "§7颜色：§r§6青铜色§r",
+  "tooltip.dreadsteel.dreadsteel_color_default": "§7颜色：§r§7默认§r"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:die",
+  "rarity": "common",
+  "defaultDisplay": "Sir Die-a-Lot",
+  "variantDisplay": "Lady Die-a-Lot"
+}

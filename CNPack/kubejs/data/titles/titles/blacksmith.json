@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:blacksmith",
+  "rarity": "common",
+  "defaultDisplay": "the Blacksmith"
+}

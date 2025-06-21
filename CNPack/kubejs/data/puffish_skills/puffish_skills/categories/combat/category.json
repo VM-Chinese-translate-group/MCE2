@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "Combat",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "iceandfire:dragonbone_sword_fire"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/nether.png"
+}

@@ -1,0 +1,6 @@
+ {
+  "type": "command",
+  "id": "titles:cheesemonger",
+  "rarity": "uncommon",
+  "defaultDisplay": "the Cheesemonger"
+}

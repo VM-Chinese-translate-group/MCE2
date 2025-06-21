@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:martian",
+  "rarity": "uncommon",
+  "defaultDisplay": "Martian"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:crazy_cat",
+  "rarity": "common",
+  "defaultDisplay": "the Crazy Cat Person",
+  "variantDisplay": "the Crazy Cat Lady"
+}
