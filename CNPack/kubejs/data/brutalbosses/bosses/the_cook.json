@@ -1,14 +1,13 @@
 {
-   "entity":"dungeons_mobs:royal_guard",
+   "entity":"minecraft:vindicator",
    "name":"§rThe Cook",
    "visualscale":1.5,
    "protect_treasure":false,
    "showbossbar":false,
-   "experience":900,
+   "experience":9,
    "droppeditemamount":4,
    "effects":{
-      "minecraft:slowness":3,
-      "tetra:howling":2
+      "minecraft:slowness":3
    },
    "attributes":{
       "generic.max_health":150,
@@ -22,9 +21,9 @@
    },
    "gear":{
       "mainhand":"{id: \"farmersdelight:skillet\", Count: 1b, tag: {display:{Name:'{\"text\":\"Nether-Forged Skillet\"}',Lore:['{\"text\":\"This Skillet belongs to a famed celebrity chef, their culinary skills is known throughout all villager and illager-kind\"}']},Enchantments:[{lvl: 8s, id: \"minecraft:knockback\"}]}}",
-      "helmet":"{id: \"dungeons_mobs:chef_helmet\", Count: 1b, tag: {Damage: 30}}",
-      "offhand":"{id: \"alexsdelight:lobster_and_potatoes\", Count: 16b, tag: {Damage: 30}}",
-      "chestplate":"{id: \"dungeons_mobs:chef_chestplate\", Count: 1b, tag: {Damage: 80}}"
+      "helmet":"{id: \"rats:chef_toque\", Count: 1b, tag: {Damage: 30}}",
+      "offhand":"{id: \"farmersdelight:ratatouille\", Count: 16b, tag: {Damage: 30}}",
+      "chestplate":"{id: \"iceandfire:armor_silver_chestplate\", Count: 1b, tag: {Damage: 80}}"
    },
    "ai-goals":{
       "minecraft:target":{

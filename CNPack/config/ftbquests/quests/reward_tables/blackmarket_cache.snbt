@@ -2071,6 +2071,12 @@
 				}
 			}
 		}
+		{
+			amount: 5000L
+			currency: "eternalcurrencies:coins"
+			ignore_reward_blocking: true
+			type: "eternalcurrencies:currency"
+		}
 	]
 	title: "Blackmarket Cache"
 	use_title: true

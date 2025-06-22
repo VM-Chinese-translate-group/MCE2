@@ -1510,9 +1510,12 @@
 			y: 2.6090136054421933d
 		}
 		{
-			dependencies: ["267B32028E3E70E5"]
+			dependencies: ["14F614D973412FD5"]
 			description: [
-			  ""
+				""
+				"Upon walking into a village with the &c&lBad Omen&r effect "
+				"You will start a modded raid!"
+				"Come prepared!"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1749,6 +1752,8 @@
 				}
 				{
 					command: "/titles add @p titles:hero_village"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "29C6D081DC0E8D8F"
 					title: "&eUnlock Title:&r Hero of The Village"
@@ -1820,7 +1825,9 @@
 		{
 			dependencies: ["267B32028E3E70E5"]
 			description: [
-			  "Find a Village!"
+				"Find a Village!"
+				""
+				"&6Hint:&r Be careful when committing crimes in villages! Stealing, breaking blocks and attacking villagers will alert the nearby villager guards if a witness spots you!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1848,18 +1855,12 @@
 			size: 0.9d
 			subtitle: "&oHeeerm"
 			tasks: [{
-				advancement: "morevillagers:first_village"
-				criterion: ""
-				icon: {
-					Count: 1
-					id: "artifacts:villager_hat"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "379819BE34A2F1BD"
-				title: "&oLocate a Village"
-				type: "advancement"
+				icon: "artifacts:villager_hat"
+				id: "7CF0FC66F4112473"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:villager"
+				type: "observation"
 			}]
 			title: "Locate a Village! "
 			x: 8.63d
@@ -1969,8 +1970,10 @@
 			id: "39C7248750512A5B"
 			rewards: [
 				{
+					exclude_from_claim_all: true
 					icon: "create:purple_toolbox"
 					id: "225AE75358433961"
+					table_id: 3527950432660496906L
 					title: "&d&oQuestmaster's Box of Fun &e&r&e(Cosmetic Reward)"
 					type: "choice"
 				}
@@ -2618,8 +2621,8 @@
 				item: "tradingpost:trading_post"
 				type: "item"
 			}]
-			x: 9.569727891156468d
-			y: 1.942857142857143d
+			x: 9.55901360544216d
+			y: 1.9658163265306072d
 		}
 		{
 			dependencies: ["588D0B37BFB8A848"]
@@ -3848,6 +3851,7 @@
 			hide_until_deps_complete: true
 			icon: "rats:corrupt_rat_skull"
 			id: "3FB7F98F17B05CD7"
+			incompatible: ["740DD4098893630E"]
 			invisible: true
 			optional: true
 			rewards: [
@@ -8311,6 +8315,102 @@
 			title: "The Perfect Sandwich!"
 			x: 4.541156462585036d
 			y: -0.67499999999999d
+		}
+		{
+			dependencies: ["16A59774B0927BC5"]
+			description: [
+				"The Nature's Compass allows you to locate the biome of your dreams!"
+				"Simply Right-Click and press Find Biome! Make sure you select a biome native to the dimension you are in!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2E2B8A4CBC5D2DBD"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "57BF9E61C2FB5050"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2210DEB00120C778"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+			]
+			size: 0.8d
+			subtitle: "Craft a &eNature's Compass"
+			tasks: [{
+				id: "14D1DF76CED1A236"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.9396258503401356d
+			y: 1.4785714285714349d
+		}
+		{
+			description: [
+				"Why did you milk that creeper? What possessed you to do that? "
+				""
+				"&6Hint:&r You should &odefinitely&r drink it."
+			]
+			id: "276D83E0EB2A07D6"
+			invisible: true
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "3296C9C7FC9E81F1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7908BE7F2EA55206"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.7d
+			subtitle: "Why???"
+			tasks: [{
+				id: "1622D0966334B275"
+				item: "milkablecreepers:creeper_milk"
+				type: "item"
+			}]
+			x: 0.26819727891157186d
+			y: 1.4785714285714349d
 		}
 	]
 	title: "&6A New Start! &a(Recommended!)"
