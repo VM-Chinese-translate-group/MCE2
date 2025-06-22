@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-		  "Chapter coming soon!™"
+		  "敬请期待！™"
 		]
 		id: "0AA8A23A683CFA57"
 		rewards: [{
@@ -28,5 +28,5 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "&6Thermal"
+	title: "&6热力膨胀"
 }
