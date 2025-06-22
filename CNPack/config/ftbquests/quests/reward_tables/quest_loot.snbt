@@ -896,11 +896,11 @@
 					HideFlags: 33
 					display: {
 						Lore: [
-							"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+							"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
 							"{\"text\":\"§4§oRobbed from an unsuspecting Player\"}"
-							"{\"text\":\"§7§oRight-Click to Open\"}"
+							"{\"text\":\"§7§o里面有一件随机的特别物品！\"}"
 						]
-						Name: "{\"text\":\"§eStolen Quest Loot\"}"
+						Name: "{\"text\":\"§eStolen 任务奖励\"}"
 					}
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {
@@ -1598,7 +1598,7 @@
 			type: "command"
 		}
 		{
-			command: "/tellraw @p {\"text\":\"I opened this Quest Loot and all I got was this stupid message!\",\"color\":\"yellow\"}"
+			command: "/tellraw @p {\"text\":\"I opened this 任务奖励 and all I got was this stupid message!\",\"color\":\"yellow\"}"
 			console: true
 			elevate_perms: true
 			icon: {
@@ -2144,10 +2144,10 @@
 					HideFlags: 33
 					display: {
 						Lore: [
-							"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-							"{\"text\":\"§7§oRight-Click to Open\"}"
+							"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+							"{\"text\":\"§7§o里面有一件随机的特别物品！\"}"
 						]
-						Name: "{\"text\":\"§eQuest Loot\"}"
+						Name: "{\"text\":\"§e任务奖励\"}"
 					}
 					"quark:RuneAttached": 1b
 					"quark:RuneColor": {
@@ -2366,7 +2366,7 @@
 							"{\"text\":\"§7Effect: §9Health Boost\"}"
 							"{\"text\":\"§7Duration: §91:00\"}"
 							"{\"text\":\"§7Amplifier: §91\"}"
-							"{\"text\":\"§5§6✎ §nLore Text\"}"
+							"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
 							"{\"text\":\"§7§oI think this rat drowned in a Potion of Health Boost...\"}"
 						]
 						Name: "{\"text\":\"§dRat of Life\"}"

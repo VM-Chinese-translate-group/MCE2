@@ -89,7 +89,7 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:nether_item', Text.of('§6Allows passage into The Nether').color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.of('§8Right-Click to Ponder The Orb').color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.of('§eDrops from The Night Lich').color('#FFFFFF'));
-	event.add('kubejs:nether_item', Text.of('§5§6✎ §nLore Text').color('#FFFFFF'));
+	event.add('kubejs:nether_item', Text.of('§5§6✎ §n这件物品背后的小故事').color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.of('§7§oVibrates at ever-changing frequencies').color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.of('§7§oThe Tower Guardian protected this orb for hundreds of years to prevent it from falling into the wrong hands.. It is capable of bending powerful creatures to its users will.. It seems true that power eventually corrupts..').color('#FFFFFF'));
 	event.add('relics:infinity_ham', Text.of('\u00A7oExclusive Goblin Trade').color('#FFAA00'));
