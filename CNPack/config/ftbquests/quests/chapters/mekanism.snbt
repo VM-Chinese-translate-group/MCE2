@@ -527,7 +527,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["^\n氧\n^"]
+			hover: ["^\n氧气\n^"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -536,7 +536,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["获得氧的方法"]
+			hover: ["获得氧气的方法"]
 			image: "mekanism:textures/block/models/multipart/ultimate_pressurized_tube.png"
 			rotation: 0.0d
 			width: 0.25d
