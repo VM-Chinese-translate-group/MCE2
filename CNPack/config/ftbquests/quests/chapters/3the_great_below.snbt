@@ -132,12 +132,12 @@
 	quests: [
 		{
 			description: [
-				"The Great Below&r... not much is known about this place..."
+				"渊深之地&r... not much is known about this place..."
 				"All I know is &eThe Wither&r is connected to all of this, I would suggest you defeat it and see what you can learn."
 				""
 				"The Quest Book will not be able to advise you until you make the discoveries yourself!"
 				""
-				"Look out for clues and let's uncover the secrets of <shake>&d<shake>THE GREAT BELOW!!!"
+				"Look out for clues and let's uncover the secrets of <shake>&d<shake>渊深之地!!!"
 			]
 			id: "6741B77BBC23A95C"
 			rewards: [
@@ -392,7 +392,7 @@
 			description: [
 				"&3&oWhat awaits us on the other side? "
 				""
-				"&eTip:&r If you die in The Great Below, you will NOT create a Gravestone. You will be reduced to just another forgotten soul forever lost in The Great Below..."
+				"&eTip:&r If you die in 渊深之地, you will NOT create a Gravestone. You will be reduced to just another forgotten soul forever lost in 渊深之地..."
 				""
 				"&8\"We do not believe in human feelings, nor in human senses, nor human needs, human values, human fears, or even human hopes. The only purpose or belief is the path from the mind to the brain.\""
 			]
@@ -425,7 +425,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw @p {\"text\":\"The echos of The Great Below contaminate your mind.. Tendrils writhing and wreathing...  Causing you lose touch with reality and giving you a primal fear you cannot fully explain.. You hear it deep within your brain. Your thoughts are not your own and you are not alone..\",\"italic\":true,\"color\":\"aqua\"}"
+					command: "/tellraw @p {\"text\":\"The echos of 渊深之地 contaminate your mind.. Tendrils writhing and wreathing...  Causing you lose touch with reality and giving you a primal fear you cannot fully explain.. You hear it deep within your brain. Your thoughts are not your own and you are not alone..\",\"italic\":true,\"color\":\"aqua\"}"
 					console: true
 					icon: {
 						Count: 1
@@ -458,7 +458,7 @@
 						tag: { }
 					}
 					id: "3E57EBE779AB9556"
-					title: "&eUnlock Title:&r of The Great Below"
+					title: "&eUnlock Title:&r of 渊深之地"
 					type: "command"
 				}
 				{
@@ -512,7 +512,7 @@
 			]
 			shape: "octagon"
 			size: 1.4d
-			subtitle: "Enter &eThe Great Below"
+			subtitle: "Enter &e渊深之地"
 			tasks: [{
 				dimension: "thegreatbelow:thegreatbelow"
 				icon: {
@@ -521,7 +521,7 @@
 					tag: { }
 				}
 				id: "1F1E155EB340725D"
-				title: "&3Enter The Great Below"
+				title: "&3Enter 渊深之地"
 				type: "dimension"
 			}]
 			title: "&8From The Mind To The Brain"
@@ -531,7 +531,7 @@
 		{
 			dependencies: ["6248503684C49C89"]
 			description: [
-				"It seems deep down here in &eThe Great Below&r, a strange and alien material has formed."
+				"It seems deep down here in &e渊深之地&r, a strange and alien material has formed."
 				""
 				"Perhaps all of the lost the souls somehow have contributed to its formation, nonetheless we should mine as much of this stuff as possible. "
 				""
@@ -605,7 +605,7 @@
 				""
 				"They mention a &b\"ᔑʖ||ᓭᓭ\"&r or an \"Abyss\". "
 				""
-				"They seem to consider The Great Below as some sort of Soul Prison.. or Purgatory for damned souls to be tormented while they await their pilgrimage into &b\"ℸ ̣ ⍑ᒷ. ⊣∷ᒷᔑℸ ̣. ʖᒷ||𝙹リ↸\"&r "
+				"They seem to consider 渊深之地 as some sort of Soul Prison.. or Purgatory for damned souls to be tormented while they await their pilgrimage into &b\"ℸ ̣ ⍑ᒷ. ⊣∷ᒷᔑℸ ̣. ʖᒷ||𝙹リ↸\"&r "
 				"- The Great Beyond.."
 				""
 				"The Warden is mentioned briefly and considered to be a force of nature. "
@@ -628,11 +628,11 @@
 								"{\"text\":\"Staring at the sea...\\nWill she come?\\n\\nIs there hope for me?\\nAfter all is said and done..\\n\\nAnything at any price.\\nAll of this is for you..\\n\\nAll the spoils of a wasted life...\\n\\nAll of this for you..\"}"
 								"{\"text\":\"All the world has closed her eyes.\\n\\nTired faith all worn and thin..\\n\\nFor all we could have done..\\n\\nAnd all that could have been.\\n\\nOcean pulls me close..\\n\"}"
 								"{\"text\":\"It whispers in my ear..\\n\\nThe destiny I've chose.\\n\\nAll becoming clear..\\n\\nThe currents have their say..\\n\\nThe time is drawing near..\\n\\nWashes me away...\"}"
-								"{\"text\":\"Makes me disappear.\\n\\nAnd I descend from grace.\\n\\nIn arms of undertow..\\n\\nI will take my place...\\n\\n\\n\\n\\n\\nIN THE GREAT BELOW!\"}"
+								"{\"text\":\"Makes me disappear.\\n\\nAnd I descend from grace.\\n\\nIn arms of undertow..\\n\\nI will take my place...\\n\\n\\n\\n\\n\\nIN 渊深之地!\"}"
 								"{\"text\":\"I can still feel you..\\n\\nEven so far away..\\n\"}"
 							]
 							resolved: 1b
-							title: "The Great Below"
+							title: "渊深之地"
 						}
 					}
 					type: "item"
@@ -764,7 +764,7 @@
 		{
 			dependencies: ["6248503684C49C89"]
 			description: [
-				"It is said when a soul finally escapes The Great Below and ascends to The Great Beyond, they hear the most beautiful symphony ever created.."
+				"It is said when a soul finally escapes 渊深之地 and ascends to The Great Beyond, they hear the most beautiful symphony ever created.."
 				""
 				"Whoever was trapped down here has clearly tried to recreate it... "
 				""
@@ -952,5 +952,5 @@
 			y: 0.0d
 		}
 	]
-	title: "&3The Great Below &6☆☆☆"
+	title: "&3渊深之地 &6☆☆☆"
 }

@@ -110,7 +110,7 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:loyalty_card_bm', Text.of('§3Proudly brought to you by the AdamCo™ Rewards Program!').color('#FFFFFF'));
 	event.add('kubejs:loyalty_card_curio', Text.of('§3Proudly brought to you by the AdamCo™ Rewards Program!').color('#FFFFFF'));
 	event.add('kubejs:loyalty_card_generic', Text.of('§3Proudly brought to you by the AdamCo™ Rewards Program!').color('#FFFFFF'));
-	event.add('#forge:ingots/osmium', Text.of('\u00A7oExclusive to The Great Below').color('#FFFFFF'));
+	event.add('#forge:ingots/osmium', Text.of('\u00A7oExclusive to 渊深之地').color('#FFFFFF'));
 	event.add('#forge:ores/arcane', Text.of('\u00A7oExclusive to The Nether (Basalt Deltas)').color('#FFFFFF'));
 	event.add('ars_nouveau:arcane_ore', Text.of('\u00A7oExclusive to The Nether (Basalt Deltas)').color('#FFFFFF'));
 	event.add('#forge:ores/certus_quartz', Text.of('\u00A7oExclusive to The Nether (Basalt Deltas)').color('#FFFFFF'));

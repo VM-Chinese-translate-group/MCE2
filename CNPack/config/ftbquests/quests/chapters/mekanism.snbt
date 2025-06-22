@@ -60,7 +60,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["^\n3x Ore Processing"]
+			hover: ["^\n三倍矿物处理线"]
 			image: "mekanism:item/clump_osmium"
 			rotation: 0.0d
 			width: 0.5d
@@ -69,7 +69,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["^\n2x Ore Processing"]
+			hover: ["^\n两倍矿物处理线"]
 			image: "mekanism:item/clump_osmium"
 			rotation: 0.0d
 			width: 0.5d
@@ -126,7 +126,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["> Dirty Dust >"]
+			hover: ["> 污浊的粉 >"]
 			image: "mekanism:textures/block/models/multipart/advanced_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -135,7 +135,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["> Dust >"]
+			hover: ["> 矿粉 >"]
 			image: "mekanism:textures/block/models/multipart/basic_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -144,7 +144,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["> Clumps >"]
+			hover: ["> 碎块 >"]
 			image: "mekanism:textures/block/models/multipart/advanced_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -155,7 +155,7 @@
 			height: 1.75d
 			hover: [
 				"v"
-				"Shards"
+				"碎片"
 				"v"]
 			image: "mekanism:textures/block/models/multipart/elite_mechanical_pipe_vertical.png"
 			rotation: 0.0d
@@ -165,7 +165,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["> Oxygen >"]
+			hover: ["> 氧 >"]
 			image: "mekanism:textures/block/models/multipart/advanced_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -174,7 +174,7 @@
 		}
 		{
 			height: 1.5d
-			hover: ["> Hydrogen Chloride >"]
+			hover: ["> 氯化氢 >"]
 			image: "mekanism:textures/block/models/multipart/elite_pressurized_tube_vertical.png"
 			rotation: 71.25d
 			width: 0.5d
@@ -183,7 +183,7 @@
 		}
 		{
 			height: 1.5d
-			hover: ["> Chlorine >"]
+			hover: ["> 氯 >"]
 			image: "mekanism:textures/block/models/multipart/elite_pressurized_tube_vertical.png"
 			rotation: -71.25d
 			width: 0.5d
@@ -192,7 +192,7 @@
 		}
 		{
 			height: 1.5d
-			hover: ["v\nBrine\nv"]
+			hover: ["v\n卤水\nv"]
 			image: "mekanism:textures/block/models/multipart/elite_mechanical_pipe_vertical.png"
 			rotation: -18.25d
 			width: 0.5d
@@ -201,7 +201,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["< Crystals <"]
+			hover: ["< 晶体 <"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -210,7 +210,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["< Clean Ore Slurry <"]
+			hover: ["< 纯净的矿物浆液 <"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_mechanical_pipe_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -219,7 +219,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["v\nOre Slurry\nv"]
+			hover: ["v\n污浊的矿物浆液\nv"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_mechanical_pipe_vertical.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -228,7 +228,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["4x Ore Processing\nv"]
+			hover: ["四倍矿物处理线\nv"]
 			image: "mekanism:item/clump_osmium"
 			rotation: 0.0d
 			width: 0.5d
@@ -261,7 +261,7 @@
 		}
 		{
 			height: 2.5d
-			hover: ["> Sulfuric Acid >"]
+			hover: ["> 硫酸 >"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -270,7 +270,7 @@
 		}
 		{
 			height: 1.5d
-			hover: ["> Water Vapor >"]
+			hover: ["> 水蒸气 >"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -279,7 +279,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["v\nHydrogen\nv"]
+			hover: ["v\n氢气\nv"]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -288,7 +288,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["Hydrogen Source"]
+			hover: ["氢气来源"]
 			image: "mekanism:textures/block/models/multipart/elite_pressurized_tube.png"
 			rotation: -90.0d
 			width: 0.25d
@@ -353,7 +353,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["v\nSulfur Trioxide\nv"]
+			hover: ["v\n三氧化硫\nv"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: -18.25d
 			width: 0.5d
@@ -362,7 +362,7 @@
 		}
 		{
 			height: 1.5d
-			hover: ["> Sulfur Dioxide >"]
+			hover: ["> 二氧化硫 >"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: -71.25d
 			width: 0.5d
@@ -371,7 +371,7 @@
 		}
 		{
 			height: 1.5d
-			hover: ["> Sulfur >"]
+			hover: ["> 硫磺 >"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 71.25d
 			width: 0.5d
@@ -380,7 +380,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["> Water >"]
+			hover: ["> 水 >"]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_mechanical_pipe_vertical.png"
 			rotation: 90.0d
 			width: 0.25d
@@ -389,7 +389,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["Water Source"]
+			hover: ["获得水的方法"]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_mechanical_pipe.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -422,7 +422,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["v\nWater\nv"]
+			hover: ["v\n水\nv"]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_mechanical_pipe_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -431,7 +431,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["Water Source"]
+			hover: ["获得水的方法"]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_mechanical_pipe.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -440,7 +440,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["^\nWater\n^"]
+			hover: ["^\n水\n^"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_mechanical_pipe_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -449,7 +449,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["Water Source"]
+			hover: ["获得水的方法"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_mechanical_pipe.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -466,7 +466,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["5x Ore Processing\nv"]
+			hover: ["五倍矿物处理线\nv"]
 			image: "mekanism:item/clump_osmium"
 			rotation: 0.0d
 			width: 0.5d
@@ -491,7 +491,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["^\nHydrogen Chloride\n^"]
+			hover: ["^\n氯化氢\n^"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -500,7 +500,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["Hydrogen Chloride Source"]
+			hover: ["获得氯化氢的方法"]
 			image: "mekanism:textures/block/models/multipart/ultimate_pressurized_tube.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -509,7 +509,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["v\nGunpowder\nv"]
+			hover: ["v\n火药\nv"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_logistical_transporter_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -518,7 +518,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["Gunpowder Source"]
+			hover: ["获得火药的方法"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_logistical_transporter.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -527,7 +527,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["^\nOxygen\n^"]
+			hover: ["^\n氧\n^"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -536,7 +536,7 @@
 		}
 		{
 			height: 0.25d
-			hover: ["Oxygen Source"]
+			hover: ["获得氧的方法"]
 			image: "mekanism:textures/block/models/multipart/ultimate_pressurized_tube.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -612,7 +612,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Osmium can only be found in &eThe Great Below!"]
+			description: ["你只能在&e渊深之地&r那里找到锇！"]
 			id: "13E3DEE8C03C51C1"
 			rewards: [
 				{
@@ -889,7 +889,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "二阶矿物处理线"
+			subtitle: "两倍矿物处理线"
 			tasks: [{
 				id: "3CABAC3B1CE025DE"
 				item: {
@@ -950,7 +950,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "二阶矿物处理线"
+			subtitle: "两倍矿物处理线"
 			tasks: [{
 				id: "30B06138AE4082FF"
 				item: {
@@ -1133,7 +1133,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "三阶矿物处理线"
+			subtitle: "三倍矿物处理线"
 			tasks: [{
 				id: "5A9DDCECCB25ECC2"
 				item: {
@@ -1255,7 +1255,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "三阶矿物处理线"
+			subtitle: "三倍矿物处理线"
 			tasks: [{
 				id: "51191D954A8C6286"
 				item: {
@@ -1316,7 +1316,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "三阶矿物处理线"
+			subtitle: "三倍矿物处理线"
 			tasks: [{
 				id: "0F7E7250EA94A60C"
 				item: "mekanism:thermal_evaporation_controller"
@@ -1370,7 +1370,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "四阶矿物处理线"
+			subtitle: "四倍矿物处理线"
 			tasks: [{
 				id: "3ED371B541A99A02"
 				item: {
@@ -1432,7 +1432,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "四阶矿物处理线"
+			subtitle: "四倍矿物处理线"
 			tasks: [{
 				id: "6555A67D47795016"
 				item: {
@@ -1493,7 +1493,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "四阶矿物处理线"
+			subtitle: "四倍矿物处理线"
 			tasks: [{
 				id: "12D22984E3CFC5B5"
 				item: {
@@ -1554,7 +1554,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "四阶矿物处理线"
+			subtitle: "四倍矿物处理线"
 			tasks: [{
 				id: "74E6199DFC0C88B4"
 				item: {
@@ -1615,7 +1615,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "四阶矿物处理线"
+			subtitle: "四倍矿物处理线"
 			tasks: [{
 				id: "50DD32D172343473"
 				item: {
@@ -1676,7 +1676,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "四阶矿物处理线"
+			subtitle: "四倍矿物处理线"
 			tasks: [{
 				id: "128C38ED5F1A0CEB"
 				item: {
@@ -1738,7 +1738,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "四阶矿物处理线"
+			subtitle: "四倍矿物处理线"
 			tasks: [{
 				id: "727175833E15C31B"
 				item: {
@@ -1800,7 +1800,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "四阶矿物处理线"
+			subtitle: "四倍矿物处理线"
 			tasks: [{
 				id: "668F922BEF2212D1"
 				item: {
@@ -4799,5 +4799,5 @@
 			y: 0.5d
 		}
 	]
-	title: "&6前期通用机械"
+	title: "&6通用机械"
 }
