@@ -368,7 +368,7 @@
 			description: [
 				"&eBalloon Pieces&r drop from &eBalloons&r which spawn high up in the sky!"
 				""
-				"&6Hint:&r If you are having no luck with mob spawns, I've heard The Goblin Trader occasionally sells &eBalloon Pieces!"
+				"&6小贴士：&r If you are having no luck with mob spawns, I've heard The Goblin Trader occasionally sells &eBalloon Pieces!"
 			]
 			id: "5142D2CE8498C688"
 			rewards: [
@@ -431,7 +431,7 @@
 				""
 				"Cloud blocks can be found in the sky and also drop from the &dBloviator&r mob!"
 				""
-				"&6Hint:&r Just like the &eBalloon Piece&r, if you run into problems finding the mob, The Goblin Trader can sometimes sell &eClouds!"
+				"&6小贴士：&r Just like the &eBalloon Piece&r, if you run into problems finding the mob, The Goblin Trader can sometimes sell &eClouds!"
 				""
 				"&8AWS or Azure? 🥁"
 			]
@@ -509,7 +509,7 @@
 				""
 				"Every chest with a balloon attached that safely makes it into the sky will have its items added to your Cloud Chest&r"
 				""
-				"&6Hint:&r Balloons can be popped midair! "
+				"&6小贴士：&r Balloons can be popped midair! "
 				"To ensure your items are safe and not griefed by monsters or other players. "
 				"It is wise to send up empty chests and access your Cloud Chest&r directly to store items!"
 			]
@@ -589,7 +589,7 @@
 			description: [
 				"Sky Temples can be rarely found high up in the sky! "
 				""
-				"&6Hint:&r Watch out for angry Bloviators!"
+				"&6小贴士：&r Watch out for angry Bloviators!"
 			]
 			hide_until_deps_complete: true
 			id: "79E57A21066A296D"

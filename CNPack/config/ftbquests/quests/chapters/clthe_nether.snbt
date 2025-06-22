@@ -1299,7 +1299,7 @@
 			description: [
 				"I'm sure you noticed by now that beds do not work in The Nether. If you wish to respawn somewhere safe while exploring The Nether, &eThe Respawn Anchor&r will allow you to do just that! "
 				""
-				"&6Hint:&r Unlike a bed,  &eThe Respawn Anchor&r requires charges in order to work. To give it one charge, feed it a &eGlowstone Block."
+				"&6小贴士：&r Unlike a bed,  &eThe Respawn Anchor&r requires charges in order to work. To give it one charge, feed it a &eGlowstone Block."
 			]
 			id: "3CC4D8AC7D27AE94"
 			rewards: [

@@ -232,7 +232,7 @@
 				"{image:modpack:textures/end_portal_room.png width:200 height:110 align:1 fit:true}"
 				"&eTip:&r You cannot use a standard &eEye of Ender&r to locate the portal room. You must use one of &eThe Legendary Eyes!&r"
 				""
-				"&6Hint:&r Legendary Eyes do not break! But be careful not to lose one! You can purchase a \"Replica Eye\" once you've collected &eThe Golem Eye&r. It can be purchased from &dThe Quest Shop&r and can be used to safely locate &eThe Portal Room&r"
+				"&6小贴士：&r Legendary Eyes do not break! But be careful not to lose one! You can purchase a \"Replica Eye\" once you've collected &eThe Golem Eye&r. It can be purchased from &dThe Quest Shop&r and can be used to safely locate &eThe Portal Room&r"
 			]
 			id: "5406B7F8719CFC26"
 			rewards: [

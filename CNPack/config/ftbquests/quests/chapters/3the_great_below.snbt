@@ -836,7 +836,7 @@
 				"So it seems regular old Night Vision just doesn't cut it here..."
 				"We will have to get creative! Craft one of these and see if we can adapt!"
 				""
-				"&6Hint:&r You can combine your Echo Location Device with a Precision Mechanism to control when the ability activates with a keybind! (By default K)"
+				"&6小贴士：&r You can combine your Echo Location Device with a Precision Mechanism to control when the ability activates with a keybind! (By default K)"
 			]
 			id: "32B78ADD4FECE592"
 			rewards: [

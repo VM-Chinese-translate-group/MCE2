@@ -356,7 +356,7 @@
 			description: [
 			  "The Zeal Lighter can be used to open a portal to both &aThe Everdawn &rand &bThe Everbright"
 			  "&eTip:&r Unfinished portals can often be found hidden inside The Gatekeepers house! Investigate!"
-			  "&6Hint:&r Regular non-blue skies equipment will be far less effective in The Everbright and Everdawn"
+			  "&6小贴士：&r Regular non-blue skies equipment will be far less effective in The Everbright and Everdawn"
 			]
 			id: "4313289FDB40498E"
 			rewards: [
@@ -423,7 +423,7 @@
 			  "The Gatekeeper can be found in many different biomes but can be found most often in a Plains biome! "
 			  ""
 			  "&eTip:&r The Gatekeeper has a very special trade! "
-			  "&6Hint:&r Living near a Gatekeeper can sometimes be a good idea, they are quite powerful and will attack your enemies!"
+			  "&6小贴士：&r Living near a Gatekeeper can sometimes be a good idea, they are quite powerful and will attack your enemies!"
 			]
 			id: "661DDA7256AD220A"
 			rewards: [
@@ -822,7 +822,7 @@
 			description: [
 			  "Residing in the Everbright, the Summoner fights with lightning, energy attacks, and his golem guards. Be sure to watch your back as these golems can quickly overwhelm you if not properly tended to. Defeating him will allow you to access the &eNature Dungeon."
 			  ""
-			  "&6Hint:&r The Summoner drops the &e&oNovice Spell Book"
+			  "&6小贴士：&r The Summoner drops the &e&oNovice Spell Book"
 			  ""
 			  ""
 			  ""

@@ -1453,7 +1453,7 @@
 		{
 			dependencies: ["14F614D973412FD5"]
 			description: [
-			  "Craft and place an &eAdvancement Frame. "
+			  "合成并放置一个&e进度展示框。 "
 			]
 			hide_dependency_lines: false
 			id: "20E762D89AEBE3D6"
@@ -1500,7 +1500,7 @@
 				}
 			]
 			size: 0.5d
-			subtitle: "&oHave you ever wanted to display your most proud achievements? "
+			subtitle: "&o你有没有想过展示自己最自豪的成就？"
 			tasks: [{
 				id: "77CE0CD1ED418EC3"
 				item: "advancementframes:advancement_frame"
@@ -1513,9 +1513,9 @@
 			dependencies: ["14F614D973412FD5"]
 			description: [
 				""
-				"Upon walking into a village with the &c&lBad Omen&r effect "
-				"You will start a modded raid!"
-				"Come prepared!"
+				"带有&c&l不祥之兆&r效果时走进村庄。"
+				"然后你就会触发一场被增强过的劫掠！"
+				"准备好面对灾厄村民吧！"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1572,13 +1572,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Walk into a Village with the \"&oBad Omen\" Status Effect"
+			subtitle: "身上有&o不祥之兆&r效果时走进村庄"
 			tasks: [{
 				advancement: "minecraft:adventure/hero_of_the_village"
 				criterion: ""
 				icon: "rats:rat_skull"
 				id: "780FAC3B0245869E"
-				title: "&eDefend a Village from a Raid"
+				title: "&e在劫掠之下保卫村庄！"
 				type: "advancement"
 			}]
 			x: 10.572448979591833d
@@ -1645,22 +1645,22 @@
 				}
 			]
 			size: 0.7d
-			subtitle: "&oCraft and use a Spyglass"
+			subtitle: "&o合成并使用望远镜"
 			tasks: [{
 				id: "109D44DFC9963C8B"
 				item: "minecraft:spyglass"
 				type: "item"
 			}]
-			title: "&oI spy, I spy"
+			title: "&o我看我看我看看看！"
 			x: 12.133333333333319d
 			y: 0.3103741496598573d
 		}
 		{
 			dependencies: ["2193B157D17E53C0"]
 			description: [
-				"The &6Sophisticated Backpack&r offers impressive portable storage space, making it an invaluable addition to your adventuring toolkit!"
+				"&6精妙背包&r的存储空间非常大，它对你的探险之旅绝对是一件不可或缺的宝物！"
 				""
-				"&dFun fact!&r You can upgrade your backpack with special upgrades! Type &e@backpack&r into JEI to view the options!"
+				"&d这里有个有趣的小事实！&r你可以用特定的升级对背包进行升级！在JEI中输入&e@backpack&r即可查看各种可选升级！"
 				""
 			]
 			hide_until_deps_complete: true
@@ -1722,14 +1722,14 @@
 				}
 			]
 			size: 0.7d
-			subtitle: "Craft a &eSophisticated Backpack"
+			subtitle: "合成一个&e精致背包"
 			tasks: [{
 				id: "06B6E5476A2588BC"
 				item: "sophisticatedbackpacks:backpack"
 				title: "Backpack"
 				type: "item"
 			}]
-			title: "Backpacking"
+			title: "全都装起来"
 			x: 11.317006802721075d
 			y: 0.28996598639454874d
 		}
@@ -1756,7 +1756,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "29C6D081DC0E8D8F"
-					title: "&e已解锁称号：&r Hero of The Village"
+					title: "&e已解锁称号：&r村庄英雄"
 					type: "command"
 				}
 				{
@@ -1810,7 +1810,7 @@
 			]
 			shape: "pentagon"
 			size: 0.8d
-			subtitle: "&oDefend a Village from 3 Raids"
+			subtitle: "&o在三次劫掠中成功保卫村庄"
 			tasks: [{
 				icon: "rats:corrupt_rat_skull"
 				id: "7EF6754153DB226F"
@@ -1818,16 +1818,16 @@
 				type: "stat"
 				value: 3
 			}]
-			title: "&eDefeat 3 Illager Raids"
+			title: "&e击退三次劫掠"
 			x: 11.714285714285708d
 			y: 2.0d
 		}
 		{
 			dependencies: ["267B32028E3E70E5"]
 			description: [
-				"Find a Village!"
+				"找到一个村庄！"
 				""
-				"&6Hint:&r Be careful when committing crimes in villages! Stealing, breaking blocks and attacking villagers will alert the nearby villager guards if a witness spots you!"
+				"&6小贴士：&r在村庄里头干违法乱纪的事时要小心点！偷东西打破方块和伤害村民时如果有目击者的话，他们就会喊来守卫！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1853,7 +1853,7 @@
 				}
 			]
 			size: 0.9d
-			subtitle: "&oHeeerm"
+			subtitle: "&o*村民叫声*"
 			tasks: [{
 				icon: "artifacts:villager_hat"
 				id: "7CF0FC66F4112473"
@@ -1862,14 +1862,14 @@
 				to_observe: "minecraft:villager"
 				type: "observation"
 			}]
-			title: "Locate a Village! "
+			title: "找到村庄！ "
 			x: 8.63d
 			y: 1.97d
 		}
 		{
 			description: [
 				""
-				"&6&lHint:&r Click the &a&nTask&r to open the letter!"
+				"&6&l小贴士：&r Click the &a&nTask&r to open the letter!"
 				""
 				"&8Dev Note: There are a lot of Quests and chapters in MCE2, it can be easy to get overwhelmed! Try to focus on the Introduction Chapters to begin!"
 			]
@@ -1909,7 +1909,7 @@
 			description: [
 				"Dynamic Lighting is here! Woo! Try holding a light source!"
 				"&eTip:&r You can place a torch or lantern in your off-hand to passively generate light!"
-				"&6Hint:&r You can place a Lantern on a wall to mount it to a block!"
+				"&6小贴士：&r You can place a Lantern on a wall to mount it to a block!"
 			]
 			hide_until_deps_visible: true
 			icon: "minecraft:lantern"
@@ -1962,7 +1962,7 @@
 			  "Open your inventory and click the Curios button near the armor slots. There are many Curios to collect, each with unique, powerful or sometimes &oodd&r properties!"
 			  ""
 			  "&eTip:&r Some Curios have keybinds in order to activate their ability. Make sure to hold SHIFT to check! Also, some Curios will only give you bonus stat points."
-			  "&6Hint:&r Upon dying, equipped Curios will remain in their slots! "
+			  "&6小贴士：&r Upon dying, equipped Curios will remain in their slots! "
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -2360,7 +2360,7 @@
 			dependencies: ["7A29AEC9EDE48BFA"]
 			description: [
 			  ""
-			  "&6Hint:&r The Turtle Armor gives its wearer increased speed in water and projectile protection at the cost of slowness on land!"
+			  "&6小贴士：&r The Turtle Armor gives its wearer increased speed in water and projectile protection at the cost of slowness on land!"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -3018,9 +3018,9 @@
 			dependencies: ["39C7248750512A5B"]
 			description: [
 				"&e&o\"You ask yourself, it really free if I have to work for it?\""
-				"&6Hint:&r Gusters can be found in Desert Biomes"
-				"&6Hint:&r Witches can be found in Swamp Biomes"
-				"&6Hint:&r Naga can be found in Cliff Biomes"
+				"&6小贴士：&r Gusters can be found in Desert Biomes"
+				"&6小贴士：&r Witches can be found in Swamp Biomes"
+				"&6小贴士：&r Naga can be found in Cliff Biomes"
 			]
 			hide_until_deps_visible: true
 			icon: "artifacts:cross_necklace"
@@ -3141,7 +3141,7 @@
 		{
 			dependencies: ["0E64ACED3D987FB1"]
 			description: [
-			  "&6Hint:&r&e The Living Flame&r is a very rare item that can be found in a Jungle Temple, or by killing a Crazed Illager in a Mansion!"
+			  "&6小贴士：&r&e The Living Flame&r is a very rare item that can be found in a Jungle Temple, or by killing a Crazed Illager in a Mansion!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -3339,9 +3339,9 @@
 		{
 			dependencies: ["466E13BECD4E53F9"]
 			description: [
-				"&6Hint:&r Sirens can be found rarely in Ocean Biomes!"
-				"&6Hint:&r Trolls can be found rarely Underground!"
-				"&6Hint:&r Ravagers can be found at Village Raids!"
+				"&6小贴士：&r Sirens can be found rarely in Ocean Biomes!"
+				"&6小贴士：&r Trolls can be found rarely Underground!"
+				"&6小贴士：&r Ravagers can be found at Village Raids!"
 				""
 			]
 			hide_until_deps_complete: true
@@ -3506,7 +3506,7 @@
 		{
 			dependencies: ["6A0049757CE230E6"]
 			description: [
-			  "&6Hint:&r Give a Heartstone to a friend and track them with your other Heartstone"
+			  "&6小贴士：&r Give a Heartstone to a friend and track them with your other Heartstone"
 			  "&d&nRequires Multiplayer"
 			]
 			hide_dependency_lines: true
@@ -3591,7 +3591,7 @@
 			  ""
 			  "While dead you will become a &bGhost!&r You are invisible unless you interact with the world! or after 30 seconds when the effect wears off...  "
 			  ""
-			  "&6Hint:&r You can combine a Grave Key with certain items (such as an &eEye of Ender&r) to craft an &eEnchanted Key&r which can be used to teleport to your Tombstone by &eHolding Right Click"
+			  "&6小贴士：&r You can combine a Grave Key with certain items (such as an &eEye of Ender&r) to craft an &eEnchanted Key&r which can be used to teleport to your Tombstone by &eHolding Right Click"
 			  "{image:minecraft:textures/painting/skeleton.png width:150 height:100 align:1}"
 			  "&7Graveyard Tip:&r Your Tombstone is protected for 60 minutes, after that it will unlock and anyone (&oor thing&r&o ◉‿◉) &rcan interact with it!"
 			  ""
@@ -3843,7 +3843,7 @@
 			dependencies: ["39F2826F56D567B2"]
 			description: [
 			  "&c&lI CURSE YOU! I CURSE YOU! I CURSE YOU! GET CURSED! "
-			  "&eHint:&r You will be cursed every hour until you sign the contract! "
+			  "&e小贴士：&r You will be cursed every hour until you sign the contract! "
 			  ""
 			  "&6Tip:&r Sign th&kdd&re contr&kdd&ract n&k88&rext ti&khh&rme"
 			]
@@ -4309,7 +4309,7 @@
 		{
 			dependencies: ["0901DBD03773B644"]
 			description: [
-				"&6Hint:&r The Quest Shop is located on the far right of the screen, you can identify it by the coin icon!"
+				"&6小贴士：&r The Quest Shop is located on the far right of the screen, you can identify it by the coin icon!"
 				"&eTip:&r You can find this item for sale at &e&n\"The Tavern\""
 			]
 			hide_dependency_lines: true
@@ -5022,7 +5022,7 @@
 			dependencies: ["2785A42DDDEB324C"]
 			description: [
 				""
-				"&6Hint:&r You can find Rattlesnakes in Desert Biomes!"
+				"&6小贴士：&r You can find Rattlesnakes in Desert Biomes!"
 				"&7&oDid you know that maracas have beans in them? :)"
 			]
 			hide_until_deps_visible: true
@@ -5448,7 +5448,7 @@
 				"Upon breaking &eThe Toolbox&r will retain its inventory! "
 				""
 				"&eTip:&r This item can be dyed!"
-				"&6Hint:&r &eThe Toolbox&r is very helpful for storing bonus tools such as Pickaxes!"
+				"&6小贴士：&r &eThe Toolbox&r is very helpful for storing bonus tools such as Pickaxes!"
 			]
 			hide_until_deps_visible: true
 			id: "2193B157D17E53C0"
@@ -5500,7 +5500,7 @@
 				"Upon summoning &eLuggage&r, they will capture your dropped items... and your heart! &d♡ "
 				"But most importantly of all, &eLuggage&r is a portable chest who will follow you to the ends of the Overworld! "
 				""
-				"&6Hint:&r You can strike Luggage with lightning to &7&osupercharge&r your pal!"
+				"&6小贴士：&r You can strike Luggage with lightning to &7&osupercharge&r your pal!"
 				"&eTip:&r You can press &dShift + Right Click&r to pick up Luggage."
 			]
 			hide_until_deps_complete: true
@@ -5591,7 +5591,7 @@
 				"The Mimic can be found rarely underground and in Dungeons."
 				"It's deceptive nature might fool unsuspecting adventurers but you've got me to guide you! &oHurrah!"
 				""
-				"&6Hint:&r The Mimic hides under the guise as a regular chest. You can easily find a Mimic by looking for it's main tell.. &eGreen Particles&r as it always will spawn as a &dChampion Mob."
+				"&6小贴士：&r The Mimic hides under the guise as a regular chest. You can easily find a Mimic by looking for it's main tell.. &eGreen Particles&r as it always will spawn as a &dChampion Mob."
 				"&eTip:&r Upon killing a Mimic, they will drop a &7\"Curios Cache\"&r"
 			]
 			hide_dependency_lines: true
@@ -5958,7 +5958,7 @@
 		{
 			dependencies: ["7A195730508F9A23"]
 			description: [
-				"&6Hint:&r The &eDwarven Map Expedition&r will reveal itself to you once you've discovered all of the rare underground biomes... Or so the rumour says..."
+				"&6小贴士：&r The &eDwarven Map Expedition&r will reveal itself to you once you've discovered all of the rare underground biomes... Or so the rumour says..."
 				"See the Quest Chapter &d\"Mining (iii)\"&r for more info!"
 			]
 			hide_until_deps_visible: true
@@ -6006,7 +6006,7 @@
 			description: [
 				"The &eTool Belt&r allows you to quickly equip and swap tools by pressing the &dKeybind!&r &o*(Make sure to rebind!)"
 				""
-				"&6Hint:&r Upon crafting you will have two tool slots available, this can be upgraded with a &eBelt Pouch&r however!"
+				"&6小贴士：&r Upon crafting you will have two tool slots available, this can be upgraded with a &eBelt Pouch&r however!"
 			]
 			hide_until_deps_complete: true
 			id: "7587621A1020896E"
@@ -6083,7 +6083,7 @@
 				"Over the next &eMinecraft Day&r you will begin to unlock your &lVAMPIRIC POWER!&r BUT! You will need to change your diet.... ;) "
 				""
 				"&e&lTip:&r Hold the ' &6&l-&r ' Key to suck an animals blood!"
-				"&6&lHint:&r As a Pureblood, you will start as a Level 2 Vampire!"
+				"&6&l小贴士：&r As a Pureblood, you will start as a Level 2 Vampire!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -6431,7 +6431,7 @@
 			dependencies: ["740DD4098893630E"]
 			description: [
 				"Spend some time learning how to be a goat.. there are a lot of lessons one can learn from goats!"
-				"&6Hint:&r There are no hints... there are no shortcuts.. Study the goat and you shall be rewarded tenfold!"
+				"&6小贴士：&r There are no hints... there are no shortcuts.. Study the goat and you shall be rewarded tenfold!"
 				""
 				"&7&oDid you CHEAT and BURY a goat or build a dirt wall around it or something? if so, shame on you! SHAME! if not, well done I'm proud of you xoxo."
 			]
@@ -6623,7 +6623,7 @@
 				"It is time. We need to enter The Nether!"
 				"The Nether is full of valuble resources, multiple Legendary Eyes among other valuble treasures to claim!"
 				""
-				"&6Hint:&r Use the Flint and Steel on the portal frame!"
+				"&6小贴士：&r Use the Flint and Steel on the portal frame!"
 				"&4Note:&r Entering The Nether will start EXPERT MODE! "
 			]
 			icon: "minecraft:obsidian"
@@ -6764,7 +6764,7 @@
 		{
 			dependencies: ["71D5E6B384A55A8A"]
 			description: [
-				"&6Hint:&r Use your &e\"Questing Compass\"&r to find the tower easier! It can be unlocked by completing the quest &e\"Finding Your Way\"&r which is located in the introduction chapter."
+				"&6小贴士：&r Use your &e\"Questing Compass\"&r to find the tower easier! It can be unlocked by completing the quest &e\"Finding Your Way\"&r which is located in the introduction chapter."
 				""
 				"&2Questmaster's Tip:&r "
 				"&dThe Brimstone Nectar&r can be used to reset the structure if you are playing on Multiplayer and someone has already gotten there first! Or you made a mistake and need to try again!"
@@ -7204,7 +7204,7 @@
 				"Jumping off cliffs or into deep ravines? Gliders got you covered!"
 				"Simply equip in your &dGlider Curio Slot&r and upon pressing spacebar mid-air you will activate your glider!"
 				""
-				"&6Hint:&r Try flying your glider in third person! It is far easier to control and looks awesome!"
+				"&6小贴士：&r Try flying your glider in third person! It is far easier to control and looks awesome!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -7271,7 +7271,7 @@
 				""
 				"&eTip:&r Paragliders can also be enchanted with &dUnbreaking&r or &dMending!"
 				""
-				"&6Hint:&r Be careful gliding during bad weather, lightning tends to like to strike objects flying in the sky! "
+				"&6小贴士：&r Be careful gliding during bad weather, lightning tends to like to strike objects flying in the sky! "
 				"However, you can craft a &dCopper Upgrade&r. "
 				"Which when combined with a Paraglider in an Anvil will make it more resilient!"
 			]
@@ -7749,7 +7749,7 @@
 				"Hmmm.. where is The Tower Guardian gone?"
 				"It seems we can insert a &eSoul Star&r into each &eStone Altar&r... Perhaps that will summon him.."
 				""
-				"&6Hint:&r After activating each &eStone Altar&r a boss fight will begin, come prepared! "
+				"&6小贴士：&r After activating each &eStone Altar&r a boss fight will begin, come prepared! "
 				"&o(I suggest bringing a ranged weapon!)"
 			]
 			id: "30C3D95400D49AE4"
@@ -7782,7 +7782,7 @@
 				"&eThe Mount Bauble&r can store a mount for later! Such as a horse, or an elephant!"
 				"No more wandering around putting horses on leads! Stick em in your Mount Bauble!"
 				""
-				"&6Hint:&r Additionally, &eThe Vehicle Key&r can store non-living mounts! Such as Minecarts or Planes."
+				"&6小贴士：&r Additionally, &eThe Vehicle Key&r can store non-living mounts! Such as Minecarts or Planes."
 			]
 			hide_until_deps_complete: true
 			id: "1005EF0AB6571043"
@@ -8061,7 +8061,7 @@
 				""
 				"&8Unlikely... they HATE to be disturbed..."
 				""
-				"&6Hint:&r Wise Oak also uh.. has a very high Enchanting Power. It makes nearby Enchanting Tables produce stronger enchants... Something tells me they won't like that very much however. "
+				"&6小贴士：&r Wise Oak also uh.. has a very high Enchanting Power. It makes nearby Enchanting Tables produce stronger enchants... Something tells me they won't like that very much however. "
 				"Silk Touch is required!"
 			]
 			icon: "mysticaloaktree:wise_oak"
@@ -8357,7 +8357,7 @@
 			description: [
 				"Why did you milk that creeper? What possessed you to do that? "
 				""
-				"&6Hint:&r You should &odefinitely&r drink it."
+				"&6小贴士：&r You should &odefinitely&r drink it."
 			]
 			id: "276D83E0EB2A07D6"
 			invisible: true

@@ -335,7 +335,7 @@
 				"&eThe Smeltery&r is a multi-block structure used in the creation of higher-tier weapons and tools using metal and alloys."
 				""
 				"&e&lTip:&r Ore smelted in a Tinker's Smeltery will be doubled!"
-				"&6&lHint:&r Adding extra layers of &eSeared Bricks&r will increase the Smeltery's capacity!"
+				"&6&l小贴士：&r Adding extra layers of &eSeared Bricks&r will increase the Smeltery's capacity!"
 				"{image:modpack:textures/tc_4.png width:200 height:120 align:1}"
 				"For more detailed information, read &eMighty Smelting"
 			]
@@ -434,7 +434,7 @@
 				"The &eSeared Melter &rand &eSeared Heater&r can be used as a compacted and rudimentary way to melt metals into liquids. Place lava in the Tank! "
 				""
 				"&6Tip: &rThis is a Multi-Block! "
-				"&eHint:&r This will be needed for the next quest!"
+				"&e小贴士：&r This will be needed for the next quest!"
 			]
 			hide_until_deps_visible: true
 			id: "116CDE1481CC3846"
@@ -495,7 +495,7 @@
 			description: [
 				"Using the &eSeared Melter&r create a &eSmeltery Controller&r by pouring molten copper over a &eSeared Heater"
 				""
-				"&e&lHint:&r This will be needed for the next quest!"
+				"&e&l小贴士：&r This will be needed for the next quest!"
 			]
 			hide_until_deps_visible: true
 			id: "033F072A5A4913D0"
@@ -567,9 +567,9 @@
 			description: [
 				"In order to create tool parts from Metals and Alloys, you first need to create a &eCast&r. These are used to forge metal tool parts!"
 				""
-				"&l&6Hint:&r First make a tool part out of stone and then place it inside a &eSeared Casting Table&r, fill the &eSmeltery&r with &eMolten Gold&r and pour the Gold over the stone tool part! Allow it to dry and you will be left with a cast! You can then pour metals into the cast to create metal/alloy tool parts! Which you can combine to craft a tool inside the &eTinker's Anvil"
+				"&l&6小贴士：&r First make a tool part out of stone and then place it inside a &eSeared Casting Table&r, fill the &eSmeltery&r with &eMolten Gold&r and pour the Gold over the stone tool part! Allow it to dry and you will be left with a cast! You can then pour metals into the cast to create metal/alloy tool parts! Which you can combine to craft a tool inside the &eTinker's Anvil"
 				""
-				"&l&6Hint:&r You can create ingot casts to remove metals from the smeltery! You can also pour directly into a basin to get a block of material!"
+				"&l&6小贴士：&r You can create ingot casts to remove metals from the smeltery! You can also pour directly into a basin to get a block of material!"
 				""
 				"&l&eTip:&r This can be repeated for all tool parts! You should ideally make a tool out of multiple materials to get increased stats and traits! There are thousands of possible tool combinations!"
 			]

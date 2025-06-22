@@ -97,7 +97,7 @@
 				"&eTip:&r Stamina will increase or decrease the number of times you can block before a cooldown is applied!"
 				"&eTip:&r Holding a shield in your off-hand will grant a passive 30% damage reduction!"
 				""
-				"&6Hint:&r You can only block incoming damage from the direction you received it!"
+				"&6小贴士：&r You can only block incoming damage from the direction you received it!"
 			]
 			hide_dependency_lines: true
 			id: "114DC7895D34A4CC"
@@ -240,7 +240,7 @@
 			description: [
 				"You charged up your &dRage&r by taking damage consecutively or by doing damage consecutively to the same target. Your next melee attack will do bonus damage!"
 				""
-				"&6Hint:&r Entites can also become &dEnraged!&r Be careful to dodge their &oSuper-Charged attacks!"
+				"&6小贴士：&r Entites can also become &dEnraged!&r Be careful to dodge their &oSuper-Charged attacks!"
 				""
 				"&eTip:&r Upon becoming Enraged, you will find a flurry of Critical Hit particles at your feet and will hear a distinctive Ding sound upon landing a Super-Charged Rage hit."
 				""

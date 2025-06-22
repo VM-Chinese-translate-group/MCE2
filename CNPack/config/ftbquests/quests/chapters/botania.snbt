@@ -1113,7 +1113,7 @@
 			  "&6Shulk Me Nots&r create considerable amounts of &bMana&r when a &bShulker's Projectile&r collides with a &cHostile mob&r."
 			  "Both the Shulker that fired the projectile and the hit Mob must be within in the Shulk Me Not's range, and will be killed when the projectile hits."
 			  ""
-			  "&eHint:&r Getting ahold of Shulkers for it sounds tricky, perhaps a Botanical avenue offers a means using a resource from The End?"
+			  "&e小贴士：&r Getting ahold of Shulkers for it sounds tricky, perhaps a Botanical avenue offers a means using a resource from The End?"
 			]
 			id: "05BDA7A1190E6C24"
 			rewards: [{

@@ -1054,7 +1054,7 @@
 				"&eThe Mining Gadget MK1 &ris a device that shoots a continuous high-powered beam of pure energy. "
 				"This beam is capable of mining blocks at high speed and can be upgraded with many different upgrades for different playstyles and preferences!"
 				""
-				"&6Hint:&r You can upgrade your Mining Gadget with a &eModification Station"
+				"&6小贴士：&r You can upgrade your Mining Gadget with a &eModification Station"
 				"&eTip:&r This item needs to be charged with &d\"FE - Forge Energy\"&r"
 			]
 			hide_dependency_lines: true
