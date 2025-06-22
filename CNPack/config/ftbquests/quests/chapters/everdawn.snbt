@@ -355,7 +355,7 @@
 			dependencies: ["4E90959F6A5BF5D6"]
 			description: [
 			  "The Zeal Lighter can be used to open a portal to both &aThe Everdawn &rand &bThe Everbright"
-			  "&eTip:&r Unfinished portals can often be found hidden inside The Gatekeepers house! Investigate!"
+			  "&e提示：&r Unfinished portals can often be found hidden inside The Gatekeepers house! Investigate!"
 			  "&6小贴士：&r Regular non-blue skies equipment will be far less effective in The Everbright and Everdawn"
 			]
 			id: "4313289FDB40498E"
@@ -422,7 +422,7 @@
 			description: [
 			  "The Gatekeeper can be found in many different biomes but can be found most often in a Plains biome! "
 			  ""
-			  "&eTip:&r The Gatekeeper has a very special trade! "
+			  "&e提示：&r The Gatekeeper has a very special trade! "
 			  "&6小贴士：&r Living near a Gatekeeper can sometimes be a good idea, they are quite powerful and will attack your enemies!"
 			]
 			id: "661DDA7256AD220A"
@@ -920,7 +920,7 @@
 				"50A4F20448480244"
 			]
 			description: [
-			  "&6Tip:&r You must kill all Blue Skies bosses to be able to claim this reward"
+			  "&6提示：&r You must kill all Blue Skies bosses to be able to claim this reward"
 			]
 			hide_dependency_lines: true
 			id: "375C5DD8C635AA77"
@@ -982,7 +982,7 @@
 			dependencies: ["661DDA7256AD220A"]
 			description: [
 				"&eThe Blue Journal&r is a book written by The Gatekeeper himself! Inside this magical book contains all of his personal research notes. &oThis is a worthy purchase! "
-				"&6Tip:&r The book will reveal more pages as you discover new things! "
+				"&6提示：&r The book will reveal more pages as you discover new things! "
 			]
 			id: "4E90959F6A5BF5D6"
 			rewards: [

@@ -109,7 +109,7 @@
 			dependencies: ["33DBFD4B00935B0A"]
 			description: [
 				"&6小贴士：&r When you complete this quest, you will be automatically transported! &oIt's a fast plane!"
-				"&eTip:&r Monsters do not spawn above ground in The Sakura Dimension! It is also always day-time! Watch out for structures though, monsters will populate those!"
+				"&e提示：&r Monsters do not spawn above ground in The Sakura Dimension! It is also always day-time! Watch out for structures though, monsters will populate those!"
 				"&dDon't forget to thank the pilot!"
 			]
 			hide_dependency_lines: true
@@ -305,7 +305,7 @@
 			can_repeat: true
 			dependencies: ["2785A42DDDEB324C"]
 			description: [
-				"&eTip:&r This will bring you to spawn. It is Quick-Travel."
+				"&e提示：&r This will bring you to spawn. It is Quick-Travel."
 				"&6小贴士：&r When you complete this quest, you will be automatically transported! &oIt's a fast blimp and Rats make great pilots!"
 				"&dDon't forget to thank the pilot!"
 			]

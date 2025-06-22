@@ -1869,9 +1869,9 @@
 		{
 			description: [
 				""
-				"&6&l小贴士：&r Click the &a&nTask&r to open the letter!"
+				"&6&l小贴士：&r点击这个&a&n任务&r即可打开信！"
 				""
-				"&8Dev Note: There are a lot of Quests and chapters in MCE2, it can be easy to get overwhelmed! Try to focus on the Introduction Chapters to begin!"
+				"&8开发者小贴士：MCE2中有许多的任务和章节，所以你很容易就会晕头转向，在不知道该干什么的时候回到这个章节重新思考一下吧！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
@@ -1885,31 +1885,31 @@
 			id: "639D9B8F85E2B499"
 			rewards: [{
 				auto: "enabled"
-				command: "/tellraw @a {\"text\":\"Player has started their Questbook! Waahoo! ☆\",\"italic\":true,\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"and you should too! If you haven't already! :D\",\"color\":\"gold\"}]}}"
+				command: "/tellraw @a {\"text\":\"这个家伙已经开始跟着任务书做任务了！哇哦哦哦哦☆！\",\"italic\":true,\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"如果你没有的话那你最好赶快跟上哦！:D\",\"color\":\"gold\"}]}}"
 				console: true
 				icon: "ftbquests:book"
 				id: "7E06F2FDE4D23CA3"
-				title: "&6Chat Announcement &a(Auto-Claimed)"
+				title: "&6在聊天栏公开发言！ &a(该任务自动完成)"
 				type: "command"
 			}]
 			shape: "pentagon"
 			size: 0.8d
-			subtitle: "You've got mail! &oI wonder who it is from?"
+			subtitle: "你有一封信！ &o我在想到底是谁给你写的？"
 			tasks: [{
 				id: "722B2EF5F79B00DC"
-				title: "&e&nOpen Letter!&r &7(点击完成任务)"
+				title: "&e&n拆开邮件！&r &7(点击完成任务)"
 				type: "checkmark"
 			}]
-			title: "&2&lOpen Letter?"
+			title: "&2&l要读这封信吗？"
 			x: 8.651360544217681d
 			y: 6.814285714285717d
 		}
 		{
 			dependencies: ["16A59774B0927BC5"]
 			description: [
-				"Dynamic Lighting is here! Woo! Try holding a light source!"
-				"&eTip:&r You can place a torch or lantern in your off-hand to passively generate light!"
-				"&6小贴士：&r You can place a Lantern on a wall to mount it to a block!"
+				"这个包有动态光源！呀呼！拿着光源试一下吧！"
+				"&e提示：&r你把火把之类的光源放在副手，就可以自动提供光源！"
+				"&6小贴士：&r你可以把灯笼直接贴在墙上！"
 			]
 			hide_until_deps_visible: true
 			icon: "minecraft:lantern"
@@ -1917,12 +1917,12 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/execute at @p run summon alexsmobs:fly ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Guy\\\\\\\"\\\"\"}"
+					command: "/execute at @p run summon alexsmobs:fly ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"你的朋友\\\\\\\"\\\"\"}"
 					console: true
 					elevate_perms: true
 					icon: "artifacts:crystal_heart"
 					id: "63859AC72E13D653"
-					title: "&dSummon Friend"
+					title: "&d召唤朋友"
 					type: "command"
 				}
 				{
@@ -1943,26 +1943,26 @@
 				}
 			]
 			size: 0.6d
-			subtitle: "Craft some &eTorches&r and &eLanterns"
+			subtitle: "合成一些&e火把&r和&e灯笼"
 			tasks: [{
 				count: 3L
 				id: "33671428E4CD0E74"
 				item: "minecraft:torch"
 				type: "item"
 			}]
-			title: "How To Survive The First Night &e(Part III Lighting)"
+			title: "如何活过第一晚（第三部分：光亮）"
 			x: 6.6d
 			y: -0.6d
 		}
 		{
 			dependencies: ["2785A42DDDEB324C"]
 			description: [
-			  "Curios can be found, crafted and traded!"
+			  "你可以找到，合成和购买饰品！"
 			  ""
-			  "Open your inventory and click the Curios button near the armor slots. There are many Curios to collect, each with unique, powerful or sometimes &oodd&r properties!"
+			  "打开你的物品栏后点击装备槽边上的饰品栏按钮即可查看饰品，这里的许多饰品等你来收集！每个都有着独特强大的能力，甚至会带有一些&o奇怪&r的特性！"
 			  ""
-			  "&eTip:&r Some Curios have keybinds in order to activate their ability. Make sure to hold SHIFT to check! Also, some Curios will only give you bonus stat points."
-			  "&6小贴士：&r Upon dying, equipped Curios will remain in their slots! "
+			  "&e提示：&r一些饰品需要按下对应快捷键才能激活能力，所以拿到手以后记得按住Shift查看！而且有些饰品只会给你属性加成。"
+			  "&6小贴士：&r你死掉以后饰品栏中的饰品也不会掉落！"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1974,7 +1974,7 @@
 					icon: "create:purple_toolbox"
 					id: "225AE75358433961"
 					table_id: 3527950432660496906L
-					title: "&d&oQuestmaster's Box of Fun &e&r&e(Cosmetic Reward)"
+					title: "&d&o任务大师的趣味小盒子 &e&r&e(内含小饰品)"
 					type: "choice"
 				}
 				{
@@ -1991,13 +1991,13 @@
 				}
 			]
 			size: 0.7d
-			subtitle: "&oCurios are equipable artifacts. Kill some evil creatures for me and I'll give you a free one!"
+			subtitle: "&o饰品相当于可以装备的神器，去杀点邪恶的怪，然后我就送你个免费的！"
 			tasks: [
 				{
 					entity: "minecraft:zombie"
 					icon: "minecraft:rotten_flesh"
 					id: "680A0BB6D7A5D77B"
-					title: "Kill 3x Zombie"
+					title: "杀死三只僵尸"
 					type: "kill"
 					value: 3L
 				}
@@ -2016,7 +2016,7 @@
 					value: 1L
 				}
 			]
-			title: "I am curious about these Curios!"
+			title: "我很好奇这些饰品是干什么用的！"
 			x: 8.929251700680261d
 			y: 0.28996598639454874d
 		}
@@ -2108,7 +2108,7 @@
 			description: [
 			  "When the full set is on, you'll receive protection levels which are between leather and chain. It also provides bonus damage protection from projectiles such as arrows. This makes it an adequate temporary set of armor to survive your first night."
 			  ""
-			  "&eTip:&r &nStay away&r from open flames! "
+			  "&e提示：&r &nStay away&r from open flames! "
 			  ""
 			  ""
 			  ""
@@ -2561,7 +2561,7 @@
 			dependencies: ["398A05549FA9DC3F"]
 			description: [
 				"{image:modpack:textures/2022-10-11_22.14.21.png width:180 height:100 align:1}"
-				"&eTip: &rXP earned from trading will teleport to the player!"
+				"&e提示： &rXP earned from trading will teleport to the player!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -2838,7 +2838,7 @@
 		{
 			dependencies: ["28A8F23036B825C4"]
 			description: [
-			  "&eTip:&r The Boombox can be used to play records while moving! &oHuge in Goblin circles right now."
+			  "&e提示：&r The Boombox can be used to play records while moving! &oHuge in Goblin circles right now."
 			  ""
 			  ""
 			  ""
@@ -3217,7 +3217,7 @@
 			description: [
 			  "The Brazier can be used to form a special &nmultiblock!&r Some say it can even ward off the undead!"
 			  ""
-			  "&eTip:&r You can create more Living Torches by clicking the &eBrazier&r with a regular torch! The Living Torch can be used to see the radius a Brazier covers! It will be useful later."
+			  "&e提示：&r You can create more Living Torches by clicking the &eBrazier&r with a regular torch! The Living Torch can be used to see the radius a Brazier covers! It will be useful later."
 			]
 			id: "1B7E8249B148B387"
 			rewards: [
@@ -3277,7 +3277,7 @@
 			dependencies: ["1B7E8249B148B387"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&eTip:&r Each level of the tower expands the range of effect by 10 blocks, with a maximum height of 10."
+				"&e提示：&r Each level of the tower expands the range of effect by 10 blocks, with a maximum height of 10."
 				"{image:modpack:textures/2023-08-15_19.32.57.png width:180 height:100 align:1}"
 			]
 			id: "50C0CB1FA648F8A8"
@@ -3593,7 +3593,7 @@
 			  ""
 			  "&6小贴士：&r You can combine a Grave Key with certain items (such as an &eEye of Ender&r) to craft an &eEnchanted Key&r which can be used to teleport to your Tombstone by &eHolding Right Click"
 			  "{image:minecraft:textures/painting/skeleton.png width:150 height:100 align:1}"
-			  "&7Graveyard Tip:&r Your Tombstone is protected for 60 minutes, after that it will unlock and anyone (&oor thing&r&o ◉‿◉) &rcan interact with it!"
+			  "&7Graveyard 提示：&r Your Tombstone is protected for 60 minutes, after that it will unlock and anyone (&oor thing&r&o ◉‿◉) &rcan interact with it!"
 			  ""
 			]
 			hide_dependency_lines: true
@@ -3704,7 +3704,7 @@
 			dependencies: ["0901DBD03773B644"]
 			description: [
 			  "Consider joining our Discord for support! We have a very active friendly community of over 30k users that would be happy to answer any questions you might have!"
-			  "&6Tip:&r &c&l&nDo not ping the goat!"
+			  "&6提示：&r &c&l&nDo not ping the goat!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -3750,7 +3750,7 @@
 			description: [
 				"It has been a full hour! In order to progress and unlock Questing you must sign the contract!"
 				""
-				"&eTip:&r It is advised that you sign the contract, otherwise I will be forced to take more.. drastic measures..."
+				"&e提示：&r It is advised that you sign the contract, otherwise I will be forced to take more.. drastic measures..."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -3845,7 +3845,7 @@
 			  "&c&lI CURSE YOU! I CURSE YOU! I CURSE YOU! GET CURSED! "
 			  "&e小贴士：&r You will be cursed every hour until you sign the contract! "
 			  ""
-			  "&6Tip:&r Sign th&kdd&re contr&kdd&ract n&k88&rext ti&khh&rme"
+			  "&6提示：&r Sign th&kdd&re contr&kdd&ract n&k88&rext ti&khh&rme"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -4210,7 +4210,7 @@
 		{
 			dependencies: ["2193B157D17E53C0"]
 			description: [
-			  "&6Tip:&r &nBRING A SHIELD!"
+			  "&6提示：&r &nBRING A SHIELD!"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -4310,7 +4310,7 @@
 			dependencies: ["0901DBD03773B644"]
 			description: [
 				"&6小贴士：&r The Quest Shop is located on the far right of the screen, you can identify it by the coin icon!"
-				"&eTip:&r You can find this item for sale at &e&n\"The Tavern\""
+				"&e提示：&r You can find this item for sale at &e&n\"The Tavern\""
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -4419,7 +4419,7 @@
 			description: [
 				"Upon completing this quest, you will unlock the &dMini-Map&r and &dWorld-Map."
 				""
-				"&2Questmaster's Tip:&r To craft an &eExplorer's Map&r you will need to seek out a &3Villager Cartographer!&r"
+				"&2Questmaster's 提示：&r To craft an &eExplorer's Map&r you will need to seek out a &3Villager Cartographer!&r"
 				"Only they are capable of crafting such a unique item!"
 				"{image:modpack:textures/trade.png width:400 height:100 align:1 fit:true}"
 				""
@@ -5221,7 +5221,7 @@
 				""
 				"The tree chopping process takes just as long as regular tree chopping would except you only need to break one block making it primarily a quality of life feature. You can hold &dSHIFT&r to break logs as normal!"
 				""
-				"&eTip:&r Make sure to chop from the base block of the tree!"
+				"&e提示：&r Make sure to chop from the base block of the tree!"
 				"{image:modpack:textures/tree_chop.png width:200 height:110 align:1 fit:true}"
 			]
 			hide_until_deps_complete: true
@@ -5370,7 +5370,7 @@
 		{
 			dependencies: ["39C7248750512A5B"]
 			description: [
-			  "&eTip:&r You need to activate the rift before you can use it, interact to activate it!"
+			  "&e提示：&r You need to activate the rift before you can use it, interact to activate it!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -5447,7 +5447,7 @@
 				"Upon placing the inventory can be opened by &dRight-Clicking&r."
 				"Upon breaking &eThe Toolbox&r will retain its inventory! "
 				""
-				"&eTip:&r This item can be dyed!"
+				"&e提示：&r This item can be dyed!"
 				"&6小贴士：&r &eThe Toolbox&r is very helpful for storing bonus tools such as Pickaxes!"
 			]
 			hide_until_deps_visible: true
@@ -5501,7 +5501,7 @@
 				"But most importantly of all, &eLuggage&r is a portable chest who will follow you to the ends of the Overworld! "
 				""
 				"&6小贴士：&r You can strike Luggage with lightning to &7&osupercharge&r your pal!"
-				"&eTip:&r You can press &dShift + Right Click&r to pick up Luggage."
+				"&e提示：&r You can press &dShift + Right Click&r to pick up Luggage."
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -5592,7 +5592,7 @@
 				"It's deceptive nature might fool unsuspecting adventurers but you've got me to guide you! &oHurrah!"
 				""
 				"&6小贴士：&r The Mimic hides under the guise as a regular chest. You can easily find a Mimic by looking for it's main tell.. &eGreen Particles&r as it always will spawn as a &dChampion Mob."
-				"&eTip:&r Upon killing a Mimic, they will drop a &7\"Curios Cache\"&r"
+				"&e提示：&r Upon killing a Mimic, they will drop a &7\"Curios Cache\"&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -5809,7 +5809,7 @@
 				""
 				"Upon dying, a &dWaypoint&r will be created at your point of death! You can place &dWaypoints&r in the world while inside the &6Worldmap. "
 				""
-				"&eTip:&r Running over your most recent Deathpoint will automatically remove it!"
+				"&e提示：&r Running over your most recent Deathpoint will automatically remove it!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -5857,7 +5857,7 @@
 				"Fed up with unexpected visitors?"
 				"The &eNo Soliciting Sign&r will prevent &dWandering Traders&r from appearing within 10 Chunks of the sign! "
 				""
-				"&eTip:&r Modded Traders are affected too!"
+				"&e提示：&r Modded Traders are affected too!"
 				""
 				"&7Begone! Your goods are not wanted here!"
 				""
@@ -6082,7 +6082,7 @@
 				"Only &lVAMPIRES&r can see this Quest!"
 				"Over the next &eMinecraft Day&r you will begin to unlock your &lVAMPIRIC POWER!&r BUT! You will need to change your diet.... ;) "
 				""
-				"&e&lTip:&r Hold the ' &6&l-&r ' Key to suck an animals blood!"
+				"&e&l提示：&r Hold the ' &6&l-&r ' Key to suck an animals blood!"
 				"&6&l小贴士：&r As a Pureblood, you will start as a Level 2 Vampire!"
 			]
 			hide_dependency_lines: true
@@ -6162,7 +6162,7 @@
 				""
 				"&c&lLOOKS LIKE MEATS BACK ON THE MENU BOYS! &r&7&oor not.. maybe you are a vegetarian orc, they exist!"
 				""
-				"&eTip:&r Orcs are much slower to Combat Roll, they are simply quite clumsy!"
+				"&e提示：&r Orcs are much slower to Combat Roll, they are simply quite clumsy!"
 			]
 			hide_dependency_lines: true
 			id: "7E01FC28ED15AF36"
@@ -6242,7 +6242,7 @@
 				""
 				"&eI'M A DWARF AND I'M DIGGING A HOLE.. DIGGY DIGGY HOLE I'M DIGGING A HOLE! &r&7You sing to yourself... This song was huge with the Dwarven youth.. about 10 years ago.. gosh you feel old.."
 				""
-				"&eTip:&r Dwarves are much slower to Combat Roll, they are simply quite clumsy!"
+				"&e提示：&r Dwarves are much slower to Combat Roll, they are simply quite clumsy!"
 			]
 			hide_dependency_lines: true
 			id: "23D0DE2451330108"
@@ -6397,7 +6397,7 @@
 				""
 				"While in a team your Quest progress is shared! Only invite people you trust into your team! "
 				""
-				"&a&lQuestmasters Tip:&r It can sometimes get a little confusing playing with multiple people on one team, cooperation and communication is advised when completing Quests.. otherwise you may not experience gameplay as intended!"
+				"&a&lQuestmasters 提示：&r It can sometimes get a little confusing playing with multiple people on one team, cooperation and communication is advised when completing Quests.. otherwise you may not experience gameplay as intended!"
 				""
 				"{image:modpack:textures/party.png width:350 height:100 align:1 fit:true}"
 				""
@@ -6766,7 +6766,7 @@
 			description: [
 				"&6小贴士：&r Use your &e\"Questing Compass\"&r to find the tower easier! It can be unlocked by completing the quest &e\"Finding Your Way\"&r which is located in the introduction chapter."
 				""
-				"&2Questmaster's Tip:&r "
+				"&2Questmaster's 提示：&r "
 				"&dThe Brimstone Nectar&r can be used to reset the structure if you are playing on Multiplayer and someone has already gotten there first! Or you made a mistake and need to try again!"
 				"Here is one for free! Use it wisely!"
 			]
@@ -6846,7 +6846,7 @@
 				""
 				"Something which has been impossible for hundreds of years..."
 				""
-				"&eTip:&r Entering The Nether will begin &cExpert Mode.&r If you don't know what that is, check out the chapter &6\"Difficulty Modes\""
+				"&e提示：&r Entering The Nether will begin &cExpert Mode.&r If you don't know what that is, check out the chapter &6\"Difficulty Modes\""
 			]
 			icon: "kubejs:nether_item"
 			id: "0E64ACED3D987FB1"
@@ -7140,7 +7140,7 @@
 		{
 			dependencies: ["2785A42DDDEB324C"]
 			description: [
-			  "&eTip: These Chests should not be broken, they will hold new loot for other players. If you play Singleplayer, this can be ignored."
+			  "&e提示： These Chests should not be broken, they will hold new loot for other players. If you play Singleplayer, this can be ignored."
 			]
 			hide_until_deps_complete: true
 			id: "0996441A4E4A4434"
@@ -7269,7 +7269,7 @@
 				"The Iron Paraglider (and all other upgraded Paragliders) boost your durability greatly! "
 				"Allowing for longer travel! "
 				""
-				"&eTip:&r Paragliders can also be enchanted with &dUnbreaking&r or &dMending!"
+				"&e提示：&r Paragliders can also be enchanted with &dUnbreaking&r or &dMending!"
 				""
 				"&6小贴士：&r Be careful gliding during bad weather, lightning tends to like to strike objects flying in the sky! "
 				"However, you can craft a &dCopper Upgrade&r. "
@@ -7456,7 +7456,7 @@
 				""
 				"&dJEI Shortcuts:&r &e'U'&r for Usage and &e'R'&r for Recipe!"
 				""
-				"&eTip:&r It is normal to feel overwhelmed when starting a new modpack, especially one as large and comprehensive as MC Eternal. I would suggest taking your time and slowly going through the Quest Book at your own pace. "
+				"&e提示：&r It is normal to feel overwhelmed when starting a new modpack, especially one as large and comprehensive as MC Eternal. I would suggest taking your time and slowly going through the Quest Book at your own pace. "
 				""
 				"You could play the game as if it were Vanilla and slowly learn new mechanics as you progress, that way you might feel less overwhelm with all of the options."
 				""
@@ -7495,7 +7495,7 @@
 				""
 				"Upon dying, a &dWaypoint&r will be created at your point of death! You can place &dWaypoints&r in the world while inside the &6Worldmap. "
 				""
-				"&eTip:&r Running over your most recent Deathpoint will automatically remove it!"
+				"&e提示：&r Running over your most recent Deathpoint will automatically remove it!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -7532,7 +7532,7 @@
 				"Thankfully you have me! "
 				"&d<shake>The QUESTMASTER! "
 				""
-				"&eTip:&r You can find Waystones by exploring! Upon interacting with one you can teleport to and from it!"
+				"&e提示：&r You can find Waystones by exploring! Upon interacting with one you can teleport to and from it!"
 				"The process is a &otad expensive&r on the experience side, so I suggest using them sparingly! "
 				""
 				"I would encourage you to create some sort of other means of transport for frequent use!"
@@ -7661,7 +7661,7 @@
 			description: [
 				"The Crafting Station is an improved Crafting Table!"
 				""
-				"&6Tip:&r Items left in The Crafting Station will remain there even if you exit out of the GUI!"
+				"&6提示：&r Items left in The Crafting Station will remain there even if you exit out of the GUI!"
 			]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true

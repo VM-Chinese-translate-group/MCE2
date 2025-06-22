@@ -967,7 +967,7 @@
 				"Additionally you can aquire &dAmethyst&r to increase the speed of your &eTunnel Digger!&r"
 				"You can also use different &eDrill Upgrades&r to increase your efficiency!"
 				""
-				"&eTip:&r Holding &eSHIFT&r will dig 1 Block below you too!"
+				"&e提示：&r Holding &eSHIFT&r will dig 1 Block below you too!"
 			]
 			hide_dependency_lines: true
 			id: "6F7C1D0223058550"
@@ -1055,7 +1055,7 @@
 				"This beam is capable of mining blocks at high speed and can be upgraded with many different upgrades for different playstyles and preferences!"
 				""
 				"&6小贴士：&r You can upgrade your Mining Gadget with a &eModification Station"
-				"&eTip:&r This item needs to be charged with &d\"FE - Forge Energy\"&r"
+				"&e提示：&r This item needs to be charged with &d\"FE - Forge Energy\"&r"
 			]
 			hide_dependency_lines: true
 			id: "272D7E9E5275806D"

@@ -189,7 +189,7 @@
 				"The &e&nTool Station&r is used to assemble tool parts into fully fledged basic tools!"
 				"The &e&nPart Chest&r is used to store unused parts!"
 				""
-				"&l&eTip:&r When these blocks are touching, they will share their inventories! Making it easier to move items between them."
+				"&l&e提示：&r When these blocks are touching, they will share their inventories! Making it easier to move items between them."
 				"{image:modpack:textures/tc_1.png width:200 height:110 align:1}"
 				""
 			]
@@ -254,7 +254,7 @@
 			description: [
 				"The &eTinker's Anvil&r is used to assemble more powerful tools! The &eTinker's Anvil &ris strong enough to craft tools made from Metals and Alloys!"
 				"{image:modpack:textures/tc_3.png width:200 height:110 align:1}"
-				"&e&lTip:&r You will need to aquire metal tool parts, this requires a &eSeared Smeltery&r"
+				"&e&l提示：&r You will need to aquire metal tool parts, this requires a &eSeared Smeltery&r"
 			]
 			hide_until_deps_visible: true
 			id: "5D2ED1168A45A14A"
@@ -334,7 +334,7 @@
 			description: [
 				"&eThe Smeltery&r is a multi-block structure used in the creation of higher-tier weapons and tools using metal and alloys."
 				""
-				"&e&lTip:&r Ore smelted in a Tinker's Smeltery will be doubled!"
+				"&e&l提示：&r Ore smelted in a Tinker's Smeltery will be doubled!"
 				"&6&l小贴士：&r Adding extra layers of &eSeared Bricks&r will increase the Smeltery's capacity!"
 				"{image:modpack:textures/tc_4.png width:200 height:120 align:1}"
 				"For more detailed information, read &eMighty Smelting"
@@ -433,7 +433,7 @@
 			description: [
 				"The &eSeared Melter &rand &eSeared Heater&r can be used as a compacted and rudimentary way to melt metals into liquids. Place lava in the Tank! "
 				""
-				"&6Tip: &rThis is a Multi-Block! "
+				"&6提示： &rThis is a Multi-Block! "
 				"&e小贴士：&r This will be needed for the next quest!"
 			]
 			hide_until_deps_visible: true
@@ -571,7 +571,7 @@
 				""
 				"&l&6小贴士：&r You can create ingot casts to remove metals from the smeltery! You can also pour directly into a basin to get a block of material!"
 				""
-				"&l&eTip:&r This can be repeated for all tool parts! You should ideally make a tool out of multiple materials to get increased stats and traits! There are thousands of possible tool combinations!"
+				"&l&e提示：&r This can be repeated for all tool parts! You should ideally make a tool out of multiple materials to get increased stats and traits! There are thousands of possible tool combinations!"
 			]
 			hide_until_deps_visible: true
 			id: "6567F9EEFDDB5CAB"

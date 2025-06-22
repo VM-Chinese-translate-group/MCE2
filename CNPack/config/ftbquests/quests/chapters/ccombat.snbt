@@ -24,7 +24,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&eTip:&r Sometimes you can fire a crit arrow! these will appear golden and do 2x damage!"]
+			description: ["&e提示：&r Sometimes you can fire a crit arrow! these will appear golden and do 2x damage!"]
 			hide_dependency_lines: true
 			id: "33A4B3720D6DC690"
 			rewards: [
@@ -94,8 +94,8 @@
 				"Shields can block an attack, after blocking it will enter into a cooldown."
 				"Shields have different stats that vary between them!"
 				""
-				"&eTip:&r Stamina will increase or decrease the number of times you can block before a cooldown is applied!"
-				"&eTip:&r Holding a shield in your off-hand will grant a passive 30% damage reduction!"
+				"&e提示：&r Stamina will increase or decrease the number of times you can block before a cooldown is applied!"
+				"&e提示：&r Holding a shield in your off-hand will grant a passive 30% damage reduction!"
 				""
 				"&6小贴士：&r You can only block incoming damage from the direction you received it!"
 			]
@@ -242,7 +242,7 @@
 				""
 				"&6小贴士：&r Entites can also become &dEnraged!&r Be careful to dodge their &oSuper-Charged attacks!"
 				""
-				"&eTip:&r Upon becoming Enraged, you will find a flurry of Critical Hit particles at your feet and will hear a distinctive Ding sound upon landing a Super-Charged Rage hit."
+				"&e提示：&r Upon becoming Enraged, you will find a flurry of Critical Hit particles at your feet and will hear a distinctive Ding sound upon landing a Super-Charged Rage hit."
 				""
 				"☠ = Rage!"
 			]

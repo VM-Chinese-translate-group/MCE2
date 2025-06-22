@@ -1029,7 +1029,7 @@
 			dependencies: ["1947FABCE1A302BE"]
 			description: [
 				"{image:modpack:textures/2022-11-03_23.33.25.png width:180 height:100 align:1}"
-				"&6Tip: &rTry to avoid the &e\"Ashen Breath\"&r, attack &ryou &lcannot&r block it and it does high amounts of damage!"
+				"&6提示： &rTry to avoid the &e\"Ashen Breath\"&r, attack &ryou &lcannot&r block it and it does high amounts of damage!"
 			]
 			hide_until_deps_visible: true
 			icon: {

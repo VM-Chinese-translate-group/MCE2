@@ -591,7 +591,7 @@
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
 			  ""
-			  "&eTip: &rBig Freshwater Turtles that can be found in Swamps. They defend themselves with their Sharp Beak. "
+			  "&e提示： &rBig Freshwater Turtles that can be found in Swamps. They defend themselves with their Sharp Beak. "
 			  ""
 			]
 			hide_dependency_lines: true
@@ -690,7 +690,7 @@
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
 			  ""
-			  "&eTip:&r You can use the &eAlbum&r to store all of your photos! Use the UP and DOWN arrow keys to change images."
+			  "&e提示：&r You can use the &eAlbum&r to store all of your photos! Use the UP and DOWN arrow keys to change images."
 			]
 			id: "053690126EB056CD"
 			rewards: [
@@ -945,7 +945,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip: &rSeals can often be found in cold climates and enjoy icy waters!"
+			  "&e提示： &rSeals can often be found in cold climates and enjoy icy waters!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1005,7 +1005,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip:&r The Crocodile is one of Nature's oldest creations. This reptile takes no prisoners. Tread lightly!"
+			  "&e提示：&r The Crocodile is one of Nature's oldest creations. This reptile takes no prisoners. Tread lightly!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1061,7 +1061,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&eTip:&r The Grizzly Bear is a force to be reckoned with! Find these powerful beasts in Forests and around Honey!"
+			subtitle: "&e提示：&r The Grizzly Bear is a force to be reckoned with! Find these powerful beasts in Forests and around Honey!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "496D5F100324EE3A"
@@ -1106,7 +1106,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip:&r The Elephant can be found in hot climates, Wandering Traders are known to ride these beautiful beasts and they are known to make excellent companions!"
+			  "&e提示：&r The Elephant can be found in hot climates, Wandering Traders are known to ride these beautiful beasts and they are known to make excellent companions!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1254,7 +1254,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip:&r The Mungus is an odd creature, known to live in areas overrun by Mushrooms. Some say the Mungus is hiding a terrible secret!"
+			  "&e提示：&r The Mungus is an odd creature, known to live in areas overrun by Mushrooms. Some say the Mungus is hiding a terrible secret!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1349,7 +1349,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip:&r Seeing a Sunbird is a true rarity. Most go their entire lives without ever seeing one, if you are lucky enough to be blessed by their presence, the locals claim you will be brought great fortune!"
+			  "&e提示：&r Seeing a Sunbird is a true rarity. Most go their entire lives without ever seeing one, if you are lucky enough to be blessed by their presence, the locals claim you will be brought great fortune!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1428,7 +1428,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip:&r The Orca claims the sea as its home, one of the most intelligent creatures in the Animal Kingdom!"
+			  "&e提示：&r The Orca claims the sea as its home, one of the most intelligent creatures in the Animal Kingdom!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1460,7 +1460,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip: &rTry naming it Perry!"
+			  "&e提示： &rTry naming it Perry!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1521,7 +1521,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip:&r The Guster can be found in Deserts exclusively. This mythical creature is bound by a special gemstone, no one truly knows the conditions for a Guster to be created, but they have been sighted throughout the ages."
+			  "&e提示：&r The Guster can be found in Deserts exclusively. This mythical creature is bound by a special gemstone, no one truly knows the conditions for a Guster to be created, but they have been sighted throughout the ages."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1731,7 +1731,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip:&r The Dropbear is one scary creature! Find it in The Nether! (Come prepared!)"
+			  "&e提示：&r The Dropbear is one scary creature! Find it in The Nether! (Come prepared!)"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
