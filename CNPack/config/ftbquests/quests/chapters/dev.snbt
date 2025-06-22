@@ -48,7 +48,7 @@
 					tag: {
 						display: {
 							Lore: [
-								"{\"text\":\"§5§6✎ §nLore Text\"}"
+								"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
 								"{\"text\":\"§7§o\\\"Each Quest Book is meticulously hand printed by The Questmaster! Don't lose it! They take it personally!\\\"\"}"
 							]
 						}
