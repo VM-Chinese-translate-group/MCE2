@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ccombat"
@@ -295,6 +294,12 @@
 				"Depending on the weapon type (IE: sword, axe, spear) the combo multipler varies!"
 				""
 				"For example, attacking with a &dSword&r weapon type grants a 50% damage boost every third attack on the \"stab forward\" animation! "
+				""
+				"Every 4th attack with two daggers does a special \"dual stab\" which does 350% more damage."
+				"Every 3rd attack with a hammer weapon type does 250% bonus damage."
+				""
+				"Explore and play with different weapons, some have unique attacks and combos!"
+
 			]
 			icon: "goety_cataclysm:arcane_spirit"
 			id: "50CCB6DDC0CE2FFE"

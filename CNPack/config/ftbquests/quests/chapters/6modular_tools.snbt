@@ -423,16 +423,6 @@
 					item: "tconstruct:seared_table"
 					type: "item"
 				}
-				{
-					hasCustomPicture: false
-					icon: "tconstruct:mighty_smelting"
-					id: "47BF5C1504AF1F21"
-					ignoreState: false
-					layer: true
-					name: "tc_smeltery"
-					rightclick: false
-					type: "questsadditions:structure"
-				}
 			]
 			title: "&eThe Smeltery"
 			x: 8.0d
