@@ -264,7 +264,7 @@
 					command: "/titles add @p titles:tinker"
 					icon: "titles:title_scroll_common"
 					id: "7A4D51810C68ED21"
-					title: "&eUnlock Title:&r the Tinkerer"
+					title: "&e已解锁称号：&r the Tinkerer"
 					type: "command"
 				}
 				{
@@ -624,7 +624,7 @@
 					command: "/titles add @p titles:blacksmith"
 					icon: "titles:title_scroll_common"
 					id: "7E247892D81601C5"
-					title: "&eUnlock Title:&r the Blacksmith"
+					title: "&e已解锁称号：&r the Blacksmith"
 					type: "command"
 				}
 				{

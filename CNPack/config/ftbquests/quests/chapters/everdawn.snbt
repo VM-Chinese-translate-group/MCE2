@@ -336,7 +336,7 @@
 					command: "/titles add @p titles:everdawn"
 					icon: "titles:title_scroll_common"
 					id: "225BD4DCD8406218"
-					title: "&eUnlock Title:&r of the Everdawn"
+					title: "&e已解锁称号：&r of the Everdawn"
 					type: "command"
 				}
 			]
@@ -397,7 +397,7 @@
 					command: "/titles add @p titles:gatekeeper"
 					icon: "titles:title_scroll_common"
 					id: "7231850986077ED9"
-					title: "&eUnlock Title:&r Gatekeeper"
+					title: "&e已解锁称号：&r Gatekeeper"
 					type: "command"
 				}
 			]
@@ -508,7 +508,7 @@
 					command: "/titles add @p titles:crusher"
 					icon: "titles:title_scroll_rare"
 					id: "1E2923F8D4C2DD6A"
-					title: "&eUnlock Title:&r The Crusher"
+					title: "&e已解锁称号：&r The Crusher"
 					type: "command"
 				}
 				{
@@ -575,7 +575,7 @@
 					command: "/titles add @p titles:alchemist"
 					icon: "titles:title_scroll_common"
 					id: "1CAA2F47D6480580"
-					title: "&eUnlock Title:&r The Alchemist"
+					title: "&e已解锁称号：&r The Alchemist"
 					type: "command"
 				}
 				{
@@ -672,7 +672,7 @@
 					command: "/titles add @p titles:everbright"
 					icon: "titles:title_scroll_common"
 					id: "171C350F9B9D482D"
-					title: "&eUnlock Title:&r of the Everbright"
+					title: "&e已解锁称号：&r of the Everbright"
 					type: "command"
 				}
 			]
@@ -796,7 +796,7 @@
 					command: "/titles add @p titles:exterminator"
 					icon: "titles:title_scroll_rare"
 					id: "5FB6A487F104F78D"
-					title: "&eUnlock Title:&r The Exterminator"
+					title: "&e已解锁称号：&r The Exterminator"
 					type: "command"
 				}
 				{
@@ -867,7 +867,7 @@
 					command: "/titles add @p titles:summoner"
 					icon: "titles:title_scroll_uncommon"
 					id: "654513973EB7AADB"
-					title: "&eUnlock Title:&r The Summoner"
+					title: "&e已解锁称号：&r The Summoner"
 					type: "command"
 				}
 				{

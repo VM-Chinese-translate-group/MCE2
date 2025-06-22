@@ -98,7 +98,7 @@
 			subtitle: "Barry can offer help... for a price!"
 			tasks: [{
 				id: "3AA86C3F1FA9FE0A"
-				title: "Info Quest - &eClick To Complete"
+				title: "Info Quest - &e点击完成任务"
 				type: "checkmark"
 			}]
 			title: "&d<wave>Barry's Help!"

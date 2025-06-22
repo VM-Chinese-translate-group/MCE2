@@ -1949,7 +1949,7 @@
 					command: "/titles add @p titles:angler"
 					icon: "titles:title_scroll_common"
 					id: "67B4BA738E9E28F4"
-					title: "&eUnlock Title:&r Angler"
+					title: "&e已解锁称号：&r Angler"
 					type: "command"
 				}
 				{
@@ -2419,7 +2419,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "7116565D5C8F0516"
-					title: "&eUnlock Title:&r Lord of The Deep"
+					title: "&e已解锁称号：&r Lord of The Deep"
 					type: "command"
 				}
 				{

@@ -783,7 +783,7 @@
 					command: "/titles add @p titles:dwarf"
 					icon: "titles:title_scroll_uncommon"
 					id: "1751F3FB18D062B6"
-					title: "&eUnlock Title:&r Dwarf"
+					title: "&e已解锁称号：&r Dwarf"
 					type: "command"
 				}
 				{

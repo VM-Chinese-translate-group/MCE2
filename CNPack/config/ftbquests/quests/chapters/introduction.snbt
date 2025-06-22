@@ -1137,13 +1137,13 @@
 			dependencies: ["639D9B8F85E2B499"]
 			description: [
 				"{image:modpack:textures/quest_art.png width:250 height:110 align:1 fit:true}"
-				"&3The Quest Book&r is an optional &o(but recommended!)&r experience that aims to provide The Player with guidance, tips and tricks, unique rewards and bonus challenges!"
+				"&3任务书&r是一本能带给你各种教程、技巧和小提示的书，里面还有独特奖励和各种挑战！虽然任务主线是可有可无的，&o但我还是建议你读一下！&r"
 				""
-				"§a✔&r You &lcan&r earn unique rewards by playing at your own pace!"
-				"§a✔&r You &lcan&r learn mods in depth with fully written Quest Chains (More are being worked on all the time!)"
-				"§a✔&r You &lcan&r collect special Titles by Questing!"
-				"&a✔&r You &lcan&r unlock Quest Coins and spend them at the Coin Shop. &o(Coming Soon™)"
-				"&4❌&r You &l<shake>cannot&r eat the Quest Book."
+				"§a✔&r你&l可以&r按照自己的节奏游玩，还能获得独特的奖励！"
+				"§a✔&r你&l可以&r从完善的任务线中学到各种模组的游玩方法（更多任务敬请期待！）"
+				"§a✔&r你&l可以&r通过完成任务来获取特殊称号！"
+				"&a✔&r你&l可以&r解锁任务硬币，然后在商店里全花掉。&o（敬请期待！）"
+				"&4❌&r你&l<shake>不能&r把这本任务书吃了。"
 				"&7- adam98991"
 			]
 			disable_toast: true
@@ -1175,28 +1175,28 @@
 			]
 			shape: "diamond"
 			size: 1.3d
-			subtitle: "→ Learn More! ←"
+			subtitle: "→ 了解更多！ ←"
 			tasks: [{
 				id: "7382B541F0F83994"
-				title: "&eI Understand! &7(Click To Complete)"
+				title: "&e我知道了！ &7(点击完成任务)"
 				type: "checkmark"
 			}]
-			title: "&3Welcome to The Quest Book!"
+			title: "&3欢迎打开任务书！"
 			x: 10.631576470588216d
 			y: 6.190455003819743d
 		}
 		{
 			dependencies: ["63DF38CF46138C3B"]
 			description: [
-				"&7To start this &l&d<rainb>NEW&r<rainb> &7and &d&l<rainb>EXCITING<rainb>&r &7adventure™ please sign this contract which essentially says anything you ever create is proprietary property of &lME&r &7and your soul is &lMINE&r&7... "
-				"&7FOR &c&l&n<shake>ALL&r &7OF &c&l&n<shake>ETERNITY!!"
+				"&7为了能让你顺利开始这场&l&d<rainb>崭新&r<rainb> &7而又&d&l<rainb>激动人心<rainb>&r的&7冒险，请再签一份宣称你的所有物都属于&l我的&r个人财产且你的灵魂所有权也移交给&l我&r的合同……"
+				"&7合同的&c&l&n<shake>&r &7存续期间嘛……&c&l&n<shake>当然是永恒了！！"
 				"{image:modpack:textures/mc-eternal-infernal-contract-barry.png width:100 height:100 align:1 fit:true}"
 				""
-				"&dThe contract roughly translates to: "
+				"&d这份合同大致可以翻译成下文： "
 				""
-				"&r&7Blah blah.. unlock access to Quests, &7whatever those are.. blah blah.. SIGN THE CONTRACT &c&lNOW!"
-				"&7*Warning, failure to sign within &l&c1 HOUR&r&7 will result in spontaneous visitation by a lawyer*"
-				"&7&oThe writing becomes so small its unreadable*"
+				"&r&7总之是废话废话……解锁后面的各种任务，&7管它都是些啥呢……然后又是废话……总之麻溜的给我把合同&c&l签了！"
+				"&7*警告：&l&c一小时内&r不签署该合同将会导致被律师上门送律师函*"
+				"&7&o然后后面的字迹越来越小，最后压根就看不清了*"
 			]
 			disable_toast: true
 			hide_dependency_lines: true
@@ -1212,7 +1212,7 @@
 					elevate_perms: true
 					icon: "occultism:spirit_fire"
 					id: "5FED53D66A953EA7"
-					title: "&c&oNo take backsies!!"
+					title: "&c&o不准反悔！"
 					type: "command"
 				}
 				{
@@ -1222,7 +1222,7 @@
 					elevate_perms: true
 					icon: "create:schematic_and_quill"
 					id: "1AFFB27C0ADF34EB"
-					title: "&7&oSign on the dotted line... here.. here.. here.. and here.."
+					title: "&7&o总之在横线上写名字就好了……这里……这里……还有这呢……以及那里……"
 					type: "command"
 				}
 				{
@@ -1237,7 +1237,7 @@
 					}
 					id: "532238155D2C4851"
 					silent: true
-					title: "&b<shake>YOUR SOUL IS MINE!"
+					title: "&b<shake>你的灵魂是我的了！"
 					type: "command"
 				}
 				{
@@ -1250,7 +1250,7 @@
 						tag: { }
 					}
 					id: "4CE96EA5FA9CF05A"
-					title: "&eUnlock Title: &rThe Gullible &7&o(Press = to Equip)"
+					title: "&e已解锁称号： &r上当受骗大傻子&7&o(按下=即可装备)"
 					type: "command"
 				}
 				{
@@ -1261,14 +1261,14 @@
 						tag: {
 							display: {
 								Lore: [
-									"{\"text\":\"§7§oThanks for your soul! \"}"
-									"{\"text\":\"§7§oThis can't really be legally binding can it?\"}"
+									"{\"text\":\"§7§o谢谢你把你的灵魂拱手让给了我！\"}"
+									"{\"text\":\"§7§o这个合同肯定不合法是不是啊？\"}"
 									"{\"text\":\"\"}"
 									"{\"text\":\"\"}"
-									"{\"text\":\"§4§lIT IS! MUHAHA!\"}"
-									"{\"text\":\"§8§oThis is only a copy.. don't try anything! I'm watching you! With my two beady eyes...\"}"
+									"{\"text\":\"§4§l它当然是合法的啊！桀桀桀桀桀桀！\"}"
+									"{\"text\":\"§8§o你刚刚签的合同只是个副本……别试着搞什么小花招！我在用我锐利的双眼盯着你呢！\"}"
 								]
-								Name: "{\"text\":\"§eSigned Contract §7§8\"}"
+								Name: "{\"text\":\"§e已署名的合同 §7§8\"}"
 							}
 						}
 					}
@@ -1281,7 +1281,7 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Name: "{\"text\":\"Forgotten Trashcan\"}"
+								Name: "{\"text\":\"遗忘的垃圾桶\"}"
 							}
 							type: "forgotten_trashcan"
 						}
@@ -1291,12 +1291,12 @@
 			]
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "&7A &o\"Contract\"&r has appeared from the very depths of &lHELL ITSELF!"
+			subtitle: "&7一份&o\"合同\"&r从&l地狱&r里浮现了出来！"
 			tasks: [
 				{
 					icon: "create:schematic_and_quill"
 					id: "538C1613495FEEA0"
-					title: "&eSign here! &7(Click To Complete)"
+					title: "&e在这里签字！&7(点击完成任务)"
 					type: "checkmark"
 				}
 				{
@@ -1309,7 +1309,7 @@
 					}
 					id: "44877428567B6B7F"
 					stat: "minecraft:damage_taken"
-					title: "&4Blood Pact &7(Take Damage To Seal The Deal)"
+					title: "&4发血誓！&7(用受伤完成这张合同)"
 					type: "stat"
 					value: 10
 				}
@@ -1324,7 +1324,7 @@
 			  "{image:mcwpaintings:textures/painting/axolotls.png width:150 height:100 align:1}"
 			  ""
 			  ""
-			  "&6Axolotl in a Bucket : &7Thanks for downloading the pack! We hope you enjoy the newest iteration of Minecraft Eternal"
+			  "&6桶里的美西螈：&7谢谢你能下载这个整合包！我们希望你能享受最新版的永恒的MC！"
 			  ""
 			]
 			hide_dependency_lines: true
@@ -1365,7 +1365,7 @@
 					}
 					id: "5BE8670B5E67BF0A"
 					table_id: 6750392856093556082L
-					title: "&3&lGoodie Bag&r&7 - Pick Your Prize -&r &d(CHOOSE WISELY!)"
+					title: "&3&l好东西包包&r&7挑一份小奖励吧！&r &d(你最好明智的做出选择！)"
 					type: "choice"
 				}
 				{
@@ -1374,19 +1374,19 @@
 					elevate_perms: true
 					icon: "minecraft:axolotl_bucket"
 					id: "528A68DD27DC7486"
-					title: "&9Splash!"
+					title: "&9*水花飞溅声！*"
 					type: "command"
 				}
 			]
 			shape: "heart"
 			size: 0.5d
-			subtitle: "&oOpen Me! -Adam98991"
+			subtitle: "&o打开我！ -Adam98991"
 			tasks: [
 				{
 					dimension: "minecraft:overworld"
 					icon: "rats:creative_cheese"
 					id: "755E81BBACA5563B"
-					title: "&eDownload MC Eternal 2 on Curseforge"
+					title: "&e在CurseForge上下载MCE2"
 					type: "dimension"
 				}
 				{
@@ -1394,23 +1394,23 @@
 					disable_toast: true
 					icon: "rats:blue_cheese"
 					id: "7BF145DB3D2E51FE"
-					title: "&eBe the coolest"
+					title: "&e当个酷小子"
 					type: "dimension"
 				}
 			]
-			title: "&6&lWhat? a Gift!?!"
+			title: "&6&l什么？你还要给我礼物？！"
 			x: 4.020408163265309d
 			y: 3.683673469387756d
 		}
 		{
 			dependencies: ["435D2B15E81BF949"]
 			description: [
-				"Press &d(R)&r to Roll! You cannot Dodge while mid-air or in water! A well timed Combat Roll can be the difference between life and death!"
-				"You have &e(1)&r &dCombat Roll Charge&r which will regenerate after being used!"
+				"按下&d（R）&r即可翻滚！但你不能在水里和空中翻滚，在关键时刻进行翻滚也许就是你滚出鬼门关的关键一击！"
+				"你现在有&e（一次）&r&d战斗翻滚充能&r，使用后会自动充能！"
 				""
-				"&6Tip: &rYou can unlock more &dCombat Roll Charges&r by unlocking &eExpert Mode&r and &eMaster Mode!"
+				"&6小贴士：&r你可以通过解锁&e专家模式&r和&e大师模式&r来获得更多&d战斗翻滚充能&r！"
 				"{image:modpack:textures/dodge.png width:190 height:120 align:1}"
-				"&7Combat Roll Charges can be found at the Bottom-Right of your Hotbar!"
+				"&7战斗翻滚充能在你的快捷键列表右下角！"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1440,10 +1440,10 @@
 				type: "item"
 			}]
 			size: 0.7d
-			subtitle: "Learn about Combat Rolls!"
+			subtitle: "了解战斗翻滚！"
 			tasks: [{
 				id: "62573FB77CA0D935"
-				title: "&eInformation Quest &r&7(Click To Complete!)"
+				title: "&e这是一个介绍任务&r&7(点击完成任务!)"
 				type: "checkmark"
 			}]
 			title: "&eRockin' and Rollin'"
@@ -1756,7 +1756,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "29C6D081DC0E8D8F"
-					title: "&eUnlock Title:&r Hero of The Village"
+					title: "&e已解锁称号：&r Hero of The Village"
 					type: "command"
 				}
 				{
@@ -1897,7 +1897,7 @@
 			subtitle: "You've got mail! &oI wonder who it is from?"
 			tasks: [{
 				id: "722B2EF5F79B00DC"
-				title: "&e&nOpen Letter!&r &7(Click To Complete)"
+				title: "&e&nOpen Letter!&r &7(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "&2&lOpen Letter?"
@@ -2277,7 +2277,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "64BB756670543B8B"
-					title: "&eUnlock Title:&r the Quest Maniac"
+					title: "&e已解锁称号：&r the Quest Maniac"
 					type: "command"
 				}
 				{
@@ -2411,7 +2411,7 @@
 						id: "titles:title_scroll_rare"
 					}
 					id: "0F85C97171F04A3A"
-					title: "&eUnlock Title:&r the Turtle Lord"
+					title: "&e已解锁称号：&r the Turtle Lord"
 					type: "command"
 				}
 				{
@@ -2501,7 +2501,7 @@
 					command: "/titles add @p titles:beastmaster"
 					icon: "titles:title_scroll_uncommon"
 					id: "184B242808F4AB46"
-					title: "&eUnlock Title:&r Beastmaster"
+					title: "&e已解锁称号：&r Beastmaster"
 					type: "command"
 				}
 				{
@@ -2577,7 +2577,7 @@
 					command: "/titles add @p titles:trader"
 					icon: "titles:title_scroll_common"
 					id: "010394115892AE30"
-					title: "&eUnlock Title:&r The Trader"
+					title: "&e已解锁称号：&r The Trader"
 					type: "command"
 				}
 				{
@@ -2645,7 +2645,7 @@
 					command: "/titles add @p titles:diver"
 					icon: "titles:title_scroll_uncommon"
 					id: "2D6CE912ED509899"
-					title: "&eUnlock Title:&r Master Diver"
+					title: "&e已解锁称号：&r Master Diver"
 					type: "command"
 				}
 				{
@@ -2849,7 +2849,7 @@
 					command: "/titles add @p titles:gobby"
 					icon: "titles:title_scroll_uncommon"
 					id: "18AB3A63DD2748AC"
-					title: "&eUnlock Title:&r Friend of Goblins"
+					title: "&e已解锁称号：&r Friend of Goblins"
 					type: "command"
 				}
 				{
@@ -2943,7 +2943,7 @@
 					command: "/titles add @p titles:pleb"
 					icon: "titles:title_scroll_common"
 					id: "562E75AE41AA509C"
-					title: "&eUnlock Title:&r Pleb"
+					title: "&e已解锁称号：&r Pleb"
 					type: "command"
 				}
 				{
@@ -3031,7 +3031,7 @@
 					command: "/titles remove @p twilightforest:progress_naga"
 					icon: "titles:title_scroll_uncommon"
 					id: "1ADBE179E9FD58D2"
-					title: "&eUnlock Title: &rNaga Slayer"
+					title: "&e已解锁称号： &rNaga Slayer"
 					type: "command"
 				}
 				{
@@ -3362,7 +3362,7 @@
 					command: "/titles add @p twilightforest:progress_troll"
 					icon: "titles:title_scroll_rare"
 					id: "4D2F17A6C8ADBB77"
-					title: "&eUnlock Title: &rTroll Slayer"
+					title: "&e已解锁称号： &rTroll Slayer"
 					type: "command"
 				}
 				{
@@ -3537,7 +3537,7 @@
 					command: "/titles add @p titles:friend"
 					icon: "titles:title_scroll_uncommon"
 					id: "311D7B4F8F95892A"
-					title: "&eUnlock Title:&r Best Friend Forever"
+					title: "&e已解锁称号：&r Best Friend Forever"
 					type: "command"
 				}
 				{
@@ -3668,7 +3668,7 @@
 					command: "/titles add @p titles:slimy"
 					icon: "titles:title_scroll_uncommon"
 					id: "3F776B6D577373E7"
-					title: "&eUnlock Title:&r the Partycrasher"
+					title: "&e已解锁称号：&r the Partycrasher"
 					type: "command"
 				}
 				{
@@ -3880,7 +3880,7 @@
 					command: "/titles add @p titles:cursed"
 					icon: "titles:title_scroll_common"
 					id: "2321F39063FE8602"
-					title: "&eUnlock Title:&r The Cursed"
+					title: "&e已解锁称号：&r The Cursed"
 					type: "command"
 				}
 				{
@@ -4476,7 +4476,7 @@
 					command: "/titles add @p titles:cartographer"
 					icon: "titles:title_scroll_common"
 					id: "20216DFEC9BC37A4"
-					title: "&eUnlock Title:&r the Explorer"
+					title: "&e已解锁称号：&r the Explorer"
 					type: "command"
 				}
 				{
@@ -4625,7 +4625,7 @@
 					command: ""
 					icon: "titles:title_scroll_common"
 					id: "0708839C53992326"
-					title: "&eUnlock Title:&r the Spud Bud"
+					title: "&e已解锁称号：&r the Spud Bud"
 					type: "command"
 				}
 				{
@@ -4877,7 +4877,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "36E7A7C810531F22"
-					title: "&eUnlock Title:&r the Ungriefed"
+					title: "&e已解锁称号：&r the Ungriefed"
 					type: "command"
 				}
 				{
@@ -4897,7 +4897,7 @@
 			tasks: [
 				{
 					id: "28E207333A709293"
-					title: "&7Information Quest &e(Click To Complete)"
+					title: "&7Information Quest &e(点击完成任务)"
 					type: "checkmark"
 				}
 				{
@@ -4993,7 +4993,7 @@
 						id: "titles:title_scroll_uncommon"
 					}
 					id: "40EC7AF67CD8334D"
-					title: "&eUnlock Title:&r the Highwayman"
+					title: "&e已解锁称号：&r the Highwayman"
 					type: "command"
 				}
 			]
@@ -5234,7 +5234,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "09D67CC3E34A1CAB"
-					title: "&eUnlock Title: &rthe Lumberjack"
+					title: "&e已解锁称号： &rthe Lumberjack"
 					type: "command"
 				}
 				{
@@ -5650,7 +5650,7 @@
 						id: "titles:title_scroll_uncommon"
 					}
 					id: "6CEB3FD8B81DAFC6"
-					title: "&eUnlock Title:&r the Chest Slayer"
+					title: "&e已解锁称号：&r the Chest Slayer"
 					type: "command"
 				}
 				{
@@ -5844,7 +5844,7 @@
 			subtitle: "Learn about the &6World-Map&r and &6Mini-Map!"
 			tasks: [{
 				id: "23494903ED6F8EF5"
-				title: "&7Information Quest &e(Click To Complete)"
+				title: "&7Information Quest &e(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "&3It's Learning Time!"
@@ -5948,7 +5948,7 @@
 			subtitle: "&eA WILD BARRY HAS APPEARED!"
 			tasks: [{
 				id: "7507DFFC3D37B44B"
-				title: "&6BARRY! HOLY MOLY! :O &r&7(Click To Complete)"
+				title: "&6BARRY! HOLY MOLY! :O &r&7(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "&6BARRY! "
@@ -5985,7 +5985,7 @@
 					command: "/titles add @p titles:honeydew"
 					icon: "titles:title_scroll_uncommon"
 					id: "3592C1B7F47C4A94"
-					title: "&eUnlock Title:&r of Honeydew"
+					title: "&e已解锁称号：&r of Honeydew"
 					type: "command"
 				}
 			]
@@ -6120,7 +6120,7 @@
 					command: "/titles add @p titles:pureblood"
 					icon: "titles:title_scroll_uncommon"
 					id: "5410C673D96ED620"
-					title: "&eUnlock Title:&r the Pureblood"
+					title: "&e已解锁称号：&r the Pureblood"
 					type: "command"
 				}
 				{
@@ -6187,7 +6187,7 @@
 					command: "/titles add @p titles:orc"
 					icon: "titles:title_scroll_uncommon"
 					id: "500633A5FF7F16F9"
-					title: "&eUnlock Title:&r the Orc"
+					title: "&e已解锁称号：&r the Orc"
 					type: "command"
 				}
 				{
@@ -6275,7 +6275,7 @@
 					command: "/titles add @p titles:dwarf"
 					icon: "titles:title_scroll_common"
 					id: "4D98C0B443CD9B38"
-					title: "&eUnlock Title:&r the Dwarf"
+					title: "&e已解锁称号：&r the Dwarf"
 					type: "command"
 				}
 				{
@@ -6374,7 +6374,7 @@
 					command: "/titles add @p titles:human"
 					icon: "titles:title_scroll_common"
 					id: "2E828F712E1C1E2E"
-					title: "&eUnlock Title:&r the Human"
+					title: "&e已解锁称号：&r the Human"
 					type: "command"
 				}
 			]
@@ -6420,7 +6420,7 @@
 			tasks: [{
 				icon: "citadel:citadel_book"
 				id: "5D5179EE26794186"
-				title: "Information Quest &e(Click To Complete)"
+				title: "Information Quest &e(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "&dCreating a TEAM!"
@@ -6465,7 +6465,7 @@
 						id: "titles:title_scroll_uncommon"
 					}
 					id: "626960F9F8D32E9A"
-					title: "&eUnlock Title:&r the Goat Whisperer"
+					title: "&e已解锁称号：&r the Goat Whisperer"
 					type: "command"
 				}
 			]
@@ -6587,7 +6587,7 @@
 						id: "titles:title_scroll_common"
 					}
 					id: "0E2AD0D840200737"
-					title: "&eUnlock Title:&r the Interior Decorator"
+					title: "&e已解锁称号：&r the Interior Decorator"
 					type: "command"
 				}
 				{
@@ -7477,7 +7477,7 @@
 			subtitle: "Learn About The Interface!"
 			tasks: [{
 				id: "731A0AB14269F8C2"
-				title: "&eInfo Quest - &r(Click To Complete)"
+				title: "&eInfo Quest - &r(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "Navigating The UI &e(Part I)"
@@ -7512,7 +7512,7 @@
 			subtitle: "Learn About The Interface!"
 			tasks: [{
 				id: "7B310F44D8C2DE1A"
-				title: "&eInfo Quest - &r(Click To Complete)"
+				title: "&eInfo Quest - &r(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "Navigating The UI &e(Part II)"

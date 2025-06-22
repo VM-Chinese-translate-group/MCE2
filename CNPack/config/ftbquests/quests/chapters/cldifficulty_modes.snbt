@@ -220,7 +220,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "6D22DF9F16F321D3"
-					title: "&eUnlock Title:&r The Master"
+					title: "&e已解锁称号：&r The Master"
 					type: "command"
 				}
 				{
@@ -350,7 +350,7 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "4D62D854404D9939"
-					title: "&eUnlock Title:&r The Expert"
+					title: "&e已解锁称号：&r The Expert"
 					type: "command"
 				}
 				{
@@ -528,7 +528,7 @@
 			subtitle: "Learn About Difficulty Modes!"
 			tasks: [{
 				id: "7DBD819B4A70A424"
-				title: "&eInfo Quest &r(Right-Click To Complete)"
+				title: "&eInfo Quest &r(Right-点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "&6&lDifficulty Modes - &r&eInformation! &l⬅"

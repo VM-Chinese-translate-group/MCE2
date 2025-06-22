@@ -1490,7 +1490,7 @@
 		{
 			command: "/titles add @p titles:lucky"
 			icon: "titles:title_scroll_uncommon"
-			title: "&eUnlock Title:&r the Lucky"
+			title: "&e已解锁称号：&r the Lucky"
 			type: "command"
 		}
 		{ item: "titles:title_scroll_common" }

@@ -174,7 +174,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "29675BF8BA282F99"
-					title: "&eUnlock Title:&r Blood Champion"
+					title: "&e已解锁称号：&r Blood Champion"
 					type: "command"
 				}
 				{
@@ -277,7 +277,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "05C6F9447B89C2BB"
-					title: "&eUnlock Title:&r the Dread Pirate"
+					title: "&e已解锁称号：&r the Dread Pirate"
 					type: "command"
 				}
 				{
@@ -376,7 +376,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "6C22DED1D418EE12"
-					title: "&eUnlock Title:&r the Frozen"
+					title: "&e已解锁称号：&r the Frozen"
 					type: "command"
 				}
 				{
@@ -481,7 +481,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "3746FC00D92544E2"
-					title: "&eUnlock Title:&r the Weedkiller"
+					title: "&e已解锁称号：&r the Weedkiller"
 					type: "command"
 				}
 				{
@@ -599,7 +599,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "00D5CEEED941D81B"
-					title: "&eUnlock Title:&r the Demon Slayer"
+					title: "&e已解锁称号：&r the Demon Slayer"
 					type: "command"
 				}
 				{
@@ -699,7 +699,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0BD0DF048DAFC694"
-					title: "&eUnlock Title:&r the God Killer"
+					title: "&e已解锁称号：&r the God Killer"
 					type: "command"
 				}
 				{
@@ -870,7 +870,7 @@
 					command: "/titles add @p titles:voidlord"
 					icon: "titles:title_scroll_rare"
 					id: "72FD7EB5624CE117"
-					title: "&eUnlock Title:&r Void Lord"
+					title: "&e已解锁称号：&r Void Lord"
 					type: "command"
 				}
 				{
@@ -919,7 +919,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "1B4BA990B8644E49"
-					title: "&eUnlock Title:&r the Harbinger of Doom"
+					title: "&e已解锁称号：&r the Harbinger of Doom"
 					type: "command"
 				}
 				{
@@ -1032,7 +1032,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "112006616A786B76"
-					title: "&eUnlock Title:&r Vanquisher"
+					title: "&e已解锁称号：&r Vanquisher"
 					type: "command"
 				}
 				{
@@ -1126,7 +1126,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "5B0BB798D05CA73C"
-					title: "&eUnlock Title:&r the Netherbane"
+					title: "&e已解锁称号：&r the Netherbane"
 					type: "command"
 				}
 				{
@@ -1225,7 +1225,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "06439A84E2F5C8D9"
-					title: "&eUnlock Title:&r Ironside"
+					title: "&e已解锁称号：&r Ironside"
 					type: "command"
 				}
 				{
@@ -1331,7 +1331,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "41F792DC0BE7C683"
-					title: "&eUnlock Title:&r the Soulflayer"
+					title: "&e已解锁称号：&r the Soulflayer"
 					type: "command"
 				}
 				{
@@ -1421,7 +1421,7 @@
 					command: "/titles add @p titles:the_immortal"
 					icon: "titles:title_scroll_uncommon"
 					id: "6F3BD211F59D65F1"
-					title: "&eUnlock Title:&r the Ancient"
+					title: "&e已解锁称号：&r the Ancient"
 					type: "command"
 				}
 				{
@@ -1631,7 +1631,7 @@
 						id: "titles:title_scroll_uncommon"
 					}
 					id: "3E3BCE1B88B2B6B4"
-					title: "&eUnlock Title:&r the Questmaster's Pet"
+					title: "&e已解锁称号：&r the Questmaster's Pet"
 					type: "command"
 				}
 				{
@@ -1725,7 +1725,7 @@
 			tasks: [{
 				disable_toast: true
 				id: "5C25465F983C7E12"
-				title: "&eInformation Quest! &r(Click To Complete)"
+				title: "&eInformation Quest! &r(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "&6The Legendary Eyes!"
@@ -1776,7 +1776,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0A4479D4F9FF8D44"
-					title: "&eUnlock Title:&r the Deep One"
+					title: "&e已解锁称号：&r the Deep One"
 					type: "command"
 				}
 				{
@@ -1858,7 +1858,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "04B713FBA413BDAE"
-					title: "&eUnlock Title:&r the Experienced"
+					title: "&e已解锁称号：&r the Experienced"
 					type: "command"
 				}
 				{
@@ -1940,7 +1940,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0D4027ADE5C68066"
-					title: "&eUnlock Title:&r the Desecrator"
+					title: "&e已解锁称号：&r the Desecrator"
 					type: "command"
 				}
 				{
@@ -2022,7 +2022,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "5FBAD66E034E01EF"
-					title: "&eUnlock Title:&r the Evil"
+					title: "&e已解锁称号：&r the Evil"
 					type: "command"
 				}
 				{
@@ -2090,7 +2090,7 @@
 			subtitle: "Collect 4 Secret Eyes!"
 			tasks: [{
 				id: "58480ACED9382A33"
-				title: "&eInformation Quest:&r Click To Complete!"
+				title: "&eInformation Quest:&r 点击完成任务!"
 				type: "checkmark"
 			}]
 			title: "&6The Secret Eyes!"
