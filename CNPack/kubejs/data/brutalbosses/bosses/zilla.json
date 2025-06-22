@@ -9,7 +9,7 @@
     "minecraft:speed": 2
   },
   "attributes": {
-    "generic.max_health": 90,
+    "generic.max_health": 190,
     "generic.follow_range": 50,
     "generic.attack_damage": 80,
     "generic.knockback_resistance": 10
@@ -50,4 +50,4 @@
  
   }
 }
-}
+}}

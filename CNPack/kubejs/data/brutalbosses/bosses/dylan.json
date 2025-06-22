@@ -25,16 +25,16 @@
   "ai-goals": {
     "minecraft:target": {},
 	"brutalbosses:charge": {},
-  "brutalbosses:jumpattack": {"healthinterval": "100-0",          
+  "brutalbosses:jumpattack": {"healthinterval": "10-0",          
   "attackdist": 12,                     
-  "extraDamage": 2,                    
+  "extraDamage": 200,                    
   "maxdist": 15,                       
   "mindist": 2,                        
   "maxheight": 15,                      
   "duration": 200,                      
   "interval": 300,                     
   "potions": {                         
-  "cataclysm:blindness":                  
+  "minecraft:blindness":                  
   {
     "duration": 200,                   
     "amplifier": 2,                    

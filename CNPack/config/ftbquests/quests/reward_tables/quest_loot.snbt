@@ -4795,6 +4795,8 @@
 		{ item: "cataclysm:curved_azure_seastone_scylla_8" }
 		{ item: "cataclysm:curved_azure_seastone_cindaria_3" }
 		{ item: "cataclysm:aptrgangr_head" }
+		{ item: "cataclysm:remnant_skull" }
+		{ item: "cataclysm:sandstorm_in_a_bottle" }
 	]
 	title: "&e"
 	use_title: true
