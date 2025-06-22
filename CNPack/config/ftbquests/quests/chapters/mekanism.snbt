@@ -165,7 +165,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["> 氧 >"]
+			hover: ["> 氧气 >"]
 			image: "mekanism:textures/block/models/multipart/advanced_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
