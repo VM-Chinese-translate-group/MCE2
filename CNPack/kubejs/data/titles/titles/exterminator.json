@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:exterminator",
+  "rarity": "rare",
+  "defaultDisplay": "the Exterminator"
+}

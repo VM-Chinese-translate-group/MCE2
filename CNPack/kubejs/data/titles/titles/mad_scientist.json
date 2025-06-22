@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:mad_scientist",
+  "rarity": "rare",
+  "defaultDisplay": "the Mad Scientist"
+}

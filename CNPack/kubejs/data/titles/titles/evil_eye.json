@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:evil_eye",
+  "rarity": "rare",
+  "defaultDisplay": "the Evil"
+}

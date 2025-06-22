@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:contract"
+      },
+      "title": "Dubious Legal Matters",
+      "description": "I hope you got legal advice before signing this damn thing..",
+      "frame": "challenge",
+      "show_toast": true,
+      "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
+      "announce_to_chat": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

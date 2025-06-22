@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:novice",
+  "rarity": "common",
+  "defaultDisplay": "the Novice"
+}

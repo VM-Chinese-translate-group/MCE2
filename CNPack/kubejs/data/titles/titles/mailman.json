@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:mail",
+  "rarity": "rare",
+  "defaultDisplay": "the Mailman",
+   "variantDisplay": "the Mailguy"
+}

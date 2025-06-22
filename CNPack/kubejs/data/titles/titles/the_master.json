@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:master",
+  "rarity": "rare",
+  "defaultDisplay": "the Master"
+}

@@ -1,0 +1,6 @@
+ {
+  "type": "command",
+  "id": "titles:corrupted",
+  "rarity": "rare",
+  "defaultDisplay": "the Corrupted"
+}

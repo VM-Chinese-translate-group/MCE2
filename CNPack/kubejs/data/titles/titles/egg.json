@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "id": "titles:chicken",
+  "rarity": "rare",
+  "defaultDisplay": "the Chicken King",
+  "variantDisplay": "the Chicken Queen"
+}

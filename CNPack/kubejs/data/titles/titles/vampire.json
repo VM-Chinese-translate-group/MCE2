@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:vampire",
+  "rarity": "uncommon",
+  "defaultDisplay": "the Vampire"
+}

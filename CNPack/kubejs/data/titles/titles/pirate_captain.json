@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:pirate_captain",
+  "rarity": "rare",
+  "defaultDisplay": "the Dread Pirate"
+}

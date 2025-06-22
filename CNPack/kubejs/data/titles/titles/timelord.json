@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:timelord",
+  "rarity": "rare",
+  "defaultDisplay": "Timelord"
+}

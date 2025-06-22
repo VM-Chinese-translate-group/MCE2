@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:friend",
+  "rarity": "uncommon",
+  "defaultDisplay": "the BFF"
+}

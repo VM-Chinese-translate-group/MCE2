@@ -1,0 +1,31 @@
+{
+  "creativetab.jaffactory_tab": "Jaffactory",
+  "item.jaffactory.orange": "Jaffa Orange",
+  "item.jaffactory.orange_juice": "Jaffa Juice",
+  "item.jaffactory.jaffa_base": "Jaffa Cake Base",
+  "item.jaffactory.jaffa_slime_base": "Jaffa Cake Base with Jelly",
+  "item.jaffactory.jaffa_cake": "Jaffa Cake",
+  "item.jaffactory.jaffa_slime": "Jaffa Jelly",
+  "item.jaffactory.jaffa_chocolate": "Bucket of Chocolate",
+  "item.jaffactory.orange_juice_bucket": "Bucket of Jaffa Juice",
+
+  "block.jaffactory.orange_block": "Basket of Jaffa Oranges",
+  "block.jaffactory.orange_log": "Jaffa Log",
+  "block.jaffactory.orange_wood": "Jaffa Wood",
+  "block.jaffactory.orange_leaves": "Jaffa Leaves",
+  "block.jaffactory.orange_fruit_leaves": "Fruity Jaffa Leaves",
+  "block.jaffactory.orange_sapling": "Jaffa Sapling",
+  "block.jaffactory.stripped_orange_log": "Stripped Jaffa Log",
+  "block.jaffactory.stripped_orange_wood": "Stripped Jaffa Wood",
+  "block.jaffactory.orange_planks_block": "Jaffa Planks",
+  "block.jaffactory.orange_planks_stairs": "Jaffa Stairs",
+  "block.jaffactory.orange_planks_slab": "Jaffa Slab",
+  "block.jaffactory.orange_planks_button": "Jaffa Button",
+  "block.jaffactory.orange_planks_pressure_plate": "Jaffa Pressure Plate",
+  "block.jaffactory.orange_planks_fence": "Jaffa Fence",
+  "block.jaffactory.orange_planks_fence_gate": "Jaffa Fence Gate",
+  "block.jaffactory.orange_planks_door": "Jaffa Door",
+  "block.jaffactory.orange_planks_trapdoor": "Jaffa Trapdoor",
+
+  "fluid_type.jaffactory.orange_juice_fluid": "Orange Juice"
+}
