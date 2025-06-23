@@ -104,7 +104,7 @@
 						id: "titles:title_scroll_rare"
 					}
 					id: "0513FC884C2493C4"
-					title: "&e已解锁称号：&r the Conqueror"
+					title: "&e解锁称号：&r the Conqueror"
 					type: "command"
 				}
 				{
@@ -402,7 +402,7 @@
 						id: "titles:title_scroll_rare"
 					}
 					id: "3E9991B626495847"
-					title: "&e已解锁称号： &rthe Harbinger of Doom"
+					title: "&e解锁称号： &rthe Harbinger of Doom"
 					type: "command"
 				}
 				{

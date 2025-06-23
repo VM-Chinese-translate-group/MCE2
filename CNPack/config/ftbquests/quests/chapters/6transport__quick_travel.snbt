@@ -172,7 +172,7 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "6D0328AD3E6697B7"
-					title: "&e已解锁称号：&r the Tourist"
+					title: "&e解锁称号：&r the Tourist"
 					type: "command"
 				}
 				{

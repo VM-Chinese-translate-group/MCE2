@@ -741,7 +741,7 @@
 					command: "/titles add @p titles:demon_slayer"
 					icon: "titles:title_scroll_uncommon"
 					id: "4676D913C6156C6D"
-					title: "&e已解锁称号：&r Demon Slayer"
+					title: "&e解锁称号：&r Demon Slayer"
 					type: "command"
 				}
 				{
@@ -845,7 +845,7 @@
 					command: "/titles add @p twilightforest:fiery_set"
 					icon: "titles:title_scroll_rare"
 					id: "22DA422A1A1EAEC3"
-					title: "&e已解锁称号： &rThe Flame Forged"
+					title: "&e解锁称号： &rThe Flame Forged"
 					type: "command"
 				}
 				{
@@ -1059,7 +1059,7 @@
 					command: "/titles add @p titles:ashen"
 					icon: "titles:title_scroll_uncommon"
 					id: "0067A1BE49111658"
-					title: "&e已解锁称号：&r of the Ashen Breath"
+					title: "&e解锁称号：&r of the Ashen Breath"
 					type: "command"
 				}
 				{
@@ -1186,7 +1186,7 @@
 			]
 			shape: "hexagon"
 			size: 0.8d
-			subtitle: "Visit all major Nether biomes!"
+			subtitle: "Visit all major Nether 生物群系!"
 			tasks: [
 				{
 					biome: "minecraft:basalt_deltas"

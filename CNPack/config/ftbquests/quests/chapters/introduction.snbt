@@ -1250,7 +1250,7 @@
 						tag: { }
 					}
 					id: "4CE96EA5FA9CF05A"
-					title: "&e已解锁称号： &r上当受骗大傻子&7&o(按下=即可装备)"
+					title: "&e解锁称号： &r上当受骗大傻子&7&o(按下=即可装备)"
 					type: "command"
 				}
 				{
@@ -1685,7 +1685,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "29C6D081DC0E8D8F"
-					title: "&e已解锁称号：&r村庄英雄"
+					title: "&e解锁称号：&r村庄英雄"
 					type: "command"
 				}
 				{
@@ -1945,7 +1945,7 @@
 					value: 1L
 				}
 			]
-			title: "我很好奇这些饰品是干什么用的！"
+			title: "我很好奇这里都有什么饰品！"
 			x: 8.929251700680261d
 			y: 0.28996598639454874d
 		}
@@ -2206,7 +2206,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "64BB756670543B8B"
-					title: "&e已解锁称号：&r任务狂魔"
+					title: "&e解锁称号：&r任务狂魔"
 					type: "command"
 				}
 				{
@@ -2340,7 +2340,7 @@
 						id: "titles:title_scroll_rare"
 					}
 					id: "0F85C97171F04A3A"
-					title: "&e已解锁称号：&r the Turtle Lord"
+					title: "&e解锁称号：&r the Turtle Lord"
 					type: "command"
 				}
 				{
@@ -2362,7 +2362,7 @@
 			]
 			shape: "hexagon"
 			size: 0.6d
-			subtitle: "&oCraft a set of Turtle Armor and feel the mighty power of the Turtle!"
+			subtitle: "&o合成一套海龟盔甲，然后感受海龟的伟力吧！"
 			tasks: [
 				{
 					id: "069963171F5BED1B"
@@ -2409,16 +2409,16 @@
 					type: "item"
 				}
 			]
-			title: "&3Turtle Lord"
+			title: "&3海龟领主"
 			x: 11.880272108843535d
 			y: -2.054081632653041d
 		}
 		{
 			dependencies: ["4789D17B88722641"]
 			description: [
-				"Befriend a creature to complete this quest!"
+				"和一个生物成为好朋友即可完成本任务！"
 				""
-				"<rainb>Bonus<rainb> <rainb>Objective:<rainb> &rTame the cutest creature you can find!"
+				"<rainb>额外<rainb><rainb>挑战内容<rainb>：&r驯服你能找到的最可爱的生物！"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -2430,7 +2430,7 @@
 					command: "/titles add @p titles:beastmaster"
 					icon: "titles:title_scroll_uncommon"
 					id: "184B242808F4AB46"
-					title: "&e已解锁称号：&r Beastmaster"
+					title: "&e解锁称号：&r驯兽师"
 					type: "command"
 				}
 				{
@@ -2467,13 +2467,13 @@
 				}
 			]
 			size: 0.7d
-			subtitle: "&oTame any type of creature"
+			subtitle: "&o驯服生物！"
 			tasks: [
 				{
 					advancement: "minecraft:husbandry/tame_an_animal"
 					criterion: ""
 					id: "44715041C99D0943"
-					title: "&eMake a Friend"
+					title: "&e广结善缘"
 					type: "advancement"
 				}
 				{
@@ -2482,7 +2482,7 @@
 					type: "questsadditions:days"
 				}
 			]
-			title: "&dMaking New Friends!"
+			title: "&d来交点新朋友吧！"
 			x: 3.5d
 			y: 0.7d
 		}
@@ -2490,7 +2490,7 @@
 			dependencies: ["398A05549FA9DC3F"]
 			description: [
 				"{image:modpack:textures/2022-10-11_22.14.21.png width:180 height:100 align:1}"
-				"&e提示： &rXP earned from trading will teleport to the player!"
+				"&e提示： &r交易中获得的经验会直接传送到玩家所在位置！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -2506,7 +2506,7 @@
 					command: "/titles add @p titles:trader"
 					icon: "titles:title_scroll_common"
 					id: "010394115892AE30"
-					title: "&e已解锁称号：&r The Trader"
+					title: "&e解锁称号：&r贸易者"
 					type: "command"
 				}
 				{
@@ -2544,7 +2544,7 @@
 			]
 			shape: "pentagon"
 			size: 0.6d
-			subtitle: "Note: Using the Trading Post you can trade with all Villagers in the area. Very useful for large villages. It even comes with a helpful search feature! "
+			subtitle: "注意：你可以通过交易站和当前区域的所有村民进行交易，它不仅对大型村庄很有用，还自带一个搜索功能！"
 			tasks: [{
 				id: "31965A206D8A6D7A"
 				item: "tradingpost:trading_post"
@@ -2574,7 +2574,7 @@
 					command: "/titles add @p titles:diver"
 					icon: "titles:title_scroll_uncommon"
 					id: "2D6CE912ED509899"
-					title: "&e已解锁称号：&r Master Diver"
+					title: "&e解锁称号：&r专业潜水员"
 					type: "command"
 				}
 				{
@@ -2633,14 +2633,14 @@
 			]
 			shape: "pentagon"
 			size: 0.7d
-			subtitle: "&oUncover the remains of a Wrecked Ship"
+			subtitle: "&o发掘沉船所留下的遗迹"
 			tasks: [{
 				icon: "minecolonies:supplychestdeployer"
 				id: "5F4A8E10025BC8E0"
 				structure: "minecraft:shipwreck"
 				type: "structure"
 			}]
-			title: "&eLocate a Shipwreck "
+			title: "&e找到沉船"
 			x: 11.9d
 			y: -1.4d
 		}
@@ -2704,14 +2704,14 @@
 				}
 			]
 			size: 0.5d
-			subtitle: "&oIf you feed a Dolphin raw cod or salmon, the Dolphin can lead you to the nearest Shipwreck!"
+			subtitle: "&o如果你把生鲑鱼或生鳕鱼喂给海豚，那么它就会带你去最近的沉船位置！"
 			tasks: [
 				{
 					icon: "minecraft:heart_of_the_sea"
 					id: "4A584E53D38BC760"
 					observe_type: 0
 					timer: 0L
-					title: "&eDolphin Teamwork"
+					title: "&e和海豚搞团队合作"
 					to_observe: "minecraft:dolphin"
 					type: "observation"
 				}
@@ -2743,7 +2743,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			size: 0.9d
-			subtitle: "&oVillage Sign-Posts can be found within a few hundred blocks of a Village. These will guide you in the general direction of a Village."
+			subtitle: "&o你可以在村庄周围几百格的范围内找到村庄路标，它会向你指出村庄的大致范围。"
 			tasks: [{
 				advancement: "supplementaries:adventure/way_sign"
 				criterion: ""
@@ -2757,17 +2757,17 @@
 					id: "minecraft:oak_sign"
 				}
 				id: "3A4D6D60BF3489DB"
-				title: "&eLocate a Village Sign-Post"
+				title: "&e发现一个村庄路标"
 				type: "advancement"
 			}]
-			title: "&eLocate a Village Sign-Post"
+			title: "&e发现一个村庄路标"
 			x: 7.0d
 			y: 2.0204081632653015d
 		}
 		{
 			dependencies: ["28A8F23036B825C4"]
 			description: [
-			  "&e提示：&r The Boombox can be used to play records while moving! &oHuge in Goblin circles right now."
+			  "&e提示：&r单放音响可以在移动的时候播放唱片！&o这玩意最近在哥布林那很火。"
 			  ""
 			  ""
 			  ""
@@ -2777,8 +2777,7 @@
 				{
 					command: "/titles add @p titles:gobby"
 					icon: "titles:title_scroll_uncommon"
-					id: "18AB3A63DD2748AC"
-					title: "&e已解锁称号：&r Friend of Goblins"
+					id: "18AB3A63DD2748AC": "哥布林之友"
 					type: "command"
 				}
 				{
@@ -2816,7 +2815,7 @@
 			]
 			shape: "heart"
 			size: 0.5d
-			subtitle: "&oTrade with a Goblin Trader for a Boombox!"
+			subtitle: "&o从哥布林商人那里买来一个单放音响！"
 			tasks: [{
 				id: "0B63952859C8D7A7"
 				item: {
@@ -2834,16 +2833,16 @@
 				}
 				type: "item"
 			}]
-			title: "&eMy Musical Pal"
+			title: "&e爱音乐的小伙"
 			x: 4.807823129251709d
 			y: -1.8250000000000028d
 		}
 		{
 			dependencies: ["39C7248750512A5B"]
 			description: [
-			  "&cWarning:&r By completing this quest you are accepting an item that will begin an optional challenge, &ncontinue at your own peril!"
+			  "&c警告:&r如果你完成这个任务，那么你就会获得一个开启支线挑战的戒指！&n请自行抉择是否要开始！"
 			  ""
-			  "&cWarning:&r Upon equipping this item, you will not be able to take it off! This ring is bound to your soul!"
+			  "&c警告：&r装备这个戒指以后你就摘不掉它了！这个戒指会和你的灵魂锁死！"
 			  "{image:vampiricageing:textures/actions/limited_hunter_batmode_action.png width:100 height:100 align:1}"
 			]
 			hide_dependency_lines: true
@@ -2872,7 +2871,7 @@
 					command: "/titles add @p titles:pleb"
 					icon: "titles:title_scroll_common"
 					id: "562E75AE41AA509C"
-					title: "&e已解锁称号：&r Pleb"
+					title: "&e解锁称号：&r平民玩家？"
 					type: "command"
 				}
 				{
@@ -2891,7 +2890,7 @@
 						tag: {
 							display: {
 								Lore: ["{\"text\":\"§4§kfvidjdgidux8vu8ugiudxi8yuvi8diegty8xdgiyudxigy8dx\"}"]
-								Name: "{\"text\":\"§c§ldemon\"}"
+								Name: "{\"text\":\"§c§l恶魔\"}"
 							}
 							notMyNameTicks: 17
 						}
@@ -2932,24 +2931,24 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "&eOptional Challenge"
+			subtitle: "&e支线挑战"
 			tasks: [{
 				id: "063DBEBCB6D11B0C"
 				points: false
 				type: "xp"
 				value: 25L
 			}]
-			title: "&6A Deal With &c&lThe Devil!"
+			title: "&6与&c&l恶魔&6做交易！"
 			x: 4.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["39C7248750512A5B"]
 			description: [
-				"&e&o\"You ask yourself, it really free if I have to work for it?\""
-				"&6小贴士：&r Gusters can be found in Desert Biomes"
-				"&6小贴士：&r Witches can be found in Swamp Biomes"
-				"&6小贴士：&r Naga can be found in Cliff Biomes"
+				"&e&o\"你不禁要问自己：如果我要费好大劲才能得到它的话，那它真的能算是免费吗？\""
+				"&6小贴士：&r 沙风怪可以在沙漠生物群系中找到。"
+				"&6小贴士：&r 女巫可以在沼泽生物群系中找到。"
+				"&6小贴士：&r 娜迦可以在悬崖生物群系中找到。"
 			]
 			hide_until_deps_visible: true
 			icon: "artifacts:cross_necklace"
@@ -2960,7 +2959,7 @@
 					command: "/titles remove @p twilightforest:progress_naga"
 					icon: "titles:title_scroll_uncommon"
 					id: "1ADBE179E9FD58D2"
-					title: "&e已解锁称号： &rNaga Slayer"
+					title: "&e解锁称号： &r娜迦杀手"
 					type: "command"
 				}
 				{
@@ -2968,7 +2967,7 @@
 					icon: "aquaculture:treasure_chest"
 					id: "58B46678DD8CE75E"
 					table_id: 1523164235740357034L
-					title: "&6Questmaster's Junk&7 "
+					title: "&6任务大师的垃圾&7 "
 					type: "choice"
 				}
 				{
@@ -3012,7 +3011,7 @@
 				}
 			]
 			size: 0.6d
-			subtitle: "&oKill some more evil creatures for another free curio!"
+			subtitle: "&o接着去杀点邪恶的生物，然后再拿一个免费的饰品！"
 			tasks: [
 				{
 					entity: "alexsmobs:guster"
@@ -3063,14 +3062,14 @@
 					value: 1L
 				}
 			]
-			title: "I am curious about these Curios! Part II"
+			title: "我很好奇这里都有什么饰品！——第二部分"
 			x: 8.908843537414953d
 			y: -0.3426870748299393d
 		}
 		{
 			dependencies: ["0E64ACED3D987FB1"]
 			description: [
-			  "&6小贴士：&r&e The Living Flame&r is a very rare item that can be found in a Jungle Temple, or by killing a Crazed Illager in a Mansion!"
+			  "&6小贴士：你可以在丛林神殿中找到&r&e生灵焰火&r这种稀有物品，或者在林地宅邸中杀死一个入魔者也可以获得！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -3130,13 +3129,13 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "&oCollect a Living Flame"
+			subtitle: "&o获得生灵焰火"
 			tasks: [{
 				id: "14395FCF46ED6894"
 				item: "brazier:living_flame"
 				type: "item"
 			}]
-			title: "&eThe Living Flame"
+			title: "&e生灵焰火"
 			x: 15.2d
 			y: 1.6d
 		}
@@ -3144,9 +3143,9 @@
 			dependencies: ["78B506EF7F5BF03B"]
 			dependency_requirement: "one_completed"
 			description: [
-			  "The Brazier can be used to form a special &nmultiblock!&r Some say it can even ward off the undead!"
+			  "生灵火盆可以用来搭建一个特殊的&n多方块结构&r！据说它甚至可以用来役使亡灵！"
 			  ""
-			  "&e提示：&r You can create more Living Torches by clicking the &eBrazier&r with a regular torch! The Living Torch can be used to see the radius a Brazier covers! It will be useful later."
+			  "&e提示：&r你可以通过手持普通火把右击&e生灵火盆&r制造更多生灵火把！生灵火把可以用来查看生灵火盆的作用范围！它之后会很有用的。"
 			]
 			id: "1B7E8249B148B387"
 			rewards: [
@@ -3193,7 +3192,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "&oCraft a &eBrazier"
+			subtitle: "&o合成一个&e生灵火盆"
 			tasks: [{
 				id: "0DBBF95895D379D0"
 				item: "brazier:brazier"
@@ -3206,7 +3205,7 @@
 			dependencies: ["1B7E8249B148B387"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&e提示：&r Each level of the tower expands the range of effect by 10 blocks, with a maximum height of 10."
+				"&e提示：&r每层生灵火盆塔可以扩张10格生灵火盆的作用范围，最多可以累计10层。"
 				"{image:modpack:textures/2023-08-15_19.32.57.png width:180 height:100 align:1}"
 			]
 			id: "50C0CB1FA648F8A8"
@@ -3250,7 +3249,7 @@
 			]
 			shape: "pentagon"
 			size: 0.9d
-			subtitle: "Build the mighty Brazier tower and stop monsters from spawning nearby!"
+			subtitle: "建造强大的生灵火盆塔，然后停止怪物生成！"
 			tasks: [{
 				hasCustomPicture: false
 				icon: "goety:necro_brazier"
@@ -3261,16 +3260,16 @@
 				rightclick: false
 				type: "questsadditions:structure"
 			}]
-			title: "&6Build Quest: &eBrazier"
+			title: "&6建造任务： &e生灵火盆"
 			x: 16.800680272108842d
 			y: 2.728826530612224d
 		}
 		{
 			dependencies: ["466E13BECD4E53F9"]
 			description: [
-				"&6小贴士：&r Sirens can be found rarely in Ocean Biomes!"
-				"&6小贴士：&r Trolls can be found rarely Underground!"
-				"&6小贴士：&r Ravagers can be found at Village Raids!"
+				"&6小贴士：&r 塞壬在海洋生物群系中会很罕见地刷新！"
+				"&6小贴士：&r 巨魔偶尔会在地下刷新！"
+				"&6小贴士：&r 劫掠兽在村庄劫掠时会出现！"
 				""
 			]
 			hide_until_deps_complete: true
@@ -3284,14 +3283,14 @@
 					icon: "aquaculture:treasure_chest"
 					id: "0D7A243870E38157"
 					table_id: 4211483720761537609L
-					title: "&6\"Free Curio\""
+					title: "&6\"免费饰品\""
 					type: "choice"
 				}
 				{
 					command: "/titles add @p twilightforest:progress_troll"
 					icon: "titles:title_scroll_rare"
 					id: "4D2F17A6C8ADBB77"
-					title: "&e已解锁称号： &rTroll Slayer"
+					title: "&e解锁称号： &r巨魔杀手"
 					type: "command"
 				}
 				{
@@ -3332,7 +3331,7 @@
 				}
 			]
 			size: 0.6d
-			subtitle: "&oYou still want to kill things? Good! Get to work! I'll be more transparent, this Curio isn't free."
+			subtitle: "&o你还想接着去杀点什么？那太好了，赶快去杀吧！反正我就跟你直说了：这饰品可不是免费的。"
 			tasks: [
 				{
 					entity: "iceandfire:siren"
@@ -3375,17 +3374,17 @@
 					value: 1L
 				}
 			]
-			title: "&eI am curious about these Curios Part III."
+			title: "&e我很好奇这里都有什么饰品！ 第三部分"
 			x: 9.827210884353725d
 			y: -0.3426870748299393d
 		}
 		{
 			dependencies: ["16A59774B0927BC5"]
 			description: [
-				"To light a Campfire, &6Right-Click&r the unlit Campfire with a &eFlint and Steel&r"
+				"手持&e打火石&r时&6右击&r营火即可点燃它。"
 				""
-				"The Campfire provides the &dComfort&r Status Effect to those around it in a small radius. Which allows for faster healing!"
-				"Monsters are unable to spawn in a small radius around a Lit Campfire!"
+				"站在靠近营火的范围内会得到&d舒适&r效果，这个效果可以加速你的生命恢复！"
+				"怪物不会在营火的作用范围内刷新！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -3405,8 +3404,8 @@
 							]
 							Damage: 63
 							display: {
-								Lore: ["{\"text\":\"§7§oOne time use, I should use this on an unlit campfire!\"}"]
-								Name: "{\"text\":\"§8Firestarter\"}"
+								Lore: ["{\"text\":\"§7§o这是一次性的，我应该把它用在一个熄灭的营火上！\"}"]
+								Name: "{\"text\":\"§8火折子\"}"
 							}
 						}
 					}
@@ -3422,21 +3421,21 @@
 			]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Craft and Ignite the &eCampfire"
+			subtitle: "合成后点燃一个&e营火"
 			tasks: [{
 				id: "1868266000E29808"
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			title: "How To Survive The First Night &e(Part II Camp Fire)"
+			title: "如何活过第一晚 &e(第二部分：营火)"
 			x: 6.079931972789105d
 			y: -0.3285714285714221d
 		}
 		{
 			dependencies: ["6A0049757CE230E6"]
 			description: [
-			  "&6小贴士：&r Give a Heartstone to a friend and track them with your other Heartstone"
-			  "&d&nRequires Multiplayer"
+			  "&6小贴士：&r给朋友一个心之石，然后用你手里的心之石就可以追踪他们了。"
+			  "&d&n需要多人游玩才能使用"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -3459,14 +3458,14 @@
 						id: "jolly_boxes:large_box"
 					}
 					id: "4BED314BE3ADCCB4"
-					title: "&d&lBox of Hats"
+					title: "&d&l一箱帽子"
 					type: "loot"
 				}
 				{
 					command: "/titles add @p titles:friend"
 					icon: "titles:title_scroll_uncommon"
 					id: "311D7B4F8F95892A"
-					title: "&e已解锁称号：&r Best Friend Forever"
+					title: "&e解锁称号：&r永远的好朋友"
 					type: "command"
 				}
 				{
@@ -3504,7 +3503,7 @@
 			]
 			shape: "heart"
 			size: 0.7d
-			subtitle: "Craft a &eHeartstone&r and never lose track of your friends again!"
+			subtitle: "合成一个&e心之石&r，然后你的朋友就永远不会再走丢了！"
 			tasks: [{
 				id: "44895012FFDE2AAE"
 				item: "heartstone:heartstone"
@@ -3516,13 +3515,13 @@
 		{
 			dependencies: ["4789D17B88722641"]
 			description: [
-			  "Upon dying you will be given a &eGrave Key&r, this item will lead you to your last point of death and a &eTombstone&r containing your worldly belongings!"
+			  "在不幸挂掉后你就会得到一把&e坟墓之钥 &r，它会指引你前往你的最后死亡点，而你的全部物品都会保留在那里的一个&e墓碑&r！"
 			  ""
-			  "While dead you will become a &bGhost!&r You are invisible unless you interact with the world! or after 30 seconds when the effect wears off...  "
+			  "死后你就会变成&b鬼魂&r！除非你此时故意和世界交互，否则你就会保持隐身……或者30秒后这个效果也会自己消失！"
 			  ""
-			  "&6小贴士：&r You can combine a Grave Key with certain items (such as an &eEye of Ender&r) to craft an &eEnchanted Key&r which can be used to teleport to your Tombstone by &eHolding Right Click"
+			  "&6小贴士：&r你可以将坟墓之钥和特定物品（比如&e末影之眼&r）合成，这样可以制造出&e附魔坟墓之钥&r，拿着它&e长按右键&r即可直接传送到你的墓碑上。"
 			  "{image:minecraft:textures/painting/skeleton.png width:150 height:100 align:1}"
-			  "&7Graveyard 提示：&r Your Tombstone is protected for 60 minutes, after that it will unlock and anyone (&oor thing&r&o ◉‿◉) &rcan interact with it!"
+			  "&7坟墓使用小提示：&r你的坟墓在60分钟内是受保护状态，然后它就会解锁，届时任何人甚至任何任何&o生物&r◉‿◉都能和它交互！"
 			  ""
 			]
 			hide_dependency_lines: true
@@ -3538,23 +3537,23 @@
 			}]
 			shape: "rsquare"
 			size: 0.6d
-			subtitle: "Die and be given a &eGrave Key"
+			subtitle: "不幸死掉，然后拿到&e坟墓之钥"
 			tasks: [{
 				id: "09ED0AFDC45C754A"
 				item: "tombstone:grave_key"
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&eHow To Not Survive The First Night"
+			title: "&e如何活过第一晚"
 			x: 4.45544217687074d
 			y: 0.6821428571428569d
 		}
 		{
 			dependencies: ["00C7FFF46DF3272A"]
 			description: [
-				"There is &oallegedly &ra &o&aWILD party&r over at the Slime Kingdom!"
+				"&o看起来&r在史莱姆王国那里好像正在&o&a开轰趴&r啊！"
 				""
-				"I've gotten you an invitation.. just try to blend in! &rSometimes you just have to invite yourself to parties!"
+				"我帮你要了一份邀请函……试着融入进去嘛！&r偶尔你也得自己主动点不是吗？"
 			]
 			hide_until_deps_visible: true
 			icon: "theslimeking:slime_king_spawner"
@@ -3597,7 +3596,7 @@
 					command: "/titles add @p titles:slimy"
 					icon: "titles:title_scroll_uncommon"
 					id: "3F776B6D577373E7"
-					title: "&e已解锁称号：&r the Partycrasher"
+					title: "&e解锁称号：&r派对杀手"
 					type: "command"
 				}
 				{
@@ -3608,7 +3607,7 @@
 			]
 			shape: "pentagon"
 			size: 0.7d
-			subtitle: "Oh yeah! I remember! The Slime King ate the key!"
+			subtitle: "哦对！我想起来了！史莱姆王把钥匙吃了！"
 			tasks: [{
 				entity: "theslimeking:slime_king"
 				icon: {
@@ -3621,19 +3620,19 @@
 					id: "theslimeking:slime_king_spawner"
 				}
 				id: "11394845FCB11C0C"
-				title: "&6This Party's Over!"
+				title: "&6各位，派对结束了！"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&6The Royal Party Crasher"
+			title: "&6皇家派对破坏家"
 			x: 14.617346938775526d
 			y: -1.3772108843537367d
 		}
 		{
 			dependencies: ["0901DBD03773B644"]
 			description: [
-			  "Consider joining our Discord for support! We have a very active friendly community of over 30k users that would be happy to answer any questions you might have!"
-			  "&6提示：&r &c&l&nDo not ping the goat!"
+			  "来加入我们的Discord服务器，然后支持我们的工作吧！我们这里有非常友善非常活跃的社区，里头有三万多很乐意回答你的问题的玩家！"
+			  "&6提示：&r &c&l&n别在里头乱@Goat！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -3655,31 +3654,31 @@
 					type: "custom"
 				}
 				{
-					command: "/tellraw @p [\"\",{\"text\":\"Click to Join the MC Eternal Discord!\",\"color\":\"gold\",\"bold\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/c8RZr58\"}}]"
+					command: "/tellraw @p [\"\",{\"text\":\"点击加入永恒的MC的Discord服务器！\",\"color\":\"gold\",\"bold\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/c8RZr58\"}}]"
 					icon: "mceletters:elegant_letter"
 					id: "65CBB395B37355EA"
-					title: "&eDiscord Invite"
+					title: "&eDiscord邀请函"
 					type: "command"
 				}
 			]
 			shape: "rsquare"
 			size: 0.8d
-			subtitle: "&eTo join or not to join... "
+			subtitle: "&e是加还是不加，这是一个问题…… "
 			tasks: [{
 				icon: "minecraft:clock"
 				id: "3B850383F612AC7F"
 				type: "custom"
 			}]
-			title: "&dDiscord Community"
+			title: "&dDiscord社区"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["63DF38CF46138C3B"]
 			description: [
-				"It has been a full hour! In order to progress and unlock Questing you must sign the contract!"
+				"已经快一个小时了！你必须签这份合同，不然你就没法继续！"
 				""
-				"&e提示：&r It is advised that you sign the contract, otherwise I will be forced to take more.. drastic measures..."
+				"&e提示：&r我非常建议你把这协议签了，不然我可能就要“被迫”取走一些你更有价值的东西了……"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -3695,14 +3694,14 @@
 			}]
 			shape: "pentagon"
 			size: 0.8d
-			subtitle: "&eLEGAL NOTICE:&r Sign The Contract!"
+			subtitle: "&e非常合法友善的提醒：&r把合同给我签了！!"
 			tasks: [
 				{
 					dimension: "minecraft:overworld"
 					disable_toast: true
 					icon: "kubejs:unsigned_contract"
 					id: "0BD8EA4C696629EC"
-					title: "&o&eContract Reminder"
+					title: "&o&e备忘录：签合同！"
 					type: "dimension"
 				}
 				{
@@ -3713,7 +3712,7 @@
 						tag: { }
 					}
 					id: "48169D6A540623BE"
-					title: "1 Hour"
+					title: "一个小时"
 					type: "questsadditions:time"
 				}
 			]
@@ -3723,12 +3722,12 @@
 		{
 			dependencies: ["1A010E9D10FE79FF"]
 			description: [
-				"Okay.. it has been over two hours... You &cREALLY&r need to sign this damn thing..."
-				"What do you even need a soul for anyway? I would make &cMUCH&r better use of it!"
+				"好好好……已经两小时了啊……我告诉过你你&c真的&r要签这个煞笔玩意……"
+				"再说了你到底要灵魂干什么啊？你还不如给我，我还能让它&c发光发热&r不是吗！"
 				""
-				"So please, as I say for the final time, &c&l&nSIGN IT!"
+				"所以我求求你了好不好？这是我礼貌请求你的最后一次：&c&l&n给·我·签·了·！"
 				""
-				"&4<shake>SIGN THE DAMN CONTRACT! OR YOU WILL BE HEARING FROM MY LAWYERS!"
+				"&4<shake>把这破玩意他妈的给我签了！不然你就等着被我的律师踹门吧！!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -3743,14 +3742,14 @@
 			}]
 			shape: "hexagon"
 			size: 0.7d
-			subtitle: "Seriously... why don't you just sign the contract? I'm just trying to do my job.. you &owant me to keep my job right? Are you really going to keep me waiting another hour??"
+			subtitle: "你还给我来真的啊……你为什么不签合同？为什么？我只是在履行我该做的事啊……&o你签合同保住我的工作对吧？不然你不会还要让我再等一个小时吧？？"
 			tasks: [
 				{
 					dimension: "minecraft:overworld"
 					disable_toast: true
 					icon: "rats:corrupt_rat_skull"
 					id: "24716B24109282A4"
-					title: "&dFINAL NOTICE BEFORE &o&nREALLY&r&d BAD STUFF STARTS HAPPENING"
+					title: "&d最后警告：&o&n不然马上&r&d就要发生坏事了！"
 					type: "dimension"
 				}
 				{
@@ -3761,7 +3760,7 @@
 						tag: { }
 					}
 					id: "7D598607EA411060"
-					title: "2 Hours"
+					title: "2小时过去了……"
 					type: "questsadditions:time"
 				}
 			]
@@ -3771,10 +3770,10 @@
 		{
 			dependencies: ["39F2826F56D567B2"]
 			description: [
-			  "&c&lI CURSE YOU! I CURSE YOU! I CURSE YOU! GET CURSED! "
-			  "&e小贴士：&r You will be cursed every hour until you sign the contract! "
+			  "&c&l我诅咒你！你个混蛋！你该遭天谴我告诉你！你个杀千刀的！"
+			  "&e小贴士：&r在你打算签合同前，每过一个小时你都会被诅咒一次！"
 			  ""
-			  "&6提示：&r Sign th&kdd&re contr&kdd&ract n&k88&rext ti&khh&rme"
+			  "&6提示：&r你最好&kdd&r赶快给我&kdd&r在下次诅咒前&k88&r把合同&khh&r签了。"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -3786,12 +3785,12 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/tellraw @p {\"text\":\"You did not sign the contract and have been cursed for your insolence!\",\"color\":\"dark_red\"}"
+					command: "/tellraw @p {\"text\":\"你仍没有签合同，现在你要为了你的不配合而受到惩罚！\",\"color\":\"dark_red\"}"
 					console: true
 					elevate_perms: true
 					icon: "cataclysm:remnant_skull"
 					id: "53D277B4D9051CBE"
-					title: "&cReally Bad Stuff"
+					title: "&c这就是要发生的坏事了"
 					type: "command"
 				}
 				{
@@ -3801,7 +3800,7 @@
 					elevate_perms: true
 					icon: "goety:wither_skull_focus"
 					id: "772D09D5507DCD71"
-					title: "&cTHE CURSE OF INFINITE SORROWS"
+					title: "&c无尽悲伤之诅咒"
 					type: "command"
 				}
 				{
@@ -3809,7 +3808,7 @@
 					command: "/titles add @p titles:cursed"
 					icon: "titles:title_scroll_common"
 					id: "2321F39063FE8602"
-					title: "&e已解锁称号：&r The Cursed"
+					title: "&e解锁称号：&r受诅咒的人"
 					type: "command"
 				}
 				{
@@ -3823,7 +3822,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run summon alexscaves:watcher ~6 ~ ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Lawyer\\\\\\\"\\\"\"}"
+					command: "/execute at @p run summon alexscaves:watcher ~6 ~ ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"律师\\\\\\\"\\\"\"}"
 					console: true
 					icon: {
 						Count: 1
@@ -3836,20 +3835,20 @@
 						}
 					}
 					id: "52D5BD8A7D1A6CDA"
-					title: "&6You've Been Served!"
+					title: "&6你被律师登门了！"
 					type: "command"
 				}
 			]
 			shape: "octagon"
 			size: 0.6d
-			subtitle: "&oCongrats... you've officially broken me..."
+			subtitle: "&o我恭喜你啊……你真是成功把我从各种意义上地气炸了……"
 			tasks: [
 				{
 					dimension: "minecraft:overworld"
 					disable_toast: true
 					icon: "goety_spillage:skull_bomb"
 					id: "22BAB64668244275"
-					title: "&c&lAAAAAAAAAAAAAAAA&kaaaaaaaaa"
+					title: "&c&l啊啊啊啊啊啊啊啊我受不了了啊啊啊&k啊啊啊啊啊啊啊"
 					type: "dimension"
 				}
 				{
@@ -3860,7 +3859,7 @@
 						tag: { }
 					}
 					id: "2C1C8F2BA5D8C465"
-					title: "4 Hours"
+					title: "四个小时过去了……"
 					type: "questsadditions:time"
 				}
 			]
@@ -3870,7 +3869,7 @@
 		{
 			dependencies: ["740DD4098893630E"]
 			description: [
-			  "&dLetter From Mom!&r We're all so proud of you for surviving the first night! You should call by some time! Are you getting my letters??? I found some old junk going through your fathers wardrobe, let me know what you want!! I've also packed you a lunch! Don't forget to eat your greens! XOXO - Mom"
+			  "&d这是你亲爱的妈妈写的信！&r我和你爸爸俩人都很高兴你能撑过第一晚！顺便你应该多打电话回家问候问候了，收到别的信了吗？我从你爹的衣柜里头翻出来了一些旧垃圾，如果你要的话喊我一声就行！而且我还给你寄了份午餐，别忘了多吃素菜！亲亲亲亲 —— 你的妈妈"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -3885,16 +3884,16 @@
 					icon: "create:orange_toolbox"
 					id: "4663D189BEB1D713"
 					table_id: 6664182306022005570L
-					title: "&d&nPacked Lunch"
+					title: "&d&n一份午餐"
 					type: "random"
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[老鼠邮局]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → 你收到了你妈写给你的一封信！请打开你的任务书！\"}] "
 					console: true
 					icon: "etched:radio"
 					id: "2B26880DB70189CB"
-					title: "&n&eYou've got mail!"
+					title: "&n&e你有右键！"
 					type: "command"
 				}
 				{
@@ -3904,7 +3903,7 @@
 					elevate_perms: true
 					icon: "kubejs:mossy_letter"
 					id: "2AAC15C9FF587A16"
-					title: "&dYou've got mail!"
+					title: "&d你有右键！"
 					type: "command"
 				}
 				{
@@ -3912,7 +3911,7 @@
 					icon: "mekanism:cardboard_box"
 					id: "5058D418D42D2D0C"
 					table_id: 8813467126958483284L
-					title: "&6Box of Hand-Me-Downs &7(Pick One!)"
+					title: "&6一箱子的老物件&7(选一个吧！)"
 					type: "choice"
 				}
 				{
@@ -3920,7 +3919,7 @@
 					currency: "eternalcurrencies:coins"
 					id: "11E5CB5A450D1E78"
 					ignore_reward_blocking: true
-					title: "&3Pocket Change"
+					title: "&3一点零花钱"
 					type: "eternalcurrencies:currency"
 				}
 				{
@@ -3930,7 +3929,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "You've survived the first night! Oh look a letter from someone important!"
+			subtitle: "你成功活过了第一晚！哦，看啊，这是某人写给你的信！"
 			tasks: [{
 				days: 2
 				icon: {
@@ -3939,17 +3938,17 @@
 					tag: { }
 				}
 				id: "6EE9BF1E4EB1303F"
-				title: "Survive The Night!"
+				title: "活过第一晚！"
 				type: "questsadditions:days"
 			}]
-			title: "&6Letter From Mom!"
+			title: "&6你妈妈给你写的信！"
 			x: 9.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["0901DBD03773B644"]
 			description: [
-			  "&d§7Hello lovely! I have packed you some lunch to help with your Questing! - Mom"
+			  "&d§7你好啊小宝贝！我给你打包寄来了点能帮你的东西！ - 你的妈妈"
 			  "I have also found some items that might be useful for you while I was at the market! Some sort of &e\"Unique Item\"&r&d §7or something... I figured you would know what to do with it! XOXO "
 			  "{image:jellyfishing:textures/painting/bold_and_brash.png width:100 height:120 align:1}"
 			  "&d§7PS, I saw this beautiful painting on display, I think it was called \"Bold and Brash\", would you like me to pick it up for you? I think it would look great in your bedroom!"
@@ -4405,7 +4404,7 @@
 					command: "/titles add @p titles:cartographer"
 					icon: "titles:title_scroll_common"
 					id: "20216DFEC9BC37A4"
-					title: "&e已解锁称号：&r the Explorer"
+					title: "&e解锁称号：&r the Explorer"
 					type: "command"
 				}
 				{
@@ -4554,7 +4553,7 @@
 					command: ""
 					icon: "titles:title_scroll_common"
 					id: "0708839C53992326"
-					title: "&e已解锁称号：&r the Spud Bud"
+					title: "&e解锁称号：&r the Spud Bud"
 					type: "command"
 				}
 				{
@@ -4806,7 +4805,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "36E7A7C810531F22"
-					title: "&e已解锁称号：&r the Ungriefed"
+					title: "&e解锁称号：&r the Ungriefed"
 					type: "command"
 				}
 				{
@@ -4922,7 +4921,7 @@
 						id: "titles:title_scroll_uncommon"
 					}
 					id: "40EC7AF67CD8334D"
-					title: "&e已解锁称号：&r the Highwayman"
+					title: "&e解锁称号：&r the Highwayman"
 					type: "command"
 				}
 			]
@@ -4951,7 +4950,7 @@
 			dependencies: ["2785A42DDDEB324C"]
 			description: [
 				""
-				"&6小贴士：&r You can find Rattlesnakes in Desert Biomes!"
+				"&6小贴士：&r You can find Rattlesnakes in Desert 生物群系!"
 				"&7&oDid you know that maracas have beans in them? :)"
 			]
 			hide_until_deps_visible: true
@@ -5163,7 +5162,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "09D67CC3E34A1CAB"
-					title: "&e已解锁称号： &rthe Lumberjack"
+					title: "&e解锁称号： &rthe Lumberjack"
 					type: "command"
 				}
 				{
@@ -5579,7 +5578,7 @@
 						id: "titles:title_scroll_uncommon"
 					}
 					id: "6CEB3FD8B81DAFC6"
-					title: "&e已解锁称号：&r the Chest Slayer"
+					title: "&e解锁称号：&r the Chest Slayer"
 					type: "command"
 				}
 				{
@@ -5887,7 +5886,7 @@
 		{
 			dependencies: ["7A195730508F9A23"]
 			description: [
-				"&6小贴士：&r The &eDwarven Map Expedition&r will reveal itself to you once you've discovered all of the rare underground biomes... Or so the rumour says..."
+				"&6小贴士：&r The &eDwarven Map Expedition&r will reveal itself to you once you've discovered all of the rare underground 生物群系... Or so the rumour says..."
 				"See the Quest Chapter &d\"Mining (iii)\"&r for more info!"
 			]
 			hide_until_deps_visible: true
@@ -5914,7 +5913,7 @@
 					command: "/titles add @p titles:honeydew"
 					icon: "titles:title_scroll_uncommon"
 					id: "3592C1B7F47C4A94"
-					title: "&e已解锁称号：&r of Honeydew"
+					title: "&e解锁称号：&r of Honeydew"
 					type: "command"
 				}
 			]
@@ -6049,7 +6048,7 @@
 					command: "/titles add @p titles:pureblood"
 					icon: "titles:title_scroll_uncommon"
 					id: "5410C673D96ED620"
-					title: "&e已解锁称号：&r the Pureblood"
+					title: "&e解锁称号：&r the Pureblood"
 					type: "command"
 				}
 				{
@@ -6116,7 +6115,7 @@
 					command: "/titles add @p titles:orc"
 					icon: "titles:title_scroll_uncommon"
 					id: "500633A5FF7F16F9"
-					title: "&e已解锁称号：&r the Orc"
+					title: "&e解锁称号：&r the Orc"
 					type: "command"
 				}
 				{
@@ -6204,7 +6203,7 @@
 					command: "/titles add @p titles:dwarf"
 					icon: "titles:title_scroll_common"
 					id: "4D98C0B443CD9B38"
-					title: "&e已解锁称号：&r the Dwarf"
+					title: "&e解锁称号：&r the Dwarf"
 					type: "command"
 				}
 				{
@@ -6303,7 +6302,7 @@
 					command: "/titles add @p titles:human"
 					icon: "titles:title_scroll_common"
 					id: "2E828F712E1C1E2E"
-					title: "&e已解锁称号：&r the Human"
+					title: "&e解锁称号：&r the Human"
 					type: "command"
 				}
 			]
@@ -6394,7 +6393,7 @@
 						id: "titles:title_scroll_uncommon"
 					}
 					id: "626960F9F8D32E9A"
-					title: "&e已解锁称号：&r the Goat Whisperer"
+					title: "&e解锁称号：&r the Goat Whisperer"
 					type: "command"
 				}
 			]
@@ -6516,7 +6515,7 @@
 						id: "titles:title_scroll_common"
 					}
 					id: "0E2AD0D840200737"
-					title: "&e已解锁称号：&r the Interior Decorator"
+					title: "&e解锁称号：&r the Interior Decorator"
 					type: "command"
 				}
 				{

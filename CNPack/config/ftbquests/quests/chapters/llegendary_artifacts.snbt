@@ -3777,7 +3777,7 @@
 					command: "/titles add @p titles:hydra"
 					icon: "titles:title_scroll_rare"
 					id: "7CE7DF10F3DEA902"
-					title: "&e已解锁称号：&r of the Hydra"
+					title: "&e解锁称号：&r of the Hydra"
 					type: "command"
 				}
 				{
@@ -3894,7 +3894,7 @@
 					command: "/titles add @p titles:plagued"
 					icon: "titles:title_scroll_rare"
 					id: "095DD151E8707998"
-					title: "&e已解锁称号：&r The Plagued"
+					title: "&e解锁称号：&r The Plagued"
 					type: "command"
 				}
 				{
@@ -4093,7 +4093,7 @@
 					command: "/titles add @p titles:king_rat"
 					icon: "titles:title_scroll_rare"
 					id: "51B0A310C167FFBE"
-					title: "&e已解锁称号：&r King of The Rats"
+					title: "&e解锁称号：&r King of The Rats"
 					type: "command"
 				}
 				{
@@ -4195,7 +4195,7 @@
 					command: "/titles add @p titles:wraught"
 					icon: "titles:title_scroll_uncommon"
 					id: "35E36EC7C8552504"
-					title: "&e已解锁称号：&r of a Thousand Metals"
+					title: "&e解锁称号：&r of a Thousand Metals"
 					type: "command"
 				}
 				{
@@ -4521,7 +4521,7 @@
 					command: "/titles add @p titles:dreadlord"
 					icon: "titles:title_scroll_uncommon"
 					id: "705E7F598DB92922"
-					title: "&e已解锁称号：&r Dreadlord"
+					title: "&e解锁称号：&r Dreadlord"
 					type: "command"
 				}
 				{

@@ -707,7 +707,7 @@
 					command: "/titles add @p titles:wildlife_photographer"
 					icon: "titles:title_scroll_uncommon"
 					id: "3A27C008C589C25D"
-					title: "&e已解锁称号：&r Nature Photographer"
+					title: "&e解锁称号：&r Nature Photographer"
 					type: "command"
 				}
 			]

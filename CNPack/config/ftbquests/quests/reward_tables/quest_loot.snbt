@@ -1490,7 +1490,7 @@
 		{
 			command: "/titles add @p titles:lucky"
 			icon: "titles:title_scroll_uncommon"
-			title: "&e已解锁称号：&r the Lucky"
+			title: "&e解锁称号：&r the Lucky"
 			type: "command"
 		}
 		{ item: "titles:title_scroll_common" }
@@ -2976,7 +2976,7 @@
 		{
 			item: {
 				Count: 1
-				id: "biomeswevegone:music_disc_pixie_club"
+				id: "生物群系wevegone:music_disc_pixie_club"
 				tag: { }
 			}
 		}

@@ -220,7 +220,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "6D22DF9F16F321D3"
-					title: "&e已解锁称号：&r The Master"
+					title: "&e解锁称号：&r The Master"
 					type: "command"
 				}
 				{
@@ -350,7 +350,7 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "4D62D854404D9939"
-					title: "&e已解锁称号：&r The Expert"
+					title: "&e解锁称号：&r The Expert"
 					type: "command"
 				}
 				{

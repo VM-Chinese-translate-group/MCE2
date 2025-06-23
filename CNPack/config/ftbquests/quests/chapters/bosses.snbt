@@ -174,7 +174,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "29675BF8BA282F99"
-					title: "&e已解锁称号：&r Blood Champion"
+					title: "&e解锁称号：&r Blood Champion"
 					type: "command"
 				}
 				{
@@ -277,7 +277,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "05C6F9447B89C2BB"
-					title: "&e已解锁称号：&r the Dread Pirate"
+					title: "&e解锁称号：&r the Dread Pirate"
 					type: "command"
 				}
 				{
@@ -376,7 +376,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "6C22DED1D418EE12"
-					title: "&e已解锁称号：&r the Frozen"
+					title: "&e解锁称号：&r the Frozen"
 					type: "command"
 				}
 				{
@@ -481,7 +481,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "3746FC00D92544E2"
-					title: "&e已解锁称号：&r the Weedkiller"
+					title: "&e解锁称号：&r the Weedkiller"
 					type: "command"
 				}
 				{
@@ -599,7 +599,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "00D5CEEED941D81B"
-					title: "&e已解锁称号：&r the Demon Slayer"
+					title: "&e解锁称号：&r the Demon Slayer"
 					type: "command"
 				}
 				{
@@ -699,7 +699,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0BD0DF048DAFC694"
-					title: "&e已解锁称号：&r the God Killer"
+					title: "&e解锁称号：&r the God Killer"
 					type: "command"
 				}
 				{
@@ -870,7 +870,7 @@
 					command: "/titles add @p titles:voidlord"
 					icon: "titles:title_scroll_rare"
 					id: "72FD7EB5624CE117"
-					title: "&e已解锁称号：&r Void Lord"
+					title: "&e解锁称号：&r Void Lord"
 					type: "command"
 				}
 				{
@@ -919,7 +919,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "1B4BA990B8644E49"
-					title: "&e已解锁称号：&r the Harbinger of Doom"
+					title: "&e解锁称号：&r the Harbinger of Doom"
 					type: "command"
 				}
 				{
@@ -1032,7 +1032,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "112006616A786B76"
-					title: "&e已解锁称号：&r Vanquisher"
+					title: "&e解锁称号：&r Vanquisher"
 					type: "command"
 				}
 				{
@@ -1126,7 +1126,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "5B0BB798D05CA73C"
-					title: "&e已解锁称号：&r the Netherbane"
+					title: "&e解锁称号：&r the Netherbane"
 					type: "command"
 				}
 				{
@@ -1225,7 +1225,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "06439A84E2F5C8D9"
-					title: "&e已解锁称号：&r Ironside"
+					title: "&e解锁称号：&r Ironside"
 					type: "command"
 				}
 				{
@@ -1331,7 +1331,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "41F792DC0BE7C683"
-					title: "&e已解锁称号：&r the Soulflayer"
+					title: "&e解锁称号：&r the Soulflayer"
 					type: "command"
 				}
 				{
@@ -1421,7 +1421,7 @@
 					command: "/titles add @p titles:the_immortal"
 					icon: "titles:title_scroll_uncommon"
 					id: "6F3BD211F59D65F1"
-					title: "&e已解锁称号：&r the Ancient"
+					title: "&e解锁称号：&r the Ancient"
 					type: "command"
 				}
 				{
@@ -1631,7 +1631,7 @@
 						id: "titles:title_scroll_uncommon"
 					}
 					id: "3E3BCE1B88B2B6B4"
-					title: "&e已解锁称号：&r the Questmaster's Pet"
+					title: "&e解锁称号：&r the Questmaster's Pet"
 					type: "command"
 				}
 				{
@@ -1776,7 +1776,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0A4479D4F9FF8D44"
-					title: "&e已解锁称号：&r the Deep One"
+					title: "&e解锁称号：&r the Deep One"
 					type: "command"
 				}
 				{
@@ -1858,7 +1858,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "04B713FBA413BDAE"
-					title: "&e已解锁称号：&r the Experienced"
+					title: "&e解锁称号：&r the Experienced"
 					type: "command"
 				}
 				{
@@ -1940,7 +1940,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0D4027ADE5C68066"
-					title: "&e已解锁称号：&r the Desecrator"
+					title: "&e解锁称号：&r the Desecrator"
 					type: "command"
 				}
 				{
@@ -2022,7 +2022,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "5FBAD66E034E01EF"
-					title: "&e已解锁称号：&r the Evil"
+					title: "&e解锁称号：&r the Evil"
 					type: "command"
 				}
 				{

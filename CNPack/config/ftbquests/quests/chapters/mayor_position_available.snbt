@@ -201,7 +201,7 @@
 					command: "/titles add @p titles:mayor"
 					icon: "titles:title_scroll_common"
 					id: "68DDA0891FAD74FB"
-					title: "&e已解锁称号：&r The Mayor"
+					title: "&e解锁称号：&r The Mayor"
 					type: "command"
 				}
 				{

@@ -159,7 +159,7 @@
 					command: "/titles add @p titles:ensign"
 					icon: "titles:title_scroll_common"
 					id: "1D1BAF150C07CACF"
-					title: "&e已解锁称号：&r Ensign"
+					title: "&e解锁称号：&r Ensign"
 					type: "command"
 				}
 				{
@@ -240,7 +240,7 @@
 					command: "/titles add @p titles:lieutenant"
 					icon: "titles:title_scroll_uncommon"
 					id: "3ADAAA2871BE4AF2"
-					title: "&e已解锁称号：&r Lieutenant"
+					title: "&e解锁称号：&r Lieutenant"
 					type: "command"
 				}
 				{
@@ -321,7 +321,7 @@
 					command: "/titles add @p titles:commander"
 					icon: "titles:title_scroll_rare"
 					id: "408FD478B3E38A22"
-					title: "&e已解锁称号：&r Commander"
+					title: "&e解锁称号：&r Commander"
 					type: "command"
 				}
 				{
@@ -1025,7 +1025,7 @@
 					command: "/titles add @p titles:martian"
 					icon: "titles:title_scroll_uncommon"
 					id: "2C8DF87178A2AD6C"
-					title: "&e已解锁称号：&r Martian"
+					title: "&e解锁称号：&r Martian"
 					type: "command"
 				}
 				{

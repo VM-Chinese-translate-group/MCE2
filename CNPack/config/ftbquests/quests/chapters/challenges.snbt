@@ -42,7 +42,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "5F35CA25829786CE"
-					title: "&e已解锁称号：&r Deathbane"
+					title: "&e解锁称号：&r Deathbane"
 					type: "command"
 				}
 				{
@@ -235,7 +235,7 @@
 					command: "/titles add @p titles:eternal"
 					icon: "titles:title_scroll_uncommon"
 					id: "7222774AF5F36394"
-					title: "&e已解锁称号：&r The Eternal"
+					title: "&e解锁称号：&r The Eternal"
 					type: "command"
 				}
 			]
@@ -452,7 +452,7 @@
 					command: "/titles add @p titles:national_hero"
 					icon: "titles:title_scroll_rare"
 					id: "21081C69D2D6D614"
-					title: "&e已解锁称号：&r National Hero"
+					title: "&e解锁称号：&r National Hero"
 					type: "command"
 				}
 				{
@@ -507,7 +507,7 @@
 					command: "/titles add @p titles:timelord"
 					icon: "titles:title_scroll_rare"
 					id: "1BFA50BC20FC458D"
-					title: "&e已解锁称号：&r Timelord"
+					title: "&e解锁称号：&r Timelord"
 					type: "command"
 				}
 				{
@@ -623,7 +623,7 @@
 					command: "/titles add @p titles:master_angler"
 					icon: "titles:title_scroll_rare"
 					id: "712EF8F3DD71113D"
-					title: "&e已解锁称号：&r Master Angler"
+					title: "&e解锁称号：&r Master Angler"
 					type: "command"
 				}
 				{
@@ -835,7 +835,7 @@
 					command: "/titles add @p titles:master_chef"
 					icon: "titles:title_scroll_rare"
 					id: "4807F30E0FEAEDBF"
-					title: "&e已解锁称号：&r Master Chef"
+					title: "&e解锁称号：&r Master Chef"
 					type: "command"
 				}
 				{
@@ -919,7 +919,7 @@
 					command: "/titles add @p titles:the_millionare"
 					icon: "titles:title_scroll_rare"
 					id: "41C61D6A61ED9270"
-					title: "&e已解锁称号：&r The Millionare"
+					title: "&e解锁称号：&r The Millionare"
 					type: "command"
 				}
 				{
@@ -1454,7 +1454,7 @@
 					command: "/titles add @p titles:dragon_slayer"
 					icon: "titles:title_scroll_rare"
 					id: "10DAFAB1AC4B0F0F"
-					title: "&e已解锁称号：&r Dragon Slayer"
+					title: "&e解锁称号：&r Dragon Slayer"
 					type: "command"
 				}
 				{
@@ -1602,7 +1602,7 @@
 					command: "/titles add @p titles:mr_electric"
 					icon: "titles:title_scroll_rare"
 					id: "0EF672DD9B345BB1"
-					title: "&e已解锁称号：&r Mr Electric"
+					title: "&e解锁称号：&r Mr Electric"
 					type: "command"
 				}
 				{
@@ -1644,7 +1644,7 @@
 					command: "/titles add @p titles:tiny_potato"
 					icon: "titles:title_scroll_common"
 					id: "3391A536F4D39348"
-					title: "&e已解锁称号：&r the Tiny Potato"
+					title: "&e解锁称号：&r the Tiny Potato"
 					type: "command"
 				}
 				{
@@ -1703,7 +1703,7 @@
 					command: "/titles add @p titles:loremaster"
 					icon: "titles:title_scroll_rare"
 					id: "643B91E57C589E0E"
-					title: "&e已解锁称号：&r The Loremaster"
+					title: "&e解锁称号：&r The Loremaster"
 					type: "command"
 				}
 				{
@@ -1745,7 +1745,7 @@
 					command: "/titles add @p titles:egg"
 					icon: "titles:title_scroll_rare"
 					id: "29768140ED89DB31"
-					title: "&e已解锁称号：&r King of the Chickens"
+					title: "&e解锁称号：&r King of the Chickens"
 					type: "command"
 				}
 				{
@@ -1810,7 +1810,7 @@
 					command: "/titles add @p titles:ghow"
 					icon: "titles:title_scroll_rare"
 					id: "6F095FAF0E97DB2C"
-					title: "&e已解锁称号：&r The Ghow Slayer"
+					title: "&e解锁称号：&r The Ghow Slayer"
 					type: "command"
 				}
 				{
@@ -1886,7 +1886,7 @@
 					command: "/titles add @p titles:angel"
 					icon: "titles:title_scroll_rare"
 					id: "688BDCF0348DE9F5"
-					title: "&e已解锁称号：&r the Enlightened"
+					title: "&e解锁称号：&r the Enlightened"
 					type: "command"
 				}
 				{
@@ -1927,7 +1927,7 @@
 						id: "titles:title_scroll_common"
 					}
 					id: "1365D7093281C20B"
-					title: "&e已解锁称号：&r Die-a-Lot"
+					title: "&e解锁称号：&r Die-a-Lot"
 					type: "command"
 				}
 				{
@@ -1971,7 +1971,7 @@
 					command: "/titles add @p titles:trash"
 					icon: "titles:title_scroll_rare"
 					id: "05898EA59FFAFF41"
-					title: "&e已解锁称号：&r the Trashman"
+					title: "&e解锁称号：&r the Trashman"
 					type: "command"
 				}
 				{

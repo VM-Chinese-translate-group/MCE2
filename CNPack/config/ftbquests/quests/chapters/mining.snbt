@@ -783,7 +783,7 @@
 					command: "/titles add @p titles:dwarf"
 					icon: "titles:title_scroll_uncommon"
 					id: "1751F3FB18D062B6"
-					title: "&e已解锁称号：&r Dwarf"
+					title: "&e解锁称号：&r Dwarf"
 					type: "command"
 				}
 				{
@@ -900,7 +900,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Find all rare underground biomes"
+			subtitle: "Find all rare underground 生物群系"
 			tasks: [
 				{
 					biome: "alexscaves:candy_cavity"
