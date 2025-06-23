@@ -293,7 +293,7 @@
 				{
 					icon: "snailmail:envelope_closed"
 					id: "6E0484E21818805E"
-					title: "&3You've Got Mail! "
+					title: "&3你有邮件！ "
 					type: "custom"
 				}
 			]

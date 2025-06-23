@@ -991,7 +991,7 @@
 				id: "thermal:pbj_sandwich"
 				tag: {
 					display: {
-						Lore: ["{\"text\":\"§7§oPacked lunch! The crusts are cut off just how you like it! §d-Mom §r§d❤\"}"]
+						Lore: ["{\"text\":\"§7§o一份午餐! The crusts are cut off just how you like it! §d-Mom §r§d❤\"}"]
 					}
 				}
 			}

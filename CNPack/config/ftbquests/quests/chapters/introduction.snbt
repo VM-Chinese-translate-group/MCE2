@@ -3878,7 +3878,7 @@
 					console: true
 					icon: "etched:radio"
 					id: "2B26880DB70189CB"
-					title: "&n&e你有右键！"
+					title: "&n&e你有邮件！"
 					type: "command"
 				}
 				{
@@ -3888,7 +3888,7 @@
 					elevate_perms: true
 					icon: "kubejs:mossy_letter"
 					id: "2AAC15C9FF587A16"
-					title: "&d你有右键！"
+					title: "&d你有邮件！"
 					type: "command"
 				}
 				{
@@ -3934,9 +3934,9 @@
 			dependencies: ["0901DBD03773B644"]
 			description: [
 			  "&d§7你好啊小宝贝！我给你打包寄来了点能帮你的东西！ - 你的妈妈"
-			  "I have also found some items that might be useful for you while I was at the market! Some sort of &e\"Unique Item\"&r&d §7or something... I figured you would know what to do with it! XOXO "
+			  "我在超市买东西的时候还找到了一些可能对你有用的东西！好像是什么“独特物品”还是什么的……我觉得你应该会知道的吧:)"
 			  "{image:jellyfishing:textures/painting/bold_and_brash.png width:100 height:120 align:1}"
-			  "&d§7PS, I saw this beautiful painting on display, I think it was called \"Bold and Brash\", would you like me to pick it up for you? I think it would look great in your bedroom!"
+			  "&d§7顺便一提，我在展览会上看到了这副超美的画，它好像叫什么“横竖无礼”还是啥的，想要我给你买一幅吗？我觉得它很适合挂在你的卧室里哦！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -3950,7 +3950,7 @@
 					icon: "create:orange_toolbox"
 					id: "569400F41840FC63"
 					table_id: 6664182306022005570L
-					title: "&d&nPacked Lunch"
+					title: "&d&n一份午餐"
 					type: "random"
 				}
 				{
@@ -3958,7 +3958,7 @@
 					icon: "quark:crate"
 					id: "3D111F6602DA6524"
 					table_id: 7614141430405098414L
-					title: "&6&oWhat Mom Found At The Market!"
+					title: "&6&o看看你老娘在市场上都买到了些啥！"
 					type: "loot"
 				}
 				{
@@ -3966,27 +3966,27 @@
 					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
 					icon: "mekanism:cardboard_box"
 					id: "697FDD5060CAD73D"
-					title: "&dYou've got mail!"
+					title: "&d你有邮件！"
 					type: "command"
 				}
 			]
 			shape: "heart"
-			subtitle: "Mom has sent you mail! &n&aYou should open it!"
+			subtitle: "你妈妈给你寄了点东西！&n&a你应该拆开看看！"
 			tasks: [{
 				icon: "minecolonies:blockpostbox"
 				id: "5E0F3C50395E9A2F"
-				title: "Delivery Time (2H)"
+				title: "预计配送时长：2小时"
 				type: "custom"
 			}]
-			title: "&eOh Look! Mail From Mom!"
+			title: "&e看哪！妈妈写的信！"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["740DD4098893630E"]
 			description: [
-			  "Hello Lovely! I went to the market today and bought some things that made me think of you! I hope they bring you happiness!! I also packed you some lunch! I hope its tasty!! XOXO"
-			  "&eLOL (Lots of Love) - Mom"
+			  "亲爱的你好啊！我今天去了趟超市，买了点能让我回忆起你的东西！我希望它们的确给你带来了不少幸福感！而且我还给你寄了点吃的，希望它们好吃到爆！:D"
+			  "&e难绷（难以绷住的爱） - 你的妈妈"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -4005,7 +4005,7 @@
 					icon: "create:orange_toolbox"
 					id: "1E4F523BAB1211F7"
 					table_id: 6664182306022005570L
-					title: "&d&nPacked Lunch"
+					title: "&d&n一份午餐"
 					type: "loot"
 				}
 				{
@@ -4013,7 +4013,7 @@
 					icon: "quark:crate"
 					id: "6B1393250318C85B"
 					table_id: 7614141430405098414L
-					title: "&6&oWhat Mom Found At The Market!"
+					title: "&6&o这是你妈在市场上买到的东西！"
 					type: "loot"
 				}
 				{
@@ -4022,12 +4022,12 @@
 					elevate_perms: true
 					icon: "mekanism:cardboard_box"
 					id: "042BBCE86D4E40C7"
-					title: "&dYou've got mail!"
+					title: "&d你有邮件！"
 					type: "command"
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → 你收到了你妈写给你的信！打开任务书！\"}] "
 					console: true
 					icon: {
 						Count: 1
@@ -4035,12 +4035,12 @@
 						tag: { }
 					}
 					id: "4FB11B31FDF418A1"
-					title: "&eDelivery!"
+					title: "&e有快递！"
 					type: "command"
 				}
 			]
 			shape: "heart"
-			subtitle: "&d&nYou've got mail!"
+			subtitle: "&d&n你有邮件！"
 			tasks: [{
 				elapsedTime: 28800L
 				icon: {
@@ -4052,14 +4052,14 @@
 				title: "&e8 Hour Delivery"
 				type: "questsadditions:time"
 			}]
-			title: "&eLetter From Mom!"
+			title: "&e妈妈写的信！"
 			x: 8.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7587621A1020896E"]
 			description: [
-			  "You can also purchase a new one from &eThe Quest Shop (Supplies n' Stuff)&r if you lose it!"
+			  "如果你搞丢了的话，还可以从&e任务书商店（百货商店章节）&r里再买一个！"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -4105,7 +4105,7 @@
 				}
 			]
 			size: 0.6d
-			subtitle: "&oCraft &eThe Akahsic Tome"
+			subtitle: "&o合成&e阿卡什宝典"
 			tasks: [{
 				id: "5C7BBEFAC7E8C0D2"
 				item: {
@@ -4123,7 +4123,7 @@
 		{
 			dependencies: ["2193B157D17E53C0"]
 			description: [
-			  "&6提示：&r &nBRING A SHIELD!"
+			  "&6提示：&r &n记得带个盾牌！"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -4208,22 +4208,22 @@
 				}
 			]
 			size: 0.6d
-			subtitle: "Visit a Swamp Biome and Kill 3x &eStymphalian Birds"
+			subtitle: "前往沼泽生物群系，然后杀死三只&e铜羽泽鹗"
 			tasks: [{
 				entity: "iceandfire:stymphalian_bird"
 				id: "5105E71332365B99"
 				type: "kill"
 				value: 3L
 			}]
-			title: "Swamp Hunter"
+			title: "沼泽猎手"
 			x: 10.475218658892132d
 			y: 1.1720116618075807d
 		}
 		{
 			dependencies: ["0901DBD03773B644"]
 			description: [
-				"&6小贴士：&r The Quest Shop is located on the far right of the screen, you can identify it by the coin icon!"
-				"&e提示：&r You can find this item for sale at &e&n\"The Tavern\""
+				"&6小贴士：&r任务书商店在屏幕最右边，看硬币图标就能辨认出它了！"
+				"&e提示：&r这个在“小酒吧”那里也有卖！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -4288,7 +4288,7 @@
 							display: {
 								Lore: [
 									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
-									"{\"text\":\"§7§oThe Questmaster wore this boot every day for at least 80 Years! They found it at the bottom of a lake! Now you can have the pleasure of equipping it!\"}"
+									"{\"text\":\"§7§o任务大师穿这双靴子穿了足足80年多了！然后有人在湖底下找到了这双大靴子，现在你就可以享受穿上它的感觉了！\"}"
 								]
 							}
 						}

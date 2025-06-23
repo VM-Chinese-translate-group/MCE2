@@ -213,7 +213,7 @@
 			height: 0.5d
 			hover: [
 			  "v"
-			  "Hydrogen"
+			  "氢气"
 			  "v"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
@@ -226,7 +226,7 @@
 			height: 0.75d
 			hover: [
 			  "v"
-			  "Hydrogen Chloride"
+			  "氯化氢"
 			  "v"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
@@ -238,7 +238,7 @@
 		{
 			height: 0.5d
 			hover: [
-			  "> Gunpowder >"
+			  "> 火药 >"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_logistical_transporter_vertical.png"
 			rotation: 90.0d
@@ -250,7 +250,7 @@
 			height: 0.5d
 			hover: [
 			  "v"
-			  "Chlorine"
+			  "氯气"
 			  "v"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
@@ -263,7 +263,7 @@
 			height: 0.75d
 			hover: [
 			  "v"
-			  "Sulfur"
+			  "硫磺"
 			  "v"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_logistical_transporter_vertical.png"
@@ -276,7 +276,7 @@
 			height: 0.75d
 			hover: [
 			  "v"
-			  "Sulfur Dioxide"
+			  "二氧化硫"
 			  "v"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
@@ -288,7 +288,7 @@
 		{
 			height: 0.5d
 			hover: [
-			  "< Oxygen <"
+			  "< 氧气 <"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: 90.0d
@@ -299,7 +299,7 @@
 		{
 			height: 1.25d
 			hover: [
-			  "> Water Vapor >"
+			  "> 水蒸气 >"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: -45.0d
@@ -311,7 +311,7 @@
 			height: 0.75d
 			hover: [
 			  "v"
-			  "Sulfur Trioxide"
+			  "三氧化硫"
 			  "v"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
@@ -324,7 +324,7 @@
 			height: 0.75d
 			hover: [
 			  "v"
-			  "Sulfuric Acid"
+			  "硫酸"
 			  "v"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_pressurized_tube_vertical.png"
@@ -336,7 +336,7 @@
 		{
 			height: 0.5d
 			hover: [
-			  "> Uranium Ingot >"
+			  "> 铀锭 >"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_logistical_transporter_vertical.png"
 			rotation: 90.0d
@@ -348,7 +348,7 @@
 			height: 0.75d
 			hover: [
 			  "v"
-			  "Yellow Cake Uranium"
+			  "铀黄饼"
 			  "v"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_logistical_transporter_vertical.png"
@@ -360,7 +360,7 @@
 		{
 			height: 1.25d
 			hover: [
-			  "> Uranium Oxide >"
+			  "> 氧化铀 >"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_pressurized_tube_vertical.png"
 			rotation: -45.0d
@@ -371,7 +371,7 @@
 		{
 			height: 0.5d
 			hover: [
-			  "< Fluorite <"
+			  "< 氟石 <"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_logistical_transporter_vertical.png"
 			rotation: 90.0d
@@ -383,7 +383,7 @@
 			height: 0.75d
 			hover: [
 			  "v"
-			  "Hydrofluoric Acid"
+			  "氢氟酸"
 			  "v"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_pressurized_tube_vertical.png"
@@ -395,7 +395,7 @@
 		{
 			height: 0.5d
 			hover: [
-			  "< Nuclear Waste <"
+			  "< 核废料 <"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 90.0d
@@ -407,7 +407,7 @@
 			height: 0.75d
 			hover: [
 			  "v"
-			  "Uranium Hexafluoride"
+			  "六氟化铀"
 			  "v"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_pressurized_tube_vertical.png"
@@ -420,7 +420,7 @@
 			height: 2.0d
 			hover: [
 			  "v"
-			  "Fissile Fuel"
+			  "裂变燃料"
 			  "v"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_pressurized_tube_vertical.png"
@@ -433,7 +433,7 @@
 			height: 1.5d
 			hover: [
 			  "v"
-			  "Steam"
+			  "蒸汽"
 			  "v"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
@@ -445,7 +445,7 @@
 		{
 			height: 2.0d
 			hover: [
-			  "> Steam >"
+			  "> 蒸汽 >"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 90.0d
@@ -1095,7 +1095,7 @@
 				item: "mekanismgenerators:turbine_valve"
 				type: "item"
 			}]
-			title: "Steam Turbine"
+			title: "蒸汽涡轮"
 			x: 0.0d
 			y: 3.5d
 		}
@@ -1953,7 +1953,7 @@
 		}
 		{
 			description: [
-			  "Want to go one step further in the thermal evaporation process? Feed your brine into this plant and get liquid lithium, an essential component for your induction matrix!"
+			  "想要在热力蒸馏塔的道路上更进一步吗？那就把卤水再导入这座蒸馏塔中以蒸馏液态锂，它是输导矩阵的重要材料！"
 			]
 			icon: "mekanism:boiler_valve"
 			id: "79F576DF3FAE106D"
@@ -2010,7 +2010,7 @@
 		{
 			dependencies: ["79F576DF3FAE106D"]
 			description: [
-			  "Want to get the most out of your liquid lithium? Decondensentrate it to proceed further!"
+			  "想要把液态锂处理成能用的锂吗？把它导入回旋式气液转换机，然后继续处理！"
 			]
 			id: "5CE0355D04836962"
 			rewards: [
@@ -2074,7 +2074,7 @@
 		{
 			dependencies: ["5CE0355D04836962"]
 			description: [
-			  "Experience the power of lithium! Pump it into the chemical crystallizer for dust that can be used to craft induction cells and providers, giving you access to supreme storable energy."
+			  "好好体会一下锂的力量吧！把它泵入化学结晶器后制作成粉，这样就可以制作输导元件与输导供应器，它可以储存极其大量的能源。"
 			]
 			id: "55F3999C8FD2F5CC"
 			rewards: [
@@ -2138,7 +2138,7 @@
 		{
 			dependencies: ["55F3999C8FD2F5CC"]
 			description: [
-			  "Whether you need to store or transfer power, you can easily customize your matrix to fit your needs—from a small 3x3x4 to a massive 18x18x18."
+			  "不管你是想传输还是想存储电，你都可以轻松定制你的输导矩阵——从最小的3x3x4到巨大的18x18x18，总有尺寸能合你心意！"
 			]
 			id: "311464847571C38D"
 			rewards: [
@@ -2194,7 +2194,7 @@
 		{
 			dependencies: ["311464847571C38D"]
 			description: [
-			  "Indulge your inner creeper with this custom-made induction matrix! You can create a one-of-a-kind centerpiece using a mix of basic and ultimate blocks."
+			  "让你的电网里里外外都因这个输导矩阵而熠熠生辉吧！你甚至可以搭建一个内部混杂着高级和初级元件的矩阵。"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -2771,5 +2771,5 @@
 			y: 1.5d
 		}
 	]
-	title: "&6Late Mekanism"
+	title: "&6游戏后期的通用机械"
 }
