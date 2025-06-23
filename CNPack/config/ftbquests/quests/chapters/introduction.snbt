@@ -2085,7 +2085,7 @@
 			]
 			shape: "diamond"
 			size: 0.6d
-			subtitle: "&oSimilar to Wandering Traders, Goblin Traders are found randomly and provide exclusive and beneficial trades"
+			subtitle: "&o哥布林商人和流浪商人差不多，它们会随机刷新，还能和你做一些很有用的小交易。"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2095,7 +2095,7 @@
 				id: "756A1955D8D76966"
 				observe_type: 3
 				timer: 0L
-				title: "&eBe approached by a Goblin Trader &o(what an honor)"
+				title: "&e被哥布林商人上门推销&o（真是莫大的荣幸啊）"
 				to_observe: "goblintraders:goblin_trader"
 				type: "observation"
 			}]
@@ -2106,9 +2106,9 @@
 			dependencies: ["4789D17B88722641"]
 			dependency_requirement: "one_completed"
 			description: [
-			  "When the full set is on, you'll receive protection levels which are between leather and chain. It also provides bonus damage protection from projectiles such as arrows. This makes it an adequate temporary set of armor to survive your first night."
+			  "等这一整套盔甲都穿好以后，你就会得到介于锁链盔甲和皮革盔甲之间的防御力。而且它可以提供额外的投射物伤害保护，这就让它特别适合你度过第一晚。"
 			  ""
-			  "&e提示：&r &nStay away&r from open flames! "
+			  "&e提示：&r &n一定要远离&r火焰！"
 			  ""
 			  ""
 			  ""
@@ -2161,7 +2161,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "Craft a set of &eWooden Armor"
+			subtitle: "做一套&e木盔甲"
 			tasks: [
 				{
 					id: "785ED1BAE43D8B45"
@@ -2230,7 +2230,7 @@
 					type: "item"
 				}
 			]
-			title: "How To Survive The First Night! &e(Part I Armor)"
+			title: "如何活过第一晚！ &e(第一部分：盔甲)"
 			x: 5.475667189952908d
 			y: -0.015698587127161545d
 		}
@@ -2242,7 +2242,7 @@
 				"0C79AEE09DBDD5B8"
 			]
 			description: [
-			  "&r&8(Complete all non-optional Quests in The Introduction Chapter)"
+			  "&r&8(完成所有起始章节的非介绍类任务)"
 			]
 			hide_dependency_lines: true
 			id: "4BDCD398BA6A1D67"
@@ -2263,8 +2263,8 @@
 							Unbreakable: 1b
 							charm_glint: "yellow"
 							display: {
-								Lore: ["{\"text\":\"§eOnly given to those who have completed the \\\"Getting Started\\\" Quest Chapter!\"}"]
-								Name: "{\"text\":\"§6Crown of Dedication\"}"
+								Lore: ["{\"text\":\"§e此物只配那些完成“新手上路”任务章节的人所拥有！\"}"]
+								Name: "{\"text\":\"§6奉献冠冕\"}"
 							}
 							rpgloot.randomize: 0b
 						}
@@ -2277,7 +2277,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "64BB756670543B8B"
-					title: "&e已解锁称号：&r the Quest Maniac"
+					title: "&e已解锁称号：&r任务狂魔"
 					type: "command"
 				}
 				{
@@ -2298,8 +2298,8 @@
 								lvl: 3
 							}]
 							display: {
-								Lore: ["{\"text\":\"§6§oGifted to only the most loyal of rat lords..\"}"]
-								Name: "{\"text\":\"§dBlessed Rat Flute\"}"
+								Lore: ["{\"text\":\"§6§o此物只属于那些最忠诚于老鼠王的人……\"}"]
+								Name: "{\"text\":\"§d受祝福的老鼠长笛\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2321,7 +2321,7 @@
 			]
 			shape: "hexagon"
 			size: 0.8d
-			subtitle: "&oComplete the \"A New Start\" chapter to unlock special treasure!"
+			subtitle: "&o完成“崭新开端”章节即可解锁特殊宝物！"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: {
@@ -2342,17 +2342,17 @@
 						Unbreakable: 1b
 						charm_glint: "yellow"
 						display: {
-							Lore: ["{\"text\":\"§eOnly given to those who have completed the \\\"Getting Started\\\" Quest Chapter!\"}"]
-							Name: "{\"text\":\"§6Crown of Dedication\"}"
+							Lore: ["{\"text\":\"§e此物只配那些完成“新手上路”任务章节的人所拥有！\"}"]
+							Name: "{\"text\":\"§6奉献冠冕\"}"
 						}
 						rpgloot.randomize: 0b
 					}
 				}
 				id: "31EA8286575E48E6"
-				title: "&e&lThe Best At Introductions"
+				title: "&e&l新手上路章节之神"
 				type: "dimension"
 			}]
-			title: "&6&l<wave><rainb>Introduction Lore Master!"
+			title: "&6&l<wave><rainb>完全精通新手上路章节的大师！"
 			x: 13.632653061224488d
 			y: 2.1224489795918373d
 		}
