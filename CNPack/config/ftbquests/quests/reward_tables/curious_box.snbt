@@ -1,5 +1,5 @@
 {
-	hide_tool提示： true
+	hide_tooltip: true
 	icon: "treasure2:gold_strongbox"
 	id: "69AADD4A1CE16BAE"
 	loot_crate: {

@@ -98,7 +98,7 @@
 			subtitle: "Barry can offer help... for a price!"
 			tasks: [{
 				id: "3AA86C3F1FA9FE0A"
-				title: "Info Quest - &e点击完成任务"
+				title: "Info Quest - &eClick To Complete"
 				type: "checkmark"
 			}]
 			title: "&d<wave>Barry's Help!"
@@ -111,7 +111,7 @@
 				""
 				"&6☠ Difficulty: &4&lHARD"
 				""
-				"&6提示：&r Barry can also send you a &dWaypoint&r to the structure if you click the link provided in chat after claiming this quest!"
+				"&6Tip:&r Barry can also send you a &dWaypoint&r to the structure if you click the link provided in chat after claiming this quest!"
 			]
 			id: "5F46FEA139983775"
 			rewards: [{
