@@ -14,6 +14,9 @@
   "commands.eternalcurrencies.setholderaddress.already_set_to_this": "%2$s is already connected to this Address!",
   "commands.eternalcurrencies.setholderaddress.target_does_not_have_reference_capability": "Currency implementation for %2$s cannot be connected to a Referrable Holder.",
   "commands.eternalcurrencies.setholderaddress.address_does_not_exist": "No Referrable holder at address %1$s!",
+  "commands.eternalcurrencies.resetreference.success": "Reset Balance Reference for %1$s.",
+  "commands.eternalcurrencies.resetreference.failure": "Could not reset Balance Reference for %1$s. Either missing Currency capability, or it is not a Reference capability.",
+  "commands.eternalcurrencies.resetreference.already_default": "Balance Reference for %1$s is already default!",
 
   "message.eternalcurrencies.added_currency": "+%2$s (%1$s)",
 
