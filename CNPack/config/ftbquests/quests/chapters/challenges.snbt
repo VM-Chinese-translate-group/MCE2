@@ -99,17 +99,43 @@
 		{
 			id: "1921D3C6C9376D64"
 			optional: true
-			rewards: [{
-				id: "2C5ACB7B321431BA"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "blackmarket_cache"
-					}
+			rewards: [
+				{
+					id: "57E8127968AC140F"
+					item: "create:honeyed_apple"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "44D67900CFDC6ADE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "circle"
 			tasks: [{
 				days: 50
@@ -122,18 +148,43 @@
 		{
 			id: "7FDA4FAD275365F2"
 			optional: true
-			rewards: [{
-				count: 2
-				id: "06640FD8204B1636"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "blackmarket_cache"
+			rewards: [
+				{
+					count: 3
+					id: "5CBA9A228D649D5D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5501F8BC46B435DB"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			tasks: [{
 				days: 100
@@ -171,7 +222,6 @@
 			id: "2C6B2C3F6CD8692F"
 			optional: true
 			rewards: [{
-				count: 4
 				id: "6DB6338F17552A41"
 				item: {
 					Count: 1
@@ -195,7 +245,7 @@
 			id: "4A7697691FBAF6E9"
 			optional: true
 			rewards: [{
-				count: 10
+				count: 2
 				id: "729D4EA2848718B1"
 				item: {
 					Count: 1
@@ -340,17 +390,6 @@
 					type: "item"
 				}
 				{
-					id: "1ADEFFC972D61DB2"
-					item: {
-						Count: 1
-						id: "tconstruct:creative_slot"
-						tag: {
-							slot: "upgrades"
-						}
-					}
-					type: "item"
-				}
-				{
 					amount: 5000L
 					currency: "eternalcurrencies:coins"
 					id: "6BB9D44F9CBA914D"
@@ -450,6 +489,8 @@
 				}
 				{
 					command: "/titles add @p titles:national_hero"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "21081C69D2D6D614"
 					title: "&eUnlock Title:&r National Hero"
@@ -505,6 +546,8 @@
 				}
 				{
 					command: "/titles add @p titles:timelord"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "1BFA50BC20FC458D"
 					title: "&eUnlock Title:&r Timelord"
@@ -621,6 +664,8 @@
 				}
 				{
 					command: "/titles add @p titles:master_angler"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "712EF8F3DD71113D"
 					title: "&eUnlock Title:&r Master Angler"
@@ -675,6 +720,8 @@
 				}
 				{
 					command: "/titles add @p titles:borg"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "2147CCD0C48E468A"
 					title: "&eTitle Unlock:&r of the Borg"
@@ -833,6 +880,8 @@
 				}
 				{
 					command: "/titles add @p titles:master_chef"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "4807F30E0FEAEDBF"
 					title: "&eUnlock Title:&r Master Chef"
@@ -917,6 +966,8 @@
 				}
 				{
 					command: "/titles add @p titles:the_millionare"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "41C61D6A61ED9270"
 					title: "&eUnlock Title:&r The Millionare"
@@ -1001,6 +1052,8 @@
 				}
 				{
 					command: "/titles add @p titles:music_collector"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "5047F40F416D9BD6"
 					title: "&eTitle Unlock:&r Music Collector"
@@ -1452,6 +1505,8 @@
 				}
 				{
 					command: "/titles add @p titles:dragon_slayer"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "10DAFAB1AC4B0F0F"
 					title: "&eUnlock Title:&r Dragon Slayer"
@@ -1600,6 +1655,8 @@
 			rewards: [
 				{
 					command: "/titles add @p titles:mr_electric"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "0EF672DD9B345BB1"
 					title: "&eUnlock Title:&r Mr Electric"
@@ -1642,6 +1699,8 @@
 			rewards: [
 				{
 					command: "/titles add @p titles:tiny_potato"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "3391A536F4D39348"
 					title: "&eUnlock Title:&r the Tiny Potato"
@@ -1679,7 +1738,6 @@
 				"4CCB133226B619C1"
 				"091DFC1661BC6A6C"
 				"144BAE20D6EA1C4B"
-				"6A043DC6A14908C2"
 				"41A4C8DD57C58D66"
 				"05E7EE0908681ACD"
 				"1A7BFC6C498CE232"
@@ -1701,6 +1759,8 @@
 			rewards: [
 				{
 					command: "/titles add @p titles:loremaster"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "643B91E57C589E0E"
 					title: "&eUnlock Title:&r The Loremaster"
@@ -1743,21 +1803,12 @@
 			rewards: [
 				{
 					command: "/titles add @p titles:egg"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "29768140ED89DB31"
 					title: "&eUnlock Title:&r King of the Chickens"
 					type: "command"
-				}
-				{
-					id: "69AF1BB45B26BF9F"
-					item: {
-						Count: 1
-						id: "tconstruct:creative_slot"
-						tag: {
-							slot: "upgrades"
-						}
-					}
-					type: "item"
 				}
 				{
 					amount: 5000L
@@ -1765,6 +1816,11 @@
 					id: "3177057EC1B0AD54"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "024977E8962C5162"
+					item: "mce2lib:chicken_nugget_summon"
+					type: "item"
 				}
 			]
 			subtitle: "&oCommit ungodly acts against Chickenkind"
@@ -1917,15 +1973,9 @@
 			rewards: [
 				{
 					command: "/titles add @p titles:die"
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "titles:title_scroll_common"
-					}
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_common"
 					id: "1365D7093281C20B"
 					title: "&eUnlock Title:&r Die-a-Lot"
 					type: "command"
@@ -1969,6 +2019,8 @@
 			rewards: [
 				{
 					command: "/titles add @p titles:trash"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "05898EA59FFAFF41"
 					title: "&eUnlock Title:&r the Trashman"
