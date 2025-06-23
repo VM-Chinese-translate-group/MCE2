@@ -85,7 +85,7 @@
 		{
 			description: [
 			  "Craft a &eCauldron&r and place a bucket of milk inside. Wait for it to curdle!"
-			  "&e提示：&r Cheese can be used to tame rats! Wow!"
+			  "&eTip:&r Cheese can be used to tame rats! Wow!"
 			]
 			hide_dependency_lines: true
 			id: "4BF96C95CFE9D92D"
@@ -142,7 +142,7 @@
 		}
 		{
 			description: [
-			  "&e提示：&r Rats can be used for all sorts of things, &o(including but not limited to)&r Cooking, Cleaning, Mining, Fighting, Snuggling, Conquering, Worshipping."
+			  "&eTip:&r Rats can be used for all sorts of things, &o(including but not limited to)&r Cooking, Cleaning, Mining, Fighting, Snuggling, Conquering, Worshipping."
 			]
 			hide_dependency_lines: true
 			id: "345F8558DB7253AA"

@@ -1,5 +1,5 @@
 {
-	hide_tool提示： true
+	hide_tooltip: true
 	id: "3E11B3F8CECBDB53"
 	loot_crate: {
 		color: 16777215

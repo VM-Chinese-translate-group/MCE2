@@ -1,6 +1,6 @@
 {
 	empty_weight: 100.0f
-	hide_tool提示： true
+	hide_tooltip: true
 	icon: {
 		Count: 1
 		id: "blue_skies:loot_bag"

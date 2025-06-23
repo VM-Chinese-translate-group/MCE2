@@ -13,7 +13,7 @@
 			can_repeat: true
 			dependencies: ["099610C83CC67421"]
 			description: [
-				"&6小贴士：&r When you complete this quest, you will be automatically transported! Hoppy will keep you entertained all night with spooky stories and their famous Seafood Soup! &oTime moves fast when you are having fun!"
+				"&6Hint:&r When you complete this quest, you will be automatically transported! Hoppy will keep you entertained all night with spooky stories and their famous Seafood Soup! &oTime moves fast when you are having fun!"
 				"&dDon't forget to thank the pilot!"
 			]
 			hide_until_deps_complete: true
@@ -108,8 +108,8 @@
 			can_repeat: true
 			dependencies: ["33DBFD4B00935B0A"]
 			description: [
-				"&6小贴士：&r When you complete this quest, you will be automatically transported! &oIt's a fast plane!"
-				"&e提示：&r Monsters do not spawn above ground in The Sakura Dimension! It is also always day-time! Watch out for structures though, monsters will populate those!"
+				"&6Hint:&r When you complete this quest, you will be automatically transported! &oIt's a fast plane!"
+				"&eTip:&r Monsters do not spawn above ground in The Sakura Dimension! It is also always day-time! Watch out for structures though, monsters will populate those!"
 				"&dDon't forget to thank the pilot!"
 			]
 			hide_dependency_lines: true
@@ -172,7 +172,7 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "6D0328AD3E6697B7"
-					title: "&e已解锁称号：&r the Tourist"
+					title: "&eUnlock Title:&r the Tourist"
 					type: "command"
 				}
 				{
@@ -305,8 +305,8 @@
 			can_repeat: true
 			dependencies: ["2785A42DDDEB324C"]
 			description: [
-				"&e提示：&r This will bring you to spawn. It is Quick-Travel."
-				"&6小贴士：&r When you complete this quest, you will be automatically transported! &oIt's a fast blimp and Rats make great pilots!"
+				"&eTip:&r This will bring you to spawn. It is Quick-Travel."
+				"&6Hint:&r When you complete this quest, you will be automatically transported! &oIt's a fast blimp and Rats make great pilots!"
 				"&dDon't forget to thank the pilot!"
 			]
 			hide_dependency_lines: true
