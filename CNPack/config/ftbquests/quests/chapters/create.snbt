@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-		  "Chapter coming soon!™"
+		  "敬请期待！™"
 		]
 		id: "324A94DFF4CF15A7"
 		rewards: [{
@@ -28,5 +28,5 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "&6Create"
+	title: "&6机械动力"
 }

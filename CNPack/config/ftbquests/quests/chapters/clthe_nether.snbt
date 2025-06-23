@@ -366,13 +366,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -448,13 +448,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -518,13 +518,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -600,13 +600,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -676,13 +676,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -741,7 +741,7 @@
 					command: "/titles add @p titles:demon_slayer"
 					icon: "titles:title_scroll_uncommon"
 					id: "4676D913C6156C6D"
-					title: "&eUnlock Title:&r Demon Slayer"
+					title: "&e已解锁称号：&r Demon Slayer"
 					type: "command"
 				}
 				{
@@ -764,13 +764,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -845,7 +845,7 @@
 					command: "/titles add @p twilightforest:fiery_set"
 					icon: "titles:title_scroll_rare"
 					id: "22DA422A1A1EAEC3"
-					title: "&eUnlock Title: &rThe Flame Forged"
+					title: "&e已解锁称号： &rThe Flame Forged"
 					type: "command"
 				}
 				{
@@ -899,13 +899,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -982,13 +982,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1029,7 +1029,7 @@
 			dependencies: ["1947FABCE1A302BE"]
 			description: [
 				"{image:modpack:textures/2022-11-03_23.33.25.png width:180 height:100 align:1}"
-				"&6Tip: &rTry to avoid the &e\"Ashen Breath\"&r, attack &ryou &lcannot&r block it and it does high amounts of damage!"
+				"&6提示： &rTry to avoid the &e\"Ashen Breath\"&r, attack &ryou &lcannot&r block it and it does high amounts of damage!"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -1059,7 +1059,7 @@
 					command: "/titles add @p titles:ashen"
 					icon: "titles:title_scroll_uncommon"
 					id: "0067A1BE49111658"
-					title: "&eUnlock Title:&r of the Ashen Breath"
+					title: "&e已解锁称号：&r of the Ashen Breath"
 					type: "command"
 				}
 				{
@@ -1082,13 +1082,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1164,13 +1164,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1263,13 +1263,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1299,7 +1299,7 @@
 			description: [
 				"I'm sure you noticed by now that beds do not work in The Nether. If you wish to respawn somewhere safe while exploring The Nether, &eThe Respawn Anchor&r will allow you to do just that! "
 				""
-				"&6Hint:&r Unlike a bed,  &eThe Respawn Anchor&r requires charges in order to work. To give it one charge, feed it a &eGlowstone Block."
+				"&6小贴士：&r Unlike a bed,  &eThe Respawn Anchor&r requires charges in order to work. To give it one charge, feed it a &eGlowstone Block."
 			]
 			id: "3CC4D8AC7D27AE94"
 			rewards: [
@@ -1323,13 +1323,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {

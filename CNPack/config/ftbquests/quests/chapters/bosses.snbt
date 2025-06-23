@@ -174,7 +174,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "29675BF8BA282F99"
-					title: "&eUnlock Title:&r Blood Champion"
+					title: "&e已解锁称号：&r Blood Champion"
 					type: "command"
 				}
 				{
@@ -195,13 +195,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -277,7 +277,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "05C6F9447B89C2BB"
-					title: "&eUnlock Title:&r the Dread Pirate"
+					title: "&e已解锁称号：&r the Dread Pirate"
 					type: "command"
 				}
 				{
@@ -298,13 +298,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -376,7 +376,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "6C22DED1D418EE12"
-					title: "&eUnlock Title:&r the Frozen"
+					title: "&e已解锁称号：&r the Frozen"
 					type: "command"
 				}
 				{
@@ -397,13 +397,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -461,7 +461,7 @@
 				""
 				"It is said &eThe Overgrown Eye&r contains their life essence and can even be regrown after death! Also, we go waaaay back! I've known him since he was just a lil sprout in the ground!"
 				""
-				"&6Hint:&r You can find &eThe Void Blossom&r at &dBedrock "
+				"&6小贴士：&r You can find &eThe Void Blossom&r at &dBedrock "
 				""
 				"&6☠ Difficulty: &4&lHARD"
 				"{image:modpack:textures/2025-03-14_00.41.44.png width:200 height:100 align:center}"
@@ -481,7 +481,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "3746FC00D92544E2"
-					title: "&eUnlock Title:&r the Weedkiller"
+					title: "&e已解锁称号：&r the Weedkiller"
 					type: "command"
 				}
 				{
@@ -502,13 +502,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -599,7 +599,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "00D5CEEED941D81B"
-					title: "&eUnlock Title:&r the Demon Slayer"
+					title: "&e已解锁称号：&r the Demon Slayer"
 					type: "command"
 				}
 				{
@@ -620,13 +620,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -699,7 +699,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0BD0DF048DAFC694"
-					title: "&eUnlock Title:&r the God Killer"
+					title: "&e已解锁称号：&r the God Killer"
 					type: "command"
 				}
 				{
@@ -720,13 +720,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -870,7 +870,7 @@
 					command: "/titles add @p titles:voidlord"
 					icon: "titles:title_scroll_rare"
 					id: "72FD7EB5624CE117"
-					title: "&eUnlock Title:&r Void Lord"
+					title: "&e已解锁称号：&r Void Lord"
 					type: "command"
 				}
 				{
@@ -919,7 +919,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "1B4BA990B8644E49"
-					title: "&eUnlock Title:&r the Harbinger of Doom"
+					title: "&e已解锁称号：&r the Harbinger of Doom"
 					type: "command"
 				}
 				{
@@ -940,13 +940,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1032,7 +1032,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "112006616A786B76"
-					title: "&eUnlock Title:&r Vanquisher"
+					title: "&e已解锁称号：&r Vanquisher"
 					type: "command"
 				}
 				{
@@ -1053,13 +1053,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1126,7 +1126,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "5B0BB798D05CA73C"
-					title: "&eUnlock Title:&r the Netherbane"
+					title: "&e已解锁称号：&r the Netherbane"
 					type: "command"
 				}
 				{
@@ -1147,13 +1147,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1225,7 +1225,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "06439A84E2F5C8D9"
-					title: "&eUnlock Title:&r Ironside"
+					title: "&e已解锁称号：&r Ironside"
 					type: "command"
 				}
 				{
@@ -1246,13 +1246,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1331,7 +1331,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "41F792DC0BE7C683"
-					title: "&eUnlock Title:&r the Soulflayer"
+					title: "&e已解锁称号：&r the Soulflayer"
 					type: "command"
 				}
 				{
@@ -1359,13 +1359,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1410,7 +1410,7 @@
 				""
 				"I can't go myself because &oI don't like sand.&r It's coarse and rough and irritating and it gets everywhere."
 				""
-				"&eTip:&r Look out for Suspicious Sand!"
+				"&e提示：&r Look out for Suspicious Sand!"
 				""
 				"&6☠ Difficulty: &4&lHARD"
 				"{image:modpack:textures/2025-03-14_00.39.53.png width:200 height:100 align:center}"
@@ -1421,7 +1421,7 @@
 					command: "/titles add @p titles:the_immortal"
 					icon: "titles:title_scroll_uncommon"
 					id: "6F3BD211F59D65F1"
-					title: "&eUnlock Title:&r the Ancient"
+					title: "&e已解锁称号：&r the Ancient"
 					type: "command"
 				}
 				{
@@ -1442,13 +1442,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1515,7 +1515,7 @@
 						tag: {
 							display: {
 								Lore: [
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
 									"{\"text\":\"§e§o§7§oHolding the lantern up to the letter you realise someone has used invisible ink to write the title of the letter! The contents of the letter seem the same but the title was hidden.. How strange..\"}"
 								]
 								Name: "{\"italic\":false,\"color\":\"dark_green\",\"font\":\"runelic:runelic\",\"text\":\"Nothing can stop me now..\"}"
@@ -1631,7 +1631,7 @@
 						id: "titles:title_scroll_uncommon"
 					}
 					id: "3E3BCE1B88B2B6B4"
-					title: "&eUnlock Title:&r the Questmaster's Pet"
+					title: "&e已解锁称号：&r the Questmaster's Pet"
 					type: "command"
 				}
 				{
@@ -1683,7 +1683,7 @@
 						Unbreakable: 1b
 						display: {
 							Lore: [
-								"{\"text\":\"§5§6✎ §nLore Text\"}"
+								"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
 								"{\"text\":\"§7§o\\\"The Questmaster lost this weapon while trying to have a failed chat with The Ferrous Wroughtnaut... they aren't much of a conversationalist it turns out!\\\"\"}"
 							]
 							Name: "{\"text\":\"§2Questmaster's Special Salmon\"}"
@@ -1725,7 +1725,7 @@
 			tasks: [{
 				disable_toast: true
 				id: "5C25465F983C7E12"
-				title: "&eInformation Quest! &r(Click To Complete)"
+				title: "&eInformation Quest! &r(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "&6The Legendary Eyes!"
@@ -1751,13 +1751,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1776,7 +1776,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0A4479D4F9FF8D44"
-					title: "&eUnlock Title:&r the Deep One"
+					title: "&e已解锁称号：&r the Deep One"
 					type: "command"
 				}
 				{
@@ -1833,13 +1833,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1858,7 +1858,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "04B713FBA413BDAE"
-					title: "&eUnlock Title:&r the Experienced"
+					title: "&e已解锁称号：&r the Experienced"
 					type: "command"
 				}
 				{
@@ -1915,13 +1915,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1940,7 +1940,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0D4027ADE5C68066"
-					title: "&eUnlock Title:&r the Desecrator"
+					title: "&e已解锁称号：&r the Desecrator"
 					type: "command"
 				}
 				{
@@ -1997,13 +1997,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2022,7 +2022,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "5FBAD66E034E01EF"
-					title: "&eUnlock Title:&r the Evil"
+					title: "&e已解锁称号：&r the Evil"
 					type: "command"
 				}
 				{
@@ -2090,7 +2090,7 @@
 			subtitle: "Collect 4 Secret Eyes!"
 			tasks: [{
 				id: "58480ACED9382A33"
-				title: "&eInformation Quest:&r Click To Complete!"
+				title: "&eInformation Quest:&r 点击完成任务!"
 				type: "checkmark"
 			}]
 			title: "&6The Secret Eyes!"
@@ -2159,13 +2159,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {

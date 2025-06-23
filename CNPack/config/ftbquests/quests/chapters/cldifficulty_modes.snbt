@@ -220,7 +220,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "6D22DF9F16F321D3"
-					title: "&eUnlock Title:&r The Master"
+					title: "&e已解锁称号：&r The Master"
 					type: "command"
 				}
 				{
@@ -276,13 +276,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -326,7 +326,7 @@
 			description: [
 				"&6&n&lExpert Mode Changes"
 				"&d&l→ &rNew items for sale in &e&oThe &e&oShop!"
-				"&d&l→ &r&e&oThe Great Below&r can now be visited!"
+				"&d&l→ &r&e&o渊深之地&r can now be visited!"
 				"&d&l→ &rExperience from all sources is increased by &225%"
 				"&c&l→ &rNew monsters begin spawning."
 				"&c&l→ &r&e&oRegional Difficulty&r increased!"
@@ -350,7 +350,7 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "4D62D854404D9939"
-					title: "&eUnlock Title:&r The Expert"
+					title: "&e已解锁称号：&r The Expert"
 					type: "command"
 				}
 				{
@@ -407,13 +407,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -528,7 +528,7 @@
 			subtitle: "Learn About Difficulty Modes!"
 			tasks: [{
 				id: "7DBD819B4A70A424"
-				title: "&eInfo Quest &r(Right-Click To Complete)"
+				title: "&eInfo Quest &r(Right-点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "&6&lDifficulty Modes - &r&eInformation! &l⬅"

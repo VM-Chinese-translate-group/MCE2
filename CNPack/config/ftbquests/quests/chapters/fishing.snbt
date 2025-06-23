@@ -182,10 +182,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -242,10 +242,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -302,10 +302,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -362,10 +362,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -439,10 +439,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -499,10 +499,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -576,10 +576,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -636,10 +636,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -696,10 +696,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -756,10 +756,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -816,10 +816,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -923,10 +923,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -991,10 +991,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1059,10 +1059,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1127,10 +1127,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1195,10 +1195,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1263,10 +1263,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1331,10 +1331,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1402,10 +1402,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1470,10 +1470,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1555,10 +1555,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1623,10 +1623,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1691,10 +1691,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1759,10 +1759,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1827,10 +1827,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1895,10 +1895,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1963,10 +1963,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2031,10 +2031,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2094,7 +2094,7 @@
 					command: "/titles add @p titles:angler"
 					icon: "titles:title_scroll_common"
 					id: "67B4BA738E9E28F4"
-					title: "&eUnlock Title:&r Angler"
+					title: "&e已解锁称号：&r Angler"
 					type: "command"
 				}
 				{
@@ -2560,7 +2560,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "7116565D5C8F0516"
-					title: "&eUnlock Title:&r Lord of The Deep"
+					title: "&e已解锁称号：&r Lord of The Deep"
 					type: "command"
 				}
 				{
@@ -2588,13 +2588,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2842,10 +2842,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {

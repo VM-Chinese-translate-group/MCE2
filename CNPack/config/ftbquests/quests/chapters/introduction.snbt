@@ -1128,13 +1128,13 @@
 			dependencies: ["639D9B8F85E2B499"]
 			description: [
 				"{image:modpack:textures/quest_art.png width:250 height:110 align:1 fit:true}"
-				"&3The Quest Book&r is an optional &o(but recommended!)&r experience that aims to provide The Player with guidance, tips and tricks, unique rewards and bonus challenges!"
+				"&3任务书&r是一本能带给你各种教程、技巧和小提示的书，里面还有独特奖励和各种挑战！虽然任务主线是可有可无的，&o但我还是建议你读一下！&r"
 				""
-				"§a✔&r You &lcan&r earn unique rewards by playing at your own pace!"
-				"§a✔&r You &lcan&r learn mods in depth with fully written Quest Chains (More are being worked on all the time!)"
-				"§a✔&r You &lcan&r collect special Titles by Questing!"
-				"&a✔&r You &lcan&r unlock Quest Coins and spend them at the Coin Shop. &o(Coming Soon™)"
-				"&4❌&r You &l<shake>cannot&r eat the Quest Book."
+				"§a✔&r你&l可以&r按照自己的节奏游玩，还能获得独特的奖励！"
+				"§a✔&r你&l可以&r从完善的任务线中学到各种模组的游玩方法（更多任务敬请期待！）"
+				"§a✔&r你&l可以&r通过完成任务来获取特殊称号！"
+				"&a✔&r你&l可以&r解锁任务硬币，然后在商店里全花掉。&o（敬请期待！）"
+				"&4❌&r你&l<shake>不能&r把这本任务书吃了。"
 				"&7- adam98991"
 			]
 			disable_toast: true
@@ -1166,28 +1166,28 @@
 			]
 			shape: "diamond"
 			size: 1.3d
-			subtitle: "→ Learn More! ←"
+			subtitle: "→ 了解更多！ ←"
 			tasks: [{
 				id: "7382B541F0F83994"
-				title: "&eI Understand! &7(Click To Complete)"
+				title: "&e我知道了！ &7(点击完成任务)"
 				type: "checkmark"
 			}]
-			title: "&3Welcome to The Quest Book!"
+			title: "&3欢迎打开任务书！"
 			x: 10.631576470588216d
 			y: 6.190455003819743d
 		}
 		{
 			dependencies: ["63DF38CF46138C3B"]
 			description: [
-				"&7To start this &l&d<rainb>NEW&r<rainb> &7and &d&l<rainb>EXCITING<rainb>&r &7adventure™ please sign this contract which essentially says anything you ever create is proprietary property of &lME&r &7and your soul is &lMINE&r&7... "
-				"&7FOR &c&l&n<shake>ALL&r &7OF &c&l&n<shake>ETERNITY!!"
+				"&7为了能让你顺利开始这场&l&d<rainb>崭新&r<rainb> &7而又&d&l<rainb>激动人心<rainb>&r的&7冒险，请再签一份宣称你的所有物都属于&l我的&r个人财产且你的灵魂所有权也移交给&l我&r的合同……"
+				"&7合同的&c&l&n<shake>&r &7存续期间嘛……&c&l&n<shake>当然是永恒了！！"
 				"{image:modpack:textures/mc-eternal-infernal-contract-barry.png width:100 height:100 align:1 fit:true}"
 				""
-				"&dThe contract roughly translates to: "
+				"&d这份合同大致可以翻译成下文： "
 				""
-				"&r&7Blah blah.. unlock access to Quests, &7whatever those are.. blah blah.. SIGN THE CONTRACT &c&lNOW!"
-				"&7*Warning, failure to sign within &l&c1 HOUR&r&7 will result in spontaneous visitation by a lawyer*"
-				"&7&oThe writing becomes so small its unreadable*"
+				"&r&7总之是废话废话……解锁后面的各种任务，&7管它都是些啥呢……然后又是废话……总之麻溜的给我把合同&c&l签了！"
+				"&7*警告：&l&c一小时内&r不签署该合同将会导致被律师上门送律师函*"
+				"&7&o然后后面的字迹越来越小，最后压根就看不清了*"
 			]
 			disable_toast: true
 			hide_dependency_lines: true
@@ -1203,7 +1203,7 @@
 					elevate_perms: true
 					icon: "occultism:spirit_fire"
 					id: "5FED53D66A953EA7"
-					title: "&c&oNo take backsies!!"
+					title: "&c&o不准反悔！"
 					type: "command"
 				}
 				{
@@ -1213,7 +1213,7 @@
 					elevate_perms: true
 					icon: "create:schematic_and_quill"
 					id: "1AFFB27C0ADF34EB"
-					title: "&7&oSign on the dotted line... here.. here.. here.. and here.."
+					title: "&7&o总之在横线上写名字就好了……这里……这里……还有这呢……以及那里……"
 					type: "command"
 				}
 				{
@@ -1228,7 +1228,7 @@
 					}
 					id: "532238155D2C4851"
 					silent: true
-					title: "&b<shake>YOUR SOUL IS MINE!"
+					title: "&b<shake>你的灵魂是我的了！"
 					type: "command"
 				}
 				{
@@ -1241,7 +1241,7 @@
 						tag: { }
 					}
 					id: "4CE96EA5FA9CF05A"
-					title: "&eUnlock Title: &rThe Gullible &7&o(Press = to Equip)"
+					title: "&e已解锁称号： &r上当受骗大傻子&7&o(按下=即可装备)"
 					type: "command"
 				}
 				{
@@ -1252,14 +1252,14 @@
 						tag: {
 							display: {
 								Lore: [
-									"{\"text\":\"§7§oThanks for your soul! \"}"
-									"{\"text\":\"§7§oThis can't really be legally binding can it?\"}"
+									"{\"text\":\"§7§o谢谢你把你的灵魂拱手让给了我！\"}"
+									"{\"text\":\"§7§o这个合同肯定不合法是不是啊？\"}"
 									"{\"text\":\"\"}"
 									"{\"text\":\"\"}"
-									"{\"text\":\"§4§lIT IS! MUHAHA!\"}"
-									"{\"text\":\"§8§oThis is only a copy.. don't try anything! I'm watching you! With my two beady eyes...\"}"
+									"{\"text\":\"§4§l它当然是合法的啊！桀桀桀桀桀桀！\"}"
+									"{\"text\":\"§8§o你刚刚签的合同只是个副本……别试着搞什么小花招！我在用我锐利的双眼盯着你呢！\"}"
 								]
-								Name: "{\"text\":\"§eSigned Contract §7§8\"}"
+								Name: "{\"text\":\"§e已署名的合同 §7§8\"}"
 							}
 						}
 					}
@@ -1272,7 +1272,7 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Name: "{\"text\":\"Forgotten Trashcan\"}"
+								Name: "{\"text\":\"遗忘的垃圾桶\"}"
 							}
 							type: "forgotten_trashcan"
 						}
@@ -1282,12 +1282,12 @@
 			]
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "&7A &o\"Contract\"&r has appeared from the very depths of &lHELL ITSELF!"
+			subtitle: "&7一份&o\"合同\"&r从&l地狱&r里浮现了出来！"
 			tasks: [
 				{
 					icon: "create:schematic_and_quill"
 					id: "538C1613495FEEA0"
-					title: "&eSign here! &7(Click To Complete)"
+					title: "&e在这里签字！&7(点击完成任务)"
 					type: "checkmark"
 				}
 				{
@@ -1300,7 +1300,7 @@
 					}
 					id: "44877428567B6B7F"
 					stat: "minecraft:damage_taken"
-					title: "&4Blood Pact &7(Take Damage To Seal The Deal)"
+					title: "&4发血誓！&7(用受伤完成这张合同)"
 					type: "stat"
 					value: 10
 				}
@@ -1315,7 +1315,7 @@
 			  "{image:mcwpaintings:textures/painting/axolotls.png width:150 height:100 align:1}"
 			  ""
 			  ""
-			  "&6Axolotl in a Bucket : &7Thanks for downloading the pack! We hope you enjoy the newest iteration of Minecraft Eternal"
+			  "&6桶里的美西螈：&7谢谢你能下载这个整合包！我们希望你能享受最新版的永恒的MC！"
 			  ""
 			]
 			hide_dependency_lines: true
@@ -1356,7 +1356,7 @@
 					}
 					id: "5BE8670B5E67BF0A"
 					table_id: 6750392856093556082L
-					title: "&3&lGoodie Bag&r&7 - Pick Your Prize -&r &d(CHOOSE WISELY!)"
+					title: "&3&l好东西包包&r&7挑一份小奖励吧！&r &d(你最好明智的做出选择！)"
 					type: "choice"
 				}
 				{
@@ -1365,19 +1365,19 @@
 					elevate_perms: true
 					icon: "minecraft:axolotl_bucket"
 					id: "528A68DD27DC7486"
-					title: "&9Splash!"
+					title: "&9*水花飞溅声！*"
 					type: "command"
 				}
 			]
 			shape: "heart"
 			size: 0.5d
-			subtitle: "&oOpen Me! -Adam98991"
+			subtitle: "&o打开我！ -Adam98991"
 			tasks: [
 				{
 					dimension: "minecraft:overworld"
 					icon: "rats:creative_cheese"
 					id: "755E81BBACA5563B"
-					title: "&eDownload MC Eternal 2 on Curseforge"
+					title: "&e在CurseForge上下载MCE2"
 					type: "dimension"
 				}
 				{
@@ -1385,23 +1385,23 @@
 					disable_toast: true
 					icon: "rats:blue_cheese"
 					id: "7BF145DB3D2E51FE"
-					title: "&eBe the coolest"
+					title: "&e当个酷小子"
 					type: "dimension"
 				}
 			]
-			title: "&6&lWhat? a Gift!?!"
+			title: "&6&l什么？你还要给我礼物？！"
 			x: 4.020408163265309d
 			y: 3.683673469387756d
 		}
 		{
 			dependencies: ["435D2B15E81BF949"]
 			description: [
-				"Press &d(R)&r to Roll! You cannot Dodge while mid-air or in water! A well timed Combat Roll can be the difference between life and death!"
-				"You have &e(1)&r &dCombat Roll Charge&r which will regenerate after being used!"
+				"按下&d（R）&r即可翻滚！但你不能在水里和空中翻滚，在关键时刻进行翻滚也许就是你滚出鬼门关的关键一击！"
+				"你现在有&e（一次）&r&d战斗翻滚充能&r，使用后会自动充能！"
 				""
-				"&6Tip: &rYou can unlock more &dCombat Roll Charges&r by unlocking &eExpert Mode&r and &eMaster Mode!"
+				"&6小贴士：&r你可以通过解锁&e专家模式&r和&e大师模式&r来获得更多&d战斗翻滚充能&r！"
 				"{image:modpack:textures/dodge.png width:190 height:120 align:1}"
-				"&7Combat Roll Charges can be found at the Bottom-Right of your Hotbar!"
+				"&7战斗翻滚充能在你的快捷键列表右下角！"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1431,10 +1431,10 @@
 				type: "item"
 			}]
 			size: 0.7d
-			subtitle: "Learn about Combat Rolls!"
+			subtitle: "了解战斗翻滚！"
 			tasks: [{
 				id: "62573FB77CA0D935"
-				title: "&eInformation Quest &r&7(Click To Complete!)"
+				title: "&e这是一个介绍任务&r&7(点击完成任务!)"
 				type: "checkmark"
 			}]
 			title: "&eRockin' and Rollin'"
@@ -1444,7 +1444,7 @@
 		{
 			dependencies: ["14F614D973412FD5"]
 			description: [
-			  "Craft and place an &eAdvancement Frame. "
+			  "合成并放置一个&e进度展示框。 "
 			]
 			hide_dependency_lines: false
 			id: "20E762D89AEBE3D6"
@@ -1470,13 +1470,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1491,7 +1491,7 @@
 				}
 			]
 			size: 0.5d
-			subtitle: "&oHave you ever wanted to display your most proud achievements? "
+			subtitle: "&o你有没有想过展示自己最自豪的成就？"
 			tasks: [{
 				id: "77CE0CD1ED418EC3"
 				item: "advancementframes:advancement_frame"
@@ -1504,9 +1504,9 @@
 			dependencies: ["14F614D973412FD5"]
 			description: [
 				""
-				"Upon walking into a village with the &c&lBad Omen&r effect "
-				"You will start a modded raid!"
-				"Come prepared!"
+				"带有&c&l不祥之兆&r效果时走进村庄。"
+				"然后你就会触发一场被增强过的劫掠！"
+				"准备好面对灾厄村民吧！"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1525,10 +1525,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1563,13 +1563,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Walk into a Village with the \"&oBad Omen\" Status Effect"
+			subtitle: "身上有&o不祥之兆&r效果时走进村庄"
 			tasks: [{
 				advancement: "minecraft:adventure/hero_of_the_village"
 				criterion: ""
 				icon: "rats:rat_skull"
 				id: "780FAC3B0245869E"
-				title: "&eDefend a Village from a Raid"
+				title: "&e在劫掠之下保卫村庄！"
 				type: "advancement"
 			}]
 			x: 10.572448979591833d
@@ -1578,9 +1578,9 @@
 		{
 			dependencies: ["2193B157D17E53C0"]
 			description: [
-				"The &6Sophisticated Backpack&r offers impressive portable storage space, making it an invaluable addition to your adventuring toolkit!"
+				"&6精妙背包&r的存储空间非常大，它对你的探险之旅绝对是一件不可或缺的宝物！"
 				""
-				"&dFun fact!&r You can upgrade your backpack with special upgrades! Type &e@backpack&r into JEI to view the options!"
+				"&d这里有个有趣的小事实！&r你可以用特定的升级对背包进行升级！在JEI中输入&e@backpack&r即可查看各种可选升级！"
 				""
 			]
 			hide_until_deps_complete: true
@@ -1600,13 +1600,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1642,14 +1642,14 @@
 				}
 			]
 			size: 0.7d
-			subtitle: "Craft a &eSophisticated Backpack"
+			subtitle: "合成一个&e精致背包"
 			tasks: [{
 				id: "06B6E5476A2588BC"
 				item: "sophisticatedbackpacks:backpack"
 				title: "Backpack"
 				type: "item"
 			}]
-			title: "Backpacking"
+			title: "全都装起来"
 			x: 11.317006802721075d
 			y: 0.28996598639454874d
 		}
@@ -1676,7 +1676,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "29C6D081DC0E8D8F"
-					title: "&eUnlock Title:&r Hero of The Village"
+					title: "&e已解锁称号：&r村庄英雄"
 					type: "command"
 				}
 				{
@@ -1692,13 +1692,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1730,7 +1730,7 @@
 			]
 			shape: "pentagon"
 			size: 0.8d
-			subtitle: "&oDefend a Village from 3 Raids"
+			subtitle: "&o在三次劫掠中成功保卫村庄"
 			tasks: [{
 				icon: "rats:corrupt_rat_skull"
 				id: "7EF6754153DB226F"
@@ -1738,16 +1738,16 @@
 				type: "stat"
 				value: 3
 			}]
-			title: "&eDefeat 3 Illager Raids"
+			title: "&e击退三次劫掠"
 			x: 11.714285714285708d
 			y: 2.0d
 		}
 		{
 			dependencies: ["267B32028E3E70E5"]
 			description: [
-				"Find a Village!"
+				"找到一个村庄！"
 				""
-				"&6Hint:&r Be careful when committing crimes in villages! Stealing, breaking blocks and attacking villagers will alert the nearby villager guards if a witness spots you!"
+				"&6小贴士：&r在村庄里头干违法乱纪的事时要小心点！偷东西打破方块和伤害村民时如果有目击者的话，他们就会喊来守卫！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1773,7 +1773,7 @@
 				}
 			]
 			size: 0.9d
-			subtitle: "&oHeeerm"
+			subtitle: "&o*村民叫声*"
 			tasks: [{
 				icon: "artifacts:villager_hat"
 				id: "7CF0FC66F4112473"
@@ -1782,16 +1782,16 @@
 				to_observe: "minecraft:villager"
 				type: "observation"
 			}]
-			title: "Locate a Village! "
+			title: "找到村庄！ "
 			x: 8.63d
 			y: 1.97d
 		}
 		{
 			description: [
 				""
-				"&6&lHint:&r Click the &a&nTask&r to open the letter!"
+				"&6&l小贴士：&r点击这个&a&n任务&r即可打开信！"
 				""
-				"&8Dev Note: There are a lot of Quests and chapters in MCE2, it can be easy to get overwhelmed! Try to focus on the Introduction Chapters to begin!"
+				"&8开发者小贴士：MCE2中有许多的任务和章节，所以你很容易就会晕头转向，在不知道该干什么的时候回到这个章节重新思考一下吧！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
@@ -1805,31 +1805,31 @@
 			id: "639D9B8F85E2B499"
 			rewards: [{
 				auto: "enabled"
-				command: "/tellraw @a {\"text\":\"Player has started their Questbook! Waahoo! ☆\",\"italic\":true,\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"and you should too! If you haven't already! :D\",\"color\":\"gold\"}]}}"
+				command: "/tellraw @a {\"text\":\"这个家伙已经开始跟着任务书做任务了！哇哦哦哦哦☆！\",\"italic\":true,\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"如果你没有的话那你最好赶快跟上哦！:D\",\"color\":\"gold\"}]}}"
 				console: true
 				icon: "ftbquests:book"
 				id: "7E06F2FDE4D23CA3"
-				title: "&6Chat Announcement &a(Auto-Claimed)"
+				title: "&6在聊天栏公开发言！ &a(该任务自动完成)"
 				type: "command"
 			}]
 			shape: "pentagon"
 			size: 0.8d
-			subtitle: "You've got mail! &oI wonder who it is from?"
+			subtitle: "你有一封信！ &o我在想到底是谁给你写的？"
 			tasks: [{
 				id: "722B2EF5F79B00DC"
-				title: "&e&nOpen Letter!&r &7(Click To Complete)"
+				title: "&e&n拆开邮件！&r &7(点击完成任务)"
 				type: "checkmark"
 			}]
-			title: "&2&lOpen Letter?"
+			title: "&2&l要读这封信吗？"
 			x: 8.651360544217681d
 			y: 6.814285714285717d
 		}
 		{
 			dependencies: ["16A59774B0927BC5"]
 			description: [
-				"Dynamic Lighting is here! Woo! Try holding a light source!"
-				"&eTip:&r You can place a torch or lantern in your off-hand to passively generate light!"
-				"&6Hint:&r You can place a Lantern on a wall to mount it to a block!"
+				"这个包有动态光源！呀呼！拿着光源试一下吧！"
+				"&e提示：&r你把火把之类的光源放在副手，就可以自动提供光源！"
+				"&6小贴士：&r你可以把灯笼直接贴在墙上！"
 			]
 			hide_until_deps_visible: true
 			icon: "minecraft:lantern"
@@ -1837,12 +1837,12 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/execute at @p run summon alexsmobs:fly ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Guy\\\\\\\"\\\"\"}"
+					command: "/execute at @p run summon alexsmobs:fly ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"你的朋友\\\\\\\"\\\"\"}"
 					console: true
 					elevate_perms: true
 					icon: "artifacts:crystal_heart"
 					id: "63859AC72E13D653"
-					title: "&dSummon Friend"
+					title: "&d召唤朋友"
 					type: "command"
 				}
 				{
@@ -1863,26 +1863,26 @@
 				}
 			]
 			size: 0.6d
-			subtitle: "Craft some &eTorches&r and &eLanterns"
+			subtitle: "合成一些&e火把&r和&e灯笼"
 			tasks: [{
 				count: 3L
 				id: "33671428E4CD0E74"
 				item: "minecraft:torch"
 				type: "item"
 			}]
-			title: "Craft some &eTorches!"
+			title: "合成点&e火把！"
 			x: 6.6d
 			y: -0.6d
 		}
 		{
 			dependencies: ["2785A42DDDEB324C"]
 			description: [
-			  "Curios can be found, crafted and traded!"
+			  "你可以找到，合成和购买饰品！"
 			  ""
-			  "Open your inventory and click the Curios button near the armor slots. There are many Curios to collect, each with unique, powerful or sometimes &oodd&r properties!"
+			  "打开你的物品栏后点击装备槽边上的饰品栏按钮即可查看饰品，这里的许多饰品等你来收集！每个都有着独特强大的能力，甚至会带有一些&o奇怪&r的特性！"
 			  ""
-			  "&eTip:&r Some Curios have keybinds in order to activate their ability. Make sure to hold SHIFT to check! Also, some Curios will only give you bonus stat points."
-			  "&6Hint:&r Upon dying, equipped Curios will remain in their slots! "
+			  "&e提示：&r一些饰品需要按下对应快捷键才能激活能力，所以拿到手以后记得按住Shift查看！而且有些饰品只会给你属性加成。"
+			  "&6小贴士：&r你死掉以后饰品栏中的饰品也不会掉落！"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1894,7 +1894,7 @@
 					icon: "create:purple_toolbox"
 					id: "225AE75358433961"
 					table_id: 3527950432660496906L
-					title: "&d&oQuestmaster's Box of Fun &e&r&e(Cosmetic Reward)"
+					title: "&d&o任务大师的趣味小盒子 &e&r&e(内含小饰品)"
 					type: "choice"
 				}
 				{
@@ -1911,13 +1911,13 @@
 				}
 			]
 			size: 0.7d
-			subtitle: "&oCurios are equipable artifacts. Kill some evil creatures for me and I'll give you a free one!"
+			subtitle: "&o饰品相当于可以装备的神器，去杀点邪恶的怪，然后我就送你个免费的！"
 			tasks: [
 				{
 					entity: "minecraft:zombie"
 					icon: "minecraft:rotten_flesh"
 					id: "680A0BB6D7A5D77B"
-					title: "Kill 3x Zombie"
+					title: "杀死三只僵尸"
 					type: "kill"
 					value: 3L
 				}
@@ -1936,7 +1936,7 @@
 					value: 1L
 				}
 			]
-			title: "I am curious about these Curios!"
+			title: "我很好奇这些饰品是干什么用的！"
 			x: 8.929251700680261d
 			y: 0.28996598639454874d
 		}
@@ -1983,13 +1983,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2028,7 +2028,7 @@
 			description: [
 			  "When the full set is on, you'll receive protection levels which are between leather and chain. It also provides bonus damage protection from projectiles such as arrows. This makes it an adequate temporary set of armor to survive your first night."
 			  ""
-			  "&eTip:&r &nStay away&r from open flames! "
+			  "&e提示：&r &nStay away&r from open flames! "
 			  ""
 			  ""
 			  ""
@@ -2053,13 +2053,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2197,7 +2197,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "64BB756670543B8B"
-					title: "&eUnlock Title:&r the Quest Maniac"
+					title: "&e已解锁称号：&r the Quest Maniac"
 					type: "command"
 				}
 				{
@@ -2280,7 +2280,7 @@
 			dependencies: ["7A29AEC9EDE48BFA"]
 			description: [
 			  ""
-			  "&6Hint:&r The Turtle Armor gives its wearer increased speed in water and projectile protection at the cost of slowness on land!"
+			  "&6小贴士：&r The Turtle Armor gives its wearer increased speed in water and projectile protection at the cost of slowness on land!"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -2300,13 +2300,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2325,7 +2325,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "0F85C97171F04A3A"
-					title: "&eUnlock Title:&r the Turtle Lord"
+					title: "&e已解锁称号：&r the Turtle Lord"
 					type: "command"
 				}
 				{
@@ -2415,7 +2415,7 @@
 					command: "/titles add @p titles:beastmaster"
 					icon: "titles:title_scroll_uncommon"
 					id: "184B242808F4AB46"
-					title: "&eUnlock Title:&r Beastmaster"
+					title: "&e已解锁称号：&r Beastmaster"
 					type: "command"
 				}
 				{
@@ -2431,13 +2431,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2475,7 +2475,7 @@
 			dependencies: ["398A05549FA9DC3F"]
 			description: [
 				"{image:modpack:textures/2022-10-11_22.14.21.png width:180 height:100 align:1}"
-				"&eTip: &rXP earned from trading will teleport to the player!"
+				"&e提示： &rXP earned from trading will teleport to the player!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -2491,7 +2491,7 @@
 					command: "/titles add @p titles:trader"
 					icon: "titles:title_scroll_common"
 					id: "010394115892AE30"
-					title: "&eUnlock Title:&r The Trader"
+					title: "&e已解锁称号：&r The Trader"
 					type: "command"
 				}
 				{
@@ -2507,13 +2507,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2559,7 +2559,7 @@
 					command: "/titles add @p titles:diver"
 					icon: "titles:title_scroll_uncommon"
 					id: "2D6CE912ED509899"
-					title: "&eUnlock Title:&r Master Diver"
+					title: "&e已解锁称号：&r Master Diver"
 					type: "command"
 				}
 				{
@@ -2575,13 +2575,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2661,13 +2661,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2752,7 +2752,7 @@
 		{
 			dependencies: ["28A8F23036B825C4"]
 			description: [
-			  "&eTip:&r The Boombox can be used to play records while moving! &oHuge in Goblin circles right now."
+			  "&e提示：&r The Boombox can be used to play records while moving! &oHuge in Goblin circles right now."
 			  ""
 			  ""
 			  ""
@@ -2763,7 +2763,7 @@
 					command: "/titles add @p titles:gobby"
 					icon: "titles:title_scroll_uncommon"
 					id: "18AB3A63DD2748AC"
-					title: "&eUnlock Title:&r Friend of Goblins"
+					title: "&e已解锁称号：&r Friend of Goblins"
 					type: "command"
 				}
 				{
@@ -2779,13 +2779,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2857,7 +2857,7 @@
 					command: "/titles add @p titles:pleb"
 					icon: "titles:title_scroll_common"
 					id: "562E75AE41AA509C"
-					title: "&eUnlock Title:&r Pleb"
+					title: "&e已解锁称号：&r Pleb"
 					type: "command"
 				}
 				{
@@ -2896,13 +2896,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§o\\\"Quest Loot stolen from unwilling players by a mysterious Highwayman\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§o\\\"任务奖励 stolen from unwilling players by a mysterious Highwayman\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§5Stolen §5§e§8§5Quest Loot\"}"
+								Name: "{\"text\":\"§5Stolen §5§e§8§5任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2932,9 +2932,9 @@
 			dependencies: ["39C7248750512A5B"]
 			description: [
 				"&e&o\"You ask yourself, it really free if I have to work for it?\""
-				"&6Hint:&r Gusters can be found in Desert Biomes"
-				"&6Hint:&r Witches can be found in Swamp Biomes"
-				"&6Hint:&r Naga can be found in Cliff Biomes"
+				"&6小贴士：&r Gusters can be found in Desert Biomes"
+				"&6小贴士：&r Witches can be found in Swamp Biomes"
+				"&6小贴士：&r Naga can be found in Cliff Biomes"
 			]
 			hide_until_deps_visible: true
 			icon: "artifacts:cross_necklace"
@@ -2945,7 +2945,7 @@
 					command: "/titles remove @p twilightforest:progress_naga"
 					icon: "titles:title_scroll_uncommon"
 					id: "1ADBE179E9FD58D2"
-					title: "&eUnlock Title: &rNaga Slayer"
+					title: "&e已解锁称号： &rNaga Slayer"
 					type: "command"
 				}
 				{
@@ -2969,13 +2969,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3055,7 +3055,7 @@
 		{
 			dependencies: ["0E64ACED3D987FB1"]
 			description: [
-			  "&6Hint:&r&e The Living Flame&r is a very rare item that can be found in a Jungle Temple, or by killing a Crazed Illager in a Mansion!"
+			  "&6小贴士：&r&e The Living Flame&r is a very rare item that can be found in a Jungle Temple, or by killing a Crazed Illager in a Mansion!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -3074,13 +3074,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3131,7 +3131,7 @@
 			description: [
 			  "The Brazier can be used to form a special &nmultiblock!&r Some say it can even ward off the undead!"
 			  ""
-			  "&eTip:&r You can create more Living Torches by clicking the &eBrazier&r with a regular torch! The Living Torch can be used to see the radius a Brazier covers! It will be useful later."
+			  "&e提示：&r You can create more Living Torches by clicking the &eBrazier&r with a regular torch! The Living Torch can be used to see the radius a Brazier covers! It will be useful later."
 			]
 			id: "1B7E8249B148B387"
 			rewards: [
@@ -3153,10 +3153,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3191,7 +3191,7 @@
 			dependencies: ["1B7E8249B148B387"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&eTip:&r Each level of the tower expands the range of effect by 10 blocks, with a maximum height of 10."
+				"&e提示：&r Each level of the tower expands the range of effect by 10 blocks, with a maximum height of 10."
 				"{image:modpack:textures/2023-08-15_19.32.57.png width:180 height:100 align:1}"
 			]
 			id: "50C0CB1FA648F8A8"
@@ -3209,10 +3209,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3253,9 +3253,9 @@
 		{
 			dependencies: ["466E13BECD4E53F9"]
 			description: [
-				"&6Hint:&r Sirens can be found rarely in Ocean Biomes!"
-				"&6Hint:&r Trolls can be found rarely Underground!"
-				"&6Hint:&r Ravagers can be found at Village Raids!"
+				"&6小贴士：&r Sirens can be found rarely in Ocean Biomes!"
+				"&6小贴士：&r Trolls can be found rarely Underground!"
+				"&6小贴士：&r Ravagers can be found at Village Raids!"
 				""
 			]
 			hide_until_deps_complete: true
@@ -3276,7 +3276,7 @@
 					command: "/titles add @p twilightforest:progress_troll"
 					icon: "titles:title_scroll_rare"
 					id: "4D2F17A6C8ADBB77"
-					title: "&eUnlock Title: &rTroll Slayer"
+					title: "&e已解锁称号： &rTroll Slayer"
 					type: "command"
 				}
 				{
@@ -3292,10 +3292,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3420,7 +3420,7 @@
 		{
 			dependencies: ["6A0049757CE230E6"]
 			description: [
-			  "&6Hint:&r Give a Heartstone to a friend and track them with your other Heartstone"
+			  "&6小贴士：&r Give a Heartstone to a friend and track them with your other Heartstone"
 			  "&d&nRequires Multiplayer"
 			]
 			hide_dependency_lines: true
@@ -3451,7 +3451,7 @@
 					command: "/titles add @p titles:friend"
 					icon: "titles:title_scroll_uncommon"
 					id: "311D7B4F8F95892A"
-					title: "&eUnlock Title:&r Best Friend Forever"
+					title: "&e已解锁称号：&r Best Friend Forever"
 					type: "command"
 				}
 				{
@@ -3467,13 +3467,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3505,9 +3505,9 @@
 			  ""
 			  "While dead you will become a &bGhost!&r You are invisible unless you interact with the world! or after 30 seconds when the effect wears off...  "
 			  ""
-			  "&6Hint:&r You can combine a Grave Key with certain items (such as an &eEye of Ender&r) to craft an &eEnchanted Key&r which can be used to teleport to your Tombstone by &eHolding Right Click"
+			  "&6小贴士：&r You can combine a Grave Key with certain items (such as an &eEye of Ender&r) to craft an &eEnchanted Key&r which can be used to teleport to your Tombstone by &eHolding Right Click"
 			  "{image:minecraft:textures/painting/skeleton.png width:150 height:100 align:1}"
-			  "&7Graveyard Tip:&r Your Tombstone is protected for 60 minutes, after that it will unlock and anyone (&oor thing&r&o ◉‿◉) &rcan interact with it!"
+			  "&7Graveyard 提示：&r Your Tombstone is protected for 60 minutes, after that it will unlock and anyone (&oor thing&r&o ◉‿◉) &rcan interact with it!"
 			  ""
 			]
 			hide_dependency_lines: true
@@ -3558,10 +3558,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3582,7 +3582,7 @@
 					command: "/titles add @p titles:slimy"
 					icon: "titles:title_scroll_uncommon"
 					id: "3F776B6D577373E7"
-					title: "&eUnlock Title:&r the Partycrasher"
+					title: "&e已解锁称号：&r the Partycrasher"
 					type: "command"
 				}
 				{
@@ -3618,7 +3618,7 @@
 			dependencies: ["0901DBD03773B644"]
 			description: [
 			  "Consider joining our Discord for support! We have a very active friendly community of over 30k users that would be happy to answer any questions you might have!"
-			  "&6Tip:&r &c&l&nDo not ping the goat!"
+			  "&6提示：&r &c&l&nDo not ping the goat!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -3664,7 +3664,7 @@
 			description: [
 				"It has been a full hour! In order to progress and unlock Questing you must sign the contract!"
 				""
-				"&eTip:&r It is advised that you sign the contract, otherwise I will be forced to take more.. drastic measures..."
+				"&e提示：&r It is advised that you sign the contract, otherwise I will be forced to take more.. drastic measures..."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -3757,9 +3757,9 @@
 			dependencies: ["39F2826F56D567B2"]
 			description: [
 			  "&c&lI CURSE YOU! I CURSE YOU! I CURSE YOU! GET CURSED! "
-			  "&eHint:&r You will be cursed every hour until you sign the contract! "
+			  "&e小贴士：&r You will be cursed every hour until you sign the contract! "
 			  ""
-			  "&6Tip:&r Sign th&kdd&re contr&kdd&ract n&k88&rext ti&khh&rme"
+			  "&6提示：&r Sign th&kdd&re contr&kdd&ract n&k88&rext ti&khh&rme"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -3794,7 +3794,7 @@
 					command: "/titles add @p titles:cursed"
 					icon: "titles:title_scroll_common"
 					id: "2321F39063FE8602"
-					title: "&eUnlock Title:&r The Cursed"
+					title: "&e已解锁称号：&r The Cursed"
 					type: "command"
 				}
 				{
@@ -4085,13 +4085,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4124,7 +4124,7 @@
 		{
 			dependencies: ["2193B157D17E53C0"]
 			description: [
-			  "&6Tip:&r &nBRING A SHIELD!"
+			  "&6提示：&r &nBRING A SHIELD!"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -4151,13 +4151,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4223,8 +4223,8 @@
 		{
 			dependencies: ["0901DBD03773B644"]
 			description: [
-				"&6Hint:&r The Quest Shop is located on the far right of the screen, you can identify it by the coin icon!"
-				"&eTip:&r You can find this item for sale at &e&n\"The Tavern\""
+				"&6小贴士：&r The Quest Shop is located on the far right of the screen, you can identify it by the coin icon!"
+				"&e提示：&r You can find this item for sale at &e&n\"The Tavern\""
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -4249,13 +4249,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4288,7 +4288,7 @@
 							Damage: 0
 							display: {
 								Lore: [
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
 									"{\"text\":\"§7§oThe Questmaster wore this boot every day for at least 80 Years! They found it at the bottom of a lake! Now you can have the pleasure of equipping it!\"}"
 								]
 							}
@@ -4333,7 +4333,7 @@
 			description: [
 				"Upon completing this quest, you will unlock the &dMini-Map&r and &dWorld-Map."
 				""
-				"&2Questmaster's Tip:&r To craft an &eExplorer's Map&r you will need to seek out a &3Villager Cartographer!&r"
+				"&2Questmaster's 提示：&r To craft an &eExplorer's Map&r you will need to seek out a &3Villager Cartographer!&r"
 				"Only they are capable of crafting such a unique item!"
 				"{image:modpack:textures/trade.png width:400 height:100 align:1 fit:true}"
 				""
@@ -4390,7 +4390,7 @@
 					command: "/titles add @p titles:cartographer"
 					icon: "titles:title_scroll_common"
 					id: "20216DFEC9BC37A4"
-					title: "&eUnlock Title:&r the Explorer"
+					title: "&e已解锁称号：&r the Explorer"
 					type: "command"
 				}
 				{
@@ -4406,13 +4406,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4539,7 +4539,7 @@
 					command: ""
 					icon: "titles:title_scroll_common"
 					id: "0708839C53992326"
-					title: "&eUnlock Title:&r the Spud Bud"
+					title: "&e已解锁称号：&r the Spud Bud"
 					type: "command"
 				}
 				{
@@ -4598,13 +4598,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4716,13 +4716,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4798,7 +4798,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "36E7A7C810531F22"
-					title: "&eUnlock Title:&r the Ungriefed"
+					title: "&e已解锁称号：&r the Ungriefed"
 					type: "command"
 				}
 				{
@@ -4813,7 +4813,7 @@
 			tasks: [
 				{
 					id: "28E207333A709293"
-					title: "&7Information Quest &e(Click To Complete)"
+					title: "&7Information Quest &e(点击完成任务)"
 					type: "checkmark"
 				}
 				{
@@ -4878,13 +4878,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4909,7 +4909,7 @@
 						id: "titles:title_scroll_uncommon"
 					}
 					id: "40EC7AF67CD8334D"
-					title: "&eUnlock Title:&r the Highwayman"
+					title: "&e已解锁称号：&r the Highwayman"
 					type: "command"
 				}
 			]
@@ -4938,7 +4938,7 @@
 			dependencies: ["2785A42DDDEB324C"]
 			description: [
 				""
-				"&6Hint:&r You can find Rattlesnakes in Desert Biomes!"
+				"&6小贴士：&r You can find Rattlesnakes in Desert Biomes!"
 				"&7&oDid you know that maracas have beans in them? :)"
 			]
 			hide_until_deps_visible: true
@@ -4959,13 +4959,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -5034,13 +5034,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -5088,7 +5088,7 @@
 							display: {
 								Lore: [
 									"{\"text\":\"§9§l[>] +1 Bonus Combat Roll Charge\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
 									"{\"text\":\"§7§oOwned by the legendary Dancing Cockroach. Gifted to one brilliant Player who listened to his Award-Winning tunes!\"}"
 								]
 								Name: "{\"text\":\"§eCockroach' Sombrero\"}"
@@ -5137,7 +5137,7 @@
 				""
 				"The tree chopping process takes just as long as regular tree chopping would except you only need to break one block making it primarily a quality of life feature. You can hold &dSHIFT&r to break logs as normal!"
 				""
-				"&eTip:&r Make sure to chop from the base block of the tree!"
+				"&e提示：&r Make sure to chop from the base block of the tree!"
 				"{image:modpack:textures/tree_chop.png width:200 height:110 align:1 fit:true}"
 			]
 			hide_until_deps_complete: true
@@ -5150,7 +5150,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "09D67CC3E34A1CAB"
-					title: "&eUnlock Title: &rthe Lumberjack"
+					title: "&e已解锁称号： &rthe Lumberjack"
 					type: "command"
 				}
 				{
@@ -5215,13 +5215,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -5286,7 +5286,7 @@
 		{
 			dependencies: ["39C7248750512A5B"]
 			description: [
-			  "&eTip:&r You need to activate the rift before you can use it, interact to activate it!"
+			  "&e提示：&r You need to activate the rift before you can use it, interact to activate it!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -5321,13 +5321,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -5363,8 +5363,8 @@
 				"Upon placing the inventory can be opened by &dRight-Clicking&r."
 				"Upon breaking &eThe Toolbox&r will retain its inventory! "
 				""
-				"&eTip:&r This item can be dyed!"
-				"&6Hint:&r &eThe Toolbox&r is very helpful for storing bonus tools such as Pickaxes!"
+				"&e提示：&r This item can be dyed!"
+				"&6小贴士：&r &eThe Toolbox&r is very helpful for storing bonus tools such as Pickaxes!"
 			]
 			hide_until_deps_visible: true
 			id: "2193B157D17E53C0"
@@ -5416,8 +5416,8 @@
 				"Upon summoning &eLuggage&r, they will capture your dropped items... and your heart! &d♡ "
 				"But most importantly of all, &eLuggage&r is a portable chest who will follow you to the ends of the Overworld! "
 				""
-				"&6Hint:&r You can strike Luggage with lightning to &7&osupercharge&r your pal!"
-				"&eTip:&r You can press &dShift + Right Click&r to pick up Luggage."
+				"&6小贴士：&r You can strike Luggage with lightning to &7&osupercharge&r your pal!"
+				"&e提示：&r You can press &dShift + Right Click&r to pick up Luggage."
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -5442,13 +5442,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -5507,8 +5507,8 @@
 				"The Mimic can be found rarely underground and in Dungeons."
 				"It's deceptive nature might fool unsuspecting adventurers but you've got me to guide you! &oHurrah!"
 				""
-				"&6Hint:&r The Mimic hides under the guise as a regular chest. You can easily find a Mimic by looking for it's main tell.. &eGreen Particles&r as it always will spawn as a &dChampion Mob."
-				"&eTip:&r Upon killing a Mimic, they will drop a &7\"Curios Cache\"&r"
+				"&6小贴士：&r The Mimic hides under the guise as a regular chest. You can easily find a Mimic by looking for it's main tell.. &eGreen Particles&r as it always will spawn as a &dChampion Mob."
+				"&e提示：&r Upon killing a Mimic, they will drop a &7\"Curios Cache\"&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -5535,13 +5535,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -5566,7 +5566,7 @@
 						id: "titles:title_scroll_uncommon"
 					}
 					id: "6CEB3FD8B81DAFC6"
-					title: "&eUnlock Title:&r the Chest Slayer"
+					title: "&e已解锁称号：&r the Chest Slayer"
 					type: "command"
 				}
 				{
@@ -5637,13 +5637,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -5725,7 +5725,7 @@
 				""
 				"Upon dying, a &dWaypoint&r will be created at your point of death! You can place &dWaypoints&r in the world while inside the &6Worldmap. "
 				""
-				"&eTip:&r Running over your most recent Deathpoint will automatically remove it!"
+				"&e提示：&r Running over your most recent Deathpoint will automatically remove it!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -5760,7 +5760,7 @@
 			subtitle: "Learn about the &6World-Map&r and &6Mini-Map!"
 			tasks: [{
 				id: "23494903ED6F8EF5"
-				title: "&7Information Quest &e(Click To Complete)"
+				title: "&7Information Quest &e(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "&3It's Learning Time!"
@@ -5773,7 +5773,7 @@
 				"Fed up with unexpected visitors?"
 				"The &eNo Soliciting Sign&r will prevent &dWandering Traders&r from appearing within 10 Chunks of the sign! "
 				""
-				"&eTip:&r Modded Traders are affected too!"
+				"&e提示：&r Modded Traders are affected too!"
 				""
 				"&7Begone! Your goods are not wanted here!"
 				""
@@ -5864,7 +5864,7 @@
 			subtitle: "&eA WILD BARRY HAS APPEARED!"
 			tasks: [{
 				id: "7507DFFC3D37B44B"
-				title: "&6BARRY! HOLY MOLY! :O &r&7(Click To Complete)"
+				title: "&6BARRY! HOLY MOLY! :O &r&7(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "&6BARRY! "
@@ -5874,7 +5874,7 @@
 		{
 			dependencies: ["7A195730508F9A23"]
 			description: [
-				"&6Hint:&r The &eDwarven Map Expedition&r will reveal itself to you once you've discovered all of the rare underground biomes... Or so the rumour says..."
+				"&6小贴士：&r The &eDwarven Map Expedition&r will reveal itself to you once you've discovered all of the rare underground biomes... Or so the rumour says..."
 				"See the Quest Chapter &d\"Mining (iii)\"&r for more info!"
 			]
 			hide_until_deps_visible: true
@@ -5901,7 +5901,7 @@
 					command: "/titles add @p titles:honeydew"
 					icon: "titles:title_scroll_uncommon"
 					id: "3592C1B7F47C4A94"
-					title: "&eUnlock Title:&r of Honeydew"
+					title: "&e已解锁称号：&r of Honeydew"
 					type: "command"
 				}
 			]
@@ -5922,7 +5922,7 @@
 			description: [
 				"The &eTool Belt&r allows you to quickly equip and swap tools by pressing the &dKeybind!&r &o*(Make sure to rebind!)"
 				""
-				"&6Hint:&r Upon crafting you will have two tool slots available, this can be upgraded with a &eBelt Pouch&r however!"
+				"&6小贴士：&r Upon crafting you will have two tool slots available, this can be upgraded with a &eBelt Pouch&r however!"
 			]
 			hide_until_deps_complete: true
 			id: "7587621A1020896E"
@@ -5950,13 +5950,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -5998,8 +5998,8 @@
 				"Only &lVAMPIRES&r can see this Quest!"
 				"Over the next &eMinecraft Day&r you will begin to unlock your &lVAMPIRIC POWER!&r BUT! You will need to change your diet.... ;) "
 				""
-				"&e&lTip:&r Hold the ' &6&l-&r ' Key to suck an animals blood!"
-				"&6&lHint:&r As a Pureblood, you will start as a Level 2 Vampire!"
+				"&e&l提示：&r Hold the ' &6&l-&r ' Key to suck an animals blood!"
+				"&6&l小贴士：&r As a Pureblood, you will start as a Level 2 Vampire!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -6036,7 +6036,7 @@
 					command: "/titles add @p titles:pureblood"
 					icon: "titles:title_scroll_uncommon"
 					id: "5410C673D96ED620"
-					title: "&eUnlock Title:&r the Pureblood"
+					title: "&e已解锁称号：&r the Pureblood"
 					type: "command"
 				}
 				{
@@ -6078,7 +6078,7 @@
 				""
 				"&c&lLOOKS LIKE MEATS BACK ON THE MENU BOYS! &r&7&oor not.. maybe you are a vegetarian orc, they exist!"
 				""
-				"&eTip:&r Orcs are much slower to Combat Roll, they are simply quite clumsy!"
+				"&e提示：&r Orcs are much slower to Combat Roll, they are simply quite clumsy!"
 			]
 			hide_dependency_lines: true
 			id: "7E01FC28ED15AF36"
@@ -6103,7 +6103,7 @@
 					command: "/titles add @p titles:orc"
 					icon: "titles:title_scroll_uncommon"
 					id: "500633A5FF7F16F9"
-					title: "&eUnlock Title:&r the Orc"
+					title: "&e已解锁称号：&r the Orc"
 					type: "command"
 				}
 				{
@@ -6158,7 +6158,7 @@
 				""
 				"&eI'M A DWARF AND I'M DIGGING A HOLE.. DIGGY DIGGY HOLE I'M DIGGING A HOLE! &r&7You sing to yourself... This song was huge with the Dwarven youth.. about 10 years ago.. gosh you feel old.."
 				""
-				"&eTip:&r Dwarves are much slower to Combat Roll, they are simply quite clumsy!"
+				"&e提示：&r Dwarves are much slower to Combat Roll, they are simply quite clumsy!"
 			]
 			hide_dependency_lines: true
 			id: "23D0DE2451330108"
@@ -6191,7 +6191,7 @@
 					command: "/titles add @p titles:dwarf"
 					icon: "titles:title_scroll_common"
 					id: "4D98C0B443CD9B38"
-					title: "&eUnlock Title:&r the Dwarf"
+					title: "&e已解锁称号：&r the Dwarf"
 					type: "command"
 				}
 				{
@@ -6290,7 +6290,7 @@
 					command: "/titles add @p titles:human"
 					icon: "titles:title_scroll_common"
 					id: "2E828F712E1C1E2E"
-					title: "&eUnlock Title:&r the Human"
+					title: "&e已解锁称号：&r the Human"
 					type: "command"
 				}
 			]
@@ -6313,7 +6313,7 @@
 				""
 				"While in a team your Quest progress is shared! Only invite people you trust into your team! "
 				""
-				"&a&lQuestmasters Tip:&r It can sometimes get a little confusing playing with multiple people on one team, cooperation and communication is advised when completing Quests.. otherwise you may not experience gameplay as intended!"
+				"&a&lQuestmasters 提示：&r It can sometimes get a little confusing playing with multiple people on one team, cooperation and communication is advised when completing Quests.. otherwise you may not experience gameplay as intended!"
 				""
 				"{image:modpack:textures/party.png width:350 height:100 align:1 fit:true}"
 				""
@@ -6336,7 +6336,7 @@
 			tasks: [{
 				icon: "citadel:citadel_book"
 				id: "5D5179EE26794186"
-				title: "Information Quest &e(Click To Complete)"
+				title: "Information Quest &e(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "&dCreating a TEAM!"
@@ -6347,7 +6347,7 @@
 			dependencies: ["740DD4098893630E"]
 			description: [
 				"Spend some time learning how to be a goat.. there are a lot of lessons one can learn from goats!"
-				"&6Hint:&r There are no hints... there are no shortcuts.. Study the goat and you shall be rewarded tenfold!"
+				"&6小贴士：&r There are no hints... there are no shortcuts.. Study the goat and you shall be rewarded tenfold!"
 				""
 				"&7&oDid you CHEAT and BURY a goat or build a dirt wall around it or something? if so, shame on you! SHAME! if not, well done I'm proud of you xoxo."
 			]
@@ -6381,7 +6381,7 @@
 						id: "titles:title_scroll_uncommon"
 					}
 					id: "626960F9F8D32E9A"
-					title: "&eUnlock Title:&r the Goat Whisperer"
+					title: "&e已解锁称号：&r the Goat Whisperer"
 					type: "command"
 				}
 			]
@@ -6503,7 +6503,7 @@
 						id: "titles:title_scroll_common"
 					}
 					id: "0E2AD0D840200737"
-					title: "&eUnlock Title:&r the Interior Decorator"
+					title: "&e已解锁称号：&r the Interior Decorator"
 					type: "command"
 				}
 				{
@@ -6539,7 +6539,7 @@
 				"It is time. We need to enter The Nether!"
 				"The Nether is full of valuble resources, multiple Legendary Eyes among other valuble treasures to claim!"
 				""
-				"&6Hint:&r Use the Flint and Steel on the portal frame!"
+				"&6小贴士：&r Use the Flint and Steel on the portal frame!"
 				"&4Note:&r Entering The Nether will start EXPERT MODE! "
 			]
 			icon: "minecraft:obsidian"
@@ -6564,13 +6564,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -6680,9 +6680,9 @@
 		{
 			dependencies: ["71D5E6B384A55A8A"]
 			description: [
-				"&6Hint:&r Use your &e\"Soul Star&r to find the tower easier! Simply throw it like an Eye of Ender."
+				"&6小贴士：&r Use your &e\"Soul Star&r to find the tower easier! Simply throw it like an Eye of Ender."
 				""
-				"&2Questmaster's Tip:&r "
+				"&2Questmaster's 提示：&r "
 				"&dThe Brimstone Nectar&r can be used to reset the structure if you are playing on Multiplayer and someone has already gotten there first! Or you made a mistake and need to try again!"
 				"Here is one for free! Use it wisely!"
 			]
@@ -6708,13 +6708,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -6762,7 +6762,7 @@
 				""
 				"Something which has been impossible for hundreds of years..."
 				""
-				"&eTip:&r Entering The Nether will begin &cExpert Mode.&r If you don't know what that is, check out the chapter &6\"Difficulty Modes\""
+				"&e提示：&r Entering The Nether will begin &cExpert Mode.&r If you don't know what that is, check out the chapter &6\"Difficulty Modes\""
 			]
 			icon: "kubejs:nether_item"
 			id: "0E64ACED3D987FB1"
@@ -6786,13 +6786,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -6930,13 +6930,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -7054,7 +7054,7 @@
 		{
 			dependencies: ["2785A42DDDEB324C"]
 			description: [
-			  "&eTip: These Chests should not be broken, they will hold new loot for other players. If you play Singleplayer, this can be ignored."
+			  "&e提示： These Chests should not be broken, they will hold new loot for other players. If you play Singleplayer, this can be ignored."
 			]
 			hide_until_deps_complete: true
 			id: "0996441A4E4A4434"
@@ -7072,10 +7072,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -7118,7 +7118,7 @@
 				"Jumping off cliffs or into deep ravines? Gliders got you covered!"
 				"Simply equip in your &dGlider Curio Slot&r and upon pressing spacebar mid-air you will activate your glider!"
 				""
-				"&6Hint:&r Try flying your glider in third person! It is far easier to control and looks awesome!"
+				"&6小贴士：&r Try flying your glider in third person! It is far easier to control and looks awesome!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -7137,10 +7137,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -7183,9 +7183,9 @@
 				"The Iron Paraglider (and all other upgraded Paragliders) boost your durability greatly! "
 				"Allowing for longer travel! "
 				""
-				"&eTip:&r Paragliders can also be enchanted with &dUnbreaking&r or &dMending!"
+				"&e提示：&r Paragliders can also be enchanted with &dUnbreaking&r or &dMending!"
 				""
-				"&6Hint:&r Be careful gliding during bad weather, lightning tends to like to strike objects flying in the sky! "
+				"&6小贴士：&r Be careful gliding during bad weather, lightning tends to like to strike objects flying in the sky! "
 				"However, you can craft a &dCopper Upgrade&r. "
 				"Which when combined with a Paraglider in an Anvil will make it more resilient!"
 			]
@@ -7213,13 +7213,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -7267,10 +7267,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -7370,7 +7370,7 @@
 				""
 				"&dJEI Shortcuts:&r &e'U'&r for Usage and &e'R'&r for Recipe!"
 				""
-				"&eTip:&r It is normal to feel overwhelmed when starting a new modpack, especially one as large and comprehensive as MC Eternal. I would suggest taking your time and slowly going through the Quest Book at your own pace. "
+				"&e提示：&r It is normal to feel overwhelmed when starting a new modpack, especially one as large and comprehensive as MC Eternal. I would suggest taking your time and slowly going through the Quest Book at your own pace. "
 				""
 				"You could play the game as if it were Vanilla and slowly learn new mechanics as you progress, that way you might feel less overwhelm with all of the options."
 				""
@@ -7391,7 +7391,7 @@
 			subtitle: "Learn About The Interface!"
 			tasks: [{
 				id: "731A0AB14269F8C2"
-				title: "&eInfo Quest - &r(Click To Complete)"
+				title: "&eInfo Quest - &r(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "Navigating The UI &e(Part I)"
@@ -7409,7 +7409,7 @@
 				""
 				"Upon dying, a &dWaypoint&r will be created at your point of death! You can place &dWaypoints&r in the world while inside the &6Worldmap. "
 				""
-				"&eTip:&r Running over your most recent Deathpoint will automatically remove it!"
+				"&e提示：&r Running over your most recent Deathpoint will automatically remove it!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -7426,7 +7426,7 @@
 			subtitle: "Learn About The Interface!"
 			tasks: [{
 				id: "7B310F44D8C2DE1A"
-				title: "&eInfo Quest - &r(Click To Complete)"
+				title: "&eInfo Quest - &r(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "Navigating The UI &e(Part II)"
@@ -7446,7 +7446,7 @@
 				"Thankfully you have me! "
 				"&d<shake>The QUESTMASTER! "
 				""
-				"&eTip:&r You can find Waystones by exploring! Upon interacting with one you can teleport to and from it!"
+				"&e提示：&r You can find Waystones by exploring! Upon interacting with one you can teleport to and from it!"
 				"The process is a &otad expensive&r on the experience side, so I suggest using them sparingly! "
 				""
 				"I would encourage you to create some sort of other means of transport for frequent use!"
@@ -7525,13 +7525,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -7575,7 +7575,7 @@
 			description: [
 				"The Crafting Station is an improved Crafting Table!"
 				""
-				"&6Tip:&r Items left in The Crafting Station will remain there even if you exit out of the GUI!"
+				"&6提示：&r Items left in The Crafting Station will remain there even if you exit out of the GUI!"
 			]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
@@ -7626,13 +7626,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -7663,7 +7663,7 @@
 				"Hmmm.. where is The Tower Guardian gone?"
 				"It seems we can insert a &eSoul Star&r into each &eStone Altar&r... Perhaps that will summon him.."
 				""
-				"&6Hint:&r After activating each &eStone Altar&r a boss fight will begin, come prepared! "
+				"&6小贴士：&r After activating each &eStone Altar&r a boss fight will begin, come prepared! "
 				"&o(I suggest bringing a ranged weapon!)"
 			]
 			id: "30C3D95400D49AE4"
@@ -7720,13 +7720,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -7780,13 +7780,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -7872,13 +7872,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -7914,7 +7914,7 @@
 				""
 				"&8Unlikely... they HATE to be disturbed..."
 				""
-				"&6Hint:&r Wise Oak also uh.. has a very high Enchanting Power. It makes nearby Enchanting Tables produce stronger enchants... Something tells me they won't like that very much however. "
+				"&6小贴士：&r Wise Oak also uh.. has a very high Enchanting Power. It makes nearby Enchanting Tables produce stronger enchants... Something tells me they won't like that very much however. "
 				"Silk Touch is required!"
 			]
 			icon: "mysticaloaktree:wise_oak"
@@ -7942,13 +7942,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -8013,13 +8013,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -8210,7 +8210,7 @@
 			description: [
 				"Why did you milk that creeper? What possessed you to do that? "
 				""
-				"&6Hint:&r You should &odefinitely&r drink it."
+				"&6小贴士：&r You should &odefinitely&r drink it."
 			]
 			id: "276D83E0EB2A07D6"
 			invisible: true
@@ -8235,13 +8235,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {

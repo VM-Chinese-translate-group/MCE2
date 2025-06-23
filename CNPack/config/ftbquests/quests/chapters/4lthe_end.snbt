@@ -76,7 +76,7 @@
 			]
 			description: [
 				""
-				"&eTip:&r You cannot use a standard &eEye of Ender&r inside an &dAncient Portal Frame"
+				"&e提示：&r You cannot use a standard &eEye of Ender&r inside an &dAncient Portal Frame"
 			]
 			icon: {
 				Count: 1
@@ -104,7 +104,7 @@
 						id: "titles:title_scroll_rare"
 					}
 					id: "0513FC884C2493C4"
-					title: "&eUnlock Title:&r the Conqueror"
+					title: "&e已解锁称号：&r the Conqueror"
 					type: "command"
 				}
 				{
@@ -125,13 +125,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -153,9 +153,7 @@
 		}
 		{
 			dependencies: ["5406B7F8719CFC26"]
-			description: [
-			  "{image:modpack:textures/end_portal.png width:200 height:110 align:1}"
-			]
+			description: ["{image:modpack:textures/end_portal.png width:200 height:110 align:1}"]
 			id: "0B0289E1D66B61D1"
 			rewards: [
 				{
@@ -176,13 +174,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -232,9 +230,9 @@
 				"You will need to seek out &e\"The 12 Legendary Eyes\"&r."
 				"See The Chapter &d\"End Progression\"&r for more information."
 				"{image:modpack:textures/end_portal_room.png width:200 height:110 align:1 fit:true}"
-				"&eTip:&r You cannot use a standard &eEye of Ender&r to locate the portal room. You must use one of &eThe Legendary Eyes!&r"
+				"&e提示：&r You cannot use a standard &eEye of Ender&r to locate the portal room. You must use one of &eThe Legendary Eyes!&r"
 				""
-				"&6Hint:&r Legendary Eyes do not break! But be careful not to lose one! You can purchase a \"Replica Eye\" once you've collected &eThe Golem Eye&r. It can be purchased from &dThe Quest Shop&r and can be used to safely locate &eThe Portal Room&r"
+				"&6小贴士：&r Legendary Eyes do not break! But be careful not to lose one! You can purchase a \"Replica Eye\" once you've collected &eThe Golem Eye&r. It can be purchased from &dThe Quest Shop&r and can be used to safely locate &eThe Portal Room&r"
 			]
 			id: "5406B7F8719CFC26"
 			rewards: [
@@ -256,13 +254,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§b§7§o§b右击打开\"}"
+									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！\\\"\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -316,13 +314,13 @@
 						HideFlags: 33
 						display: {
 							Lore: [
-								"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-								"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-								"{\"text\":\"§5§6✎ §nLore Text\"}"
-								"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+								"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+								"{\"text\":\"§b§7§o§b右击打开\"}"
+								"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
+								"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！\\\"\"}"
 								"{\"text\":\"\"}"
 							]
-							Name: "{\"text\":\"§eQuest Loot\"}"
+							Name: "{\"text\":\"§e任务奖励\"}"
 						}
 						"quark:RuneAttached": 1b
 						"quark:RuneColor": {
@@ -356,9 +354,7 @@
 		}
 		{
 			dependencies: ["253E532D09E3AA9B"]
-			description: [
-			  "The Ender Dragon rests upon its lair forged outside of spacetime, located inside the void this beast exists outside of time and seems to play an important role in the balance between The Nether and The Overworld"
-			]
+			description: ["The Ender Dragon rests upon its lair forged outside of spacetime, located inside the void this beast exists outside of time and seems to play an important role in the balance between The Nether and The Overworld"]
 			hide_dependency_lines: true
 			id: "46C671151AE613A1"
 			rewards: [
@@ -406,7 +402,7 @@
 						id: "titles:title_scroll_rare"
 					}
 					id: "3E9991B626495847"
-					title: "&eUnlock Title: &rthe Harbinger of Doom"
+					title: "&e已解锁称号： &rthe Harbinger of Doom"
 					type: "command"
 				}
 				{

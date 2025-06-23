@@ -1,5 +1,5 @@
 {
-	hide_tooltip: true
+	hide_tool提示： true
 	icon: "supplementaries:present_purple"
 	id: "1D440C86A56F58F6"
 	loot_size: 1

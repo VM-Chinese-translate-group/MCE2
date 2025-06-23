@@ -42,7 +42,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "5F35CA25829786CE"
-					title: "&eUnlock Title:&r Deathbane"
+					title: "&e已解锁称号：&r Deathbane"
 					type: "command"
 				}
 				{
@@ -285,7 +285,7 @@
 					command: "/titles add @p titles:eternal"
 					icon: "titles:title_scroll_uncommon"
 					id: "7222774AF5F36394"
-					title: "&eUnlock Title:&r The Eternal"
+					title: "&e已解锁称号：&r The Eternal"
 					type: "command"
 				}
 			]
@@ -493,7 +493,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "21081C69D2D6D614"
-					title: "&eUnlock Title:&r National Hero"
+					title: "&e已解锁称号：&r National Hero"
 					type: "command"
 				}
 				{
@@ -550,7 +550,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "1BFA50BC20FC458D"
-					title: "&eUnlock Title:&r Timelord"
+					title: "&e已解锁称号：&r Timelord"
 					type: "command"
 				}
 				{
@@ -567,10 +567,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -668,7 +668,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "712EF8F3DD71113D"
-					title: "&eUnlock Title:&r Master Angler"
+					title: "&e已解锁称号：&r Master Angler"
 					type: "command"
 				}
 				{
@@ -884,7 +884,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "4807F30E0FEAEDBF"
-					title: "&eUnlock Title:&r Master Chef"
+					title: "&e已解锁称号：&r Master Chef"
 					type: "command"
 				}
 				{
@@ -970,7 +970,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "41C61D6A61ED9270"
-					title: "&eUnlock Title:&r The Millionare"
+					title: "&e已解锁称号：&r The Millionare"
 					type: "command"
 				}
 				{
@@ -1509,7 +1509,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "10DAFAB1AC4B0F0F"
-					title: "&eUnlock Title:&r Dragon Slayer"
+					title: "&e已解锁称号：&r Dragon Slayer"
 					type: "command"
 				}
 				{
@@ -1586,7 +1586,7 @@
 			subtitle: "What are Challenge Quests?"
 			tasks: [{
 				id: "7E73744AAA758DBE"
-				title: "&7Information Quest&r&e (Click To Complete)"
+				title: "&7Information Quest&r&e (点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "&6&l&nChallenge Quests"
@@ -1623,10 +1623,10 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
+									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
+									"{\"text\":\"§7§o右击打开\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"text\":\"§e任务奖励\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1659,7 +1659,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "0EF672DD9B345BB1"
-					title: "&eUnlock Title:&r Mr Electric"
+					title: "&e已解锁称号：&r Mr Electric"
 					type: "command"
 				}
 				{
@@ -1703,7 +1703,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "3391A536F4D39348"
-					title: "&eUnlock Title:&r the Tiny Potato"
+					title: "&e已解锁称号：&r the Tiny Potato"
 					type: "command"
 				}
 				{
@@ -1763,7 +1763,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "643B91E57C589E0E"
-					title: "&eUnlock Title:&r The Loremaster"
+					title: "&e已解锁称号：&r The Loremaster"
 					type: "command"
 				}
 				{
@@ -1807,7 +1807,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "29768140ED89DB31"
-					title: "&eUnlock Title:&r King of the Chickens"
+					title: "&e已解锁称号：&r King of the Chickens"
 					type: "command"
 				}
 				{
@@ -1847,7 +1847,7 @@
 			description: [
 				"Name a Cow &e\"Ghast\"&r with a Nametag and have a Ghast kill it..."
 				"What happens next? only Glob knows..."
-				"&6Tip:&r &oGood luck :)"
+				"&6提示：&r &oGood luck :)"
 				""
 				"&e\"Brace yourself for udder devastation! your very blood will &ocurdle in fear!\" &r&d- Magicdealer"
 				""
@@ -1866,7 +1866,7 @@
 					command: "/titles add @p titles:ghow"
 					icon: "titles:title_scroll_rare"
 					id: "6F095FAF0E97DB2C"
-					title: "&eUnlock Title:&r The Ghow Slayer"
+					title: "&e已解锁称号：&r The Ghow Slayer"
 					type: "command"
 				}
 				{
@@ -1942,7 +1942,7 @@
 					command: "/titles add @p titles:angel"
 					icon: "titles:title_scroll_rare"
 					id: "688BDCF0348DE9F5"
-					title: "&eUnlock Title:&r the Enlightened"
+					title: "&e已解锁称号：&r the Enlightened"
 					type: "command"
 				}
 				{
@@ -1977,7 +1977,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "1365D7093281C20B"
-					title: "&eUnlock Title:&r Die-a-Lot"
+					title: "&e已解锁称号：&r Die-a-Lot"
 					type: "command"
 				}
 				{
@@ -2023,7 +2023,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "05898EA59FFAFF41"
-					title: "&eUnlock Title:&r the Trashman"
+					title: "&e已解锁称号：&r the Trashman"
 					type: "command"
 				}
 				{
