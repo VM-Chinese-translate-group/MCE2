@@ -753,15 +753,6 @@
 			y: 5.362244897959187d
 		}
 		{
-			dependency: "63BE430594510F43"
-			height: 0.5d
-			image: "minecraft:block/cave_vines_lit"
-			rotation: 0.0d
-			width: 0.5d
-			x: 6.061224489795919d
-			y: -1.5612244897959187d
-		}
-		{
 			dependency: "3332943281ADBEF1"
 			height: 0.7d
 			image: "minecraft:block/cave_vines_plant"
@@ -1044,7 +1035,7 @@
 			y: -1.7562925170067842d
 		}
 		{
-			dependency: "557F3F9449D4CEB7"
+			dependency: "28EA646E95041E52"
 			height: 0.6d
 			image: "minecraft:block/kelp_plant"
 			order: 90
@@ -1054,7 +1045,7 @@
 			y: -0.04200680272106894d
 		}
 		{
-			dependency: "557F3F9449D4CEB7"
+			dependency: "28EA646E95041E52"
 			height: 0.6d
 			image: "minecraft:block/kelp_plant"
 			order: 90
@@ -1879,7 +1870,7 @@
 				item: "minecraft:torch"
 				type: "item"
 			}]
-			title: "如何活过第一晚（第三部分：光亮）"
+			title: "合成点&e火把！"
 			x: 6.6d
 			y: -0.6d
 		}
@@ -2330,15 +2321,9 @@
 				}
 				{
 					command: "/titles add @p titles:turtle"
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "titles:title_scroll_rare"
-					}
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
 					id: "0F85C97171F04A3A"
 					title: "&e已解锁称号：&r the Turtle Lord"
 					type: "command"
@@ -2645,7 +2630,7 @@
 			y: -1.4d
 		}
 		{
-			dependencies: ["557F3F9449D4CEB7"]
+			dependencies: ["0A83851FAF756CC0"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "588D0B37BFB8A848"
@@ -2709,7 +2694,7 @@
 				{
 					icon: "minecraft:heart_of_the_sea"
 					id: "4A584E53D38BC760"
-					observe_type: 0
+					observe_type: 5
 					timer: 0L
 					title: "&eDolphin Teamwork"
 					to_observe: "minecraft:dolphin"
@@ -4770,6 +4755,13 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "6D2BFE6457434310"
+			rewards: [{
+				amount: 40L
+				currency: "eternalcurrencies:coins"
+				id: "031824C7AFC2276E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			size: 0.6d
 			subtitle: "Craft a &eCrafting Table on a Stick"
 			tasks: [{
@@ -4792,8 +4784,8 @@
 				""
 				""
 				"{image:modpack:textures/claim.png width:200 height:100 align:1}"
-				"&7The Claimed Chunk Map can be found in the &d&lTop-Left&r&7 of your inventory! &e(Click Twice)"
-				""
+				"&6Hint:&r You can use /sethome and /home to teleport back!"
+
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -4808,11 +4800,6 @@
 					id: "36E7A7C810531F22"
 					title: "&e已解锁称号：&r the Ungriefed"
 					type: "command"
-				}
-				{
-					id: "574B1899776FF22F"
-					item: "supplementaries:doormat"
-					type: "item"
 				}
 				{
 					id: "48831F1E33F11013"
@@ -6693,7 +6680,7 @@
 		{
 			dependencies: ["71D5E6B384A55A8A"]
 			description: [
-				"&6小贴士：&r Use your &e\"Questing Compass\"&r to find the tower easier! It can be unlocked by completing the quest &e\"Finding Your Way\"&r which is located in the introduction chapter."
+				"&6小贴士：&r Use your &e\"Soul Star&r to find the tower easier! Simply throw it like an Eye of Ender."
 				""
 				"&2Questmaster's 提示：&r "
 				"&dThe Brimstone Nectar&r can be used to reset the structure if you are playing on Multiplayer and someone has already gotten there first! Or you made a mistake and need to try again!"
@@ -6835,11 +6822,9 @@
 			size: 0.8d
 			subtitle: "Defeat The Night Lich!"
 			tasks: [{
-				entity: "bosses_of_mass_destruction:lich"
-				icon: "alshanex_familiars:necromancer_trinket"
-				id: "3E0678F0E8F51536"
-				type: "kill"
-				value: 1L
+				id: "49F0D72069EF5FA5"
+				item: "kubejs:nether_item"
+				type: "item"
 			}]
 			title: "&dYou Are No Guardian!"
 			x: 15.938775510204081d
@@ -7669,8 +7654,8 @@
 				type: "item"
 			}]
 			title: "&6The Magic Pouch"
-			x: 11.329931972789105d
-			y: 0.965816326530593d
+			x: 12.11343537414966d
+			y: 0.3054421768707485d
 		}
 		{
 			dependencies: ["388820C218B2F935"]
@@ -7704,67 +7689,6 @@
 			title: "&6Anyone Home?"
 			x: 15.319727891156461d
 			y: -0.18214285714287115d
-		}
-		{
-			dependencies: ["671B867E8793CFB4"]
-			description: [
-				"&eThe Mount Bauble&r can store a mount for later! Such as a horse, or an elephant!"
-				"No more wandering around putting horses on leads! Stick em in your Mount Bauble!"
-				""
-				"&6小贴士：&r Additionally, &eThe Vehicle Key&r can store non-living mounts! Such as Minecarts or Planes."
-			]
-			hide_until_deps_complete: true
-			id: "1005EF0AB6571043"
-			rewards: [
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "38C54312B21EB43B"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "223582E26F2D93D4"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§o里面有一件随机的特别物品！\"}"
-									"{\"text\":\"§b§7§o§b右击打开\"}"
-									"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"这些五花八门的有用物品是从任务大师的地下室壁橱里翻出来的，而它们被重新打包了一下以后就成了你的奖励！!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§e任务奖励\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
-			size: 0.6d
-			subtitle: "Craft a &eMount Bauble"
-			tasks: [{
-				id: "37DF1FF3C8674B11"
-				item: "baublemounts:mount_bauble"
-				type: "item"
-			}]
-			x: 6.079421768707455d
-			y: -1.8374149659863974d
 		}
 		{
 			dependencies: ["33DBFD4B00935B0A"]
@@ -8050,7 +7974,7 @@
 				icon: "mysticaloaktree:wise_oak"
 				id: "6C6C14177DAC7A0E"
 				observe_type: 0
-				timer: 100L
+				timer: 50L
 				title: "&dHuh?"
 				to_observe: "mysticaloaktree:wise_oak"
 				type: "observation"
