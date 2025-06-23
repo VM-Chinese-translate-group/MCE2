@@ -6,7 +6,7 @@
 	group: "0194595A09DF4755"
 	icon: "rats:oratchalcum_ingot"
 	id: "354EC5421E6F7BCD"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

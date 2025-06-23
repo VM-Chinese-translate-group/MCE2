@@ -4,8 +4,6 @@ ItemEvents.tooltip(event => {
 	event.add('%pitchperfect', Text.of('Changes note depending on where you look!').color('#FFFFFF')); 
 	event.add('kubejs:artifact_ghoul_heart', Text.of('§7§oStill beating in your hands..').color('#FFFFFF')); 
 	event.add('cgs:revolver', Text.of('§7§oCan be duel wielded!').color('#FFFFFF')); 
-	event.add('mekanism:osmium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
-	event.add('mekanism:deepslate_osmium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
 	event.add('cataclysm:ignitium_block', Text.of('§oWhat a flex...').color('#FFFFFF'));
 	event.add('kubejs:artifact_endergem', Text.of('§7Can be crafted with a §eGrave Key§7 to create §dEnchanted Grave Key').color('#FFFFFF'));
 	event.add('kubejs:artifact_endergem', Text.of('§7§oThe stone feels heavy... if you listen very closely you can hear the souls that are trapped within..').color('#FFFFFF'));

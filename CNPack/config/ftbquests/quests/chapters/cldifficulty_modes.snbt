@@ -509,7 +509,7 @@
 			  ""
 			  "&eNormal Mode &r- The Default "
 			  "&cExpert Mode &r- Unlocked by entering The Nether"
-			  "&dMaster Mode &r- Unlocked by defeating The Ender Dragon"
+			  "&dExpert Mode &r- Unlocked by defeating The Ender Dragon"
 			  ""
 			  "{image:modpack:textures/barry.png width:100 height:100 align:1}"
 			  "Barry in Normal Mode"

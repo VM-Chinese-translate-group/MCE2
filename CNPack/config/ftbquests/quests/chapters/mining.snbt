@@ -45,10 +45,7 @@
 		{
 			dependencies: ["4789D17B88722641"]
 			description: [
-				"Ol' Reliable"
-				""
-				"&eTip:&r Hold SHIFT while mining an ore vein to excavate!"
-
+			  "Ol' Reliable"
 			]
 			hide_until_deps_complete: true
 			id: "39AD340D4971B4F5"

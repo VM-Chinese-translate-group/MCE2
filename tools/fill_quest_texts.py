@@ -7,7 +7,7 @@ import datetime
 # ▼▼▼ 请在这里设置您要处理的文件夹的完整路径 ▼▼▼
 # ===============================================================
 
-TARGET_FOLDER_PATH = r"CNPack/config/ftbquests/quests/chapters"
+TARGET_FOLDER_PATH = r"./MCE2/CNPack/config/ftbquests/quests/chapters"
 
 # ===============================================================
 # ▲▲▲ 路径设置结束，通常无需修改下面的代码 ▲▲▲
