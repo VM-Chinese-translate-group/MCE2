@@ -198,6 +198,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "79422A28F1704032"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -251,6 +256,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "754B2894B23DF9FB"
+					item: "aquaculture:neptunium_nugget"
 					type: "item"
 				}
 			]
@@ -308,6 +318,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "16FD29CAE41011F3"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -361,6 +376,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "1D945CB572DBC091"
+					item: "aquaculture:neptunium_nugget"
 					type: "item"
 				}
 			]
@@ -435,6 +455,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "583F018AC5584603"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -488,6 +513,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "4B9364ACEB595CF3"
+					item: "aquaculture:neptunium_nugget"
 					type: "item"
 				}
 			]
@@ -562,6 +592,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "297C6D9CA1592398"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -615,6 +650,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "006449270096A075"
+					item: "aquaculture:neptunium_nugget"
 					type: "item"
 				}
 			]
@@ -672,6 +712,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1148A5BA478149B9"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -725,6 +770,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "09A7A78AD4422AA1"
+					item: "aquaculture:neptunium_nugget"
 					type: "item"
 				}
 			]
@@ -782,6 +832,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "04B3523F0ED1BB6B"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -814,6 +869,11 @@
 				{
 					id: "65751C2038F34CA3"
 					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "369200DC9AC82A60"
+					item: "aquaculture:neptunium_nugget"
 					type: "item"
 				}
 			]
@@ -879,6 +939,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "258D97F095C03324"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -940,6 +1005,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "0737C6420D54F9C7"
+					item: "aquaculture:neptunium_nugget"
 					type: "item"
 				}
 			]
@@ -1005,6 +1075,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3416D5D50A853F3F"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -1066,6 +1141,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "1FD951D3B5991AEE"
+					item: "aquaculture:neptunium_nugget"
 					type: "item"
 				}
 			]
@@ -1131,6 +1211,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3B2F8A8B7A5C07F6"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -1194,6 +1279,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "62994E34F1E5E497"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -1255,6 +1345,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "15C25672A9515B30"
+					item: "aquaculture:neptunium_nugget"
 					type: "item"
 				}
 			]
@@ -1323,6 +1418,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2DFFB615D99D0D5B"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -1384,6 +1484,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "38D050BF5C5F6346"
+					item: "aquaculture:neptunium_nugget"
 					type: "item"
 				}
 			]
@@ -1466,6 +1571,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "5F56BAE9A08684CB"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -1527,6 +1637,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "752DE41172BF3083"
+					item: "aquaculture:neptunium_nugget"
 					type: "item"
 				}
 			]
@@ -1592,6 +1707,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "359332540861A546"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -1653,6 +1773,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "05A42CAFBFC40451"
+					item: "aquaculture:neptunium_nugget"
 					type: "item"
 				}
 			]
@@ -1718,6 +1843,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "632A27C13AC488DA"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -1779,6 +1909,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "3C95F2563745BD08"
+					item: "aquaculture:neptunium_nugget"
 					type: "item"
 				}
 			]
@@ -1844,6 +1979,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "40577E25463B47B7"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
@@ -1905,6 +2045,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "28324AD0CF42E530"
+					item: "aquaculture:neptunium_nugget"
 					type: "item"
 				}
 			]
@@ -2138,9 +2283,7 @@
 		}
 		{
 			dependencies: ["5ED6CC6FBA450EC0"]
-			description: [
-			  ""
-			]
+			description: [""]
 			id: "12948A1DDC98DEC9"
 			rewards: [
 				{
@@ -2304,9 +2447,7 @@
 		}
 		{
 			dependencies: ["3492A28AFAC628CA"]
-			description: [
-			  "&eGather these items and its possible Neptune could reward you with a weapon!"
-			]
+			description: ["&eGather these items and its possible Neptune could reward you with a weapon!"]
 			id: "506339C57E34FC7F"
 			optional: true
 			rewards: [
@@ -2616,10 +2757,9 @@
 		{
 			dependencies: ["0D4D2C4884395067"]
 			description: [
-			  "Note: Jellyfish Jelly can be obtained by watching and waiting. Jellyfish will sometimes shed their jelly."
-			  ""
-			  ""
-			  ""
+				"Note: Jellyfish Jelly can be obtained by watching and waiting. Jellyfish will sometimes shed their jelly."
+				""
+				""
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -2718,6 +2858,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "357F34244A90AC83"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 32L
@@ -2727,6 +2872,583 @@
 			}]
 			x: 0.0d
 			y: -2.0d
+		}
+		{
+			id: "0937D5FFC36047BF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "23893D77D02FFB82"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "45FA7B80948F2007"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "69440C4CA3C667DF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "597CDD93B111754E"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "&3&oFishing For Fishies"
+			tasks: [{
+				count: 32L
+				id: "6F54B7C0928D115D"
+				item: "minecraft:tropical_fish"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "3FCFBABD6962A387"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "79FB5997B82E115F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5991A9199B6FFF0C"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "5E34638A64D0E043"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28F68ADCE2CF4744"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "&3&oFishing For Fishies"
+			tasks: [{
+				count: 32L
+				id: "359A4FA6FE1C737C"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			id: "79B12A435A7C7276"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "715A3F138A41D615"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "156034B4752C06C7"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "15666EE2C7F6BEDA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CAA1355C7A84536"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "&3&oFishing For Fishies"
+			tasks: [{
+				count: 12L
+				id: "7543DCAD029F1A98"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			id: "73FAD014F1CCF79E"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "77D5D55074DA110D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "335703AB748C68C3"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "1439FD45CEA6D098"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3036E8A049D3D8DE"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "&3&oFishing For Fishies"
+			tasks: [{
+				count: 32L
+				id: "37C03522686C6E86"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Some say fishing is one of the few readily available activities that help to calm the mind in this world. "
+				""
+				"All you need is a body of water and a Fishing Rod!"
+				""
+				"Fishing has changed a little since you've last tried! But no matter, I'm sure you will pick it up fast!"
+				"I've given you some Quests to collect all the different types of fish! Some you've seen some you haven't!"
+				""
+				"The rewards can be &oquite generous!"
+				""
+				"<rainb>So get to fishin' Explore and find new fishing spots!"
+			]
+			icon: {
+				Count: 1
+				id: "aquaculture:diamond_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "03CF410B12291120"
+			rewards: [{
+				id: "742AB8452FB1DC38"
+				item: "aquaculture:fish_fillet_cooked"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Learn About Fishin'"
+			tasks: [{
+				id: "373C7F00435AD2FC"
+				title: "The Art of Fishing"
+				type: "checkmark"
+			}]
+			x: 5.44047619047619d
+			y: -6.571428571428569d
+		}
+		{
+			id: "395CA912462C7BD5"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "39D9E239207F8565"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "68B9BC8F970EB4BD"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "4FBC64E265F3EF1D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&3&oFishing For Fishies"
+			tasks: [{
+				id: "7823EAA2A19AAF72"
+				item: {
+					Count: 1
+					id: "stardew_fishing:trap_bobber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "22E127BF0A68AE03"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "1A9EAF5DB7E9ED66"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1F0B21DA77732BFD"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "31DCB30E52A111A3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&3&oFishing For Fishies"
+			tasks: [{
+				id: "5AD13CDF064E8205"
+				item: {
+					Count: 1
+					id: "stardew_fishing:cork_bobber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "1CC3819C01B861F5"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "24DF3E3E9F137BF7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "58127D3D03977BA1"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "73E7DDE80B06A8E1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&3&oFishing For Fishies"
+			tasks: [{
+				id: "11233C026F9BB956"
+				item: {
+					Count: 1
+					id: "stardew_fishing:sonar_bobber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "33822DEAFFE9C82C"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "161CF42950DAC1C1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "141E939B9CECF1AA"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "1C63C684A6DD3CA0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&3&oFishing For Fishies"
+			tasks: [{
+				id: "7FA6B408072648D7"
+				item: {
+					Count: 1
+					id: "stardew_fishing:treasure_bobber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "37CDE1CC97743790"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "24411BFC0BE2D12E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "44F70652A5D6FF8C"
+					item: "alexsmobs:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "37CE72EBA0086BC6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§7§oRight-Click to Open\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&3&oFishing For Fishies"
+			tasks: [{
+				id: "1992A0B4103B2E97"
+				item: {
+					Count: 1
+					id: "stardew_fishing:quality_bobber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.559523809523817d
+			y: 0.4761904761904674d
 		}
 	]
 	title: "&2Fishing"
