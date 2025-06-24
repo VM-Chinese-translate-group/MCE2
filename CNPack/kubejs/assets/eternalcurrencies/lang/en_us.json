@@ -14,6 +14,10 @@
   "commands.eternalcurrencies.setholderaddress.already_set_to_this": "%2$s已经关联至此地址的账户了！",
   "commands.eternalcurrencies.setholderaddress.target_does_not_have_reference_capability": "%2$s无法被关联至账户。",
   "commands.eternalcurrencies.setholderaddress.address_does_not_exist": "不存在地址为%1$s的账户！",
+  "commands.eternalcurrencies.resetreference.success": "已重置%1$s的账户关联。",
+  "commands.eternalcurrencies.resetreference.failure": "无法重置%1$s的账户关联。可能是由于缺少货币系统或该系统不支持关联操作。",
+  "commands.eternalcurrencies.resetreference.already_default": "%1$s的账户关联已经是默认状态了！",
+
 
   "message.eternalcurrencies.added_currency": "+%2$s（%1$s）",
 
