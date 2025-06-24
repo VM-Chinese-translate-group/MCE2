@@ -24,7 +24,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&e提示：&r Sometimes you can fire a crit arrow! these will appear golden and do 2x damage!"]
+			description: ["&e提示：&r你偶尔能找到暴击箭！这种箭的外观是金色的，而且可以造成2倍伤害！"]
 			hide_dependency_lines: true
 			id: "33A4B3720D6DC690"
 			rewards: [
@@ -43,7 +43,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "Bow Crits!"
+			subtitle: "弓箭也能暴击！"
 			tasks: [{
 				id: "44415B0C565937E5"
 				item: {
@@ -65,7 +65,7 @@
 				}
 				type: "item"
 			}]
-			title: "Improved Bows!"
+			title: "弓箭大升级！"
 			x: 1.4193877551020648d
 			y: -2.2295918367347056d
 		}
@@ -91,8 +91,8 @@
 		}
 		{
 			description: [
-				"Shields can block an attack, after blocking it will enter into a cooldown."
-				"Shields have different stats that vary between them!"
+				"盾牌可以格挡攻击，但格挡后它会进入冷却时间。"
+				"每个盾牌之间的属性都不一样！"
 				""
 				"&e提示：&r Stamina will increase or decrease the number of times you can block before a cooldown is applied!"
 				"&e提示：&r Holding a shield in your off-hand will grant a passive 30% damage reduction!"
@@ -265,7 +265,7 @@
 			]
 			secret: true
 			shape: "rsquare"
-			subtitle: "Charge up your &eRage!"
+			subtitle: "鼓起你的&e怒火！"
 			tasks: [{
 				advancement: "rage:full_rage"
 				criterion: ""
@@ -279,7 +279,7 @@
 					id: "rats:corrupt_rat_skull"
 				}
 				id: "678B2EDB46E53BFB"
-				title: "&6Become Enraged!"
+				title: "&6彻！底！疯！狂！"
 				type: "advancement"
 			}]
 			x: 0.4297619047619108d
@@ -312,5 +312,5 @@
 			y: -3.375000000000007d
 		}
 	]
-	title: "&6Combat (ii)"
+	title: "&6格斗技巧(ii)"
 }

@@ -609,7 +609,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "76054D04B7784C1C"
@@ -665,7 +665,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -679,7 +679,7 @@
 				id: "0CB8065005D0B569"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oBald Eagle"
+				title: "观察一只&e&oBald Eagle"
 				to_observe: "alexsmobs:bald_eagle"
 				type: "observation"
 			}]
@@ -739,13 +739,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "381DFF9EEAD5FA70"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oGorilla"
+				title: "观察一只&e&oGorilla"
 				to_observe: "alexsmobs:gorilla"
 				type: "observation"
 			}]
@@ -769,13 +769,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "51182E2755DB26A4"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oBlobfish"
+				title: "观察一只&e&oBlobfish"
 				to_observe: "alexsmobs:blobfish"
 				type: "observation"
 			}]
@@ -803,13 +803,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "520D202B35B5352C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oBone Serpent &r&6(Rare!) &r&4(Danger!)"
+				title: "观察一只&e&oBone Serpent &r&6(Rare!) &r&4(Danger!)"
 				to_observe: "alexsmobs:bone_serpent"
 				type: "observation"
 			}]
@@ -837,13 +837,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "5E71DD895A88FE1C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oCachalot Whale"
+				title: "观察一只&e&oCachalot Whale"
 				to_observe: "alexsmobs:cachalot_whale"
 				type: "observation"
 			}]
@@ -866,13 +866,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "5E0E18B45C03EA7D"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oCockroach"
+				title: "观察一只&e&oCockroach"
 				to_observe: "alexsmobs:cockroach"
 				type: "observation"
 			}]
@@ -894,13 +894,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "634A05BE60F664B1"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oCapuchin Monkey"
+				title: "观察一只&e&oCapuchin Monkey"
 				to_observe: "alexsmobs:capuchin_monkey"
 				type: "observation"
 			}]
@@ -929,13 +929,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "1625623617E19376"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oTiger &r&4(Danger!)"
+				title: "观察一只&e&oTiger &r&4(Danger!)"
 				to_observe: "alexsmobs:tiger"
 				type: "observation"
 			}]
@@ -961,13 +961,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "3D39B7FB11ACE69D"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oSeal"
+				title: "观察一只&e&oSeal"
 				to_observe: "alexsmobs:seal"
 				type: "observation"
 			}]
@@ -995,7 +995,7 @@
 				id: "32D72FF064DF10CF"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oKangaroo"
+				title: "观察一只&e&oKangaroo"
 				to_observe: "alexsmobs:kangaroo"
 				type: "observation"
 			}]
@@ -1026,14 +1026,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				disable_toast: true
 				icon: "cavesandcliffs:spyglass"
 				id: "4DBF98E89057C4F8"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oCrocodile &r&4(Danger!)"
+				title: "观察一只&e&oCrocodile &r&4(Danger!)"
 				to_observe: "alexsmobs:crocodile"
 				type: "observation"
 			}]
@@ -1067,7 +1067,7 @@
 				id: "496D5F100324EE3A"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oGrizzly Bear"
+				title: "观察一只&e&oGrizzly Bear"
 				to_observe: "alexsmobs:grizzly_bear"
 				type: "observation"
 			}]
@@ -1090,13 +1090,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "05E8CE72F38687DB"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oHummingbird"
+				title: "观察一只&e&oHummingbird"
 				to_observe: "alexsmobs:hummingbird"
 				type: "observation"
 			}]
@@ -1122,13 +1122,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "194F81481391938C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oElephant"
+				title: "观察一只&e&oElephant"
 				to_observe: "alexsmobs:elephant"
 				type: "observation"
 			}]
@@ -1151,13 +1151,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "54465F83E2C712DB"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oKomodo Dragon"
+				title: "观察一只&e&oKomodo Dragon"
 				to_observe: "alexsmobs:komodo_dragon"
 				type: "observation"
 			}]
@@ -1180,13 +1180,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "78D5CF015EC831E3"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oHammerhead Shark"
+				title: "观察一只&e&oHammerhead Shark"
 				to_observe: "alexsmobs:hammerhead_shark"
 				type: "observation"
 			}]
@@ -1209,13 +1209,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "292E3F5498E8FD14"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oEmu"
+				title: "观察一只&e&oEmu"
 				to_observe: "alexsmobs:emu"
 				type: "observation"
 			}]
@@ -1238,13 +1238,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "6E43E06EC4C50C39"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oMoose"
+				title: "观察一只&e&oMoose"
 				to_observe: "alexsmobs:moose"
 				type: "observation"
 			}]
@@ -1275,13 +1275,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "0B3A7844463754A9"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oMungus &r&d(Very Rare!)"
+				title: "观察一只&e&oMungus &r&d(Very Rare!)"
 				to_observe: "alexsmobs:mungus"
 				type: "observation"
 			}]
@@ -1304,13 +1304,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "15CFA4EB4D1CA91C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oMantis Shrimp"
+				title: "观察一只&e&oMantis Shrimp"
 				to_observe: "alexsmobs:mantis_shrimp"
 				type: "observation"
 			}]
@@ -1333,13 +1333,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "16D93481357F3448"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oShoebill"
+				title: "观察一只&e&oShoebill"
 				to_observe: "alexsmobs:shoebill"
 				type: "observation"
 			}]
@@ -1383,13 +1383,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "38DB30C0321078EA"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oSunbird"
+				title: "观察一只&e&oSunbird"
 				to_observe: "alexsmobs:sunbird"
 				type: "observation"
 			}]
@@ -1412,13 +1412,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "378F04C9EA892CB1"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oTarantula Hawk"
+				title: "观察一只&e&oTarantula Hawk"
 				to_observe: "alexsmobs:tarantula_hawk"
 				type: "observation"
 			}]
@@ -1444,7 +1444,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "74B43A75C49BEDA5"
@@ -1476,13 +1476,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "720C5F0AA36B93E0"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oPlatypus"
+				title: "观察一只&e&oPlatypus"
 				to_observe: "alexsmobs:platypus"
 				type: "observation"
 			}]
@@ -1505,13 +1505,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "123D03A9055161E0"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oTasmanian Devil"
+				title: "观察一只&e&oTasmanian Devil"
 				to_observe: "alexsmobs:tasmanian_devil"
 				type: "observation"
 			}]
@@ -1537,13 +1537,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "1802635A0C9F502D"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oGuster &r&4(Danger!)"
+				title: "观察一只&e&oGuster &r&4(Danger!)"
 				to_observe: "alexsmobs:guster"
 				type: "observation"
 			}]
@@ -1566,13 +1566,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "7DE7D557BD1B9F28"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oLeafcutter Ant"
+				title: "观察一只&e&oLeafcutter Ant"
 				to_observe: "alexsmobs:leafcutter_ant"
 				type: "observation"
 			}]
@@ -1595,13 +1595,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "604C1B61CD35881C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oLobster"
+				title: "观察一只&e&oLobster"
 				to_observe: "alexsmobs:lobster"
 				type: "observation"
 			}]
@@ -1629,13 +1629,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "004C0CF35F3996E9"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oMimic Octopus &r&6(Rare!)"
+				title: "观察一只&e&oMimic Octopus &r&6(Rare!)"
 				to_observe: "alexsmobs:mimic_octopus"
 				type: "observation"
 			}]
@@ -1658,13 +1658,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "62DD99FF012333CC"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oFrilled Shark"
+				title: "观察一只&e&oFrilled Shark"
 				to_observe: "alexsmobs:frilled_shark"
 				type: "observation"
 			}]
@@ -1686,13 +1686,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "1D00063D20ABADEA"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oRattlesnake"
+				title: "观察一只&e&oRattlesnake"
 				to_observe: "alexsmobs:rattlesnake"
 				type: "observation"
 			}]
@@ -1715,13 +1715,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "110E28CF2C0024C6"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oRoadrunner"
+				title: "观察一只&e&oRoadrunner"
 				to_observe: "alexsmobs:roadrunner"
 				type: "observation"
 			}]
@@ -1752,13 +1752,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o目击动物！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "0FBD34818E439285"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oDropbear &r&6(Rare!) &r&4(Danger!)"
+				title: "观察一只&e&oDropbear &r&6(Rare!) &r&4(Danger!)"
 				to_observe: "alexsmobs:dropbear"
 				type: "observation"
 			}]
@@ -1805,5 +1805,5 @@
 			y: -5.0d
 		}
 	]
-	title: "&2Animal Snap!"
+	title: "&2目击动物！"
 }
