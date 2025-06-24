@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Scute can be used to craft Turtle Armor which provides resistance and increased swim speed at the cost of slowness on land!"
+    "text": "鳞甲可以用于合成海龟盔甲，这套盔甲会给予你抗性提升效果，还能让你在水里快速游泳！代价则是你在陆地上会走的很慢！"
   }
 }

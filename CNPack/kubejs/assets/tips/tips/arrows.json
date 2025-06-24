@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Arrow crits have a chance to do 3x damage!"
+    "text": "箭矢有概率暴击，造成三倍伤害！"
   }
 }

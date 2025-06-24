@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Dynamic Lights are here! Try it out and hold a torch in your off-hand!"
+    "text": "整合包自带动态光源！把火把放在副手试试吧！"
   }
 }

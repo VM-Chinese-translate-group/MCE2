@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Every Curio usually has either a unique ability or bonus stats for the wielder, except for cosmetic ones!"
+    "text": "除了装饰性饰品以外，每个饰品都会给予穿戴者独特的能力或额外的属性！"
   }
 }

@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Bosses have their health increased in Multiplayer! So team up and vanquish these evil foes together!"
+    "text": "多人游戏下，Boss级敌怪的血量会得到加强！所以团结起来，一起打败这些邪恶的敌人吧！"
   }
 }

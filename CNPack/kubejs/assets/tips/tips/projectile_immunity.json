@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Some bosses have projectile immunity at a certain distance!"
+    "text": "如果你离得太远，那么某些Boss将会免疫你的弹射物攻击。"
   }
 }

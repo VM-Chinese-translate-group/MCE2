@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Entering The Nether will start Expert Mode, this will increase the difficulty and cause new scary monsters to spawn!"
+    "text": "进入下界会使你进入专家模式，这会增加你的游戏难度，并导致可怕的新怪物开始生成！"
   }
 }

@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "You cannot kill The Warden... So don't even try..."
+    "text": "你杀不掉监守者的……所以最好试都别试……"
   }
 }

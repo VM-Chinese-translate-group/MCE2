@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP:",
+    "text": "永恒MC2 提示:",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "After killing a boss, a rift will appear! click the rift to activate it! click it again to teleport you home!"
+    "text": "击败Boss后，一道裂缝将会出现！右击裂缝将它激活！再右击一次你就会被传送会重生点！"
   }
 }

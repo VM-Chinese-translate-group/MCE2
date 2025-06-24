@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Running out of inventory space? Craft a backpack!"
+    "text": "物品栏不够用了？做个背包吧！"
   }
 }

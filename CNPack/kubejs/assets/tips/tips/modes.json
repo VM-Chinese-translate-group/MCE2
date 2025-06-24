@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "MC Eternal 2 has difficulty modes, after reaching major milestones new creatures will begin to spawn! "
+    "text": "永恒MC2有着难度设定，每走到一个新的重点里程碑都会有新的生物开始生成！"
   }
 }

@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Villagers have a chance of converting into Heretics if they're sleeping near an active Nether Portal!"
+    "text": "在下界传送门附近就寝的村民有可能变成异教徒！"
   }
 }

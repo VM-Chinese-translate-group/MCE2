@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Waystones are an excellent form of quick transportation, they use XP to teleport you, you can find Waystones scattered throughout the world."
+    "text": "传送石碑是快速传送的绝佳形式，用它们进行传送会消耗你的经验。你可以在世界各地找到传送石碑。"
   }
 }

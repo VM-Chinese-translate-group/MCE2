@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Dangerous monsters wearing armor and wielding weapons begin spawning in The Overworld after visiting The Nether!"
+    "text": "如果你去过了下界，主世界就会开始生成更加危险的怪物，它们手持武器、身穿重甲！"
   }
 }

@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "You will never be one-shot, you will always be reduced to 1/2 a heart if you take fatal damage, giving you time to react"
+    "text": "你不会被一击毙命。如果你受到致命伤害，那么你的生命值会剩下半颗心，从而给予你反应时间。"
   }
 }

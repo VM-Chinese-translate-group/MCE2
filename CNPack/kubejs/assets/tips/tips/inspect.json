@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Middle Mouse Clicking another player will let you inspect their currently equipped gear!"
+    "text": "使用鼠标中键点击其他玩家，你就能看到他们当前的配装情况！"
   }
 }

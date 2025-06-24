@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "You can see players on the Minimap and Worldmap and they can see you! If you crouch you will become hidden to to other players however!"
+    "text": "你可以在小地图以及世界地图上看到其他玩家，他们同样也能看到你。然而，如果你正在潜行，他们就看不到你了！"
   }
 }
