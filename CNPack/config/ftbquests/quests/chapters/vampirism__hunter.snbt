@@ -59,7 +59,7 @@
 				type: "item"
 			}
 		]
-		subtitle: "To become a Vampire Hunter you will need to right-click a Garlic Injection on a Injection Chair"
+		subtitle: "如果想要成为吸血鬼猎人的话，你需要在手持蒜头注射器时右击注射椅。"
 		tasks: [{
 			id: "1618A5334A7B52DE"
 			item: {
@@ -73,9 +73,9 @@
 			}
 			type: "item"
 		}]
-		title: "&eBecome a Vampire Hunter"
+		title: "&e成为吸血鬼猎人"
 		x: 2.0d
 		y: 0.0d
 	}]
-	title: "&6Vampirism - Hunter"
+	title: "&6血族传说——吸血鬼猎人"
 }

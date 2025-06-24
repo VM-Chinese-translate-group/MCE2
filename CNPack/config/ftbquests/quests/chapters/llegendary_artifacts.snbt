@@ -4701,7 +4701,7 @@
 			y: 10.025103519668733d
 		}
 		{
-			description: ["&e小贴士：&r The Dreadsteel Shield has the highest Blocking Damage Reduction a shield can have after Expert Mode\n\n"]
+			description: ["&e小贴士：&r The Dreadsteel Shield has the highest Blocking Damage Reduction a shield can have after 专家模式\n\n"]
 			id: "21515DFB4FB59D05"
 			rewards: [
 				{

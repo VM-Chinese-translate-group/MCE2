@@ -685,7 +685,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Terraforged &c&lRequires Expert Mode"
+			subtitle: "Terraforged &c&lRequires 专家模式"
 			tasks: [
 				{
 					id: "12CD7FA257769E3D"

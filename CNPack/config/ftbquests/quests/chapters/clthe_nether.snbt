@@ -340,7 +340,7 @@
 			description: [
 				""
 				""
-				"&oExpert Mode will start upon entering The Nether, if you do not know what this means please come prepared and read the Quest Chapter &6\"Difficulty Modes\""
+				"&o专家模式 will start upon entering The Nether, if you do not know what this means please come prepared and read the Quest Chapter &6\"Difficulty Modes\""
 			  "{image:modpack:textures/2022-11-03_23.33.09.png width:180 height:100 align:center}"
 			]
 			id: "0D88B45349B3E660"
@@ -350,7 +350,7 @@
 					command: "/gamestage add @p expert"
 					icon: "rats:golden_rat_skull"
 					id: "7AAA477D924F4B0E"
-					title: "&eActivate Expert Mode"
+					title: "&eActivate 专家模式"
 					type: "command"
 				}
 				{
@@ -1186,7 +1186,7 @@
 			]
 			shape: "hexagon"
 			size: 0.8d
-			subtitle: "Visit all major Nether 生物群系!"
+			subtitle: "造访all major Nether 生物群系!"
 			tasks: [
 				{
 					biome: "minecraft:basalt_deltas"

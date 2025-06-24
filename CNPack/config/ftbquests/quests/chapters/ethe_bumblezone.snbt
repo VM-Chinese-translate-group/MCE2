@@ -13,10 +13,10 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"The dimension of bees!"
-			"Enter The Bumblezone by throwing an &eEnter Pearl&r at a &eBee Hive&r"
+			"这里是属于蜜蜂的维度！"
+			"对着&e蜂巢&r投掷&e末影珍珠&r即可进入蜜蜂领域。"
 			""
-			"More quests coming soon™!"
+			"更多任务即将推出！"
 		]
 		id: "7488E7B1948C809A"
 		rewards: [
@@ -65,7 +65,7 @@
 				type: "item"
 			}
 		]
-		subtitle: "<wave>Enter The Bumblezone"
+		subtitle: "<wave>进入蜜蜂领域"
 		tasks: [{
 			dimension: "the_bumblezone:the_bumblezone"
 			icon: {
@@ -78,9 +78,9 @@
 			id: "2FAE0305FEC45399"
 			type: "dimension"
 		}]
-		title: "&eNOT THE BEES!"
+		title: "&e不要再整蜜蜂了！"
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "&2The Bumblezone &6☆"
+	title: "&2T蜜蜂领域&6☆"
 }

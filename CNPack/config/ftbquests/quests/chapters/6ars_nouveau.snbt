@@ -9,7 +9,7 @@
 	order_index: 2
 	quest_links: [ ]
 	quests: [{
-		description: ["Chapter coming soon!"]
+		description: ["任务即将更新！"]
 		id: "16A7C49E6CDC24DD"
 		rewards: [
 			{
@@ -60,5 +60,5 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "&6Ars Nouveau"
+	title: "&6新生魔艺"
 }

@@ -71,7 +71,7 @@
 		}
 		{
 			dependencies: ["4789D17B88722641"]
-			description: ["Target Dummies are an excellent way to practice and figure out the best weapon combo for you!"]
+			description: ["试验假人非常适合用来实验和摸索最适合你的武器搭配！"]
 			id: "205016AEFFD748F7"
 			rewards: [{
 				amount: 50L
@@ -80,7 +80,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oCraft a Target Dummy and use it to test your DPS (Damage Per Second) "
+			subtitle: "&o合成一个试验假人，用它来测试你的DPS（每秒伤害）。"
 			tasks: [{
 				id: "58D922E0401D7B64"
 				item: "dummmmmmy:target_dummy"
@@ -91,13 +91,13 @@
 		}
 		{
 			description: [
-				"盾牌可以格挡攻击，但格挡后它会进入冷却时间。"
+				"盾牌可以格挡攻击，但格挡攻击后它就会进入冷却时间。"
 				"每个盾牌之间的属性都不一样！"
 				""
-				"&e提示：&r Stamina will increase or decrease the number of times you can block before a cooldown is applied!"
-				"&e提示：&r Holding a shield in your off-hand will grant a passive 30% damage reduction!"
+				"&e提示：&r耐力会影响你举盾格挡攻击后的冷却时间！"
+				"&e提示：&r在副手拿盾可以给予你一个被动的30%减伤！"
 				""
-				"&6小贴士：&r You can only block incoming damage from the direction you received it!"
+				"&6小贴士：&r你只能格挡你举盾方向上的攻击伤害！"
 			]
 			hide_dependency_lines: true
 			id: "114DC7895D34A4CC"
@@ -133,8 +133,8 @@
 		{
 			dependencies: ["114DC7895D34A4CC"]
 			description: [
-				"The Shield of The Deep is an excellent shield to use pre-Expert Mode!"
-				"It has great stats and durability! At the cost of movement speed however."
+				"深斓之盾是进入专家模式前属性比较不错的盾！"
+				"它的属性和耐久都很高！只不过代价是扣移动速度而已。"
 			]
 			hide_dependency_lines: true
 			id: "609DFA2516344795"
@@ -179,7 +179,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a &eShield of The Deep"
+			subtitle: "合成一个&e深斓之盾"
 			tasks: [{
 				id: "757562C0CCDE3365"
 				item: {
@@ -196,7 +196,7 @@
 				}
 				type: "item"
 			}]
-			title: "&bFrom Down Under!"
+			title: "&b从深渊而来的盾牌！"
 			x: -1.435714285714269d
 			y: -2.171428571428571d
 		}
@@ -211,7 +211,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Crossbow"
+			subtitle: "合成一把弩"
 			tasks: [{
 				id: "59A38541F2A1B204"
 				item: {
@@ -238,7 +238,7 @@
 		}
 		{
 			description: [
-				"You charged up your &dRage&r by taking damage consecutively or by doing damage consecutively to the same target. Your next melee attack will do bonus damage!"
+				"你可以通过连续受到攻击来You charged up your &dRage&r by taking damage consecutively or by doing damage consecutively to the same target. Your next melee attack will do bonus damage!"
 				""
 				"&6小贴士：&r Entites can also become &dEnraged!&r Be careful to dodge their &oSuper-Charged attacks!"
 				""
@@ -287,10 +287,10 @@
 		}
 		{
 			description: [
-				"Each weapon type has their own attack animation and combos!"
-				"Depending on the weapon type (IE: sword, axe, spear) the combo multipler varies!"
+				"每把武器都有自己的攻击动画和连击属性！"
+				"连击效果取决于你选择的武器类型，比如剑、斧头和长矛。"
 				""
-				"For example, attacking with a &dSword&r weapon type grants a 50% damage boost every third attack on the \"stab forward\" animation! "
+				"比如说用&d剑&r攻击时，它每挥舞三下都会出现一个“向前戳刺”动画，此时它能比平时多造成50%伤害！"
 			]
 			icon: "goety_cataclysm:arcane_spirit"
 			id: "50CCB6DDC0CE2FFE"
@@ -302,10 +302,10 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "diamond"
-			subtitle: "Learn about Combos"
+			subtitle: "了解有关连击的信息"
 			tasks: [{
 				id: "45664EB1D172AB9C"
-				title: "&eCombat Info:&r Combos"
+				title: "&e战斗技巧：&r连击"
 				type: "checkmark"
 			}]
 			x: 0.3928571428571459d

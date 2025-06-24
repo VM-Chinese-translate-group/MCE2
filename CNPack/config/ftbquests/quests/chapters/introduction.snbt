@@ -6539,7 +6539,7 @@
 				"The Nether is full of valuble resources, multiple Legendary Eyes among other valuble treasures to claim!"
 				""
 				"&6小贴士：&r Use the Flint and Steel on the portal frame!"
-				"&4Note:&r Entering The Nether will start EXPERT MODE! "
+				"&4Note:&r Entering The Nether will start 专家模式! "
 			]
 			icon: "minecraft:obsidian"
 			id: "6CC1049FCC2A076C"
@@ -6761,7 +6761,7 @@
 				""
 				"Something which has been impossible for hundreds of years..."
 				""
-				"&e提示：&r Entering The Nether will begin &cExpert Mode.&r If you don't know what that is, check out the chapter &6\"Difficulty Modes\""
+				"&e提示：&r Entering The Nether will begin &c专家模式.&r If you don't know what that is, check out the chapter &6\"Difficulty Modes\""
 			]
 			icon: "kubejs:nether_item"
 			id: "0E64ACED3D987FB1"
@@ -7390,7 +7390,7 @@
 			subtitle: "Learn About The Interface!"
 			tasks: [{
 				id: "731A0AB14269F8C2"
-				title: "&eInfo Quest - &r(点击完成任务)"
+				title: "&e这是一个介绍任务- &r(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "Navigating The UI &e(Part I)"
@@ -7425,7 +7425,7 @@
 			subtitle: "Learn About The Interface!"
 			tasks: [{
 				id: "7B310F44D8C2DE1A"
-				title: "&eInfo Quest - &r(点击完成任务)"
+				title: "&e这是一个介绍任务- &r(点击完成任务)"
 				type: "checkmark"
 			}]
 			title: "Navigating The UI &e(Part II)"

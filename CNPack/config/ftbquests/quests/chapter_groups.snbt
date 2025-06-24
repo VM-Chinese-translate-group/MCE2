@@ -1,11 +1,11 @@
 {
 	chapter_groups: [
-		{ id: "12BCDDCCCA65FD77", title: "&e&lIntroduction" }
-		{ id: "53833FE85BBBE6D0", title: "&eProgression" }
-		{ id: "6ACD28698B988220", title: "&eFarming and Agriculture" }
-		{ id: "0194595A09DF4755", title: "&eDimensional Exploration" }
-		{ id: "3EBF424A99DA33B7", title: "&eScience and Technology" }
-		{ id: "701563945253F512", title: "&eMagic and Spellcasting" }
-		{ id: "372D1188C5A9B800", title: "&dAchievements" }
+		{ id: "12BCDDCCCA65FD77", title: "&e&l初入世界" }
+		{ id: "53833FE85BBBE6D0", title: "&e主线任务" }
+		{ id: "6ACD28698B988220", title: "&e耕种与农业" }
+		{ id: "0194595A09DF4755", title: "&e跨维探索" }
+		{ id: "3EBF424A99DA33B7", title: "&e科学与技术" }
+		{ id: "701563945253F512", title: "&e奥术与魔法" }
+		{ id: "372D1188C5A9B800", title: "&d成就" }
 	]
 }

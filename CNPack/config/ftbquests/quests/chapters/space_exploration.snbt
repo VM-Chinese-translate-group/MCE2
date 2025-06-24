@@ -126,7 +126,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Space! The Final Frontier!"
+			subtitle: "宇宙，最后的边疆！"
 			tasks: [{
 				id: "6BC0D5E5B882DF1F"
 				item: "ad_astra:nasa_workbench"
@@ -159,7 +159,7 @@
 					command: "/titles add @p titles:ensign"
 					icon: "titles:title_scroll_common"
 					id: "1D1BAF150C07CACF"
-					title: "&e解锁称号：&r Ensign"
+					title: "&e解锁称号：&r太空少尉"
 					type: "command"
 				}
 				{
@@ -321,7 +321,7 @@
 					command: "/titles add @p titles:commander"
 					icon: "titles:title_scroll_rare"
 					id: "408FD478B3E38A22"
-					title: "&e解锁称号：&r Commander"
+					title: "&e解锁称号：&r司令官"
 					type: "command"
 				}
 				{
@@ -639,7 +639,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oRocket Production!"
+			subtitle: "&o造火箭！"
 			tasks: [{
 				id: "34C69639A15E471B"
 				item: "ad_astra:steel_tank"
@@ -657,7 +657,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oRocket Production!"
+			subtitle: "&o造火箭！"
 			tasks: [{
 				id: "2F66CC4ACE29A4FF"
 				item: "ad_astra:steel_tank"
@@ -675,7 +675,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oRocket Production!"
+			subtitle: "&o造火箭！"
 			tasks: [{
 				id: "7CA0E6D783693365"
 				item: "ad_astra:rocket_fin"
@@ -693,7 +693,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oRocket Production!"
+			subtitle: "&o造火箭！"
 			tasks: [{
 				id: "36783E98DBD4AC3D"
 				item: "ad_astra:rocket_fin"
@@ -711,7 +711,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oRocket Production!"
+			subtitle: "&o造火箭！"
 			tasks: [{
 				id: "083C991D8332BF53"
 				item: "ad_astra:rocket_fin"
@@ -729,7 +729,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oRocket Production!"
+			subtitle: "&o造火箭！"
 			tasks: [{
 				id: "6A12CEFA5E9E54D3"
 				item: "ad_astra:rocket_fin"
@@ -747,7 +747,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oRocket Production!"
+			subtitle: "&o造火箭！"
 			tasks: [{
 				id: "49D1D6274A991096"
 				item: {
@@ -774,7 +774,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			size: 0.8d
-			subtitle: "&oRocket Production!"
+			subtitle: "&o造火箭！"
 			tasks: [{
 				id: "7E27FB8B55EB0DAB"
 				item: "ad_astra:steel_engine"
@@ -792,7 +792,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oRocket Production!"
+			subtitle: "&o造火箭！"
 			tasks: [{
 				id: "3678BD8675627BCD"
 				item: "ad_astra:rocket_nose_cone"
@@ -830,7 +830,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&o&6Upgraded Rocket Production!"
+			subtitle: "&o&6造升级版的火箭！"
 			tasks: [{
 				id: "63FD0387003BA200"
 				item: "ad_astra:rocket_nose_cone"
@@ -848,7 +848,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&o&6Upgraded Rocket Production!"
+			subtitle: "&o&6造升级版的火箭！"
 			tasks: [{
 				id: "1DD4CB7798DE74B2"
 				item: "ad_astra:desh_block"
@@ -866,7 +866,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&o&6Upgraded Rocket Production!"
+			subtitle: "&o&6造升级版的火箭！"
 			tasks: [{
 				id: "4FAEC77E8FCAF4A9"
 				item: "ad_astra:desh_tank"
@@ -884,7 +884,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&o&6Upgraded Rocket Production!"
+			subtitle: "&o&6造升级版的火箭！"
 			tasks: [{
 				id: "100A8D4C936F9E66"
 				item: "ad_astra:desh_tank"
@@ -896,7 +896,7 @@
 		{
 			hide_dependency_lines: true
 			id: "7B1EBC019E8F4150"
-			subtitle: "&o&6Upgraded Rocket Production!"
+			subtitle: "&o&6造升级版的火箭！"
 			tasks: [{
 				id: "79FD8930144AE8A7"
 				item: "ad_astra:rocket_fin"
@@ -908,7 +908,7 @@
 		{
 			hide_dependent_lines: true
 			id: "1FACA1A39174F4B0"
-			subtitle: "&o&6Upgraded Rocket Production!"
+			subtitle: "&o&6造升级版的火箭！"
 			tasks: [{
 				id: "74ADB61341AEB38C"
 				item: "ad_astra:rocket_fin"
@@ -919,7 +919,7 @@
 		}
 		{
 			id: "218EC6915DCF22D0"
-			subtitle: "&o&6Upgraded Rocket Production!"
+			subtitle: "&o&6造升级版的火箭！"
 			tasks: [{
 				id: "45199B3B9AB44F15"
 				item: "ad_astra:rocket_fin"
@@ -930,7 +930,7 @@
 		}
 		{
 			id: "07C1285EDA150255"
-			subtitle: "&o&6Upgraded Rocket Production!"
+			subtitle: "&o&6造升级版的火箭！"
 			tasks: [{
 				id: "245F1153A30084CF"
 				item: "ad_astra:rocket_fin"
@@ -949,7 +949,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			size: 0.8d
-			subtitle: "&o&6Upgraded Rocket Production!"
+			subtitle: "&o&6造升级版的火箭！"
 			tasks: [{
 				id: "6AC8E41175839C02"
 				item: "ad_astra:desh_engine"
@@ -1005,7 +1005,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&oVisit &eThe Moon!"
+			subtitle: "&o造访&e月球！"
 			tasks: [{
 				dimension: "ad_astra:moon"
 				icon: "ad_astra:moon_globe"
@@ -1025,7 +1025,7 @@
 					command: "/titles add @p titles:martian"
 					icon: "titles:title_scroll_uncommon"
 					id: "2C8DF87178A2AD6C"
-					title: "&e解锁称号：&r Martian"
+					title: "&e解锁称号：&r火星人马文"
 					type: "command"
 				}
 				{
@@ -1069,7 +1069,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&oVisit &eMars!"
+			subtitle: "&o造访&e火星！"
 			tasks: [{
 				dimension: "ad_astra:mars"
 				icon: "ad_astra:mars_globe"
@@ -1126,7 +1126,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&oVisit &eVenus!"
+			subtitle: "&o造访&e金星！"
 			tasks: [{
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:venus_globe"
@@ -1183,7 +1183,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&oVisit &eMercury!"
+			subtitle: "&o造访&e水星！"
 			tasks: [{
 				dimension: "ad_astra:mercury"
 				icon: "ad_astra:mercury_globe"
@@ -1202,7 +1202,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oRocket Production!"
+			subtitle: "&o造火箭！"
 			tasks: [{
 				id: "19577F3F1B9BA23F"
 				item: {
@@ -1228,7 +1228,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oRocket Production!"
+			subtitle: "&o造火箭！"
 			tasks: [{
 				id: "0B439DEEBED4D2AA"
 				item: {
@@ -1254,7 +1254,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oRocket Production!"
+			subtitle: "&o造火箭！"
 			tasks: [{
 				id: "1D4AEB6F9E7390C6"
 				item: {
@@ -1280,7 +1280,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oRocket Production!"
+			subtitle: "&o造火箭！"
 			tasks: [{
 				id: "649B92DF5F18B5E4"
 				item: {
@@ -1306,7 +1306,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oRocket Production!"
+			subtitle: "&o造火箭！"
 			tasks: [{
 				id: "32DD20FB8A2E2792"
 				item: {
@@ -1332,7 +1332,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&o&6Upgraded Rocket Production!"
+			subtitle: "&o&6造升级版的火箭！"
 			tasks: [{
 				id: "7E6A96B44ECAE62A"
 				item: "ad_astra:desh_block"
@@ -1350,7 +1350,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&o&6Upgraded Rocket Production!"
+			subtitle: "&o&6造升级版的火箭！"
 			tasks: [{
 				id: "7748833A570C7B2A"
 				item: "ad_astra:desh_block"
@@ -1368,7 +1368,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&o&6Upgraded Rocket Production!"
+			subtitle: "&o&6造升级版的火箭！"
 			tasks: [{
 				id: "2B4F78C485E5B1DC"
 				item: "ad_astra:desh_block"
@@ -1386,7 +1386,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&o&6Upgraded Rocket Production!"
+			subtitle: "&o&6造升级版的火箭！"
 			tasks: [{
 				id: "5FD74C75B87E5BC5"
 				item: "ad_astra:desh_block"
@@ -1404,7 +1404,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&o&6Upgraded Rocket Production!"
+			subtitle: "&o&6造升级版的火箭！"
 			tasks: [{
 				id: "3741EA233C6CD8E4"
 				item: "ad_astra:desh_block"
@@ -1414,5 +1414,5 @@
 			y: 4.0d
 		}
 	]
-	title: "&6Space Exploration"
+	title: "&6太空探索"
 }

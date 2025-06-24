@@ -780,7 +780,7 @@
 		}
 		{
 			description: [
-			  "&n&eEntering Expert Mode will fail this Challenge!"
+			  "&n&eEntering 专家模式 will fail this Challenge!"
 			]
 			id: "2BB5105FA955787C"
 			incompatible: ["099610C83CC67421"]
@@ -818,13 +818,13 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oThe Normal Mode Challenge!"
+			subtitle: "&oThe 普通模式 Challenge!"
 			tasks: [{
 				days: 100
 				id: "673F2D14DBC8E253"
 				type: "questsadditions:days"
 			}]
-			title: "&eReach Day 100 While Still In Normal Mode"
+			title: "&eReach Day 100 While Still In 普通模式"
 			x: 3.0d
 			y: 5.0d
 		}

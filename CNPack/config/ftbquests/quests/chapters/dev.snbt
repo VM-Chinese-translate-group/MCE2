@@ -15,14 +15,14 @@
 			id: "757234016AD66E49"
 			rewards: [{
 				auto: "enabled"
-				command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" All of a sudden you feel afraid of the dark... You feel deeply unsettled.. Better stay in the light.. Who knows what lurks in the dark...\"}]"
+				command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"你突然感觉对黑暗极其恐惧……你的浑身上下仿佛有蚂蚁在爬一样不自在……你现在最好待在光亮底下，毕竟谁知道黑暗里头潜藏着什么东西呢……\"}]"
 				icon: "autumnity:red_maple_sapling"
 				id: "1A0517AB986A5101"
 				title: "&cOminous Warning"
 				type: "command"
 			}]
 			size: 1.0d
-			subtitle: "for developer use"
+			subtitle: "开发专用"
 			tasks: [{
 				dimension: "midnight:the_midnight"
 				disable_toast: true
@@ -35,7 +35,7 @@
 		}
 		{
 			description: [
-			  "for developer use"
+			  "开发专用"
 			]
 			disable_toast: true
 			id: "3B97D75865A88DAD"
@@ -49,7 +49,7 @@
 						display: {
 							Lore: [
 								"{\"text\":\"§5§6✎ §n这件物品背后的小故事\"}"
-								"{\"text\":\"§7§o\\\"Each Quest Book is meticulously hand printed by The Questmaster! Don't lose it! They take it personally!\\\"\"}"
+								"{\"text\":\"§7§o\\\"每一本任务书都是任务大师亲自提笔写就的！别搞丢了！这话可不单单只是对“你”说的啊！\\\"\"}"
 							]
 						}
 					}
@@ -57,7 +57,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "&eRewards The Player with &dThe Quest Book"
+			subtitle: "&e奖励玩家一本&d任务书"
 			tasks: [{
 				block: "minecraft:logs"
 				block_type: 1
@@ -74,7 +74,7 @@
 			id: "70147B2F28595BEB"
 			rewards: [{
 				auto: "invisible"
-				command: "/tellraw @p {\"text\":\"You feel... afraid ... Like something is watching you... Hunting you... Maybe I shouldn't have done that..\",\"italic\":true,\"color\":\"dark_gray\"}"
+				command: "/tellraw @p {\"text\":\"你感觉……你感觉心头涌起一阵惊恐，仿佛有什么正在看着你……在追杀你。也许你刚刚就不应该那么做……\",\"italic\":true,\"color\":\"dark_gray\"}"
 				console: true
 				id: "624172FF6FE62976"
 				type: "command"
@@ -117,7 +117,7 @@
 			id: "31EA68E22CCC44CB"
 			rewards: [{
 				auto: "invisible"
-				command: "/tellraw @p {\"text\":\"Hi! You have started a new world! Amazing! Give it a few minutes for spawn to generate and expect a bit of lag, The rats are building your world!\",\"italic\":true,\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"Grab a warm drink or something! :D\",\"color\":\"gold\"}]}}"
+				command: "/tellraw @p {\"text\":\"嗨！看来你生成了一个新世界啊！请稍微等一会吧，毕竟世界在生成，而且过程可能有一点卡，毕竟老鼠们正在一砖一瓦地建造你的世界呢！\",\"italic\":true,\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"去泡杯茶或者接杯水等会吧！ :D\",\"color\":\"gold\"}]}}"
 				console: true
 				elevate_perms: true
 				id: "265DF6C4B9A97718"
@@ -133,5 +133,5 @@
 			y: 1.0d
 		}
 	]
-	title: "dev"
+	title: "开发人员章节"
 }

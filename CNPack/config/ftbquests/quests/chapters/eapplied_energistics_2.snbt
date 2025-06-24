@@ -51,24 +51,24 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"These Meteorites have advanced technology far beyond what we are capable of creating, we must reverse-engineer this tech and see what it can be used for!"
+			"这些陨石里藏有远远超过我们科技水平的高级科技，看来我们必须去逆向工程这些高级科技，然后看看它们有什么用了！"
 			""
-			"<rainb>Curious... I seem to be typing in rainbow."
+			"<rainb>好奇怪啊……我感觉我现在好像是飘在彩虹上打字一样……"
 			""
-			"Chapter coming soon!™"
+			"即将更新！™"
 		]
 		id: "0C59541433431FDD"
-		subtitle: "Find a &eCrashed Meteorite"
+		subtitle: "找到一个&e坠落的陨石"
 		tasks: [{
 			icon: "ae2:sky_stone_chest"
 			id: "35BE2CE0FF4E2929"
 			structure: "ae2:meteorite"
-			title: "Find a &eCrashed Meteorite"
+			title: "找到一个&e坠落的陨石"
 			type: "structure"
 		}]
-		title: "A Strange Discovery"
+		title: "奇怪的发现"
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "&6Applied Energistics 2"
+	title: "&6应用能源 2"
 }

@@ -83,13 +83,13 @@
 		}
 		{
 			description: [
-			  "Titles are unique cosmetic rewards that can be used to show off your progress. Try to collect them all!"
+			  "称号属于很特殊的饰品类奖励，它们可以直白地显示出你的成就，快去试试全部收集一次吧！"
 			  ""
-			  "They earned by completing Quests, Advancements, Challenges, Collecting Title Fragments and more!"
+			  "完成任务、解锁成就、完成挑战和收集称号碎片都可以获得称号！"
 			  ""
-			  "When you've unlocked a special MCE2 Title, it will appear here, inside The Book of Titles. "
+			  "当你解锁一个MCE2的独特称号后，它就会出现在这里——出现在称号之书内。"
 			  ""
-			  "Here you can claim your Titles and Equip them by pressing the designated Keybind!"
+			  "你可以在这里领取你的称号，然后按下对应的快捷键就可以装备它们！"
 			]
 			id: "5ECDB3568B93B03C"
 			rewards: [{
@@ -98,7 +98,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "&oWelcome to &eThe Book of Titles! &r&o[Click me to learn more]"
+			subtitle: "&o欢迎来到&e称号之书！&r&o[点我即可了解更多]"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -110,7 +110,7 @@
 					id: "titles:title_scroll_uncommon"
 				}
 				id: "65E781F651F35B55"
-				title: "&eThe Book of Titles"
+				title: "&e称号之书"
 				type: "checkmark"
 			}]
 			x: -7.547619047619037d
@@ -120,7 +120,7 @@
 			id: "5CCA92D1F4EF1398"
 			tasks: [{
 				id: "3964D22FB6349200"
-				title: "test"
+				title: "测试"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -151,5 +151,5 @@
 			y: 2.0d
 		}
 	]
-	title: "Book of Titles (NYI)"
+	title: "称号之书(还没做完)"
 }

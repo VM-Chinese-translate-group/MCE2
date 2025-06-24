@@ -10,11 +10,11 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"After using Vampire Fangs you will receive a potion effect called \"Sanguinare Vampiris\" which lasts about a Minecraft day. After the potion has ended, you become a vampire. In case you don't want to become one, you can always cancel the effect with a milk bucket."
+			"使用吸血鬼尖牙后你就会获得一个“吸血之疾”的持续一整个minecraft天的buff，当这个buff结束后你就会变为吸血鬼。如果你不想变或者改主意了，用奶桶就可以取消该过程。"
 			""
 			"{image:vampirism:textures/item/vampire_fang.png width:100 height:100 align:1}"
 			""
-			"Chapter coming soon!"
+			"即将更新！"
 		]
 		id: "738D0748DDD99C54"
 		incompatible: ["5EE84DC9D93FEECC"]
@@ -62,7 +62,7 @@
 				type: "eternalcurrencies:currency"
 			}
 		]
-		subtitle: "&oBy Right Clicking Vampire Fangs you can begin the Vampirism process"
+		subtitle: "&o手持吸血鬼尖牙右击即可开始吸血鬼转化过程！"
 		tasks: [{
 			id: "7AF3552B26EEF3EA"
 			item: {
@@ -76,9 +76,9 @@
 			}
 			type: "item"
 		}]
-		title: "&eBecome a Vampire"
+		title: "&e成为一只吸血鬼"
 		x: 4.0d
 		y: 1.0d
 	}]
-	title: "&6Vampirism - Vampire"
+	title: "&6血族传说——吸血鬼"
 }

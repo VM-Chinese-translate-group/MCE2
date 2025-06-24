@@ -371,7 +371,7 @@
 						id: "rats:corrupt_rat_skull"
 					}
 					id: "6D587B8039B56B56"
-					title: "&eActivate Master Mode"
+					title: "&eActivate 大师模式"
 					type: "command"
 				}
 				{

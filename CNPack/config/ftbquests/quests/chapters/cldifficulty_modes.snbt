@@ -194,13 +194,13 @@
 	quests: [
 		{
 			description: [
-				"&6&n&lMaster Mode Changes"
-				"&d&l→ &rNew items for sale in &e&oThe Shop!"
-				"&d&l→ &r+1&r Combat Roll Charge"
-				"&d&l→ &rSpace Travel Technology Unlocked!"
-				"&d&l→ &rTeleportation Unlocked! &e(Waystones, Warp Stone)"
-				"&c&l→ &rNew Monsters begin spawning! &e&o(Watch out for &nMutant Monsters&r)"
-				"&c&l→ &rRegional Difficulty increased!"
+				"&6&n&l大师模式下的游戏机制更改："
+				"&d&l→ &r&e&o商店里&r现在会出售全新物品！"
+				"&d&l→ &r+1&r战斗翻滚次数"
+				"&d&l→ &r太空旅行的科技大门将会向你敞开！"
+				"&d&l→ &r解锁了各种快捷传送的手段！ &e(指路石和传送石)"
+				"&c&l→ &r现在新怪物会开始刷新了！&e&o（务必小心突变怪物）&r！"
+				"&c&l→ &r所有地区的难度都会被上调！"
 				"{image:modpack:textures/master.png width:170 height:100 align:1}"
 			]
 			hide_dependency_lines: true
@@ -220,16 +220,16 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "6D22DF9F16F321D3"
-					title: "&e解锁称号：&r The Master"
+					title: "&e解锁称号：&r大师"
 					type: "command"
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Questmaster]\",\"color\":\"green\",\"bold\":true},{\"text\":\" Player just unlocked Master Mode!\"}]"
+					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[任务大师]\",\"color\":\"green\",\"bold\":true},{\"text\":\" 玩家刚刚成功解锁了大师模式！\"}]"
 					console: true
 					icon: "farmersdelight:cake_slice"
 					id: "32CDD8391E6706FC"
-					title: "&d&oBragging Rights"
+					title: "&d&o拿着这个玩意去社区吹牛吧！"
 					type: "command"
 				}
 				{
@@ -238,7 +238,7 @@
 					console: true
 					icon: "advancementframes:advancement_frame"
 					id: "5919949F4CF3F6DA"
-					title: "&eCelebratory Sounds"
+					title: "&e*各种庆祝的音效*"
 					type: "command"
 				}
 				{
@@ -260,7 +260,7 @@
 						tag: { }
 					}
 					id: "755EC0C5227D7ECB"
-					title: "&6Master Mode"
+					title: "&6大师模式"
 					type: "command"
 				}
 				{
@@ -300,13 +300,13 @@
 					icon: "supplementaries:present_purple"
 					id: "3548001947D5CA39"
 					table_id: 4371317505818580465L
-					title: "&dMaster Mode Cache"
+					title: "&d大师模式 Cache"
 					type: "choice"
 				}
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "Master Mode starts when &6The Player&r defeats &5The Ender Dragon"
+			subtitle: "当&6玩家&r击杀&5末影龙&r后，就会解锁大师模式。"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: {
@@ -315,7 +315,7 @@
 					tag: { }
 				}
 				id: "3D5139F6C946ECC3"
-				title: "&5&lMaster Mode &r&5★★★★"
+				title: "&5&l大师模式&r&5★★★★"
 				type: "kill"
 				value: 1L
 			}]
@@ -324,12 +324,12 @@
 		}
 		{
 			description: [
-				"&6&n&lExpert Mode Changes"
-				"&d&l→ &rNew items for sale in &e&oThe &e&oShop!"
-				"&d&l→ &r&e&o渊深之地&r can now be visited!"
-				"&d&l→ &rExperience from all sources is increased by &225%"
-				"&c&l→ &rNew monsters begin spawning."
-				"&c&l→ &r&e&oRegional Difficulty&r increased!"
+				"&6&n&l专家模式下的游戏机制更改"
+				"&d&l→ &r商店里现在会出售全新物品！"
+				"&d&l→ &r你现在可以造访&e&o渊深之地&r了！"
+				"&d&l→ &r所有方法获得的经验&2将会受到225%的增益&r。"
+				"&c&l→ &r新怪物会开始刷新。"
+				"&c&l→ &r&e&o所有地区的难度&r都会被上调！"
 				""
 				""
 				"{image:modpack:textures/expert.png width:170 height:100 align:1}"
@@ -350,17 +350,17 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "4D62D854404D9939"
-					title: "&e解锁称号：&r The Expert"
+					title: "&e解锁称号：&r专家"
 					type: "command"
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Questmaster]\",\"color\":\"green\",\"bold\":true},{\"text\":\" Player just unlocked Expert Mode!\"}]"
+					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[任务大师]\",\"color\":\"green\",\"bold\":true},{\"text\":\" 玩家刚刚成功解锁了大师模式！\"}]"
 					console: true
 					elevate_perms: true
 					icon: "farmersdelight:cake_slice"
 					id: "23945D7FCFD659B9"
-					title: "&d&oBragging Rights"
+					title: "&d&o拿着这个去社区吹牛吧"
 					type: "command"
 				}
 				{
@@ -391,7 +391,7 @@
 						tag: { }
 					}
 					id: "52AC7F0176A6FB53"
-					title: "&6Expert Mode"
+					title: "&6专家模式"
 					type: "command"
 				}
 				{
@@ -431,13 +431,13 @@
 					icon: "supplementaries:present"
 					id: "533F4E8B061AB629"
 					table_id: 1718805351174656688L
-					title: "&eExpert Mode Cache"
+					title: "&e专家模式 Cache"
 					type: "choice"
 				}
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "Expert Mode starts when &6The Player&r enters &cThe Nether"
+			subtitle: "当&6玩家&r进入&c下界&r时，专家模式会自动解锁。"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: {
@@ -446,7 +446,7 @@
 					tag: { }
 				}
 				id: "0C99492A5E0F7F81"
-				title: "&c&lExpert Mode &r&c★★"
+				title: "&c&l专家模式&r&c★★"
 				type: "dimension"
 			}]
 			x: 1.6d
@@ -454,11 +454,11 @@
 		}
 		{
 			description: [
-			  "      &6&lNormal Mode Changes"
+			  "      &6&l普通模式对游戏机制的更改"
 			  ""
-			  "&a→&r Vanilla Minecraft Difficulty"
-			  "&a→&r Rare chance to find Jewels and Gems inside stone while mining"
-			  "&e→&r Killing 100 undead causes a new raid to start: &lUndead Army "
+			  "&a→&r 原版游戏难度"
+			  "&a→&r 挖矿时有概率在石头中找到宝石。"
+			  "&e→&r 累计杀死100只亡灵生物后就会开始&l亡灵军队&r事件。 "
 			  ""
 			  "{image:modpack:textures/2025-03-14_00.41.44.png width:170 height:100 align:center}"
 			]
@@ -479,7 +479,7 @@
 					console: true
 					icon: "rats:rat_skull"
 					id: "062D5DD2C84B35D2"
-					title: "&eActivate Normal Mode"
+					title: "&eActivate 普通模式"
 					type: "command"
 				}
 				{
@@ -490,14 +490,14 @@
 			]
 			shape: "square"
 			size: 0.9d
-			subtitle: "&oNormal Mode starts upon creating a New World"
+			subtitle: "&o普通模式在创建新世界时就已经开启了"
 			tasks: [{
 				advancement: "minecraft:story/iron_tools"
 				criterion: ""
 				disable_toast: true
 				icon: "minecraft:ender_eye"
 				id: "4B4BA4F4F7D280D8"
-				title: "&9Normal Mode ★"
+				title: "&9普通模式★"
 				type: "advancement"
 			}]
 			x: 0.0d
@@ -505,18 +505,18 @@
 		}
 		{
 			description: [
-			  "Difficulty in MCE2 changes based on player actions, you decide how quickly you want to progress. The World around you can adapt and enemies can get tougher! ((Or you can stay on Normal Mode if that makes you happy!))"
+			  "MCE2的难度是随着你的游玩进度而更改的，游戏难度的提升速度由你来决定。而随着你的提升你周边的世界和敌人也会变得更加复杂与困难！（或者如果你想的话，留在普通模式也是没问题的！）"
 			  ""
-			  "&eNormal Mode &r- The Default "
-			  "&cExpert Mode &r- Unlocked by entering The Nether"
-			  "&dMaster Mode &r- Unlocked by defeating The Ender Dragon"
+			  "&e普通模式 &r：普通模式 "
+			  "&c专家模式 &r：进入下界后解锁"
+			  "&d大师模式 &r：击杀末影龙后解锁"
 			  ""
 			  "{image:modpack:textures/barry.png width:100 height:100 align:1}"
-			  "Barry in Normal Mode"
+			  "普通模式的巴里"
 			  "{image:modpack:textures/barry-the-rat-demon-transparent-no-white.png width:100 height:100 align:1}"
-			  "Barry in Expert Mode"
+			  "专家模式的巴里"
 			  "{image:modpack:textures/barry-the-rat-uwu-transparent-no-white.png width:100 height:100 align:1}"
-			  "Barry in Master Mode"
+			  "大师模式的巴里"
 			]
 			icon: {
 				Count: 1
@@ -525,16 +525,16 @@
 			}
 			id: "2D1F7756EA4BE2CB"
 			shape: "rsquare"
-			subtitle: "Learn About Difficulty Modes!"
+			subtitle: "了解有关难度模式的信息"
 			tasks: [{
 				id: "7DBD819B4A70A424"
-				title: "&eInfo Quest &r(Right-点击完成任务)"
+				title: "&e这是一个介绍任务&r(点击完成任务)"
 				type: "checkmark"
 			}]
-			title: "&6&lDifficulty Modes - &r&eInformation! &l⬅"
+			title: "&6&lMCE2的难度系统： &r&e各种难度相关的信息！&l⬅"
 			x: -0.024489795918370305d
 			y: -0.21020408163264648d
 		}
 	]
-	title: "&9Difficulty Modes"
+	title: "&9游戏难度与各种阶段"
 }
