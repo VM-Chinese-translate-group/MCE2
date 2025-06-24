@@ -5,6 +5,6 @@
     "color": "gold"
   },
   "tip": {
-    "text": "Multiblocks can exhibit unexpected behavior when they cross chunks. Press F9 twice to see chunk borders."
+    "text": "如果多方块结构是跨越区块边界建成的，那它们可能会导致预期之外的效果。按两次F9即可查看区块边界。"
   }
 }

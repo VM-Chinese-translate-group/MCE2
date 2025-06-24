@@ -5,6 +5,6 @@
     "color": "gold"
   },
   "tip": {
-    "text": "You can use /tpa to teleport to a friend! It has an hour long cooldown!"
+    "text": "你可以使用/tpa指令来传送到其他玩家的位置！这个指令有一个小时的冷却时间！"
   }
 }

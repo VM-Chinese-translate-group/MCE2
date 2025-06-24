@@ -5,6 +5,6 @@
     "color": "gold"
   },
   "tip": {
-    "text": "Night time temporarily increases the max count and max health of monsters, making monsters more plentiful and powerful!"
+    "text": "怪物的生成数量和最大生命值都会在夜间得到增强。它们会更加强大、更加来势汹汹！"
   }
 }
