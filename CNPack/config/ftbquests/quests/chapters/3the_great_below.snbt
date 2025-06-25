@@ -132,18 +132,18 @@
 	quests: [
 		{
 			description: [
-				"渊深之地&r... not much is known about this place..."
-				"All I know is &eThe Wither&r is connected to all of this, I would suggest you defeat it and see what you can learn."
+				"渊深之地&r……我对这里知之甚少……"
+				"我唯一知道的就是&e凋零&r似乎和这里有所联系，所以我建议你把凋零干掉，然后看看你能搞到什么新东西。"
 				""
-				"The Quest Book will not be able to advise you until you make the discoveries yourself!"
+				"任务书在你亲自深入探索前无法给出任何建议或者信息！"
 				""
-				"Look out for clues and let's uncover the secrets of <shake>&d<shake>渊深之地!!!"
+				"现在快去寻找有关这里的蛛丝马迹，然后让我们一起揭开<shake>&d<shake>渊深之地!!!&d之下的秘密吧！"
 			]
 			id: "6741B77BBC23A95C"
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/tellraw @p {\"text\":\"The Wither Heart beats in your hand, making you feel unwell.\",\"italic\":true,\"color\":\"dark_gray\"}"
+					command: "/tellraw @p {\"text\":\"凋零之心在你的手中不断搏动，你感觉自己浑身都不舒服。\",\"italic\":true,\"color\":\"dark_gray\"}"
 					console: true
 					icon: {
 						Count: 1
@@ -151,7 +151,7 @@
 						tag: { }
 					}
 					id: "1904176D6494CD17"
-					title: "&8Wither Sickness"
+					title: "&8凋零恶疾"
 					type: "command"
 				}
 				{
@@ -195,7 +195,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Find a &eWither Heart"
+			subtitle: "找到&e凋零之心"
 			tasks: [{
 				id: "2C1D01CDCE864250"
 				item: {
@@ -205,18 +205,18 @@
 				}
 				type: "item"
 			}]
-			title: "&8Wither Me This"
+			title: "&8把凋零的“那个”带给我！"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6741B77BBC23A95C"]
 			description: [
-				"The corruption from the &eSculk Catalyst&r seems to have turned the &eWither Heart&r into something much more sinister... "
+				"&e幽匿催发体&r中的腐化能量似乎能让&e凋零之心&r变得更加邪恶……"
 				""
-				"I can hear whis&kd&rpers... I fe&k3&rel... str&k!&range... "
+				"我现在能听见一阵阵地&k耳语声&r……我感觉&k3&r……我变得更&k!&r强大了…… "
 				""
-				"We have to push on! <shake>&c<shake>FOR SCIENCE!"
+				"我们必须继续往下研究！以<shake>&c<shake>科学研究的名义继续！"
 			]
 			hide_until_deps_complete: true
 			id: "20D7639E7B4A9C96"
@@ -263,7 +263,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Find a &eMysterious Object"
+			subtitle: "找到&e“神秘物品”"
 			tasks: [{
 				id: "7381ACBFBD89DC42"
 				item: {
@@ -273,27 +273,27 @@
 				}
 				type: "item"
 			}]
-			title: "&bFeelings of Dread"
+			title: "&b感受恐惧"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["20D7639E7B4A9C96"]
 			description: [
-				"The &eAncient City!&r OF COURSE! It all makes sense now... "
-				"But why are we even following its instructions... "
+				"这就是&e远古城市&r！我懂了！现在我总算能捋清楚这一切了……"
+				"但是为什么我们要跟随它的指示……？"
 				""
-				"Have we questioned that yet?"
+				"等等我之前提过这样的问题吗"
 				""
-				"I don't know if we should be doing thi-"
+				"我实在不知道我应不应该放手去做——"
 				""
-				"NEVERMIND THAT, ignore my moment of WEA&k2&rKNESS. We WILL co&kf&rmply. "
+				"算了别管了，请无视掉我刚刚的动&k2&r摇，咱们能做&kf&r到的。"
 				""
-				"We WILL op&k!&ren th&k!&re portal."
+				"我们会一起打&k!&r开那座远&k!&r古传送门。"
 				""
-				"The po&k!&rrtal to &d&l<shake>TH&k!&r&d&l<shake>E GRE&k!&r&d&l<shake>AT BEL&k!&d&l<shake>OW! "
+				"那座前&k!&r往&d&l<shake>&k!&r渊&d&l<shake>深&k!&r&d&l<shake>之&k!&d&l<shake>地的传送门！ "
 				""
-				"I think we both know what we need to do next.... "
+				"我感觉咱俩应该能明白接下来要干什么吧……"
 			]
 			hide_until_deps_complete: true
 			id: "26E27FB78FB855CE"
@@ -372,7 +372,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Locate an &eAncient City"
+			subtitle: "找到&e远古城市"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -381,7 +381,7 @@
 				}
 				id: "071074176E32A326"
 				structure: "minecraft:ancient_city"
-				title: "Ancient City"
+				title: "远古城市"
 				type: "structure"
 			}]
 			x: 6.0d
@@ -390,11 +390,11 @@
 		{
 			dependencies: ["26E27FB78FB855CE"]
 			description: [
-				"&3&oWhat awaits us on the other side? "
+				"&3&o会有什么在传送门的另一旁等着我们呢？What awaits us on the other side? "
 				""
-				"&e提示：&r If you die in 渊深之地, you will NOT create a Gravestone. You will be reduced to just another forgotten soul forever lost in 渊深之地..."
+				"&e提示：&r如果你死在了渊深之地，那你是不会在原地留下墓碑的——你会被变成一个永远迷失在渊深之地的灵魂……"
 				""
-				"&8\"We do not believe in human feelings, nor in human senses, nor human needs, human values, human fears, or even human hopes. The only purpose or belief is the path from the mind to the brain.\""
+				"&8\"吾等不信任人类的情感、知觉、欲求、价值、恐惧与希望，唯一值得吾等信赖之物乃是意识与大脑之间的联系。\""
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -425,7 +425,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw @p {\"text\":\"The echos of 渊深之地 contaminate your mind.. Tendrils writhing and wreathing...  Causing you lose touch with reality and giving you a primal fear you cannot fully explain.. You hear it deep within your brain. Your thoughts are not your own and you are not alone..\",\"italic\":true,\"color\":\"aqua\"}"
+					command: "/tellraw @p {\"text\":\"渊深之地中的回响玷污了你的意识……你的神经卷须开始扭曲作痛，让你脑中充满了无以言说的原始恐惧……你的现实感逐渐剥落丧失，你在脑中听见了那道回响，你的意识现在不独属于你一人了。你·不·再·孤·单。\",\"italic\":true,\"color\":\"aqua\"}"
 					console: true
 					icon: {
 						Count: 1
@@ -458,7 +458,7 @@
 						tag: { }
 					}
 					id: "3E57EBE779AB9556"
-					title: "&e解锁称号：&r of 渊深之地"
+					title: "&e解锁称号：&r渊深之地"
 					type: "command"
 				}
 				{
@@ -512,7 +512,7 @@
 			]
 			shape: "octagon"
 			size: 1.4d
-			subtitle: "Enter &e渊深之地"
+			subtitle: "踏入&e渊深之地"
 			tasks: [{
 				dimension: "thegreatbelow:thegreatbelow"
 				icon: {
@@ -524,20 +524,20 @@
 				title: "&3Enter 渊深之地"
 				type: "dimension"
 			}]
-			title: "&8From The Mind To The Brain"
+			title: "&8从意识到大脑"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6248503684C49C89"]
 			description: [
-				"It seems deep down here in &e渊深之地&r, a strange and alien material has formed."
+				"&e渊深之地&r的深处部分好像能找到凝结的奇怪的异星金属。"
 				""
-				"Perhaps all of the lost the souls somehow have contributed to its formation, nonetheless we should mine as much of this stuff as possible. "
+				"也许这些金属正是由那些迷失的灵魂凝结而成，我们需要尽可能的大量挖掘这种金属。"
 				""
-				"It is very durable and dense, this could be the wonder material &mI've&r WE'VE been looking for!"
+				"它非常耐磨，而且也很致密，似乎这就是&m我们&r一直在寻找的最佳金属！"
 				""
-				"Who knows what sort of technology we can create!"
+				"我们究竟能用它搞出什么样的科技呢？"
 			]
 			hide_until_deps_complete: true
 			id: "29B96385E819818D"
@@ -582,7 +582,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mine 1x Osmium Ore"
+			subtitle: "挖掘一块粗锇"
 			tasks: [{
 				block: "mekanism:deepslate_osmium_ore"
 				block_type: 0
@@ -591,7 +591,7 @@
 				type: "questsadditions:break"
 				value: 1L
 			}]
-			title: "&3The Wonder Material"
+			title: "&3传奇金属"
 			x: 3.0d
 			y: 6.0d
 		}
@@ -600,19 +600,19 @@
 			description: [
 				"From translating these &eKnowledge Fragments&r I have learned a great deal of information.."
 				""
-				"Firstly, it seems whoever wrote these manuscripts speak of a &b\"⊣∷ᒷᔑℸ ̣. ʖᒷꖎ𝙹∴\"&r or as we would say"
-				"Great Below.."
+				"首先，似乎这些写手稿的人把这里叫做&b\"⊣∷ᒷᔑℸ ̣. ʖᒷꖎ𝙹∴\"&r，翻译过来就是——"
+				"渊深之地。"
 				""
-				"They mention a &b\"ᔑʖ||ᓭᓭ\"&r or an \"Abyss\". "
+				"我们找到的知识残片上面写着&b\"ᔑʖ||ᓭᓭ\"&r，翻译过来就是\"深渊\"。"
 				""
-				"They seem to consider 渊深之地 as some sort of Soul Prison.. or Purgatory for damned souls to be tormented while they await their pilgrimage into &b\"ℸ ̣ ⍑ᒷ. ⊣∷ᒷᔑℸ ̣. ʖᒷ||𝙹リ↸\"&r "
-				"- The Great Beyond.."
+				"渊深之地似乎是某种灵魂监狱……或者算是这些受难灵魂的炼狱？它们在这里受尽磨难，直到能加入&b\"ℸ ̣ ⍑ᒷ. ⊣∷ᒷᔑℸ ̣. ʖᒷ||𝙹リ↸\"&r为止……\"&r "
+				"也就是彼岸……"
 				""
-				"The Warden is mentioned briefly and considered to be a force of nature. "
-				"With the sole purpose of keeping souls contained and removing any outside &b\"⍑⚍ᒲᔑリ\"&r "
-				"- Interlopers."
+				"上面很少提到这里的典狱长，他们似乎认为典狱长是一种自然力量。"
+				"这股力量的目的就是收容灵魂，然后消灭任何&b\"⍑⚍ᒲᔑリ\"&r。"
+				"……就是闯入者。"
 				""
-				"Great work! We are &othis much closer&r to uncovering the secrets of life, death and rebirth. "
+				"干的好啊！我们现在&o在理解&r生死和重生之间的道路上更近了一步。"
 			]
 			id: "56B35C1DDC5C2A52"
 			invisible: true
@@ -625,11 +625,11 @@
 						tag: {
 							author: "unknown"
 							pages: [
-								"{\"text\":\"Staring at the sea...\\nWill she come?\\n\\nIs there hope for me?\\nAfter all is said and done..\\n\\nAnything at any price.\\nAll of this is for you..\\n\\nAll the spoils of a wasted life...\\n\\nAll of this for you..\"}"
-								"{\"text\":\"All the world has closed her eyes.\\n\\nTired faith all worn and thin..\\n\\nFor all we could have done..\\n\\nAnd all that could have been.\\n\\nOcean pulls me close..\\n\"}"
-								"{\"text\":\"It whispers in my ear..\\n\\nThe destiny I've chose.\\n\\nAll becoming clear..\\n\\nThe currents have their say..\\n\\nThe time is drawing near..\\n\\nWashes me away...\"}"
-								"{\"text\":\"Makes me disappear.\\n\\nAnd I descend from grace.\\n\\nIn arms of undertow..\\n\\nI will take my place...\\n\\n\\n\\n\\n\\nIN 渊深之地!\"}"
-								"{\"text\":\"I can still feel you..\\n\\nEven so far away..\\n\"}"
+								"{\"text\":\"我看向大海……\\n她会来吗？\\n\\n在我犯下那一切说出那一切以后……\\n这里还有希望吗？\\n\\n世间万物皆有代价……\\n而这一切现在都落到了你的头上，\\n\\n那被浪费被糟蹋的生命的千钧重压…\\n\\n而这一切现在都落到了你的头上……\"}"
+								"{\"text\":\"全世界都已阖上双眼。\\n\\n疲惫的信仰单薄黯淡。\\n\\n为我们本可实现的夙愿。\\n\\n为所有未竟的期盼。\\n\\n海洋将我拥入深渊..\\n\"}"
+								"{\"text\":\"它在耳畔呢喃低语。\\n\\n我选择的宿命轨迹。\\n\\n逐渐显露出清晰印记。\\n\\n暗流在宣告它的旨意。\\n\\n临界时刻即将来临..\\n\\n任浪潮将我卷向寂灭...\"}"
+								"{\"text\":\"令存在消散无迹。\\n\\n我自恩典中沉坠。\\n\\n卷入汹涌的暗涡。\\n\\n终将安息于此位...\\n\\n\\n\\n\\n\\n在这无底深渊！\"}"
+								"{\"text\":\"我仍能感受到你，\\n\\n纵然相隔万里..\\n\"}"
 							]
 							resolved: 1b
 							title: "渊深之地"
@@ -677,7 +677,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Gather Ancient Knowledge Fragments"
+			subtitle: "得到远古知识残片"
 			tasks: [{
 				count: 8L
 				id: "324E50F6668C179F"
@@ -688,15 +688,15 @@
 				}
 				type: "item"
 			}]
-			title: "&8Lost Knowledge"
+			title: "&8遗失的知识"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6248503684C49C89"]
 			description: [
-				"This item seems to be sculk condensed down into a small flawless orb."
-				"It is quite beautiful... I wonder what we can use it for?"
+				"这个小宝珠好像是极度压缩过的幽匿块。"
+				"看起来还挺漂亮……我在想我们能用它做什么？"
 			]
 			hide_until_deps_complete: true
 			id: "3D3563EEC4E93B7D"
@@ -747,7 +747,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Find a &eSculk Pearl"
+			subtitle: "找到&e幽匿珍珠"
 			tasks: [{
 				id: "62FBD4F6497D5652"
 				item: {
@@ -757,18 +757,18 @@
 				}
 				type: "item"
 			}]
-			title: "&bSculked Up"
+			title: "&b致密幽匿"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6248503684C49C89"]
 			description: [
-				"It is said when a soul finally escapes 渊深之地 and ascends to The Great Beyond, they hear the most beautiful symphony ever created.."
+				"据说当一个灵魂成功逃离渊深之地，然后前往彼岸时，它会听到世上最动听的交响乐……"
 				""
-				"Whoever was trapped down here has clearly tried to recreate it... "
+				"被困在这里的那些灵魂们很明显想要复现这个传说……"
 				""
-				"Well to the best of their mortal ability.."
+				"好吧，起码它们作为凡人来说已经尽全力了。"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -816,7 +816,7 @@
 			]
 			secret: true
 			shape: "octagon"
-			subtitle: "Find the rare music disc &e\"Gone\""
+			subtitle: "找到稀有音乐唱片&e\"消逝\""
 			tasks: [{
 				id: "6D506A73B0C02772"
 				item: {
@@ -826,17 +826,17 @@
 				}
 				type: "item"
 			}]
-			title: "&dThe Final Echo"
+			title: "&d最终回响"
 			x: 3.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["6248503684C49C89"]
 			description: [
-				"So it seems regular old Night Vision just doesn't cut it here..."
-				"We will have to get creative! Craft one of these and see if we can adapt!"
+				"很明显传统的夜视效果在这里没用……"
+				"我们的创造力会帮我们解决问题的！做一个这里提到的东西，然后看看能不能用！"
 				""
-				"&6小贴士：&r You can combine your Echo Location Device with a Precision Mechanism to control when the ability activates with a keybind! (By default K)"
+				"&6小贴士：&r在回声定位仪的能力激活时，按下快捷键（默认为k）即可进行精密配置！"
 			]
 			id: "32B78ADD4FECE592"
 			rewards: [
@@ -880,7 +880,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a &eEcho Location Device"
+			subtitle: "合成一个&e回声定位仪"
 			tasks: [{
 				id: "2BDED14454E034BC"
 				item: {
@@ -899,10 +899,10 @@
 			can_repeat: true
 			dependencies: ["6741B77BBC23A95C"]
 			description: [
-				"Did you lose your &dWither Heart&r?"
-				"Well lucky for you I can return it to you for 10 Levels of XP!"
+				"你把你的&d凋零之心&r搞不见了？"
+				"行吧你运气挺好的，给我10级经验我就给你补一个！"
 				""
-				"This is only relevant if you lost your &dWither Heart!"
+				"只有你真的搞丢了&d凋零之心&r时才能过来补！"
 			]
 			hide_until_deps_complete: true
 			id: "02C2F57C2EDC118A"
@@ -912,14 +912,14 @@
 				item: "kubejs:mobdrop_endermanheart_beating"
 				type: "item"
 			}]
-			subtitle: "&6Lost and Found!"
+			subtitle: "&6失物招领！"
 			tasks: [{
 				id: "27FCD3243B62E668"
 				points: false
 				type: "xp"
 				value: 10L
 			}]
-			title: "&dDid You Lose Your Wither Heart?"
+			title: "&d你把你的凋零之心搞丢了？"
 			x: -1.0d
 			y: 0.0d
 		}
@@ -927,10 +927,10 @@
 			can_repeat: true
 			dependencies: ["20D7639E7B4A9C96"]
 			description: [
-				"Did you lose your &dMysterious Object&r?"
-				"Well lucky for you I can return it to you for 10 Levels of XP!"
+				"你把你的&d神秘物品&r搞不见了？"
+				"行吧你运气挺好的，给我10级经验我就给你补一个！"
 				""
-				"This is only relevant if you lost your &dMysterious Object!"
+				"只有你真的搞丢了&d神秘物品&r时才能过来补！"
 			]
 			hide_until_deps_complete: true
 			id: "5E06348DE2B973AF"
@@ -940,14 +940,14 @@
 				item: "kubejs:artifact_beating_heart"
 				type: "item"
 			}]
-			subtitle: "&6Lost and Found!"
+			subtitle: "&6失物招领！"
 			tasks: [{
 				id: "0AD6B8811FF6A343"
 				points: false
 				type: "xp"
 				value: 10L
 			}]
-			title: "&dDid You Lose Your Mysterious Object?"
+			title: "&d你把你的神秘物品搞丢了？"
 			x: 2.0d
 			y: 0.0d
 		}
