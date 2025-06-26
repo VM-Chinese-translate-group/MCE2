@@ -28,6 +28,6 @@
   "effect.thegreatbelow.living_bomb": "§a活体炸弹",
   "item.thegreatbelow.creeper_milk": "§a爬行者奶",
   "effect.thegreatbelow.living_bomb.description": "来不及解释了！苦力怕奶，喝喝喝！",
-  "death.thegreatbelow.creeper_milk_explosion": "%1$s把持不住自己喝下的爬行者奶！",
+  "death.thegreatbelow.creeper_milk_explosion": "%1$s把持不住自己喝下的苦力怕奶！",
   "block.thegreatbelow.beam_block": "§d灵魂引擎"
 }
