@@ -1,5 +1,5 @@
 <div align="center">
-   <img height="128px" width="128px" alt="logo" src="https://media.forgecdn.net/avatars/thumbnails/1308/987/256/256/638851054504952281.png"/> 
+   <img height="128px" width="128px" alt="logo" src="https://media.forgecdn.net/avatars/thumbnails/1224/862/256/256/638802688260209846.png"/> 
    <h1>MC Eternal 2</h1>
 </div>
 
