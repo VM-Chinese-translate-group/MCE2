@@ -38,7 +38,7 @@
 "dangerous": true                 
     },
     "minecraft:target": {},
-    "brutalbosses:jumpattack": {"healthinterval": "100-0",          
+    "brutalbosses:jumpattack": {"healthinterval": "10-0",          
     "attackdist": 12,                     
     "extraDamage": 2,                    
     "maxdist": 15,                       
@@ -67,7 +67,7 @@
 "knockup": true                       
 },
     "brutalbosses:chasetarget": {},
-    "brutalbosses:runcommand": {"healthinterval": "90-0",          
+    "brutalbosses:runcommand": {"healthinterval": "20-0",          
 "cooldown": 25,                     
 "command": "execute at @p run summon supplementaries:cannonball ~ ~8 ~" },
 

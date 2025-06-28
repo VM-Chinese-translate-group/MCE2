@@ -82,15 +82,7 @@
 			y: 4.0d
 		}
 		{
-			description: [
-			  "Titles are unique cosmetic rewards that can be used to show off your progress. Try to collect them all!"
-			  ""
-			  "They earned by completing Quests, Advancements, Challenges, Collecting Title Fragments and more!"
-			  ""
-			  "When you've unlocked a special MCE2 Title, it will appear here, inside The Book of Titles. "
-			  ""
-			  "Here you can claim your Titles and Equip them by pressing the designated Keybind!"
-			]
+			description: ["{chapter.40.quest.5.description.1}"]
 			id: "5ECDB3568B93B03C"
 			rewards: [{
 				id: "73621B015668A50D"
@@ -98,7 +90,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "&oWelcome to &eThe Book of Titles! &r&o[Click me to learn more]"
+			subtitle: "{chapter.40.quest.5.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -110,7 +102,7 @@
 					id: "titles:title_scroll_uncommon"
 				}
 				id: "65E781F651F35B55"
-				title: "&eThe Book of Titles"
+				title: "{chapter.40.quest.5.task.1.title}"
 				type: "checkmark"
 			}]
 			x: -7.547619047619037d
@@ -120,7 +112,7 @@
 			id: "5CCA92D1F4EF1398"
 			tasks: [{
 				id: "3964D22FB6349200"
-				title: "test"
+				title: "{chapter.40.quest.6.task.1.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d

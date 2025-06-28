@@ -1,5 +1,5 @@
 {
-  "entity": "cavesandcliffs:goat",
+  "entity": "minecraft:goat",
   "name": "§eSlayer of Mountains",
   "visualscale": 2.0,
   "experience": 800,
@@ -38,7 +38,7 @@
       "count": 2,
       "entities": [
         {
-          "entityid": "cavesandcliffs:goat"
+          "entityid": "minecraft:goat"
         }
       ]
     }

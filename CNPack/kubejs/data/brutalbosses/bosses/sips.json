@@ -44,7 +44,7 @@
       "projectile_aoe": true
     },
     "brutalbosses:jumpattack": {
-      "healthinterval": "100-0",
+      "healthinterval": "20-0",
       "attackdist": 12,
       "extraDamage": 2,
       "maxdist": 15,

@@ -9,9 +9,7 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
-		description: [
-		  "Chapter coming soon!™"
-		]
+		description: ["Chapter coming soon!™"]
 		id: "0AA8A23A683CFA57"
 		rewards: [{
 			amount: 250L
@@ -28,5 +26,5 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "&6Thermal"
+	title: "{chapter.28.title}"
 }

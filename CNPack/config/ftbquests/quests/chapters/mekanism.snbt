@@ -60,10 +60,7 @@
 		}
 		{
 			height: 0.5d
-			hover: [
-			  "^"
-			  "3x Ore Processing"
-			]
+			hover: ["{chapter.29.image.7}"]
 			image: "mekanism:item/clump_osmium"
 			rotation: 0.0d
 			width: 0.5d
@@ -72,10 +69,7 @@
 		}
 		{
 			height: 0.5d
-			hover: [
-			  "^"
-			  "2x Ore Processing"
-			]
+			hover: ["{chapter.29.image.8}"]
 			image: "mekanism:item/clump_osmium"
 			rotation: 0.0d
 			width: 0.5d
@@ -132,9 +126,7 @@
 		}
 		{
 			height: 1.0d
-			hover: [
-			  "> Dirty Dust >"
-			]
+			hover: ["{chapter.29.image.15}"]
 			image: "mekanism:textures/block/models/multipart/advanced_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -143,9 +135,7 @@
 		}
 		{
 			height: 1.0d
-			hover: [
-			  "> Dust >"
-			]
+			hover: ["{chapter.29.image.16}"]
 			image: "mekanism:textures/block/models/multipart/basic_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -154,9 +144,7 @@
 		}
 		{
 			height: 1.0d
-			hover: [
-			  "> Clumps >"
-			]
+			hover: ["{chapter.29.image.17}"]
 			image: "mekanism:textures/block/models/multipart/advanced_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -165,11 +153,7 @@
 		}
 		{
 			height: 1.75d
-			hover: [
-			  "v"
-			  "Shards"
-			  "v"
-			]
+			hover: ["{chapter.29.image.18}"]
 			image: "mekanism:textures/block/models/multipart/elite_mechanical_pipe_vertical.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -178,9 +162,7 @@
 		}
 		{
 			height: 1.0d
-			hover: [
-			  "> Oxygen >"
-			]
+			hover: ["{chapter.29.image.19}"]
 			image: "mekanism:textures/block/models/multipart/advanced_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -189,9 +171,7 @@
 		}
 		{
 			height: 1.5d
-			hover: [
-			  "> Hydrogen Chloride >"
-			]
+			hover: ["{chapter.29.image.20}"]
 			image: "mekanism:textures/block/models/multipart/elite_pressurized_tube_vertical.png"
 			rotation: 71.25d
 			width: 0.5d
@@ -200,9 +180,7 @@
 		}
 		{
 			height: 1.5d
-			hover: [
-			  "> Chlorine >"
-			]
+			hover: ["{chapter.29.image.21}"]
 			image: "mekanism:textures/block/models/multipart/elite_pressurized_tube_vertical.png"
 			rotation: -71.25d
 			width: 0.5d
@@ -211,11 +189,7 @@
 		}
 		{
 			height: 1.5d
-			hover: [
-			  "v"
-			  "Brine"
-			  "v"
-			]
+			hover: ["{chapter.29.image.22}"]
 			image: "mekanism:textures/block/models/multipart/elite_mechanical_pipe_vertical.png"
 			rotation: -18.25d
 			width: 0.5d
@@ -224,9 +198,7 @@
 		}
 		{
 			height: 1.0d
-			hover: [
-			  "< Crystals <"
-			]
+			hover: ["{chapter.29.image.23}"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -235,9 +207,7 @@
 		}
 		{
 			height: 1.0d
-			hover: [
-			  "< Clean Ore Slurry <"
-			]
+			hover: ["{chapter.29.image.24}"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_mechanical_pipe_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -246,11 +216,7 @@
 		}
 		{
 			height: 1.0d
-			hover: [
-			  "v"
-			  "Ore Slurry"
-			  "v"
-			]
+			hover: ["{chapter.29.image.25}"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_mechanical_pipe_vertical.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -259,10 +225,7 @@
 		}
 		{
 			height: 0.5d
-			hover: [
-			  "4x Ore Processing"
-			  "v"
-			]
+			hover: ["{chapter.29.image.26}"]
 			image: "mekanism:item/clump_osmium"
 			rotation: 0.0d
 			width: 0.5d
@@ -295,9 +258,7 @@
 		}
 		{
 			height: 2.5d
-			hover: [
-			  "> Sulfuric Acid >"
-			]
+			hover: ["{chapter.29.image.30}"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -306,9 +267,7 @@
 		}
 		{
 			height: 1.5d
-			hover: [
-			  "> Water Vapor >"
-			]
+			hover: ["{chapter.29.image.31}"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -317,11 +276,7 @@
 		}
 		{
 			height: 0.5d
-			hover: [
-			  "v"
-			  "Hydrogen"
-			  "v"
-			]
+			hover: ["{chapter.29.image.32}"]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -330,9 +285,7 @@
 		}
 		{
 			height: 0.25d
-			hover: [
-			  "Hydrogen Source"
-			]
+			hover: ["{chapter.29.image.33}"]
 			image: "mekanism:textures/block/models/multipart/elite_pressurized_tube.png"
 			rotation: -90.0d
 			width: 0.25d
@@ -397,11 +350,7 @@
 		}
 		{
 			height: 1.0d
-			hover: [
-			  "v"
-			  "Sulfur Trioxide"
-			  "v"
-			]
+			hover: ["{chapter.29.image.41}"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: -18.25d
 			width: 0.5d
@@ -410,9 +359,7 @@
 		}
 		{
 			height: 1.5d
-			hover: [
-			  "> Sulfur Dioxide >"
-			]
+			hover: ["{chapter.29.image.42}"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: -71.25d
 			width: 0.5d
@@ -421,9 +368,7 @@
 		}
 		{
 			height: 1.5d
-			hover: [
-			  "> Sulfur >"
-			]
+			hover: ["{chapter.29.image.43}"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 71.25d
 			width: 0.5d
@@ -432,9 +377,7 @@
 		}
 		{
 			height: 0.5d
-			hover: [
-			  "> Water >"
-			]
+			hover: ["{chapter.29.image.44}"]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_mechanical_pipe_vertical.png"
 			rotation: 90.0d
 			width: 0.25d
@@ -443,9 +386,7 @@
 		}
 		{
 			height: 0.25d
-			hover: [
-			  "Water Source"
-			]
+			hover: ["{chapter.29.image.45}"]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_mechanical_pipe.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -478,11 +419,7 @@
 		}
 		{
 			height: 0.5d
-			hover: [
-			  "v"
-			  "Water"
-			  "v"
-			]
+			hover: ["{chapter.29.image.49}"]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_mechanical_pipe_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -491,9 +428,7 @@
 		}
 		{
 			height: 0.25d
-			hover: [
-			  "Water Source"
-			]
+			hover: ["{chapter.29.image.50}"]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_mechanical_pipe.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -502,11 +437,7 @@
 		}
 		{
 			height: 0.5d
-			hover: [
-			  "^"
-			  "Water"
-			  "^"
-			]
+			hover: ["{chapter.29.image.51}"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_mechanical_pipe_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -515,9 +446,7 @@
 		}
 		{
 			height: 0.25d
-			hover: [
-			  "Water Source"
-			]
+			hover: ["{chapter.29.image.52}"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_mechanical_pipe.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -534,10 +463,7 @@
 		}
 		{
 			height: 0.5d
-			hover: [
-			  "5x Ore Processing"
-			  "v"
-			]
+			hover: ["{chapter.29.image.54}"]
 			image: "mekanism:item/clump_osmium"
 			rotation: 0.0d
 			width: 0.5d
@@ -562,11 +488,7 @@
 		}
 		{
 			height: 0.5d
-			hover: [
-			  "^"
-			  "Hydrogen Chloride"
-			  "^"
-			]
+			hover: ["{chapter.29.image.57}"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -575,9 +497,7 @@
 		}
 		{
 			height: 0.25d
-			hover: [
-			  "Hydrogen Chloride Source"
-			]
+			hover: ["{chapter.29.image.58}"]
 			image: "mekanism:textures/block/models/multipart/ultimate_pressurized_tube.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -586,11 +506,7 @@
 		}
 		{
 			height: 0.5d
-			hover: [
-			  "v"
-			  "Gunpowder"
-			  "v"
-			]
+			hover: ["{chapter.29.image.59}"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_logistical_transporter_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -599,9 +515,7 @@
 		}
 		{
 			height: 0.25d
-			hover: [
-			  "Gunpowder Source"
-			]
+			hover: ["{chapter.29.image.60}"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_logistical_transporter.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -610,11 +524,7 @@
 		}
 		{
 			height: 0.5d
-			hover: [
-			  "^"
-			  "Oxygen"
-			  "^"
-			]
+			hover: ["{chapter.29.image.61}"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -623,9 +533,7 @@
 		}
 		{
 			height: 0.25d
-			hover: [
-			  "Oxygen Source"
-			]
+			hover: ["{chapter.29.image.62}"]
 			image: "mekanism:textures/block/models/multipart/ultimate_pressurized_tube.png"
 			rotation: 0.0d
 			width: 0.25d
@@ -701,9 +609,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-			  "Osmium can only be found in &eThe Great Below!"
-			]
+			description: ["Osmium can only be found in &eThe Great Below!"]
 			id: "13E3DEE8C03C51C1"
 			rewards: [
 				{
@@ -747,7 +653,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "The Start of Your Mekanism Journey!"
+			subtitle: "{chapter.29.quest.1.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "6347369334D215FC"
@@ -759,9 +665,7 @@
 		}
 		{
 			dependencies: ["13E3DEE8C03C51C1"]
-			description: [
-			  "The Metallurgic Infuser will be one of your most used machines when playing with Mekanism. It will be needed to create Steel Ingots, various Infused Alloys, and various Circuits. All of these are necessary if you want to progress in Mekanism."
-			]
+			description: ["{chapter.29.quest.2.description.1}"]
 			id: "3918BF0B3C42D696"
 			rewards: [
 				{
@@ -864,7 +768,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 0 Ore Processing"
+			subtitle: "{chapter.29.quest.3.subtitle}"
 			tasks: [{
 				id: "0214AA50F3534A0F"
 				item: {
@@ -883,11 +787,7 @@
 		}
 		{
 			dependencies: ["53A239E83D47433A"]
-			description: [
-			  "The Enrichment Chamber is a machine that uses energy to extract dusts out of certain blocks and ores, making it essential to multiply your ingot production. Not to be mistaken with the Crusher, this machine is the pulverizer equivalent in other mods."
-			  " "
-			  "The Enrichment Chamber can also be used to turn various resources into their refined variants, all to improve the efficiency of the Metallurgic Infuser. "
-			]
+			description: ["{chapter.29.quest.4.description.1}"]
 			id: "6159AF6F67F80ACA"
 			rewards: [{
 				id: "4D174261EDF963AC"
@@ -921,7 +821,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Tier 1 Ore Processing"
+			subtitle: "{chapter.29.quest.4.subtitle}"
 			tasks: [{
 				id: "0C8F3BC55BE32A8D"
 				item: {
@@ -982,7 +882,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 2 Ore Processing"
+			subtitle: "{chapter.29.quest.5.subtitle}"
 			tasks: [{
 				id: "3CABAC3B1CE025DE"
 				item: {
@@ -1043,7 +943,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 2 Ore Processing"
+			subtitle: "{chapter.29.quest.6.subtitle}"
 			tasks: [{
 				id: "30B06138AE4082FF"
 				item: {
@@ -1104,7 +1004,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 2 Ore Processing"
+			subtitle: "{chapter.29.quest.7.subtitle}"
 			tasks: [{
 				id: "03BA3EBCADE55894"
 				item: {
@@ -1226,7 +1126,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 3 Ore Processing"
+			subtitle: "{chapter.29.quest.9.subtitle}"
 			tasks: [{
 				id: "5A9DDCECCB25ECC2"
 				item: {
@@ -1287,7 +1187,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 3 Ore Processing"
+			subtitle: "{chapter.29.quest.10.subtitle}"
 			tasks: [{
 				id: "0A3F6E9C47802377"
 				item: {
@@ -1348,7 +1248,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 3 Ore Processing"
+			subtitle: "{chapter.29.quest.11.subtitle}"
 			tasks: [{
 				id: "51191D954A8C6286"
 				item: {
@@ -1409,13 +1309,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 3 Ore Processing"
+			subtitle: "{chapter.29.quest.12.subtitle}"
 			tasks: [{
 				id: "0F7E7250EA94A60C"
 				item: "mekanism:thermal_evaporation_controller"
 				type: "item"
 			}]
-			title: "Thermal Evaporation Plant"
+			title: "{chapter.29.quest.12.title}"
 			x: -10.0d
 			y: -3.5d
 		}
@@ -1463,7 +1363,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 4 Ore Processing"
+			subtitle: "{chapter.29.quest.13.subtitle}"
 			tasks: [{
 				id: "3ED371B541A99A02"
 				item: {
@@ -1525,7 +1425,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Tier 4 Ore Processing"
+			subtitle: "{chapter.29.quest.14.subtitle}"
 			tasks: [{
 				id: "6555A67D47795016"
 				item: {
@@ -1586,7 +1486,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 4 Ore Processing"
+			subtitle: "{chapter.29.quest.15.subtitle}"
 			tasks: [{
 				id: "12D22984E3CFC5B5"
 				item: {
@@ -1647,7 +1547,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 4 Ore Processing"
+			subtitle: "{chapter.29.quest.16.subtitle}"
 			tasks: [{
 				id: "74E6199DFC0C88B4"
 				item: {
@@ -1708,7 +1608,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 4 Ore Processing"
+			subtitle: "{chapter.29.quest.17.subtitle}"
 			tasks: [{
 				id: "50DD32D172343473"
 				item: {
@@ -1769,7 +1669,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 4 Ore Processing"
+			subtitle: "{chapter.29.quest.18.subtitle}"
 			tasks: [{
 				id: "128C38ED5F1A0CEB"
 				item: {
@@ -1783,7 +1683,7 @@
 				}
 				type: "item"
 			}]
-			title: "Chemical Infuser"
+			title: "{chapter.29.quest.18.title}"
 			x: -6.5d
 			y: -5.0d
 		}
@@ -1831,7 +1731,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 4 Ore Processing"
+			subtitle: "{chapter.29.quest.19.subtitle}"
 			tasks: [{
 				id: "727175833E15C31B"
 				item: {
@@ -1845,7 +1745,7 @@
 				}
 				type: "item"
 			}]
-			title: "Chemical Oxidizer"
+			title: "{chapter.29.quest.19.title}"
 			x: -8.0d
 			y: -5.5d
 		}
@@ -1893,7 +1793,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 4 Ore Processing"
+			subtitle: "{chapter.29.quest.20.subtitle}"
 			tasks: [{
 				id: "668F922BEF2212D1"
 				item: {
@@ -1907,7 +1807,7 @@
 				}
 				type: "item"
 			}]
-			title: "Chemical Injection Chamber"
+			title: "{chapter.29.quest.20.title}"
 			x: -9.5d
 			y: -5.0d
 		}
@@ -2228,11 +2128,7 @@
 		}
 		{
 			dependencies: ["3C888AC8E8B9D313"]
-			description: [
-			  "The Anchor Upgrade is a machine upgrade which keeps the chunk of the machine to which it is applied loaded. This is helpful for machines like the Digital Miner and Teleporter Portal which must be in loaded chunks to function properly."
-			  " "
-			  "Only the Digital Miner, Teleporter Portal and the Quantum Entangloporter can have the Anchor Upgrade installed."
-			]
+			description: ["{chapter.29.quest.26.description.1}"]
 			hide_dependency_lines: true
 			id: "785037688614DF7A"
 			rewards: [
@@ -2909,9 +2805,7 @@
 		}
 		{
 			dependencies: ["3C888AC8E8B9D313"]
-			description: [
-			  "Mekanism's Bio Fuel is an easy-to-obtain, early source of energy made from plant life. Any plant matter can be used as Bio Fuel, from seeds to pumpkins and melons - making it a renewable resource. Creating Bio Fuel is as easy as putting plant life into a powered Crusher. Use it in a Bio-Generator for energy or in the Pressurized Reaction Chamber to create Ethylene."
-			]
+			description: ["{chapter.29.quest.37.description.1}"]
 			hide_dependency_lines: true
 			id: "0E0D7C00EE100821"
 			rewards: [
@@ -2956,7 +2850,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Cleaner Than Dirt!"
+			subtitle: "{chapter.29.quest.37.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "3E7392206D54F64D"
@@ -3357,11 +3251,7 @@
 		}
 		{
 			dependencies: ["3918BF0B3C42D696"]
-			description: [
-			  "Mekanism's Configurator is the perfect tool for customizing your machines. With several modes to choose from, you can customize your machines to your heart's content. The Configurator comes with four modes: Configurate, Empty, Rotate, and Wrench."
-			  " "
-			  "You can easily switch between modes by crouching and scrolling up or down with your mouse's scroll wheel."
-			]
+			description: ["{chapter.29.quest.44.description.1}"]
 			hide_dependency_lines: true
 			id: "3BA331678EAE45AA"
 			rewards: [
@@ -3406,7 +3296,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "For All Your Configuration Needs!"
+			subtitle: "{chapter.29.quest.44.subtitle}"
 			tasks: [{
 				id: "60D7ED2525117210"
 				item: {
@@ -4081,9 +3971,7 @@
 		}
 		{
 			dependencies: ["3918BF0B3C42D696"]
-			description: [
-			  "The Jetpack is perfect for those who want to take to the skies! It uses Hydrogen gas as a fuel and can store up to 24,000 mB. Depending on your needs, you can toggle between three modes--Regular, Hover, and Disabled--. Plus, it displays the Hydrogen remaining and the mode active in the bottom left corner. So take flight today with the Jetpack!"
-			]
+			description: ["{chapter.29.quest.52.description.1}"]
 			hide_dependency_lines: true
 			id: "68A8905B4967CEF9"
 			rewards: [
@@ -4128,7 +4016,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Future of Flying Is Here!"
+			subtitle: "{chapter.29.quest.52.subtitle}"
 			tasks: [{
 				id: "483C31362A5239F9"
 				item: {
@@ -4150,9 +4038,7 @@
 		}
 		{
 			dependencies: ["68A8905B4967CEF9"]
-			description: [
-			  "Did you know that the Jetpack can't be worn with chestplate armor? Well, now you do! But don't worry, you can upgrade to the Armored Jetpack if you want protection. Plus, when used with a pair of Free Runners, you safely disable it without worrying about fall damage!"
-			]
+			description: ["{chapter.29.quest.53.description.1}"]
 			id: "7033954FFDD6310B"
 			rewards: [
 				{
@@ -4196,7 +4082,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Next Level in Personal Security!"
+			subtitle: "{chapter.29.quest.53.subtitle}"
 			tasks: [{
 				id: "145F943A622FA8C1"
 				item: {
@@ -4215,9 +4101,7 @@
 		}
 		{
 			dependencies: ["3918BF0B3C42D696"]
-			description: [
-			  "The Scuba Tank is a great way to extend your stay underwater- just make sure you have a full tank of oxygen and your Gas Mask on and you're good to go!"
-			]
+			description: ["{chapter.29.quest.54.description.1}"]
 			hide_dependency_lines: true
 			id: "67088FA123CB05C7"
 			rewards: [
@@ -4262,7 +4146,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Dive Into the Deep End With Top-Of-The-Line Scuba Gear!"
+			subtitle: "{chapter.29.quest.54.subtitle}"
 			tasks: [
 				{
 					id: "2F187ACCDDBB00F7"
@@ -4297,15 +4181,13 @@
 					type: "item"
 				}
 			]
-			title: "Scuba Gear"
+			title: "{chapter.29.quest.54.title}"
 			x: -10.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["3918BF0B3C42D696"]
-			description: [
-			  "Free Runners are the perfect way to get around those pesky 1-block inclines! No more fall damage, either - as long as they're charged, of course. A fall will reduce the charge, depending on how far it was."
-			]
+			description: ["{chapter.29.quest.55.description.1}"]
 			hide_dependency_lines: true
 			id: "17C273DB950E0DD2"
 			rewards: [
@@ -4350,7 +4232,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Because Boots Are for Chumps."
+			subtitle: "{chapter.29.quest.55.subtitle}"
 			tasks: [{
 				id: "01CB28FAD1E8E4A6"
 				item: {
@@ -4369,11 +4251,7 @@
 		}
 		{
 			dependencies: ["3918BF0B3C42D696"]
-			description: [
-			  "The Nutritional Liquifier is the perfect way to turn those pesky consumable food items into delicious Nutritional Paste! Just pop it into the left UI slot, and watch the magic happen. It can hold a total of 10000mB of paste before it is full and halts production, so you can always be sure you've got a tasty treat on hand. The nutritional paste is used by the MekaSuit Helmet and the Canteen for feeding the player without having to carry physical individual food items in their inventory, so you can rest assured you'll never go hungry again!"
-			  " "
-			  "&8&o*Exceptions May Apply"
-			]
+			description: ["{chapter.29.quest.56.description.1}"]
 			hide_dependency_lines: true
 			id: "19F83C47A5054A7D"
 			rewards: [
@@ -4431,7 +4309,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "A Balanced Diet in a Can; Now Soylent-Free!*"
+			subtitle: "{chapter.29.quest.56.subtitle}"
 			tasks: [{
 				id: "0D960EC8F2A4D926"
 				item: {
@@ -4445,15 +4323,13 @@
 				}
 				type: "item"
 			}]
-			title: "Nutritional Paste"
+			title: "{chapter.29.quest.56.title}"
 			x: -9.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["3918BF0B3C42D696"]
-			description: [
-			  "The Flamethrower is a ranged weapon which uses Hydrogen gas as its fuel. It's great for barbecuing mobs - just make sure to get them nice and crispy! It's most effective on large groups of mobs, where the user can hose down the entire group with fuel at a short distance."
-			]
+			description: ["{chapter.29.quest.57.description.1}"]
 			hide_dependency_lines: true
 			id: "628DDDB5EE2FF0D7"
 			rewards: [
@@ -4498,7 +4374,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Best Way to Light Up Your Life!"
+			subtitle: "{chapter.29.quest.57.subtitle}"
 			tasks: [{
 				id: "189FD88E85BCF488"
 				item: {
@@ -4517,9 +4393,7 @@
 		}
 		{
 			dependencies: ["020DDA9E4187D50D"]
-			description: [
-			  "Looking for an all-in-one tool that does the work of a pickaxe, axe, and shovel? Look no further than Mekanism's Atomic Disassembler! This electronic paxel has five settings that can be cycled through by crouching and scrolling your mouse's scroll wheel or using the Item mode switch keybind, making it the perfect tool for any job. Plus, it's a great weapon against mobs!"
-			]
+			description: ["{chapter.29.quest.58.description.1}"]
 			hide_dependency_lines: true
 			id: "3610E0F586D104F2"
 			rewards: [
@@ -4564,7 +4438,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Best Way to Mine!"
+			subtitle: "{chapter.29.quest.58.subtitle}"
 			tasks: [{
 				id: "4FBA4675A27AC29F"
 				item: {
@@ -4586,9 +4460,7 @@
 		}
 		{
 			dependencies: ["3918BF0B3C42D696"]
-			description: [
-			  "This electric bow is perfect for those who want to add a little zing to their arrows."
-			]
+			description: ["{chapter.29.quest.59.description.1}"]
 			hide_dependency_lines: true
 			id: "7185E0389280024C"
 			rewards: [
@@ -4633,7 +4505,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Perfect Way to Shoot Arrows Without All That Pesky Manual Labor!"
+			subtitle: "{chapter.29.quest.59.subtitle}"
 			tasks: [{
 				id: "49AB4B1D0FD43B75"
 				item: {
@@ -4908,5 +4780,5 @@
 			y: 0.5d
 		}
 	]
-	title: "&6Early Mekanism"
+	title: "{chapter.29.title}"
 }

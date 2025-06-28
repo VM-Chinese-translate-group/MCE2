@@ -47,7 +47,7 @@
 },
     "brutalbosses:chasetarget": {},
 	  "brutalbosses:lavarescue": {}, 
-    "brutalbosses:jumpattack": {"healthinterval": "100-0",          
+    "brutalbosses:jumpattack": {"healthinterval": "20-0",          
     "attackdist": 12,                     
     "extraDamage": 15,                    
     "maxdist": 15,                       

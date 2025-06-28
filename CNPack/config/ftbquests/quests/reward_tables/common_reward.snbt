@@ -23,5 +23,5 @@
 		}
 		{ item: "farmersdelight:melon_juice" }
 	]
-	title: "Common Reward"
+	title: "{loot_table.4}"
 }

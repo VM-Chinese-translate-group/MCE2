@@ -45,10 +45,9 @@
 		{
 			dependencies: ["4789D17B88722641"]
 			description: [
-				"Ol' Reliable"
+				"{chapter.3.quest.3.description.1}"
 				""
 				"&eTip:&r Hold SHIFT while mining an ore vein to excavate!"
-
 			]
 			hide_until_deps_complete: true
 			id: "39AD340D4971B4F5"
@@ -71,7 +70,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oFind or Craft an Iron Pickaxe"
+			subtitle: "{chapter.3.quest.3.subtitle}"
 			tasks: [{
 				id: "3486D6580A337C12"
 				item: {
@@ -91,17 +90,8 @@
 			id: "16B5F7BDC893B4EE"
 			rewards: [
 				{
-					count: 3
 					id: "78BA8632CC0157CD"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:netherite_ingot"
-					}
+					item: "minecraft:netherite_ingot"
 					type: "item"
 				}
 				{
@@ -111,8 +101,46 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					id: "03A405CDF5B8F763"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
 			]
-			subtitle: "&oTools made from Netherite have incredible durability and mining speed. Netherite Pickaxe's are also immune to fire!"
+			subtitle: "{chapter.3.quest.4.subtitle}"
 			tasks: [{
 				id: "6846CE31AE41E313"
 				item: {
@@ -129,9 +157,7 @@
 		}
 		{
 			dependencies: ["39AD340D4971B4F5"]
-			description: [
-			  "Mining blocks since 2011!!"
-			]
+			description: ["{chapter.3.quest.5.description.1}"]
 			id: "5239A5F8AE9FC855"
 			rewards: [
 				{
@@ -188,7 +214,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oFind or Craft a Diamond Pickaxe"
+			subtitle: "{chapter.3.quest.5.subtitle}"
 			tasks: [{
 				id: "65193D8BFFCA4291"
 				item: {
@@ -269,7 +295,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&oCollect earthly &mrocks&r minerals"
+			subtitle: "{chapter.3.quest.6.subtitle}"
 			tasks: [
 				{
 					count: 32L
@@ -302,7 +328,7 @@
 					type: "item"
 				}
 			]
-			title: "&eDiggy Diggy Hole! (1)"
+			title: "{chapter.3.quest.6.title}"
 			x: -0.8d
 			y: -0.8d
 		}
@@ -381,7 +407,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&oCollect earthly &mrocks&r minerals"
+			subtitle: "{chapter.3.quest.7.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -440,7 +466,7 @@
 					type: "item"
 				}
 			]
-			title: "&eDiggy Diggy Hole Part (2)"
+			title: "{chapter.3.quest.7.title}"
 			x: 0.8d
 			y: -0.8d
 		}
@@ -515,7 +541,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&oCollect earthly &mrocks&r minerals"
+			subtitle: "{chapter.3.quest.8.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "7FAC63CEA2FA1521"
@@ -530,15 +556,13 @@
 				}
 				type: "item"
 			}]
-			title: "&eDiggy Diggy Hole! (3)"
+			title: "{chapter.3.quest.8.title}"
 			x: -1.221428571428575d
 			y: -0.3795918367346971d
 		}
 		{
 			dependencies: ["39AD340D4971B4F5"]
-			description: [
-			  "&d&o/give xephos 46 64"
-			]
+			description: ["&d&o/give xephos 46 64"]
 			hide_dependency_lines: true
 			id: "7D797FEC73ABD484"
 			rewards: [
@@ -698,7 +722,7 @@
 				type: "questsadditions:break"
 				value: 4664L
 			}]
-			title: "&eDiggy Diggy Hole! (4)"
+			title: "{chapter.3.quest.9.title}"
 			x: 1.2642857142857196d
 			y: -0.3795918367346971d
 		}
@@ -708,9 +732,7 @@
 				"106D4AB2F2861EAD"
 				"6BF472202E3C5BEE"
 			]
-			description: [
-			  "Requires &eDiggy Diggy Part 1,2,3,4."
-			]
+			description: ["{chapter.3.quest.10.description.1}"]
 			hide_dependency_lines: true
 			id: "58F66F8BB4A5A686"
 			rewards: [
@@ -755,7 +777,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oIt's deep underground! Not quite past the bedrock, but don't dig straight down, you'll regret that!"
+			subtitle: "{chapter.3.quest.10.subtitle}"
 			tasks: [{
 				biome: "minecraft:dripstone_caves"
 				icon: {
@@ -764,7 +786,7 @@
 					tag: { }
 				}
 				id: "681D67B3FE0C4388"
-				title: "&eLocate The Dripstone Caves"
+				title: "{chapter.3.quest.10.task.1.title}"
 				type: "biome"
 			}]
 			x: 2.0d
@@ -776,17 +798,16 @@
 				"106D4AB2F2861EAD"
 				"6BF472202E3C5BEE"
 			]
-			description: [
-			  "Requires &eDiggy Diggy Part 1,2,3,4."
-			]
+			description: ["{chapter.3.quest.11.description.1}"]
 			hide_dependency_lines: true
 			id: "2D8A85C1AA11CCD5"
 			rewards: [
 				{
-					command: "/titles add @p titles:dwarf"
+					command: "/titles add {p}titles:dwarf"
+					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "1751F3FB18D062B6"
-					title: "&eUnlock Title:&r Dwarf"
+					title: "&eUnlock Title:&r the Dwarf"
 					type: "command"
 				}
 				{
@@ -830,7 +851,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oUncover the mysteries of the &eLush Caves!"
+			subtitle: "{chapter.3.quest.11.subtitle}"
 			tasks: [{
 				biome: "minecraft:lush_caves"
 				icon: {
@@ -839,7 +860,7 @@
 					tag: { }
 				}
 				id: "3FF3FC9541AFDB07"
-				title: "&eLocate The Lush Caves"
+				title: "{chapter.3.quest.11.task.1.title}"
 				type: "biome"
 			}]
 			x: -2.0d
@@ -1132,5 +1153,5 @@
 			y: 2.761904761904752d
 		}
 	]
-	title: "&6Mining (iii)"
+	title: "{chapter.3.title}"
 }

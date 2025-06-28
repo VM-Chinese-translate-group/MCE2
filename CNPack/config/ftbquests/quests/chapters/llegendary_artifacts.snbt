@@ -3777,7 +3777,7 @@
 					command: "/titles add @p titles:hydra"
 					icon: "titles:title_scroll_rare"
 					id: "7CE7DF10F3DEA902"
-					title: "&eUnlock Title:&r of the Hydra"
+					title: "{chapter.41.quest.55.reward.2.title}"
 					type: "command"
 				}
 				{
@@ -3872,7 +3872,7 @@
 				}
 			]
 			size: 0.9d
-			subtitle: "&oThe Fist of Ratlantis"
+			subtitle: "{chapter.41.quest.57.subtitle}"
 			tasks: [{
 				id: "5F0B645ACE0FD585"
 				item: {
@@ -3894,7 +3894,7 @@
 					command: "/titles add @p titles:plagued"
 					icon: "titles:title_scroll_rare"
 					id: "095DD151E8707998"
-					title: "&eUnlock Title:&r The Plagued"
+					title: "{chapter.41.quest.58.reward.2.title}"
 					type: "command"
 				}
 				{
@@ -3939,7 +3939,7 @@
 			]
 			shape: "diamond"
 			size: 0.9d
-			subtitle: "&oThe Downfall of Ratlantis"
+			subtitle: "{chapter.41.quest.58.subtitle}"
 			tasks: [{
 				id: "4952F666F9F537BF"
 				item: {
@@ -3998,7 +3998,7 @@
 				}
 			]
 			size: 0.9d
-			subtitle: "&oThe Eye of Ratlantis"
+			subtitle: "{chapter.41.quest.59.subtitle}"
 			tasks: [{
 				id: "17E7A1283B793899"
 				item: {
@@ -4093,7 +4093,7 @@
 					command: "/titles add @p titles:king_rat"
 					icon: "titles:title_scroll_rare"
 					id: "51B0A310C167FFBE"
-					title: "&eUnlock Title:&r King of The Rats"
+					title: "{chapter.41.quest.64.reward.3.title}"
 					type: "command"
 				}
 				{
@@ -4137,7 +4137,7 @@
 				}
 			]
 			size: 0.9d
-			subtitle: "&oThe Heart of Ratlantis"
+			subtitle: "{chapter.41.quest.64.subtitle}"
 			tasks: [
 				{
 					id: "067AA821F9DFB7A4"
@@ -4343,7 +4343,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "&oCarve reality itself!"
+			subtitle: "{chapter.41.quest.72.subtitle}"
 			tasks: [{
 				id: "78166B2A9E102334"
 				item: {
@@ -4406,7 +4406,7 @@
 				}
 			]
 			size: 0.9d
-			subtitle: "&oThe Blade of &eIgnis!"
+			subtitle: "{chapter.41.quest.74.subtitle}"
 			tasks: [{
 				id: "70192FBB08471FE8"
 				item: {
@@ -4514,7 +4514,7 @@
 					}
 					id: "46B9BDAC58AA9A39"
 					table_id: 7633316997668108100L
-					title: "&ePick a Colour!"
+					title: "{chapter.41.quest.78.reward.3.title}"
 					type: "choice"
 				}
 				{
@@ -4564,7 +4564,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oCraft The Dreadsteel Armor Set "
+			subtitle: "{chapter.41.quest.78.subtitle}"
 			tasks: [
 				{
 					id: "50CB1C1FFFDFEFCD"
@@ -4619,7 +4619,7 @@
 					type: "item"
 				}
 			]
-			title: "&6Internalised Dread Part 1."
+			title: "{chapter.41.quest.78.title}"
 			x: -2.0d
 			y: 9.0d
 		}
@@ -4682,7 +4682,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oCraft The Dreadsteel Scythe and witness its power!"
+			subtitle: "{chapter.41.quest.79.subtitle}"
 			tasks: [{
 				id: "4F5FFCE61F843F3E"
 				item: {
@@ -4696,15 +4696,12 @@
 				}
 				type: "item"
 			}]
-			title: "&6Internalised Dread Part 2."
+			title: "{chapter.41.quest.79.title}"
 			x: -0.5099600709850236d
 			y: 10.025103519668733d
 		}
 		{
-			description: [
-			  "&eHint:&r The Dreadsteel Shield has the highest Blocking Damage Reduction a shield can have after Expert Mode"
-			  ""
-			]
+			description: ["{chapter.41.quest.80.description.1}"]
 			id: "21515DFB4FB59D05"
 			rewards: [
 				{
@@ -4763,7 +4760,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oCraft the Dreadsteel Shield"
+			subtitle: "{chapter.41.quest.80.subtitle}"
 			tasks: [{
 				id: "572DFBBF423BB0F4"
 				item: {
@@ -4777,14 +4774,12 @@
 				}
 				type: "item"
 			}]
-			title: "&6Internalised Dread Part 3."
+			title: "{chapter.41.quest.80.title}"
 			x: 1.0d
 			y: 9.0d
 		}
 		{
-			description: [
-			  "{image:ftbchunks:textures/faces/minecraft/goat.png width:100 height:100 align:center}"
-			]
+			description: ["{image:ftbchunks:textures/faces/minecraft/goat.png width:100 height:100 align:center}"]
 			id: "5E65C3CC3866CD42"
 			optional: true
 			rewards: [
@@ -4856,7 +4851,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oWho needs Power anyway?"
+			subtitle: "{chapter.41.quest.82.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -5055,5 +5050,5 @@
 			y: -0.9146258503401512d
 		}
 	]
-	title: "&eArtifact Collection"
+	title: "{chapter.41.title}"
 }

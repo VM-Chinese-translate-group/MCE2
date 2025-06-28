@@ -1581,17 +1581,6 @@
 			weight: 1000.0f
 		}
 		{
-			item: {
-				Count: 1
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "kubejs:tc_level"
-			}
-		}
-		{
 			count: 8
 			item: {
 				Count: 1
@@ -1933,44 +1922,8 @@
 		{
 			item: {
 				Count: 1
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "kubejs:pocket_watch"
-			}
-		}
-		{
-			item: {
-				Count: 1
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "kubejs:tc_kill"
-			}
-		}
-		{
-			item: {
-				Count: 1
 				id: "alexscaves:nuclear_bomb"
 				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "ad_astra:tier_4_rocket"
-				tag: {
-					BotariumData: {
-						StoredFluids: [{
-							Amount: 3000L
-							Fluid: "ad_astra:fuel"
-						}]
-					}
-				}
 			}
 		}
 		{
@@ -2078,6 +2031,6 @@
 			type: "eternalcurrencies:currency"
 		}
 	]
-	title: "Blackmarket Cache"
+	title: "{loot_table.2}"
 	use_title: true
 }

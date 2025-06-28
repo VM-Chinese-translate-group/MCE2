@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:patient",
+  "rarity": "rare",
+  "defaultDisplay": "the Patient"
+}

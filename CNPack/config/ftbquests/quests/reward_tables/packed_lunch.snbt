@@ -111,6 +111,40 @@
 				}
 			}
 		}
+		{
+			amount: 100L
+			currency: "eternalcurrencies:coins"
+			ignore_reward_blocking: true
+			title: "&6Lunch Money"
+			type: "eternalcurrencies:currency"
+		}
+		{
+			item: {
+				Count: 1
+				id: "some_assembly_required:sandwich"
+				tag: {
+					BlockEntityTag: {
+						Sandwich: [
+							{
+								Count: 1b
+								id: "some_assembly_required:bread_slice"
+							}
+							{
+								Count: 1b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:fire_resistance"
+								}
+							}
+							{
+								Count: 1b
+								id: "some_assembly_required:bread_slice"
+							}
+						]
+					}
+				}
+			}
+		}
 	]
-	title: "packed_lunch"
+	title: "{loot_table.36}"
 }

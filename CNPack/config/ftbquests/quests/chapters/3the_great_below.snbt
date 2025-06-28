@@ -11,7 +11,7 @@
 	id: "2093117385E8FF1D"
 	images: [
 		{
-			dependency: "6741B77BBC23A95C"
+			dependency: "20D7639E7B4A9C96"
 			height: 1.0d
 			image: "minecraft:block/sculk_sensor_tendril_active"
 			rotation: 0.0d
@@ -20,7 +20,7 @@
 			y: -0.745238095238097d
 		}
 		{
-			dependency: "6741B77BBC23A95C"
+			dependency: "20D7639E7B4A9C96"
 			height: 1.0d
 			image: "minecraft:block/sculk_sensor_tendril_active"
 			rotation: 90.0d
@@ -38,7 +38,7 @@
 			y: 0.016666666666662167d
 		}
 		{
-			dependency: "6741B77BBC23A95C"
+			dependency: "20D7639E7B4A9C96"
 			height: 1.0d
 			image: "minecraft:block/sculk_sensor_tendril_active"
 			rotation: 180.0d
@@ -83,7 +83,7 @@
 			y: 2.109523809523804d
 		}
 		{
-			dependency: "6741B77BBC23A95C"
+			dependency: "20D7639E7B4A9C96"
 			height: 1.0d
 			image: "minecraft:block/sculk_sensor_tendril_active"
 			rotation: 180.0d
@@ -143,7 +143,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/tellraw @p {\"text\":\"The Wither Heart beats in your hand, making you feel unwell.\",\"italic\":true,\"color\":\"dark_gray\"}"
+					command: "/tellraw {p} {\"text\":\"The Wither Heart beats in your hand, making you feel unwell.\",\"italic\":true,\"color\":\"dark_gray\"}"
 					console: true
 					icon: {
 						Count: 1
@@ -294,6 +294,8 @@
 				"The po&k!&rrtal to &d&l<shake>TH&k!&r&d&l<shake>E GRE&k!&r&d&l<shake>AT BEL&k!&d&l<shake>OW! "
 				""
 				"I think we both know what we need to do next.... "
+				""
+				"&6Hint:&r Make sure you do some tidying around the portal, something tells me it won't activate with all of this sculk growing around it!"
 			]
 			hide_until_deps_complete: true
 			id: "26E27FB78FB855CE"
@@ -308,38 +310,6 @@
 				}
 				{
 					id: "0BFB684D1C3E92E2"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3BA241E942DFA168"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
@@ -410,7 +380,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/execute at @p run playsound minecraft:entity.warden.sonic_boom master @p ~ ~ ~"
+					command: "/execute at {p} run playsound minecraft:entity.warden.sonic_boom master {p} ~ ~ ~"
 					console: true
 					elevate_perms: true
 					icon: {
@@ -425,7 +395,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw @p {\"text\":\"The echos of The Great Below contaminate your mind.. Tendrils writhing and wreathing...  Causing you lose touch with reality and giving you a primal fear you cannot fully explain.. You hear it deep within your brain. Your thoughts are not your own and you are not alone..\",\"italic\":true,\"color\":\"aqua\"}"
+					command: "/tellraw {p} {\"text\":\"The echos of The Great Below contaminate your mind.. Tendrils writhing and wreathing...  Causing you lose touch with reality and giving you a primal fear you cannot fully explain.. You hear it deep within your brain. Your thoughts are not your own and you are not alone..\",\"italic\":true,\"color\":\"aqua\"}"
 					console: true
 					icon: {
 						Count: 1
@@ -433,6 +403,7 @@
 						tag: { }
 					}
 					id: "01A3CC5570C3085D"
+					ignore_reward_blocking: true
 					title: "&d???"
 					type: "command"
 				}
@@ -450,7 +421,7 @@
 					type: "command"
 				}
 				{
-					command: "/titles add @p titles:great_below"
+					command: "/titles add {p} titles:great_below"
 					console: true
 					icon: {
 						Count: 1
@@ -950,6 +921,66 @@
 			title: "&dDid You Lose Your Mysterious Object?"
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: [
+				"The Warden Distraction-ator can be used to distract an angry warden!"
+				"This device will come in handy in The Great Below, where Wardens &ncannot be killed!"
+				""
+				"We're gonna need to be sneaky down here and try our best to evade them!"
+				"But we have this item in case of &d<shake>EMERGENCY!"
+			]
+			id: "29A09926128A34D3"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "64FC8C6EB405DA93"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "32DBB73B2EB2D8F5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Warden Distraction-ator"
+			tasks: [{
+				id: "101B31978D123BF4"
+				item: "thegreatbelow:warden_distractor_item"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
 		}
 	]
 	title: "&3The Great Below &6☆☆☆"
