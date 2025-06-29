@@ -169,7 +169,7 @@
 			id: "76F98E53D8839A11"
 			rewards: [
 				{
-					command: "/titles add {p} titles:goblinbane"
+					command: "/titles add @p titles:goblinbane"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
@@ -235,7 +235,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.1.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "202DB88496FB2526"
 				item: {
@@ -272,7 +272,7 @@
 			id: "7505BE829530541C"
 			rewards: [
 				{
-					command: "/titles add {p} titles:pirate_captain"
+					command: "/titles add @p titles:pirate_captain"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -338,7 +338,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.2.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "3FFEE71D12B54F2E"
 				item: {
@@ -371,7 +371,7 @@
 			id: "6B99D9083276026D"
 			rewards: [
 				{
-					command: "/titles add {p} titles:the_frozen"
+					command: "/titles add @p titles:the_frozen"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -437,7 +437,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.3.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "18E3151544F6AAF8"
 				item: {
@@ -476,7 +476,7 @@
 			id: "39BF898B24417156"
 			rewards: [
 				{
-					command: "/titles add {p} titles:the_spiritcaller"
+					command: "/titles add @p titles:the_spiritcaller"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -542,7 +542,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.4.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "7AA27D450A1F0A88"
 				item: {
@@ -594,7 +594,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:demon_slayer"
+					command: "/titles add @p titles:demon_slayer"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
@@ -660,7 +660,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.5.subtitle}"
+			subtitle: "&4The Nether - Progression"
 			tasks: [{
 				id: "0B51833A2F5CF98F"
 				item: {
@@ -694,7 +694,7 @@
 			id: "6C5F3002C2B7C68C"
 			rewards: [
 				{
-					command: "/titles add {p} titles:sun_burnt"
+					command: "/titles add @p titles:sun_burnt"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
@@ -760,7 +760,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.7.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "54DAA9A9BDC6E761"
 				item: {
@@ -789,33 +789,96 @@
 				"320F677D8A962681"
 				"46C671151AE613A1"
 			]
-			description: ["{chapter.8.quest.8.description.1}"]
+			description: [
+			  "&c&l&nKill The Void Worm"
+			  ""
+			  "&eThe Void Worm&r is summoned by dropping a &eMysterious Worm&r into the void of &eThe End.&r &eThe Mysterious Worm&r is created by placing a &eCrimson Mosquito Larvae&r into a &eCapsid&r, dropped by the &eEnderiophage."
+			  ""
+			]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			icon: "alexsmobs:void_worm_eye"
 			id: "341DBC6A59D51ED9"
 			rewards: [
 				{
+					id: "6707E1C3FACA8998"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "paraglider:deku_leaf"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 3.0d
+									AttributeName: "combatroll:count"
+									Name: "ResourceKey[minecraft:attribute / combatroll:count]"
+									Operation: 0
+									Slot: "offhand"
+									UUID: [I;
+										216165245
+										-826586882
+										-1760222769
+										1975875782
+									]
+								}
+								{
+									Amount: 0.2d
+									AttributeName: "generic.attack_speed"
+									Name: "ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]"
+									Operation: 0
+									Slot: "offhand"
+									UUID: [I;
+										1744135065
+										-280804979
+										-1850327969
+										839496816
+									]
+								}
+								{
+									Amount: 0.2d
+									AttributeName: "generic.movement_speed"
+									Name: "ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]"
+									Operation: 0
+									Slot: "offhand"
+									UUID: [I;
+										-2010892300
+										1885160600
+										-2079625063
+										184620845
+									]
+								}
+							]
+							Damage: 0
+							Unbreakable: 1b
+							display: {
+								Lore: [
+									"{\"text\":\"§f§oLegend says, the Leaf of Eternity fell from the Eternal Tree over 10,000 years ago! \"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§dLeaf of Eternity\"}"
+								color: 8991416
+							}
+						}
+					}
+					type: "item"
+				}
+				{
 					command: "/titles add @p titles:voidlord"
-					console: true
-					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "72FD7EB5624CE117"
-					title: "{chapter.8.quest.8.reward.4.title}"
+					title: "&eUnlock Title:&r Void Lord"
 					type: "command"
 				}
 				{
-					amount: 2500L
+					amount: 500L
 					currency: "eternalcurrencies:coins"
 					id: "1536238B30EE4C6D"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5C532D50CBCFC0D7"
-					table_id: 5682295257556819944L
-					type: "random"
 				}
 			]
 			size: 0.95d
@@ -851,7 +914,7 @@
 			id: "320F677D8A962681"
 			rewards: [
 				{
-					command: "/titles add {p} titles:the_withered"
+					command: "/titles add @p titles:the_withered"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -964,12 +1027,12 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:vanquisher"
+					command: "/titles add @p titles:vanquisher"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "112006616A786B76"
-					title: "{chapter.8.quest.10.reward.3.title}"
+					title: "&eUnlock Title:&r Vanquisher"
 					type: "command"
 				}
 				{
@@ -1030,7 +1093,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.10.subtitle}"
+			subtitle: "&4The Nether - Progression"
 			tasks: [{
 				id: "702D1C1AA83E16EB"
 				item: {
@@ -1058,7 +1121,7 @@
 			id: "061E529BEA06143B"
 			rewards: [
 				{
-					command: "/titles add {p} titles:the_guardian"
+					command: "/titles add @p titles:the_guardian"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -1124,7 +1187,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.10.subtitle}"
+			subtitle: "&4The Nether - Progression"
 			tasks: [{
 				id: "7E28F286737EA4A9"
 				item: {
@@ -1157,12 +1220,12 @@
 			id: "2E84DFAD10C02EB1"
 			rewards: [
 				{
-					command: "/titles add {p} titles:ironside"
+					command: "/titles add @p titles:ironside"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "06439A84E2F5C8D9"
-					title: "{chapter.8.quest.13.reward.2.title}"
+					title: "&eUnlock Title:&r Ironside"
 					type: "command"
 				}
 				{
@@ -1223,7 +1286,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.11.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "12EA848687AB1062"
 				item: {
@@ -1263,7 +1326,7 @@
 			id: "516CEC98C05CC1EB"
 			rewards: [
 				{
-					command: "/titles add {p} titles:dame_fortuna"
+					command: "/titles add @p titles:dame_fortuna"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -1324,7 +1387,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.4.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "710165FB8FDE1035"
 				item: {
@@ -1355,8 +1418,7 @@
 			id: "3EE3E2913158A875"
 			rewards: [
 				{
-					command: "/titles add {p} titles:the_immortal"
-					console: true
+					command: "/titles add @p titles:the_immortal"
 					icon: "titles:title_scroll_uncommon"
 					id: "6F3BD211F59D65F1"
 					title: "&eUnlock Title:&r the Ancient"
@@ -1420,7 +1482,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.3.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "371F374B9BEDADC0"
 				item: {
@@ -1515,7 +1577,9 @@
 		}
 		{
 			dependencies: ["2E84DFAD10C02EB1"]
-			description: ["&6Questmaster:&r You've found my prized missing Salmon! Now quickly return it to me and I will grant you a wonderful reward! Quickly now!"]
+			description: [
+			  "&6Questmaster:&r You've found my prized missing Salmon! Now quickly return it to me and I will grant you a wonderful reward! Quickly now!"
+			]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			hide_until_deps_visible: true
@@ -1707,7 +1771,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:sunken"
+					command: "/titles add @p titles:sunken"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
@@ -1789,7 +1853,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:xp"
+					command: "/titles add @p titles:xp"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -1871,7 +1935,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:lich_eye"
+					command: "/titles add @p titles:lich_eye"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
@@ -1953,7 +2017,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:evil_eye"
+					command: "/titles add @p titles:evil_eye"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
@@ -2132,7 +2196,6 @@
 					type: "item"
 				}
 			]
-			secret: true
 			shape: "rsquare"
 			size: 0.6d
 			subtitle: "Gather materials needed to craft a &eExplorer's Compass"
@@ -2180,6 +2243,17 @@
 				}
 				{
 					consume_items: true
+					count: 3L
+					id: "4F54C095AF756276"
+					item: {
+						Count: 3
+						id: "thermal:silver_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
 					id: "0522D436F658665D"
 					item: {
 						Count: 1
@@ -2198,17 +2272,11 @@
 					}
 					type: "item"
 				}
-				{
-					count: 3L
-					id: "3C2E1F3BC58C64B9"
-					item: { Count: 3, id: "thermal:silver_ingot" }
-					type: "item"
-				}
 			]
 			title: "&eFinding Your Way!"
 			x: -1.017857142857146d
 			y: -0.9166666666666643d
 		}
 	]
-	title: "{chapter.8.title}"
+	title: "&9End Progression "
 }

@@ -164,7 +164,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "{chapter.4.quest.2.subtitle}"
+			subtitle: "&oForge new tools and weapons with Tinkers Construct!"
 			tasks: [{
 				id: "2052B7B5B04159CA"
 				item: {
@@ -261,9 +261,7 @@
 			optional: true
 			rewards: [
 				{
-					command: "/titles add {p} titles:tinkerer"
-					console: true
-					elevate_perms: true
+					command: "/titles add @p titles:tinker"
 					icon: "titles:title_scroll_common"
 					id: "7A4D51810C68ED21"
 					title: "&eUnlock Title:&r the Tinkerer"
@@ -623,9 +621,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:blacksmith"
-					console: true
-					elevate_perms: true
+					command: "/titles add @p titles:blacksmith"
 					icon: "titles:title_scroll_common"
 					id: "7E247892D81601C5"
 					title: "&eUnlock Title:&r the Blacksmith"

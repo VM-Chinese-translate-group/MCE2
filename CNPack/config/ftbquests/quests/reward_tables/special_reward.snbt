@@ -21,8 +21,42 @@
 				}
 			}
 		}
+		{
+			item: {
+				Count: 1
+				id: "relics:holy_locket"
+				tag: {
+					abilities: {
+						belief: {
+							points: 0
+							stats: {
+								amount: 0.23107d
+								capacity: 9.86588d
+								count: 1.39131d
+								radius: 3.55939d
+							}
+						}
+						blessing: {
+							points: 0
+							stats: {
+								consumption: 7.0926d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+						repentance: {
+							points: 0
+							stats: {
+								damage: 0.17396d
+								radius: 2.20373d
+							}
+						}
+					}
+				}
+			}
+		}
 		{ item: "mce2lib:porkus_summon" }
-		{ item: "artifacts:cloud_in_a_bottle" }
 	]
 	title: "special_reward"
 }

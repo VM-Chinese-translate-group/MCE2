@@ -10,10 +10,11 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"{chapter.32.quest.2.description.1}"
-			"{image:vampirism:textures/item/vampire_fang.png width:100 height:100 align:1}"
+			"After using Vampire Fangs you will receive a potion effect called \"Sanguinare Vampiris\" which lasts about a Minecraft day. After the potion has ended, you become a vampire. In case you don't want to become one, you can always cancel the effect with a milk bucket."
 			""
-			"Chapter coming soon!"
+		  	"{image:vampirism:textures/item/vampire_fang.png width:100 height:100 align:1}"
+		  	""
+		  	"Chapter coming soon!"
 		]
 		id: "738D0748DDD99C54"
 		incompatible: ["5EE84DC9D93FEECC"]
@@ -61,7 +62,7 @@
 				type: "eternalcurrencies:currency"
 			}
 		]
-		subtitle: "{chapter.32.quest.2.subtitle}"
+		subtitle: "&oBy Right Clicking Vampire Fangs you can begin the Vampirism process"
 		tasks: [{
 			id: "7AF3552B26EEF3EA"
 			item: {
@@ -75,9 +76,9 @@
 			}
 			type: "item"
 		}]
-		title: "{chapter.32.quest.2.title}"
+		title: "&eBecome a Vampire"
 		x: 4.0d
 		y: 1.0d
 	}]
-	title: "{chapter.32.title}"
+	title: "&6Vampirism - Vampire"
 }

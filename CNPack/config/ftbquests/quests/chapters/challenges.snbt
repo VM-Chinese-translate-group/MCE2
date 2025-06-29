@@ -37,7 +37,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:deathbane"
+					command: "/titles add @p titles:deathbane"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -77,7 +77,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.39.quest.1.subtitle}"
+			subtitle: "&oSurvive for 7 (irl) days in-game "
 			tasks: [{
 				icon: {
 					Count: 1
@@ -88,11 +88,11 @@
 				}
 				id: "5BFFFC2DFE485118"
 				stat: "minecraft:time_since_death"
-				title: "{chapter.39.quest.1.task.1.title}"
+				title: "&eTime Survived (Latest High-Score)"
 				type: "stat"
 				value: 12102000
 			}]
-			title: "{chapter.39.quest.1.title}"
+			title: "&c&lHardcore without the Hardcore!"
 			x: -1.0d
 			y: 5.0d
 		}
@@ -285,7 +285,7 @@
 					command: "/titles add @p titles:eternal"
 					icon: "titles:title_scroll_uncommon"
 					id: "7222774AF5F36394"
-					title: "{chapter.39.quest.7.reward.3.title}"
+					title: "&eUnlock Title:&r The Eternal"
 					type: "command"
 				}
 			]
@@ -366,7 +366,9 @@
 			y: 6.0d
 		}
 		{
-			description: ["{chapter.39.quest.9.description.1}"]
+			description: [
+			  ""
+			]
 			id: "2F1421D4A7FB5CD2"
 			optional: true
 			rewards: [
@@ -395,7 +397,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.39.quest.9.subtitle}"
+			subtitle: "&oCollect every type of Scythe"
 			tasks: [
 				{
 					id: "21137AA9A25CAB4F"
@@ -466,7 +468,7 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.39.quest.9.title}"
+			title: "&eScythe'd Up"
 			x: 1.0d
 			y: 5.0d
 		}
@@ -486,12 +488,12 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:national_hero"
+					command: "/titles add @p titles:national_hero"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "21081C69D2D6D614"
-					title: "{chapter.39.quest.10.reward.3.title}"
+					title: "&eUnlock Title:&r National Hero"
 					type: "command"
 				}
 				{
@@ -503,7 +505,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.39.quest.10.subtitle}"
+			subtitle: "&oWin 100 Raids"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -519,14 +521,14 @@
 				type: "stat"
 				value: 100
 			}]
-			title: "{chapter.39.quest.10.title}"
+			title: "&6National Hero"
 			x: 9.0d
 			y: 5.0d
 		}
 		{
 			description: [
-				"{chapter.39.quest.11.description.1}"
-				"People assume that time is a strict progression of cause to effect, but actually, from a nonlinear, non-subjective viewpoint, it's more like a big ball of wibbly-wobbly, timey-wimey... stuff.."
+			  ""
+			  "People assume that time is a strict progression of cause to effect, but actually, from a nonlinear, non-subjective viewpoint, it's more like a big ball of wibbly-wobbly, timey-wimey... stuff.."
 			]
 			id: "5A1A50C6EA12009E"
 			optional: true
@@ -543,12 +545,12 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:timelord"
+					command: "/titles add @p titles:timelord"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "1BFA50BC20FC458D"
-					title: "{chapter.39.quest.11.reward.4.title}"
+					title: "&eUnlock Title:&r Timelord"
 					type: "command"
 				}
 				{
@@ -590,16 +592,16 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.39.quest.11.subtitle}"
+			subtitle: "&oPlay for 5 (irl) days in-game"
 			tasks: [{
 				icon: "supplementaries:clock_block"
 				id: "37977CF70BD55992"
 				stat: "minecraft:play_time"
-				title: "{chapter.39.quest.11.task.1.title}"
+				title: "&eTime Played"
 				type: "stat"
 				value: 8640000
 			}]
-			title: "{chapter.39.quest.11.title}"
+			title: "&6Time Played: 5 Days"
 			x: 2.0d
 			y: 5.0d
 		}
@@ -661,12 +663,12 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p}  titles:master_angler"
+					command: "/titles add @p titles:master_angler"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "712EF8F3DD71113D"
-					title: "{chapter.39.quest.13.reward.5.title}"
+					title: "&eUnlock Title:&r Master Angler"
 					type: "command"
 				}
 				{
@@ -677,7 +679,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.39.quest.13.subtitle}"
+			subtitle: "&o“There is certainly something in angling that tends to produce a serenity of the mind.”"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -691,7 +693,7 @@
 				type: "stat"
 				value: 5000
 			}]
-			title: "{chapter.39.quest.13.title}"
+			title: "&6Catch 5000 Fish"
 			x: -2.0d
 			y: 5.0d
 		}
@@ -717,12 +719,12 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:borg"
+					command: "/titles add @p titles:borg"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "2147CCD0C48E468A"
-					title: "{chapter.39.quest.14.reward.3.title}"
+					title: "&eTitle Unlock:&r of the Borg"
 					type: "command"
 				}
 				{
@@ -772,12 +774,14 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.39.quest.14.title}"
+			title: "&6Space Adventurer"
 			x: 7.0d
 			y: 5.0d
 		}
 		{
-			description: ["{chapter.39.quest.15.description.1}"]
+			description: [
+			  "&n&eEntering Expert Mode will fail this Challenge!"
+			]
 			id: "2BB5105FA955787C"
 			incompatible: ["099610C83CC67421"]
 			optional: true
@@ -813,27 +817,21 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
-				{
-					command: "/titles add {p} titles:patient"
-					console: true
-					icon: "titles:title_scroll_rare"
-					id: "75C16C5877360ABC"
-					title: "&eUnlock Title:&r the Patient"
-					type: "command"
-				}
 			]
-			subtitle: "{chapter.39.quest.15.subtitle}"
+			subtitle: "&oThe Normal Mode Challenge!"
 			tasks: [{
 				days: 100
 				id: "673F2D14DBC8E253"
 				type: "questsadditions:days"
 			}]
-			title: "{chapter.39.quest.15.title}"
+			title: "&eReach Day 100 While Still In Normal Mode"
 			x: 3.0d
 			y: 5.0d
 		}
 		{
-			description: ["{chapter.39.quest.16.description.1}"]
+			description: [
+			  "Eat and prepare a course of every meal from Farmer's Delight"
+			]
 			id: "18A23009C59D0155"
 			optional: true
 			rewards: [
@@ -881,12 +879,12 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:master_chef"
+					command: "/titles add @p titles:master_chef"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "4807F30E0FEAEDBF"
-					title: "{chapter.39.quest.16.reward.3.title}"
+					title: "&eUnlock Title:&r Master Chef"
 					type: "command"
 				}
 				{
@@ -897,7 +895,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.39.quest.16.subtitle}"
+			subtitle: "&oWHERE'S THE LAMB SAUCE!!"
 			tasks: [
 				{
 					advancement: "farmersdelight:main/master_chef"
@@ -925,12 +923,14 @@
 					type: "advancement"
 				}
 			]
-			title: "{chapter.39.quest.16.title}"
+			title: "&eMaster Chef"
 			x: 6.0d
 			y: 5.0d
 		}
 		{
-			description: ["&eFinally we are taxing the rich.. In Minecraft!"]
+			description: [
+			  "&eFinally we are taxing the rich.. In Minecraft!"
+			]
 			id: "39F778FC47194944"
 			optional: true
 			rewards: [
@@ -965,12 +965,12 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:the_millionare"
+					command: "/titles add @p titles:the_millionare"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "41C61D6A61ED9270"
-					title: "{chapter.39.quest.17.reward.4.title}"
+					title: "&eUnlock Title:&r The Millionare"
 					type: "command"
 				}
 				{
@@ -1023,7 +1023,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.39.quest.17.subtitle}"
+			subtitle: "&oBecome a Millionare and then give it all away just to complete a quest"
 			tasks: [{
 				amount: 1000000L
 				currency: "eternalcurrencies:coins"
@@ -1051,12 +1051,12 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:music_collector"
+					command: "/titles add @p titles:music_collector"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "5047F40F416D9BD6"
-					title: "{chapter.39.quest.18.reward.3.title}"
+					title: "&eTitle Unlock:&r Music Collector"
 					type: "command"
 				}
 				{
@@ -1079,7 +1079,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.39.quest.18.subtitle}"
+			subtitle: "&oCollect every single Music Disc that exists in MC Eternal 2!"
 			tasks: [
 				{
 					id: "15F3EC92CED3E9C0"
@@ -1363,12 +1363,14 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.39.quest.18.title}"
+			title: "&eThe Music Collector"
 			x: -3.0d
 			y: 5.0d
 		}
 		{
-			description: ["Build a fully functioning &6Jaffa Factory"]
+			description: [
+			  "Build a fully functioning &6Jaffa Factory"
+			]
 			id: "3E9D9E3818516685"
 			optional: true
 			rewards: [
@@ -1430,7 +1432,7 @@
 				count: 100000L
 				id: "15363F95BE298C23"
 				item: "jaffactory:jaffa_cake"
-				title: "{chapter.39.quest.19.task.1.title}"
+				title: "Jaffa Factory"
 				type: "item"
 			}]
 			x: 11.0d
@@ -1502,12 +1504,12 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:dragon_slayer"
+					command: "/titles add @p titles:dragon_slayer"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "10DAFAB1AC4B0F0F"
-					title: "{chapter.39.quest.22.reward.6.title}"
+					title: "&eUnlock Title:&r Dragon Slayer"
 					type: "command"
 				}
 				{
@@ -1518,7 +1520,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.39.quest.22.subtitle}"
+			subtitle: "&oKill 50x of each Dragon!"
 			tasks: [
 				{
 					entity: "iceandfire:fire_dragon"
@@ -1560,7 +1562,7 @@
 					value: 50L
 				}
 			]
-			title: "{chapter.39.quest.22.title}"
+			title: "&6Dragon Slayer!"
 			x: 8.0d
 			y: -1.0d
 		}
@@ -1652,12 +1654,12 @@
 			optional: true
 			rewards: [
 				{
-					command: "/titles add {p} titles:mr_electric"
+					command: "/titles add @p titles:mr_electric"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "0EF672DD9B345BB1"
-					title: "{chapter.39.quest.26.reward.2.title}"
+					title: "&eUnlock Title:&r Mr Electric"
 					type: "command"
 				}
 				{
@@ -1680,11 +1682,11 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.39.quest.26.subtitle}"
+			subtitle: "&oGenerate unnecessary amounts of power, feed it into a &r&eTask Screen"
 			tasks: [{
 				icon: "mekanism:resistive_heater"
 				id: "584D87091ADF75D2"
-				title: "{chapter.39.quest.26.task.1.title}"
+				title: "&ePowering The Planet"
 				type: "forge_energy"
 				value: 1000000000000000000L
 			}]
@@ -1696,7 +1698,7 @@
 			optional: true
 			rewards: [
 				{
-					command: "/titles add {p} titles:tiny_potato"
+					command: "/titles add @p titles:tiny_potato"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
@@ -1749,17 +1751,19 @@
 				"06911768DBF8A5A5"
 				"2093117385E8FF1D"
 			]
-			description: ["{chapter.39.quest.30.description.1}"]
+			description: [
+			  "Only the most &npowerful&r sorry, did I say &opowerful?...&r I meant only the person without any semblance of a social life can obtain the &6&lLoremaster&r in a reasonable time-frame"
+			]
 			icon: "titles:title_scroll_uncommon"
 			id: "36620ED98C86C6A7"
 			rewards: [
 				{
-					command: "/titles add {p} titles:loremaster"
+					command: "/titles add @p titles:loremaster"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "643B91E57C589E0E"
-					title: "{chapter.39.quest.30.reward.1.title}"
+					title: "&eUnlock Title:&r The Loremaster"
 					type: "command"
 				}
 				{
@@ -1775,15 +1779,15 @@
 			]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "{chapter.39.quest.30.subtitle}"
+			subtitle: "Complete &lEVERY&r Quest Chapter"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: "titles:title_fragment"
 				id: "6811343CA3BB7B1A"
-				title: "{chapter.39.quest.30.task.1.title}"
+				title: "&e&lTHE LOREMASTER"
 				type: "dimension"
 			}]
-			title: "{chapter.39.quest.30.title}"
+			title: "&e&lLore Master"
 			x: 4.0d
 			y: 2.0d
 		}
@@ -1859,8 +1863,7 @@
 			optional: true
 			rewards: [
 				{
-					command: "/titles add {p} titles:ghow"
-					console: true
+					command: "/titles add @p titles:ghow"
 					icon: "titles:title_scroll_rare"
 					id: "6F095FAF0E97DB2C"
 					title: "&eUnlock Title:&r The Ghow Slayer"
@@ -1936,8 +1939,7 @@
 			id: "2A12275C0891BB98"
 			rewards: [
 				{
-					command: "/titles add {p} titles:angel"
-					console: true
+					command: "/titles add @p titles:angel"
 					icon: "titles:title_scroll_rare"
 					id: "688BDCF0348DE9F5"
 					title: "&eUnlock Title:&r the Enlightened"
@@ -1970,7 +1972,7 @@
 			id: "14F065305DFD53F5"
 			rewards: [
 				{
-					command: "/titles add {p} titles:die"
+					command: "/titles add @p titles:die"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
@@ -2016,7 +2018,7 @@
 			optional: true
 			rewards: [
 				{
-					command: "/titles add {p} titles:trash"
+					command: "/titles add @p titles:trash"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -2043,92 +2045,6 @@
 			x: 10.0d
 			y: 5.0d
 		}
-		{
-			dependencies: ["740DD4098893630E"]
-			description: [
-				"Spend some time learning how to be a goat.. there are a lot of lessons one can learn from goats!"
-				"&6Hint:&r There are no hints... there are no shortcuts.. Study the way of the goat and you shall be rewarded!"
-				""
-				"&7&oDid you CHEAT and BURY a goat or build a dirt wall around it or something? if so, shame on you! SHAME! if not, well done I'm proud of you xoxo."
-			]
-			hide_dependency_lines: true
-			id: "08B5FFFD7E012052"
-			invisible: true
-			optional: true
-			rewards: [
-				{
-					command: "/titles add {p} titles:goat"
-					console: true
-					icon: "titles:title_scroll_uncommon"
-					id: "626960F9F8D32E9A"
-					title: "&eUnlock Title:&r the Goat Whisperer"
-					type: "command"
-				}
-				{
-					id: "7106E7CFDA5EC67A"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							item_stack_owner: [I;
-								-1743009176
-								-448117200
-								-1885164842
-								210784931
-							]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6698540E60FCD9C9"
-					item: {
-						Count: 1
-						id: "minecraft:goat_horn"
-						tag: {
-							instrument: "minecraft:yearn_goat_horn"
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "Learn from a Goat if you wish to become THE G.O.A.T"
-			tasks: [{
-				icon: "skillcloaks:prayer_hood"
-				id: "3ACA45E5C5866A57"
-				observe_type: 5
-				timer: 1000L
-				title: "&eStare at a Goat uninterrupted for 100 seconds"
-				to_observe: "minecraft:goat"
-				type: "observation"
-			}]
-			title: "&6The Way of The Goat"
-			x: 4.0d
-			y: 4.0d
-		}
 	]
-	title: "{chapter.39.title}"
+	title: "&eChallenges "
 }

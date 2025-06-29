@@ -100,6 +100,6 @@
 			}
 		}
 	]
-	title: "{loot_table.1}"
+	title: "Goodie Bag"
 	use_title: true
 }

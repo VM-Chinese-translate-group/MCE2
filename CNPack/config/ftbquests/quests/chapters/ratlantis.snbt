@@ -10,7 +10,9 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["The source of the ancient Ratlantean's power!"]
+			description: [
+			  "The source of the ancient Ratlantean's power!"
+			]
 			id: "17B679CF1D7FBA0F"
 			rewards: [
 				{
@@ -538,5 +540,5 @@
 			y: 3.0d
 		}
 	]
-	title: "{chapter.21.title}"
+	title: "&3Ratlantis &r&6☆☆"
 }

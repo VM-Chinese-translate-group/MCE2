@@ -730,7 +730,7 @@
 				}
 				id: "kubejs:artifact_endergem"
 			}
-			weight: 80.0f
+			weight: 100.0f
 		}
 		{ item: "farmersdelight:stove" }
 		{ item: "farmersdelight:basket" }
@@ -785,6 +785,7 @@
 		{ item: "quark:diamond_heart" }
 		{ item: "minecraft:music_disc_pigstep" }
 		{ item: "tconstruct:efln_ball" }
+		{ }
 		{
 			item: {
 				Count: 1
@@ -1050,13 +1051,16 @@
 		{ count: 8, item: "mcwdoors:wooden_portcullis" }
 		{ count: 2, item: "cookingforblockheads:fridge" }
 		{ count: 16, item: "tconstruct:grout" }
+		{ item: "infinitybuttons:hoglin_mount_button" }
 		{ item: "infinitybuttons:pink_emergency_button" }
 		{ item: "infinitybuttons:bookshelf_secret_button" }
 		{ count: 3, item: "cataclysm:void_scatter_arrow" }
 		{ item: "skillcloaks:woodcutting_cloak" }
 		{ item: "skillcloaks:mining_cloak" }
+		{ item: "skillcloaks:defence_cloak" }
 		{ item: "skillcloaks:fishing_cloak" }
 		{ item: "skillcloaks:thieving_cloak" }
+		{ item: "skillcloaks:hitpoints_cloak" }
 		{ item: "skillcloaks:construction_cloak" }
 		{ item: "skillcloaks:agility_cloak" }
 		{ item: "skillcloaks:crafting_cloak" }
@@ -3463,6 +3467,30 @@
 		{
 			item: {
 				Count: 1
+				id: "baublemounts:vehicle_bauble"
+				tag: {
+					ID: {
+						ID: [I;
+							-964412739
+							1975993322
+							-2025853711
+							-786346138
+						]
+					}
+					Mount: { }
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublemounts:mount_bauble"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
 				id: "supplementaries:slingshot"
 				tag: {
 					Damage: 0
@@ -3715,6 +3743,7 @@
 		}
 		{ item: "iceandfire:weezer_blue_album" }
 		{ item: "advancementframes:stat_frame" }
+		{ item: "siegeweapons:siege_table_block" }
 		{
 			item: {
 				Count: 1
@@ -4497,6 +4526,7 @@
 		{ item: "mynethersdelight:deviled_egg" }
 		{ item: "vampiresdelight:blood_hot_dog" }
 		{ item: "arsdelight:bombegrante_jelly" }
+		{ item: "nethersdelight:nether_skewer" }
 		{ item: "jadensnetherexpansiondelight:pearlescent_cookie" }
 		{ item: "jadensnetherexpansiondelight:wisp_custard" }
 		{ item: "oceansdelight:cooked_stuffed_cod" }
@@ -4520,6 +4550,7 @@
 		{ item: "oceansdelight:baked_tentacle_on_a_stick" }
 		{ item: "farmersdelight:mushroom_rice" }
 		{ item: "oceansdelight:bowl_of_guardian_soup" }
+		{ item: "nethersdelight:magma_gelatin" }
 		{ item: "oceansdelight:cooked_guardian_tail" }
 		{ item: "oceansdelight:fugu_roll" }
 		{ item: "farmersdelight:smoked_ham" }
@@ -4766,508 +4797,6 @@
 		{ item: "cataclysm:aptrgangr_head" }
 		{ item: "cataclysm:remnant_skull" }
 		{ item: "cataclysm:sandstorm_in_a_bottle" }
-		{
-			item: {
-				Count: 1
-				id: "alexsmobs:spawn_egg_raccoon"
-				tag: {
-					display: {
-						Name: "{\"text\":\"Adam\"}"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:fishing_rod"
-				tag: {
-					Damage: 0
-					etstlib_tool_uuid: "8b503daf-c14e-4abb-ae87-8f2dea73ca69"
-				}
-			}
-		}
-		{ item: "minecraft:salmon" }
-		{ item: "minecraft:anvil" }
-		{
-			item: {
-				Count: 1
-				id: "relics:hunter_belt"
-				tag: {
-					abilities: {
-						slots: {
-							points: 0
-							stats: {
-								charm: 1.11935d
-							}
-						}
-						training: {
-							points: 0
-							stats: {
-								damage: 1.65166d
-							}
-						}
-					}
-				}
-			}
-		}
-		{ count: 16, item: "minecraft:oak_log" }
-		{
-			item: {
-				Count: 1
-				id: "aquaculture:gold_fishing_rod"
-				tag: {
-					Damage: 0
-					Enchantments: [{
-						id: "minecraft:luck_of_the_sea"
-						lvl: 2s
-					}]
-					RepairCost: 1
-					display: {
-						Name: "{\"text\":\"Paxton's Lucky Fishing Rod\"}"
-					}
-				}
-			}
-		}
-		{ item: "artifacts:anglers_hat" }
-		{ item: "artifacts:everlasting_beef" }
-		{
-			item: {
-				Count: 1
-				id: "tconstruct:sledge_hammer"
-				tag: {
-					Damage: 0
-					etstlib_tool_uuid: "5a4ee9c7-0a76-4082-a910-c56b6b1a7400"
-					tic_broken: 0b
-					tic_materials: [
-						"tconstruct:bone"
-						"tconstruct:bone"
-						"tconstruct:bone"
-						"tconstruct:bone"
-					]
-					tic_modifiers: [
-						{
-							level: 4
-							name: "tconstruct:pierce"
-						}
-						{
-							level: 2
-							name: "tconstruct:smite"
-						}
-					]
-					tic_multipliers: {
-						"tconstruct:attack_damage": 1.35f
-						"tconstruct:durability": 4.0f
-						"tconstruct:mining_speed": 0.4f
-					}
-					tic_persistent: { }
-					tic_stats: {
-						"tconstruct:attack_damage": 8.4375f
-						"tconstruct:attack_speed": 0.82500005f
-						"tconstruct:durability": 300.0f
-						"tconstruct:harvest_tier": "minecraft:stone"
-					}
-					tic_volatile_data: {
-						abilities: 1
-						upgrades: 2
-					}
-				}
-			}
-		}
-		{ item: "alexscaves:tesla_bulb" }
-		{ item: "amethyst_tools:enchanted_alloy" }
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "veinmining:vein_mining"
-						lvl: 1s
-					}]
-				}
-			}
-		}
-		{ item: "alshanex_familiars:mysterious_orb" }
-		{ item: "minecolonies:mint_jelly" }
-		{
-			item: {
-				Count: 1
-				id: "table_top_craft:chess_piece_figure"
-				tag: {
-					BlockEntityTag: {
-						ForgeCaps: { }
-						PieceColor: "210/188/161/255"
-						PieceScale: 1.0d
-						PieceSet: 3
-						PieceType: 3
-						RotateChessPieceFigure: 0
-						id: "table_top_craft:chess_piece_figure"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "some_assembly_required:sandwich"
-				tag: {
-					BlockEntityTag: {
-						Sandwich: [
-							{
-								Count: 1b
-								id: "some_assembly_required:bread_slice"
-							}
-							{
-								Count: 1b
-								id: "minecraft:potion"
-								tag: {
-									Potion: "minecraft:fire_resistance"
-								}
-							}
-							{
-								Count: 1b
-								id: "some_assembly_required:bread_slice"
-							}
-						]
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "tinkersjewelry:ring"
-				tag: {
-					Damage: 0
-					etstlib_tool_uuid: "76ebdf1e-3e41-4c02-b26e-e738148fd598"
-					tic_broken: 0b
-					tic_materials: [
-						"tconstruct:lead"
-						"tinkersjewelry:ruby"
-					]
-					tic_modifiers: [
-						{
-							level: 1
-							name: "tconstruct:dense"
-						}
-						{
-							level: 1
-							name: "tinkersjewelry:health_gem"
-						}
-					]
-					tic_name: "Peter's Ruby Ring "
-					tic_persistent: { }
-					tic_stats: {
-						"tconstruct:durability": 200.0f
-					}
-				}
-			}
-		}
-		{ item: "lavachickenmusicdisc:music_disc_lava_chicken" }
-		{
-			item: {
-				Count: 1
-				id: "lavafishing:obsidian_fishing_rod"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{ item: "aquaculture:obsidian_hook" }
-		{ item: "aquaculture:double_obsidian_hook" }
-		{ item: "aquaculture:glowstone_hook" }
-		{ item: "aquaculture:quartz_hook" }
-		{ item: "aquaculture:soul_sand_hook" }
-		{ item: "aquaculture:obsidian_note_hook" }
-		{ item: "aquaculture:iron_hook" }
-		{ item: "aquaculture:gold_hook" }
-		{ item: "aquaculture:diamond_hook" }
-		{ item: "aquaculture:light_hook" }
-		{ item: "aquaculture:heavy_hook" }
-		{ item: "aquaculture:light_hook" }
-		{ item: "aquaculture:double_hook" }
-		{ item: "aquaculture:redstone_hook" }
-		{ item: "aquaculture:note_hook" }
-		{ item: "aquaculture:bobber" }
-		{
-			item: {
-				Count: 1
-				id: "stardew_fishing:trap_bobber"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "stardew_fishing:cork_bobber"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "stardew_fishing:sonar_bobber"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "stardew_fishing:treasure_bobber"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "stardew_fishing:quality_bobber"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{ item: "kubejs:s_soup" }
-		{
-			item: {
-				Count: 1
-				id: "tconstruct:small_axe_head"
-				tag: {
-					Material: "tconstruct:iron"
-				}
-			}
-		}
-		{ item: "supplementaries:cage" }
-		{ item: "alexsmobs:vine_lasso" }
-		{ item: "rats:rat_upgrade_bee" }
-		{ item: "rats:rat_upgrade_fisherman" }
-		{ item: "rats:cheese" }
-		{ count: 3, item: "minecraft:gold_ingot" }
-		{ item: "minecraft:redstone_block" }
-		{ item: "tconstruct:ender_slime_bottle" }
-		{ item: "tconstruct:ichor_slime_bottle" }
-		{ item: "minecolonies:large_soy_milk_bottle" }
-		{ item: "irons_spellbooks:lightning_bottle" }
-		{ item: "alexscaves:hot_chocolate_bottle" }
-		{ item: "tconstruct:venom_bottle" }
-		{ item: "tconstruct:silky_cloth" }
-		{ item: "farmingforblockheads:market" }
-		{ item: "goety:music_disc_apostle" }
-		{ item: "goety:alarming_charm" }
-		{ item: "goety:wild_robe" }
-		{ item: "goety:targeting_monocle" }
-		{ item: "goety:warlock_sash" }
-		{ item: "goety:storm_robe" }
-		{ item: "goety:spiteful_belt" }
-		{ item: "goety:feline_amulet" }
-		{ item: "goety:music_disc_vizier" }
-		{ item: "goety:music_disc_rm" }
-		{ item: "goety:wayfarers_belt" }
-		{ count: 2, item: "rats:rat_burger", random_bonus: 3, weight: 15.0f }
-		{
-			item: {
-				Count: 1
-				id: "minecraft:painting"
-				tag: {
-					EntityTag: {
-						variant: "minecraft:sea"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:painting"
-				tag: {
-					EntityTag: {
-						variant: "mcwpaintings:jack_o_lantern"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:painting"
-				tag: {
-					EntityTag: {
-						variant: "mcwpaintings:halloween_house"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:painting"
-				tag: {
-					EntityTag: {
-						variant: "incubation:culprit"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:painting"
-				tag: {
-					EntityTag: {
-						variant: "mcwpaintings:bat"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:painting"
-				tag: {
-					EntityTag: {
-						variant: "mcwpaintings:igloo"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:painting"
-				tag: {
-					EntityTag: {
-						variant: "mcwpaintings:fox"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:painting"
-				tag: {
-					EntityTag: {
-						variant: "mcwpaintings:panda"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:painting"
-				tag: {
-					EntityTag: {
-						variant: "ars_additions:snoozebuncle"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:painting"
-				tag: {
-					EntityTag: {
-						variant: "mcwpaintings:igloo"
-					}
-				}
-			}
-		}
-		{ count: 16, item: "minecraft:andesite", weight: 8.0f }
-		{ item: "minecraft:ender_pearl" }
-		{ item: "minecraft:blaze_rod" }
-		{ item: "supplementaries:dragon_banner_pattern" }
-		{ item: "autumnity:swirl_banner_pattern" }
-		{ item: "minecraft:arms_up_pottery_sherd" }
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "domesticationinnovation:total_recall"
-						lvl: 1s
-					}]
-				}
-			}
-		}
-		{ item: "the_bumblezone:banner_pattern_bee" }
-		{ item: "farmersrespite:coffee_berries" }
-		{ item: "supplementaries:soap" }
-		{
-			item: {
-				Count: 1
-				id: "minecraft:brush"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{ item: "quark:trowel" }
-		{
-			item: {
-				Count: 1
-				id: "supplementaries:flute"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "supplementaries:slingshot"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "supplementaries:rope_arrow"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{ item: "quark:seed_pouch" }
-		{ item: "solcarrot:food_book" }
-		{ item: "supplementaries:key" }
-		{ item: "tconstruct:copper_can" }
-		{
-			item: {
-				Count: 1
-				ForgeCaps: {
-					Parent: {
-						Items: [ ]
-						Open: 0b
-						SelectedSlot: 0b
-						Size: 6
-					}
-				}
-				id: "supplementaries:lunch_basket"
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "supplementaries:wrench"
-				tag: {
-					Damage: 0
-					etstlib_tool_uuid: "b8b8bf7c-4b14-488e-977d-369bdb9511a8"
-				}
-			}
-		}
 	]
 	title: "&e"
 	use_title: true
