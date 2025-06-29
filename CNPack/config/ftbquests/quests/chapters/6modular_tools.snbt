@@ -261,7 +261,9 @@
 			optional: true
 			rewards: [
 				{
-					command: "/titles add @p titles:tinker"
+					command: "/titles add {p} titles:tinker"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "7A4D51810C68ED21"
 					title: "&eUnlock Title:&r the Tinkerer"
@@ -621,7 +623,9 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:blacksmith"
+					command: "/titles add {p} titles:blacksmith"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "7E247892D81601C5"
 					title: "&eUnlock Title:&r the Blacksmith"

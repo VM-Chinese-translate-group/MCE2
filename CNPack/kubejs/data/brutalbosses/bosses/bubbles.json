@@ -8,14 +8,14 @@
       "minecraft:weakness": 1
   },
   "attributes": {
-      "generic.max_health": 150,
+      "generic.max_health": 250,
       "generic.follow_range": 100,
       "generic.attack_damage": 13,
       "generic.knockback_resistance": 10
   },
   "customattributes": {},
   "gear": {
-      "mainhand": "{id: \"cgs:revolver\", Count: 1b, tag: {display:{Name:'{\"text\":\"Sunken Revolver\"}',Lore:['{\"text\":\"This gun was found in the belly of Bubbles, the foul beast must have eaten its original owner whole!\"}']},Enchantments:[{lvl: 3s, id: \"minecraft:unbreaking\"}]}}"
+      "mainhand": "{id: \"cgs:shotgun\", Count: 1b, tag: {display:{Name:'{\"text\":\"Sunken Revolver\"}',Lore:['{\"text\":\"This gun was found in the belly of Bubbles, the foul beast must have eaten its original owner whole!\"}']},Enchantments:[{lvl: 3s, id: \"minecraft:unbreaking\"}]}}"
   },
   "ai-goals": {
       "brutalbosses:itemshootgoal": {
@@ -25,7 +25,7 @@
   
       "brutalbosses:charge": {},
 
-"brutalbosses:jumpattack": {"healthinterval": "100-0",          
+"brutalbosses:jumpattack": {"healthinterval": "10-0",          
  "attackdist": 12,                     
  "extraDamage": 2,                    
  "maxdist": 15,                       

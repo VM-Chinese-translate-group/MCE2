@@ -191,6 +191,7 @@
 				"1AA11CDC70A4BDA5"
 				"6B67E2D893F1941E"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 			  "&eTip:&r Choose the location wisely!"
 			  "The Town Hall block is what actually creates the colony. It also functions as the center of it. This is where you start using the build tool to place buildings. Using the build tool ensures you can see exactly where the building will be, which direction it will face, and if it is at the right Y level (some buildings need to be raised to the correct Y level).Once the Town Hall block is placed, you will start receiving your initial 4 citizens."
@@ -198,7 +199,8 @@
 			id: "36B99A25BD254D1C"
 			rewards: [
 				{
-					command: "/titles add @p titles:mayor"
+					command: "/titles add {p} titles:mayor"
+					console: true
 					icon: "titles:title_scroll_common"
 					id: "68DDA0891FAD74FB"
 					title: "&eUnlock Title:&r The Mayor"

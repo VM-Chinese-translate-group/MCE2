@@ -1,0 +1,54 @@
+{
+	id: "7E3BBE6D4F944142"
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "incubation:culprit"
+					}
+					etstlib_tool_uuid: "101b620d-e15a-4ea9-9c13-edbc6fa05ce1"
+					tic_persistent: { }
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "mcwpaintings:scenery_tree2"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "mcwpaintings:cherry_tree"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "mcwpaintings:fox"
+					}
+				}
+			}
+		}
+	]
+	title: "painting"
+}

@@ -16,7 +16,7 @@
 		}
 		{
 			height: 0.6d
-			image: "nethersdelight:block/warped_fungus_colony_stage0"
+			image: "mynethersdelight:block/warped_fungus_colony_stage2"
 			rotation: 0.0d
 			width: 0.6d
 			x: 1.1428571428571601d
@@ -128,7 +128,7 @@
 		}
 		{
 			height: 0.6d
-			image: "nethersdelight:block/warped_fungus_colony_stage2"
+			image: "minecraft:block/warped_fungus"
 			rotation: 55.0d
 			width: 0.6d
 			x: 5.7551020408163325d
@@ -224,7 +224,7 @@
 		}
 		{
 			height: 0.5d
-			image: "nethersdelight:block/warped_fungus_colony_stage0"
+			image: "minecraft:block/warped_fungus"
 			rotation: -22.0d
 			width: 0.5d
 			x: 4.775510204081634d
@@ -347,7 +347,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/gamestage add @p expert"
+					command: "/gamestage add {p} expert"
 					icon: "rats:golden_rat_skull"
 					id: "7AAA477D924F4B0E"
 					title: "&eActivate Expert Mode"
@@ -385,6 +385,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7F5E1FB9849F1240"
+					item: "minecraft:music_disc_pigstep"
+					type: "item"
+				}
 			]
 			shape: "square"
 			size: 0.9d
@@ -410,15 +415,7 @@
 			  ""
 			  "&4&lThe Nether - Progression"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "kubejs:nether_item"
-			}
+			icon: "kubejs:nether_item"
 			id: "3BD8D1FD1252A183"
 			rewards: [
 				{
@@ -484,6 +481,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6You Fool of a Took!"
 			x: 1.0d
 			y: -2.0d
 		}
@@ -542,25 +540,13 @@
 			size: 0.9d
 			subtitle: "Venture deep into The Nether and seek out a Fortress"
 			tasks: [{
-				advancement: "minecraft:nether/find_fortress"
-				criterion: ""
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "artifacts:obsidian_skull"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "35012FAE0AF4A31B"
-				title: "&eLocate a Nether Fortress"
-				type: "advancement"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "0FB1010FDECD75FB"
+				structure: "betterfortresses:fortress"
+				title: "&eLocate Nether Fortress"
+				type: "structure"
 			}]
-			title: "&oDiscover a Nether Fortress"
+			title: "&eAn Ancient Evil"
 			x: 5.224489795918359d
 			y: -2.0306122448979593d
 		}
@@ -738,7 +724,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:demon_slayer"
+					command: "/titles add {p} titles:demon_slayer"
 					icon: "titles:title_scroll_uncommon"
 					id: "4676D913C6156C6D"
 					title: "&eUnlock Title:&r Demon Slayer"
@@ -842,7 +828,8 @@
 			id: "4C81F6B40FD9A4A2"
 			rewards: [
 				{
-					command: "/titles add @p twilightforest:fiery_set"
+					command: "/titles add {p} twilightforest:fiery_set"
+					console: true
 					icon: "titles:title_scroll_rare"
 					id: "22DA422A1A1EAEC3"
 					title: "&eUnlock Title: &rThe Flame Forged"
@@ -861,7 +848,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" You hear a strange voice beckoning you to approach the altar...\"}]"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" You hear a strange voice beckoning you to approach the altar...\"}]"
 					console: true
 					elevate_perms: true
 					icon: "create:empty_blaze_burner"
@@ -871,7 +858,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound tombstone:ghost_laugh player @p ~ ~ ~ 10 0.5"
+					command: "/execute at {p} run playsound tombstone:ghost_laugh player {p} ~ ~ ~ 10 0.5"
 					console: true
 					elevate_perms: true
 					icon: "cataclysm:blazing_bone"
@@ -1056,7 +1043,8 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:ashen"
+					command: "/titles add {p} titles:ashen"
+					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "0067A1BE49111658"
 					title: "&eUnlock Title:&r of the Ashen Breath"
@@ -1134,6 +1122,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "minecraft:map"
+			icon: "kubejs:magic_map"
 			id: "22212D179F427EBE"
 			optional: true
 			rewards: [
@@ -1352,6 +1341,93 @@
 			}]
 			x: 3.0d
 			y: -1.0d
+		}
+		{
+			description: ["Where the hell did the Goblin Trader find this!?!?"]
+			id: "6F57FD15FFC861DB"
+			optional: true
+			rewards: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "72F2312BB825052B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "5A416BC28541BA92"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:torture"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "1DE3F0C5419E7324"
+					title: "&eUnlock Title:&r the Torturer"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Find The Blade of Eternal Torment"
+			tasks: [{
+				id: "44C0D1CA21D45C12"
+				item: {
+					Count: 1
+					id: "iceandfire:dread_knight_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:fire_aspect"
+							lvl: 2s
+						}]
+						display: {
+							Lore: ["{\"text\":\"Forged in the depths of the Nether. Used to torment and torture enemies of The Eternal Legions.\",\"color\":\"gray\",\"italic\":true}"]
+							Name: "{\"text\":\"Blade of Eternal Torment\",\"color\":\"dark_purple\",\"italic\":false}"
+						}
+						etstlib_tool_uuid: "0a343ae3-e330-4f46-8937-3973ed0374da"
+						tic_persistent: { }
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
 		}
 	]
 	title: "&cThe Nether &r&6☆☆"

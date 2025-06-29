@@ -156,7 +156,8 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:ensign"
+					command: "/titles add {p} titles:ensign"
+					console: true
 					icon: "titles:title_scroll_common"
 					id: "1D1BAF150C07CACF"
 					title: "&eUnlock Title:&r Ensign"
@@ -237,7 +238,8 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:lieutenant"
+					command: "/titles add {p} titles:lieutenant"
+					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "3ADAAA2871BE4AF2"
 					title: "&eUnlock Title:&r Lieutenant"
@@ -318,7 +320,8 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:commander"
+					command: "/titles add {p} titles:commander"
+					console: true
 					icon: "titles:title_scroll_rare"
 					id: "408FD478B3E38A22"
 					title: "&eUnlock Title:&r Commander"
@@ -1026,7 +1029,8 @@
 			id: "6044376827C3EB6C"
 			rewards: [
 				{
-					command: "/titles add @p titles:martian"
+					command: "/titles add {p} titles:martian"
+					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "2C8DF87178A2AD6C"
 					title: "&eUnlock Title:&r Martian"

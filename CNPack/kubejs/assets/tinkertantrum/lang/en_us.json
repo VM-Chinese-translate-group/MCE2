@@ -1,0 +1,9 @@
+{
+  "modifier.tinkertantrum.quarky": "Quarky",
+  "modifier.tinkertantrum.quarky.flavor": "...is a mod by Vazkii",
+  "modifier.tinkertantrum.quarky.description": "Increases Damage a little for each Item on your hotbar from a mod by Vazkii, scaled to the stack's Size out of its maximum.",
+
+  "modifier.tinkertantrum.overcharging": "Overcharging",
+  "modifier.tinkertantrum.overcharging.flavor": "1.21 Jigawatts!",
+  "modifier.tinkertantrum.overcharging.description": "Builds up Overslime on equipped Armor as you deal Damage."
+}

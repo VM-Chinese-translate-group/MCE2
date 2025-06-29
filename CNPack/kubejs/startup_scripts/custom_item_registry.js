@@ -25,8 +25,6 @@ StartupEvents.registry("item", event => {
   event.create('cat_burger').displayName('§eStrange Burger').glow(true);
 
   event.create('elegant_letter').displayName('§eBodyguard Contract - Kobolediator').glow(true);
-  
-  event.create('tc_level').displayName('§bPhantom Circuit').glow(true);
 
   event.create('eternal_engine').displayName('§dEternal Engine').glow(true);
   
@@ -45,8 +43,6 @@ StartupEvents.registry("item", event => {
   event.create('sunscreen').displayName('§eBottle of Sunblock').glow(true);
 
   event.create('jaffa_cake').displayName('§eJaffa Cake');
-  
-  event.create('s_soup').displayName('§eSculptor Soup').glow(true);
   
   event.create('loyalty_card_generic').displayName('§eLoyalty Card - Random Reward').glow(false);
   

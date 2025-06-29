@@ -147,8 +147,16 @@
 			image: "modpack:textures/fishing_title.png"
 			rotation: 0.0d
 			width: 5.132832080200501d
-			x: -0.4523809523809561d
-			y: -8.38095238095238d
+			x: -0.4523809523809632d
+			y: -9.847619047619055d
+		}
+		{
+			height: 9.0d
+			image: "minecraft:textures/misc/scorched_letter.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 7.0d
+			y: -3.0d
 		}
 	]
 	order_index: 0
@@ -398,23 +406,6 @@
 			id: "18F5957F3881A748"
 			rewards: [
 				{
-					id: "1CA45131E01E162E"
-					type: "custom"
-				}
-				{
-					id: "4F352C0D282994C9"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "alexsdelight:seafood_soup"
-					}
-					type: "item"
-				}
-				{
 					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "73DD67DA881B557A"
@@ -534,23 +525,6 @@
 		{
 			id: "4899A9806C832A8B"
 			rewards: [
-				{
-					id: "264786F278AA8FB2"
-					type: "custom"
-				}
-				{
-					id: "2F5037397C829843"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "alexsdelight:seafood_soup"
-					}
-					type: "item"
-				}
 				{
 					amount: 50L
 					currency: "eternalcurrencies:coins"
@@ -1514,23 +1488,6 @@
 			id: "60F34266DE963342"
 			rewards: [
 				{
-					id: "5DF489FFACF74AFC"
-					type: "custom"
-				}
-				{
-					id: "18BAEA160B8EC796"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "alexsdelight:seafood_soup"
-					}
-					type: "item"
-				}
-				{
 					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "6E301114C1977335"
@@ -2091,7 +2048,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:angler"
+					command: "/titles add {p} titles:angler"
 					icon: "titles:title_scroll_common"
 					id: "67B4BA738E9E28F4"
 					title: "&eUnlock Title:&r Angler"
@@ -2111,7 +2068,7 @@
 				}
 			]
 			shape: "rsquare"
-			size: 0.7d
+			size: 1.1d
 			subtitle: "&oEvery fishing journey begins with some sticks and string"
 			tasks: [{
 				id: "363A5BB41A559525"
@@ -2134,6 +2091,7 @@
 		}
 		{
 			dependencies: ["0D4D2C4884395067"]
+			description: ["&6Hint:&r Make sure to craft a fishing rod from &dAquaculture!"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3EBD648693877A38"
@@ -2151,19 +2109,6 @@
 						tag: {
 							Damage: 0
 						}
-					}
-					type: "item"
-				}
-				{
-					id: "7ABC6F0FA196B8B3"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "aquaculture:redstone_hook"
 					}
 					type: "item"
 				}
@@ -2194,7 +2139,7 @@
 				}
 				type: "item"
 			}]
-			title: "&eEquipment Upgrade!"
+			title: "&ePro Angler!"
 			x: -5.0d
 			y: -1.0d
 		}
@@ -2555,7 +2500,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:deep"
+					command: "/titles add {p} titles:deep"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -2605,6 +2550,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "6896C7FAA8D1739F"
+					item: "artifacts:anglers_hat"
 					type: "item"
 				}
 			]
@@ -2815,65 +2765,6 @@
 			y: -1.0d
 		}
 		{
-			id: "5576B1567B7B2557"
-			rewards: [
-				{
-					amount: 50L
-					currency: "eternalcurrencies:coins"
-					id: "009947C36E580392"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "342F2D8587460945"
-					item: "alexsmobs:cooked_catfish"
-					type: "item"
-				}
-				{
-					id: "0A4CF46DF66EAC46"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "357F34244A90AC83"
-					item: "aquaculture:neptunium_nugget"
-					type: "item"
-				}
-			]
-			tasks: [{
-				count: 32L
-				id: "2FF249F8ABEE8CAC"
-				item: { Count: 32, id: "lavafishing:steam_flying_fish" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
 			id: "0937D5FFC36047BF"
 			rewards: [
 				{
@@ -2931,7 +2822,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -4.0d
+			y: -7.0d
 		}
 		{
 			id: "3FCFBABD6962A387"
@@ -2990,7 +2881,7 @@
 				item: "minecraft:salmon"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -5.0d
 		}
 		{
@@ -3045,13 +2936,13 @@
 			]
 			subtitle: "&3&oFishing For Fishies"
 			tasks: [{
-				count: 12L
+				count: 16L
 				id: "7543DCAD029F1A98"
 				item: "minecraft:pufferfish"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			id: "73FAD014F1CCF79E"
@@ -3110,8 +3001,8 @@
 				item: "minecraft:cod"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: -7.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -3124,7 +3015,11 @@
 				""
 				"The rewards can be &oquite generous!"
 				""
-				"<rainb>So get to fishin' Explore and find new fishing spots!"
+				"&6Hint:&r Each type of fish has their own personality and uniqueness when it comes to trying to fish them up!"
+				""
+				"&eTip:&r Sometimes you can get a bonus &dTreasure Chest&r if you are successful with the quick time event! "
+				""
+				"<rainb>So get to fishin', try to explore and find some fishing spots!"
 			]
 			icon: {
 				Count: 1
@@ -3144,13 +3039,16 @@
 			subtitle: "Learn About Fishin'"
 			tasks: [{
 				id: "373C7F00435AD2FC"
-				title: "The Art of Fishing"
+				title: "&eThe Art of Fishing!"
 				type: "checkmark"
 			}]
-			x: 5.44047619047619d
-			y: -6.571428571428569d
+			x: -0.5000000000000071d
+			y: -8.56190476190477d
 		}
 		{
+			dependencies: ["3EBD648693877A38"]
+			description: ["&eSee the Tacklebox Quest!"]
+			hide_dependency_lines: true
 			id: "395CA912462C7BD5"
 			rewards: [
 				{
@@ -3195,7 +3093,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&3&oFishing For Fishies"
+			subtitle: "&aFancy Upgrades!"
 			tasks: [{
 				id: "7823EAA2A19AAF72"
 				item: {
@@ -3207,10 +3105,13 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["3EBD648693877A38"]
+			description: ["&eSee the Tacklebox Quest!"]
+			hide_dependency_lines: true
 			id: "22E127BF0A68AE03"
 			rewards: [
 				{
@@ -3315,7 +3216,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&3&oFishing For Fishies"
+			subtitle: "&aFancy Upgrades!"
 			tasks: [{
 				id: "11233C026F9BB956"
 				item: {
@@ -3327,10 +3228,13 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
+			dependencies: ["3EBD648693877A38"]
+			description: ["&eSee the Tacklebox Quest!"]
+			hide_dependency_lines: true
 			id: "33822DEAFFE9C82C"
 			rewards: [
 				{
@@ -3375,7 +3279,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&3&oFishing For Fishies"
+			subtitle: "&aFancy Upgrades!"
 			tasks: [{
 				id: "7FA6B408072648D7"
 				item: {
@@ -3387,10 +3291,13 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["3EBD648693877A38"]
+			description: ["&eSee the Tacklebox Quest!"]
+			hide_dependency_lines: true
 			id: "37CDE1CC97743790"
 			rewards: [
 				{
@@ -3435,7 +3342,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&3&oFishing For Fishies"
+			subtitle: "&aFancy Upgrades!"
 			tasks: [{
 				id: "1992A0B4103B2E97"
 				item: {
@@ -3447,8 +3354,985 @@
 				}
 				type: "item"
 			}]
-			x: 5.559523809523817d
-			y: 0.4761904761904674d
+			x: 5.5238095238095255d
+			y: 0.21190476190475493d
+		}
+		{
+			dependencies: ["0BE6EDE28466F394"]
+			hide_dependency_lines: true
+			id: "00C2AA413CB1D305"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "23622B81F413890C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4492B57E3296822C"
+					item: "farmersdelight:nether_salad"
+					type: "item"
+				}
+				{
+					id: "1C78530AD85E9C32"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					id: "1ECBF4117A96138B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&4&oFishing For Fishies"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4CF1A1E0E2E21798"
+				item: { Count: 16, id: "lavafishing:flame_squat_lobster" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BE6EDE28466F394"]
+			hide_dependency_lines: true
+			id: "131977802448E7A9"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2329421D656A899D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "26D8A4F8AD9E8352"
+					item: "farmersdelight:nether_salad"
+					type: "item"
+				}
+				{
+					id: "22E61FF84B3D8FD9"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					id: "78E8B09E50B4CCCC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&4&oFishing For Fishies"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "16C4D9A38A4BD500"
+				item: { Count: 16, id: "lavafishing:obsidian_sword_fish" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BE6EDE28466F394"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0EF4975322E13CD3"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "76F00DAED3D63660"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7CD55F96D1A0DA4A"
+					item: "farmersdelight:nether_salad"
+					type: "item"
+				}
+				{
+					id: "5E5427B362C37F8A"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					id: "4DFEEB067E6FEE12"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&4&oFishing For Fishies"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "2B2C02CB13AC0AD2"
+				item: { Count: 16, id: "lavafishing:steam_flying_fish" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BE6EDE28466F394"]
+			hide_dependency_lines: true
+			id: "77EAFA8F5BFCE967"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "05C6DB31F70FF7B2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7442344715053B1A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "797FA0A8F6A65510"
+					item: "farmersdelight:nether_salad"
+					type: "item"
+				}
+				{
+					id: "09CB9E4B3F32D773"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "&4&oFishing For Fishies"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "618E4710D9D37CDD"
+				item: { Count: 16, id: "lavafishing:agni_fish" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BE6EDE28466F394"]
+			hide_dependency_lines: true
+			id: "266D906BF37716DA"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "5DBC646FAF48953D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "149D2E77387C1A3B"
+					item: "farmersdelight:nether_salad"
+					type: "item"
+				}
+				{
+					id: "6CBD1F04383F011C"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					id: "6C7243FEC9492ADB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&4&oFishing For Fishies"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "208A470C81966742"
+				item: { Count: 16, id: "lavafishing:arowana_fish" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BE6EDE28466F394"]
+			hide_dependency_lines: true
+			id: "6E0F0427ED6DACF7"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "62C5F32E0C34A2A9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1571B0E58B621D00"
+					item: "farmersdelight:nether_salad"
+					type: "item"
+				}
+				{
+					id: "2CAD0EAE2A0CBCA6"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					id: "06E6E2FA94808E23"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&4&oFishing For Fishies"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "6553884DF1C172E0"
+				item: { Count: 16, id: "lavafishing:quartz_fish" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BE6EDE28466F394"]
+			hide_dependency_lines: true
+			id: "41D820EBF2662201"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7C39ED6D2BCD64BE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1205A56D6C133C63"
+					item: "farmersdelight:nether_salad"
+					type: "item"
+				}
+				{
+					id: "6A33C07D6167A815"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					id: "447377C3D8F414F0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&4&oFishing For Fishies"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4D754F54D8DB0372"
+				item: { Count: 16, id: "lavafishing:scaly_foot_snail" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BE6EDE28466F394"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "6E4D767B974E2ACF"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3193FB56EB08304B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3527404E0F906FCF"
+					item: "farmersdelight:nether_salad"
+					type: "item"
+				}
+				{
+					id: "6974017D41D0A5D4"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					id: "7F77E12ED1E8EFCE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&4&oFishing For Fishies"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0E5FD4F3ADE540DB"
+				item: { Count: 16, id: "lavafishing:yeti_crab" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BE6EDE28466F394"]
+			hide_dependency_lines: true
+			id: "45FF4FFEC2D93B4E"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "0A8EC40B8696A6ED"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7C1B737F860AAB80"
+					item: "farmersdelight:nether_salad"
+					type: "item"
+				}
+				{
+					id: "2917C346B1CACC6A"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					id: "32165B536FB6D464"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4788DFB85D09A4AC"
+					item: "mcwlights:lava_lamp"
+					type: "item"
+				}
+			]
+			subtitle: "&4&oFishing For Fishies"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6C747CCE71FD1D96"
+				item: { Count: 16, id: "lavafishing:lava_lamprey" }
+				type: "item"
+			}]
+			x: 5.523809523809504d
+			y: -2.8714285714285737d
+		}
+		{
+			dependencies: ["0D4D2C4884395067"]
+			description: [
+				"With the power of obsidian we can fish in lava!"
+				"I wonder what sorts of unique species of fish have adapted to live in such a hostile environment!"
+				""
+				"However, it does seem like we will need a heavier hook to be able to fish in lava!"
+			]
+			hide_dependency_lines: true
+			id: "78A8269255277765"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "49E5215A5BDF93D3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1ADEBA92B750A880"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Craft an &eObsidian Fishing Rod"
+			tasks: [{
+				id: "2B9E64F54C62576E"
+				item: {
+					Count: 1
+					id: "lavafishing:obsidian_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&4Lava Fishing! "
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["78A8269255277765"]
+			description: [
+				"Ah hah! By creating a hook from &dObsidian&r we should be able to fish in lava!"
+				"How incredible! Now go forth and catch all of the unique lava fish for me! "
+			]
+			id: "0BE6EDE28466F394"
+			rewards: [
+				{
+					id: "1A1019B635A9A044"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "5D12EEB1B6533590"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Craft an &eObsidian Hook"
+			tasks: [{
+				id: "7F05CCCF136505D5"
+				item: "aquaculture:obsidian_hook"
+				type: "item"
+			}]
+			x: 5.476190476190467d
+			y: -7.442857142857143d
+		}
+		{
+			dependencies: [
+				"77EAFA8F5BFCE967"
+				"0EF4975322E13CD3"
+				"131977802448E7A9"
+				"266D906BF37716DA"
+				"41D820EBF2662201"
+				"6E0F0427ED6DACF7"
+				"6E4D767B974E2ACF"
+				"45FF4FFEC2D93B4E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:redstone"
+				}
+			}
+			id: "6422D3B09B414B32"
+			optional: true
+			rewards: [
+				{
+					id: "002AFF599EBA4C42"
+					item: "lavachickenmusicdisc:music_disc_lava_chicken"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6D36B135C4ADF9BB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "295C19A98E2677DB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Find all types of Lava Fish!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "mcwlights:lava_lamp"
+				id: "08A4C21D847834A7"
+				title: "Lava Angler!"
+				type: "dimension"
+			}]
+			title: "&4<wave>The Lava Angler"
+			x: 6.357142857142861d
+			y: -7.428571428571431d
+		}
+		{
+			dependencies: [
+				"06C4CDC90BADA0A1"
+				"096BD876E5BBF17E"
+				"0EE897FCA8B9A27F"
+				"7470499058488405"
+				"0CCD6520D8895339"
+				"7CEADFEF47C6107D"
+				"3CDB2D08E65A7879"
+				"5BD178FE872B6070"
+				"3066B4BED84580A8"
+				"7AD5F42193C2BBDF"
+				"589BEDE5E1737A92"
+				"1E6F4923A9E3C9AD"
+				"759526FE303D24C7"
+				"07B59C8502FFF2C6"
+				"09B1AFE0223D9D00"
+				"26298FA7EB517B92"
+				"1BF8B8A54982CD9C"
+				"3EF14C2ED31E04E3"
+				"5DF21F9F0A19B54A"
+				"73E5BEDB416CCB57"
+				"18F5957F3881A748"
+				"78E8AE5C3C992959"
+				"4899A9806C832A8B"
+				"60F34266DE963342"
+				"0648D6BD6C5BBA22"
+				"6A1D4FA54C7C12BB"
+				"117DE24427FD8DE4"
+				"79B12A435A7C7276"
+				"45B4C69CD741533F"
+				"3B3124E38FFD9E0C"
+				"73FAD014F1CCF79E"
+				"3FCFBABD6962A387"
+				"0937D5FFC36047BF"
+			]
+			hide_dependency_lines: true
+			id: "71779FD080046A9D"
+			optional: true
+			rewards: [
+				{
+					id: "4E6B9A6F4A85B00A"
+					item: "rats:music_disc_mice_on_venus"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7456987129A0DCB3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Find all types of Overworld water based Fish!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:heart_of_the_sea"
+				id: "1B62A5273AFF86CE"
+				title: "The Angler!"
+				type: "dimension"
+			}]
+			title: "&b<wave>The Overworld Angler"
+			x: 0.6428571428571459d
+			y: -8.476190476190467d
 		}
 	]
 	title: "&2Fishing"

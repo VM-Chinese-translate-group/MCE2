@@ -2,7 +2,7 @@
   "entity": "iceandfire:ghost",
   "name": "Lost Explorer",
   "visualscale": 1.2,
-  "experience": 300,
+  "experience": 10,
   "droppeditemamount": 5,
   "effects": {
     "minecraft:resistance": 1,
@@ -19,7 +19,7 @@
     "projectile_damage_bonus": 2
   },
   "gear": {
-    "mainhand": "{id: \"minecraft:potion\", Count: 3b, tag: {Potion: \"minecraft:long_fire_resistance\"}}",
+    "mainhand": "{id: \"minecraft:potion\", Count: 1b, tag: {Potion: \"minecraft:long_fire_resistance\"}}",
 	  "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Half Digested Loyalty Card\"}',Lore:['{\"text\":\"§2§oYuck! You should wash your hands after touching this... Someone lost their loyalty card...\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
   },
   "ai-goals": {

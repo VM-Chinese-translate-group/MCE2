@@ -31,9 +31,9 @@
    
 "minecraft:randomwalk": {},
 
-"brutalbosses:jumpattack": {"healthinterval": "100-0",          
+"brutalbosses:jumpattack": {"healthinterval": "50-0",          
 "attackdist": 12,                     
-"extraDamage": 2,                    
+"extraDamage": 20,                    
 "maxdist": 15,                       
 "mindist": 2,                        
 "maxheight": 15,                      
@@ -44,25 +44,25 @@
 {
   "duration": 200,                   
   "amplifier": 5,                    
-  "particle": "ntgl:blood"      
+  "particle": "goety:big_electric"      
 }}},
 	  "brutalbosses:lavarescue": {}, 
     "brutalbosses:shieldmelee": {},
     "brutalbosses:whirldwind": {           
 "attackdist": 2,                        
 "extradamage": 25,                       
-"potiononhit": "biomancy:bleed",   
-"potionlevel": 2,                       
+"potiononhit": "cofh_core:shocked",   
+"potionlevel": 20,                       
 "potionduration": 8,                   
 "knockback": 8,                         
 "cooldown": 800,                         
-"knockup": false                       
+"knockup": true                       
 },
     "brutalbosses:chasetarget": {},
     "brutalbosses:meleehit":
     {
       "damage": 8,
-      "potiononhit": "biomancy:bleed",
+      "potiononhit": "cofh_core:shocked",
       "cooldown": 300
     }
   },

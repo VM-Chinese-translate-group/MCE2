@@ -24,7 +24,7 @@
   "ai-goals": {
     "minecraft:target": {},
 	"brutalbosses:charge": {},
-  "brutalbosses:jumpattack": {"healthinterval": "100-0",          
+  "brutalbosses:jumpattack": {"healthinterval": "10-0",          
   "attackdist": 12,                     
   "extraDamage": 2,                    
   "maxdist": 15,                       
