@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "The Nether in MCE2 is a scary & big place! Set Waypoints!"
+    "text": "永恒MC2里的下界既宽阔又可怕！记得多设置些路径点！"
   }
 }

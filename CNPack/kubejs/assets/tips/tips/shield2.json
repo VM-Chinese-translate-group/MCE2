@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Sleeping in a bed for a full night will restore all of your health and remove negative status effects! Gotta get that beauty sleep!"
+    "text": "只要在床上睡过一晚，你的生命值就会完全恢复，负面状态也会被清除！好好睡个美容觉吧！"
   }
 }

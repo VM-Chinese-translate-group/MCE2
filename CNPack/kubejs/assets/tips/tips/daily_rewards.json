@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Every day you log in you can claim a Daily Reward! use /DailyRewards Claim to check your progress!"
+    "text": "每天进入游戏时，你都可以领取一份每日奖励！输入/DailyRewards Claim来查看你的领取进度！"
   }
 }

@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Questing is an excellent way of gathering interesting items!"
+    "text": "如果你想收集些有趣的物品，做任务是个绝佳的选择！"
   }
 }

@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Titles are special trophies awarded to you after completing certain challenges, you can equip a Title and show it off for all to see!"
+    "text": "只要完成某些特定挑战，你就会获得称号作为特殊奖励。你可以装上这些称号然后去跟大伙炫耀！"
   }
 }

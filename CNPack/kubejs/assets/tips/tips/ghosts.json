@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "You can only damage Ghosts with magic damage or silver weapons!"
+    "text": "只有魔法伤害或银质武器才能伤到鬼魂！"
   }
 }

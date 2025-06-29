@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "The Reservoir from Thermal Expansion can be used as a larger bucket for most crafting recipes requiring fluid!"
+    "text": "热力膨胀模组的贮液器可以看做是一个大号的桶，可以用于进行包含液体的配方合成！"
   }
 }

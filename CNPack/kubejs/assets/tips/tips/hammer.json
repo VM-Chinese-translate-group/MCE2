@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Hammer weapon types do large amounts of AOE damage every third attack!"
+    "text": "锤类武器每第三下攻击都会造成高额的范围伤害！Hammer weapon types do large amounts of AOE damage every third attack!"
   }
 }

@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Watch out! Certain humanoid creatures can dodge, roll and use special attacks! Avoid heavy attacks or you might get stunned!"
+    "text": "当心！某些特定的人型生物能够闪避、翻滚，甚至还会使用特殊攻击！避开他们的重击，否则你可能会被打昏！"
   }
 }

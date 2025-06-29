@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "The Cow In a Jar will provide passive amounts of milk to your kitchen!"
+    "text": "罐中牛会自主积攒大量牛奶，从而为你的厨房提供补给！"
   }
 }
