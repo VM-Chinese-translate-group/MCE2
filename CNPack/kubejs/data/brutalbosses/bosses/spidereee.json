@@ -20,9 +20,7 @@
   },
   
   "ai-goals": {
-    "brutalbosses:runcommand": {"healthinterval": "50-0",          
-"cooldown": 25,                     
-"command": "execute at @p run summon goety:web_shot ~ ~3 ~" },
+    
     "brutalbosses:shieldmelee":{},
   
              
@@ -41,7 +39,7 @@
 "projectile_aoe": true          
 },
 "minecraft:randomwalk": {},
-"brutalbosses:jumpattack": {"healthinterval": "100-0",          
+"brutalbosses:jumpattack": {"healthinterval": "10-0",          
 "attackdist": 12,                     
 "extraDamage": 2,                    
 "maxdist": 15,                       

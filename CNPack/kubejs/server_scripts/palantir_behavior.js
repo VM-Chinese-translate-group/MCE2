@@ -8,7 +8,7 @@ ItemEvents.rightClicked(event => {
     player.getCooldowns().addCooldown('kubejs:nether_item', 3500);
 
 
-    server.runCommand(`tellraw ${name} {"text":"You ponder the orb and see a vision of the distant past... An unspeakable army unlike anything you've ever seen... Endless torment.. This is oblivion.. ","italic":true,"color":"dark_gray"}`);
+    server.runCommand(`tellraw ${name} {"text":"You ponder the orb and see a vision of the distant past... An unspeakable eternal army unlike anything you've ever seen... Endless torment.. This is oblivion.. ","italic":true,"color":"dark_gray"}`);
     server.runCommand(`execute at ${name} run playsound minecraft:entity.wither.spawn ambient ${name}`);
     server.runCommand(`execute at ${name} run particle create:soul ~ ~ ~`);
 
@@ -18,19 +18,11 @@ ItemEvents.rightClicked(event => {
 
     const weightedEntities = [
         { id: 'goety_cataclysm:netherite_monstrosity', weight: 1 },
-        { id: 'goety_cataclysm:ignited_berserker', weight: 40 },
-        { id: 'goety_cataclysm:ignited_revenant', weight: 40 },
-        { id: 'goety_cataclysm:draugr_servant', weight: 100 },
-        { id: 'goety_cataclysm:aptrgangr', weight: 40 },
-        { id: 'goety_spillage:ragno_servant', weight: 1 },
+        { id: 'goety_cataclysm:ignited_berserker', weight: 80 },
+        { id: 'goety_cataclysm:ignited_revenant', weight: 80 },
+        { id: 'goety_cataclysm:aptrgangr', weight: 80 },
         { id: 'goety_cataclysm:royal_draugr_servant', weight: 100 },
-        { id: 'goety:wraith_servant', weight: 20 },
-        { id: 'goety_cataclysm:ender_golem', weight: 5 },
-        { id: 'goety:zpiglin_servant', weight: 100 },
-        { id: 'goety:wither_skeleton_servant', weight: 100 },
-        { id: 'goety:wither_necromancer_servant', weight: 65 },
-        { id: 'goety:border_wraith_servant', weight: 20 },
-        { id: 'goety_cataclysm:watcher_servant', weight: 15 },
+        { id: 'goety:wither_necromancer_servant', weight: 40 },
             { id: 'goety:reaper_servant', weight: 110 },
         { id: 'goety_cataclysm:elite_draugr_servant', weight: 100 }
     ];

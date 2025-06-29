@@ -2,7 +2,7 @@
   "entity": "irons_spellbooks:priest",
   "name": "§eThe Pope",
   "visualscale": 1.3,
-  "protect_treasure": true,
+  "protect_treasure": false,
   "experience": 10,
   "droppeditemamount": 2,
   "effects": {
