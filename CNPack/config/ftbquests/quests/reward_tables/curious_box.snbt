@@ -110,15 +110,6 @@
 		{
 			item: {
 				Count: 1
-				id: "relics:holy_locket"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
 				id: "relics:enders_hand"
 				tag: {
 					Damage: 0
@@ -783,6 +774,55 @@
 		{ item: "kubejs:artifact_endergem" }
 		{ item: "botania:tiny_potato" }
 		{ item: "biomancy:fleshkin_chest" }
+		{ item: "mcwbyg:fir_coffee_table" }
+		{ item: "ad_astra:space_painting" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "minecraft:fighters"
+					}
+				}
+			}
+		}
+		{ item: "cataclysm:blazing_grips" }
+		{ item: "cataclysm:sandstorm_in_a_bottle" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "8b503daf-c14e-4abb-ae87-8f2dea73ca69"
+				}
+			}
+		}
+		{ item: "minecraft:salmon" }
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:spawn_egg_raccoon"
+				tag: {
+					display: {
+						Name: "{\"text\":\"Adam\"}"
+					}
+				}
+			}
+		}
+		{ item: "minecraft:anvil" }
+		{ item: "kubejs:mossy_letter" }
+		{ item: "kubejs:mossy_letter1" }
+		{ item: "kubejs:s_soup" }
+		{ item: "kubejs:mcejaffa" }
+		{ item: "jellyfishing:triple_gooberberry_sunrise" }
+		{ item: "jellyfishing:krabby_patty" }
+		{ item: "goety:targeting_monocle" }
+		{ item: "goety:wayfarers_belt" }
+		{ item: "goety:spiteful_belt" }
+		{ item: "goety:feline_amulet" }
+		{ item: "rats:top_hat" }
 	]
 	title: "Curious Box"
 }

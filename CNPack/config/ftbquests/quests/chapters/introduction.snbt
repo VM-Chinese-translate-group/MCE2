@@ -58,8 +58,8 @@
 			image: "minecraft:block/cave_vines"
 			rotation: 0.0d
 			width: 0.7d
-			x: 12.125000000000014d
-			y: 0.8112244897959116d
+			x: 11.319727891156468d
+			y: 0.8059523809523768d
 		}
 		{
 			height: 3.8d
@@ -663,7 +663,7 @@
 			y: -1.0510204081632608d
 		}
 		{
-			dependency: "63BE430594510F43"
+			dependency: "39C7248750512A5B"
 			height: 0.6d
 			image: "minecraft:block/cave_vines"
 			rotation: 90.0d
@@ -672,7 +672,7 @@
 			y: -1.2059523809523824d
 		}
 		{
-			dependency: "63BE430594510F43"
+			dependency: "39C7248750512A5B"
 			height: 0.6d
 			image: "minecraft:block/cave_vines_lit"
 			rotation: 90.0d
@@ -870,7 +870,7 @@
 			y: 3.4013605442176953d
 		}
 		{
-			dependency: "63BE430594510F43"
+			dependency: "39C7248750512A5B"
 			height: 0.6d
 			image: "minecraft:block/cave_vines"
 			rotation: 90.0d
@@ -893,8 +893,8 @@
 			image: "minecraft:block/cave_vines"
 			rotation: 90.0d
 			width: 0.6d
-			x: 6.0d
-			y: -1.0d
+			x: 6.048809523809517d
+			y: -1.0057823129251773d
 		}
 		{
 			dependency: "2488248F1A2762CB"
@@ -922,15 +922,6 @@
 			width: 0.6d
 			x: 7.181632653061222d
 			y: -1.082653061224498d
-		}
-		{
-			dependency: "7587621A1020896E"
-			height: 0.6d
-			image: "minecraft:block/cave_vines"
-			rotation: 0.0d
-			width: 0.6d
-			x: 7.20204081632653d
-			y: -1.9602040816326607d
 		}
 		{
 			dependency: "435D2B15E81BF949"
@@ -1039,20 +1030,10 @@
 			height: 0.6d
 			image: "minecraft:block/kelp_plant"
 			order: 90
-			rotation: -70.0d
+			rotation: 150.0d
 			width: 0.6d
-			x: 11.730272108843536d
-			y: -0.04200680272106894d
-		}
-		{
-			dependency: "28EA646E95041E52"
-			height: 0.6d
-			image: "minecraft:block/kelp_plant"
-			order: 90
-			rotation: -70.0d
-			width: 0.6d
-			x: 11.444557823129252d
-			y: -0.30731292517005215d
+			x: 11.34013605442177d
+			y: -0.1263605442176967d
 		}
 		{
 			dependency: "588D0B37BFB8A848"
@@ -1119,6 +1100,15 @@
 			width: 0.6d
 			x: 4.541156462585029d
 			y: -0.36071428571427333d
+		}
+		{
+			dependency: "28EA646E95041E52"
+			height: 0.8d
+			image: "minecraft:block/cave_vines"
+			rotation: 90.0d
+			width: 0.8d
+			x: 12.085034013605444d
+			y: 0.3280612244897938d
 		}
 	]
 	order_index: 0
@@ -1198,7 +1188,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/execute as @p run playsound bosses_of_mass_destruction:soul_star player @p ~ ~ ~ 100 0.5 1"
+					command: "/execute as {p} run playsound bosses_of_mass_destruction:soul_star player {p} ~ ~ ~ 100 0.5 1"
 					console: true
 					elevate_perms: true
 					icon: "occultism:spirit_fire"
@@ -1208,7 +1198,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/advancement grant @p from minecraft:adventure/contract_advancement"
+					command: "/advancement grant {p} from minecraft:adventure/contract_advancement"
 					console: true
 					elevate_perms: true
 					icon: "create:schematic_and_quill"
@@ -1218,7 +1208,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/execute as @p run particle minecraft:soul ~ ~3 ~"
+					command: "/execute as {p} run particle minecraft:soul ~ ~3 ~"
 					console: true
 					elevate_perms: true
 					icon: {
@@ -1232,7 +1222,7 @@
 					type: "command"
 				}
 				{
-					command: "/titles add @p titles:gullible"
+					command: "/titles add {p} titles:gullible"
 					console: true
 					elevate_perms: true
 					icon: {
@@ -1340,35 +1330,24 @@
 				}
 			}
 			id: "417481DB9E36B1A2"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							Parent: {
-								Items: [ ]
-								Size: 11
-								slot: 0
-							}
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 11
+							slot: 0
 						}
-						id: "goety:brew_bag"
 					}
-					id: "5BE8670B5E67BF0A"
-					table_id: 6750392856093556082L
-					title: "&3&lGoodie Bag&r&7 - Pick Your Prize -&r &d(CHOOSE WISELY!)"
-					type: "choice"
+					id: "goety:brew_bag"
 				}
-				{
-					auto: "enabled"
-					command: "/execute at @p run playsound cavesandcliffs:entity.axolotl.splash player @p"
-					elevate_perms: true
-					icon: "minecraft:axolotl_bucket"
-					id: "528A68DD27DC7486"
-					title: "&9Splash!"
-					type: "command"
-				}
-			]
+				id: "5BE8670B5E67BF0A"
+				table_id: 6750392856093556082L
+				title: "&3&lGoodie Bag&r&7 - Pick Your Prize -&r &d(CHOOSE WISELY!)"
+				type: "choice"
+			}]
 			shape: "heart"
 			size: 0.5d
 			subtitle: "&oOpen Me! -Adam98991"
@@ -1558,7 +1537,7 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "2493A34966686C6F"
+					id: "718DAC46D2B6CE80"
 					item: "kubejs:mossy_letter1"
 					type: "item"
 				}
@@ -1582,6 +1561,8 @@
 				""
 				"&dFun fact!&r You can upgrade your backpack with special upgrades! Type &e@backpack&r into JEI to view the options!"
 				""
+				""
+				"&4[Nether Progression]"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1671,7 +1652,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:hero_village"
+					command: "/titles add {p} titles:hero_village"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
@@ -1805,7 +1786,7 @@
 			id: "639D9B8F85E2B499"
 			rewards: [{
 				auto: "enabled"
-				command: "/tellraw @a {\"text\":\"Player has started their Questbook! Waahoo! ☆\",\"italic\":true,\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"and you should too! If you haven't already! :D\",\"color\":\"gold\"}]}}"
+				command: "/tellraw @a {\"text\":\"{p} has started their Questbook! Waahoo! ☆\",\"italic\":true,\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"and you should too! If you haven't already! :D\",\"color\":\"gold\"}]}}"
 				console: true
 				icon: "ftbquests:book"
 				id: "7E06F2FDE4D23CA3"
@@ -1837,7 +1818,7 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/execute at @p run summon alexsmobs:fly ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Guy\\\\\\\"\\\"\"}"
+					command: "/execute at {p} run summon alexsmobs:fly ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Guy\\\\\\\"\\\"\"}"
 					console: true
 					elevate_perms: true
 					icon: "artifacts:crystal_heart"
@@ -1883,6 +1864,9 @@
 			  ""
 			  "&eTip:&r Some Curios have keybinds in order to activate their ability. Make sure to hold SHIFT to check! Also, some Curios will only give you bonus stat points."
 			  "&6Hint:&r Upon dying, equipped Curios will remain in their slots! "
+			  	""
+				""
+				"&4[Nether Progression]"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -2192,12 +2176,12 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:king"
+					command: "/titles add {p} titles:king"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "64BB756670543B8B"
-					title: "&eUnlock Title:&r the Quest Maniac"
+					title: "&eUnlock Title:&r the Quest King"
 					type: "command"
 				}
 				{
@@ -2320,7 +2304,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:turtle"
+					command: "/titles add {p} titles:turtle"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -2412,7 +2396,7 @@
 			invisible: true
 			rewards: [
 				{
-					command: "/titles add @p titles:beastmaster"
+					command: "/titles add {p} titles:beastmaster"
 					icon: "titles:title_scroll_uncommon"
 					id: "184B242808F4AB46"
 					title: "&eUnlock Title:&r Beastmaster"
@@ -2488,7 +2472,7 @@
 					xp_levels: 1
 				}
 				{
-					command: "/titles add @p titles:trader"
+					command: "/titles add {p} titles:trader"
 					icon: "titles:title_scroll_common"
 					id: "010394115892AE30"
 					title: "&eUnlock Title:&r The Trader"
@@ -2556,7 +2540,8 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:diver"
+					command: "/titles add {p} titles:diver"
+					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "2D6CE912ED509899"
 					title: "&eUnlock Title:&r Master Diver"
@@ -2630,7 +2615,7 @@
 			y: -1.4d
 		}
 		{
-			dependencies: ["0A83851FAF756CC0"]
+			dependencies: ["28EA646E95041E52"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "588D0B37BFB8A848"
@@ -2760,7 +2745,7 @@
 			id: "485F6D56A244289C"
 			rewards: [
 				{
-					command: "/titles add @p titles:gobby"
+					command: "/titles add {p} titles:gobby"
 					icon: "titles:title_scroll_uncommon"
 					id: "18AB3A63DD2748AC"
 					title: "&eUnlock Title:&r Friend of Goblins"
@@ -2854,7 +2839,7 @@
 					type: "custom"
 				}
 				{
-					command: "/titles add @p titles:pleb"
+					command: "/titles add {p} titles:pleb"
 					icon: "titles:title_scroll_common"
 					id: "562E75AE41AA509C"
 					title: "&eUnlock Title:&r Pleb"
@@ -2862,7 +2847,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound goety:zealot_celebrate player @p ~ ~ ~ 180 0.4 1"
+					command: "/execute at {p} run playsound goety:zealot_celebrate player {p} ~ ~ ~ 180 0.4 1"
 					icon: "occultism:spirit_fire"
 					id: "15CA1627C86FD032"
 					title: "&c???"
@@ -2942,7 +2927,9 @@
 			optional: true
 			rewards: [
 				{
-					command: "/titles remove @p twilightforest:progress_naga"
+					command: "/titles remove {p} twilightforest:progress_naga"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "1ADBE179E9FD58D2"
 					title: "&eUnlock Title: &rNaga Slayer"
@@ -3034,18 +3021,10 @@
 				}
 				{
 					entity: "mowziesmobs:naga"
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "mowziesmobs:naga_fang"
-					}
+					icon: "mowziesmobs:naga_fang"
 					id: "53BB409E2B45EAEA"
 					type: "kill"
-					value: 1L
+					value: 2L
 				}
 			]
 			title: "I am curious about these Curios! Part II"
@@ -3273,7 +3252,9 @@
 					type: "choice"
 				}
 				{
-					command: "/titles add @p twilightforest:progress_troll"
+					command: "/titles add {p} twilightforest:progress_troll"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "4D2F17A6C8ADBB77"
 					title: "&eUnlock Title: &rTroll Slayer"
@@ -3448,7 +3429,7 @@
 					type: "loot"
 				}
 				{
-					command: "/titles add @p titles:friend"
+					command: "/titles add {p} titles:friend"
 					icon: "titles:title_scroll_uncommon"
 					id: "311D7B4F8F95892A"
 					title: "&eUnlock Title:&r Best Friend Forever"
@@ -3579,7 +3560,7 @@
 					type: "custom"
 				}
 				{
-					command: "/titles add @p titles:slimy"
+					command: "/titles add {p} titles:slimy"
 					icon: "titles:title_scroll_uncommon"
 					id: "3F776B6D577373E7"
 					title: "&eUnlock Title:&r the Partycrasher"
@@ -3640,7 +3621,7 @@
 					type: "custom"
 				}
 				{
-					command: "/tellraw @p [\"\",{\"text\":\"Click to Join the MC Eternal Discord!\",\"color\":\"gold\",\"bold\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/c8RZr58\"}}]"
+					command: "/tellraw {p} [\"\",{\"text\":\"Click to Join the MC Eternal Discord!\",\"color\":\"gold\",\"bold\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/c8RZr58\"}}]"
 					icon: "mceletters:elegant_letter"
 					id: "65CBB395B37355EA"
 					title: "&eDiscord Invite"
@@ -3719,6 +3700,7 @@
 			hide_until_deps_complete: true
 			icon: "occultism:spirit_fire"
 			id: "39F2826F56D567B2"
+			incompatible: ["740DD4098893630E"]
 			invisible: true
 			optional: true
 			rewards: [{
@@ -3739,14 +3721,14 @@
 					type: "dimension"
 				}
 				{
-					elapsedTime: 7200L
+					elapsedTime: 3600L
 					icon: {
 						Count: 1
 						id: "minecraft:clock"
 						tag: { }
 					}
 					id: "7D598607EA411060"
-					title: "2 Hours"
+					title: "1 Hours"
 					type: "questsadditions:time"
 				}
 			]
@@ -3771,7 +3753,7 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/tellraw @p {\"text\":\"You did not sign the contract and have been cursed for your insolence!\",\"color\":\"dark_red\"}"
+					command: "/tellraw {p} {\"text\":\"You did not sign the contract and have been cursed for your insolence!\",\"color\":\"dark_red\"}"
 					console: true
 					elevate_perms: true
 					icon: "cataclysm:remnant_skull"
@@ -3781,7 +3763,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/effect give @p goety:cursed 10000 1"
+					command: "/effect give {p} goety:cursed 10000 1"
 					console: true
 					elevate_perms: true
 					icon: "goety:wither_skull_focus"
@@ -3791,7 +3773,9 @@
 				}
 				{
 					auto: "enabled"
-					command: "/titles add @p titles:cursed"
+					command: "/titles add {p} titles:cursed"
+					console: true
+					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "2321F39063FE8602"
 					title: "&eUnlock Title:&r The Cursed"
@@ -3799,7 +3783,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound tombstone:ghost_howl player @p ~ ~ ~ 200 1.8 1"
+					command: "/execute at {p} run playsound tombstone:ghost_howl player {p} ~ ~ ~ 200 1.8 1"
 					console: true
 					icon: "occultism:spirit_fire"
 					id: "560F18F552090F0B"
@@ -3808,7 +3792,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run summon alexscaves:watcher ~6 ~ ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Lawyer\\\\\\\"\\\"\"}"
+					command: "/execute at {p} run summon rats:feral_ratlantean ~6 ~ ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Lawyer\\\\\\\"\\\"\"}"
 					console: true
 					icon: {
 						Count: 1
@@ -3838,14 +3822,14 @@
 					type: "dimension"
 				}
 				{
-					elapsedTime: 14400L
+					elapsedTime: 3600L
 					icon: {
 						Count: 1
 						id: "minecraft:clock"
 						tag: { }
 					}
 					id: "2C1C8F2BA5D8C465"
-					title: "4 Hours"
+					title: "1 Hour"
 					type: "questsadditions:time"
 				}
 			]
@@ -3875,7 +3859,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
 					console: true
 					icon: "etched:radio"
 					id: "2B26880DB70189CB"
@@ -3884,7 +3868,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
 					console: true
 					elevate_perms: true
 					icon: "kubejs:mossy_letter"
@@ -3964,7 +3948,8 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
 					icon: "mekanism:cardboard_box"
 					id: "697FDD5060CAD73D"
 					title: "&dYou've got mail!"
@@ -3984,6 +3969,7 @@
 			y: -6.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["740DD4098893630E"]
 			description: [
 			  "Hello Lovely! I went to the market today and bought some things that made me think of you! I hope they bring you happiness!! I also packed you some lunch! I hope its tasty!! XOXO"
@@ -4019,7 +4005,8 @@
 				}
 				{
 					auto: "invisible"
-					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
 					elevate_perms: true
 					icon: "mekanism:cardboard_box"
 					id: "042BBCE86D4E40C7"
@@ -4030,6 +4017,7 @@
 					auto: "enabled"
 					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
 					console: true
+					elevate_perms: true
 					icon: {
 						Count: 1
 						id: "kubejs:mossy_letter"
@@ -4058,9 +4046,14 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["7587621A1020896E"]
+			dependencies: ["435D2B15E81BF949"]
 			description: [
-			  "You can also purchase a new one from &eThe Quest Shop (Supplies n' Stuff)&r if you lose it!"
+				"The &eEccentric Tome&r is a utility item that allows you to store guide books from other mods!"
+				"Just craft the tome with a guide book and it will enter its inventory."
+				""
+				"Then simply &dRight-Click&r to select a book and &dLeft-Click&r to return to the tome."
+				""
+				"I have already combined a few guide books to help get you started! Enjoy!"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -4068,46 +4061,146 @@
 			optional: true
 			rewards: [
 				{
-					id: "2F2E2FACC21368B6"
-					item: "skillcloaks:brown_sack"
-					type: "item"
-				}
-				{
-					id: "7AD501227E00833D"
+					id: "3291AAD9FC09CCDB"
 					item: {
 						Count: 1
-						id: "ftbquests:lootcrate"
+						id: "eccentrictome:tome"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+							Enchantments: [ ]
+							"eccentrictome:mods": {
+								ae2: {
+									0: {
+										Count: 1b
+										id: "ae2:guide"
+										tag: {
+											Enchantments: [ ]
+										}
+									}
+								}
+								alexscaves: {
+									0: {
+										Count: 1b
+										id: "alexscaves:cave_book"
+										tag: {
+											Enchantments: [ ]
+										}
+									}
+								}
+								alexsmobs: {
+									0: {
+										Count: 1b
+										id: "alexsmobs:animal_dictionary"
+									}
+								}
+								ars_nouveau: {
+									0: {
+										Count: 1b
+										id: "ars_nouveau:worn_notebook"
+									}
+								}
+								cloudstorage: {
+									0: {
+										Count: 1b
+										id: "cloudstorage:guide_book"
+									}
+								}
+								complicated_bees: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "complicated_bees:field_guide"
+										}
+									}
+								}
+								ftbquests: {
+									0: {
+										Count: 1b
+										id: "ftbquests:book"
+									}
+								}
+								goety: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "goety:black_book"
+										}
+									}
+								}
+								hexcasting: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "hexcasting:thehexbook"
+										}
+									}
+								}
+								iceandfire: {
+									0: {
+										Count: 1b
+										id: "iceandfire:bestiary"
+									}
+								}
+								tconstruct: {
+									0: {
+										Count: 1b
+										id: "tconstruct:encyclopedia"
+									}
+									1: {
+										Count: 1b
+										id: "tconstruct:materials_and_you"
+									}
+									2: {
+										Count: 1b
+										id: "tconstruct:mighty_smelting"
+									}
+									3: {
+										Count: 1b
+										id: "tconstruct:tinkers_gadgetry"
+									}
+									4: {
+										Count: 1b
+										id: "tconstruct:fantastic_foundry"
+									}
+									5: {
+										Count: 1b
+										id: "tconstruct:puny_smelting"
+									}
+								}
+								tinkersjewelry: {
+									0: {
+										Count: 1b
+										id: "tinkersjewelry:book"
+										tag: {
+											Enchantments: [ ]
+											mantle: {
+												book: {
+													current_page: "modifiers.group_slotless"
+												}
+											}
+										}
+									}
+								}
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
+							"eccentrictome:version": 1
 						}
 					}
 					type: "item"
 				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "1C5935080CBE7B04"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
 			]
 			size: 0.6d
-			subtitle: "&oCraft &eThe Akahsic Tome"
+			subtitle: "Craft the &eEccentric Tome"
 			tasks: [{
+				consume_items: true
 				id: "5C7BBEFAC7E8C0D2"
 				item: {
 					Count: 1
@@ -4118,8 +4211,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.161224489795913d
-			y: -2.3683673469387827d
+			x: 7.1697278911564695d
+			y: -1.5321428571428584d
 		}
 		{
 			dependencies: ["2193B157D17E53C0"]
@@ -4329,116 +4422,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["63BE430594510F43"]
-			description: [
-				"Upon completing this quest, you will unlock the &dMini-Map&r and &dWorld-Map."
-				""
-				"&2Questmaster's Tip:&r To craft an &eExplorer's Map&r you will need to seek out a &3Villager Cartographer!&r"
-				"Only they are capable of crafting such a unique item!"
-				"{image:modpack:textures/trade.png width:400 height:100 align:1 fit:true}"
-				""
-				"&o“It is in our nature to explore, to reach out into the unknown. The only true failure would be not to explore at all.”"
-				"&e- Ernest Shackleton"
-				""
-			]
-			hide_dependency_lines: true
-			hide_until_deps_visible: true
-			id: "7A195730508F9A23"
-			rewards: [
-				{
-					id: "552C0D588CA431A3"
-					type: "custom"
-				}
-				{
-					auto: "enabled"
-					command: "/tellraw @p {\"text\":\"Unlocked The Mini-Map and World-Map!\",\"color\":\"dark_green\"}"
-					icon: "minecraft:filled_map"
-					id: "4668ED30CBB6DA4F"
-					title: "&2&nUnlock World-Map and Mini-Map"
-					type: "command"
-				}
-				{
-					id: "75B637B18E219CE7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "supplementaries:globe"
-						tag: {
-							display: {
-								Lore: [
-									"{\"text\":\"§f§oTry naming me \\\"flat\\\" §e§e\"}"
-									"{\"text\":\"§e- From The Questmaster\"}"
-								]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					auto: "enabled"
-					command: "/execute at @p run playsound advancementplaques:ui.toast.task_complete player @p ~ ~ ~ 180 0.4 1"
-					icon: "advancementframes:advancement_frame"
-					id: "3C515E67DE80A6C0"
-					title: "&eCelebratory Sounds"
-					type: "command"
-				}
-				{
-					command: "/titles add @p titles:cartographer"
-					icon: "titles:title_scroll_common"
-					id: "20216DFEC9BC37A4"
-					title: "&eUnlock Title:&r the Explorer"
-					type: "command"
-				}
-				{
-					id: "26A4AF5D39061119"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 0.6d
-			subtitle: "Find an &eExplorer's Map"
-			tasks: [{
-				id: "2CEF546CD71CF325"
-				item: "kubejs:magic_map"
-				type: "item"
-			}]
-			title: "&dMapping Out Your Surroundings! (II)"
-			x: 3.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["3C2C7F96842066C1"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -4456,7 +4439,7 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" @p just requested Pigstep! Coming right up!\"}] "
+					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" {p} just requested Pigstep! Coming right up!\"}] "
 					icon: "etched:radio"
 					id: "16F83B3977639F96"
 					title: "&e&nRADIO BROADCAST"
@@ -4493,7 +4476,7 @@
 			rewards: [
 				{
 					auto: "no_toast"
-					command: "/execute at @p run playsound jellyfishing:music.jellyfishfields master @a"
+					command: "/execute at {p} run playsound jellyfishing:music.jellyfishfields master @a"
 					icon: "minecraft:jukebox"
 					id: "08C06ACDE7EA2F8B"
 					title: "&eSong Request"
@@ -4501,7 +4484,7 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" @p just requested Jellyfish Fields! Coming right up!\"}] "
+					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" {p} just requested Jellyfish Fields! Coming right up!\"}] "
 					icon: "etched:radio"
 					id: "20BA00E670A225C1"
 					title: "&e&nRADIO BROADCAST"
@@ -4700,10 +4683,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "704DF5E8842D4668"
-					type: "custom"
-				}
-				{
 					id: "0AC146AB587DF586"
 					item: {
 						Count: 1
@@ -4734,6 +4713,13 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "5CA3E50329F8E6F9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			shape: "square"
@@ -4793,7 +4779,7 @@
 			id: "2488248F1A2762CB"
 			rewards: [
 				{
-					command: "/titles add @p titles:ungriefed"
+					command: "/titles add {p} titles:ungriefed"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
@@ -4804,6 +4790,21 @@
 				{
 					id: "48831F1E33F11013"
 					item: "infinitybuttons:doorbell"
+					type: "item"
+				}
+				{
+					id: "50CE48E738CA9B27"
+					item: {
+						Count: 1
+						id: "minecraft:painting"
+						tag: {
+							EntityTag: {
+								variant: "incubation:culprit"
+							}
+							etstlib_tool_uuid: "101b620d-e15a-4ea9-9c13-edbc6fa05ce1"
+							tic_persistent: { }
+						}
+					}
 					type: "item"
 				}
 			]
@@ -4898,7 +4899,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:highwayman"
+					command: "/titles add {p} titles:highwayman"
 					icon: {
 						Count: 1
 						ForgeCaps: {
@@ -5145,7 +5146,7 @@
 			id: "4789D17B88722641"
 			rewards: [
 				{
-					command: "/titles add @p titles:lumberjack"
+					command: "/titles add {p} titles:lumberjack"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
@@ -5365,6 +5366,9 @@
 				""
 				"&eTip:&r This item can be dyed!"
 				"&6Hint:&r &eThe Toolbox&r is very helpful for storing bonus tools such as Pickaxes!"
+				""
+				""
+				"&4[Nether Progression]"
 			]
 			hide_until_deps_visible: true
 			id: "2193B157D17E53C0"
@@ -5555,7 +5559,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:chest_slaye"
+					command: "/titles add {p} titles:chest_slaye"
 					icon: {
 						Count: 1
 						ForgeCaps: {
@@ -5598,174 +5602,6 @@
 			title: "&a&lVillager Bounty:&r &7\"The Mimic\""
 			x: 8.023809523809568d
 			y: 1.9807823129251574d
-		}
-		{
-			dependencies: ["0901DBD03773B644"]
-			description: [
-				"The &6Mini-Map&r and &6World-Map&r are currently unavailable."
-				""
-				"You will unlock them soon.. But until then, a &eLodestone&r can be used to locate your base! "
-				""
-				"Simply place the block and click with a &eCompass&r to create a &dLodestone Compass&r which will always point to your &eLodestone!"
-				""
-				"&7PS: I made the Lodestone recipe cheaper &ojust for you!&r&7 Don't even worry about it!&r&2 - The Questmaster"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_visible: true
-			id: "63BE430594510F43"
-			invisible: true
-			rewards: [
-				{
-					id: "5BDA015CD66A1099"
-					type: "custom"
-				}
-				{
-					id: "480CFB8BFE41412B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					icon: "enigmaticlegacy:angel_blessing"
-					id: "645BAF7EBD57422F"
-					title: "&6Effect Reward&r &7(Pick One!)"
-					type: "choice"
-				}
-				{
-					id: "53ADAEBE5B057CDB"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "majruszs_difficulty:recall_potion"
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			size: 0.6d
-			subtitle: "Craft a &eCompass&r and &eLodestone"
-			tasks: [
-				{
-					id: "339A98883BCEE909"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:lodestone"
-					}
-					type: "item"
-				}
-				{
-					id: "1B10BFD587BBB2E6"
-					item: {
-						Count: 1
-						id: "minecraft:compass"
-						tag: {
-							LodestoneDimension: "minecraft:overworld"
-							LodestonePos: {
-								X: 380
-								Y: 66
-								Z: -104
-							}
-							LodestoneTracked: 1b
-							"quark:compass_calculated": 1b
-							"quark:compass_in_nether": 0b
-						}
-					}
-					match_nbt: false
-					type: "item"
-				}
-			]
-			title: "&6Where Am I Again? (I)"
-			x: 2.4d
-			y: -3.0d
-		}
-		{
-			dependencies: ["7A195730508F9A23"]
-			description: [
-				"You can access the &6World-Map&r by &epressing M.&r &6The Mini-Map&r will appear at the &eTop-Right&r of the screen, you will be able to view the world and see where you've been automatically! "
-				""
-				"Upon dying, a &dWaypoint&r will be created at your point of death! You can place &dWaypoints&r in the world while inside the &6Worldmap. "
-				""
-				"&eTip:&r Running over your most recent Deathpoint will automatically remove it!"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_visible: true
-			icon: "minecraft:filled_map"
-			id: "2740F9727C1C6EB5"
-			rewards: [
-				{
-					id: "6493E427EB4C7A53"
-					type: "custom"
-				}
-				{
-					id: "2B1ED2F1E890D4D4"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "farmersdelight:honey_cookie"
-						tag: {
-							display: {
-								Lore: ["{\"text\":\"§7§oHere! Have a Honey Cookie! You've earned it!\"}"]
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "gear"
-			size: 0.6d
-			subtitle: "Learn about the &6World-Map&r and &6Mini-Map!"
-			tasks: [{
-				id: "23494903ED6F8EF5"
-				title: "&7Information Quest &e(Click To Complete)"
-				type: "checkmark"
-			}]
-			title: "&3It's Learning Time!"
-			x: 4.2d
-			y: -3.0d
 		}
 		{
 			dependencies: ["2488248F1A2762CB"]
@@ -5872,127 +5708,6 @@
 			y: 6.113095238095248d
 		}
 		{
-			dependencies: ["7A195730508F9A23"]
-			description: [
-				"&6Hint:&r The &eDwarven Map Expedition&r will reveal itself to you once you've discovered all of the rare underground biomes... Or so the rumour says..."
-				"See the Quest Chapter &d\"Mining (iii)\"&r for more info!"
-			]
-			hide_until_deps_visible: true
-			id: "0922513FCAD99C02"
-			optional: true
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/tellraw @p {\"text\":\"Unlocked The Cave Map\",\"color\":\"dark_green\"}"
-					icon: "minecraft:map"
-					id: "4652DF209A3D8C34"
-					title: "&2&nUnlock Cave Map"
-					type: "command"
-				}
-				{
-					auto: "enabled"
-					command: "/execute at @p run playsound advancementplaques:ui.toast.task_complete player @p ~ ~ ~ 180 0.4 1"
-					icon: "advancementframes:advancement_frame"
-					id: "39EDE1908C227686"
-					title: "&eCelebratory Sounds"
-					type: "command"
-				}
-				{
-					command: "/titles add @p titles:honeydew"
-					icon: "titles:title_scroll_uncommon"
-					id: "3592C1B7F47C4A94"
-					title: "&eUnlock Title:&r of Honeydew"
-					type: "command"
-				}
-			]
-			shape: "octagon"
-			size: 0.6d
-			subtitle: "Find the &eDwarven Expedition Map"
-			tasks: [{
-				id: "1A2CEB843FD92D86"
-				item: "kubejs:dwarven_map"
-				type: "item"
-			}]
-			title: "&dMapping Out Your Surroundings (III)"
-			x: 3.5999999999999996d
-			y: -3.0d
-		}
-		{
-			dependencies: ["435D2B15E81BF949"]
-			description: [
-				"The &eTool Belt&r allows you to quickly equip and swap tools by pressing the &dKeybind!&r &o*(Make sure to rebind!)"
-				""
-				"&6Hint:&r Upon crafting you will have two tool slots available, this can be upgraded with a &eBelt Pouch&r however!"
-			]
-			hide_until_deps_complete: true
-			id: "7587621A1020896E"
-			optional: true
-			rewards: [
-				{
-					id: "34E6371963527EE7"
-					item: {
-						Count: 1
-						id: "majruszsdifficulty:recall_potion"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "3C0218CE1704A5E4"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 50L
-					currency: "eternalcurrencies:coins"
-					id: "0D72C07A1C2B4AAA"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
-			shape: "square"
-			size: 0.5d
-			subtitle: "Craft a &eTool Belt"
-			tasks: [{
-				id: "443C28739BB626E3"
-				item: {
-					Count: 1
-					id: "toolbelt:belt"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 7.179081632653052d
-			y: -1.5387755102040757d
-		}
-		{
 			dependencies: ["4789D17B88722641"]
 			description: [
 				"Only &lVAMPIRES&r can see this Quest!"
@@ -6010,7 +5725,7 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/tellraw @p {\"text\":\"You are a Pureblood Vampire... Thus you have started the game with \\\"Sanguinare Vampiris\\\"!\",\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.vampirism.dev/docs/wiki/content/effects\"}}"
+					command: "/tellraw {p} {\"text\":\"You are a Pureblood Vampire... Thus you have started the game with \\\"Sanguinare Vampiris\\\"!\",\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.vampirism.dev/docs/wiki/content/effects\"}}"
 					icon: "vampirism:cursed_spruce_sign"
 					id: "44E8D9F08CE52A50"
 					title: "&eVampire Message"
@@ -6018,7 +5733,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/effect give @p vampirism:sanguinare"
+					command: "/effect give {p} vampirism:sanguinare"
 					icon: "vampirism:vampire_minion_binding"
 					id: "52A2B74C6A1C0539"
 					title: "&eYour Gift!"
@@ -6026,14 +5741,14 @@
 				}
 				{
 					auto: "enabled"
-					command: "/vampirism level vampirism:vampire 2 @p"
+					command: "/vampirism level vampirism:vampire 2 {p}"
 					icon: "vampiricageing:tainted_concentrate"
 					id: "41D6F6144B9C8C50"
 					title: "&eTainted Blood"
 					type: "command"
 				}
 				{
-					command: "/titles add @p titles:pureblood"
+					command: "/titles add {p} titles:pureblood"
 					icon: "titles:title_scroll_uncommon"
 					id: "5410C673D96ED620"
 					title: "&eUnlock Title:&r the Pureblood"
@@ -6100,7 +5815,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:orc"
+					command: "/titles add {p} titles:orc"
 					icon: "titles:title_scroll_uncommon"
 					id: "500633A5FF7F16F9"
 					title: "&eUnlock Title:&r the Orc"
@@ -6108,7 +5823,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/attribute @p combatroll:recharge base set 0.5"
+					command: "/attribute {p} combatroll:recharge base set 0.5"
 					icon: "nethers_delight:hoglin_hide"
 					id: "74959103B024328D"
 					title: "&eThick Skin"
@@ -6181,14 +5896,14 @@
 				}
 				{
 					auto: "invisible"
-					command: "/attribute @p combatroll:recharge base set 0.5"
+					command: "/attribute {p} combatroll:recharge base set 0.5"
 					icon: "betterleveling:raw_gold"
 					id: "3632636992E1B1FA"
 					title: "&6Dwarven Intuition"
 					type: "command"
 				}
 				{
-					command: "/titles add @p titles:dwarf"
+					command: "/titles add {p} titles:dwarf"
 					icon: "titles:title_scroll_common"
 					id: "4D98C0B443CD9B38"
 					title: "&eUnlock Title:&r the Dwarf"
@@ -6287,7 +6002,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:human"
+					command: "/titles add {p} titles:human"
 					icon: "titles:title_scroll_common"
 					id: "2E828F712E1C1E2E"
 					title: "&eUnlock Title:&r the Human"
@@ -6342,63 +6057,6 @@
 			title: "&dCreating a TEAM!"
 			x: 0.961054421768722d
 			y: 3.5142857142857125d
-		}
-		{
-			dependencies: ["740DD4098893630E"]
-			description: [
-				"Spend some time learning how to be a goat.. there are a lot of lessons one can learn from goats!"
-				"&6Hint:&r There are no hints... there are no shortcuts.. Study the goat and you shall be rewarded tenfold!"
-				""
-				"&7&oDid you CHEAT and BURY a goat or build a dirt wall around it or something? if so, shame on you! SHAME! if not, well done I'm proud of you xoxo."
-			]
-			hide_dependency_lines: true
-			id: "08B5FFFD7E012052"
-			invisible: true
-			optional: true
-			rewards: [
-				{
-					id: "781D0CA7740FBC2D"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "kubejs:sphere_of_hmmm"
-					}
-					type: "item"
-				}
-				{
-					command: "/titles add @p titles:goat"
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "titles:title_scroll_uncommon"
-					}
-					id: "626960F9F8D32E9A"
-					title: "&eUnlock Title:&r the Goat Whisperer"
-					type: "command"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "Learn from a Goat if you wish to become THE G.O.A.T"
-			tasks: [{
-				icon: "skillcloaks:prayer_hood"
-				id: "3ACA45E5C5866A57"
-				observe_type: 5
-				timer: 1000L
-				title: "&eStare at a Goat uninterrupted for 100 seconds"
-				to_observe: "minecraft:goat"
-				type: "observation"
-			}]
-			title: "&6The Way of The Goat"
-			x: 5.0d
-			y: -4.0d
 		}
 		{
 			dependencies: ["7A29AEC9EDE48BFA"]
@@ -6492,7 +6150,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:the_withered"
+					command: "/titles add {p} titles:the_withered"
 					icon: {
 						Count: 1
 						ForgeCaps: {
@@ -6594,26 +6252,12 @@
 			shape: "rsquare"
 			size: 0.8d
 			subtitle: "Construct a Nether Portal"
-			tasks: [
-				{
-					count: 8L
-					id: "0E4BDE92B8C287D3"
-					item: { Count: 8, id: "minecraft:obsidian" }
-					type: "item"
-				}
-				{
-					id: "415A5A3B1C114093"
-					item: {
-						Count: 1
-						id: "minecraft:flint_and_steel"
-						tag: {
-							Damage: 0
-						}
-					}
-					match_nbt: false
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "0E4BDE92B8C287D3"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
 			title: "&dHells Bells!"
 			x: 12.971088435374156d
 			y: 0.30595238095236255d
@@ -6621,15 +6265,12 @@
 		{
 			dependencies: ["6CC1049FCC2A076C"]
 			description: [
-				"It seems the Nether is under lockdown since their last invasion attempt, my sources say there is a tower that was built at the very coldest reaches of this world, where the fabric of reality itself runs thin. "
 				""
-				"The tower guardian has apparently protected an object known as "
+				"It seems we need a mysterious object called the &6Obsidian Palantir!&r"
 				""
-				"          &d\"The Obsidian Palintir\""
 				""
-				"This object &oshould&r grant us passage into The Nether! You might need to &o\"handle\"&r the tower protector..."
+				"This object &oshould&r grant us passage into The Nether! You might need to &o\"handle\"&r whoever is currently in possession of this artifact!"
 				""
-				"        &l&d! ! ! &l&d&nFind The Tower&r&l&d ! ! !"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -6647,21 +6288,13 @@
 			}
 			id: "71D5E6B384A55A8A"
 			invisible: true
-			rewards: [
-				{
-					amount: 50L
-					currency: "eternalcurrencies:coins"
-					id: "00339C0F63F2E5AC"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "124632A021E1656C"
-					item: "bosses_of_mass_destruction:soul_star"
-					type: "item"
-				}
-			]
-			secret: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "00339C0F63F2E5AC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]			secret: true
 			size: 0.7d
 			subtitle: "Huh... I guess things have changed..."
 			tasks: [{
@@ -6680,11 +6313,11 @@
 		{
 			dependencies: ["71D5E6B384A55A8A"]
 			description: [
-				"&6Hint:&r Use your &e\"Soul Star&r to find the tower easier! Simply throw it like an Eye of Ender."
+				"&6Hint:&r The Obsidian Palantir drops from a special event called the &eEternal Invasion Gateway!&r "
 				""
-				"&2Questmaster's Tip:&r "
-				"&dThe Brimstone Nectar&r can be used to reset the structure if you are playing on Multiplayer and someone has already gotten there first! Or you made a mistake and need to try again!"
-				"Here is one for free! Use it wisely!"
+				""
+				"&eTip:&r This \"Eternal Invasion Gateway\" appears to be craftable... With just the right ingredients we can open a rift and defeat whoever has the Palantir! Lets force them to come to us!"
+				""
 			]
 			hide_dependency_lines: false
 			hide_until_deps_visible: true
@@ -6734,27 +6367,26 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
-				{
-					id: "79525BE2E4FB9474"
-					item: "bosses_of_mass_destruction:brimstone_nectar"
-					type: "item"
-				}
 			]
 			size: 0.6d
-			subtitle: "Locate The Lich's Tower!"
+			subtitle: "Craft an &eEternal Invasion Gateway!"
 			tasks: [{
-				icon: "kubejs:artifact_endergem"
-				id: "25AD1A5D3AB62C1E"
-				structure: "bosses_of_mass_destruction:lich_tower"
-				title: "&eFind The Gateway Tower!"
-				type: "structure"
+				id: "1ECA55A2011C9C43"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:eternal_nether_invasion"
+					}
+				}
+				type: "item"
 			}]
 			title: "&eLong Ago..."
 			x: 14.734693877551024d
 			y: 0.2685374149659694d
 		}
 		{
-			dependencies: ["30C3D95400D49AE4"]
+			dependencies: ["388820C218B2F935"]
 			description: [
 				"This strange orb was left behind by the last great Nether invasion of The Overworld. "
 				""
@@ -6817,16 +6449,24 @@
 					item: "kubejs:artifact_endergem"
 					type: "item"
 				}
+				{
+					command: "/titles add {p} titles:eternal"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "48E26F525D366F14"
+					title: "&eUnlock Title:&r the Eternal"
+					type: "command"
+				}
 			]
 			shape: "spstar"
 			size: 0.8d
-			subtitle: "Defeat The Night Lich!"
+			subtitle: "Defeat The Eternal Legions!"
 			tasks: [{
 				id: "49F0D72069EF5FA5"
 				item: "kubejs:nether_item"
 				type: "item"
 			}]
-			title: "&dYou Are No Guardian!"
+			title: "&dEternal Legion? Hah!"
 			x: 15.938775510204081d
 			y: -0.724489795918366d
 		}
@@ -7252,6 +6892,12 @@
 		}
 		{
 			dependencies: ["2785A42DDDEB324C"]
+			description: [
+				"&oThe Bounty Board can be found sometimes at Villages. Here you can accept Bounties and complete tasks to earn loot proportional to the Bounty Difficulty"
+				""
+				"&6Hint:&r Each bounty has a timer to complete the tasks! After it expires you cannot complete it!"
+				"New bounties will appear in the bounty board over time!"
+			]
 			id: "26EBFB555C24CF50"
 			rewards: [
 				{
@@ -7290,18 +6936,28 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					command: "/titles add {p} titles:jobless"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_common"
+					id: "7FC131C2AC37CFDD"
+					title: "&eUnlock Title:&r the Unemployed"
+					type: "command"
+				}
 			]
 			size: 0.7d
-			subtitle: "&oThe Bounty Board can be found sometimes at Villages. Here you can accept Bounties and complete tasks to earn loot proportional to the Bounty Difficulty"
+			subtitle: "Locate a &eBounty Board"
 			tasks: [{
 				icon: "bountiful:bountyboard"
 				id: "6294B9B79C41C07C"
 				observe_type: 0
 				timer: 0L
-				title: "&eDiscover a &6Bounty Board"
+				title: "{chapter.11.quest.12.task.1.title}"
 				to_observe: "bountiful:bountyboard"
 				type: "observation"
 			}]
+			title: "Chronically Unemployed"
 			x: 9.022108843537424d
 			y: -1.248809523809527d
 		}
@@ -7599,66 +7255,7 @@
 			y: -0.607823129251706d
 		}
 		{
-			dependencies: ["28EA646E95041E52"]
-			description: [
-			  "The Golden Bag of Holding is an item that can be Right-Clicked to open up a generous second inventory!"
-			]
-			id: "0A83851FAF756CC0"
-			optional: true
-			rewards: [
-				{
-					amount: 150L
-					currency: "eternalcurrencies:coins"
-					id: "62E4A9469A89DD7A"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "31E1A41FE9916D4E"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
-			size: 0.7d
-			subtitle: "Craft a &eGolden Bag of Holding"
-			tasks: [{
-				id: "7EE8D05CB7013F81"
-				item: "bagofholding:golden_bag_of_holding"
-				type: "item"
-			}]
-			title: "&6The Magic Pouch"
-			x: 12.11343537414966d
-			y: 0.3054421768707485d
-		}
-		{
-			dependencies: ["388820C218B2F935"]
+			dependencies: ["6CC1049FCC2A076C"]
 			description: [
 				"Hmmm.. where is The Tower Guardian gone?"
 				"It seems we can insert a &eSoul Star&r into each &eStone Altar&r... Perhaps that will summon him.."
@@ -7674,6 +7271,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			secret: true
 			shape: "fpstar"
 			size: 0.6d
 			subtitle: "Investigate the &eStone Altar"
@@ -7687,8 +7285,8 @@
 				type: "observation"
 			}]
 			title: "&6Anyone Home?"
-			x: 15.319727891156461d
-			y: -0.18214285714287115d
+			x: 12.97057823129252d
+			y: 1.0316326530612159d
 		}
 		{
 			dependencies: ["33DBFD4B00935B0A"]
