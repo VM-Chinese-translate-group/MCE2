@@ -647,6 +647,138 @@
 			x: 3.0d
 			y: -6.0d
 		}
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: ["{mce.questing.botania.corporea_spark.desc}"]
+			id: "625F8E01CA0BBCB9"
+			rewards: [{
+				count: 2
+				id: "46952A4EE8BF02CC"
+				item: "botania:corporea_spark"
+				type: "item"
+			}]
+			subtitle: "{mce.questing.botania.corporea_spark.sub}"
+			tasks: [{
+				id: "7CB71B3866F7E65A"
+				item: "botania:corporea_spark"
+				type: "item"
+			}]
+			title: "{mce.questing.botania.corporea_spark.name}"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6EA0A00013557D2A"]
+			description: ["{mce.questing.botania.corporea_master_and_index.desc}"]
+			id: "0DEAA29705F2A17A"
+			rewards: [{
+				count: 3
+				id: "60D9146FB47C3F90"
+				item: "kubejs:corporea_crystal"
+				type: "item"
+			}]
+			subtitle: "{mce.questing.botania.corporea_master_and_index.sub}"
+			tasks: [
+				{
+					id: "6E86A34B37D22F59"
+					item: "botania:corporea_spark_master"
+					type: "item"
+				}
+				{
+					id: "6DD5C91F62C1286D"
+					item: "botania:corporea_index"
+					type: "item"
+				}
+			]
+			title: "{mce.questing.botania.corporea_master_and_index.name}"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["625F8E01CA0BBCB9"]
+			description: ["{mce.questing.botania.corporeality_crystal.desc}"]
+			id: "6EA0A00013557D2A"
+			rewards: [{
+				count: 3
+				id: "1257004BEBE8A6AF"
+				item: "botania:corporea_spark"
+				type: "item"
+			}]
+			subtitle: "{mce.questing.botania.corporeality_crystal.sub}"
+			tasks: [{
+				id: "4B4591C85A6C901F"
+				item: "kubejs:corporea_crystal"
+				type: "item"
+			}]
+			title: "{mce.questing.botania.corporeality_crystal.name}"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0DEAA29705F2A17A"
+				"695FC871D1105C97"
+			]
+			description: ["{mce.questing.botania.corporea_automation.desc}"]
+			hide_until_deps_complete: true
+			id: "3940988637539E72"
+			min_required_tasks: 1
+			rewards: [
+				{
+					count: 3
+					id: "6FDCEEFCA18FFCC6"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "119C92A602CD0B4F"
+					item: "botania:red_string"
+					type: "item"
+				}
+			]
+			subtitle: "{mce.questing.botania.corporea_automation.sub}"
+			tasks: [
+				{
+					id: "28B16B3E4C00A69F"
+					item: "botania:corporea_funnel"
+					type: "item"
+				}
+				{
+					id: "7F2589B36A4D4355"
+					item: "botania:corporea_interceptor"
+					type: "item"
+				}
+				{
+					id: "403E6ADA1EFF9D79"
+					item: "botania:corporea_retainer"
+					type: "item"
+				}
+			]
+			title: "{mce.questing.botania.corporea_automation.name}"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6EA0A00013557D2A"]
+			description: ["{mce.questing.botania.corporea_crystal_cube.desc}"]
+			id: "0BBC047D0A951D8C"
+			rewards: [{
+				count: 3
+				id: "05479B8673F323B7"
+				item: "botania:corporea_crystal_cube"
+				type: "item"
+			}]
+			subtitle: "{mce.questing.botania.corporea_crystal_cube.sub}"
+			tasks: [{
+				id: "455A8FBD8E5B3C51"
+				item: "botania:corporea_crystal_cube"
+				type: "item"
+			}]
+			title: "{mce.questing.botania.corporea_crystal_cube.name}"
+			x: -5.0d
+			y: -3.0d
+		}
 	]
 	title: "&6Storage Solutions!"
 }

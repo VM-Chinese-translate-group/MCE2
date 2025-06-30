@@ -1143,7 +1143,7 @@
 					command: ""
 					icon: "irons_spellbooks:ender_rune"
 					id: "3C7D2F90EE60BB0F"
-					title: "&eUnlock Questing"
+					title: "{chapter.1.quest.1.reward.3.title}"
 					type: "command"
 				}
 				{
@@ -1231,7 +1231,7 @@
 						tag: { }
 					}
 					id: "4CE96EA5FA9CF05A"
-					title: "&eUnlock Title: &rThe Gullible &7&o(Press = to Equip)"
+					title: "{chapter.1.quest.2.reward.2.title}"
 					type: "command"
 				}
 				{
@@ -1302,11 +1302,10 @@
 		{
 			dependencies: ["740DD4098893630E"]
 			description: [
-			  "{image:mcwpaintings:textures/painting/axolotls.png width:150 height:100 align:1}"
-			  ""
-			  ""
-			  "&6Axolotl in a Bucket : &7Thanks for downloading the pack! We hope you enjoy the newest iteration of Minecraft Eternal"
-			  ""
+				"{image:mcwpaintings:textures/painting/axolotls.png width:150 height:100 align:1}"
+				""
+				"{chapter.1.quest.3.description.1}"
+				""
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1350,13 +1349,13 @@
 			}]
 			shape: "heart"
 			size: 0.5d
-			subtitle: "&oOpen Me! -Adam98991"
+			subtitle: "{chapter.1.quest.3.subtitle}"
 			tasks: [
 				{
 					dimension: "minecraft:overworld"
 					icon: "rats:creative_cheese"
 					id: "755E81BBACA5563B"
-					title: "&eDownload MC Eternal 2 on Curseforge"
+					title: "{chapter.1.quest.3.task.1.title}"
 					type: "dimension"
 				}
 				{
@@ -1364,11 +1363,11 @@
 					disable_toast: true
 					icon: "rats:blue_cheese"
 					id: "7BF145DB3D2E51FE"
-					title: "&eBe the coolest"
+					title: "{chapter.1.quest.3.task.2.title}"
 					type: "dimension"
 				}
 			]
-			title: "&6&lWhat? a Gift!?!"
+			title: "{chapter.1.quest.3.title}"
 			x: 4.020408163265309d
 			y: 3.683673469387756d
 		}
@@ -1422,9 +1421,7 @@
 		}
 		{
 			dependencies: ["14F614D973412FD5"]
-			description: [
-			  "Craft and place an &eAdvancement Frame. "
-			]
+			description: ["{chapter.1.quest.5.description.1}"]
 			hide_dependency_lines: false
 			id: "20E762D89AEBE3D6"
 			optional: true
@@ -1470,7 +1467,7 @@
 				}
 			]
 			size: 0.5d
-			subtitle: "&oHave you ever wanted to display your most proud achievements? "
+			subtitle: "{chapter.1.quest.5.subtitle}"
 			tasks: [{
 				id: "77CE0CD1ED418EC3"
 				item: "advancementframes:advancement_frame"
@@ -1482,7 +1479,7 @@
 		{
 			dependencies: ["14F614D973412FD5"]
 			description: [
-				""
+				"{chapter.1.quest.6.description.1}"
 				"Upon walking into a village with the &c&lBad Omen&r effect "
 				"You will start a modded raid!"
 				"Come prepared!"
@@ -1542,13 +1539,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Walk into a Village with the \"&oBad Omen\" Status Effect"
+			subtitle: "{chapter.1.quest.6.subtitle}"
 			tasks: [{
 				advancement: "minecraft:adventure/hero_of_the_village"
 				criterion: ""
 				icon: "rats:rat_skull"
 				id: "780FAC3B0245869E"
-				title: "&eDefend a Village from a Raid"
+				title: "{chapter.1.quest.6.task.1.title}"
 				type: "advancement"
 			}]
 			x: 10.572448979591833d
@@ -1627,10 +1624,10 @@
 			tasks: [{
 				id: "06B6E5476A2588BC"
 				item: "sophisticatedbackpacks:backpack"
-				title: "Backpack"
+				title: "{chapter.1.quest.8.task.1.title}"
 				type: "item"
 			}]
-			title: "Backpacking"
+			title: "{chapter.1.quest.8.title}"
 			x: 11.317006802721075d
 			y: 0.28996598639454874d
 		}
@@ -1657,7 +1654,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "29C6D081DC0E8D8F"
-					title: "&eUnlock Title:&r Hero of The Village"
+					title: "{chapter.1.quest.9.reward.4.title}"
 					type: "command"
 				}
 				{
@@ -1711,7 +1708,7 @@
 			]
 			shape: "pentagon"
 			size: 0.8d
-			subtitle: "&oDefend a Village from 3 Raids"
+			subtitle: "{chapter.1.quest.9.subtitle}"
 			tasks: [{
 				icon: "rats:corrupt_rat_skull"
 				id: "7EF6754153DB226F"
@@ -1719,7 +1716,7 @@
 				type: "stat"
 				value: 3
 			}]
-			title: "&eDefeat 3 Illager Raids"
+			title: "{chapter.1.quest.9.title}"
 			x: 11.714285714285708d
 			y: 2.0d
 		}
@@ -1754,7 +1751,7 @@
 				}
 			]
 			size: 0.9d
-			subtitle: "&oHeeerm"
+			subtitle: "{chapter.1.quest.11.subtitle}"
 			tasks: [{
 				icon: "artifacts:villager_hat"
 				id: "7CF0FC66F4112473"
@@ -1763,7 +1760,7 @@
 				to_observe: "minecraft:villager"
 				type: "observation"
 			}]
-			title: "Locate a Village! "
+			title: "{chapter.1.quest.11.title}"
 			x: 8.63d
 			y: 1.97d
 		}
@@ -1818,7 +1815,7 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/execute at {p} run summon alexsmobs:fly ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Guy\\\\\\\"\\\"\"}"
+					command: "/execute at @p run summon alexsmobs:fly ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Guy\\\\\\\"\\\"\"}"
 					console: true
 					elevate_perms: true
 					icon: "artifacts:crystal_heart"
@@ -1844,27 +1841,23 @@
 				}
 			]
 			size: 0.6d
-			subtitle: "Craft some &eTorches&r and &eLanterns"
+			subtitle: "Craft some &eTorches!"
 			tasks: [{
 				count: 3L
 				id: "33671428E4CD0E74"
 				item: "minecraft:torch"
 				type: "item"
 			}]
-			title: "Craft some &eTorches!"
+			title: "{chapter.1.quest.14.title}"
 			x: 6.6d
 			y: -0.6d
 		}
 		{
 			dependencies: ["2785A42DDDEB324C"]
 			description: [
-			  "Curios can be found, crafted and traded!"
-			  ""
-			  "Open your inventory and click the Curios button near the armor slots. There are many Curios to collect, each with unique, powerful or sometimes &oodd&r properties!"
-			  ""
-			  "&eTip:&r Some Curios have keybinds in order to activate their ability. Make sure to hold SHIFT to check! Also, some Curios will only give you bonus stat points."
-			  "&6Hint:&r Upon dying, equipped Curios will remain in their slots! "
-			  	""
+				"{chapter.1.quest.15.description.1}"
+				"&6Hint:&r Upon dying, equipped Curios will remain in their slots! "
+				""
 				""
 				"&4[Nether Progression]"
 			]
@@ -1895,13 +1888,13 @@
 				}
 			]
 			size: 0.7d
-			subtitle: "&oCurios are equipable artifacts. Kill some evil creatures for me and I'll give you a free one!"
+			subtitle: "{chapter.1.quest.15.subtitle}"
 			tasks: [
 				{
 					entity: "minecraft:zombie"
 					icon: "minecraft:rotten_flesh"
 					id: "680A0BB6D7A5D77B"
-					title: "Kill 3x Zombie"
+					title: "{chapter.1.quest.15.task.1.title}"
 					type: "kill"
 					value: 3L
 				}
@@ -1920,14 +1913,17 @@
 					value: 1L
 				}
 			]
-			title: "I am curious about these Curios!"
+			title: "{chapter.1.quest.15.title}"
 			x: 8.929251700680261d
 			y: 0.28996598639454874d
 		}
 		{
 			dependencies: ["6D2BFE6457434310"]
 			description: [
-			  "{image:modpack:textures/2022-10-11_22.48.21.png width:180 height:100 align:1}"
+				"The Goblin Trader is a curious little fellow, they sometimes approach Players in caves or underground! They offer all sorts of trades! These trades change each time you find them!"
+				"{image:modpack:textures/2022-10-11_22.48.21.png width:180 height:100 align:1}"
+				""
+				"&6Hint:&r The Goblin Trader loves emeralds!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1955,41 +1951,15 @@
 					type: "item"
 				}
 				{
-					id: "6FB6A2FC8E826CD9"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
+					count: 3
+					id: "773B69C9095509FD"
+					item: "minecraft:emerald"
 					type: "item"
 				}
 			]
 			shape: "diamond"
 			size: 0.6d
-			subtitle: "&oSimilar to Wandering Traders, Goblin Traders are found randomly and provide exclusive and beneficial trades"
+			subtitle: "{chapter.1.quest.17.task.1.title}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1999,26 +1969,18 @@
 				id: "756A1955D8D76966"
 				observe_type: 3
 				timer: 0L
-				title: "&eBe approached by a Goblin Trader &o(what an honor)"
+				title: "{chapter.1.quest.17.task.1.title}"
 				to_observe: "goblintraders:goblin_trader"
 				type: "observation"
 			}]
+			title: "Goblin' Time!"
 			x: 5.4982993197278915d
 			y: -1.8250000000000028d
 		}
 		{
 			dependencies: ["4789D17B88722641"]
 			dependency_requirement: "one_completed"
-			description: [
-			  "When the full set is on, you'll receive protection levels which are between leather and chain. It also provides bonus damage protection from projectiles such as arrows. This makes it an adequate temporary set of armor to survive your first night."
-			  ""
-			  "&eTip:&r &nStay away&r from open flames! "
-			  ""
-			  ""
-			  ""
-			  ""
-			  ""
-			]
+			description: ["{chapter.1.quest.20.description.1}"]
 			hide_dependency_lines: false
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -2065,7 +2027,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "Craft a set of &eWooden Armor"
+			subtitle: "{chapter.1.quest.20.subtitle}"
 			tasks: [
 				{
 					id: "785ED1BAE43D8B45"
@@ -2134,7 +2096,7 @@
 					type: "item"
 				}
 			]
-			title: "How To Survive The First Night! &e(Part I Armor)"
+			title: "{chapter.1.quest.20.title}"
 			x: 5.475667189952908d
 			y: -0.015698587127161545d
 		}
@@ -2145,9 +2107,7 @@
 				"0E64ACED3D987FB1"
 				"0C79AEE09DBDD5B8"
 			]
-			description: [
-			  "&r&8(Complete all non-optional Quests in The Introduction Chapter)"
-			]
+			description: ["&r&8(Complete all non-optional Quests in The Introduction Chapter)"]
 			hide_dependency_lines: true
 			id: "4BDCD398BA6A1D67"
 			invisible: true
@@ -2225,7 +2185,7 @@
 			]
 			shape: "hexagon"
 			size: 0.8d
-			subtitle: "&oComplete the \"A New Start\" chapter to unlock special treasure!"
+			subtitle: "{chapter.1.quest.21.subtitle}"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: {
@@ -2253,7 +2213,7 @@
 					}
 				}
 				id: "31EA8286575E48E6"
-				title: "&e&lThe Best At Introductions"
+				title: "{chapter.1.quest.21.task.1.title}"
 				type: "dimension"
 			}]
 			title: "&6&l<wave><rainb>Introduction Lore Master!"
@@ -2263,8 +2223,8 @@
 		{
 			dependencies: ["7A29AEC9EDE48BFA"]
 			description: [
-			  ""
-			  "&6Hint:&r The Turtle Armor gives its wearer increased speed in water and projectile protection at the cost of slowness on land!"
+				"{chapter.1.quest.24.description.1}"
+				"&6Hint:&r The Turtle Armor gives its wearer increased speed in water and projectile protection at the cost of slowness on land!"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -2331,7 +2291,7 @@
 			]
 			shape: "hexagon"
 			size: 0.6d
-			subtitle: "&oCraft a set of Turtle Armor and feel the mighty power of the Turtle!"
+			subtitle: "{chapter.1.quest.24.subtitle}"
 			tasks: [
 				{
 					id: "069963171F5BED1B"
@@ -2396,10 +2356,10 @@
 			invisible: true
 			rewards: [
 				{
-					command: "/titles add {p} titles:beastmaster"
+					command: "/titles add @p titles:beastmaster"
 					icon: "titles:title_scroll_uncommon"
 					id: "184B242808F4AB46"
-					title: "&eUnlock Title:&r Beastmaster"
+					title: "{chapter.1.quest.26.reward.3.title}"
 					type: "command"
 				}
 				{
@@ -2436,13 +2396,13 @@
 				}
 			]
 			size: 0.7d
-			subtitle: "&oTame any type of creature"
+			subtitle: "{chapter.1.quest.26.subtitle}"
 			tasks: [
 				{
 					advancement: "minecraft:husbandry/tame_an_animal"
 					criterion: ""
 					id: "44715041C99D0943"
-					title: "&eMake a Friend"
+					title: "{chapter.1.quest.26.task.1.title}"
 					type: "advancement"
 				}
 				{
@@ -2459,7 +2419,7 @@
 			dependencies: ["398A05549FA9DC3F"]
 			description: [
 				"{image:modpack:textures/2022-10-11_22.14.21.png width:180 height:100 align:1}"
-				"&eTip: &rXP earned from trading will teleport to the player!"
+				"{chapter.1.quest.30.description.1}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -2472,10 +2432,10 @@
 					xp_levels: 1
 				}
 				{
-					command: "/titles add {p} titles:trader"
+					command: "/titles add @p titles:trader"
 					icon: "titles:title_scroll_common"
 					id: "010394115892AE30"
-					title: "&eUnlock Title:&r The Trader"
+					title: "{chapter.1.quest.30.reward.3.title}"
 					type: "command"
 				}
 				{
@@ -2513,7 +2473,7 @@
 			]
 			shape: "pentagon"
 			size: 0.6d
-			subtitle: "Note: Using the Trading Post you can trade with all Villagers in the area. Very useful for large villages. It even comes with a helpful search feature! "
+			subtitle: "{chapter.1.quest.30.subtitle}"
 			tasks: [{
 				id: "31965A206D8A6D7A"
 				item: "tradingpost:trading_post"
@@ -2544,7 +2504,7 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "2D6CE912ED509899"
-					title: "&eUnlock Title:&r Master Diver"
+					title: "{chapter.1.quest.31.reward.4.title}"
 					type: "command"
 				}
 				{
@@ -2603,14 +2563,14 @@
 			]
 			shape: "pentagon"
 			size: 0.7d
-			subtitle: "&oUncover the remains of a Wrecked Ship"
+			subtitle: "{chapter.1.quest.31.subtitle}"
 			tasks: [{
 				icon: "minecolonies:supplychestdeployer"
 				id: "5F4A8E10025BC8E0"
 				structure: "minecraft:shipwreck"
 				type: "structure"
 			}]
-			title: "&eLocate a Shipwreck "
+			title: "{chapter.1.quest.31.title}"
 			x: 11.9d
 			y: -1.4d
 		}
@@ -2674,14 +2634,14 @@
 				}
 			]
 			size: 0.5d
-			subtitle: "&oIf you feed a Dolphin raw cod or salmon, the Dolphin can lead you to the nearest Shipwreck!"
+			subtitle: "{chapter.1.quest.32.subtitle}"
 			tasks: [
 				{
 					icon: "minecraft:heart_of_the_sea"
 					id: "4A584E53D38BC760"
 					observe_type: 5
 					timer: 0L
-					title: "&eDolphin Teamwork"
+					title: "{chapter.1.quest.32.task.1.title}"
 					to_observe: "minecraft:dolphin"
 					type: "observation"
 				}
@@ -2697,9 +2657,7 @@
 		}
 		{
 			dependencies: ["2785A42DDDEB324C"]
-			description: [
-			  "{image:modpack:textures/2022-10-11_16.01.52.png width:180 height:100 align:1}"
-			]
+			description: ["{image:modpack:textures/2022-10-11_16.01.52.png width:180 height:100 align:1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -2713,7 +2671,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			size: 0.9d
-			subtitle: "&oVillage Sign-Posts can be found within a few hundred blocks of a Village. These will guide you in the general direction of a Village."
+			subtitle: "{chapter.1.quest.35.subtitle}"
 			tasks: [{
 				advancement: "supplementaries:adventure/way_sign"
 				criterion: ""
@@ -2727,28 +2685,23 @@
 					id: "minecraft:oak_sign"
 				}
 				id: "3A4D6D60BF3489DB"
-				title: "&eLocate a Village Sign-Post"
+				title: "{chapter.1.quest.35.task.1.title}"
 				type: "advancement"
 			}]
-			title: "&eLocate a Village Sign-Post"
+			title: "{chapter.1.quest.35.title}"
 			x: 7.0d
 			y: 2.0204081632653015d
 		}
 		{
 			dependencies: ["28A8F23036B825C4"]
-			description: [
-			  "&eTip:&r The Boombox can be used to play records while moving! &oHuge in Goblin circles right now."
-			  ""
-			  ""
-			  ""
-			]
+			description: ["{chapter.1.quest.37.description.1}"]
 			id: "485F6D56A244289C"
 			rewards: [
 				{
-					command: "/titles add {p} titles:gobby"
+					command: "/titles add @p titles:gobby"
 					icon: "titles:title_scroll_uncommon"
 					id: "18AB3A63DD2748AC"
-					title: "&eUnlock Title:&r Friend of Goblins"
+					title: "{chapter.1.quest.37.reward.3.title}"
 					type: "command"
 				}
 				{
@@ -2786,7 +2739,7 @@
 			]
 			shape: "heart"
 			size: 0.5d
-			subtitle: "&oTrade with a Goblin Trader for a Boombox!"
+			subtitle: "{chapter.1.quest.37.subtitle}"
 			tasks: [{
 				id: "0B63952859C8D7A7"
 				item: {
@@ -2804,17 +2757,15 @@
 				}
 				type: "item"
 			}]
-			title: "&eMy Musical Pal"
+			title: "{chapter.1.quest.37.title}"
 			x: 4.807823129251709d
 			y: -1.8250000000000028d
 		}
 		{
 			dependencies: ["39C7248750512A5B"]
 			description: [
-			  "&cWarning:&r By completing this quest you are accepting an item that will begin an optional challenge, &ncontinue at your own peril!"
-			  ""
-			  "&cWarning:&r Upon equipping this item, you will not be able to take it off! This ring is bound to your soul!"
-			  "{image:vampiricageing:textures/actions/limited_hunter_batmode_action.png width:100 height:100 align:1}"
+				"{chapter.1.quest.41.description.1}"
+				"{image:vampiricageing:textures/actions/limited_hunter_batmode_action.png width:100 height:100 align:1}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -2839,15 +2790,15 @@
 					type: "custom"
 				}
 				{
-					command: "/titles add {p} titles:pleb"
+					command: "/titles add @p titles:pleb"
 					icon: "titles:title_scroll_common"
 					id: "562E75AE41AA509C"
-					title: "&eUnlock Title:&r Pleb"
+					title: "{chapter.1.quest.41.reward.3.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
-					command: "/execute at {p} run playsound goety:zealot_celebrate player {p} ~ ~ ~ 180 0.4 1"
+					command: "/execute at @p run playsound goety:zealot_celebrate player @p ~ ~ ~ 180 0.4 1"
 					icon: "occultism:spirit_fire"
 					id: "15CA1627C86FD032"
 					title: "&c???"
@@ -2902,23 +2853,23 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "&eOptional Challenge"
+			subtitle: "{chapter.1.quest.41.subtitle}"
 			tasks: [{
 				id: "063DBEBCB6D11B0C"
 				points: false
 				type: "xp"
 				value: 25L
 			}]
-			title: "&6A Deal With &c&lThe Devil!"
+			title: "{chapter.1.quest.41.title}"
 			x: 4.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["39C7248750512A5B"]
 			description: [
-				"&e&o\"You ask yourself, it really free if I have to work for it?\""
+				"{chapter.1.quest.43.description.1}"
 				"&6Hint:&r Gusters can be found in Desert Biomes"
-				"&6Hint:&r Witches can be found in Swamp Biomes"
+				"&6Hint: &rWitches can be found in Swamp Biomes"
 				"&6Hint:&r Naga can be found in Cliff Biomes"
 			]
 			hide_until_deps_visible: true
@@ -2927,12 +2878,12 @@
 			optional: true
 			rewards: [
 				{
-					command: "/titles remove {p} twilightforest:progress_naga"
+					command: "/titles remove @p twilightforest:progress_naga"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "1ADBE179E9FD58D2"
-					title: "&eUnlock Title: &rNaga Slayer"
+					title: "{chapter.1.quest.43.reward.3.title}"
 					type: "command"
 				}
 				{
@@ -2984,7 +2935,7 @@
 				}
 			]
 			size: 0.6d
-			subtitle: "&oKill some more evil creatures for another free curio!"
+			subtitle: "{chapter.1.quest.43.subtitle}"
 			tasks: [
 				{
 					entity: "alexsmobs:guster"
@@ -3027,15 +2978,13 @@
 					value: 2L
 				}
 			]
-			title: "I am curious about these Curios! Part II"
+			title: "{chapter.1.quest.43.title}"
 			x: 8.908843537414953d
 			y: -0.3426870748299393d
 		}
 		{
 			dependencies: ["0E64ACED3D987FB1"]
-			description: [
-			  "&6Hint:&r&e The Living Flame&r is a very rare item that can be found in a Jungle Temple, or by killing a Crazed Illager in a Mansion!"
-			]
+			description: ["&6Hint:&r&e The Living Flame&r is a very rare item that can be found in a Jungle Temple, or by killing a Crazed Illager in a Mansion!"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "78B506EF7F5BF03B"
@@ -3094,24 +3043,20 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "&oCollect a Living Flame"
+			subtitle: "{chapter.1.quest.44.subtitle}"
 			tasks: [{
 				id: "14395FCF46ED6894"
 				item: "brazier:living_flame"
 				type: "item"
 			}]
-			title: "&eThe Living Flame"
+			title: "{chapter.1.quest.44.title}"
 			x: 15.2d
 			y: 1.6d
 		}
 		{
 			dependencies: ["78B506EF7F5BF03B"]
 			dependency_requirement: "one_completed"
-			description: [
-			  "The Brazier can be used to form a special &nmultiblock!&r Some say it can even ward off the undead!"
-			  ""
-			  "&eTip:&r You can create more Living Torches by clicking the &eBrazier&r with a regular torch! The Living Torch can be used to see the radius a Brazier covers! It will be useful later."
-			]
+			description: ["{chapter.1.quest.45.description.1}"]
 			id: "1B7E8249B148B387"
 			rewards: [
 				{
@@ -3157,7 +3102,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "&oCraft a &eBrazier"
+			subtitle: "{chapter.1.quest.45.subtitle}"
 			tasks: [{
 				id: "0DBBF95895D379D0"
 				item: "brazier:brazier"
@@ -3170,7 +3115,7 @@
 			dependencies: ["1B7E8249B148B387"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&eTip:&r Each level of the tower expands the range of effect by 10 blocks, with a maximum height of 10."
+				"{chapter.1.quest.46.description.1}"
 				"{image:modpack:textures/2023-08-15_19.32.57.png width:180 height:100 align:1}"
 			]
 			id: "50C0CB1FA648F8A8"
@@ -3214,7 +3159,7 @@
 			]
 			shape: "pentagon"
 			size: 0.9d
-			subtitle: "Build the mighty Brazier tower and stop monsters from spawning nearby!"
+			subtitle: "{chapter.1.quest.46.subtitle}"
 			tasks: [{
 				hasCustomPicture: false
 				icon: "goety:necro_brazier"
@@ -3225,7 +3170,7 @@
 				rightclick: false
 				type: "questsadditions:structure"
 			}]
-			title: "&6Build Quest: &eBrazier"
+			title: "{chapter.1.quest.46.title}"
 			x: 16.800680272108842d
 			y: 2.728826530612224d
 		}
@@ -3252,12 +3197,12 @@
 					type: "choice"
 				}
 				{
-					command: "/titles add {p} twilightforest:progress_troll"
+					command: "/titles add @p twilightforest:progress_troll"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "4D2F17A6C8ADBB77"
-					title: "&eUnlock Title: &rTroll Slayer"
+					title: "{chapter.1.quest.49.reward.4.title}"
 					type: "command"
 				}
 				{
@@ -3298,7 +3243,7 @@
 				}
 			]
 			size: 0.6d
-			subtitle: "&oYou still want to kill things? Good! Get to work! I'll be more transparent, this Curio isn't free."
+			subtitle: "{chapter.1.quest.49.subtitle}"
 			tasks: [
 				{
 					entity: "iceandfire:siren"
@@ -3341,7 +3286,7 @@
 					value: 1L
 				}
 			]
-			title: "&eI am curious about these Curios Part III."
+			title: "{chapter.1.quest.49.title}"
 			x: 9.827210884353725d
 			y: -0.3426870748299393d
 		}
@@ -3388,22 +3333,19 @@
 			]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Craft and Ignite the &eCampfire"
+			subtitle: "{chapter.1.quest.50.subtitle}"
 			tasks: [{
 				id: "1868266000E29808"
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			title: "How To Survive The First Night &e(Part II Camp Fire)"
+			title: "{chapter.1.quest.50.title}"
 			x: 6.079931972789105d
 			y: -0.3285714285714221d
 		}
 		{
 			dependencies: ["6A0049757CE230E6"]
-			description: [
-			  "&6Hint:&r Give a Heartstone to a friend and track them with your other Heartstone"
-			  "&d&nRequires Multiplayer"
-			]
+			description: ["{chapter.1.quest.51.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3BB61C5BC9B99083"
@@ -3425,14 +3367,14 @@
 						id: "jolly_boxes:large_box"
 					}
 					id: "4BED314BE3ADCCB4"
-					title: "&d&lBox of Hats"
+					title: "{chapter.1.quest.51.reward.2.title}"
 					type: "loot"
 				}
 				{
-					command: "/titles add {p} titles:friend"
+					command: "/titles add @p titles:friend"
 					icon: "titles:title_scroll_uncommon"
 					id: "311D7B4F8F95892A"
-					title: "&eUnlock Title:&r Best Friend Forever"
+					title: "{chapter.1.quest.51.reward.3.title}"
 					type: "command"
 				}
 				{
@@ -3470,7 +3412,7 @@
 			]
 			shape: "heart"
 			size: 0.7d
-			subtitle: "Craft a &eHeartstone&r and never lose track of your friends again!"
+			subtitle: "{chapter.1.quest.51.subtitle}"
 			tasks: [{
 				id: "44895012FFDE2AAE"
 				item: "heartstone:heartstone"
@@ -3482,14 +3424,10 @@
 		{
 			dependencies: ["4789D17B88722641"]
 			description: [
-			  "Upon dying you will be given a &eGrave Key&r, this item will lead you to your last point of death and a &eTombstone&r containing your worldly belongings!"
-			  ""
-			  "While dead you will become a &bGhost!&r You are invisible unless you interact with the world! or after 30 seconds when the effect wears off...  "
-			  ""
-			  "&6Hint:&r You can combine a Grave Key with certain items (such as an &eEye of Ender&r) to craft an &eEnchanted Key&r which can be used to teleport to your Tombstone by &eHolding Right Click"
-			  "{image:minecraft:textures/painting/skeleton.png width:150 height:100 align:1}"
-			  "&7Graveyard Tip:&r Your Tombstone is protected for 60 minutes, after that it will unlock and anyone (&oor thing&r&o ◉‿◉) &rcan interact with it!"
-			  ""
+				"{chapter.1.quest.52.description.1}"
+				"{image:minecraft:textures/painting/skeleton.png width:150 height:100 align:1}"
+				"{chapter.1.quest.52.description.2}"
+				""
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -3504,14 +3442,14 @@
 			}]
 			shape: "rsquare"
 			size: 0.6d
-			subtitle: "Die and be given a &eGrave Key"
+			subtitle: "{chapter.1.quest.52.subtitle}"
 			tasks: [{
 				id: "09ED0AFDC45C754A"
 				item: "tombstone:grave_key"
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&eHow To Not Survive The First Night"
+			title: "{chapter.1.quest.52.title}"
 			x: 4.45544217687074d
 			y: 0.6821428571428569d
 		}
@@ -3560,7 +3498,7 @@
 					type: "custom"
 				}
 				{
-					command: "/titles add {p} titles:slimy"
+					command: "/titles add @p titles:slimy"
 					icon: "titles:title_scroll_uncommon"
 					id: "3F776B6D577373E7"
 					title: "&eUnlock Title:&r the Partycrasher"
@@ -3591,16 +3529,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "&6The Royal Party Crasher"
+			title: "{chapter.1.quest.53.title}"
 			x: 14.617346938775526d
 			y: -1.3772108843537367d
 		}
 		{
 			dependencies: ["0901DBD03773B644"]
-			description: [
-			  "Consider joining our Discord for support! We have a very active friendly community of over 30k users that would be happy to answer any questions you might have!"
-			  "&6Tip:&r &c&l&nDo not ping the goat!"
-			]
+			description: ["{chapter.1.quest.54.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: {
@@ -3621,22 +3556,22 @@
 					type: "custom"
 				}
 				{
-					command: "/tellraw {p} [\"\",{\"text\":\"Click to Join the MC Eternal Discord!\",\"color\":\"gold\",\"bold\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/c8RZr58\"}}]"
+					command: "/tellraw @p [\"\",{\"text\":\"Click to Join the MC Eternal Discord!\",\"color\":\"gold\",\"bold\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/c8RZr58\"}}]"
 					icon: "mceletters:elegant_letter"
 					id: "65CBB395B37355EA"
-					title: "&eDiscord Invite"
+					title: "{chapter.1.quest.54.reward.2.title}"
 					type: "command"
 				}
 			]
 			shape: "rsquare"
 			size: 0.8d
-			subtitle: "&eTo join or not to join... "
+			subtitle: "{chapter.1.quest.54.subtitle}"
 			tasks: [{
 				icon: "minecraft:clock"
 				id: "3B850383F612AC7F"
 				type: "custom"
 			}]
-			title: "&dDiscord Community"
+			title: "{chapter.1.quest.54.title}"
 			x: 0.0d
 			y: -4.0d
 		}
@@ -3668,7 +3603,7 @@
 					disable_toast: true
 					icon: "kubejs:unsigned_contract"
 					id: "0BD8EA4C696629EC"
-					title: "&o&eContract Reminder"
+					title: "{chapter.1.quest.55.task.1.title}"
 					type: "dimension"
 				}
 				{
@@ -3710,14 +3645,14 @@
 			}]
 			shape: "hexagon"
 			size: 0.7d
-			subtitle: "Seriously... why don't you just sign the contract? I'm just trying to do my job.. you &owant me to keep my job right? Are you really going to keep me waiting another hour??"
+			subtitle: "{chapter.1.quest.56.subtitle}"
 			tasks: [
 				{
 					dimension: "minecraft:overworld"
 					disable_toast: true
 					icon: "rats:corrupt_rat_skull"
 					id: "24716B24109282A4"
-					title: "&dFINAL NOTICE BEFORE &o&nREALLY&r&d BAD STUFF STARTS HAPPENING"
+					title: "{chapter.1.quest.56.task.1.title}"
 					type: "dimension"
 				}
 				{
@@ -3737,12 +3672,7 @@
 		}
 		{
 			dependencies: ["39F2826F56D567B2"]
-			description: [
-			  "&c&lI CURSE YOU! I CURSE YOU! I CURSE YOU! GET CURSED! "
-			  "&eHint:&r You will be cursed every hour until you sign the contract! "
-			  ""
-			  "&6Tip:&r Sign th&kdd&re contr&kdd&ract n&k88&rext ti&khh&rme"
-			]
+			description: ["{chapter.1.quest.57.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:corrupt_rat_skull"
@@ -3758,7 +3688,7 @@
 					elevate_perms: true
 					icon: "cataclysm:remnant_skull"
 					id: "53D277B4D9051CBE"
-					title: "&cReally Bad Stuff"
+					title: "{chapter.1.quest.57.reward.1.title}"
 					type: "command"
 				}
 				{
@@ -3768,7 +3698,7 @@
 					elevate_perms: true
 					icon: "goety:wither_skull_focus"
 					id: "772D09D5507DCD71"
-					title: "&cTHE CURSE OF INFINITE SORROWS"
+					title: "{chapter.1.quest.57.reward.3.title}"
 					type: "command"
 				}
 				{
@@ -3778,12 +3708,12 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "2321F39063FE8602"
-					title: "&eUnlock Title:&r The Cursed"
+					title: "{chapter.1.quest.57.reward.4.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
-					command: "/execute at {p} run playsound tombstone:ghost_howl player {p} ~ ~ ~ 200 1.8 1"
+					command: "/execute at @p run playsound tombstone:ghost_howl player @p ~ ~ ~ 200 1.8 1"
 					console: true
 					icon: "occultism:spirit_fire"
 					id: "560F18F552090F0B"
@@ -3811,14 +3741,14 @@
 			]
 			shape: "octagon"
 			size: 0.6d
-			subtitle: "&oCongrats... you've officially broken me..."
+			subtitle: "{chapter.1.quest.57.subtitle}"
 			tasks: [
 				{
 					dimension: "minecraft:overworld"
 					disable_toast: true
 					icon: "goety_spillage:skull_bomb"
 					id: "22BAB64668244275"
-					title: "&c&lAAAAAAAAAAAAAAAA&kaaaaaaaaa"
+					title: "{chapter.1.quest.57.task.1.title}"
 					type: "dimension"
 				}
 				{
@@ -3838,9 +3768,7 @@
 		}
 		{
 			dependencies: ["740DD4098893630E"]
-			description: [
-			  "&dLetter From Mom!&r We're all so proud of you for surviving the first night! You should call by some time! Are you getting my letters??? I found some old junk going through your fathers wardrobe, let me know what you want!! I've also packed you a lunch! Don't forget to eat your greens! XOXO - Mom"
-			]
+			description: ["{chapter.1.quest.58.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -3854,12 +3782,12 @@
 					icon: "create:orange_toolbox"
 					id: "4663D189BEB1D713"
 					table_id: 6664182306022005570L
-					title: "&d&nPacked Lunch"
+					title: "{chapter.1.quest.58.reward.2.title}"
 					type: "random"
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
 					console: true
 					icon: "etched:radio"
 					id: "2B26880DB70189CB"
@@ -3868,7 +3796,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
 					console: true
 					elevate_perms: true
 					icon: "kubejs:mossy_letter"
@@ -3899,7 +3827,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "You've survived the first night! Oh look a letter from someone important!"
+			subtitle: "{chapter.1.quest.58.subtitle}"
 			tasks: [{
 				days: 2
 				icon: {
@@ -3918,10 +3846,9 @@
 		{
 			dependencies: ["0901DBD03773B644"]
 			description: [
-			  "&d§7Hello lovely! I have packed you some lunch to help with your Questing! - Mom"
-			  "I have also found some items that might be useful for you while I was at the market! Some sort of &e\"Unique Item\"&r&d §7or something... I figured you would know what to do with it! XOXO "
-			  "{image:jellyfishing:textures/painting/bold_and_brash.png width:100 height:120 align:1}"
-			  "&d§7PS, I saw this beautiful painting on display, I think it was called \"Bold and Brash\", would you like me to pick it up for you? I think it would look great in your bedroom!"
+				"{chapter.1.quest.59.description.1}"
+				"{image:jellyfishing:textures/painting/bold_and_brash.png width:100 height:120 align:1}"
+				"{chapter.1.quest.59.description.2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -3935,7 +3862,7 @@
 					icon: "create:orange_toolbox"
 					id: "569400F41840FC63"
 					table_id: 6664182306022005570L
-					title: "&d&nPacked Lunch"
+					title: "{chapter.1.quest.59.reward.1.title}"
 					type: "random"
 				}
 				{
@@ -3943,13 +3870,12 @@
 					icon: "quark:crate"
 					id: "3D111F6602DA6524"
 					table_id: 7614141430405098414L
-					title: "&6&oWhat Mom Found At The Market!"
+					title: "{chapter.1.quest.59.reward.2.title}"
 					type: "loot"
 				}
 				{
 					auto: "enabled"
-					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
-					console: true
+					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
 					icon: "mekanism:cardboard_box"
 					id: "697FDD5060CAD73D"
 					title: "&dYou've got mail!"
@@ -3957,24 +3883,21 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "Mom has sent you mail! &n&aYou should open it!"
+			subtitle: "{chapter.1.quest.59.subtitle}"
 			tasks: [{
 				icon: "minecolonies:blockpostbox"
 				id: "5E0F3C50395E9A2F"
-				title: "Delivery Time (2H)"
+				title: "{chapter.1.quest.59.task.1.title}"
 				type: "custom"
 			}]
-			title: "&eOh Look! Mail From Mom!"
+			title: "{chapter.1.quest.59.title}"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["740DD4098893630E"]
-			description: [
-			  "Hello Lovely! I went to the market today and bought some things that made me think of you! I hope they bring you happiness!! I also packed you some lunch! I hope its tasty!! XOXO"
-			  "&eLOL (Lots of Love) - Mom"
-			]
+			description: ["{chapter.1.quest.60.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -3992,7 +3915,7 @@
 					icon: "create:orange_toolbox"
 					id: "1E4F523BAB1211F7"
 					table_id: 6664182306022005570L
-					title: "&d&nPacked Lunch"
+					title: "{chapter.1.quest.60.reward.1.title}"
 					type: "loot"
 				}
 				{
@@ -4000,12 +3923,12 @@
 					icon: "quark:crate"
 					id: "6B1393250318C85B"
 					table_id: 7614141430405098414L
-					title: "&6&oWhat Mom Found At The Market!"
+					title: "{chapter.1.quest.60.reward.2.title}"
 					type: "loot"
 				}
 				{
 					auto: "invisible"
-					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
 					console: true
 					elevate_perms: true
 					icon: "mekanism:cardboard_box"
@@ -4029,7 +3952,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "&d&nYou've got mail!"
+			subtitle: "{chapter.1.quest.60.subtitle}"
 			tasks: [{
 				elapsedTime: 28800L
 				icon: {
@@ -4041,7 +3964,7 @@
 				title: "&e8 Hour Delivery"
 				type: "questsadditions:time"
 			}]
-			title: "&eLetter From Mom!"
+			title: "{chapter.1.quest.60.title}"
 			x: 8.0d
 			y: 4.0d
 		}
@@ -4216,9 +4139,7 @@
 		}
 		{
 			dependencies: ["2193B157D17E53C0"]
-			description: [
-			  "&6Tip:&r &nBRING A SHIELD!"
-			]
+			description: ["{chapter.1.quest.62.description.1}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
@@ -4302,14 +4223,14 @@
 				}
 			]
 			size: 0.6d
-			subtitle: "Visit a Swamp Biome and Kill 3x &eStymphalian Birds"
+			subtitle: "{chapter.1.quest.62.subtitle}"
 			tasks: [{
 				entity: "iceandfire:stymphalian_bird"
 				id: "5105E71332365B99"
 				type: "kill"
 				value: 3L
 			}]
-			title: "Swamp Hunter"
+			title: "{chapter.1.quest.62.title}"
 			x: 10.475218658892132d
 			y: 1.1720116618075807d
 		}
@@ -4439,7 +4360,7 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" {p} just requested Pigstep! Coming right up!\"}] "
+					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" @p just requested Pigstep! Coming right up!\"}] "
 					icon: "etched:radio"
 					id: "16F83B3977639F96"
 					title: "&e&nRADIO BROADCAST"
@@ -4476,7 +4397,7 @@
 			rewards: [
 				{
 					auto: "no_toast"
-					command: "/execute at {p} run playsound jellyfishing:music.jellyfishfields master @a"
+					command: "/execute at @p run playsound jellyfishing:music.jellyfishfields master @a"
 					icon: "minecraft:jukebox"
 					id: "08C06ACDE7EA2F8B"
 					title: "&eSong Request"
@@ -4484,7 +4405,7 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" {p} just requested Jellyfish Fields! Coming right up!\"}] "
+					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" @p just requested Jellyfish Fields! Coming right up!\"}] "
 					icon: "etched:radio"
 					id: "20BA00E670A225C1"
 					title: "&e&nRADIO BROADCAST"
@@ -4735,9 +4656,7 @@
 		}
 		{
 			dependencies: ["435D2B15E81BF949"]
-			description: [
-			  "The &ePortable Crafting Table&r can be used to craft on the go! Simply &eRight-Click&r to open the &eCrafting Window!"
-			]
+			description: ["The &ePortable Crafting Table&r can be used to craft on the go! Simply &eRight-Click&r to open the &eCrafting Window!"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "6D2BFE6457434310"
@@ -4771,7 +4690,6 @@
 				""
 				"{image:modpack:textures/claim.png width:200 height:100 align:1}"
 				"&6Hint:&r You can use /sethome and /home to teleport back!"
-
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -4779,7 +4697,7 @@
 			id: "2488248F1A2762CB"
 			rewards: [
 				{
-					command: "/titles add {p} titles:ungriefed"
+					command: "/titles add @p titles:ungriefed"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
@@ -4899,7 +4817,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:highwayman"
+					command: "/titles add @p titles:highwayman"
 					icon: {
 						Count: 1
 						ForgeCaps: {
@@ -5186,10 +5104,9 @@
 		{
 			dependencies: ["398A05549FA9DC3F"]
 			description: [
-			  "The Theater is a naturally generating structure you can find in the roofed forest biome. The audience in the theater can be made up of Pillagers, Vindicators, the occasional Witch, and if you’re lucky, an Illusioner might come to watch."
-			  ""
-			  "{image:modpack:textures/illager.png width:200 height:110 align:1 fit:true}"
-			  "&oCome one, come all! Enjoy the show!! Unless you are a Villager, then why not become my next \"stage assistant\" -Conjurer"
+				"{chapter.8.quest.14.description.1}"
+				"{image:modpack:textures/illager.png width:200 height:110 align:1 fit:true}"
+				"{chapter.8.quest.14.description.2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -5286,9 +5203,7 @@
 		}
 		{
 			dependencies: ["39C7248750512A5B"]
-			description: [
-			  "&eTip:&r You need to activate the rift before you can use it, interact to activate it!"
-			]
+			description: ["{chapter.8.quest.6.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -5344,13 +5259,13 @@
 			]
 			shape: "rsquare"
 			size: 0.6d
-			subtitle: "&oAfter defeating a boss, a Boss Rift will appear. By interacting with a rift you can warp home free of charge!"
+			subtitle: "{chapter.8.quest.6.subtitle}"
 			tasks: [{
 				icon: "minecraft:red_bed"
 				id: "4D140803ADA1394F"
 				observe_type: 5
 				timer: 0L
-				title: "&eUncover a Boss Rift"
+				title: "{chapter.8.quest.6.task.1.title}"
 				to_observe: "bossrifts:boss_rift"
 				type: "observation"
 			}]
@@ -5559,7 +5474,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:chest_slaye"
+					command: "/titles add @p titles:chest_slaye"
 					icon: {
 						Count: 1
 						ForgeCaps: {
@@ -5725,7 +5640,7 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/tellraw {p} {\"text\":\"You are a Pureblood Vampire... Thus you have started the game with \\\"Sanguinare Vampiris\\\"!\",\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.vampirism.dev/docs/wiki/content/effects\"}}"
+					command: "/tellraw @p {\"text\":\"You are a Pureblood Vampire... Thus you have started the game with \\\"Sanguinare Vampiris\\\"!\",\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.vampirism.dev/docs/wiki/content/effects\"}}"
 					icon: "vampirism:cursed_spruce_sign"
 					id: "44E8D9F08CE52A50"
 					title: "&eVampire Message"
@@ -5733,7 +5648,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/effect give {p} vampirism:sanguinare"
+					command: "/effect give @p vampirism:sanguinare"
 					icon: "vampirism:vampire_minion_binding"
 					id: "52A2B74C6A1C0539"
 					title: "&eYour Gift!"
@@ -5741,14 +5656,14 @@
 				}
 				{
 					auto: "enabled"
-					command: "/vampirism level vampirism:vampire 2 {p}"
+					command: "/vampirism level vampirism:vampire 2 @p"
 					icon: "vampiricageing:tainted_concentrate"
 					id: "41D6F6144B9C8C50"
 					title: "&eTainted Blood"
 					type: "command"
 				}
 				{
-					command: "/titles add {p} titles:pureblood"
+					command: "/titles add @p titles:pureblood"
 					icon: "titles:title_scroll_uncommon"
 					id: "5410C673D96ED620"
 					title: "&eUnlock Title:&r the Pureblood"
@@ -5815,7 +5730,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:orc"
+					command: "/titles add @p titles:orc"
 					icon: "titles:title_scroll_uncommon"
 					id: "500633A5FF7F16F9"
 					title: "&eUnlock Title:&r the Orc"
@@ -5823,7 +5738,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/attribute {p} combatroll:recharge base set 0.5"
+					command: "/attribute @p combatroll:recharge base set 0.5"
 					icon: "nethers_delight:hoglin_hide"
 					id: "74959103B024328D"
 					title: "&eThick Skin"
@@ -5896,14 +5811,14 @@
 				}
 				{
 					auto: "invisible"
-					command: "/attribute {p} combatroll:recharge base set 0.5"
+					command: "/attribute @p combatroll:recharge base set 0.5"
 					icon: "betterleveling:raw_gold"
 					id: "3632636992E1B1FA"
 					title: "&6Dwarven Intuition"
 					type: "command"
 				}
 				{
-					command: "/titles add {p} titles:dwarf"
+					command: "/titles add @p titles:dwarf"
 					icon: "titles:title_scroll_common"
 					id: "4D98C0B443CD9B38"
 					title: "&eUnlock Title:&r the Dwarf"
@@ -6002,7 +5917,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:human"
+					command: "/titles add @p titles:human"
 					icon: "titles:title_scroll_common"
 					id: "2E828F712E1C1E2E"
 					title: "&eUnlock Title:&r the Human"
@@ -6060,9 +5975,7 @@
 		}
 		{
 			dependencies: ["7A29AEC9EDE48BFA"]
-			description: [
-			  "These magnificent creatures can be tamed and make for a perfect aquatic companion! They have a very fast underwater speed and can be mounted by the player if tamed."
-			]
+			description: ["These magnificent creatures can be tamed and make for a perfect aquatic companion! They have a very fast underwater speed and can be mounted by the player if tamed."]
 			hide_until_deps_visible: true
 			id: "0C79AEE09DBDD5B8"
 			optional: true
@@ -6150,7 +6063,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:the_withered"
+					command: "/titles add @p titles:the_withered"
 					icon: {
 						Count: 1
 						ForgeCaps: {
@@ -6294,7 +6207,8 @@
 				id: "00339C0F63F2E5AC"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
-			}]			secret: true
+			}]
+			secret: true
 			size: 0.7d
 			subtitle: "Huh... I guess things have changed..."
 			tasks: [{
@@ -6613,9 +6527,7 @@
 		}
 		{
 			dependencies: ["33DBFD4B00935B0A"]
-			description: [
-			  "Collar Tags can be used to rename your pets cheapily!"
-			]
+			description: ["Collar Tags can be used to rename your pets cheapily!"]
 			hide_until_deps_complete: true
 			id: "53FAF3E67330A40A"
 			rewards: [{
@@ -6663,9 +6575,7 @@
 		}
 		{
 			dependencies: ["742A19CCE223830C"]
-			description: [
-			  "The Feather on a Stick can be used to play with your pets!"
-			]
+			description: ["The Feather on a Stick can be used to play with your pets!"]
 			hide_until_deps_complete: true
 			id: "7BE9CC6DE9C4AC75"
 			rewards: [{
@@ -6693,9 +6603,7 @@
 		}
 		{
 			dependencies: ["2785A42DDDEB324C"]
-			description: [
-			  "&eTip: These Chests should not be broken, they will hold new loot for other players. If you play Singleplayer, this can be ignored."
-			]
+			description: ["{chapter.11.quest.4.description.1}"]
 			hide_until_deps_complete: true
 			id: "0996441A4E4A4434"
 			rewards: [
@@ -6737,12 +6645,12 @@
 				}
 			]
 			size: 0.7d
-			subtitle: "&oIn MCE2 all loot is spawned in a per player instanced chest. The loot is random for every player that finds the chest!"
+			subtitle: "{chapter.11.quest.4.subtitle}"
 			tasks: [{
 				advancement: "lootr:1chest"
 				criterion: ""
 				id: "669986FE0DAAFBDD"
-				title: "Locate an instanced chest"
+				title: "{chapter.11.quest.4.task.1.title}"
 				type: "advancement"
 			}]
 			title: "Loot Goblin"
@@ -6814,6 +6722,7 @@
 				}
 				type: "item"
 			}]
+			title: "Soar The Skies!"
 			x: 6.093537414965986d
 			y: -1.2226190476190482d
 		}
@@ -6824,10 +6733,6 @@
 				"Allowing for longer travel! "
 				""
 				"&eTip:&r Paragliders can also be enchanted with &dUnbreaking&r or &dMending!"
-				""
-				"&6Hint:&r Be careful gliding during bad weather, lightning tends to like to strike objects flying in the sky! "
-				"However, you can craft a &dCopper Upgrade&r. "
-				"Which when combined with a Paraglider in an Anvil will make it more resilient!"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -6893,7 +6798,7 @@
 		{
 			dependencies: ["2785A42DDDEB324C"]
 			description: [
-				"&oThe Bounty Board can be found sometimes at Villages. Here you can accept Bounties and complete tasks to earn loot proportional to the Bounty Difficulty"
+				"{chapter.11.quest.12.subtitle}"
 				""
 				"&6Hint:&r Each bounty has a timer to complete the tasks! After it expires you cannot complete it!"
 				"New bounties will appear in the bounty board over time!"
@@ -7862,6 +7767,94 @@
 			}]
 			x: 0.26819727891157186d
 			y: 1.4785714285714349d
+		}
+		{
+			dependencies: ["2996914FD7293363"]
+			description: [
+				"If you want to ensure you arrive on time, you'll likely want to invest in a &eCopper Upgrade&r"
+				"This item can be combined with your glider of choice in an anvil to protect it during bad weather!"
+				""
+				"Attempting to glide during thunder will result in your glider being set on fire!"
+				""
+				"So if you want to protect yourself from Zeus himself, craft in a Copper Upgrade!"
+			]
+			hide_until_deps_complete: true
+			id: "2E944255BFF13585"
+			optional: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5D956AF7A0D59105"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "658C132E6B2EBDE7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.6d
+			subtitle: "Craft a &eCopper Upgrade"
+			tasks: [{
+				id: "2C36D9758AD14A89"
+				item: "vc_gliders:copper_upgrade"
+				type: "item"
+			}]
+			title: "&6Delayed by a Lightning Strike!"
+			x: 4.484013605442186d
+			y: -1.2178571428571416d
+		}
+		{
+			id: "4F97C93EFE14F746"
+			invisible: true
+			optional: true
+			rewards: [{
+				command: "/titles add {p} titles:proud"
+				console: true
+				icon: "titles:title_scroll_uncommon"
+				id: "24FA41A324EB3AA1"
+				title: "&eUnlock Title:&r the &cP&6r&eo&au&bd"
+				type: "command"
+			}]
+			size: 0.7d
+			subtitle: "<rainb>Every day is Pride! <3"
+			tasks: [{
+				id: "4A79FEC262C8D1C5"
+				item: "alexsmobs:rainbow_jelly"
+				type: "item"
+			}]
+			title: "&dHappy Pride!"
+			x: -0.5032312925169933d
+			y: 1.4768707482993122d
 		}
 	]
 	title: "&6A New Start! &a(Recommended!)"

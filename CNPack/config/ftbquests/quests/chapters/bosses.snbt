@@ -112,7 +112,7 @@
 		}
 		{
 			corner: true
-			dependency: "0162F2A9F032B442"
+			dependency: "76F98E53D8839A11"
 			height: 1.3d
 			image: "modpack:textures/mc-eternal-gems-comm-gem-7.png"
 			rotation: 0.0d
@@ -235,7 +235,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&a&oOverworld - Progression"
+			subtitle: "{chapter.8.quest.1.subtitle}"
 			tasks: [{
 				id: "202DB88496FB2526"
 				item: {
@@ -338,7 +338,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&a&oOverworld - Progression"
+			subtitle: "{chapter.8.quest.2.subtitle}"
 			tasks: [{
 				id: "3FFEE71D12B54F2E"
 				item: {
@@ -437,7 +437,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&a&oOverworld - Progression"
+			subtitle: "{chapter.8.quest.3.subtitle}"
 			tasks: [{
 				id: "18E3151544F6AAF8"
 				item: {
@@ -542,7 +542,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&a&oOverworld - Progression"
+			subtitle: "{chapter.8.quest.4.subtitle}"
 			tasks: [{
 				id: "7AA27D450A1F0A88"
 				item: {
@@ -660,7 +660,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&4The Nether - Progression"
+			subtitle: "{chapter.8.quest.5.subtitle}"
 			tasks: [{
 				id: "0B51833A2F5CF98F"
 				item: {
@@ -760,7 +760,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&a&oOverworld - Progression"
+			subtitle: "{chapter.8.quest.7.subtitle}"
 			tasks: [{
 				id: "54DAA9A9BDC6E761"
 				item: {
@@ -789,24 +789,19 @@
 				"320F677D8A962681"
 				"46C671151AE613A1"
 			]
-			description: [
-			  "&c&l&nKill The Void Worm"
-			  ""
-			  "&eThe Void Worm&r is summoned by dropping a &eMysterious Worm&r into the void of &eThe End.&r &eThe Mysterious Worm&r is created by placing a &eCrimson Mosquito Larvae&r into a &eCapsid&r, dropped by the &eEnderiophage."
-			  ""
-			]
+			description: ["{chapter.8.quest.8.description.1}"]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			icon: "alexsmobs:void_worm_eye"
 			id: "341DBC6A59D51ED9"
 			rewards: [
 				{
-					command: "/titles add {p} titles:voidlord"
+					command: "/titles add @p titles:voidlord"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "72FD7EB5624CE117"
-					title: "&eUnlock Title:&r Void Lord"
+					title: "{chapter.8.quest.8.reward.4.title}"
 					type: "command"
 				}
 				{
@@ -974,7 +969,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "112006616A786B76"
-					title: "&eUnlock Title:&r Vanquisher"
+					title: "{chapter.8.quest.10.reward.3.title}"
 					type: "command"
 				}
 				{
@@ -1035,7 +1030,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&4The Nether - Progression"
+			subtitle: "{chapter.8.quest.10.subtitle}"
 			tasks: [{
 				id: "702D1C1AA83E16EB"
 				item: {
@@ -1129,7 +1124,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&4The Nether - Progression"
+			subtitle: "{chapter.8.quest.10.subtitle}"
 			tasks: [{
 				id: "7E28F286737EA4A9"
 				item: {
@@ -1167,7 +1162,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "06439A84E2F5C8D9"
-					title: "&eUnlock Title:&r Ironside"
+					title: "{chapter.8.quest.13.reward.2.title}"
 					type: "command"
 				}
 				{
@@ -1228,7 +1223,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&a&oOverworld - Progression"
+			subtitle: "{chapter.8.quest.11.subtitle}"
 			tasks: [{
 				id: "12EA848687AB1062"
 				item: {
@@ -1329,7 +1324,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&a&oOverworld - Progression"
+			subtitle: "{chapter.8.quest.4.subtitle}"
 			tasks: [{
 				id: "710165FB8FDE1035"
 				item: {
@@ -1425,7 +1420,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&a&oOverworld - Progression"
+			subtitle: "{chapter.8.quest.3.subtitle}"
 			tasks: [{
 				id: "371F374B9BEDADC0"
 				item: {
@@ -1520,9 +1515,7 @@
 		}
 		{
 			dependencies: ["2E84DFAD10C02EB1"]
-			description: [
-			  "&6Questmaster:&r You've found my prized missing Salmon! Now quickly return it to me and I will grant you a wonderful reward! Quickly now!"
-			]
+			description: ["&6Questmaster:&r You've found my prized missing Salmon! Now quickly return it to me and I will grant you a wonderful reward! Quickly now!"]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			hide_until_deps_visible: true
@@ -1535,7 +1528,7 @@
 					type: "custom"
 				}
 				{
-					command: "/effect give {p} mowziesmobs:sunblock 500"
+					command: "/effect give @p mowziesmobs:sunblock 500"
 					icon: {
 						Count: 1b
 						ForgeCaps: {
@@ -1563,7 +1556,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:pet"
+					command: "/titles add @p titles:pet"
 					icon: {
 						Count: 1
 						ForgeCaps: {
@@ -2217,5 +2210,5 @@
 			y: -0.9166666666666643d
 		}
 	]
-	title: "&9End Progression "
+	title: "{chapter.8.title}"
 }
