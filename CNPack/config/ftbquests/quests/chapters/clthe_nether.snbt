@@ -1389,7 +1389,7 @@
 						Damage: 0
 						Enchantments: [{
 							id: "minecraft:fire_aspect"
-							lvl: 2s
+							lvl: 3s
 						}]
 						display: {
 							Lore: ["{\"text\":\"Forged in the depths of the Nether. Used to torment and torture enemies of The Eternal Legions.\",\"color\":\"gray\",\"italic\":true}"]

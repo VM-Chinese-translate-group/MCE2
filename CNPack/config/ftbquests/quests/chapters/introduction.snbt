@@ -3969,6 +3969,7 @@
 			y: 4.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["435D2B15E81BF949"]
 			description: [
 				"The &eEccentric Tome&r is a utility item that allows you to store guide books from other mods!"

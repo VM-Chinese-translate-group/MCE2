@@ -4,6 +4,7 @@ ItemEvents.tooltip(event => {
 	event.add('%pitchperfect', Text.of('Changes note depending on where you look!').color('#FFFFFF')); 
 	event.add('kubejs:artifact_ghoul_heart', Text.of('§7§oStill beating in your hands..').color('#FFFFFF')); 
 	event.add('cgs:revolver', Text.of('§7§oCan be duel wielded!').color('#FFFFFF')); 
+	event.add('cgs:revolver', Text.of('§7Press Z to tinker.').color('#FFFFFF')); 
 	event.add('etched:boombox', Text.of('§7Drag Music Disc in inventory to add to Boombox!').color('#FFFFFF')); 
 	event.add('mekanism:osmium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
 	event.add('mekanism:deepslate_osmium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
@@ -98,9 +99,9 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:nether_item', Text.of('§7§oVibrates at ever-changing frequencies').color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.of('§7§oThis powerful relic is ancient in origin. It is capable of bending powerful creatures to its users will.. As you gaze into the orb, the orb gazes into you..').color('#FFFFFF'));
 	event.add('relics:infinity_ham', Text.of('\u00A7oExclusive Goblin Trade').color('#FFAA00'));
-	event.add('bagofholding:leather_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author.').color('#FFFFFF'));
-	event.add('bagofholding:iron_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author.').color('#FFFFFF'));
-	event.add('bagofholding:gold_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author.').color('#FFFFFF'));
+	event.add('bagofholding:leather_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author. 2 Updates left until removal.').color('#FFFFFF'));
+	event.add('bagofholding:iron_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author. 2 Updates left until removal.').color('#FFFFFF'));
+	event.add('bagofholding:gold_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author. 2 Updates left until removal.').color('#FFFFFF'));
 	event.add('undergarden:blisterberry', Text.of('\u00A7oCan be used to feed Old Toretoise').color('#FFFFFF'));
 	event.add('minecraft:diamond_ore', Text.of('\u00A7oExclusively generates in Overworld Caves').color('#FFFFFF'));
 	event.add('tconstruct:crafting_station', Text.of('\u00A7oCan be crafted with multiple types of wood').color('#4F0D75'));

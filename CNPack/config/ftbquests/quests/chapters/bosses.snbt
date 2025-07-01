@@ -2035,7 +2035,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["3D1FC85E004937CD"]
 			dependency_requirement: "all_started"
 			description: [
 				"While exploring you might discover that some structures are exceptionally hard to find."
@@ -2048,7 +2047,7 @@
 				"1x Amethyst Shard:&r Needed for the Compass Needle"
 				"3x Silver Ingot: Needed for the compass base."
 				"1x Glow Ink Sack: For the dial and general coolness-factor"
-				"1x Eye of Ender: It seems to be drawn to the Legendary Eyes! It should help us locate them!"
+				"1x Ender Pearl: It seems to be drawn to the Legendary Eyes! It should help us locate them!"
 				"1x Superglue: To bind it all together!"
 				"1x Chicken Sandwhich: VERY important, maybe even the MOST important ingredient! §m&o&7I get hungry when I work."
 			]
@@ -2131,10 +2130,16 @@
 					}
 					type: "item"
 				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "513F9AD219BB077A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
 			]
-			secret: true
 			shape: "rsquare"
-			size: 0.6d
+			size: 0.8d
 			subtitle: "Gather materials needed to craft a &eExplorer's Compass"
 			tasks: [
 				{
@@ -2180,16 +2185,6 @@
 				}
 				{
 					consume_items: true
-					id: "0522D436F658665D"
-					item: {
-						Count: 1
-						id: "minecraft:ender_eye"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					consume_items: true
 					id: "78B4452CCBCF264F"
 					item: {
 						Count: 1
@@ -2199,9 +2194,20 @@
 					type: "item"
 				}
 				{
-					count: 3L
 					id: "3C2E1F3BC58C64B9"
-					item: { Count: 3, id: "thermal:silver_ingot" }
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/silver"
+						}
+					}
+					title: "Any #forge:ingots/silver"
+					type: "item"
+				}
+				{
+					id: "100F2404E0CA97E3"
+					item: "minecraft:ender_pearl"
 					type: "item"
 				}
 			]
