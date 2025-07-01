@@ -1,7 +1,7 @@
 {
-  "item.convenientcurioscontainer.curios_container": "Curios container",
-  "container_info" : "For items inside the container:",
-  "container_RMB": "Right click to swap or move it to the first avalible Curio slot.",
-  "container_SRMB": "Shift and right click to swap or move it to the second avalible Curio slot.",
-  "key.open_convenient_gui": "Open Curios Container Screen"
+  "item.convenientcurioscontainer.curios_container": "饰品盒",
+  "container_info" : "对于盒内的物品：",
+  "container_RMB": "右击以将其交换或移动到第一个可用的饰品槽。",
+  "container_SRMB": "按住Shift键并右击，将其交换或移动到第二个可用的饰品槽。",
+  "key.open_convenient_gui": "打开饰品盒界面"
 }
