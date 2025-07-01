@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Upon doing a Combat Roll, you will gain half a second of i-frames! Making you evade an attack if timed correctly!"
+    "text": "战术翻滚期间，你会获得半秒的无敌帧！只要时机合适，你就能在关键时刻完美避开攻击！"
   }
 }

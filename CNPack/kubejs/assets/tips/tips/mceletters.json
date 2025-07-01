@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Entering each game stage will reward you with a letter, I wonder who is writing these?"
+    "text": "每进入一个新的游戏阶段，你都会收到一封信。是谁写的呢？"
   }
 }

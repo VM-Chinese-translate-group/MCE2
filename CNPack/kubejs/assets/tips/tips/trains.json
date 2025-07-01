@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Create Trains are an awesome way to travel! When powered with Coal they can travel up to 1 thousand blocks a minute!"
+    "text": "机械动力的列车是超棒的交通方式！只要用煤炭驱动，它们就能以每分钟一千格的速率行进！"
   }
 }

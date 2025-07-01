@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Cloud storage is a low tech storage solution! Send your items up into the cloud!"
+    "text": "云存储是一种非常简单的存储方案。把你的物品送进云端吧！"
   }
 }

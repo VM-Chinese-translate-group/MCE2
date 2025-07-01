@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "You can Combat Roll by pressing R!"
+    "text": "你可以按R进行战术翻滚！"
   }
 }

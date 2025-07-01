@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Stay in Normal Mode if you wish! The game will only get harder when you want it to! "
+    "text": "只要你想，你可以一直让游戏模式停在普通模式！只有在你想进入新阶段时，游戏难度才会提高！"
   }
 }

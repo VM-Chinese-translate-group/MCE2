@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Shaders are compatible thanks to Oculus, use at your own risk!"
+    "text": "感谢Oculus模组，永恒MC2现在能用光影了。使用风险自负！"
   }
 }

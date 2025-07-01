@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Strays have a chance to freeze their targets, this effect will go through shields! Make sure to evade their attacks!"
+    "text": "流浪者的攻击有概率使目标冻结，盾牌无法格挡这种效果！你最好躲开它们的攻击！"
   }
 }

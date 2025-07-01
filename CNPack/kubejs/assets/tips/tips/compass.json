@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "The Explorer's Compass can be used to locate structures containing Legendary Eyes!"
+    "text": "探险家指南针可以用来寻找那些藏有传说中强大眼睛的结构！"
   }
 }

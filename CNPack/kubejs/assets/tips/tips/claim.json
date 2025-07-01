@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Claiming chunks will prevent explosions and unwanted players/entities from breaking blocks. Always claim your chunks! You can claim chunks by opening &dThe Chunk Map"
+    "text": "认领区块可以防止由玩家、实体及爆炸造成的破坏性行为。记得给自己认领个区块！你可以打开FTB区块地图来认领区块"
   }
 }

@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "text": "永恒MC2 提示",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Look out for the Plague! if you become infected, you won't be able to regenerate health until the effect has worn off! Plague Doctors can sometimes sell you the cure."
+    "text": "当心瘟疫！如果你感染了瘟疫，那么直到效果消失前你都无法恢复生命值！瘟疫医生有时会向你出售解药。"
   }
 }
