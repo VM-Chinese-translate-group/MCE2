@@ -51,6 +51,9 @@ StartupEvents.registry("item", event => {
   event.create('loyalty_card_bm').displayName('§5Loyalty Card - Random Blackmarket Reward').glow(true);
   
   event.create('magic_map').displayName('§eExplorers Map').glow(true);
+
+  event.create("corporea_crystal")
+    .tooltip(Text.translate("item.kubejs.corporea_crystal.desc").color("light_purple"))
   
 })
 

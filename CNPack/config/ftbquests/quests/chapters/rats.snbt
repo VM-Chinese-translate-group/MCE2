@@ -79,14 +79,11 @@
 			y: 0.934523809523796d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-			  "Craft a &eCauldron&r and place a bucket of milk inside. Wait for it to curdle!"
-			  "&eTip:&r Cheese can be used to tame rats! Wow!"
-			]
+			description: ["{chapter.15.quest.69.description.1}"]
 			hide_dependency_lines: true
 			id: "4BF96C95CFE9D92D"
 			rewards: [
@@ -103,7 +100,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&eCheese Making!"
+			subtitle: "{chapter.15.quest.69.subtitle}"
 			tasks: [
 				{
 					id: "2EB66AAD8E0A6C6A"
@@ -120,9 +117,7 @@
 			y: 1.0d
 		}
 		{
-			description: [
-			  "The &eCurdling Station&r can be used to automate the chees making process! "
-			]
+			description: ["{chapter.15.quest.70.description.1}"]
 			id: "483F374B33EAB505"
 			rewards: [{
 				amount: 50L
@@ -131,7 +126,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&eCheese Making Part II"
+			subtitle: "{chapter.15.quest.70.subtitle}"
 			tasks: [{
 				id: "633A34E9333CF014"
 				item: "rats:auto_curdler"
@@ -141,9 +136,7 @@
 			y: 1.0d
 		}
 		{
-			description: [
-			  "&eTip:&r Rats can be used for all sorts of things, &o(including but not limited to)&r Cooking, Cleaning, Mining, Fighting, Snuggling, Conquering, Worshipping."
-			]
+			description: ["{chapter.15.quest.113.description.1}"]
 			hide_dependency_lines: true
 			id: "345F8558DB7253AA"
 			rewards: [
@@ -167,13 +160,13 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "&oTame a rat by dropping cheese and letting it have a snack!"
+			subtitle: "{chapter.15.quest.113.subtitle}"
 			tasks: [{
 				advancement: "minecraft:husbandry/tame_an_animal"
 				criterion: ""
 				icon: "rats:cheese"
 				id: "0773FC5376E06CFB"
-				title: "&eTame a Rat"
+				title: "{chapter.15.quest.113.task.1.title}"
 				type: "advancement"
 			}]
 			x: 1.0d

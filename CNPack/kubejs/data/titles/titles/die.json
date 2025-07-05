@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:die",
+  "rarity": "common",
+  "defaultDisplay": "Die-a-Lot"
+}

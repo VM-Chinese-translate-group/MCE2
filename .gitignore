@@ -7,3 +7,8 @@
 .LSOverride
 
 *.zip
+
+# Python
+__pycache__
+build
+dist
