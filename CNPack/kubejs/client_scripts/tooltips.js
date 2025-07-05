@@ -10,6 +10,7 @@ ItemEvents.tooltip(event => {
 	event.add('mekanism:deepslate_osmium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
 	event.add('mekanism:uranium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
 	event.add('mekanism:deepslate_uranium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
+	event.add('kubejs:travel_ticket', Text.of('§e§oCan be redeemed at the Quest Chapter "Fast Travel" to catch a plane to the "Sakura Dimension"!').color('#FFFFFF')); 
 	event.add('cataclysm:ignitium_block', Text.of('\u00A7oWhat a flex...').color('#FFFFFF'));
 	event.add('kubejs:artifact_endergem', Text.of('§7Can be crafted with a §eGrave Key§7 to create §dEnchanted Grave Key').color('#FFFFFF'));
 	event.add('kubejs:artifact_endergem', Text.of('§7§oThe stone feels heavy... if you listen very closely you can hear the souls that are trapped within..').color('#FFFFFF'));
@@ -84,24 +85,29 @@ ItemEvents.tooltip(event => {
 	event.add('majruszs_difficulty:recall_potion', Text.of('Teleport Home').color('#FFFF55'));
 	event.add('dreadsteel:dreadsteel_scythe', Text.of('\u00A7oSimply holding The Dreadsteel Scythe is enough to inflict uneasiness in even the most formidable of warriors').color('#FFFFFF'));
 	event.add('dreadsteel:dreadsteel_shield', Text.of('\u00A7oThe Dragon emblem on the Dreadsteel Shield is enough to strike fear into the denizens of The Overworld').color('#FFFFFF'));
-	event.add('goety:netherite_bow', Text.of('\u00A7oTwice as fast as a regular bow, this weapon was gifted to The Apostle by an unknown entity.').color('#FFFFFF'));
+	event.add('vampirism:holy_water_bottle_normal', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
+	event.add('vampirism:holy_water_bottle_enhanced', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
+	event.add('vampirism:holy_water_bottle_ultimate', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
+	event.add('vampirism:holy_water_splash_bottle_normal', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
+	event.add('vampirism:holy_water_splash_bottle_enhanced', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
+	event.add('vampirism:holy_water_splash_bottle_ultimate', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
 	event.add('farmersdelight:smoked_ham', Text.of('\u00A7oSmoked, not steamed!').color('#FFFFFF'));
-	event.add('minecraft:crying_obsidian', Text.of('§d§oCan be used to stop Nether Portal corruption!').color('#FFFFFF'));
+	event.add('minecraft:crying_obsidian', Text.of('§d§oCan be used to stop  Portal corruption!').color('#FFFFFF'));
 	event.add('boss_tools:desh_ingot', Text.of('\u00A7oExclusive To The Moon').color('#FFFFFF'));
-	event.add('cataclysm:void_core', Text.of('\u00A7oDefensive Ability - Right Click the block you are on to Summon Netherite Spikes in a circular radius around the Player').color('#FFFFFF'));
+	event.add('cataclysm:void_core', Text.of('\u00A7oDefensive Ability - Right Click the block you are on to Summon ite Spikes in a circular radius around the Player').color('#FFFFFF'));
 	event.add('kubejs:artifact_beating_heart', Text.of('§8A faint heartbeat can be heard inside the darkest crevices of your mind, a terrible voice whispers to you in a language you cannot comprehend...').color('#FFFFFF'));
 	event.add('kubejs:artifact_beating_heart', Text.of('§7§o"Seek out the incomplete portal.. Let me lead you..."').color('#FFFFFF'));
 	event.add('kubejs:artifact_beating_heart', Text.of('§b<shake>ℸ ̣⍑ᒷ.⊣∷ᒷᔑℸ ̣.ʖᒷꖎ𝙹∴ ||𝙹⚍.ᒲ⚍ᓭℸ ̣.⊣𝙹.ᑑ⚍╎ᓵꖌꖎ||.リ𝙹∴.𝙹∷.||𝙹⚍.∴╎ꖎl.↸∷𝙹∴リ.').color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.of('§6Grants knowledge about Nether Portals.').color('#FFFFFF'));
-	event.add('kubejs:nether_item', Text.of('§dRight-Click to Ponder The Orb and summon a temporary powerful servant!').color('#FFFFFF'));
+	event.add('kubejs:nether_item', Text.of('§dRight-Click to ponder the orb and summon a §ntemporary§r§d powerful servant!').color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.of('§eDrops from The Eternal Invasion Gateway').color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.of('§5§6✎ §nLore Text').color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.of('§7§oVibrates at ever-changing frequencies').color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.of('§7§oThis powerful relic is ancient in origin. It is capable of bending powerful creatures to its users will.. As you gaze into the orb, the orb gazes into you..').color('#FFFFFF'));
 	event.add('relics:infinity_ham', Text.of('\u00A7oExclusive Goblin Trade').color('#FFAA00'));
-	event.add('bagofholding:leather_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author. 2 Updates left until removal.').color('#FFFFFF'));
-	event.add('bagofholding:iron_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author. 2 Updates left until removal.').color('#FFFFFF'));
-	event.add('bagofholding:gold_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author. 2 Updates left until removal.').color('#FFFFFF'));
+	event.add('bagofholding:leather_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author. §n1 Updates left until removal.').color('#FFFFFF'));
+	event.add('bagofholding:iron_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author. §n1 Updates left until removal.').color('#FFFFFF'));
+	event.add('bagofholding:golden_bag_of_holding', Text.of('\u00A7oUncraftable due to a dupe bug, complain to the mod author. §n1 Updates left until removal.').color('#FFFFFF'));
 	event.add('undergarden:blisterberry', Text.of('\u00A7oCan be used to feed Old Toretoise').color('#FFFFFF'));
 	event.add('minecraft:diamond_ore', Text.of('\u00A7oExclusively generates in Overworld Caves').color('#FFFFFF'));
 	event.add('tconstruct:crafting_station', Text.of('\u00A7oCan be crafted with multiple types of wood').color('#4F0D75'));
@@ -194,5 +200,9 @@ ItemEvents.tooltip(event => {
 	event.add('rats:plastic_waste', Text.of('\u00A7oEver wonder where all of that plastic goes when the tech players are finished playing?').color('#FFFFFF'));
 	event.add('rats:plastic_waste', Text.of('\u00A7oYep the ocean...').color('#FFFFFF'));
 	event.add(['tconstruct:tinkers_anvil', 'tconstruct:scorched_anvil'], Text.of('\u00A7oCan be crafted with multiple types of alloyed metals').color('#4F0D75'));
+
+
+
+	event.add("occultism:stable_wormhole", Text.translate("tooltip.mce2.occultism.stable_wormhole.fragile").color("#BB0000"))
 
 })
