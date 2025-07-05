@@ -2,5 +2,5 @@
   "rage.notify": "怒气值：%s",
   "rage.notify.full": "§4☠️",
   "adv.rage.full_rage": "你狂怒了！",
-  "adv.rage.full_rage.desc": "你由于对敌人造成伤害或受到伤害而进入了狂怒状态，下一次攻击会造成额外伤害！"
+  "adv.rage.full_rage.desc": "你通过攻击敌人/承受伤害而进入了狂怒状态！下一次攻击将造成额外伤害！"
 }
