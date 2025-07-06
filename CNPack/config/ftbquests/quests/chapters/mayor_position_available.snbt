@@ -183,7 +183,7 @@
 			y: -1.4285714285714306d
 		}
 	]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -192,7 +192,10 @@
 				"6B67E2D893F1941E"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{chapter.17.quest.1.description.1}"]
+			description: [
+			  "&eTip:&r Choose the location wisely!"
+			  "The Town Hall block is what actually creates the colony. It also functions as the center of it. This is where you start using the build tool to place buildings. Using the build tool ensures you can see exactly where the building will be, which direction it will face, and if it is at the right Y level (some buildings need to be raised to the correct Y level).Once the Town Hall block is placed, you will start receiving your initial 4 citizens."
+			]
 			id: "36B99A25BD254D1C"
 			rewards: [
 				{
@@ -200,7 +203,7 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "68DDA0891FAD74FB"
-					title: "{chapter.17.quest.1.reward.3.title}"
+					title: "&eUnlock Title:&r The Mayor"
 					type: "command"
 				}
 				{
@@ -240,7 +243,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.1.subtitle}"
+			subtitle: "Place a &eTown Hall"
 			tasks: [{
 				id: "6E676F4E47AF7393"
 				item: "minecolonies:blockhuttownhall"
@@ -250,7 +253,13 @@
 			y: -1.152380952380959d
 		}
 		{
-			description: ["{chapter.17.quest.2.description.1}"]
+			description: [
+			  "Once you have chosen a location for your colony, you must place a Supply Ship or Supply Camp. "
+			  ""
+			  "You can only place one of these per world. The Supply Camp/Ship gives you the Town Hall block you need to officially start your colony."
+			  ""
+			  "They also have some other supplies you may need during the building of your colony. Once you have the Town Hall block and the build tool, the remaining camp/ship is just decoration. You can leave it or tear it down."
+			]
 			id: "6B67E2D893F1941E"
 			optional: true
 			rewards: [
@@ -292,18 +301,24 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "{chapter.17.quest.2.subtitle}"
+			subtitle: "&d&oChoice Quest"
 			tasks: [{
 				id: "64F01A965555AF83"
 				item: "minecolonies:supplychestdeployer"
 				type: "item"
 			}]
-			title: "{chapter.17.quest.2.title}"
+			title: "Naval Colony"
 			x: 0.4761904761904674d
 			y: -0.9523809523809561d
 		}
 		{
-			description: ["{chapter.17.quest.3.description.1}"]
+			description: [
+			  "Once you have chosen a location for your colony, you must place a Supply Ship or Supply Camp.  "
+			  ""
+			  "You can only place one of these per world. The Supply Camp/Ship gives you the Town Hall block you need to officially start your colony."
+			  ""
+			  "They also have some other supplies you may need during the building of your colony. Once you have the Town Hall block and the build tool, the remaining camp/ship is just decoration. You can leave it or tear it down."
+			]
 			id: "1AA11CDC70A4BDA5"
 			optional: true
 			rewards: [
@@ -345,19 +360,22 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "{chapter.17.quest.3.subtitle}"
+			subtitle: "&d&oChoice Quest"
 			tasks: [{
 				id: "57F6504817B55C4A"
 				item: "minecolonies:supplycampdeployer"
 				type: "item"
 			}]
-			title: "{chapter.17.quest.3.title}"
+			title: "Land-locked Colony"
 			x: 6.571428571428569d
 			y: -1.0d
 		}
 		{
 			dependencies: ["36B99A25BD254D1C"]
-			description: ["{chapter.17.quest.4.description.1}"]
+			description: [
+			  "&eTip:&r You will need to keep your builder well fed during construction, make sure to place food in their inventory!"
+			  "&6Note: &rBefore anything can be built, you need a Builder. The Builder must build their own Builder’s Hut before building any other structures, and they cannot build or upgrade a hut to a higher level than their own hut level."
+			]
 			id: "7AC39EDB2B5885E1"
 			rewards: [
 				{
@@ -406,7 +424,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.4.subtitle}"
+			subtitle: "Build a &eBuilder's Hut"
 			tasks: [
 				{
 					id: "5EFE696638FBD2A2"
@@ -423,7 +441,7 @@
 					advancement: "minecolonies:minecolonies/citizen_eat_food_first"
 					criterion: ""
 					id: "4BB2F0634C1616AB"
-					title: "{chapter.17.quest.4.task.3.title}"
+					title: "&eFeed your builder"
 					type: "advancement"
 				}
 			]
@@ -432,7 +450,9 @@
 		}
 		{
 			dependencies: ["7AC39EDB2B5885E1"]
-			description: ["{chapter.17.quest.5.description.1}"]
+			description: [
+			  "Your colonists will need a place to sleep and a house, so it is recommended to build a Tavern next. The Tavern also allows visitors to come to your colony, and you can recruit them to stay as citizens."
+			]
 			id: "363667CCEE02E670"
 			rewards: [
 				{
@@ -472,7 +492,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.5.subtitle}"
+			subtitle: "Build a &eTavern"
 			tasks: [
 				{
 					id: "21AC1F41DF8B0D9E"
@@ -491,7 +511,9 @@
 		}
 		{
 			dependencies: ["363667CCEE02E670"]
-			description: ["{chapter.17.quest.6.description.1}"]
+			description: [
+			  "The next major thing you need for your colony is food. The fastest way to get food is to build a Fisher’s Hut. You could build a Farm or one of the animal herders, but a Fisher is faster. Building a Restaurant may also be advisable if you don’t want to feed your colonists (or cook their food) by hand."
+			]
 			id: "16177EB9B28E47A7"
 			optional: true
 			rewards: [
@@ -537,7 +559,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.6.subtitle}"
+			subtitle: "Build a &eFishing Hut"
 			tasks: [{
 				id: "5A95546DA8465642"
 				item: "minecolonies:blockhutfisherman"
@@ -548,7 +570,9 @@
 		}
 		{
 			dependencies: ["363667CCEE02E670"]
-			description: ["{chapter.17.quest.7.description.1}"]
+			description: [
+			  "The next major thing you need for your colony is food. The fastest way to get food is to build a Fisher’s Hut. You could build a Farm or one of the animal herders, but a Fisher is faster. Building a Restaurant may also be advisable if you don’t want to feed your colonists (or cook their food) by hand."
+			]
 			id: "527C00CB128A9337"
 			optional: true
 			rewards: [
@@ -589,7 +613,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.7.subtitle}"
+			subtitle: "Build a &eFarm"
 			tasks: [{
 				id: "2728715D01C81A7D"
 				item: "minecolonies:blockhutfarmer"
@@ -603,7 +627,9 @@
 				"527C00CB128A9337"
 				"16177EB9B28E47A7"
 			]
-			description: ["{chapter.17.quest.8.description.1}"]
+			description: [
+			  "The Restaurant can employ one citizen as a Chef, he can prepare food and serve other citizens!"
+			]
 			id: "074A15D77C4A908A"
 			optional: true
 			rewards: [
@@ -649,7 +675,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.8.subtitle}"
+			subtitle: "Build a &eRestaurant"
 			tasks: [{
 				id: "50DA33A7DB2B8BF6"
 				item: "minecolonies:blockhutcook"
@@ -711,7 +737,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.17.quest.9.subtitle}"
+			subtitle: "&oIf your style is wood, it’s recommended to build a Forester’s Hut next. That way your new Forester can start gathering wood for your next builds and for tools and other items."
 			tasks: [{
 				id: "654838AEED76AAE7"
 				item: "minecolonies:blockhutlumberjack"
@@ -782,7 +808,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.17.quest.10.subtitle}"
+			subtitle: "&oStone and ores are another major need for any colony, so a Mine is the next logical step, rarely a miner can mine rare treasure from stone!"
 			tasks: [
 				{
 					id: "7D4B7C445C817284"
@@ -843,7 +869,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.17.quest.11.subtitle}"
+			subtitle: "&oAt this point, you might be tired of bringing all of the resources to the Builder and taking them from the Fisher, Forester, Miner, etc. You also might want to store items in one place. Well, the Warehouse and Courier’s Hut are the solution you are looking for! Couriers transport items between the Warehouse and all of the workplaces."
 			tasks: [{
 				id: "1631350DA38BED2D"
 				item: "minecolonies:blockhutwarehouse"
@@ -896,7 +922,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.17.quest.12.subtitle}"
+			subtitle: "&oAt this point, you might be tired of bringing all of the resources to the Builder and taking them from the Fisher, Forester, Miner, etc. You also might want to store items in one place. Well, the Warehouse and Courier’s Hut are the solution you are looking for! Couriers transport items between the Warehouse and all of the workplaces."
 			tasks: [{
 				id: "7ADC149BC99697CA"
 				item: "minecolonies:blockhutdeliveryman"
@@ -907,7 +933,9 @@
 		}
 		{
 			dependencies: ["4B8CEF6761AED987"]
-			description: ["{chapter.17.quest.13.description.1}"]
+			description: [
+			  "&lGuards are much stronger than normal!"
+			]
 			id: "0733B7FB6A152488"
 			optional: true
 			rewards: [
@@ -974,7 +1002,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.13.subtitle}"
+			subtitle: "&oThis is where you need to decide what you need next, based on how you play and what your colony needs. But you have several things to look at. Once you get seven citizens you can get attacked by raiders and you may want to build a Guard Tower, or you may get a sick citizen and want to build a Hospital, or you may decide you want a Sawmill to make the needed items for a worker. Or you may just want to have a specific worker, or you found a great place for a certain hut. &nYou decide how your colony will grow!"
 			tasks: [
 				{
 					id: "4D377A083B08D849"
@@ -1036,7 +1064,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.17.quest.14.subtitle}"
+			subtitle: "&oThis is where you need to decide what you need next, based on how you play and what your colony needs. But you have several things to look at. Once you get seven citizens you can get attacked by raiders and you may want to build a Guard Tower, or you may get a sick citizen and want to build a Hospital, or you may decide you want a Sawmill to make the needed items for a worker. Or you may just want to have a specific worker, or you found a great place for a certain hut. &nYou decide how your colony will grow!"
 			tasks: [{
 				id: "244BA51187DF5812"
 				item: "minecolonies:blockhuthospital"
@@ -1099,7 +1127,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.17.quest.15.subtitle}"
+			subtitle: "&oThis is where you need to decide what you need next, based on how you play and what your colony needs. But you have several things to look at. Once you get seven citizens you can get attacked by raiders and you may want to build a Guard Tower, or you may get a sick citizen and want to build a Hospital, or you may decide you want a Sawmill to make the needed items for a worker. Or you may just want to have a specific worker, or you found a great place for a certain hut. &nYou decide how your colony will grow!"
 			tasks: [{
 				id: "16D1E5F625471EA5"
 				item: "minecolonies:blockhutsawmill"
@@ -1110,7 +1138,9 @@
 		}
 		{
 			dependencies: ["363667CCEE02E670"]
-			description: ["{chapter.17.quest.16.description.1}"]
+			description: [
+			  "&eTip;&r Now you can begin upgrading other buildings!"
+			]
 			hide_dependency_lines: true
 			id: "2342B54396C76819"
 			rewards: [
@@ -1171,12 +1201,12 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.17.quest.16.subtitle}"
+			subtitle: "Build the Builders Hut Level 2"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_builder_2"
 				criterion: ""
 				id: "4D3B1D5903C0226C"
-				title: "{chapter.17.quest.16.task.1.title}"
+				title: "&lUpgrade Builder's Hut"
 				type: "advancement"
 			}]
 			x: 3.6857142857142833d
@@ -1239,14 +1269,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.17.quest.17.subtitle}"
+			subtitle: "&oHave 25 Colonists in your Colony"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/colony_population_25"
 				criterion: ""
 				id: "74B4FA169BDCAEC1"
 				type: "advancement"
 			}]
-			title: "{chapter.17.quest.17.title}"
+			title: "&6&lChallenge Quest: &r&2Hamlet"
 			x: 3.0d
 			y: 10.0d
 		}
@@ -1318,14 +1348,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.17.quest.18.subtitle}"
+			subtitle: "&oBuild the highest tier Town Hall"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_town_hall_5"
 				criterion: ""
 				id: "1566F2A881007EA7"
 				type: "advancement"
 			}]
-			title: "{chapter.17.quest.18.title}"
+			title: "&6&lChallenge Quest: &r&2The Masterpiece Centerpiece"
 			x: 5.0d
 			y: 10.0d
 		}
@@ -1386,14 +1416,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.17.quest.19.subtitle}"
+			subtitle: "&oHave 50 Colonists in your Colony"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/colony_population_75"
 				criterion: ""
 				id: "3BFA8148F3D22B7D"
 				type: "advancement"
 			}]
-			title: "{chapter.17.quest.19.title}"
+			title: "&6&lChallenge Quest: &r&2Town"
 			x: 5.0d
 			y: 8.0d
 		}
@@ -1454,20 +1484,23 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.17.quest.20.subtitle}"
+			subtitle: "&oHave 75 Colonists in your Colony"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/colony_population_50"
 				criterion: ""
 				id: "565E0A2B34E4313B"
 				type: "advancement"
 			}]
-			title: "{chapter.17.quest.20.title}"
+			title: "&6&lChallenge Quest: &r&2Village"
 			x: 1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["363667CCEE02E670"]
-			description: ["{chapter.17.quest.21.description.1}"]
+			description: [
+			  "In order to keep your villagers happy, you will need to construct them homes, build a level 1 house for a villager to live in!"
+			  "&eTip:&r Upgrading a the level of a &eHouse&r will increase the amount of villagers that can live under its roof, before you know it you will be charging 1500 emeralds a month for a bedroom in shared accommodation. &oCapitalism Woo!"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1517,13 +1550,13 @@
 			]
 			shape: "rsquare"
 			size: 0.7d
-			subtitle: "{chapter.17.quest.21.subtitle}"
+			subtitle: "Build a &eHouse"
 			tasks: [
 				{
 					advancement: "minecolonies:minecolonies/build_citizen"
 					criterion: ""
 					id: "0A66F94454F22A5B"
-					title: "{chapter.17.quest.21.task.1.title}"
+					title: "&eHome Sweet Home!"
 					type: "advancement"
 				}
 				{
@@ -1532,7 +1565,7 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.17.quest.21.title}"
+			title: "House"
 			x: 3.602040816326536d
 			y: 1.3367346938775526d
 		}
@@ -1593,14 +1626,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.17.quest.22.subtitle}"
+			subtitle: "&oBuild a Grand Garrison"
 			tasks: [{
 				advancement: "minecolonies:military/build_all_barracks_towers"
 				criterion: ""
 				id: "50FC28648B47BD9A"
 				type: "advancement"
 			}]
-			title: "{chapter.17.quest.22.title}"
+			title: "&6&lChallenge Quest: &r&2Grand Garrison"
 			x: 7.0d
 			y: 8.0d
 		}
@@ -1658,17 +1691,17 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.17.quest.23.subtitle}"
+			subtitle: "&oHave an army size of 80"
 			tasks: [{
 				advancement: "minecolonies:military/army_80"
 				criterion: ""
 				id: "120CAB09B2516713"
 				type: "advancement"
 			}]
-			title: "{chapter.17.quest.23.title}"
+			title: "&6&lChallenge Quest: &r&2Centurion"
 			x: 3.0d
 			y: 8.0d
 		}
 	]
-	title: "{chapter.17.title}"
+	title: "&2Mayor Position Available!"
 }

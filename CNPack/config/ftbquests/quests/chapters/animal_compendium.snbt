@@ -584,12 +584,16 @@
 			y: 8.0d
 		}
 	]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.1.description.1}"]
+			description: [
+			  ""
+			  "&eTip: &rBig Freshwater Turtles that can be found in Swamps. They defend themselves with their Sharp Beak. "
+			  ""
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "cavesandcliffs:spyglass"
@@ -605,13 +609,13 @@
 					type: "custom"
 				}
 			]
-			subtitle: "{chapter.18.quest.1.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "76054D04B7784C1C"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.1.task.1.title}"
+				title: "Spot an &e&oAlligator Snapping Turtle"
 				to_observe: "alexsmobs:alligator_snapping_turtle"
 				type: "observation"
 			}]
@@ -661,7 +665,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.2.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -675,7 +679,7 @@
 				id: "0CB8065005D0B569"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.2.task.1.title}"
+				title: "Spot a &e&oBald Eagle"
 				to_observe: "alexsmobs:bald_eagle"
 				type: "observation"
 			}]
@@ -684,7 +688,10 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.3.description.1}"]
+			description: [
+			  ""
+			  "&eTip:&r You can use the &eAlbum&r to store all of your photos! Use the UP and DOWN arrow keys to change images."
+			]
 			id: "053690126EB056CD"
 			rewards: [
 				{
@@ -697,22 +704,22 @@
 					type: "custom"
 				}
 				{
-					command: "/titles add @p titles:wildlife_photographer"
+					command: "/titles add {p} titles:wildlife_photographer"
 					icon: "titles:title_scroll_uncommon"
 					id: "3A27C008C589C25D"
-					title: "{chapter.18.quest.3.reward.3.title}"
+					title: "&eUnlock Title:&r Nature Photographer"
 					type: "command"
 				}
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{chapter.18.quest.3.subtitle}"
+			subtitle: "&oCraft a Camera and begin your Mob Snap journey! Try to capture all of the animals below with your camera!"
 			tasks: [{
 				id: "11E406F3114981AA"
 				item: "camera:camera"
 				type: "item"
 			}]
-			title: "{chapter.18.quest.3.title}"
+			title: "&eAmeature Photography"
 			x: -2.047619047619051d
 			y: -6.076190476190476d
 		}
@@ -732,13 +739,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.4.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "381DFF9EEAD5FA70"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.4.task.1.title}"
+				title: "Spot a &e&oGorilla"
 				to_observe: "alexsmobs:gorilla"
 				type: "observation"
 			}]
@@ -762,13 +769,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.5.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "51182E2755DB26A4"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.5.task.1.title}"
+				title: "Spot a &e&oBlobfish"
 				to_observe: "alexsmobs:blobfish"
 				type: "observation"
 			}]
@@ -796,13 +803,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "{chapter.18.quest.6.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "520D202B35B5352C"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.6.task.1.title}"
+				title: "Spot a &e&oBone Serpent &r&6(Rare!) &r&4(Danger!)"
 				to_observe: "alexsmobs:bone_serpent"
 				type: "observation"
 			}]
@@ -830,13 +837,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "{chapter.18.quest.7.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "5E71DD895A88FE1C"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.7.task.1.title}"
+				title: "Spot a &e&oCachalot Whale"
 				to_observe: "alexsmobs:cachalot_whale"
 				type: "observation"
 			}]
@@ -859,13 +866,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.8.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "5E0E18B45C03EA7D"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.8.task.1.title}"
+				title: "Spot a &e&oCockroach"
 				to_observe: "alexsmobs:cockroach"
 				type: "observation"
 			}]
@@ -887,13 +894,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.9.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "634A05BE60F664B1"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.9.task.1.title}"
+				title: "Spot a &e&oCapuchin Monkey"
 				to_observe: "alexsmobs:capuchin_monkey"
 				type: "observation"
 			}]
@@ -922,13 +929,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "{chapter.18.quest.10.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "1625623617E19376"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.10.task.1.title}"
+				title: "Spot a &e&oTiger &r&4(Danger!)"
 				to_observe: "alexsmobs:tiger"
 				type: "observation"
 			}]
@@ -937,7 +944,9 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.11.description.1}"]
+			description: [
+			  "&eTip: &rSeals can often be found in cold climates and enjoy icy waters!"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "388E3887FCC8BDE7"
@@ -952,13 +961,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.11.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "3D39B7FB11ACE69D"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.11.task.1.title}"
+				title: "Spot a &e&oSeal"
 				to_observe: "alexsmobs:seal"
 				type: "observation"
 			}]
@@ -986,7 +995,7 @@
 				id: "32D72FF064DF10CF"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.12.task.1.title}"
+				title: "Spot a &e&oKangaroo"
 				to_observe: "alexsmobs:kangaroo"
 				type: "observation"
 			}]
@@ -995,7 +1004,9 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.13.description.1}"]
+			description: [
+			  "&eTip:&r The Crocodile is one of Nature's oldest creations. This reptile takes no prisoners. Tread lightly!"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "0A7356BD545B8804"
@@ -1015,14 +1026,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "{chapter.18.quest.13.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				disable_toast: true
 				icon: "cavesandcliffs:spyglass"
 				id: "4DBF98E89057C4F8"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.13.task.1.title}"
+				title: "Spot a &e&oCrocodile &r&4(Danger!)"
 				to_observe: "alexsmobs:crocodile"
 				type: "observation"
 			}]
@@ -1050,13 +1061,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "{chapter.18.quest.14.subtitle}"
+			subtitle: "&eTip:&r The Grizzly Bear is a force to be reckoned with! Find these powerful beasts in Forests and around Honey!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "496D5F100324EE3A"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.14.task.1.title}"
+				title: "Spot a &e&oGrizzly Bear"
 				to_observe: "alexsmobs:grizzly_bear"
 				type: "observation"
 			}]
@@ -1079,13 +1090,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.15.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "05E8CE72F38687DB"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.15.task.1.title}"
+				title: "Spot a &e&oHummingbird"
 				to_observe: "alexsmobs:hummingbird"
 				type: "observation"
 			}]
@@ -1094,7 +1105,9 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.16.description.1}"]
+			description: [
+			  "&eTip:&r The Elephant can be found in hot climates, Wandering Traders are known to ride these beautiful beasts and they are known to make excellent companions!"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "13B3866B14C773F2"
@@ -1109,13 +1122,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.16.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "194F81481391938C"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.16.task.1.title}"
+				title: "Spot a &e&oElephant"
 				to_observe: "alexsmobs:elephant"
 				type: "observation"
 			}]
@@ -1138,13 +1151,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.17.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "54465F83E2C712DB"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.17.task.1.title}"
+				title: "Spot a &e&oKomodo Dragon"
 				to_observe: "alexsmobs:komodo_dragon"
 				type: "observation"
 			}]
@@ -1167,13 +1180,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.18.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "78D5CF015EC831E3"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.18.task.1.title}"
+				title: "Spot a &e&oHammerhead Shark"
 				to_observe: "alexsmobs:hammerhead_shark"
 				type: "observation"
 			}]
@@ -1196,13 +1209,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.19.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "292E3F5498E8FD14"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.19.task.1.title}"
+				title: "Spot a &e&oEmu"
 				to_observe: "alexsmobs:emu"
 				type: "observation"
 			}]
@@ -1225,13 +1238,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.20.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "6E43E06EC4C50C39"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.20.task.1.title}"
+				title: "Spot a &e&oMoose"
 				to_observe: "alexsmobs:moose"
 				type: "observation"
 			}]
@@ -1240,7 +1253,9 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.21.description.1}"]
+			description: [
+			  "&eTip:&r The Mungus is an odd creature, known to live in areas overrun by Mushrooms. Some say the Mungus is hiding a terrible secret!"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "6D87086232516F07"
@@ -1260,13 +1275,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "{chapter.18.quest.21.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "0B3A7844463754A9"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.21.task.1.title}"
+				title: "Spot a &e&oMungus &r&d(Very Rare!)"
 				to_observe: "alexsmobs:mungus"
 				type: "observation"
 			}]
@@ -1289,13 +1304,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.22.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "15CFA4EB4D1CA91C"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.22.task.1.title}"
+				title: "Spot a &e&oMantis Shrimp"
 				to_observe: "alexsmobs:mantis_shrimp"
 				type: "observation"
 			}]
@@ -1318,13 +1333,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.23.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "16D93481357F3448"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.23.task.1.title}"
+				title: "Spot a &e&oShoebill"
 				to_observe: "alexsmobs:shoebill"
 				type: "observation"
 			}]
@@ -1333,7 +1348,9 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.24.description.1}"]
+			description: [
+			  "&eTip:&r Seeing a Sunbird is a true rarity. Most go their entire lives without ever seeing one, if you are lucky enough to be blessed by their presence, the locals claim you will be brought great fortune!"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "15582BA5C979FE3C"
@@ -1366,13 +1383,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "{chapter.18.quest.24.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "38DB30C0321078EA"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.24.task.1.title}"
+				title: "Spot a &e&oSunbird"
 				to_observe: "alexsmobs:sunbird"
 				type: "observation"
 			}]
@@ -1395,13 +1412,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.25.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "378F04C9EA892CB1"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.25.task.1.title}"
+				title: "Spot a &e&oTarantula Hawk"
 				to_observe: "alexsmobs:tarantula_hawk"
 				type: "observation"
 			}]
@@ -1410,7 +1427,9 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.26.description.1}"]
+			description: [
+			  "&eTip:&r The Orca claims the sea as its home, one of the most intelligent creatures in the Animal Kingdom!"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "68F17AADA59CCF04"
@@ -1425,13 +1444,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.26.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "74B43A75C49BEDA5"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.26.task.1.title}"
+				title: "Spot an &e&oOrca &r&6(Rare!)"
 				to_observe: "alexsmobs:orca"
 				type: "observation"
 			}]
@@ -1440,7 +1459,9 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.27.description.1}"]
+			description: [
+			  "&eTip: &rTry naming it Perry!"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3B1C64F1AD2B2091"
@@ -1455,13 +1476,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.27.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "720C5F0AA36B93E0"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.27.task.1.title}"
+				title: "Spot a &e&oPlatypus"
 				to_observe: "alexsmobs:platypus"
 				type: "observation"
 			}]
@@ -1484,13 +1505,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.28.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "123D03A9055161E0"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.28.task.1.title}"
+				title: "Spot a &e&oTasmanian Devil"
 				to_observe: "alexsmobs:tasmanian_devil"
 				type: "observation"
 			}]
@@ -1499,7 +1520,9 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.29.description.1}"]
+			description: [
+			  "&eTip:&r The Guster can be found in Deserts exclusively. This mythical creature is bound by a special gemstone, no one truly knows the conditions for a Guster to be created, but they have been sighted throughout the ages."
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "1213871C91C1FB7B"
@@ -1514,13 +1537,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.29.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "1802635A0C9F502D"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.29.task.1.title}"
+				title: "Spot a &e&oGuster &r&4(Danger!)"
 				to_observe: "alexsmobs:guster"
 				type: "observation"
 			}]
@@ -1543,13 +1566,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.30.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "7DE7D557BD1B9F28"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.30.task.1.title}"
+				title: "Spot a &e&oLeafcutter Ant"
 				to_observe: "alexsmobs:leafcutter_ant"
 				type: "observation"
 			}]
@@ -1572,13 +1595,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.31.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "604C1B61CD35881C"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.31.task.1.title}"
+				title: "Spot a &e&oLobster"
 				to_observe: "alexsmobs:lobster"
 				type: "observation"
 			}]
@@ -1606,13 +1629,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "{chapter.18.quest.32.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "004C0CF35F3996E9"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.32.task.1.title}"
+				title: "Spot a &e&oMimic Octopus &r&6(Rare!)"
 				to_observe: "alexsmobs:mimic_octopus"
 				type: "observation"
 			}]
@@ -1635,13 +1658,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.33.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "62DD99FF012333CC"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.33.task.1.title}"
+				title: "Spot a &e&oFrilled Shark"
 				to_observe: "alexsmobs:frilled_shark"
 				type: "observation"
 			}]
@@ -1663,13 +1686,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.34.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "1D00063D20ABADEA"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.34.task.1.title}"
+				title: "Spot a &e&oRattlesnake"
 				to_observe: "alexsmobs:rattlesnake"
 				type: "observation"
 			}]
@@ -1692,13 +1715,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.18.quest.35.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "110E28CF2C0024C6"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.35.task.1.title}"
+				title: "Spot a &e&oRoadrunner"
 				to_observe: "alexsmobs:roadrunner"
 				type: "observation"
 			}]
@@ -1707,7 +1730,9 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.36.description.1}"]
+			description: [
+			  "&eTip:&r The Dropbear is one scary creature! Find it in The Nether! (Come prepared!)"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "327CFFB01545E1F2"
@@ -1727,13 +1752,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "{chapter.18.quest.36.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "0FBD34818E439285"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.36.task.1.title}"
+				title: "Spot a &e&oDropbear &r&6(Rare!) &r&4(Danger!)"
 				to_observe: "alexsmobs:dropbear"
 				type: "observation"
 			}]
@@ -1758,7 +1783,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{chapter.18.quest.37.subtitle}"
+			subtitle: "&oThe Chief of Police has a few words to say before you can begin your adventure, I would advise you follow his advice!"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -1773,12 +1798,12 @@
 					}
 				}
 				id: "5F64014F55ED35D7"
-				title: "{chapter.18.quest.37.task.1.title}"
+				title: "&eFilming Permit &n(Click To Agree)"
 				type: "checkmark"
 			}]
 			x: -2.0d
 			y: -5.0d
 		}
 	]
-	title: "{chapter.18.title}"
+	title: "&2Animal Snap!"
 }
