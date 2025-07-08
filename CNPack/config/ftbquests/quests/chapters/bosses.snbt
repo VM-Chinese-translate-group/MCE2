@@ -112,7 +112,7 @@
 		}
 		{
 			corner: true
-			dependency: "0162F2A9F032B442"
+			dependency: "76F98E53D8839A11"
 			height: 1.3d
 			image: "modpack:textures/mc-eternal-gems-comm-gem-7.png"
 			rotation: 0.0d

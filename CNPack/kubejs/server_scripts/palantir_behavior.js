@@ -23,7 +23,6 @@ ItemEvents.rightClicked(event => {
         { id: 'goety_cataclysm:aptrgangr', weight: 80 },
         { id: 'goety_cataclysm:royal_draugr_servant', weight: 100 },
         { id: 'goety:wither_necromancer_servant', weight: 40 },
-            { id: 'goety:reaper_servant', weight: 110 },
         { id: 'goety_cataclysm:elite_draugr_servant', weight: 100 }
     ];
 
@@ -45,9 +44,9 @@ ItemEvents.rightClicked(event => {
 
        
         server.runCommand(`execute at ${name} run summon ${selectedEntity} ~ ~1 ~5 {DeathLootTable:"minecraft:empty"}`);
-
-        
-        server.runCommand(`execute at ${name} run tag @e[type=${selectedEntity},distance=..50,limit=1,sort=nearest] add ${entityTag}`);
+server.scheduleInTicks(2, () => {
+  server.runCommand(`execute at ${name} run tag @e[type=${selectedEntity},distance=..50,limit=1,sort=nearest] add ${entityTag}`);
+});
 
 
         server.scheduleInTicks(600, () => {

@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "id": "titles:pilot",
+  "rarity": "uncommon",
+  "defaultDisplay": "the Pilot"
+}

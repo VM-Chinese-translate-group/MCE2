@@ -274,6 +274,7 @@
 						"botania:elven_unlock": 1b
 					}
 				}
+				match_nbt: true
 				title: "Lexica Botania (with &6Elven Knowledge&r)"
 				type: "item"
 				weak_nbt_match: true
@@ -693,10 +694,15 @@
 					type: "item"
 				}
 				{
+					hasCustomPicture: false
 					icon: "minecraft:lapis_block"
 					id: "695FC871D1105C97"
-					title: "&oConstruct the Terrestrial Agglomeration Plate"
-					type: "custom"
+					ignoreState: false
+					layer: true
+					name: "terra_plate"
+					rightclick: false
+					title: "{mce.questing.botania.task.terra_plate_structure}"
+					type: "questsadditions:structure"
 				}
 				{
 					count: 2L
@@ -784,10 +790,15 @@
 					type: "item"
 				}
 				{
+					hasCustomPicture: false
 					icon: "botania:glimmering_livingwood"
 					id: "31FEB2F2455AEF4B"
-					title: "&oConstruct the Portal to Alfheim"
-					type: "custom"
+					ignoreState: false
+					layer: true
+					name: "elven_portal"
+					rightclick: false
+					title: "{mce.questing.botania.task.elven_portal_structure}"
+					type: "questsadditions:structure"
 				}
 			]
 			title: "&6The Portal to Alfheim"
@@ -910,7 +921,7 @@
 				item: "botania:endoflame"
 				type: "item"
 			}]
-			title: "Hydroangeas"
+			title: "Endoflame"
 			x: -3.0d
 			y: 5.0d
 		}
@@ -1326,10 +1337,15 @@
 					type: "item"
 				}
 				{
+					hasCustomPicture: false
 					icon: "minecraft:beacon"
 					id: "3D9FE7E661F48C7B"
-					title: "&oConstruct the setup for the Ritual of Gaia"
-					type: "custom"
+					ignoreState: false
+					layer: true
+					name: "ritual_of_gaia"
+					rightclick: false
+					title: "{mce.questing.botania.task.gaia_ritual_structure}"
+					type: "questsadditions:structure"
 				}
 			]
 			title: "The Ritual of Gaia"
