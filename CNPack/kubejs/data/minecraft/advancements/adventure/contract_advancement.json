@@ -3,8 +3,8 @@
       "icon": {
         "item": "kubejs:contract"
       },
-      "title": "Dubious Legal Matters",
-      "description": "I hope you got legal advice before signing this damn thing..",
+      "title": "可疑的法律事务",
+      "description": "希望你在签这破玩意儿之前咨询过律师……",
       "frame": "challenge",
       "show_toast": true,
       "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
