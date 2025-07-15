@@ -1,23 +1,22 @@
 {
-  "dialog.ui.esc": "Exit Tutorial",
-  "dialog.ui.confirm_esc": "Are you sure you want to exit the tutorial?",
+  "dialog.ui.esc": "退出教程",
+  "dialog.ui.confirm_esc": "确定要退出教程吗？",
 
-  "dialog.mce_dialog.speaker.barry": "Barry!",
-  "dialog.mce_dialog.speaker.end": "Fin -",
-  "dialog.test_dialog.entry.end.text": "You have finished the tutorial! Open your Quest Book and sign the contract! Hate is always foolish, Love is always wise! Never be cruel and never be cowardly, FAREWELL!",
+  "dialog.mce_dialog.speaker.barry": "巴里！",
+  "dialog.mce_dialog.speaker.end": "终章 -",
+  "dialog.test_dialog.entry.end.text": "教程已完成！打开任务书签署契约吧！仇恨永远愚蠢，爱意始终明智！永不行残忍之事，永不存怯懦之心，再会了！",
 
-  "dialog.mce_dialog.entry.start.text": "Oh.... Hello there @i, I'm Barry and I'm §6§lCHEESED§r to meet you! Welcome to MC Eternal 2! This is a brief tutorial kindly provided by yours truly!",
-  "dialog.mce_dialog.entry.2.text": "This modpack is full of many mods big and small, to help you navigate this strange new world try and get a §a§nQuest Book§r which drops from the first tree you chop!",
-  "dialog.mce_dialog.entry.2.text.1": "The §a§nQuest Book§r will be your new best friend! It provides you with guidance when needed and grants generous rewards for those eager enough to complete Quests!",
-  "dialog.mce_dialog.entry.2.text.2": "However, the modpack encourages you to not solely rely on Questing but instead use it to supplement your gameplay experience! Or §mignore it entirely§r if you'd prefer! But I would suggest you check it out because it is full of useful tips and advice!",
-  "dialog.mce_dialog.entry.4.text": "First and foremost, there are some changes to the game that are worth briefly discussing before you set off on your merry way!!",
-  "dialog.mce_dialog.entry.4.text.1": "The difficulty of this world changes with your progression... As your power grows, new dangerous foes begin to emerge! However, feel free to progress at your own pace!",
-  "dialog.mce_dialog.entry.5.text": "The game is broken up into three modes, §7Normal Mode§r - Which begins when you start a new world. §4Expert Mode§r - Which begins upon entering The Nether. §dMaster Mode§r§f - Which begins upon slaying The Ender Dragon!",
-  "dialog.mce_dialog.entry.5.text.1": "Additionally, opening an End Portal requires you to seek out §6§l12 Legendary Eyes§r of immense power. These eyes drop from only the most fierce and dangerous foes! They can also sometimes be found in other elements of gameplay, but that's for you to discover!",
-  "dialog.mce_dialog.entry.6.text": "If you run into any technical or gameplay difficulties, feel free to join our Discord!",
-  "dialog.mce_dialog.entry.6.text.1": " Oh... and finally... You'll need to sign a special contract of sorts. It's a 'mostly' standard legal document and nothing to worry about! You can find more details in the §a§nQuest Book§r",
-    "dialog.mce_dialog.entry.6.text.2": "So get to signing! Otherwise, ol' Barry will start sighing! Barry is surprisingly litigious for a sentient rodent. Otherwise I'll be forced to send some of the most §4§lEVIL§r creatures from all of creation after you... §oLawyers§r... Which I'd really rather not do. §c§lYOU HAVE 2 HOURS!!§r",
-  "dialog.mce_dialog.entry.7.text": "Thanks for reading this powerpoint presentation and I hope you have a wonderful day. LOTS OF LOVE FROM BARRY! §d§lXOXO",
-    "dialog.mce_dialog.entry.end.text": "Thanks for reading this powerpoint presentation and I hope you have a wonderful day. FAREWELL!!! LOTS OF LOVE FROM BARRY!"
-
+  "dialog.mce_dialog.entry.start.text": "噢……你好啊@i，我是巴里，§6§l很高兴§r见到你！欢迎来到永恒的MC2！这是由在下提供的简明教程！",
+  "dialog.mce_dialog.entry.2.text": "这个整合包包含大大小小许多模组，获取§a§n任务书§r能帮助你探索这个新奇世界——它会在你砍倒第一棵树时掉落！",
+  "dialog.mce_dialog.entry.2.text.1": "§a§n任务书§r将成为你最好的伙伴！它会在需要时提供指引，并为热衷完成任务的玩家发放丰厚奖励！",
+  "dialog.mce_dialog.entry.2.text.2": "不过整合包鼓励你不要完全依赖任务系统，而是将其作为游戏体验的补充！当然也可以§m完全无视§r它！但我建议你至少看看，因为里面有很多实用提示和建议！",
+  "dialog.mce_dialog.entry.4.text": "首先，在你踏上冒险之旅前，有些游戏改动值得简要说明！！",
+  "dialog.mce_dialog.entry.4.text.1": "这个世界会随进度动态调整难度……当你变强时，更危险的敌人将会出现！不过请按照自己的节奏游玩！",
+  "dialog.mce_dialog.entry.5.text": "游戏分为三个阶段：§7普通模式§r（初始阶段）→§4专家模式§r（进入下界后）→§d大师模式§r§f（击败末影龙后）！",
+  "dialog.mce_dialog.entry.5.text.1": "另外开启末地传送门需要收集§6§l12颗传奇之眼§r，这些蕴含强大力量的眼球只会从最凶猛的敌人身上掉落！也可能通过其他方式获取，这就留待你自行探索了！",
+  "dialog.mce_dialog.entry.6.text": "若遇到技术或游戏问题，欢迎加入我们的Discord！",
+  "dialog.mce_dialog.entry.6.text.1": "噢，最后……你需要签署一份特殊契约。这只是份“基本”标准的法律文件，完全不用担心！详情可查阅§a§n任务书§r",
+  "dialog.mce_dialog.entry.6.text.2": "快去签字吧！否则老巴里可要叹气啦！作为有知觉的啮齿动物，巴里对诉讼异常热衷。不然我只能派创世以来最§4§l邪恶§r的生物追讨你了……§o律师§r……我实在不愿如此。§c§l你有两小时期限！！§r",
+  "dialog.mce_dialog.entry.7.text": "感谢观看本演示文稿，祝你游戏愉快。巴里献上满满爱意§d§lXOXO",
+  "dialog.mce_dialog.entry.end.text": "感谢观看本演示文稿，祝你游戏愉快。再会！！！巴里献上§d§l满满爱意§r"
 }
