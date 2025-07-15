@@ -54,7 +54,7 @@
    "item.piglinproliferation.buckler.desc.turnSpeed": "- 转头速度",
    "item.piglinproliferation.buckler.desc.noJumping": "- 无法跳起",
    "enchantment.piglinproliferation.turning": "转向",
-   "enchantment.piglinproliferation.bang": "砰!",
+   "enchantment.piglinproliferation.bang": "砰！",
    "enchantment.piglinproliferation.turning.desc": "冲刺时增加转向速度，但也会减少盾击伤害。",
    "enchantment.piglinproliferation.bang.desc": "盾击会制造一个强力爆炸，对使用者和周围的生物造成伤害。",
    "piglinproliferation.advancements.nether.obtain_buckler.title": "冲击目标",
@@ -86,6 +86,6 @@
    "subtitles.entity.parrot.imitate.piglin_alchemist": "鹦鹉：咕哝",
    "subtitles.entity.parrot.imitate.piglin_traveler": "鹦鹉：咕哝",
    "subtitles.entity.parrot.imitate.zombified_piglin": "鹦鹉：咕哝",
-   "piglinproliferation.advancements.nether.obtain_travelers_compass.title": "上千个方块远的旅程",
-   "piglinproliferation.advancements.nether.obtain_travelers_compass.description": "通过与猪灵旅行家交易来获得一个旅行家的指南针 - 它可能会帮助你找到你需要的东西。。。"
+   "piglinproliferation.advancements.nether.obtain_travelers_compass.title": "上千格远的旅程",
+   "piglinproliferation.advancements.nether.obtain_travelers_compass.description": "通过与猪灵旅行家交易来获得一个旅行家的指南针——它可能会帮助你找到你需要的东西……"
 }
