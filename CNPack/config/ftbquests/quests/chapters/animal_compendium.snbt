@@ -591,7 +591,7 @@
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
 			  ""
-			  "&eTip：&r一种生活在沼泽中的大淡水龟。它们依靠锋利的喙抵御外界的危险。"
+			  "&e提示：&r一种生活在沼泽中的大淡水龟。它们依靠锋利的喙抵御外界的危险。"
 			  ""
 			]
 			hide_dependency_lines: true
