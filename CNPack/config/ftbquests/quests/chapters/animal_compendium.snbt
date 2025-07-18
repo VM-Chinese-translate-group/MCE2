@@ -1692,7 +1692,7 @@
 				id: "1D00063D20ABADEA"
 				observe_type: 5
 				timer: 0L
-				title: "发现一只&e&o响尾蛇"
+				title: "发现一条&e&o响尾蛇"
 				to_observe: "alexsmobs:rattlesnake"
 				type: "observation"
 			}]
