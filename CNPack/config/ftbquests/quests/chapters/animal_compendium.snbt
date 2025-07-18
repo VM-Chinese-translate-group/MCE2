@@ -1758,7 +1758,7 @@
 				id: "0FBD34818E439285"
 				observe_type: 5
 				timer: 0L
-				title: "发现一只&e&o悬熊&r&6（稀有！）&r&4（危险！）"
+				title: "发现一头&e&o悬熊&r&6（稀有！）&r&4（危险！）"
 				to_observe: "alexsmobs:dropbear"
 				type: "observation"
 			}]
