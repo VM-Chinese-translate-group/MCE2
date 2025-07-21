@@ -19,7 +19,7 @@
 		{
 			dependencies: ["4A8875DB724D07B8"]
 			description: [
-				"A basic tugboat that can operate on any furnace fuel. Fuel can be loaded with hoppers placed on top of tug docks."
+				"蒸汽拖船是一种基础拖船，可以通过任意熔炉燃料运行。在拖船码头上方放置漏斗可以为拖船补充燃料。"
 				"{image:modpack:textures/steam_tug.png width:197 height:100 align:center}"
 			]
 			id: "0FB8879F827C6CDE"
@@ -64,19 +64,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Steam Tug"
+			subtitle: "合成蒸汽拖船"
 			tasks: [{
 				id: "6EC2F4566302C346"
 				item: "littlelogistics:tug"
 				type: "item"
 			}]
-			title: "Steaming Ahead"
+			title: "全速前进！"
 			x: -6.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4A8875DB724D07B8"]
-			description: ["A simple barge that holds items, very similar to vanilla minecart. Must be docked and part of a tug-train to interface with hoppers."]
+			description: ["运输驳船是一种可以存储物品的驳船，类似于原版的运输矿车。需要与拖船相连且在码头靠岸才能与漏斗交互。"]
 			id: "464AB12F23B69E29"
 			rewards: [{
 				amount: 80L
@@ -85,26 +85,26 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Chest Barge"
+			subtitle: "合成运输驳船"
 			tasks: [{
 				id: "3447372AEA7D0719"
 				item: "littlelogistics:barge"
 				type: "item"
 			}]
-			title: "Floating Storage"
+			title: "漂浮存储"
 			x: -3.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4A8875DB724D07B8"]
 			description: [
-				"Performs fishing passively, uses vanilla fishing rod loot table. Needs to be in open water for nets to be deployed. Can be unloaded with hoppers and barge docks. Must be docked and part of a tug-train to interface with hoppers. "
+				"自动捕鱼驳船以原版钓鱼竿的战利品表自动进行钓鱼，其需要在开阔水域才能将网展开工作。需要漏斗和驳船码头来将物品取出。需要与拖船相连且在码头靠岸才能与漏斗交互。"
 				""
-				"The barge has shallow water and “overfishing” penalties, so it’s best to use this barge on long routes into oceans. "
+				"自动捕鱼驳船在浅水区会受到“过度捕捞”的惩罚，所以最好在远洋航行时使用。"
 				""
-				"The yield is maximised when the water is 20 or more blocks deep. Overfishing is tracked per barge and per block, routes 200 or more blocks long should be sufficient to avoid overfishing."
+				"捕捞量在水深20格时达到最大值。过度捕捞的情况会以每驳船每方块的方式记录，200格或以上长度的航线应该足以避免过度捕捞惩罚。"
 				""
-				"&6Hint:&r Autofishing will not enable you to gather the special bonus treasure from fishing by hand!"
+				"&6注意：&r自动捕鱼驳船无法捕得宝藏。"
 			]
 			id: "18F5E65F33931516"
 			rewards: [{
@@ -114,7 +114,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Auto-Fishing Barge"
+			subtitle: "合成自动捕鱼驳船"
 			tasks: [{
 				id: "5EBC264685752D69"
 				item: "littlelogistics:fishing_barge"
@@ -126,7 +126,7 @@
 		}
 		{
 			dependencies: ["4A8875DB724D07B8"]
-			description: ["A simple barge that seats one player."]
+			description: ["载客驳船可以搭乘一名玩家。"]
 			id: "43FD63D5A28178E8"
 			rewards: [{
 				amount: 80L
@@ -135,19 +135,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Seater Barge"
+			subtitle: "合成载客驳船"
 			tasks: [{
 				id: "1AAD6349CA2E567A"
 				item: "littlelogistics:seater_barge"
 				type: "item"
 			}]
-			title: "Nautical Throne"
+			title: "船之王座"
 			x: -1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4A8875DB724D07B8"]
-			description: ["Automatically collects items in a radius! Connect a Chest Barge behind the Item Collection Barge as the Item Collection Barge does not provide an iventory of its own!"]
+			description: ["掉落物收集驳船会自动拾取附近的物品。注意掉落物收集驳船自身没有存储空间，因此需要连接一个运输驳船。"]
 			id: "27470BBE37D58ACC"
 			rewards: [
 				{
@@ -190,7 +190,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Item Collection Barge"
+			subtitle: "合成掉落物收集驳船"
 			tasks: [{
 				id: "7FC22DFB8F242827"
 				item: "littlelogistics:vacuum_barge"
@@ -201,7 +201,7 @@
 		}
 		{
 			dependencies: ["4A8875DB724D07B8"]
-			description: ["Use this barge to transport fluids, can be loaded and unloaded with a Fluid Hoppers."]
+			description: ["储罐驳船用于运输流体。使用流体漏斗以输入输出流体。"]
 			id: "126D15AC79129806"
 			rewards: [{
 				amount: 80L
@@ -215,14 +215,14 @@
 				item: "littlelogistics:fluid_barge"
 				type: "item"
 			}]
-			title: "Aqua Accumulator"
+			title: "蓄水罐"
 			x: 1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4A8875DB724D07B8"]
 			description: [
-				"A tugboat powered by Forge Energy, can be charged when docked with a Vehicle Charger. The tug has an extra slot for a capacitor, this is useful if the tug ran out of energy mid-way and needs to be recharged."
+				"电力拖船由FE驱动。靠岸时可以通过载具充能器为其充电。电力拖船还有一个电容槽位，这可以在船舶半路没电时救燃眉之急。"
 				"{image:modpack:textures/energy_tug.png width:197 height:100 align:center}"
 			]
 			id: "68247F4CB20E5475"
@@ -267,19 +267,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Energy Tug"
+			subtitle: "合成电力拖船"
 			tasks: [{
 				id: "0D49134EB1598938"
 				item: "littlelogistics:energy_tug"
 				type: "item"
 			}]
-			title: "Aquatic Energized Expeditions"
+			title: "充满能量的远征"
 			x: 3.0d
 			y: -4.0d
 		}
 		{
 			description: [
-				"Vehicles can be linked using “vehicle chains”. Train and Tug/Barge orientation will be updated automatically!"
+				"载具之间可以通过载具链条相互连接。火车和拖船/驳船的方向也会自动更新！"
 				"{image:modpack:textures/linked.png width:197 height:100 align:center}"
 			]
 			id: "24F6E94A5BFCA6D3"
@@ -290,19 +290,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft some Vehicle Chains"
+			subtitle: "合成载具链条"
 			tasks: [{
 				count: 6L
 				id: "02F72B02ED551A59"
 				item: "littlelogistics:spring"
 				type: "item"
 			}]
-			title: "All Linked Up"
+			title: "铁索连环"
 			x: -6.0d
 			y: -2.5d
 		}
 		{
-			description: ["Held in hand, the Conductor's Wrench will display the locations of currently registered locomotives and tugs. Right clicking any rails will cycle it through its various shapes!"]
+			description: ["将列车长扳手拿在手上可以显示已注册的机车和拖船的位置。右击铁轨可以切换其形状或方向。"]
 			id: "3DC8A3C738D45819"
 			rewards: [{
 				amount: 75L
@@ -311,20 +311,20 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Conductor's Wrench"
+			subtitle: "合成列车长扳手"
 			tasks: [{
 				id: "1CB5AEFE0B93C316"
 				item: "littlelogistics:conductors_wrench"
 				type: "item"
 			}]
-			title: "Wrench it"
+			title: "旋转制胜"
 			x: -7.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["5CFD5B47B679D472"]
 			description: [
-				"A basic Steam Locomotive that can operate on any furnace fuel. Fuel can be loaded with hoppers!"
+				"蒸汽机车可以使用任何熔炉燃料。燃料可以通过漏斗装载！"
 				"{image:modpack:textures/steam_locomotive.png width:197 height:100 align:center}"
 			]
 			id: "1A140FBB683F2F40"
@@ -373,23 +373,23 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "1715BE9B228BEA5D"
-					title: "&eUnlock Title:&r the Conductor"
+					title: "&e解锁头衔：&rthe Conductor"
 					type: "command"
 				}
 			]
-			subtitle: "Craft a Steam Locomotive"
+			subtitle: "合成蒸汽机车"
 			tasks: [{
 				id: "152A66C88B7A122D"
 				item: "littlelogistics:steam_locomotive"
 				type: "item"
 			}]
-			title: "Choo Choo"
+			title: "呜——"
 			x: -6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5CFD5B47B679D472"]
-			description: ["Same as vanilla chest minecart, can be loaded or unloaded using vanilla hoppers or rapid hoppers from this mod."]
+			description: ["与原版运输矿车类似。可以使用原版漏斗和本模组的快速漏斗来输入输出物品。"]
 			id: "47C092292F4298EC"
 			rewards: [{
 				amount: 75L
@@ -398,19 +398,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Chest Train Car"
+			subtitle: "合成运输车厢"
 			tasks: [{
 				id: "148CF9526BB6A9D1"
 				item: "littlelogistics:chest_car"
 				type: "item"
 			}]
-			title: "Storage On Wheels"
+			title: "轮上存储"
 			x: -4.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5CFD5B47B679D472"]
-			description: ["Train cars are similar to vanilla minecarts, but can be linked to a locomotive and docked."]
+			description: ["车厢与原版矿车类似，不过需要与机车相连。"]
 			id: "24DFBDC284DB8D11"
 			rewards: [{
 				amount: 75L
@@ -419,7 +419,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Train Car"
+			subtitle: "合成车厢"
 			tasks: [{
 				id: "4ED9E5A4E2300E48"
 				item: "littlelogistics:seater_car"
@@ -432,7 +432,7 @@
 		{
 			dependencies: ["5CFD5B47B679D472"]
 			description: [
-				"A locomotive powered by Forge Energy, can be charged when docked with a Vehicle Charger. The locomotive has an extra slot for a capacitor, this is useful if the locomotive ran out of energy mid-way and needs to be recharged."
+				"电力机车是由FE驱动的机车，其在停靠时由载具充能器为其充电。电力机车还有一个电容槽位，这可以在火车半路没电时救燃眉之急。"
 				"{image:modpack:textures/energy_locomotive.png width:200 height:100 align:center}"
 			]
 			id: "48E6D7903B1E1DC4"
@@ -468,7 +468,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Craft a Energy Locomotive"
+			subtitle: "合成电力机车"
 			tasks: [{
 				id: "7F40C6E3CFB25CB9"
 				item: "littlelogistics:energy_locomotive"
@@ -479,9 +479,9 @@
 		}
 		{
 			description: [
-				"This item stores a route for the vehicle's. "
+				"用于配置和存储载具的路线。"
 				""
-				"When the item is placed in the vehicle's route slot, the vehicle will follow the route in order from node 0. Right click at any coordinate to add a node to the back of the tug route (cannot add to the middle). Right click at the location of any existing node to remove it. Shift right click to bring up the menu that lets you modify the order of nodes or rename them. The route can be copied by placing it together with an empty one in a crafting grid."
+				"将其放入载具的配置器槽位后，载具就会依此前往各个节点。手持配置器右击可以将当前位置添加到节点列表尾部（无法添加到列表中间）。在已存在节点处右击以移除节点。Shift+右击可以打开菜单来修改节点的顺序和名称。在合成栏可以将路线复制到一个空的配置器中。"
 			]
 			id: "03CAEB920979A70A"
 			rewards: [{
@@ -491,7 +491,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Route"
+			subtitle: "合成拖船航线配置器和列车路线配置器"
 			tasks: [
 				{
 					id: "0771ABF18C15E566"
@@ -504,15 +504,15 @@
 					type: "item"
 				}
 			]
-			title: "On Route"
+			title: "既定路线"
 			x: -4.5d
 			y: -2.5d
 		}
 		{
 			description: [
-				"Trains can be docked using a combination of “locomotive docking rails” and “train car docking rails”. Line the docking rails up, place unloaders below the rails and loaders on either side. Blue mode is used to unload and orange to load. "
+				"火车可以在机车装卸铁轨和车厢装卸铁轨组合的地方停靠。让装卸铁轨前后相连，在底部将物品输出，在侧面将物品输入。蓝色代表输出，橙色代表输入。"
 				""
-				"The rails will automatically tell the locomotive to wait as long as there’s anything to be moved, if a redstone signal is applied to the locomotive rail, the locomotive will keep waiting regardless."
+				"只要还有物品需要运输，机车就会一直等待。如果对机车装卸铁轨施加红石信号，机车将会一直保持等待。"
 			]
 			id: "475807285E166E6C"
 			rewards: [{
@@ -522,7 +522,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft some Locomotive and Train Car Docking Rails"
+			subtitle: "合成机车装卸铁轨和车厢装卸铁轨"
 			tasks: [
 				{
 					count: 3L
@@ -537,15 +537,15 @@
 					type: "item"
 				}
 			]
-			title: "Docking Depot"
+			title: "停靠站"
 			x: -4.5d
 			y: 0.5d
 		}
 		{
 			description: [
-				"Standard Switch and T-junction tracks can be switched using redstone. Powered rails work great when trying to make loops."
+				"转辙铁轨和T形转辙铁轨可以通过红石信号来切换路线。Powered rails work great when trying to make loops."
 				""
-				"Switch rails switch between straight or left/right when powered by a redstone signal!"
+				"转辙铁轨可以根据红石信号在直行和左/右转之间切换。"
 			]
 			id: "685BE99BBB7EEAC8"
 			rewards: [
@@ -561,11 +561,11 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "6D7D4CD56B6C5CAB"
-					title: "&eUnlock Title:&r the Little Logician"
+					title: "&e解锁头衔：&rthe Little Logician"
 					type: "command"
 				}
 			]
-			subtitle: "Craft some Junction and Switch Rails"
+			subtitle: "合成交接铁轨和转辙铁轨"
 			tasks: [
 				{
 					count: 5L
@@ -586,15 +586,15 @@
 					type: "item"
 				}
 			]
-			title: "Junction Ahead!"
+			title: "前方岔路"
 			x: -3.0d
 			y: 0.5d
 		}
 		{
 			description: [
-				"Automatic switch tracks will be switched by a locomotive with a route. Every time a locomotive approaches an automatic junction, it will look for the closest waypoint it is yet to visit, and switch the track accordingly. "
+				"自动转辙铁轨可以由机车根据路线来自动切换。当机车接近自动转辙铁轨时，其会寻找最近的路线，并依此切换铁轨方向。"
 				""
-				"Waypoint can be configured using the “locomotive route” item, they are not ordered."
+				"路线节点可以通过列车路线配置器来配置，不同节点之间是无序的。"
 			]
 			id: "7EB7F8F39EE0B0FB"
 			rewards: [{
@@ -604,7 +604,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft some Automatic Rails"
+			subtitle: "合成自动转辙铁轨"
 			tasks: [
 				{
 					id: "143522F9214211AA"
@@ -617,15 +617,15 @@
 					type: "item"
 				}
 			]
-			title: "Auto-Switching"
+			title: "自动切换"
 			x: -1.5d
 			y: 0.5d
 		}
 		{
 			description: [
-				"Place under a block of water, works similar to vanilla powered rail. Can be used to force the tug to take a specific route. "
+				"放置在一格水下。类似于原版的充能铁轨，可以限制拖船的行动路径。"
 				""
-				"Does not affect barges. Shift-right-click to rotate."
+				"对驳船无影响。Shift+右击以旋转。"
 			]
 			id: "01EEC1929B6E3379"
 			rewards: [{
@@ -635,7 +635,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Tug Guide Rail"
+			subtitle: "合成拖船导轨"
 			tasks: [{
 				count: 8L
 				id: "17FC2CAF40D3CB5C"
@@ -648,9 +648,9 @@
 		}
 		{
 			description: [
-				"Assists vessels around sharp corners, should always be used on sharp corners or near entrances to narrow waterways (such as those for docks). Affects both tugs and barges. Shift-right-click to flip direction. "
+				"船舶转角导轨可以帮助船舶进行急转弯。应在急转弯处和狭窄水道入口处（如码头入口）使用。对拖船和驳船均有效。Shift+右击以切换方向。"
 				""
-				"Must not have a full solid block directly on top (i.e. no stone, planks etc. fence posts, signs etc. OK)."
+				"其上方不能有完整方块。（即，石头、木板等不能放在上面，而栅栏、告示牌等可以）"
 			]
 			id: "07FF09DBEC359A60"
 			rewards: [{
@@ -660,20 +660,20 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Vessel Corner Guide Rail"
+			subtitle: "合成船舶转角导轨"
 			tasks: [{
 				count: 3L
 				id: "227E6A952ADFEEB1"
 				item: "littlelogistics:guide_rail_corner"
 				type: "item"
 			}]
-			title: "Tight Corners"
+			title: "急转弯"
 			x: -1.5d
 			y: -5.5d
 		}
 		{
 			description: [
-				"This block emits a redstone signal from the back when it detects a vehicle, will display range when right-clicked."
+				"载具传感器在侦测到载具时会向后方发送红石信号。右击可以显示侦测范围。"
 				"{image:modpack:textures/vehicle_detector.png width:197 height:100 align:center}"
 			]
 			id: "0DFF4022F753EBA6"
@@ -684,24 +684,24 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Vehicle Detector"
+			subtitle: "合成载具传感器"
 			tasks: [{
 				count: 2L
 				id: "09FD24D593909673"
 				item: "littlelogistics:vessel_detector"
 				type: "item"
 			}]
-			title: "I See You~"
+			title: "我看到你们了……"
 			x: 0.0d
 			y: -5.5d
 		}
 		{
 			description: [
-				"There are two dock blocks: barge and tug. The tug block must always be present for the barge docks to work. The top texture of the tug dock must be aligned with the barge docks, you can shift right-click the tug dock to flip the dock direction. "
+				"Little Logistics有两种码头：驳船码头和拖船码头。必须要有拖船码头，驳船码头才能工作。拖船码头的顶部纹理必须与驳船码头的向贴合。可以通过Shift+右击拖船码头以翻转其方向。"
 				""
-				"The barge docks must form a straight line from the tug dock, there shouldn’t be any gaps in the line. The tug dock can only insert into the tug (orange/output mode), place a hopper on top of the dock to extract. The barge docks can both insert (orange/output mode) and extract (blue/input mode) into/from the barges, shift-right click to switch the mode. "
+				"驳船码头必须与拖船码头连成一条直线，中间不能断开。拖船码头仅能在其上方放置漏斗将物品输入进拖船（橙色/输出模式），而驳船码头可以向驳船输入（橙色/输出模式）和输出（蓝色/输入模式）物品。Shift+右击以改变其工作模式。"
 				""
-				"Place a hopper below the waterblock next to the barge dock to extract. The dock line should be next to a 1 block wide canal, wider canals can prevent the vessels from docking properly."
+				"在驳船码头旁的水下方放置漏斗可以将物品取出。建议将港口线放置在一格宽的水域旁，以方便船舶在港口靠岸。"
 			]
 			id: "6E87FD1E951B8F6D"
 			rewards: [{
@@ -711,7 +711,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Tug and Barge Dock"
+			subtitle: "合成拖船码头和驳船码头"
 			tasks: [
 				{
 					count: 2L
@@ -732,7 +732,7 @@
 		}
 		{
 			description: [
-				"A hopper but for fluids, can import from the top and export from the sides. Can be loaded by right-clicking with buckets. Can be used to load/unload vessels using Docks."
+				"流体漏斗当然是输送流体的漏斗，可以从顶部输入，从侧面输出。可以通过桶来装卸流体。可以与码头一起为船舶输入输出流体。"
 				"{image:modpack:textures/fluid_hopper.png width:197 height:100 align:center}"
 			]
 			id: "1FC282D6D6B00767"
@@ -743,19 +743,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Fluid Hopper"
+			subtitle: "合成流体漏斗"
 			tasks: [{
 				id: "00CDC87065678BD7"
 				item: "littlelogistics:fluid_hopper"
 				type: "item"
 			}]
-			title: "A Fancy Straw"
+			title: "花哨的吸管？"
 			x: -1.5d
 			y: -2.5d
 		}
 		{
 			description: [
-				"A charger for Energy Tug or Locomotive, connect to any forge energy cable to add power to the charger. Place on top of a dock or beside a rail to charge the vehicle when docking."
+				"载具充能器用于给电力拖船和电力机车充电。与任意FE线缆相连即可为其供能。放置在拖船码头上方或者机车装卸铁轨旁即可为停靠的载具充电。"
 				"{image:modpack:textures/vehicle_charger.png width:197 height:100 align:center}"
 			]
 			id: "6D38DDB6216520E2"
@@ -766,19 +766,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Vehicle Charger"
+			subtitle: "合成载具充能器"
 			tasks: [{
 				id: "1B0E64374364CDA5"
 				item: "littlelogistics:vessel_charger"
 				type: "item"
 			}]
-			title: "Energize!"
+			title: "充满活力！"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			description: [
-				"Same as vanilla hopper, but 8 times as fast!"
+				"8倍速的原版漏斗！"
 				"{image:modpack:textures/rapid_hopper.png width:197 height:100 align:center}"
 			]
 			id: "1153649061EA90BD"
@@ -789,40 +789,40 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a Rapid Hopper"
+			subtitle: "合成快速漏斗"
 			tasks: [{
 				id: "4B8E220051DC5B4C"
 				item: "littlelogistics:rapid_hopper"
 				type: "item"
 			}]
-			title: "Quick Quick Quick!"
+			title: "唯快不破"
 			x: -3.0d
 			y: -2.5d
 		}
 		{
 			description: [
-				"Locomotive collision avoidance"
+				"机车防碰撞系统"
 				""
-				"Locomotives have built-in collision detection that is designed for junctions. Locomotives AI will automatically decide and give priority to avoid a collision."
+				"机车内置了为铁路岔口设计的碰撞检测系统，机车AI会自行判断并优先避免碰撞。"
 				""
-				"Locomotive speed"
+				"机车速度"
 				""
-				"Locomotives will automatically control their speed on rails. They will travel faster on long stretches of straight tracks, but slow down as they approach docks, junctions, or corners."
+				"机车会自动控制它们的速度。其会在长直线路段上加速，并在接近装卸处、插口和弯道时减速。"
 			]
 			id: "5CFD5B47B679D472"
-			subtitle: "Locomotive Info"
+			subtitle: "一些关于机车的信息"
 			tasks: [{
 				id: "428D335D6E790746"
-				title: "Locomotive Info"
+				title: "一些关于机车的信息"
 				type: "checkmark"
 			}]
-			title: "Feeling a Little Loco"
+			title: "有点机车"
 			x: -7.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5CFD5B47B679D472"]
-			description: ["Can transport fluids, can be loaded or unloaded using fluid hoppers."]
+			description: ["储罐车厢可以运输流体，可以使用流体漏斗来输入输出流体。"]
 			id: "4E8FFA5B45271111"
 			rewards: [
 				{
@@ -865,40 +865,40 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Fluid Tank Train Car"
+			subtitle: "合成储罐车厢"
 			tasks: [{
 				id: "4D807B5DC4168249"
 				item: "littlelogistics:fluid_car"
 				type: "item"
 			}]
-			title: "Liquid On The Go"
+			title: "流体运输"
 			x: -3.0d
 			y: -1.0d
 		}
 		{
 			description: [
-				"There are two types of vessels in this mod: tugs and barges. Tugs can move the barges when chained, and barges and do all sort of stuff. Tugs can also be moved manually using leads."
+				"Little Logistics有两种类型地船只：拖船和驳船。拖船可以牵引相连地驳船，而驳船负责各种运输功能。此外，还可以通过拴绳来手动牵引拖船。"
 				""
-				"&8Chapter credit: Pixiefer"
+				"&8本章鸣谢：Pixiefer"
 			]
 			id: "4A8875DB724D07B8"
-			subtitle: "Tugs and Barges Info"
+			subtitle: "一些关于拖船和驳船的信息"
 			tasks: [{
 				id: "2BD231BE945A2AB6"
-				title: "Tugs and Barges"
+				title: "拖船和驳船"
 				type: "checkmark"
 			}]
-			title: "A Little Tug Goes a Long Way"
+			title: "小拖船，大舞台！"
 			x: -7.5d
 			y: -4.0d
 		}
 		{
 			description: [
-				"&6&lLittle Logistics&r is a mod focused on efficient, affordable and long-distance transport!"
+				"&6&lLittle Logistics&r模组提供了一种高效、低成本的长途运输方式。"
 				""
-				"Using fun little vehicles such as trains and boats, you can improve your logistics in a cute and effective way! "
+				"通过火车、船舶等有趣的交通工具，你可以有效改善你的物流系统！"
 				"{image:modpack:textures/steam_tug.png width:180 height:100 align:center}"
-				"                &8&oTug Steamboat!"
+				"                &8&o蒸汽拖船！"
 			]
 			id: "47A4EB21B8670655"
 			rewards: [{
@@ -908,10 +908,10 @@
 			}]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "Learn about the mod!"
+			subtitle: "了解Little Logistics模组"
 			tasks: [{
 				id: "4D648807D80D7341"
-				title: "What is Little Logistics?"
+				title: "Little Logistics是什么?"
 				type: "checkmark"
 			}]
 			x: -10.0d
