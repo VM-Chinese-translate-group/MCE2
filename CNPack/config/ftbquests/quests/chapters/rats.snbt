@@ -84,8 +84,8 @@
 	quests: [
 		{
 			description: [
-			  "Craft a &eCauldron&r and place a bucket of milk inside. Wait for it to curdle!"
-			  "&eTip:&r Cheese can be used to tame rats! Wow!"
+			  "制作一个&e炼药锅&r并放入一桶牛奶。等待它凝固吧！"
+			  "&e提示：&r奶酪可以用来驯服老鼠！太神奇了！"
 			]
 			hide_dependency_lines: true
 			id: "4BF96C95CFE9D92D"
@@ -103,7 +103,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&eCheese Making!"
+			subtitle: "&e奶酪制作！"
 			tasks: [
 				{
 					id: "2EB66AAD8E0A6C6A"
@@ -121,7 +121,7 @@
 		}
 		{
 			description: [
-			  "The &eCurdling Station&r can be used to automate the chees making process! "
+			  "&e凝乳台&r可以自动化奶酪的制作过程！"
 			]
 			id: "483F374B33EAB505"
 			rewards: [{
@@ -131,7 +131,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&eCheese Making Part II"
+			subtitle: "&e奶酪制作 第二部分"
 			tasks: [{
 				id: "633A34E9333CF014"
 				item: "rats:auto_curdler"
@@ -142,7 +142,7 @@
 		}
 		{
 			description: [
-			  "&eTip:&r Rats can be used for all sorts of things, &o(including but not limited to)&r Cooking, Cleaning, Mining, Fighting, Snuggling, Conquering, Worshipping."
+			  "&e提示：&r老鼠可以被用于各种用途，&o包括但不限于&r：烹饪、清理、挖矿、战斗、依偎、征服、崇拜。"
 			]
 			hide_dependency_lines: true
 			id: "345F8558DB7253AA"
@@ -167,13 +167,13 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "&oTame a rat by dropping cheese and letting it have a snack!"
+			subtitle: "&o丢下奶酪让老鼠吃掉来驯服它吧！"
 			tasks: [{
 				advancement: "minecraft:husbandry/tame_an_animal"
 				criterion: ""
 				icon: "rats:cheese"
 				id: "0773FC5376E06CFB"
-				title: "&eTame a Rat"
+				title: "&e驯服一只老鼠"
 				type: "advancement"
 			}]
 			x: 1.0d
@@ -181,10 +181,10 @@
 		}
 		{
 			description: [
-				"Wild Rats can sometimes spawn near your crops! They are very crafty.. and hungry!!"
-				"They will eat all they can and even burrow through wood/dirt to steal food from chests!"
+				"野生老鼠有时会在你的作物附近生成！它们非常狡猾……而且贪吃！！"
+				"它们会吃掉一切，甚至会挖掘木头/泥土偷取箱子里的食物！"
 				""
-				"Behold! The humble Rat Trap! Place or two of these around your farm and food storage to scare off those no good wild rats! "
+				"注意啦！这是个简陋但有效的老鼠陷阱！在你的农田和食物储藏地附近放上一两个，吓跑那些讨厌的野鼠吧！"
 			]
 			id: "0328BC07E0F0215E"
 			rewards: [{
@@ -194,7 +194,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eRat Trap"
+			subtitle: "制作一个&e捕鼠夹"
 			tasks: [{
 				id: "4F263B92FD679E39"
 				item: "rats:rat_trap"
@@ -204,5 +204,5 @@
 			y: 5.0d
 		}
 	]
-	title: "&2Rats"
+	title: "&2老鼠"
 }
