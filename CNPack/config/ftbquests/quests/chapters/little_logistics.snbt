@@ -911,7 +911,7 @@
 			subtitle: "了解Little Logistics模组"
 			tasks: [{
 				id: "4D648807D80D7341"
-				title: "Little Logistics是什么?"
+				title: "Little Logistics是什么？"
 				type: "checkmark"
 			}]
 			x: -10.0d
