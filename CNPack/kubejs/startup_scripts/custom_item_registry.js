@@ -10,7 +10,11 @@ StartupEvents.registry("item", event => {
   
   event.create('artifact_runestone_dark_inscribed_large').displayName('§ePortal Keystone').glow(false);
 
+  event.create('ingot_thousand_metals').displayName('§eIngot of a Thousand Metals').glow(false);
+
   event.create('artifact_endergem').displayName('§bSoul Stone').glow(false);
+  
+  event.create('travel_ticket').displayName('§dTravel Ticket - Sakura Dimension').glow(true);
   
   event.create('vegan_leather').displayName('§7Ethically™ Sourced Leather').glow(false);
 
@@ -21,8 +25,6 @@ StartupEvents.registry("item", event => {
   event.create('mossy_letter').displayName('§2Bodyguard Contract - Coralssus').glow(true);
 
   event.create('mossy_letter1').displayName('§2Bodyguard Contract - Bear').glow(true);
-
-  event.create('cat_burger').displayName('§eStrange Burger').glow(true);
 
   event.create('elegant_letter').displayName('§eBodyguard Contract - Kobolediator').glow(true);
 
@@ -54,6 +56,12 @@ StartupEvents.registry("item", event => {
 
   event.create("corporea_crystal")
     .tooltip(Text.translate("item.kubejs.corporea_crystal.desc").color("light_purple"))
+
+
+  
+  //Icons for Ponders
+  event.create("icon_yes")
+  event.create("icon_no")
   
 })
 

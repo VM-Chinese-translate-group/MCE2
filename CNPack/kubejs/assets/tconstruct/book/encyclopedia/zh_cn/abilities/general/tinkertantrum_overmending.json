@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tinkertantrum:overmending",
+  "text": [
+    {
+      "text": "When equipped, the Item will absorb collected XP to fill up a buffer, which is consumed over time to charge Overslime."
+    }
+  ],
+  "more_text_space": false,
+  "effects": [
+    "Holds 15 Experience per level",
+    "Conversion speed is determined by Level",
+    "Requires 1 ability slot per level"
+  ]
+}
