@@ -298,7 +298,7 @@
 'cataclysm:ender_guardian' : '',
 'cataclysm:endermaptera' : '',
 'cataclysm:hippocamtus' : '',
-'cataclysm:ignis' : '{Count:1b,id:"endrem:nether_eye",tag:{Damage:0,dropchance:1.0d}}|||{Count:1b,id:"relics:rage_glove",tag:{abilities:{phlebotomy:{points:0,stats:{attack_speed:0.00689d,heal:2.0E-4d,movement_speed:0.02445d}},rage:{points:0,stats:{dealt_damage:0.03854d,duration:2.18522d,incoming_damage:0.0489d}},spurt:{points:0,stats:{cooldown:15.37375d,damage:0.21813d,distance:4.33296d}}},dropchance:1.0d}}',
+'cataclysm:ignis' : '{Count:1b,id:"endrem:nether_eye",tag:{Damage:0,dropchance:0.1d}}|||{Count:1b,id:"relics:rage_glove",tag:{abilities:{phlebotomy:{points:0,stats:{attack_speed:0.00689d,heal:2.0E-4d,movement_speed:0.02445d}},rage:{points:0,stats:{dealt_damage:0.03854d,duration:2.18522d,incoming_damage:0.0489d}},spurt:{points:0,stats:{cooldown:15.37375d,damage:0.21813d,distance:4.33296d}}},dropchance:1.0d}}',
 'cataclysm:ignited_berserker' : '',
 'cataclysm:ignited_revenant' : '',
 'cataclysm:kobolediator' : '',

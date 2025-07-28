@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tinkertantrum:veinmining",
+  "text": [
+    {
+      "text": "Enables Vein Mining with the Tool. Higher levels won't Vein Mine any better than the Enchantment can."
+    }
+  ],
+  "more_text_space": false,
+  "effects": [
+    "Behaves exactly like the Vein Mining Enchantment (Because it is)",
+    "Single Level"
+  ]
+}

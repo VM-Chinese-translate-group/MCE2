@@ -20,6 +20,11 @@
   "modifier.tinkertantrum.veinmining.flavor": "Yeah yeah, you miss the Keybind, we know.",
   "modifier.tinkertantrum.veinmining.description": "Allows the Tool to Vein Mine. Higher levels won't Vein Mine any better than the Enchantment can.",
 
+  "modifier.tinkertantrum.deflecting": "Deflecting",
+  "modifier.tinkertantrum.deflecting.flavor": "While you were Mining and Crafting, I Studied the Blade.",
+  "modifier.tinkertantrum.deflecting.description": "Allows the Tool to briefly Block after landing a hit.",
+
+
   "material.tinkertantrum.enchanted_amethyst": "Enchanted Alloy",
   "material.tinkertantrum.enchanted_amethyst.flavor": "You can stop asking about Veinmining now!",
   "material.tinkertantrum.enchanted_amethyst.encyclopedia": "Allows the Tool to Vein Mine, just like the Enchantment! Higher levels won't Vein Mine any better than the Enchantment can."

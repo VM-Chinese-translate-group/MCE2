@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tinkertantrum:overcharging",
+  "text": [
+    {
+      "text": "Attacking builds up Overslime on equipped Armor every so many hits."
+    }
+  ],
+  "more_text_space": false,
+  "effects": [
+    "Single Level",
+    "Requires 1 ability slot",
+    "Won't add Overslime to armor without any Slime"
+  ]
+}
