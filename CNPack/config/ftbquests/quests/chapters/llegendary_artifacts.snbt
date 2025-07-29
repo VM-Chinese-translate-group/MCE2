@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: "diamond"
 	filename: "llegendary_artifacts"
@@ -14,6 +13,13 @@
 			}
 		}
 		id: "goety:nameless_staff"
+		tag: {
+			cap: {
+				Items: [ ]
+				Size: 1
+				slot: 0
+			}
+		}
 	}
 	id: "35EB3BAAC2AD189B"
 	images: [
@@ -4701,10 +4707,7 @@
 			y: 10.025103519668733d
 		}
 		{
-			description: [
-			  "&eHint:&r The Dreadsteel Shield has the highest Blocking Damage Reduction a shield can have after Expert Mode"
-			  ""
-			]
+			description: ["&eHint:&r The Dreadsteel Shield has the highest Blocking Damage Reduction a shield can have after Expert Mode\n\n"]
 			id: "21515DFB4FB59D05"
 			rewards: [
 				{
@@ -4782,9 +4785,7 @@
 			y: 9.0d
 		}
 		{
-			description: [
-			  "{image:ftbchunks:textures/faces/minecraft/goat.png width:100 height:100 align:center}"
-			]
+			description: ["{image:ftbchunks:textures/faces/minecraft/goat.png width:100 height:100 align:center}"]
 			id: "5E65C3CC3866CD42"
 			optional: true
 			rewards: [
