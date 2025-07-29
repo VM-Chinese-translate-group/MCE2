@@ -47,7 +47,7 @@
 			description: [
 				"Ol' Reliable"
 				""
-				"&eTip:&r Hold SHIFT while mining an ore vein to excavate!"
+				"&eTip:&r Tools enchanted with Vein Miner will be able to excavate! You can craft Amethyst Tools which come pre-enchanted!"
 
 			]
 			hide_until_deps_complete: true

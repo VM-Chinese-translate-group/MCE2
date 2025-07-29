@@ -34,9 +34,7 @@
 			y: -0.1d
 		}
 		{
-			description: [
-			  "for developer use"
-			]
+			description: ["for developer use"]
 			disable_toast: true
 			id: "3B97D75865A88DAD"
 			rewards: [{
@@ -72,13 +70,23 @@
 		}
 		{
 			id: "70147B2F28595BEB"
-			rewards: [{
-				auto: "invisible"
-				command: "/tellraw {p} {\"text\":\"You feel... afraid ... Like something is watching you... Hunting you... Maybe I shouldn't have done that..\",\"italic\":true,\"color\":\"dark_gray\"}"
-				console: true
-				id: "624172FF6FE62976"
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw {p} {\"text\":\"You feel... afraid ... Like something is watching you... Hunting you... Maybe I shouldn't have done that..\",\"italic\":true,\"color\":\"dark_gray\"}"
+					console: true
+					id: "624172FF6FE62976"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add {p} the_desecrator"
+					console: true
+					id: "6C150BA13188A288"
+					team_reward: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "18FF477E06EEDB12"
 				item: {
@@ -156,6 +164,62 @@
 			}]
 			x: 1.0d
 			y: 1.0d
+		}
+		{
+			id: "008603DC679289D0"
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				id: "13F8D34CD238E9A5"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"1x Rat - 24 Hours \" ,\"color\":\"gray\",\"italic\":true}"
+								"{\"text\":\"Status: LATE!\",\"color\":\"red\",\"italic\":true}"
+								"{\"text\":\"RETURN ON TIME OR FACE FINES!\",\"color\":\"dark_red\",\"underlined\":true}"
+								"{\"text\":\"YOU WOULDN'T STEAL A CAR\",\"color\":\"gray\",\"italic\":true}"
+								"{\"text\":\"YOU WOULDN'T STEAL A HANDBAG\",\"color\":\"gray\",\"italic\":true}"
+								"{\"text\":\"YOU WOULDN'T STEAL A TELEVISION\",\"color\":\"gray\",\"italic\":true}"
+								"{\"text\":\"SO DON'T STEAL A RAT! RAT THEFT IS A CRIME!\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true}"
+							]
+							Name: "{\"text\":\"Rent-a-Rat Reciept\",\"color\":\"dark_gray\",\"italic\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78B64AC468A6042B"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§7§o1x Rat - 24 Hours \"}"
+								"{\"text\":\"§4§o§eStatus: §cLATE!\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"§4§nRETURN ON TIME OR FACE FINES!\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"§7§oYOU WOULDN'T STEAL A CAR\"}"
+								"{\"text\":\"§7§oYOU WOULDN'T STEAL A HANDBAG\"}"
+								"{\"text\":\"§7§oYOU WOULDN'T STEAL A TELEVISION\"}"
+								"{\"text\":\"§7§o§4§lSO DON'T STEAL A RAT! RAT THEFT IS A CRIME!\"}"
+								"{\"text\":\"\"}"
+							]
+							Name: "{\"text\":\"§8§oRent-a-Rat Reciept\"}"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "&eItem Update (AUTO)"
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "dev"

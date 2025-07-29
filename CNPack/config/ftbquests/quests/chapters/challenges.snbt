@@ -241,15 +241,15 @@
 			optional: true
 			rewards: [
 				{
-				id: "6DB6338F17552A41"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "blackmarket_cache"
+					id: "6DB6338F17552A41"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
 					}
-				}
-				type: "item"
+					type: "item"
 				}
 				{
 					count: 3
@@ -296,16 +296,16 @@
 			optional: true
 			rewards: [
 				{
-				count: 2
-				id: "729D4EA2848718B1"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "blackmarket_cache"
+					count: 2
+					id: "729D4EA2848718B1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
 					}
-				}
-				type: "item"
+					type: "item"
 				}
 				{
 					id: "1B1AA34E68F57FDD"
@@ -349,20 +349,18 @@
 		{
 			id: "3C8F77EBC06819F7"
 			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "03C46CF9EE5D5E95"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "blackmarket_cache"
-						}
+			rewards: [{
+				count: 3
+				id: "03C46CF9EE5D5E95"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "blackmarket_cache"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				days: 500
@@ -375,80 +373,29 @@
 		{
 			id: "2F9495018AC5F546"
 			optional: true
-			rewards: [
-				{
-					count: 5
-					id: "6D62B65C6E7398ED"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "blackmarket_cache"
-						}
+			rewards: [{
+				count: 5
+				id: "6D62B65C6E7398ED"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "blackmarket_cache"
 					}
-					type: "item"
 				}
-				{
-					id: "20BCBB88589895E3"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "dreadsteel:dreadsteel_scythe"
-						tag: {
-							Enchantments: [{
-								id: "minecraft:sharpness"
-								lvl: 10
-							}]
-							display: {
-								Lore: ["{\"text\":\"§o§f§oCold to the touch, yet indescribably comforting\"}"]
-								Name: "{\"text\":\"§bArmageddon \"}"
-							}
-							dmcloot.rarity: "legendary"
-							dmcloot.swiftness: 15
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": {
-										BuiltInEnchantments: [ ]
-									}
-								}
-								id: "quark:blue_rune"
-							}
-							rpgloot.randomize: 0b
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "circle"
-			tasks: [
-				{
+			tasks: [{
 				days: 1000
 				id: "20D72E0D9EADF30D"
 				type: "questsadditions:days"
-				}
-				{
-					disable_toast: true
-					elapsedTime: 180000L
-					gameTime: "system"
-					icon: "supplementaries:safe"
-					id: "225E3C0CF3505D08"
-					title: "&eServer Safeguard"
-					type: "questsadditions:time"
-				}
-			]
+			}]
 			x: 10.0d
 			y: 6.0d
 		}
 		{
-			description: [
-			  ""
-			]
+			description: ["\n"]
 			id: "2F1421D4A7FB5CD2"
 			optional: true
 			rewards: [
@@ -607,8 +554,8 @@
 		}
 		{
 			description: [
-			  ""
-			  "People assume that time is a strict progression of cause to effect, but actually, from a nonlinear, non-subjective viewpoint, it's more like a big ball of wibbly-wobbly, timey-wimey... stuff.."
+				"\n"
+				"People assume that time is a strict progression of cause to effect, but actually, from a nonlinear, non-subjective viewpoint, it's more like a big ball of wibbly-wobbly, timey-wimey... stuff.."
 			]
 			id: "5A1A50C6EA12009E"
 			optional: true
@@ -859,9 +806,7 @@
 			y: 5.0d
 		}
 		{
-			description: [
-			  "&n&eEntering Expert Mode will fail this Challenge!"
-			]
+			description: ["&n&eEntering Expert Mode will fail this Challenge!"]
 			id: "2BB5105FA955787C"
 			incompatible: ["099610C83CC67421"]
 			optional: true
@@ -917,9 +862,7 @@
 			y: 5.0d
 		}
 		{
-			description: [
-			  "Eat and prepare a course of every meal from Farmer's Delight"
-			]
+			description: ["Eat and prepare a course of every meal from Farmer's Delight"]
 			id: "18A23009C59D0155"
 			optional: true
 			rewards: [
@@ -1016,9 +959,7 @@
 			y: 5.0d
 		}
 		{
-			description: [
-			  "&eFinally we are taxing the rich.. In Minecraft!"
-			]
+			description: ["&eFinally we are taxing the rich.. In Minecraft!"]
 			id: "39F778FC47194944"
 			optional: true
 			rewards: [
@@ -1467,20 +1408,13 @@
 					item: "ars_nouveau:music_disc_aria_biblio"
 					type: "item"
 				}
-				{
-					id: "2078A6716CC2B4FB"
-					item: "warwither:music_disc_war_wither"
-					type: "item"
-				}
 			]
 			title: "&eThe Music Collector"
 			x: -3.0d
 			y: 5.0d
 		}
 		{
-			description: [
-			  "Build a fully functioning &6Jaffa Factory"
-			]
+			description: ["Build a fully functioning &6Jaffa Factory"]
 			id: "3E9D9E3818516685"
 			optional: true
 			rewards: [
@@ -1677,7 +1611,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0901DBD03773B644"]
 			description: [
 				"Challenge Quests are optional Quests that give you a &c&oChallenge&r. These challenges can range from skill based to the &outterly absurd&r. Challenge Quests often require a lot of time to complete! but they have extra &e&ospecial rewards™&r for your trouble!"
 				"{image:modpack:textures/barry-the-rat-demon-transparent-no-white.png width:100 height:100 align:1}"
@@ -1839,7 +1772,6 @@
 		}
 		{
 			dependencies: [
-				"1D23FD307B88FD43"
 				"3348CB91A5659884"
 				"35EB3BAAC2AD189B"
 				"511BD5CE8926D782"
@@ -1861,9 +1793,7 @@
 				"06911768DBF8A5A5"
 				"2093117385E8FF1D"
 			]
-			description: [
-			  "Only the most &npowerful&r sorry, did I say &opowerful?...&r I meant only the person without any semblance of a social life can obtain the &6&lLoremaster&r in a reasonable time-frame"
-			]
+			description: ["Only the most &npowerful&r sorry, did I say &opowerful?...&r I meant only the person without any semblance of a social life can obtain the &6&lLoremaster&r in a reasonable time-frame"]
 			icon: "titles:title_scroll_uncommon"
 			id: "36620ED98C86C6A7"
 			rewards: [
@@ -2158,7 +2088,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["740DD4098893630E"]
 			description: [
 				"Spend some time learning how to be a goat.. there are a lot of lessons one can learn from goats!"
 				"&6Hint:&r There are no hints... there are no shortcuts.. Study the way of the goat and you shall be rewarded!"
@@ -2242,6 +2171,91 @@
 			title: "&6The Way of The Goat"
 			x: 4.0d
 			y: 4.0d
+		}
+		{
+			description: ["&o\"Godzilla was baptized in the fire of the H-bomb and survived. What could kill it now?\""]
+			id: "4C49FA74128CEE95"
+			rewards: [
+				{
+					amount: 3500L
+					currency: "eternalcurrencies:coins"
+					id: "53327789AB4B75B4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "78D2A656AEC25566"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p}  titles:godzilla"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "5D2DF03A7B532A06"
+					title: "&eUnlock Title:&r the Terror"
+					type: "command"
+				}
+			]
+			subtitle: "Tame a &dTerrorzilla"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_tremorzilla"
+				criterion: ""
+				icon: "alexscaves:waste_drum"
+				id: "116EB152780DB546"
+				title: "&6King of The Monsters"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: ["&o‘Now I Am Become Death, the Destroyer of Worlds.’"]
+			id: "31ED2D411EC20A74"
+			rewards: [
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "4F56D3427353A962"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "4821242C9614CE38"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:nuke"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "074DBF126B7B6BD2"
+					title: "&eUnlock Title:&r the Destroyer of Worlds"
+					type: "command"
+				}
+			]
+			subtitle: "Craft a &eNuclear Bomb"
+			tasks: [{
+				id: "71320C2F137A9170"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			title: "&6Oppenheimer"
+			x: 4.0d
+			y: 1.0d
 		}
 	]
 	title: "&eChallenges "
