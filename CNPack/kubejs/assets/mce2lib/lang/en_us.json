@@ -3,7 +3,7 @@
   "item.mce2lib.porkus_summon": "§d魔法猪排",
   "item.mce2lib.amethyst_helmet": "§d永恒巫师帽",
   "item.mce2lib.chicken_nugget_summon": "§a奇怪的蛋",
-  "item.mce2lib.main_theme_music_disc": "§6唱片",
-  "item.mce2lib.main_theme_music_disc.desc": "MCE主题曲 - Arvid Rongedal",
+  "item.mce2lib.main_theme_music_disc": "§6音乐唱片",
+  "item.mce2lib.main_theme_music_disc.desc": "MCE Theme - Arvid Rongedal",
   "creativetab.mce2lib.mce2_lib_tab": "MCE2库"
 }
