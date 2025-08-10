@@ -338,10 +338,8 @@
 		{
 			dependencies: ["3BD8D1FD1252A183"]
 			description: [
-				""
-				""
-				"&oExpert Mode will start upon entering The Nether, if you do not know what this means please come prepared and read the Quest Chapter &6\"Difficulty Modes\""
-			  "{image:modpack:textures/2022-11-03_23.33.09.png width:180 height:100 align:center}"
+				"\n\n\n\n&oExpert Mode will start upon entering The Nether, if you do not know what this means please come prepared and read the Quest Chapter &6"Difficulty Modes""
+				"{image:modpack:textures/2022-11-03_23.33.09.png width:180 height:100 align:center}"
 			]
 			id: "0D88B45349B3E660"
 			rewards: [
@@ -404,17 +402,7 @@
 			y: -2.0d
 		}
 		{
-			description: [
-			  "This strange orb was left behind by the last great Nether invasion of The Overworld. "
-			  ""
-			  "Legend says, they who wield the &eObsidian Palinteer&r, gain the power to enter &eThe Nether&r unscathed. "
-			  ""
-			  "Something which has been impossible for hundreds of years."
-			  ""
-			  ""
-			  ""
-			  "&4&lThe Nether - Progression"
-			]
+			description: ["This strange orb was left behind by the last great Nether invasion of The Overworld. \n\n\nLegend says, they who wield the &eObsidian Palinteer&r, gain the power to enter &eThe Nether&r unscathed. \n\n\nSomething which has been impossible for hundreds of years.\n\n\n\n\n&4&lThe Nether - Progression"]
 			icon: "kubejs:nether_item"
 			id: "3BD8D1FD1252A183"
 			rewards: [
@@ -622,10 +610,7 @@
 		}
 		{
 			dependencies: ["479494C1FD505646"]
-			description: [
-			  "Once you have a strider in range of you, use it with the saddle to saddle it. "
-			  "Afterwards, use the strider to ride it. Then, select the warped fungus on a stick and ride the strider. Then, once again use the warped fungus on a stick to boost the strider. This will use up one durability on your warped fungus on a stick."
-			]
+			description: ["Once you have a strider in range of you, use it with the saddle to saddle it. \nAfterwards, use the strider to ride it. Then, select the warped fungus on a stick and ride the strider. Then, once again use the warped fungus on a stick to boost the strider. This will use up one durability on your warped fungus on a stick."]
 			id: "10C1A1C3CF267607"
 			rewards: [
 				{
@@ -697,9 +682,7 @@
 		}
 		{
 			dependencies: ["3CC4D8AC7D27AE94"]
-			description: [
-			  "{image:modpack:textures/2022-11-03_23.35.08.png width:180 height:100 align:1}"
-			]
+			description: ["{image:modpack:textures/2022-11-03_23.35.08.png width:180 height:100 align:1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -804,11 +787,7 @@
 		}
 		{
 			dependencies: ["21DA031BE994B045"]
-			description: [
-			  "Click the Altar of Fire with &bBurning Ashes&r and swiftly prepare yourself. "
-			  ""
-			  "Ancient Fire Demons do not take kindly to being woken up from their ten thousand year slumber!"
-			]
+			description: ["Click the Altar of Fire with &bBurning Ashes&r and swiftly prepare yourself. \n\n\nAncient Fire Demons do not take kindly to being woken up from their ten thousand year slumber!"]
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
@@ -905,6 +884,43 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7796C6E123CF3A11"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:ignis_chestplate_elytra"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							az_id: [I;
+								189906367
+								1472678100
+								-1950774278
+								-1300945646
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "78523C3FF9FC65BD"
+					item: {
+						Count: 1
+						id: "minecraft:firework_rocket"
+						tag: {
+							Fireworks: {
+								Flight: 2b
+							}
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			subtitle: "Locate the Altar Of Fire inside the Blazing Arena"
@@ -930,9 +946,7 @@
 		}
 		{
 			dependencies: ["10C1A1C3CF267607"]
-			description: [
-			  "{image:modpack:textures/2022-11-03_23.32.41.png width:180 height:100 align:1}"
-			]
+			description: ["{image:modpack:textures/2022-11-03_23.32.41.png width:180 height:100 align:1}"]
 			id: "1947FABCE1A302BE"
 			rewards: [
 				{
@@ -1016,7 +1030,7 @@
 			dependencies: ["1947FABCE1A302BE"]
 			description: [
 				"{image:modpack:textures/2022-11-03_23.33.25.png width:180 height:100 align:1}"
-				"&6Tip: &rTry to avoid the &e\"Ashen Breath\"&r, attack &ryou &lcannot&r block it and it does high amounts of damage!"
+				"&6Tip: &rTry to avoid the &e"Ashen Breath"&r, attack &ryou &lcannot&r block it and it does high amounts of damage!"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -1121,7 +1135,6 @@
 			dependencies: ["0D88B45349B3E660"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:map"
 			icon: "kubejs:magic_map"
 			id: "22212D179F427EBE"
 			optional: true
@@ -1219,21 +1232,6 @@
 			icon: "minecraft:oak_sapling"
 			id: "6FE22257358280B5"
 			rewards: [
-				{
-					id: "1F32F5233A016766"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
-							}
-							type: "curious_box"
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "78DF4C4E7E43BE12"
 					item: "kubejs:mcejaffa"

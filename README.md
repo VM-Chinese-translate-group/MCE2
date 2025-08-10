@@ -17,7 +17,7 @@
 
 | CurseForge                                                             | 加载器 | 支持整合包版本 | MC 版本 | 汉化维护状态 |
 | :--------------------------------------------------------------------- | :----- | :------------- | :------ | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/mc-eternal-2) | Forge  | 1.1.0.2        | 1.20.1  | 翻译中       |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/mc-eternal-2) | Forge  | 1.1.1.0        | 1.20.1  | 翻译中       |
 
 ---
 

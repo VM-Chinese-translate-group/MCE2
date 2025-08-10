@@ -252,47 +252,13 @@
 			icon: "minecraft:honeycomb_block"
 			id: "73001AA56287C367"
 			progression_mode: "flexible"
-			rewards: [
-				{
-					amount: 75L
-					currency: "eternalcurrencies:coins"
-					id: "4F2CC5745E3254F1"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "72183903840E60E1"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4F2CC5745E3254F1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			subtitle: "Bee Careful"
 			tasks: [{
@@ -332,47 +298,13 @@
 			description: ["This compass will point you in the direction of the structure the &dBee Queen&r resides in, the &eThrone Pillar&r!"]
 			id: "3EB456A88C1713FE"
 			progression_mode: "flexible"
-			rewards: [
-				{
-					amount: 75L
-					currency: "eternalcurrencies:coins"
-					id: "4068CBFACCE2A8D4"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "00606CD74CD1B4D5"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4068CBFACCE2A8D4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			subtitle: "Off to see the Queen!"
 			tasks: [{
@@ -384,16 +316,10 @@
 						CompassType: "structure"
 						CustomDescription: "item.the_bumblezone.honey_compass_throne_description"
 						CustomName: "item.the_bumblezone.honey_compass_throne_structure"
-						Locked: 1b
-						TargetDimension: "the_bumblezone:the_bumblezone"
-						TargetPos: {
-							X: 240
-							Y: 0
-							Z: -4592
-						}
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
 			title: "&eHoney Compass - Throne Pillar!"
 			x: 0.0d
@@ -409,47 +335,13 @@
 			icon: "the_bumblezone:royal_jelly_block"
 			id: "7DFC37D2D71A3A4B"
 			progression_mode: "flexible"
-			rewards: [
-				{
-					amount: 75L
-					currency: "eternalcurrencies:coins"
-					id: "46101D21D8945F05"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "59D1B94510465FDB"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "46101D21D8945F05"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			subtitle: "Royalty!"
 			tasks: [{
@@ -537,47 +429,13 @@
 			]
 			id: "49FF6D72876BFF2C"
 			progression_mode: "flexible"
-			rewards: [
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "765F3E08A1577E4B"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "2825A69AC909D094"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "765F3E08A1577E4B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			subtitle: "Obtain a Bottle of &dRoyal Jelly"
 			tasks: [{
@@ -592,16 +450,8 @@
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: ["Breed 8 pairs of bees"]
-			hide_dependency_lines: true
 			id: "6D5A2D8470670E43"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "6B79181A391E117B"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/love_bees"
@@ -617,16 +467,8 @@
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: ["Kill 4 Endermites"]
-			hide_dependency_lines: true
 			id: "71CD019B4C30354A"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "7332CCDE9A9843B1"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/otherworldly_mites"
@@ -642,16 +484,8 @@
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: ["Kill the Ender Dragon while wearing a full set of Bee Armor"]
-			hide_dependency_lines: true
 			id: "12A5867C0A91118A"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "09E8ACA2FD6A463C"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/the_great_dragon_slayer"
@@ -667,16 +501,8 @@
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: ["Throw and hit 24 entities with Pollen Puff (Other players count)"]
-			hide_dependency_lines: true
 			id: "296DF61DBC2B3AEA"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "0A12304DA43393CA"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/pollen_fight"
@@ -692,16 +518,8 @@
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: ["Kill 16 Cave Spiders"]
-			hide_dependency_lines: true
 			id: "6F8DFD61BD74E3D8"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "4F34FE1286FF2472"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/terror_fangs"
@@ -717,16 +535,8 @@
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: ["Drink 8 Honey Bottles"]
-			hide_dependency_lines: true
 			id: "2D0C935F9FF35504"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "6CCE191BEB7A8792"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/honey_drunk"
@@ -742,17 +552,8 @@
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: ["Kill 32 Spiders (Cave Spiders do not count)"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "51991F548AF991D1"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "7D159DBFAAE9EA2A"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/too_many_legs"
@@ -768,16 +569,8 @@
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: ["Craft 6 Bee Nests or Beehives"]
-			hide_dependency_lines: true
 			id: "4B60893373ACAB3A"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "2B9EE91BE5C45D0E"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/flooding_the_housing_market"
@@ -793,16 +586,8 @@
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: ["Kill 8 Silverfish"]
-			hide_dependency_lines: true
 			id: "1053BB7920734D60"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "3075719447A7C7BC"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/fighting_the_swarm"
@@ -818,16 +603,8 @@
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: ["Fire 32 Bee Stingers from Bows or Crossbows"]
-			hide_dependency_lines: true
 			id: "2D4BF0FB32417011"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "6D60C3DB7EC003B9"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/poison_warfare"
@@ -847,16 +624,8 @@
 				""
 				"&6Hint:&r Honey Slimes love Sugar"
 			]
-			hide_dependency_lines: true
 			id: "45E8819C98B09E3A"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "57525FADAA9276B2"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/slimy_mitosis"
@@ -878,13 +647,6 @@
 			]
 			id: "2EF6375E7E10C09A"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "369C6D7D13C23F0A"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/hungry_hungry_bees"
@@ -906,13 +668,6 @@
 			]
 			id: "7F7790684D51A048"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "59F5872D5E7CB712"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/back_in_action"
@@ -934,13 +689,6 @@
 			]
 			id: "0F53737B5F196EEA"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "635FDC89BB133A8B"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/the_crazy_florist"
@@ -958,13 +706,6 @@
 			description: ["Kill a Wither with a Stinger Spear"]
 			id: "30DB84FB278FFC59"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "162EB87E99E6A1A9"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/peak_inefficiency"
@@ -980,16 +721,8 @@
 		{
 			dependencies: ["7DFC37D2D71A3A4B"]
 			description: ["Trade with the Bee Queen 128 times"]
-			hide_dependency_lines: true
 			id: "71E2AF62863C2083"
 			progression_mode: "flexible"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "46130F991B671427"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/crazy_trader"
@@ -1026,50 +759,15 @@
 				""
 				"The most important for progression is the ability to locate &dSempiternal Sanctums&r using compasses found inside certain structures and complete the events inside them."
 			]
-			hide_dependency_lines: true
 			id: "605CBA3C9DF7933A"
 			progression_mode: "flexible"
-			rewards: [
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "5CCFBF83D0BBD180"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "43927FDCD445949D"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "5CCFBF83D0BBD180"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "7F70C34AFBADE3CA"
@@ -1195,47 +893,13 @@
 			}
 			id: "3172C67AB78B7B1E"
 			progression_mode: "flexible"
-			rewards: [
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "46D92DF1C40E230F"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "3E6017B4C3CB4C72"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "46D92DF1C40E230F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "33483EF25FC5FC92"
@@ -1265,47 +929,13 @@
 			}
 			id: "6A09D8A01C7FF997"
 			progression_mode: "flexible"
-			rewards: [
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "7DCBB417902B7D41"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "40D8D39D7EB80DD4"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "7DCBB417902B7D41"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "1519363EAC6BBCDA"
@@ -1335,47 +965,13 @@
 			}
 			id: "0FE98C86307C5CD8"
 			progression_mode: "flexible"
-			rewards: [
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "59A43EB2B49D7420"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "206B5A5F4D097584"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "59A43EB2B49D7420"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "33C4EFFF026AA5E2"
@@ -1405,47 +1001,13 @@
 			}
 			id: "048BA451E1FC1651"
 			progression_mode: "flexible"
-			rewards: [
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "10560554325B1779"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "20EA4EACDA365A50"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "10560554325B1779"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "139C974805283071"
@@ -1475,47 +1037,13 @@
 			}
 			id: "57BAA3345E858B59"
 			progression_mode: "flexible"
-			rewards: [
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "4A55841111C7E37D"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "2F7B682CF101D999"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "4A55841111C7E37D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "4497C37FB925AE16"
@@ -1545,47 +1073,13 @@
 			}
 			id: "0C3E7823BA26B8C4"
 			progression_mode: "flexible"
-			rewards: [
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "3CE534F9A74E02AD"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "5CAE68102C524967"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "3CE534F9A74E02AD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "6B34AF45794A0881"
@@ -1690,47 +1184,13 @@
 			hide_dependency_lines: true
 			id: "58A5FB3CAE5DDC9B"
 			progression_mode: "flexible"
-			rewards: [
-				{
-					amount: 75L
-					currency: "eternalcurrencies:coins"
-					id: "513FDE9345B2D29E"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "1CD4EBCA95043CBA"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "513FDE9345B2D29E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			subtitle: "Bee Warrior Weaponry"
 			tasks: [

@@ -102,7 +102,7 @@
 			y: 5.938775510204081d
 		}
 		{
-			dependency: "6B99D9083276026D"
+			dependency: "7505BE829530541C"
 			height: 1.3d
 			image: "modpack:textures/mc-eternal-gems-comm-gem-10.png"
 			rotation: 0.0d
@@ -789,12 +789,7 @@
 				"320F677D8A962681"
 				"46C671151AE613A1"
 			]
-			description: [
-			  "&c&l&nKill The Void Worm"
-			  ""
-			  "&eThe Void Worm&r is summoned by dropping a &eMysterious Worm&r into the void of &eThe End.&r &eThe Mysterious Worm&r is created by placing a &eCrimson Mosquito Larvae&r into a &eCapsid&r, dropped by the &eEnderiophage."
-			  ""
-			]
+			description: ["&c&l&nKill The Void Worm\n\n\n&eThe Void Worm&r is summoned by dropping a &eMysterious Worm&r into the void of &eThe End.&r &eThe Mysterious Worm&r is created by placing a &eCrimson Mosquito Larvae&r into a &eCapsid&r, dropped by the &eEnderiophage.\n\n"]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			icon: "alexsmobs:void_worm_eye"
@@ -817,10 +812,35 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "5C532D50CBCFC0D7"
-					table_id: 5682295257556819944L
-					type: "random"
+					id: "4077746F2C42331D"
+					item: {
+						Count: 1
+						id: "dreadsteel:dreadsteel_scythe"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 10
+							}]
+							display: {
+								Lore: ["{\"text\":\"§o§f§oCold to the touch, yet indescribably comforting\"}"]
+								Name: "{\"text\":\"§bArmageddon \"}"
+							}
+							dmcloot.rarity: "legendary"
+							dmcloot.swiftness: 15
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "quark:blue_rune"
+							}
+							rpgloot.randomize: 0b
+						}
+					}
+					type: "item"
 				}
 			]
 			size: 0.95d
@@ -842,6 +862,8 @@
 				"Did they ever manage to power this abomination? Was it their undoing? "
 				""
 				"The nature of their disappearance will be debated until more questions can be answered."
+				""
+				"&6&lHint:&r &cThe Harbinger&r seems incomplete, it might require some item from a powerful &4Nether&r foe... maybe it's modeled after it?"
 				" "
 				"&6☠ Difficulty: &4&lHARD"
 				"{image:modpack:textures/2025-03-14_00.36.23.png width:200 height:100 align:center}"
@@ -922,7 +944,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&4The Nether - Progression"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "49F1A8CD12054ACB"
 				item: {
@@ -1520,9 +1542,7 @@
 		}
 		{
 			dependencies: ["2E84DFAD10C02EB1"]
-			description: [
-			  "&6Questmaster:&r You've found my prized missing Salmon! Now quickly return it to me and I will grant you a wonderful reward! Quickly now!"
-			]
+			description: ["&6Questmaster:&r You've found my prized missing Salmon! Now quickly return it to me and I will grant you a wonderful reward! Quickly now!"]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			hide_until_deps_visible: true
@@ -2042,7 +2062,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["3D1FC85E004937CD"]
 			dependency_requirement: "all_started"
 			description: [
 				"While exploring you might discover that some structures are exceptionally hard to find."
@@ -2055,7 +2074,7 @@
 				"1x Amethyst Shard:&r Needed for the Compass Needle"
 				"3x Silver Ingot: Needed for the compass base."
 				"1x Glow Ink Sack: For the dial and general coolness-factor"
-				"1x Eye of Ender: It seems to be drawn to the Legendary Eyes! It should help us locate them!"
+				"1x Ender Pearl: It seems to be drawn to the Legendary Eyes! It should help us locate them!"
 				"1x Superglue: To bind it all together!"
 				"1x Chicken Sandwhich: VERY important, maybe even the MOST important ingredient! §m&o&7I get hungry when I work."
 			]
@@ -2138,10 +2157,16 @@
 					}
 					type: "item"
 				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "513F9AD219BB077A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
 			]
-			secret: true
 			shape: "rsquare"
-			size: 0.6d
+			size: 0.8d
 			subtitle: "Gather materials needed to craft a &eExplorer's Compass"
 			tasks: [
 				{
@@ -2187,16 +2212,6 @@
 				}
 				{
 					consume_items: true
-					id: "0522D436F658665D"
-					item: {
-						Count: 1
-						id: "minecraft:ender_eye"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					consume_items: true
 					id: "78B4452CCBCF264F"
 					item: {
 						Count: 1
@@ -2206,9 +2221,20 @@
 					type: "item"
 				}
 				{
-					count: 3L
 					id: "3C2E1F3BC58C64B9"
-					item: { Count: 3, id: "thermal:silver_ingot" }
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/silver"
+						}
+					}
+					title: "Any #forge:ingots/silver"
+					type: "item"
+				}
+				{
+					id: "100F2404E0CA97E3"
+					item: "minecraft:ender_pearl"
 					type: "item"
 				}
 			]

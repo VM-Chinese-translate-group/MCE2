@@ -1,0 +1,8 @@
+{
+	"effect.xaeroworldmap.no_world_map" : "§b？？？",
+	"effect.xaeroworldmap.no_world_map.description" : "§8§o黑暗与浓雾将你吞噬……世界地图与小地图无法在渊深之地使用……",
+	"effect.xaeroworldmap.no_world_map_harmful" : "迷失",
+	"gui.xaero_no_world_map_message" : "§8§o黑暗与浓雾将你吞噬……世界地图与小地图无法在渊深之地使用……",
+	"gui.xaero_box_controls" : "控制 \n \n 鼠标点击并拖拽可拖动地图。 \n 滚动鼠标滚轮可推近和拉远。 \n 鼠标右击地图可查看一些有用的快捷方式。 \n 一些UI按钮的提示框中显示了额外按键绑定。 \n %1$s点击这里编辑按键绑定。",
+	"gui.xaero_box_controls_minimap" : "\n 路径点控制： \n §2%s§r 创建一个新的路径点。 \n §2%s§r 创建一个快速临时路径点。 \n §2%s§r 切换路径点集。 \n §2%s§r 切换渲染所有路径点集。 \n §2%s§r 打开完整的路径点菜单。 \n 鼠标右键单击现有的路径点查看额外的快捷方式。 \n \n "
+}

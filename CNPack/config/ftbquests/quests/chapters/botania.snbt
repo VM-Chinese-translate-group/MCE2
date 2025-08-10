@@ -11,13 +11,141 @@
 		}
 	}
 	id: "1095C058506D2A05"
+	images: [
+		{
+			height: 6.0d
+			image: "botania:textures/gui/paper_left.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0612244897959187d
+			y: -2.2551020408163254d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.1469387755102d
+			y: 2.8591836734693814d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.861224489795916d
+			y: 2.8591836734693814d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.1469387755102d
+			y: 2.0020408163265273d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.861224489795916d
+			y: 2.0020408163265273d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/alfheim_portal_activated"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.004081632653055d
+			y: 2.8591836734693814d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.1469387755102d
+			y: 1.1448979591836732d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.861224489795916d
+			y: 1.1448979591836732d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.004081632653055d
+			y: 1.1448979591836732d
+		}
+		{
+			height: 6.0d
+			image: "botania:textures/gui/paper_left.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -1.3598639455782475d
+			y: 6.731632653061233d
+		}
+		{
+			height: 0.5d
+			image: "botania:block/brown_mushroom"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.383673469387766d
+			y: 4.184013605442196d
+		}
+		{
+			height: 0.5d
+			image: "botania:block/manastar"
+			rotation: 20.0d
+			width: 0.5d
+			x: -1.5238095238095255d
+			y: 4.131122448979603d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.3571428571428541d
+			y: 2.012074829931983d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.012074829931983d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.285714285714292d
+			y: 4.772278911564641d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-			  ""
-			]
+			description: [""]
 			icon: "botania:apothecary_default"
 			id: "2524C59A32F0DA28"
 			rewards: [
@@ -68,38 +196,18 @@
 				}
 			]
 			subtitle: "Concocting strange Flora..."
-			tasks: [
-				{
-					id: "4C826485E4D4D537"
-					item: "botania:apothecary_default"
-					type: "item"
-				}
-				{
-					icon: "minecraft:water_bucket"
-					id: "07296EB9444570B8"
-					observe_type: 2
-					timer: 0L
-					title: "&oFill a Petal Apothecary with Water"
-					to_observe: "botania:apothecary_default[fluid=water]"
-					type: "observation"
-				}
-			]
+			tasks: [{
+				id: "4C826485E4D4D537"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
 			title: "Petal Apothecary"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["534740624C012CBF"]
-			description: [
-			  "&bMana&r, the fundamental energy used by Botanists."
-			  ""
-			  "In order to produce it, you'll need some sort of Flower that can generate it from other things"
-			  "&cMana is not produced passively&r, it is something that &aGenerating Flora&r must actively consume things to produce."
-			  ""
-			  "When placed, Generating Flora will automatically attempt to bind to the nearest &6Mana Spreader&r within binding range."
-			  "You can manually &dBind&r them after placement using a &6Wand of the Forest&r by &dSneaking and Interacting&r on the Flower, and then the desired Mana Spreader."
-			  "As for firing Mana from Mana Spreaders into a &6Mana Pool&r, &dSneak and Interact&r with the Spreader while holding a Wand of the Forest, and then the block you want it to target."
-			]
+			description: ["&bMana&r, the fundamental energy used by Botanists.\n\nIn order to produce it, you'll need some sort of Flower that can generate it from other things\n&cMana is not produced passively&r, it is something that &aGenerating Flora&r must actively consume things to produce.\n\nWhen placed, Generating Flora will automatically attempt to bind to the nearest &6Mana Spreader&r within binding range.\nYou can manually &dBind&r them after placement using a &6Wand of the Forest&r by &dSneaking and Interacting&r on the Flower, and then the desired Mana Spreader.\nAs for firing Mana from Mana Spreaders into a &6Mana Pool&r, &dSneak and Interact&r with the Spreader while holding a Wand of the Forest, and then the block you want it to target."]
 			id: "09A99DAD9B9C80CE"
 			rewards: [{
 				amount: 50L
@@ -120,6 +228,18 @@
 					item: "botania:mana_pool"
 					type: "item"
 				}
+				{
+					id: "3A222B0EE7E27384"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mce2:botania/basic_generating_flower"
+						}
+					}
+					title: "&oCraft a simple Generating Flower"
+					type: "item"
+				}
 			]
 			title: "Creating Mana"
 			x: 1.0d
@@ -127,9 +247,7 @@
 		}
 		{
 			dependencies: ["2524C59A32F0DA28"]
-			description: [
-			  ""
-			]
+			description: [""]
 			icon: "botania:pure_daisy"
 			id: "534740624C012CBF"
 			rewards: [{
@@ -139,6 +257,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			shape: "gear"
 			subtitle: ""
 			tasks: [
 				{
@@ -148,7 +267,7 @@
 				}
 				{
 					id: "1597755C91249085"
-					item: "botania:livingwood"
+					item: "botania:livingwood_log"
 					type: "item"
 				}
 				{
@@ -162,32 +281,7 @@
 			y: 2.0d
 		}
 		{
-			description: [
-			  "From Botania's About section on Curseforge"
-			  "&9https://www.curseforge.com/minecraft/mc-mods/botania &r"
-			  ""
-			  "&o&b&lBotania&r&o is a tech mod themed around natural magic. Gameplay is centered around creating magical flowers and devices using Mana, the power of the earth. Botania is fully playable as a standalone mod (and is designed as such), but it functions just well in conjunction with other mods."
-			  ""
-			  "The mod focuses on automation, but without elements that make it feel grindy-- systems can be thought out and designed, rather than built blindly from blueprints in JEI or a wiki.&r"
-			  ""
-			  "&6&lBotania's design philosophy&r"
-			  "- No pipes, wires, etc-- they're boring and overdone;"
-			  "- No GUIs-- interact with everything in-world;"
-			  "- No numbers-- players shouldn't try to minmax everything;"
-			  "- Keep all resources as renewable as possible;"
-			  "- Provide pleasing visuals, despite using only two different particle effects."
-			  ""
-			  "&6&lBotania's goals&r"
-			  ""
-			  "- Break the mold of mods being means to ends-- be engaging in gameplay as well as in rewards;"
-			  "- Deliver fun and balanced gameplay without forcing players to grind;"
-			  "- Incentivize sandbox gameplay and allow players to create fun contraptions;"
-			  "- Create an overall immersive experience."
-			  ""
-			  "Difficulty: &6☆☆&r"
-			  "Cost: &6☆&r"
-			  "Strength: &6☆☆☆&r"
-			]
+			description: ["From Botania's About section on Curseforge\n&9https://www.curseforge.com/minecraft/mc-mods/botania &r\n\n&o&b&lBotania&r&o is a tech mod themed around natural magic. Gameplay is centered around creating magical flowers and devices using Mana, the power of the earth. Botania is fully playable as a standalone mod (and is designed as such), but it functions just well in conjunction with other mods.\n\nThe mod focuses on automation, but without elements that make it feel grindy-- systems can be thought out and designed, rather than built blindly from blueprints in JEI or a wiki.&r\n\n&6&lBotania's design philosophy&r\n- No pipes, wires, etc-- they're boring and overdone;\n- No GUIs-- interact with everything in-world;\n- No numbers-- players shouldn't try to minmax everything;\n- Keep all resources as renewable as possible;\n- Provide pleasing visuals, despite using only two different particle effects.\n\n&6&lBotania's goals&r\n\n- Break the mold of mods being means to ends-- be engaging in gameplay as well as in rewards;\n- Deliver fun and balanced gameplay without forcing players to grind;\n- Incentivize sandbox gameplay and allow players to create fun contraptions;\n- Create an overall immersive experience.\n\nDifficulty: &6☆☆&r\nCost: &6☆&r\nStrength: &6☆☆☆&r"]
 			id: "6D4AF11629E04986"
 			rewards: [{
 				amount: 50L
@@ -212,9 +306,7 @@
 		}
 		{
 			dependencies: ["6D4AF11629E04986"]
-			description: [
-			  "Gain the Knowledge of the &aElves of Alfheim&r, and further expand your Botanical possibilities!"
-			]
+			description: ["Gain the Knowledge of the &aElves of Alfheim&r, and further expand your Botanical possibilities!"]
 			id: "6DDED8EDD358F3DB"
 			rewards: [
 				{
@@ -285,15 +377,7 @@
 		}
 		{
 			dependencies: ["534740624C012CBF"]
-			description: [
-			  "The &6Wand of the Forest&r is a botanist's equivalent to a Wrench, used to configure many botanical blocks and flowers."
-			  ""
-			  "Simply holding it in your hand will display a &bMana&r bar when looking at a block that holds Mana, showing its capacity, along with how much it currently has."
-			  ""
-			  "Its most common use is to &dBind&r some botanical devices to other blocks."
-			  "To do such, &dSneak and Interact with the device while holding the Wand, and then do the same on the target block.&r"
-			  "Binding is used to connect &dFunctional and Generating Flora&r to &bMana Pools&r or &bMana Spreaders&r respectively, aswell as aim Mana Spreaders at blocks, and set targets for some other devices."
-			]
+			description: ["The &6Wand of the Forest&r is a botanist's equivalent to a Wrench, used to configure many botanical blocks and flowers.\n\nSimply holding it in your hand will display a &bMana&r bar when looking at a block that holds Mana, showing its capacity, along with how much it currently has.\n\nIts most common use is to &dBind&r some botanical devices to other blocks.\nTo do such, &dSneak and Interact with the device while holding the Wand, and then do the same on the target block.&r\nBinding is used to connect &dFunctional and Generating Flora&r to &bMana Pools&r or &bMana Spreaders&r respectively, aswell as aim Mana Spreaders at blocks, and set targets for some other devices."]
 			id: "469C601B3C40FB00"
 			rewards: [
 				{
@@ -361,11 +445,7 @@
 		}
 		{
 			dependencies: ["09A99DAD9B9C80CE"]
-			description: [
-			  "Some items can be &bInfused with Mana&r, unlocking wholly new Botanical applications for them."
-			  ""
-			  "&6&oNearby Quests will unlock as each material is acquired!"
-			]
+			description: ["Some items can be &bInfused with Mana&r, unlocking wholly new Botanical applications for them.\n\n&6&oNearby Quests will unlock as each material is acquired!"]
 			id: "62E7F6E5846D82E2"
 			rewards: [
 				{
@@ -452,9 +532,8 @@
 				"7D6C3DA95F0C8446"
 				"4DB02664AC3DE750"
 			]
-			description: [
-			  ""
-			]
+			description: [""]
+			icon: "botania:runic_altar"
 			id: "712FF3A7BCD998F3"
 			min_required_dependencies: 1
 			rewards: [{
@@ -465,26 +544,31 @@
 				type: "eternalcurrencies:currency"
 			}]
 			subtitle: ""
-			tasks: [{
-				id: "049E586E50F2CD7F"
-				item: "botania:runic_altar"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "049E586E50F2CD7F"
+					item: "botania:runic_altar"
+					type: "item"
+				}
+				{
+					advancement: "botania:main/rune_pickup"
+					criterion: ""
+					icon: "botania:rune_water"
+					id: "5458B11594715EAD"
+					type: "advancement"
+				}
+			]
 			title: "Runic Altar"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["712FF3A7BCD998F3"]
-			description: [
-			  "Runes of Botanical origin, some forged to embody aspects of the world, and some to embody aspects of the beings within it."
-			  ""
-			  "&6&oNearby Quests will unlock as each rune is acquired!"
-			]
+			description: ["Runes of Botanical origin, some forged to embody aspects of the world, and some to embody aspects of the beings within it.\n\n&6&oNearby Quests will unlock as each rune is acquired!"]
 			id: "5C55D515483FD53D"
 			rewards: [
 				{
-					amount: 50L
+					amount: 200L
 					currency: "eternalcurrencies:coins"
 					id: "0C9525A75D3F2AA3"
 					ignore_reward_blocking: true
@@ -625,22 +709,13 @@
 				"004A0586F1472803"
 				"6152AF0624908A20"
 			]
-			description: [
-			  "The &6Terrestrial Agglomeration Plate&r, used to forge &aTerrasteel&r using large amounts of &bMana&r."
-			  ""
-			  "To operate it, simply drop the ingredient items &dontop of the Plate, or Interact with the plate while holding them&r."
-			  "Note that it can only forge one item at a time, and if the process is interrupted, &call &bMana&c it has consumed so far is lost!&r"
-			  ""
-			  "Unless you want a difficult challenge, you'll need to place a &6Spark&r ontop of both the Plate and any nearby &bMana Pools&r you want to use Mana from, the items on the plate can despawn, and a few &bMana Spreaders&r will not provide Mana to the plate anywhere near fast enough."
-			  ""
-			  "&6&oRequired to make Corporea Automation Devices in MCE2!"
-			]
+			description: ["The &6Terrestrial Agglomeration Plate&r, used to forge &aTerrasteel&r using large amounts of &bMana&r.\n\nTo operate it, simply drop the ingredient items &dontop of the Plate, or Interact with the plate while holding them&r.\nNote that it can only forge one item at a time, and if the process is interrupted, &call &bMana&c it has consumed so far is lost!&r\n\nUnless you want a difficult challenge, you'll need to place a &6Spark&r ontop of both the Plate and any nearby &bMana Pools&r you want to use Mana from, the items on the plate can despawn, and a few &bMana Spreaders&r will not provide Mana to the plate anywhere near fast enough.\n\n&6&oRequired to make Corporea Automation Devices in MCE2!"]
 			icon: "botania:terra_plate"
 			id: "10FEC530B908FC53"
 			min_required_dependencies: 5
 			rewards: [
 				{
-					amount: 50L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "73C137C9BC69F4DC"
 					ignore_reward_blocking: true
@@ -685,8 +760,8 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
-			subtitle: "Terraforged &c&lRequires Expert Mode"
+			shape: "hexagon"
+			subtitle: "Terraforged"
 			tasks: [
 				{
 					id: "12CD7FA257769E3D"
@@ -701,7 +776,7 @@
 					layer: true
 					name: "terra_plate"
 					rightclick: false
-					title: "{mce.questing.botania.task.terra_plate_structure}"
+					title: "&oConstruct the Terrestrial Agglomeration Plate"
 					type: "questsadditions:structure"
 				}
 				{
@@ -722,12 +797,7 @@
 		}
 		{
 			dependencies: ["10FEC530B908FC53"]
-			description: [
-			  "The &6Portal to Alfheim&r, a Portal you can't travel through yourself, unfortunately, but will enable you to trade with the &aElves of Alfheim&r, allowing you to gain new items to further your Botanical projects!"
-			  ""
-			  "Opening the Portal requires 1/5th of a &bMana Pool&r's maximum capacity, split between all Pools within &d5 Blocks&r of the Gateway Core which have &bNatura Pylons&r directly ontop of them."
-			  "A &dminimum of two&r Mana Pools with Natura Pylons must be present, but more than that will work just fine!"
-			]
+			description: ["The &6Portal to Alfheim&r, a Portal you can't travel through yourself, unfortunately, but will enable you to trade with the &aElves of Alfheim&r, allowing you to gain new items to further your Botanical projects!\n\nOpening the Portal requires 1/5th of a &bMana Pool&r's maximum capacity, split between all Pools within &d5 Blocks&r of the Gateway Core which have &bNatura Pylons&r directly ontop of them.\nA &dminimum of two&r Mana Pools with Natura Pylons must be present, but more than that will work just fine!"]
 			id: "64D4884086C7B041"
 			rewards: [
 				{
@@ -776,6 +846,7 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
 			subtitle: "A Link Between Worlds"
 			tasks: [
 				{
@@ -789,17 +860,6 @@
 					item: "botania:natura_pylon"
 					type: "item"
 				}
-				{
-					hasCustomPicture: false
-					icon: "botania:glimmering_livingwood"
-					id: "31FEB2F2455AEF4B"
-					ignoreState: false
-					layer: true
-					name: "elven_portal"
-					rightclick: false
-					title: "{mce.questing.botania.task.elven_portal_structure}"
-					type: "questsadditions:structure"
-				}
 			]
 			title: "&6The Portal to Alfheim"
 			x: 11.0d
@@ -810,11 +870,7 @@
 				"62E7F6E5846D82E2"
 				"754B137377EB2E58"
 			]
-			description: [
-			  "The &6Floral Obidence Stick&r can be used to quickly bind all nearby &dFunctional&r or &dGenerating&r Flora to the &bMana Pool&r or &bMana Spreader&r the stick was used on."
-			  ""
-			  "Handy if you're working with a lot of flowers and didn't place the target first, or want to bind them to one pool over another."
-			]
+			description: ["The &6Floral Obidence Stick&r can be used to quickly bind all nearby &dFunctional&r or &dGenerating&r Flora to the &bMana Pool&r or &bMana Spreader&r the stick was used on.\n\nHandy if you're working with a lot of flowers and didn't place the target first, or want to bind them to one pool over another."]
 			id: "43BD3D08DDE6F1D3"
 			min_required_dependencies: 1
 			rewards: [
@@ -875,12 +931,7 @@
 			y: 4.0d
 		}
 		{
-			description: [
-			  "&6Hydroangeas&r produce Mana by sapping &1Water&r from nearby source blocks, consuming them if they are not in a postion where they would be an infinite source."
-			  ""
-			  "Unlike other &bGenerating Flora&r, they will &cDecay&r and vanish after a time."
-			  "When it comes to automating them, the intent is that the flower itself is automated."
-			]
+			description: ["&6Hydroangeas&r produce Mana by sapping &1Water&r from nearby source blocks, consuming them if they are not in a postion where they would be an infinite source.\n\nUnlike other &bGenerating Flora&r, they will &cDecay&r and vanish after a time.\nWhen it comes to automating them, the intent is that the flower itself is automated."]
 			id: "738DAB5AE090F284"
 			optional: true
 			rewards: [{
@@ -897,15 +948,11 @@
 				type: "item"
 			}]
 			title: "Hydroangeas"
-			x: -5.0d
-			y: 5.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
-			description: [
-			  "&6Endoflames&r generates &bMana&r using &6Burnable Items&r dropped nearby, though &ditems that leave behind something else&r (such as Lava Buckets) &ccannot be used by it&r."
-			  ""
-			  "Endoflames are quite slow at generating Mana, so when you use them, you either want a lot of them, or you want to use them as a stepping stone to something else."
-			]
+			description: ["&6Endoflames&r generates &bMana&r using &6Burnable Items&r dropped nearby, though &ditems that leave behind something else&r (such as Lava Buckets) &ccannot be used by it&r.\n\nEndoflames are quite slow at generating Mana, so when you use them, you either want a lot of them, or you want to use them as a stepping stone to something else."]
 			id: "5597BF5DDD93CD81"
 			optional: true
 			rewards: [{
@@ -922,15 +969,11 @@
 				type: "item"
 			}]
 			title: "Endoflame"
-			x: -3.0d
-			y: 5.0d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
-			description: [
-			  "&6Thermalillies&r suck up nearby &bLava&r and run for some time, producing a considerable amount of &bMana&r in the process."
-			  "However, they will then go on a long cooldown with some randomness to its length."
-			  "Unlike other Flora, they aren't really intended to be automated."
-			]
+			description: ["&6Thermalillies&r suck up nearby &bLava&r and run for some time, producing a considerable amount of &bMana&r in the process.\nHowever, they will then go on a long cooldown with some randomness to its length.\nUnlike other Flora, they aren't really intended to be automated."]
 			id: "3773636D00DE1DB5"
 			rewards: [{
 				amount: 50L
@@ -946,16 +989,11 @@
 				type: "item"
 			}]
 			title: "Thermalily"
-			x: -9.0d
-			y: 7.0d
+			x: -3.0d
+			y: 5.0d
 		}
 		{
-			description: [
-			  "&6Rosa Arcana&r will consume &bExperience&r from &dnearby Players or Experience Orbs&r to generate &bMana&r."
-			  "They are also able to &ddisenchant items like a &bGrindstone&r in to generate Mana from the experience that "
-			  ""
-			  "It produces somewhat more Mana when extracting from a player, but having to sit there for your Mana production to work sucks."
-			]
+			description: ["&6Rosa Arcana&r will consume &bExperience&r from &dnearby Players or Experience Orbs&r to generate &bMana&r.\nThey are also able to &ddisenchant items like a &bGrindstone&r in to generate Mana from the experience that \n\nIt produces somewhat more Mana when extracting from a player, but having to sit there for your Mana production to work sucks."]
 			id: "2AC0D8ADCCFCAEC8"
 			rewards: [{
 				amount: 50L
@@ -971,16 +1009,11 @@
 				type: "item"
 			}]
 			title: "Rosa Arcana"
-			x: -7.0d
-			y: 7.0d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
-			description: [
-			  "&6Munchdews&r produce &bMana&r by eating up &bLeaves&r in a large area around them."
-			  "However, no items will drop from Leaves it consumes."
-			  ""
-			  "After consuming all leaves in range, it will go on cooldown for a while."
-			]
+			description: ["&6Munchdews&r produce &bMana&r by eating up &bLeaves&r in a large area around them.\nHowever, no items will drop from Leaves it consumes.\n\nAfter consuming all leaves in range, it will go on cooldown for a while."]
 			id: "330933F37A0F3A63"
 			rewards: [{
 				amount: 50L
@@ -996,14 +1029,11 @@
 				type: "item"
 			}]
 			title: "Munchdew"
-			x: -5.0d
+			x: -3.0d
 			y: 7.0d
 		}
 		{
-			description: [
-			  "&6Entropinnyums&r absorb explosions from TNT (and sometimes similar Explosives) to generate &bMana&r."
-			  "They generate a significant amount of Mana, but they must be entirely emptied to absorb an explosion, otherwise they won't absorb it at all, and you should know how that goes..."
-			]
+			description: ["&6Entropinnyums&r absorb explosions from TNT (and sometimes similar Explosives) to generate &bMana&r.\nThey generate a significant amount of Mana, but they must be entirely emptied to absorb an explosion, otherwise they won't absorb it at all, and you should know how that goes..."]
 			id: "535FBCEAA90BC06D"
 			rewards: [{
 				amount: 50L
@@ -1019,15 +1049,11 @@
 				type: "item"
 			}]
 			title: "Entropinnyum"
-			x: -3.0d
-			y: 7.0d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
-			description: [
-			  "&6Gourmaryllis&r consume &dedible items&r dropped near them to generate &bMana&r."
-			  "They take some time to digest foods, depending on how filling the food is."
-			  "They also have diminshing returns for feeding them the same food multiple times in a row, and a Streak mechanic that vastly increases Mana produced the more unique foods are fed in a row."
-			]
+			description: ["&6Gourmaryllis&r consume &dedible items&r dropped near them to generate &bMana&r.\nThey take some time to digest foods, depending on how filling the food is.\nThey also have diminshing returns for feeding them the same food multiple times in a row, and a Streak mechanic that vastly increases Mana produced the more unique foods are fed in a row."]
 			id: "7AFF56D7F2046386"
 			rewards: [{
 				amount: 50L
@@ -1043,13 +1069,11 @@
 				type: "item"
 			}]
 			title: "Gourmaryllis"
-			x: -1.0d
-			y: 7.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
-			description: [
-			  "The &6Kekimurus&r chomps on nearby &bCakes&r to produce &bMana&r."
-			]
+			description: ["The &6Kekimurus&r chomps on nearby &bCakes&r to produce &bMana&r."]
 			id: "0722AE24C9164985"
 			rewards: [{
 				amount: 50L
@@ -1069,14 +1093,7 @@
 			y: 9.0d
 		}
 		{
-			description: [
-			  "The &6Rafflowsia&r generates &bMana&r by &dconsuming other Flora placed near it&r."
-			  ""
-			  "You might think that sounds terrible, and it starts that way, and has diminishing returns if you keep giving it the same Flora over and over, but every &dunique Flora fed to it in a row causes it to make exponentially more Mana&r, and it makes a &lLOT&r of Mana at high Streak values."
-			  "It will also forget the least recently consumed Flora when it reaches the maximum Streak, so you can keep the chain going indefinitely with a proper setup."
-			  ""
-			  "Even though some Flora can't be automated, the limit for its Streak doesn't account for those Flora."
-			]
+			description: ["The &6Rafflowsia&r generates &bMana&r by &dconsuming other Flora placed near it&r.\n\nYou might think that sounds terrible, and it starts that way, and has diminishing returns if you keep giving it the same Flora over and over, but every &dunique Flora fed to it in a row causes it to make exponentially more Mana&r, and it makes a &lLOT&r of Mana at high Streak values.\nIt will also forget the least recently consumed Flora when it reaches the maximum Streak, so you can keep the chain going indefinitely with a proper setup.\n\nEven though some Flora can't be automated, the limit for its Streak doesn't account for those Flora."]
 			id: "65C12F8A8F182CDC"
 			rewards: [{
 				amount: 50L
@@ -1096,11 +1113,7 @@
 			y: 9.0d
 		}
 		{
-			description: [
-			  "&6Dandelifeons&r literally just play &dConway's Game of Life&r within Minecraft to generate &bMana&r, though with some minor changes to it."
-			  ""
-			  "Explaining Conway's Game of Life is a little out of scope for a quest description, so go search up information on it if you need more than the &bLexica Botania's&r page on the Dandelifeon covers."
-			]
+			description: ["&6Dandelifeons&r literally just play &dConway's Game of Life&r within Minecraft to generate &bMana&r, though with some minor changes to it.\n\nExplaining Conway's Game of Life is a little out of scope for a quest description, so go search up information on it if you need more than the &bLexica Botania's&r page on the Dandelifeon covers."]
 			id: "7C1B725125B963A5"
 			rewards: [{
 				amount: 50L
@@ -1120,12 +1133,7 @@
 			y: 9.0d
 		}
 		{
-			description: [
-			  "&6Shulk Me Nots&r create considerable amounts of &bMana&r when a &bShulker's Projectile&r collides with a &cHostile mob&r."
-			  "Both the Shulker that fired the projectile and the hit Mob must be within in the Shulk Me Not's range, and will be killed when the projectile hits."
-			  ""
-			  "&eHint:&r Getting ahold of Shulkers for it sounds tricky, perhaps a Botanical avenue offers a means using a resource from The End?"
-			]
+			description: ["&6Shulk Me Nots&r create considerable amounts of &bMana&r when a &bShulker's Projectile&r collides with a &cHostile mob&r.\nBoth the Shulker that fired the projectile and the hit Mob must be within in the Shulk Me Not's range, and will be killed when the projectile hits.\n\n&eHint:&r Getting ahold of Shulkers for it sounds tricky, perhaps a Botanical avenue offers a means using a resource from The End?"]
 			id: "05BDA7A1190E6C24"
 			rewards: [{
 				amount: 50L
@@ -1145,11 +1153,7 @@
 			y: 9.0d
 		}
 		{
-			description: [
-			  "&6Spectrolus&r consume &bColored Wool&r dropped near them, but require the different colors to be given in a specific sequence, looping around when it reaches the end."
-			  "If any color it doesn't want is given, no Mana is generated."
-			  "Holding a &bWand of the Forest&r will show you the next color in the sequence."
-			]
+			description: ["&6Spectrolus&r consume &bColored Wool&r dropped near them, but require the different colors to be given in a specific sequence, looping around when it reaches the end.\nIf any color it doesn't want is given, no Mana is generated.\nHolding a &bWand of the Forest&r will show you the next color in the sequence."]
 			id: "5798962249A93213"
 			rewards: [{
 				amount: 50L
@@ -1169,9 +1173,7 @@
 			y: 9.0d
 		}
 		{
-			description: [
-			  "&6Narslimmus&r will break down &bSlimes &dnautrally spawned in &aSlime Chunks&r nearby them to generate &bMana&r, with the amount produced increasing based on their size."
-			]
+			description: ["&6Narslimmus&r will break down &bSlimes &dnautrally spawned in &aSlime Chunks&r nearby them to generate &bMana&r, with the amount produced increasing based on their size."]
 			id: "793A2E2C70D133C4"
 			rewards: [{
 				amount: 50L
@@ -1187,16 +1189,12 @@
 				type: "item"
 			}]
 			title: "Narslimmus"
-			x: 1.0d
+			x: -2.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["64D4884086C7B041"]
-			description: [
-			  "The Elves of Alfheim are willing to exchange some of the resources found in their world for some from ours."
-			  ""
-			  "&6&oNearby Quests will unlock as each material is acquired!"
-			]
+			description: ["The Elves of Alfheim are willing to exchange some of the resources found in their world for some from ours.\n\n&6&oNearby Quests will unlock as each material is acquired!"]
 			id: "09BF87FBA08F98E7"
 			rewards: [
 				{
@@ -1274,11 +1272,7 @@
 		}
 		{
 			dependencies: ["09BF87FBA08F98E7"]
-			description: [
-			  "The Ritual of Gaia is used to summon the &bGuardian of Gaia&r, a powerful Avatar of the Earth itself."
-			  ""
-			  "In order to summon it, the Beacon in the ritual setup must be active, and a &aTerrasteel Ingot&r must be sacrificed by &dSneaking and Interacting&r with the Beacon."
-			]
+			description: ["The Ritual of Gaia is used to summon the &bGuardian of Gaia&r, a powerful Avatar of the Earth itself.\n\nIn order to summon it, the Beacon in the ritual setup must be active, and a &aTerrasteel Ingot&r must be sacrificed by &dSneaking and Interacting&r with the Beacon."]
 			id: "112C47D6CBB0FFCB"
 			rewards: [
 				{
@@ -1328,6 +1322,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			subtitle: ""
 			tasks: [
 				{
@@ -1344,7 +1339,7 @@
 					layer: true
 					name: "ritual_of_gaia"
 					rightclick: false
-					title: "{mce.questing.botania.task.gaia_ritual_structure}"
+					title: "&oConstruct the setup for the Ritual of Gaia"
 					type: "questsadditions:structure"
 				}
 			]

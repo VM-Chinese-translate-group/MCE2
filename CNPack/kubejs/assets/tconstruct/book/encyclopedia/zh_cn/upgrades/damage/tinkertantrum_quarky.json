@@ -1,0 +1,16 @@
+{
+  "modifier_id": "tinkertantrum:quarky",
+  "text": [
+    {
+      "text": "When attacking, Damage is increased a little for each item from a mod by Vazkii on your Hotbar. "
+    },
+    {
+      "text": "Bonus Damage is relative to the stack's size out of its maximum."
+    }
+  ],
+  "more_text_space": false,
+  "effects": [
+    "Single Level",
+    "Requires 2 upgrade slots"
+  ]
+}

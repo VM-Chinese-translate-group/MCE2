@@ -363,8 +363,6 @@
 			description: [
 				"&3&oWhat awaits us on the other side? "
 				""
-				"&eTip:&r If you die in The Great Below, you will NOT create a Gravestone. You will be reduced to just another forgotten soul forever lost in The Great Below..."
-				""
 				"&8\"We do not believe in human feelings, nor in human senses, nor human needs, human values, human fears, or even human hopes. The only purpose or belief is the path from the mind to the brain.\""
 			]
 			hide_dependency_lines: true

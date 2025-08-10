@@ -584,14 +584,14 @@
 			y: 8.0d
 		}
 	]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
 			  ""
-			  "&eTip: &rBig Freshwater Turtles that can be found in Swamps. They defend themselves with their Sharp Beak. "
+			  "&e提示：&r一种生活在沼泽中的大淡水龟。它们依靠锋利的喙抵御外界的危险。"
 			  ""
 			]
 			hide_dependency_lines: true
@@ -609,13 +609,13 @@
 					type: "custom"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "76054D04B7784C1C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot an &e&oAlligator Snapping Turtle"
+				title: "发现一只&e&o大鳄龟"
 				to_observe: "alexsmobs:alligator_snapping_turtle"
 				type: "observation"
 			}]
@@ -665,7 +665,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -679,7 +679,7 @@
 				id: "0CB8065005D0B569"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oBald Eagle"
+				title: "发现一只&e&o白头海雕"
 				to_observe: "alexsmobs:bald_eagle"
 				type: "observation"
 			}]
@@ -690,7 +690,7 @@
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
 			  ""
-			  "&eTip:&r You can use the &eAlbum&r to store all of your photos! Use the UP and DOWN arrow keys to change images."
+			  "&eTip：&r&e相册&r可以存储你拍的照片！按上/下键翻页。"
 			]
 			id: "053690126EB056CD"
 			rewards: [
@@ -707,19 +707,19 @@
 					command: "/titles add {p} titles:wildlife_photographer"
 					icon: "titles:title_scroll_uncommon"
 					id: "3A27C008C589C25D"
-					title: "&eUnlock Title:&r Nature Photographer"
+					title: "&e获得称号：&r自然摄影师"
 					type: "command"
 				}
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "&oCraft a Camera and begin your Mob Snap journey! Try to capture all of the animals below with your camera!"
+			subtitle: "&o造个相机去拍动物吧！看看你能不能集齐下面所有动物的照片！"
 			tasks: [{
 				id: "11E406F3114981AA"
 				item: "camera:camera"
 				type: "item"
 			}]
-			title: "&eAmeature Photography"
+			title: "&e业余摄影"
 			x: -2.047619047619051d
 			y: -6.076190476190476d
 		}
@@ -739,13 +739,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "381DFF9EEAD5FA70"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oGorilla"
+				title: "发现一只&e&o大猩猩"
 				to_observe: "alexsmobs:gorilla"
 				type: "observation"
 			}]
@@ -769,13 +769,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "51182E2755DB26A4"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oBlobfish"
+				title: "发现一只&e&o水滴鱼"
 				to_observe: "alexsmobs:blobfish"
 				type: "observation"
 			}]
@@ -803,13 +803,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "520D202B35B5352C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oBone Serpent &r&6(Rare!) &r&4(Danger!)"
+				title: "发现一只&e&o骨蟒&r&6（稀有！）&r&4（危险！）"
 				to_observe: "alexsmobs:bone_serpent"
 				type: "observation"
 			}]
@@ -837,13 +837,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "5E71DD895A88FE1C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oCachalot Whale"
+				title: "发现一只&e&o抹香鲸"
 				to_observe: "alexsmobs:cachalot_whale"
 				type: "observation"
 			}]
@@ -866,13 +866,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "5E0E18B45C03EA7D"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oCockroach"
+				title: "发现一只&e&o蟑螂"
 				to_observe: "alexsmobs:cockroach"
 				type: "observation"
 			}]
@@ -894,13 +894,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "634A05BE60F664B1"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oCapuchin Monkey"
+				title: "发现一只&e&o卷尾猴"
 				to_observe: "alexsmobs:capuchin_monkey"
 				type: "observation"
 			}]
@@ -929,13 +929,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "1625623617E19376"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oTiger &r&4(Danger!)"
+				title: "发现一只&e&o老虎&r&4（危险！）"
 				to_observe: "alexsmobs:tiger"
 				type: "observation"
 			}]
@@ -945,7 +945,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip: &rSeals can often be found in cold climates and enjoy icy waters!"
+			  "&e提示：&r海豹常见于气候寒冷的地方，它们喜欢泡在冰水里！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -961,13 +961,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "3D39B7FB11ACE69D"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oSeal"
+				title: "发现一只&e&o海豹"
 				to_observe: "alexsmobs:seal"
 				type: "observation"
 			}]
@@ -995,7 +995,7 @@
 				id: "32D72FF064DF10CF"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oKangaroo"
+				title: "发现一只&e&o袋鼠"
 				to_observe: "alexsmobs:kangaroo"
 				type: "observation"
 			}]
@@ -1005,7 +1005,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip:&r The Crocodile is one of Nature's oldest creations. This reptile takes no prisoners. Tread lightly!"
+			  "&e提示：&r鳄鱼是自然界最古老的生物之一。这种爬行动物从不留活口，千万小心！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1026,14 +1026,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				disable_toast: true
 				icon: "cavesandcliffs:spyglass"
 				id: "4DBF98E89057C4F8"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oCrocodile &r&4(Danger!)"
+				title: "发现一只&e&o鳄鱼&r&4（危险！）"
 				to_observe: "alexsmobs:crocodile"
 				type: "observation"
 			}]
@@ -1061,13 +1061,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&eTip:&r The Grizzly Bear is a force to be reckoned with! Find these powerful beasts in Forests and around Honey!"
+			subtitle: "&e提示：&r灰熊有着不可轻视的力量！它们常常出现在森林里有蜂蜜的地方。"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "496D5F100324EE3A"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oGrizzly Bear"
+				title: "发现一只&e&o灰熊"
 				to_observe: "alexsmobs:grizzly_bear"
 				type: "observation"
 			}]
@@ -1090,13 +1090,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "05E8CE72F38687DB"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oHummingbird"
+				title: "发现一只&e&o蜂鸟"
 				to_observe: "alexsmobs:hummingbird"
 				type: "observation"
 			}]
@@ -1106,7 +1106,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip:&r The Elephant can be found in hot climates, Wandering Traders are known to ride these beautiful beasts and they are known to make excellent companions!"
+			  "&e提示：&r大象常见于气候炎热的地方。流浪商人有时会骑着大象出现，它们是人类的好伙伴！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1128,7 +1128,7 @@
 				id: "194F81481391938C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oElephant"
+				title: "发现一只&e&o大象"
 				to_observe: "alexsmobs:elephant"
 				type: "observation"
 			}]
@@ -1151,13 +1151,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "54465F83E2C712DB"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oKomodo Dragon"
+				title: "发现一只&e&o科莫多巨蜥"
 				to_observe: "alexsmobs:komodo_dragon"
 				type: "observation"
 			}]
@@ -1180,13 +1180,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "78D5CF015EC831E3"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oHammerhead Shark"
+				title: "发现一只&e&o锤头鲨"
 				to_observe: "alexsmobs:hammerhead_shark"
 				type: "observation"
 			}]
@@ -1209,13 +1209,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "292E3F5498E8FD14"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oEmu"
+				title: "发现一只&e&o鸸鹋"
 				to_observe: "alexsmobs:emu"
 				type: "observation"
 			}]
@@ -1238,13 +1238,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "6E43E06EC4C50C39"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oMoose"
+				title: "发现一只&e&o驼鹿"
 				to_observe: "alexsmobs:moose"
 				type: "observation"
 			}]
@@ -1254,7 +1254,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip:&r The Mungus is an odd creature, known to live in areas overrun by Mushrooms. Some say the Mungus is hiding a terrible secret!"
+			  "&e提示：&r蘑菇君是一种怪异的生物，它们生活在蘑菇泛滥的地方。有人说它们在隐藏着一个可怕的秘密！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1275,13 +1275,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "0B3A7844463754A9"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oMungus &r&d(Very Rare!)"
+				title: "发现一只&e&o蘑菇君&r&d（极其稀有！）"
 				to_observe: "alexsmobs:mungus"
 				type: "observation"
 			}]
@@ -1304,13 +1304,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "15CFA4EB4D1CA91C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oMantis Shrimp"
+				title: "发现一只&e&o螳螂虾"
 				to_observe: "alexsmobs:mantis_shrimp"
 				type: "observation"
 			}]
@@ -1333,13 +1333,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "16D93481357F3448"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oShoebill"
+				title: "发现一只&e&o鲸头鹳"
 				to_observe: "alexsmobs:shoebill"
 				type: "observation"
 			}]
@@ -1349,7 +1349,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip:&r Seeing a Sunbird is a true rarity. Most go their entire lives without ever seeing one, if you are lucky enough to be blessed by their presence, the locals claim you will be brought great fortune!"
+			  "&e提示：&r曦鹤是一种极其罕见的生物，绝大部分人一辈子都未曾见过。传说，幸运女神将会眷顾每一个有幸遇见它的人。"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1383,13 +1383,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "38DB30C0321078EA"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oSunbird"
+				title: "发现一只&e&o曦鹤"
 				to_observe: "alexsmobs:sunbird"
 				type: "observation"
 			}]
@@ -1412,13 +1412,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "378F04C9EA892CB1"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oTarantula Hawk"
+				title: "发现一只&e&o沙漠蛛蜂"
 				to_observe: "alexsmobs:tarantula_hawk"
 				type: "observation"
 			}]
@@ -1428,7 +1428,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip:&r The Orca claims the sea as its home, one of the most intelligent creatures in the Animal Kingdom!"
+			  "&e提示：&r虎鲸的家园是海洋。它是世界上最聪明的动物之一！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1444,13 +1444,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "74B43A75C49BEDA5"
 				observe_type: 5
 				timer: 0L
-				title: "Spot an &e&oOrca &r&6(Rare!)"
+				title: "发现一只&e&o虎鲸&r&6（稀有！）"
 				to_observe: "alexsmobs:orca"
 				type: "observation"
 			}]
@@ -1460,7 +1460,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip: &rTry naming it Perry!"
+			  "&e提示：&r你试试把它命名为Perry"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1476,13 +1476,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "720C5F0AA36B93E0"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oPlatypus"
+				title: "发现一只&e&o鸭嘴兽"
 				to_observe: "alexsmobs:platypus"
 				type: "observation"
 			}]
@@ -1505,13 +1505,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "123D03A9055161E0"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oTasmanian Devil"
+				title: "发现一只&e&o袋獾"
 				to_observe: "alexsmobs:tasmanian_devil"
 				type: "observation"
 			}]
@@ -1521,7 +1521,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip:&r The Guster can be found in Deserts exclusively. This mythical creature is bound by a special gemstone, no one truly knows the conditions for a Guster to be created, but they have been sighted throughout the ages."
+			  "&e提示：&r沙风怪只会出现在沙漠中。这种神秘的生物似乎被某种特殊的宝石所束缚，没有人知道沙风怪究竟是如何召唤的，但自古以来总有人遇见它们。"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1537,13 +1537,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "1802635A0C9F502D"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oGuster &r&4(Danger!)"
+				title: "发现一只&e&o沙风怪&r&4（危险！）"
 				to_observe: "alexsmobs:guster"
 				type: "observation"
 			}]
@@ -1566,13 +1566,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "7DE7D557BD1B9F28"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oLeafcutter Ant"
+				title: "发现一只&e&o切叶蚁"
 				to_observe: "alexsmobs:leafcutter_ant"
 				type: "observation"
 			}]
@@ -1595,13 +1595,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "604C1B61CD35881C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oLobster"
+				title: "发现一只&e&o龙虾"
 				to_observe: "alexsmobs:lobster"
 				type: "observation"
 			}]
@@ -1629,13 +1629,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "004C0CF35F3996E9"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oMimic Octopus &r&6(Rare!)"
+				title: "发现一只&e&o拟态章鱼&r&6（稀有！）"
 				to_observe: "alexsmobs:mimic_octopus"
 				type: "observation"
 			}]
@@ -1658,13 +1658,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "62DD99FF012333CC"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oFrilled Shark"
+				title: "发现一只&o皱鳃鲨"
 				to_observe: "alexsmobs:frilled_shark"
 				type: "observation"
 			}]
@@ -1686,13 +1686,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "1D00063D20ABADEA"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oRattlesnake"
+				title: "发现一条&e&o响尾蛇"
 				to_observe: "alexsmobs:rattlesnake"
 				type: "observation"
 			}]
@@ -1715,13 +1715,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "110E28CF2C0024C6"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oRoadrunner"
+				title: "发现一只&e&o走鹃"
 				to_observe: "alexsmobs:roadrunner"
 				type: "observation"
 			}]
@@ -1731,7 +1731,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-			  "&eTip:&r The Dropbear is one scary creature! Find it in The Nether! (Come prepared!)"
+			  "&e提示：&r悬熊是一种吓人的生物！它栖息在下界！（做好准备再去！）"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1752,13 +1752,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "&oAnimal Snap!"
+			subtitle: "&o拍到了！"
 			tasks: [{
 				icon: "cavesandcliffs:spyglass"
 				id: "0FBD34818E439285"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oDropbear &r&6(Rare!) &r&4(Danger!)"
+				title: "发现一头&e&o悬熊&r&6（稀有！）&r&4（危险！）"
 				to_observe: "alexsmobs:dropbear"
 				type: "observation"
 			}]
@@ -1775,15 +1775,15 @@
 					Count: 1
 					id: "minecraft:written_book"
 					tag: {
-						author: "Rat Police Chief"
-						pages: ["{\"text\":\"§c§lHALT!\\n------\\n\\n§7Please do make sure to not disturb the animals! You will be granted a wildlife photography licence on the condition that you §d§nRESPECT NATURE!\\n\\n§7Don't make me get Swampy Bogbeard!\"}"]
+						author: "鼠鼠警长"
+						pages: ["{\"text\":\"§c§l打断一下！\\n------\\n\\n§7观察的时候千万不要惊扰到动物！你必须§d§n尊重大自然§7，否则你就别想拿到野生动物摄影证了！\\n\\n§7别把我气的吹胡子瞪眼！\"}"]
 						resolved: 1b
-						title: "Terms & Conditions!"
+						title: "条款与条件"
 					}
 				}
 				type: "item"
 			}]
-			subtitle: "&oThe Chief of Police has a few words to say before you can begin your adventure, I would advise you follow his advice!"
+			subtitle: "&o在你开始之前，鼠鼠警长有话要说——你最好乖乖听它的建议！"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -1798,12 +1798,12 @@
 					}
 				}
 				id: "5F64014F55ED35D7"
-				title: "&eFilming Permit &n(Click To Agree)"
+				title: "&e拍摄许可&n（点击接受）"
 				type: "checkmark"
 			}]
 			x: -2.0d
 			y: -5.0d
 		}
 	]
-	title: "&2Animal Snap!"
+	title: "&2动物快照！"
 }
