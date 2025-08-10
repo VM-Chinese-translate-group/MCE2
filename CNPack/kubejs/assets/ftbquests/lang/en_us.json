@@ -1,10 +1,10 @@
 {
-	"ftbquests.quest": "Quest",
-	"ftbquests.quests": "Quests",
-	"ftbquests.quest.completed": "Quest completed!",
-	"ftbquests.quest.can_repeat": "Can be repeated",
-	"ftbquests.tasks": "§a§nTasks",
-	"ftbquests.task.max_input": "Max Input",
-	"ftbquests.rewards": "§6↓ §nRewards§r §6↓",
-	"ftbquests.reward_tables": "Reward Tables"
+	"ftbquests.quest": "任务",
+	"ftbquests.quests": "任务",
+	"ftbquests.quest.completed": "任务完成！",
+	"ftbquests.quest.can_repeat": "可重复",
+	"ftbquests.tasks": "§a§n目标",
+	"ftbquests.task.max_input": "最大输入",
+	"ftbquests.rewards": "§6↓§n奖励§r§6↓",
+	"ftbquests.reward_tables": "奖励表"
 }
