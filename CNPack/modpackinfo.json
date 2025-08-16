@@ -3,10 +3,10 @@
     "name": "MC Eternal 2",
     "version": "1.1.1.0",
     "translation": {
+      "id": "mce2",
       "url": "https://vmct-cn.top/modpacks/mce2/",
       "language": "zh_cn",
       "version": "1.0.0",
-      "updateCheckUrl": "https://gitee.com/Wulian233/vmtu/raw/main/update/mce2.txt",
       "resourcePackName": "VM汉化组模组汉化包1.19及以上"
     }
   }
