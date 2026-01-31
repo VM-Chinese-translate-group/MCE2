@@ -1,6 +1,0 @@
- {
-  "type": "command",
-  "id": "titles:loot",
-  "rarity": "uncommon",
-  "defaultDisplay": "the Loot Goblin"
-}

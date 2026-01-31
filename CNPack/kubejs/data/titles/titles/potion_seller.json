@@ -1,6 +1,0 @@
- {
-  "type": "command",
-  "id": "titles:potion",
-  "rarity": "uncommon",
-  "defaultDisplay": "the Potion Seller"
-}
