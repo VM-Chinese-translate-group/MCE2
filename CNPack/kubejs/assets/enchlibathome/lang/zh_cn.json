@@ -1,0 +1,16 @@
+{
+  "itemGroup.enchlibathome": "Enchantment Library at Home",
+  "block.enchlibathome.library": "Enchantment Library",
+  "block.enchlibathome.ender_library": "Library of Alexandria",
+  "enchlibathome.ench.library": "Enchantment Library",
+  "tooltip.enchlib.capacity": "Level Capacity: %s",
+  "tooltip.enchlib.max_lvl": "Max Level Available: %s",
+  "tooltip.enchlib.points": "Points Stored: %s/%s",
+  "tooltip.enchlib.unavailable": "Next Level Unavailable",
+  "tooltip.enchlib.extracting": "Extracting Level %s",
+  "tooltip.enchlib.cost": "Point Cost: %s",
+  "tooltip.enchlib.item": "Storing %d enchantments.",
+  "info.enchlibathome.library": "The enchantment library is a block that stores enchantments.  Inserting an enchanted book will deposit it.  Left-clicking on a stored enchantment will extract one level of it.  Shift-clicking will extract the max level available.",
+  "enchantment.level.16": "XVI",
+  "enchantment.level.31": "XXXI"
+}

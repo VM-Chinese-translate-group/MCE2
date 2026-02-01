@@ -1,0 +1,21 @@
+{
+  "dialog.ui.esc": "Exit Tutorial",
+  "dialog.ui.confirm_esc": "Are you sure you want to exit the tutorial?",
+  "dialog.mce_dialog.speaker.barry": "Barry!",
+  "dialog.mce_dialog.speaker.end": "Fin -",
+  
+  "dialog.test_dialog.entry.end.text": "You have finished the tutorial! Open your Quest Book and sign the contract! Hate is always foolish, Love is always wise! Never be cruel and never be cowardly, FAREWELL!",
+  "dialog.mce_dialog.entry.start.text": "Oh.... Hello there @i, I'm Barry and I'm §6§lCHEESED§r to meet you! Welcome to MC Eternal 2! This is a brief tutorial kindly provided by yours truly!",
+  "dialog.mce_dialog.entry.2.text": "This modpack is full of many mods big and small, to help you navigate this strange new world try and get a §a§nQuest Book§r which drops from the first tree you chop!",
+  "dialog.mce_dialog.entry.2.text.1": "The §a§nQuest Book§r will be your new best friend! It provides you with guidance when needed and grants generous rewards for those eager enough to complete Quests!",
+  "dialog.mce_dialog.entry.2.text.2": "However, the modpack encourages you to not solely rely on Questing but instead use it to supplement your gameplay experience! Or §mignore it entirely§r if you'd prefer! But I would suggest you check it out because it is full of useful tips and advice!",
+  "dialog.mce_dialog.entry.4.text": "First and foremost, there are some changes to the game that are worth briefly discussing before you set off on your merry way!!",
+  "dialog.mce_dialog.entry.4.text.1": "The difficulty of this world changes with your progression... As your power grows, new dangerous foes begin to emerge! However, feel free to progress at your own pace!",
+  "dialog.mce_dialog.entry.5.text": "The game is broken up into three modes, §7Normal Mode§r - Which begins when you start a new world. §4Expert Mode§r - Which begins upon entering The Nether. §dMaster Mode§r§f - Which begins upon slaying The Ender Dragon!",
+  "dialog.mce_dialog.entry.5.text.1": "Additionally, opening an End Portal requires you to seek out §6§l12 Legendary Eyes§r of immense power. These eyes drop from only the most fierce and dangerous foes! They can also sometimes be found in other elements of gameplay, but that's for you to discover!",
+  "dialog.mce_dialog.entry.6.text": "If you run into any technical or gameplay difficulties, feel free to join our Discord!",
+  "dialog.mce_dialog.entry.6.text.1": " Oh... and finally... You'll need to sign a special contract of sorts. It's a 'mostly' standard legal document and nothing to worry about! You can find more details in the §a§nQuest Book§r",
+  "dialog.mce_dialog.entry.6.text.2": "So get to signing! Otherwise, ol' Barry will start sighing! Barry is surprisingly litigious for a sentient rodent. Otherwise I'll be forced to send some of the most §4§lEVIL§r creatures from all of creation after you... §oLawyers§r... Which I'd really rather not do. §c§lYOU HAVE 2 HOURS!!§r",
+  "dialog.mce_dialog.entry.7.text": "Thanks for reading this powerpoint presentation and I hope you have a wonderful day. LOTS OF LOVE FROM BARRY! §d§lXOXO",
+  "dialog.mce_dialog.entry.end.text": "Thanks for reading this powerpoint presentation and I hope you have a wonderful day. FAREWELL!!! LOTS OF LOVE FROM BARRY!"
+}
