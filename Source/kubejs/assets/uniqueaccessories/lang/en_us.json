@@ -1,0 +1,420 @@
+{
+  "item.uniqueaccessories.accessory_box": "Accessory Box",
+  "item.uniqueaccessories.ancient_chisel": "Ancient Chisel",
+  "item.uniqueaccessories.all_purpose_seasoning": "All-Purpose Seasoning",
+  "item.uniqueaccessories.amplifier_stone": "Amplifier Stone",
+  "item.uniqueaccessories.anklet_of_fortune": "Anklet of Fortune",
+  "item.uniqueaccessories.black_belt": "Black Belt",
+  "item.uniqueaccessories.blade_shoes": "Blade Shoes",
+  "item.uniqueaccessories.bloody_knife": "Bloody Knife",
+  "item.uniqueaccessories.burning_soul": "Burning Soul",
+  "item.uniqueaccessories.championship_belt": "Championship Belt",
+  "item.uniqueaccessories.cursed_doll_head": "Cursed Doll Head",
+  "item.uniqueaccessories.devils_eyeball": "Devil's Eyeball",
+  "item.uniqueaccessories.durable_spring": "Durable Spring",
+  "item.uniqueaccessories.ender_lens": "Ender Lens",
+  "item.uniqueaccessories.fossil_shark_tooth": "Fossil Shark Tooth",
+  "item.uniqueaccessories.golden_egg_charm": "Golden Egg",
+  "item.uniqueaccessories.hero_emblem": "Hero Emblem",
+  "item.uniqueaccessories.large_paddle": "Large Paddle",
+  "item.uniqueaccessories.life_jacket_belt": "Life Jacket Belt",
+  "item.uniqueaccessories.magick_quiver": "Magick Quiver",
+  "item.uniqueaccessories.master_ninja_tabi": "Master Ninja's Tabi",
+  "item.uniqueaccessories.moon_stone": "Moon Stone",
+  "item.uniqueaccessories.ninjutsu_manual": "Ninjutsu Manual",
+  "item.uniqueaccessories.power_crystal": "Power Crystal",
+  "item.uniqueaccessories.rocket_shoes": "Rocket Shoes",
+  "item.uniqueaccessories.rose_of_temptation": "Rose of Temptation",
+  "item.uniqueaccessories.royal_honeycomb": "Royal Honeycomb",
+  "item.uniqueaccessories.rusty_guillotine_blade": "Rusty Guillotine Blade",
+  "item.uniqueaccessories.sharp_fishing_hook": "Sharp Fishing Hook",
+  "item.uniqueaccessories.shiny_stone": "Shiny Stone",
+  "item.uniqueaccessories.silver_cat_tail": "Silver Cat Tail",
+  "item.uniqueaccessories.small_propulsion_device": "Small Propulsion Device",
+  "item.uniqueaccessories.snow_golem_doll": "Snow Golem Doll",
+  "item.uniqueaccessories.soul_gem": "Soul Gem",
+  "item.uniqueaccessories.starved_wolf_skull": "Starved Wolf Skull",
+  "item.uniqueaccessories.still_beating_heart": "Still Beating Heart",
+  "item.uniqueaccessories.strong_sticky_slime_ball": "Strong Sticky Slime Ball",
+  "item.uniqueaccessories.sun_stone": "Sun Stone",
+  "item.uniqueaccessories.supreme_meat": "Supreme Meat",
+  "item.uniqueaccessories.survival_belt": "Survival Belt",
+  "item.uniqueaccessories.suspicious_mushroom": "Suspicious Mushroom",
+  "item.uniqueaccessories.tabi": "Tabi",
+  "item.uniqueaccessories.tool_belt": "Tool Belt",
+  "item.uniqueaccessories.waist_warmer": "Waist Warmer",
+  "item.uniqueaccessories.withered_heart": "Withered Heart",
+
+
+  "curios.identifier.feet": "Feet",
+  "curios.modifiers.feet": "When worn as feet:",
+
+
+  "entity.uniqueaccessories.golden_egg": "Golden Egg",
+
+
+  "creativetab.unique_accessories_tab": "Unique Accessories",
+
+
+  "tooltip.uniqueaccessories.hold_shift": "Hold Shift for details",
+
+  "tooltip.uniqueaccessories.accessory_box.desc1": "Contains random accessories",
+  "tooltip.uniqueaccessories.accessory_box.desc2": "Uncommon: 80%",
+  "tooltip.uniqueaccessories.accessory_box.desc3": "Rare: 18%",
+  "tooltip.uniqueaccessories.accessory_box.desc4": "Epic: 2%",
+
+  "tooltip.uniqueaccessories.ancient_chisel.desc1": "Mining Speed +%s%%",
+
+  "tooltip.uniqueaccessories.all_purpose_seasoning.desc1": "When you eat food, you recover 1 HP and additionally recover 2 Food Level",
+
+  "tooltip.uniqueaccessories.amplifier_stone.desc1": "When using a horn, plays an explosion sound and deals %2$s damage to mobs within %1$sm",
+
+  "tooltip.uniqueaccessories.anklet_of_fortune.desc1": "%s%% chance to negate negative effects",
+
+  "tooltip.uniqueaccessories.black_belt.desc1": "Dodge Chance +%s%%",
+  "tooltip.uniqueaccessories.black_belt.desc2": "When dodging: Attack Damage +4 / Movement Speed +20% for 5 seconds",
+
+  "tooltip.uniqueaccessories.blade_shoes.desc1": "Destroys plants and cobwebs at your feet",
+
+  "tooltip.uniqueaccessories.bloody_knife.desc1": "Increases damage dealt by 30% when attacking a mob from behind",
+
+  "tooltip.uniqueaccessories.burning_soul.desc1": "On taking lethal damage, spend experience levels to prevent death",
+  "tooltip.uniqueaccessories.burning_soul.desc2": "Consumes %s level per point of damage",
+
+  "tooltip.uniqueaccessories.championship_belt.desc1": "Unarmed Attack Damage +%1$s / Unarmed Attack Speed +%2$s",
+  "tooltip.uniqueaccessories.championship_belt.desc2": "Per empty armor slot: Armor +%1$s / Movement Speed +%2$s%% / Dodge Chance +%3$s%% / Knockback Resistance +%4$s%%",
+
+  "tooltip.uniqueaccessories.cursed_doll.desc1": "Every 20 seconds, applies a random Negative Effect for 20 seconds to mobs within %3$sm, including you",
+
+  "tooltip.uniqueaccessories.devils_eyeball.desc1": "Critical Damage +%1$s%% / Critical Chance +%2$s%%",
+
+  "tooltip.uniqueaccessories.durable_spring.desc1": "Movement Speed +%s%%",
+  "tooltip.uniqueaccessories.durable_spring.desc2": "Increases jump height",
+  "tooltip.uniqueaccessories.durable_spring.desc3": "Take fall damage only from falls of 7+ blocks",
+
+  "tooltip.uniqueaccessories.ender_lens.desc1": "While using Spyglass, if you look at a mob within 320m for 2 seconds, you will be teleported to that coordinate",
+  "tooltip.uniqueaccessories.ender_lens.desc2": "Cannot teleport to flying mobs",
+
+  "tooltip.uniqueaccessories.fossil_shark_tooth.desc1": "Armor Penetration +%s",
+
+  "tooltip.uniqueaccessories.golden_egg_charm.desc1": "Throw a Golden Egg instead of a normal egg",
+  "tooltip.uniqueaccessories.golden_egg_charm.desc2": "Golden Egg : %s damage, spawns a Gold Nugget at the impact point",
+
+  "tooltip.uniqueaccessories.hero_emblem.desc1": "Armor +4 / Attack Damage +%1$s / Arrow Damage +%2$s%%",
+  "tooltip.uniqueaccessories.hero_emblem.desc2": "HP ≤ 10 : Attack Damage +%1$s / Arrow Damage +%2$s%% / Movement Speed +%3$s%%",
+  "tooltip.uniqueaccessories.hero_emblem.desc3": "HP = 1 : Attack Damage +%1$s / Arrow Damage +%2$s%% / Dodge Chance +%3$s%% / Critical Chance +%4$s%% / Neutralize Negative Effects",
+
+  "tooltip.uniqueaccessories.large_paddle.desc1": "Boat Movement Speed +50%",
+
+  "tooltip.uniqueaccessories.life_jacket_belt.desc1": "Ascend quickly underwater and float at the surface",
+
+  "tooltip.uniqueaccessories.magick_quiver.desc1": "Arrow Damage +%s%% / Arrow Velocity +%s%%",
+
+  "tooltip.uniqueaccessories.master_ninja_tabi.desc1": "Movement Speed +15%",
+  "tooltip.uniqueaccessories.master_ninja_tabi.desc2": "Double-tap a movement key to long distance Quick-step in that direction",
+  "tooltip.uniqueaccessories.master_ninja_tabi.desc3": "Quick-step requires a food level of 7 or higher",
+
+  "tooltip.uniqueaccessories.moon_stone.desc1": "Effects apply only at night",
+  "tooltip.uniqueaccessories.moon_stone.desc2": "Attack Damage +%1$s / Arrow Damage +%2$s%% / Attack Speed +%3$s",
+  "tooltip.uniqueaccessories.moon_stone.desc3": "Armor +%1$s / Critical Chance +%2$s%% / Mining Speed +%3$s%%",
+  "tooltip.uniqueaccessories.moon_stone.desc4": "Heal 1 HP every %1$s seconds",
+
+  "tooltip.uniqueaccessories.ninjutsu_manual.desc1": "Sneaking Movement Speed +200%",
+  "tooltip.uniqueaccessories.ninjutsu_manual.desc2": "While sneaking, negate block effects and decreases nearby mobs detection range toward you by 60%",
+  "tooltip.uniqueaccessories.ninjutsu_manual.desc3": "Block effects：Cob Web / Sweet Berry / Cactus / Switch Plate / Tripwire",
+
+  "tooltip.uniqueaccessories.power_crystal.desc1": "Draw Speed +30%",
+
+  "tooltip.uniqueaccessories.rocket_shoes.desc1": "Pressing the jump key in the air will activate the booster and ascend",
+  "tooltip.uniqueaccessories.rocket_shoes.desc2": "Consecutive activations increase ascending power",
+  "tooltip.uniqueaccessories.rocket_shoes.desc3": "Lasts for up to %1$s seconds and can be used again upon landing",
+
+  "tooltip.uniqueaccessories.rose_of_temptation.desc1": "Attracts neutral mobs within a 16m radius",
+  "tooltip.uniqueaccessories.rose_of_temptation.desc2": "The ability will be activated even when held in hand",
+
+  "tooltip.uniqueaccessories.royal_honeycomb.desc1": "When attacked by mobs, Summon an enhanced bee for 8 seconds",
+
+  "tooltip.uniqueaccessories.rusty_guillotine_blade.desc1": "Increases damage dealt to mobs with HP below 40% by 80%",
+
+  "tooltip.uniqueaccessories.sharp_fishing_hook.desc1": "Deals %1$s damage when the hook hits a mob or when reeling in",
+  "tooltip.uniqueaccessories.sharp_fishing_hook.desc2": "Increases the ability to pull mobs with a fishing rod",
+
+  "tooltip.uniqueaccessories.shiny_stone.desc1": "If you do nothing for 2 seconds, rapidly regenerate HP",
+
+  "tooltip.uniqueaccessories.silver_cat_tail.desc1": "Sprinting Speed +%s%%",
+  "tooltip.uniqueaccessories.silver_cat_tail.desc2": "Negates fall damage unless it would be lethal",
+
+  "tooltip.uniqueaccessories.small_propulsion.desc1": "Projectile Velocity +%1$s%% (excluding arrows)",
+
+  "tooltip.uniqueaccessories.snow_golem_doll.desc1": "Snowball Damage +%1$s",
+  "tooltip.uniqueaccessories.snow_golem_doll.desc2": "Generates snow at your feet while sneaking",
+
+  "tooltip.uniqueaccessories.soul_gem.desc1": "Restore %1$s HP upon killing a mob",
+
+  "tooltip.uniqueaccessories.starved_wolf_skull.desc1": "Always affected by Hunger, but heal %1$s HP on a successful melee hit",
+  "tooltip.uniqueaccessories.starved_wolf_skull.desc2": "Food level ≤ 6 : Movement Speed +%1$s%%",
+  "tooltip.uniqueaccessories.starved_wolf_skull.desc3": "Food level = 0 : Attack Damage +%1$s",
+
+  "tooltip.uniqueaccessories.still_beating_heart.desc1": "Attack Damage +2",
+  "tooltip.uniqueaccessories.still_beating_heart.desc2": "When HP is full, damage dealt increases by 20%",
+
+  "tooltip.uniqueaccessories.strengthened_sticky_slime_ball.desc1": "Movement Speed -10%",
+  "tooltip.uniqueaccessories.strengthened_sticky_slime_ball.desc2": "Can now climb block walls, crouching sticks you in place",
+
+  "tooltip.uniqueaccessories.strong_sticky_slime_ball.desc1": "Knockback Resistance +10% / Movement Speed -10%",
+  "tooltip.uniqueaccessories.strong_sticky_slime_ball.desc2": "Can now climb block walls, crouching sticks you in place",
+
+  "tooltip.uniqueaccessories.sun_stone.desc1": "Effects apply only during the day",
+  "tooltip.uniqueaccessories.sun_stone.desc2": "Attack Damage +%1$s / Arrow Damage +%2$s%% / Attack Speed +%3$s",
+  "tooltip.uniqueaccessories.sun_stone.desc3": "Armor +%1$s / Critical Chance +%2$s%% / Mining Speed +%3$s%%",
+  "tooltip.uniqueaccessories.sun_stone.desc4": "Heal 1 HP every %1$s seconds",
+
+  "tooltip.uniqueaccessories.supreme_meat.desc1": "Empowers your following wolves : Attack Damage +%1$s / Armor +%2$s / Movement Speed +%3$s%%",
+
+  "tooltip.uniqueaccessories.survival_belt.desc1": "Step Height +0.5",
+  "tooltip.uniqueaccessories.survival_belt.desc2": "Increases drops from animal-type mobs",
+  "tooltip.uniqueaccessories.survival_belt.desc3": "While sneaking, right-click a block with an empty hand to ignite it",
+  "tooltip.uniqueaccessories.survival_belt.desc4": "Stand near a fire to heal 1 HP every 2 seconds",
+
+  "tooltip.uniqueaccessories.suspicious_mushroom.desc1": "While under a negative effect, damage dealt increases by 15%",
+  "tooltip.uniqueaccessories.suspicious_mushroom.desc2": "When under a negative effect, heal 1 HP every 2 seconds for 10 seconds",
+  "tooltip.uniqueaccessories.suspicious_mushroom.desc3": "This ability has a cooldown of 10 seconds after the effect ends",
+
+  "tooltip.uniqueaccessories.tabi.desc1": "Walking Movement Speed +%1$s%%",
+  "tooltip.uniqueaccessories.tabi.desc2": "Double-tap a movement key to Quick-step in that direction",
+  "tooltip.uniqueaccessories.tabi.desc3": "Quick-step can only be activated while on the ground and with a hunger level of 7 or higher",
+
+  "tooltip.uniqueaccessories.tool_belt.desc1": "Block Reach +%1$sm",
+  "tooltip.uniqueaccessories.tool_belt.desc2": "Block Placement Speed +100%",
+
+  "tooltip.uniqueaccessories.waist_warmer.desc1": "Negates freezing damage from Powder Snow",
+  "tooltip.uniqueaccessories.waist_warmer.desc2": "Upon waking in the morning: Heal 10 HP and gain 2 min of Speed I, Haste I, and Strength I",
+
+  "tooltip.uniqueaccessories.withered_heart.desc1": "Sets maximum HP to 1",
+
+
+  "adv.uniqueaccessories.collect_05.title": "Beginner Collector",
+  "adv.uniqueaccessories.collect_05.desc": "Obtain 5 different accessories",
+  "adv.uniqueaccessories.collect_10.title": "Accessory Enthusiast",
+  "adv.uniqueaccessories.collect_10.desc": "Obtain 10 different accessories",
+  "adv.uniqueaccessories.collect_20.title": "Connoisseur",
+  "adv.uniqueaccessories.collect_20.desc": "Obtain 20 different accessories",
+  "adv.uniqueaccessories.collect_40.title": "Ultimate Collector",
+  "adv.uniqueaccessories.collect_40.desc": "Obtain all accessories",
+
+  "adv.uniqueaccessories.get_accessory_box.title": "Try Your Luck",
+  "adv.uniqueaccessories.get_accessory_box.desc": "Obtain an Accessory Box",
+
+  "adv.uniqueaccessories.get_any_accessory.title": "First Accessory!",
+  "adv.uniqueaccessories.get_any_accessory.desc": "Obtain any accessory",
+
+  "adv.uniqueaccessories.get_epic_accessory.title": "Epic Find",
+  "adv.uniqueaccessories.get_epic_accessory.desc": "Obtain any Epic accessory",
+
+  "adv.uniqueaccessories.get_epic_from_box.title": "Jackpot!!!",
+  "adv.uniqueaccessories.get_epic_from_box.desc": "Obtain an Epic accessory from Accessory Box",
+
+  "ua.category.belt": "Belt",
+  "ua.category.charm": "Charm",
+  "ua.category.feet": "Feet",
+  "ua.category.loot": "Loot",
+
+
+  "ua.screen.title.global": "Unique Accessories - Client",
+  "ua.screen.title.server_ro": "Unique Accessories  - Client",
+  "ua.screen.title.world": "Unique Accessories - Client",
+
+
+  "ua.config.ancientChiselMining": "Ancient Chisel: Mining Speed",
+
+  "ua.config.amplifierStoneDamage": "Amplifier Stone: Damage",
+  "ua.config.amplifierStoneRadius": "Amplifier Stone: Radius",
+
+  "ua.config.ankletOfFortuneDebuffNegateChance": "Anklet of Fortune: Debuff Negate Chance",
+
+  "ua.config.blackBeltDodgeChance": "Black Belt: Dodge Chance",
+
+  "ua.config.burningSoulLevelCost": "Burning Soul: Level Cost",
+
+  "ua.config.championshipBeltArmor": "Championship Belt: Armor",
+  "ua.config.championshipBeltDodgeChance": "Championship Belt: Dodge Chance",
+  "ua.config.championshipBeltKnockbackResistance": "Championship Belt: Knockback Resistance",
+  "ua.config.championshipBeltMovementSpeed": "Championship Belt: Movement Speed",
+  "ua.config.championshipBeltUnarmedAttackDamage": "Championship Belt: Unarmed Attack Damage",
+  "ua.config.championshipBeltUnarmedAttackSpeed": "Championship Belt: Unarmed Attack Speed",
+
+  "ua.config.cursedDollHeadEffectRadius": "Cursed Doll Head: Radius",
+
+  "ua.config.devilsEyeballCriticalChance": "Devil's Eyeball: Critical Chance",
+  "ua.config.devilsEyeballCriticalDamage": "Devil's Eyeball: Critical Damage",
+
+  "ua.config.durableSpringMovementSpeed": "Durable Spring: Movement Speed",
+
+  "ua.config.fossilSharkToothPenetration": "Fossil Shark Tooth: Armor Penetration",
+
+  "ua.config.goldenEggDamage": "Golden Egg: Egg Damage",
+  "ua.config.goldenEggChance": "Golden Egg: Drop Chance",
+
+
+  "ua.config.heroEmblemAttackDamage": "Hero Emblem: Attack Damage",
+  "ua.config.heroEmblemArrowDamage": "Hero Emblem: Arrow Damage",
+  "ua.config.heroEmblemLowHpAttackDamage": "Hero Emblem (Low HP): Attack Damage",
+  "ua.config.heroEmblemLowHpArrowDamage": "Hero Emblem (Low HP): Arrow Damage",
+  "ua.config.heroEmblemLowHpMovementSpeed": "Hero Emblem (Low HP): Movement Speed",
+  "ua.config.heroEmblem1HpAttackDamage": "Hero Emblem (1 HP): Attack Damage",
+  "ua.config.heroEmblem1HpArrowDamage": "Hero Emblem (1 HP): Arrow Damage",
+  "ua.config.heroEmblem1HpCriticalChance": "Hero Emblem (1 HP): Critical Chance",
+  "ua.config.heroEmblem1HpDodgeChance": "Hero Emblem (1 HP): Dodge Chance",
+
+  "ua.config.magickQuiverArrowDamage": "Magick Quiver: Arrow Damage",
+  "ua.config.magickQuiverArrowVelocity": "Magick Quiver: Arrow Velocity",
+
+  "ua.config.moonStoneArmor": "Moon Stone: Armor",
+  "ua.config.moonStoneArrowDamage": "Moon Stone: Arrow Damage",
+  "ua.config.moonStoneAttackDamage": "Moon Stone: Attack Damage",
+  "ua.config.moonStoneAttackSpeed": "Moon Stone: Attack Speed",
+  "ua.config.moonStoneCriticalChance": "Moon Stone: Critical Chance",
+  "ua.config.moonStoneHealSec": "Moon Stone: Heal Interval",
+  "ua.config.moonStoneMiningSpeed": "Moon Stone: Mining Speed",
+
+  "ua.config.rocketShoesMaxTicks": "Rocket Shoes: Boost Active Tick",
+
+  "ua.config.royalHoneycombChance": "Royal Honeycomb: Drop Chance",
+
+  "ua.config.sharpFishingHookDamage": "Sharp Fishing Hook: Damage",
+
+  "ua.config.smallPropulsionMultiplier": "Small Propulsion: Velocity Multiplier",
+
+  "ua.config.silverCatTailSprintSpeed": "Silver Cat Tail: Sprint Speed",
+
+  "ua.config.snowGolemDollSnowballDamage": "Snow Golem Doll: Snowball Damage",
+
+  "ua.config.soulGemHeal": "Soul Gem: Heal",
+
+  "ua.config.starvedWolfSkullAttackDamage": "Starved Wolf Skull: Attack Damage",
+  "ua.config.starvedWolfSkullHeal": "Starved Wolf Skull: Heal",
+  "ua.config.starvedWolfSkullMovementSpeed": "Starved Wolf Skull: Movement Speed",
+
+  "ua.config.sunStoneArmor": "Sun Stone: Armor",
+  "ua.config.sunStoneArrowDamage": "Sun Stone: Arrow Damage",
+  "ua.config.sunStoneAttackDamage": "Sun Stone: Attack Damage",
+  "ua.config.sunStoneAttackSpeed": "Sun Stone: Attack Speed",
+  "ua.config.sunStoneCriticalChance": "Sun Stone: Critical Chance",
+  "ua.config.sunStoneHealSec": "Sun Stone: Heal Interval",
+  "ua.config.sunStoneMiningSpeed": "Sun Stone: Mining Speed",
+
+  "ua.config.supremeMeatAttackDamage": "Supreme Meat: Attack Damage",
+  "ua.config.supremeMeatArmor": "Supreme Meat: Armor",
+  "ua.config.supremeMeatMovementSpeed": "Supreme Meat: Movement Speed",
+
+  "ua.config.tabiWalkSpeed": "Tabi: Walk Speed",
+
+  "ua.config.toolBeltBlockReach": "Tool Belt: Block Reach",
+
+  "ua.config.witheredHeartMaxHp": "Withered Heart: Max HP",
+
+  "ua.config.loot.chances.accessory_box.ancient_city": "Accessory Box: Ancient City Chance",
+  "ua.config.loot.chances.accessory_box.bastion_treasure": "Accessory Box: Bastion Treasure Chance",
+  "ua.config.loot.chances.accessory_box.stronghold_corridor": "Accessory Box: Stronghold Corridor Chance",
+  "ua.config.loot.chances.accessory_box.stronghold_crossing": "Accessory Box: Stronghold Crossing Chance",
+  "ua.config.loot.chances.accessory_box.pillager_outpost": "Accessory Box: Pillager Outpost Chance",
+  "ua.config.loot.chances.accessory_box.shipwreck_treasure": "Accessory Box: Shipwreck Treasure Chance",
+  "ua.config.loot.chances.accessory_box.simple_dungeon": "Accessory Box: Simple Dungeon Chance",
+  "ua.config.loot.chances.accessory_box.woodland_mansion": "Accessory Box: Woodland Mansion Chance",
+
+  "ua.config.loot.chances.accessory_box.buried_treasure": "Accessory Box: Buried Treasure Chance",
+  "ua.config.loot.chances.accessory_box.desert_pyramid": "Accessory Box: Desert Pyramid Chance",
+  "ua.config.loot.chances.accessory_box.end_city_treasure": "Accessory Box: End City Chance",
+  "ua.config.loot.chances.accessory_box.jungle_temple": "Accessory Box: Jungle Temple Chance",
+  "ua.config.loot.chances.accessory_box.ruined_portal": "Accessory Box: Ruined Portal Chance",
+  "ua.config.loot.chances.accessory_box.village_desert_house": "Accessory Box: Village Desert House Chance",
+  "ua.config.loot.chances.accessory_box.village_plains_house": "Accessory Box: Village Plains House Chance",
+  "ua.config.loot.chances.accessory_box.village_savanna_house": "Accessory Box: Village Savanna House Chance",
+  "ua.config.loot.chances.accessory_box.village_snowy_house": "Accessory Box: Village Snowy House Chance",
+  "ua.config.loot.chances.accessory_box.village_taiga_house": "Accessory Box: Village Taiga House Chance",
+
+  "ua.config.loot.chances.all_purpose_seasoning.village_desert_house": "All-Purpose Seasoning: Desert House Chance",
+  "ua.config.loot.chances.all_purpose_seasoning.village_plains_house": "All-Purpose Seasoning: Plains House Chance",
+  "ua.config.loot.chances.all_purpose_seasoning.village_savanna_house": "All-Purpose Seasoning: Savanna House Chance",
+  "ua.config.loot.chances.all_purpose_seasoning.village_snowy_house": "All-Purpose Seasoning: Snowy House Chance",
+  "ua.config.loot.chances.all_purpose_seasoning.village_taiga_house": "All-Purpose Seasoning: Taiga House Chance",
+  "ua.config.loot.chances.amplifier_stone.abandoned_mineshaft": "Amplifier Stone: Abandoned Mineshaft Chance",
+  "ua.config.loot.chances.ancient_chisel.desert_pyramid": "Ancient Chisel: Desert Pyramid Chance",
+  "ua.config.loot.chances.anklet_of_fortune.village_desert_house": "Anklet of Fortune: Desert House Chance",
+  "ua.config.loot.chances.anklet_of_fortune.village_plains_house": "Anklet of Fortune: Plains House Chance",
+  "ua.config.loot.chances.anklet_of_fortune.village_savanna_house": "Anklet of Fortune: Savanna House Chance",
+  "ua.config.loot.chances.anklet_of_fortune.village_snowy_house": "Anklet of Fortune: Snowy House Chance",
+  "ua.config.loot.chances.anklet_of_fortune.village_taiga_house": "Anklet of Fortune: Taiga House Chance",
+  "ua.config.loot.chances.black_belt.pillager": "Black Belt: Pillager Drop Chance",
+  "ua.config.loot.chances.black_belt.vindicator": "Black Belt: Vindicator Drop Chance",
+  "ua.config.loot.chances.blade_shoes.village_desert_house": "Blade Shoes: Desert House Chance",
+  "ua.config.loot.chances.blade_shoes.village_plains_house": "Blade Shoes: Plains House Chance",
+  "ua.config.loot.chances.blade_shoes.village_savanna_house": "Blade Shoes: Savanna House Chance",
+  "ua.config.loot.chances.blade_shoes.village_snowy_house": "Blade Shoes: Snowy House Chance",
+  "ua.config.loot.chances.blade_shoes.village_taiga_house": "Blade Shoes: Taiga House Chance",
+  "ua.config.loot.chances.bloody_knife.zombie": "Bloody Knife: Zombie Drop Chance",
+  "ua.config.loot.chances.bloody_knife.husk": "Bloody Knife: Husk Drop Chance",
+  "ua.config.loot.chances.bloody_knife.witch": "Bloody Knife: Witch Drop Chance",
+  "ua.config.loot.chances.burning_soul.warden": "Burning Soul: Warden Drop Chance",
+  "ua.config.loot.chances.cursed_doll_head.witch": "Cursed Doll Head: Witch Drop Chance",
+  "ua.config.loot.chances.devils_eyeball.bastion_treasure": "Devil's Eyeball: Bastion Treasure Chance",
+  "ua.config.loot.chances.devils_eyeball.nether_bridge": "Devil's Eyeball: Nether Bridge Chance",
+  "ua.config.loot.chances.durable_spring.village_armorer": "Durable Spring: Village Armorer Chance",
+  "ua.config.loot.chances.durable_spring.village_desert_house": "Durable Spring: Village Desert House Chance",
+  "ua.config.loot.chances.durable_spring.village_plains_house": "Durable Spring: Village Plains House Chance",
+  "ua.config.loot.chances.durable_spring.village_savanna_house": "Durable Spring: Village Savanna House Chance",
+  "ua.config.loot.chances.durable_spring.village_snowy_house": "Durable Spring: Village Snowy House Chance",
+  "ua.config.loot.chances.durable_spring.village_taiga_house": "Durable Spring: Village Taiga House Chance",
+  "ua.config.loot.chances.fossil_shark_tooth.ocean_ruin_cold": "Fossil Shark Tooth: Ocean Ruin (Cold) Chance",
+  "ua.config.loot.chances.fossil_shark_tooth.ocean_ruin_warm": "Fossil Shark Tooth: Ocean Ruin (Warm) Chance",
+  "ua.config.loot.chances.hero_emblem.ender_dragon": "Hero Emblem: Ender Dragon Drop Chance",
+  "ua.config.loot.chances.large_paddle.village_fisher": "Large Paddle: Village Fisher Chance",
+  "ua.config.loot.chances.large_paddle.village_desert_house": "Large Paddle: Village Desert House Chance",
+  "ua.config.loot.chances.large_paddle.village_plains_house": "Large Paddle: Village Plains House Chance",
+  "ua.config.loot.chances.large_paddle.village_savanna_house": "Large Paddle: Village Savanna House Chance",
+  "ua.config.loot.chances.large_paddle.village_snowy_house": "Large Paddle: Village Snowy House Chance",
+  "ua.config.loot.chances.large_paddle.village_taiga_house": "Large Paddle: Village Taiga House Chance",
+  "ua.config.loot.chances.life_jacket_belt.shipwreck_treasure": "Life Jacket Belt: Shipwreck Treasure Chance",
+  "ua.config.loot.chances.magick_quiver.pillager_outpost": "Magick Quiver: Pillager Outpost Chance",
+  "ua.config.loot.chances.moon_stone.end_city_treasure": "Moon Stone: End City Treasure Chance",
+  "ua.config.loot.chances.power_crystal.abandoned_mineshaft": "Power Crystal: Abandoned Mineshaft Chance",
+  "ua.config.loot.chances.rose_of_temptation.simple_dungeon": "Rose of Temptation: Simple Dungeon Chance",
+  "ua.config.loot.chances.sharp_fishing_hook.shipwreck_supply": "Sharp Fishing Hook: Shipwreck Supply Chance",
+  "ua.config.loot.chances.shiny_stone.jungle_temple": "Shiny Stone: Jungle Temple Chance",
+  "ua.config.loot.chances.silver_cat_tail.woodland_mansion": "Silver Cat Tail: Woodland Mansion Chance",
+  "ua.config.loot.chances.small_propulsion_device.village_weaponsmith": "Small Propulsion Device: Village Weaponsmith Chance",
+  "ua.config.loot.chances.small_propulsion_device.village_desert_house": "Small Propulsion Device: Village Desert Chance",
+  "ua.config.loot.chances.small_propulsion_device.village_plains_house": "Small Propulsion Device: Village Plains Chance",
+  "ua.config.loot.chances.small_propulsion_device.village_savanna_house": "Small Propulsion Device: Village Savanna Chance",
+  "ua.config.loot.chances.small_propulsion_device.village_snowy_house": "Small Propulsion Device: Village Snowy Chance",
+  "ua.config.loot.chances.small_propulsion_device.village_taiga_house": "Small Propulsion Device: Village Taiga Chance",
+  "ua.config.loot.chances.snow_golem_doll.igloo_chest": "Snow Golem Doll: Igloo Chest Chance",
+  "ua.config.loot.chances.soul_gem.stronghold_corridor": "Soul Gem: Stronghold Corridor Chance",
+  "ua.config.loot.chances.soul_gem.stronghold_crossing": "Soul Gem: Stronghold Crossing Chance",
+  "ua.config.loot.chances.starved_wolf_skull.desert_pyramid": "Starved Wolf Skull: Desert Pyramid Chance",
+  "ua.config.loot.chances.starved_wolf_skull.desert_well": "Starved Wolf Skull: Desert Well Chance",
+  "ua.config.loot.chances.strong_sticky_slime_ball.slime": "Strong Sticky Slime Ball: Slime Drop Chance",
+  "ua.config.loot.chances.sun_stone.ancient_city": "Sun Stone: Ancient City Chance",
+  "ua.config.loot.chances.supreme_meat.hoglin": "Supreme Meat: Hoglin Drop Chance",
+  "ua.config.loot.chances.survival_belt.village_desert_house": "Survival Belt: Desert House Chance",
+  "ua.config.loot.chances.survival_belt.village_plains_house": "Survival Belt: Plains House Chance",
+  "ua.config.loot.chances.survival_belt.village_savanna_house": "Survival Belt: Savanna House Chance",
+  "ua.config.loot.chances.survival_belt.village_snowy_house": "Survival Belt: Snowy House Chance",
+  "ua.config.loot.chances.survival_belt.village_taiga_house": "Survival Belt: Taiga House Chance",
+  "ua.config.loot.chances.still_beating_heart.piglin_brute": "Still Beating Heart: Piglin Brute Drop Chance",
+  "ua.config.loot.chances.suspicious_mushroom.mooshroom": "Suspicious Mushroom: Mooshroom Drop Chance",
+  "ua.config.loot.chances.tabi.pillager": "Tabi: Pillager Drop Chance",
+  "ua.config.loot.chances.tabi.vindicator": "Tabi: Vindicator Drop Chance",
+  "ua.config.loot.chances.tool_belt.village_toolsmith": "Tool Belt: Village Toolsmith Chance",
+  "ua.config.loot.chances.tool_belt.village_desert_house": "Tool Belt: Village Desert House Chance",
+  "ua.config.loot.chances.tool_belt.village_plains_house": "Tool Belt: Village Plains House Chance",
+  "ua.config.loot.chances.tool_belt.village_savanna_house": "Tool Belt: Village Savanna House Chance",
+  "ua.config.loot.chances.tool_belt.village_snowy_house": "Tool Belt: Village Snowy House Chance",
+  "ua.config.loot.chances.tool_belt.village_taiga_house": "Tool Belt: Village Taiga House Chance",
+  "ua.config.loot.chances.waist_warmer.village_desert_house": "Waist Warmer: Desert House Chance",
+  "ua.config.loot.chances.waist_warmer.village_plains_house": "Waist Warmer: Plains House Chance",
+  "ua.config.loot.chances.waist_warmer.village_savanna_house": "Waist Warmer: Savanna House Chance",
+  "ua.config.loot.chances.waist_warmer.village_snowy_house": "Waist Warmer: Snowy House Chance",
+  "ua.config.loot.chances.waist_warmer.village_taiga_house": "Waist Warmer: Taiga House Chance",
+  "ua.config.loot.chances.withered_heart.nether_bridge": "Withered Heart: Nether Fortress Bridge Chance"
+}

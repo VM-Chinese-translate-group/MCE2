@@ -1,0 +1,9 @@
+{
+    "effect.xaeroworldmap.no_world_map": "§b???",
+    "effect.xaeroworldmap.no_world_map_harmful": "Lost",
+	
+    "gui.xaero_box_controls": "Controls \n \n Click and drag to scroll the map. \n Scroll the mouse wheel to zoom in and out. \n Right-click the map for some useful shortcuts. \n Some UI buttons have additional key bindings displayed in their tooltip. \n %1$sClick here to edit the key bindings.",
+    "gui.xaero_box_controls_minimap": "\n Waypoint controls: \n §2%s§r to create a new waypoint. \n §2%s§r to create a quick temporary waypoint. \n §2%s§r to switch the waypoint set. \n §2%s§r to toggle rendering all waypoint sets. \n §2%s§r to open the full waypoint menu. \n Right-click an existing waypoint for more waypoint controls. \n \n ",
+    "gui.xaero_box_waypoints_selected_by_minimap": "Displaying waypoints from the same waypoint sub-world that you are viewing in game and on the minimap. The sub-world can be switched in the full waypoint menu.",
+    "gui.xaero_no_world_map_message": "§8§oA dark and dense haze consumes you.. The World-Map and Mini-Map cannot be used in The Great Below..."
+}

@@ -1,0 +1,10 @@
+{
+  "modifier.tconstruct.writable": "Crystalline",
+  "modifier.tconstruct.writable.flavor": "Forbidden Fruit?",
+  "modifier.tconstruct.writable.description": "Full of so much Void energy, it makes room for another Upgrade!\n(reflavor of Writable",
+  "modifier.tconstruct.recapitated": "Wraught",
+  "modifier.tconstruct.recapitated.flavor": "Atleast one thousand and one Metals!",
+  "modifier.tconstruct.recapitated.description": "Reinforces the Tool enough to resist the stress of another Upgrade!\n(reflavor of Recapitated)",
+
+  "advancements.tconstruct.tools.upgrade_slots.description": "Give a tool 6 more upgrade slots using crystalline, wraught, harmonious, resurrected, and gilded"
+}

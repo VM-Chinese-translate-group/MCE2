@@ -1,0 +1,12 @@
+{
+    "ftbquests.gui.save_as_file": "Save as File",
+    "ftbquests.gui.saved_as_file": "Saved as %s",
+    "ftbquests.reward_table.enable_loot_crate": "Loot Crate",
+    "ftbquests.reward_tables": "Reward Tables",
+    "ftbquests.rewards": "§6↓ §nRewards§r §6↓",
+    "ftbquests.task.ftbquests.item.convert_tag": "Convert to Tag item",
+    "ftbquests.task.ftbquests.item.match_nbt.tooltip": "Default: item must be in 'itemfilters:match_nbt' item tag\nFalse: never check NBT\nTrue: always check NBT",
+    "ftbquests.task.ftbquests.item.weak_nbt_match.tooltip": "False: exact NBT match required\nTrue: only match on top-level NBT fields\n   which are in the filter item",
+    "ftbquests.task.max_input": "Max Input",
+    "ftbquests.tasks": "§a§nTasks"
+}
