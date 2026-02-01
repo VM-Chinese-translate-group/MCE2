@@ -205,14 +205,27 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
 
 
 def main() -> None:
+    print(">>> 启动下载合并工作流...")
     get_files()
+    print(f">>> 从 ParaTranz 获取到 {len(file_id_list)} 个文件")
+    
     ftb_quests_lang_dir = None  # 用于记录FTB Quests语言文件所在的目录
+    modpack_lang_merged_dict = {} # 用于收集拆分的 modpack 语言文件
+    modpack_lang_base_path = Path("kubejs/assets/modpack/lang/en_us.json")
 
     for file_id, path_str in zip(file_id_list, file_path_list):
         if "TM" in path_str:  # 跳过 TM 文件
             continue
 
         path = Path(path_str)
+        
+        # 针对 modpack/lang/ 拆分文件的合并逻辑
+        if "kubejs/assets/modpack/lang/" in path_str and "en_us_" in path.name:
+            print(f"  - 处理拆分文件: {path_str}")
+            zh_cn_dict = process_translation(file_id, path)
+            modpack_lang_merged_dict.update(zh_cn_dict)
+            continue
+
         zh_cn_dict = process_translation(file_id, path)
 
         save_translation(zh_cn_dict, path)
@@ -226,6 +239,12 @@ def main() -> None:
             "Source/config/ftbquests/quests/lang/en_us.snbt"
         ):
             ftb_quests_lang_dir = Path("CNPack") / path.parent
+
+    # 处理收集到的 modpack 语言文件合并
+    if modpack_lang_merged_dict:
+        print(f"正在保存合并后的 modpack 语言文件...")
+        save_translation(modpack_lang_merged_dict, modpack_lang_base_path)
+        print(f"合并后的文件已生成：CNPack/kubejs/assets/modpack/lang/zh_cn.json")
 
     # 在所有文件处理完毕后，如果检测到了 FTB Quests 文件，则执行合并
     if ftb_quests_lang_dir and ftb_quests_lang_dir.exists():

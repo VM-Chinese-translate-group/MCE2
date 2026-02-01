@@ -2,6 +2,7 @@ import asyncio
 import json
 import os
 from pprint import pprint
+from collections import OrderedDict
 
 import paratranz_client
 from pydantic import ValidationError
@@ -27,27 +28,31 @@ async def upload_file(api_client, project_id, path, file, existing_files_dict):
         try:
             if existing_file:
                 # 如果文件存在，直接更新
+                print(f"正在更新文件: {full_path} (ID: {existing_file.id})")
                 await api_instance.update_file(
                     project_id, file_id=existing_file.id, file=file
                 )
-                print(f"文件已更新！文件路径为：{full_path}")
+                print(f"文件更新成功: {full_path}")
             else:
                 # 如果文件不存在，创建新文件
+                print(f"正在创建新文件: {full_path} 在路径: {path}")
                 api_response = await api_instance.create_file(
                     project_id, file=file, path=path
                 )
+                print(f"文件创建成功: {full_path}")
                 pprint(api_response)
-            break # 成功则退出重试循环
+            break
         except ValidationError as error:
-            print(f"文件上传成功{path}{file_name}")
+            # 这是一个已知的 SDK 问题，有时即使成功也会抛出校验错误
+            print(f"文件上传处理完成 (忽略校验错误): {full_path}")
             break
         except Exception as e:
             if attempt < max_retries - 1:
-                wait_time = 2 ** attempt  # 指数退避: 1s, 2s, 4s
-                print(f"上传文件 {file} 失败: {e}。正在重试 ({attempt + 1}/{max_retries})... 等待 {wait_time} 秒")
+                wait_time = 2 ** attempt
+                print(f"上传失败 {file}: {e}。正在尝试第 {attempt + 1} 次重试... ({wait_time}s)")
                 await asyncio.sleep(wait_time)
             else:
-                print(f"上传文件 {file} 时发生未知错误，已达到最大重试次数: {e}")
+                print(f"上传文件 {file} 彻底失败，已达到最大重试次数: {e}")
 
 
 def get_filelist(dir):
@@ -90,55 +95,122 @@ def handle_ftb_quests_snbt():
         print("未检测到 FTB Quests 的 en_us.snbt 文件，跳过拆分步骤。")
 
 
-async def main():
-    handle_ftb_quests_snbt()
-
-    files = get_filelist("./Source")
-    tasks = []
-
-    if not files:
-        print("在 'Source' 目录中未找到任何 'en_us.json' 文件。请检查文件是否存在。")
+def handle_modpack_lang_split():
+    """
+    将 Source/kubejs/assets/modpack/lang/en_us.json 按照不同的键名开头拆分成不同的文件。
+    这样可以优化 Paratranz 的翻译体验，避免单个大文件。
+    """
+    target_file = "Source/kubejs/assets/modpack/lang/en_us.json"
+    if not os.path.exists(target_file):
+        print(f"未检测到 {target_file}，跳过拆分。")
         return
 
-    # 预先获取文件列表
-    project_id = int(os.environ["PROJECT_ID"])
-    
-    async with paratranz_client.ApiClient(configuration) as api_client:
-        api_instance = paratranz_client.FilesApi(api_client)
-        try:
-            existing_files_list = await api_instance.get_files(project_id)
-            # 转换为字典以进行 O(1) 查找
-            existing_files_dict = {f.name: f for f in existing_files_list}
-        except Exception as e:
-            print(f"获取文件列表失败: {e}")
-            existing_files_dict = {}
+    print(f"检测到 {target_file}，开始按照键名前缀进行拆分...")
+    try:
+        with open(target_file, "r", encoding="utf-8") as f:
+            data = json.load(f, object_pairs_hook=OrderedDict)
+        print(f"成功读取 {target_file}，包含 {len(data)} 条条目")
+    except Exception as e:
+        print(f"读取 {target_file} 失败: {e}")
+        return
 
-        # 限制并发数为 1
-        sem = asyncio.Semaphore(1)
+    split_data = {}
+    for key, value in data.items():
+        # ... (逻辑保持不变)
+        if key.startswith("ftbquests.chapter."):
+            parts = key.split(".")
+            if len(parts) >= 3:
+                chapter_id = parts[2]
+                filename = f"en_us_chapter_{chapter_id}.json"
+            else:
+                filename = "en_us_others.json"
+        elif key.startswith("ftbquests.loot_table."):
+            filename = "en_us_loot_tables.json"
+        elif key.startswith("ftbquests.chapter_groups."):
+            filename = "en_us_chapter_groups.json"
+        else:
+            filename = "en_us_others.json"
 
-        async def upload_with_limit(path, file):
-            async with sem:
-                await upload_file(api_client, project_id, path, file, existing_files_dict)
+        if filename not in split_data:
+            split_data[filename] = OrderedDict()
+        split_data[filename][key] = value
 
-        for file in files:
-            # 使用 os.path.relpath 获取相对于 'Source' 目录的正确路径
-            path = os.path.relpath(os.path.dirname(file), "./Source")
+    output_dir = os.path.dirname(target_file)
+    for filename, content in split_data.items():
+        output_path = os.path.join(output_dir, filename)
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(content, f, ensure_ascii=False, indent=4)
+        print(f"  -> 已生成拆分文件: {output_path} ({len(content)} 条目)")
 
-            # 如果文件直接位于 Source 目录下，relpath 会返回 "."，将其转换为空路径
-            if path == ".":
-                path = ""
+    # 移除原始大文件，以防被 get_filelist 搜到重复上传
+    try:
+        os.remove(target_file)
+        print(f"原始大文件 {target_file} 已成功移除。")
+    except Exception as e:
+        print(f"移除原始文件失败: {e}")
 
-            # 统一路径分隔符为 '/'
-            path = path.replace("\\", "/")
 
-            # 如果路径非空（不是根目录），确保它以 '/' 结尾
-            if path:
-                path += "/"
+async def main():
+    print(">>> 启动工作流脚本...")
+    try:
+        handle_ftb_quests_snbt()
+        handle_modpack_lang_split()
 
-            print(f"准备上传 {file} 到 Paratranz 路径: '{path}'")
-            tasks.append(upload_with_limit(path=path, file=file))
+        print(">>> 扫描 Source 目录寻找翻译文件...")
+        files = get_filelist("./Source")
+        print(f">>> 找到 {len(files)} 个待上传文件")
+        
+        if not files:
+            print("警告: 未找到任何 en_us.json 文件。")
+            return
 
-        await asyncio.gather(*tasks)
+        tasks = []
+        # 检查环境变量
+        project_id_str = os.environ.get("PROJECT_ID")
+        api_token = os.environ.get("API_TOKEN")
+        
+        if not project_id_str or not api_token:
+            print("错误: 环境变量 PROJECT_ID 或 API_TOKEN 未设置。")
+            return
+            
+        project_id = int(project_id_str)
+        print(f">>> 项目 ID: {project_id}")
+
+        async with paratranz_client.ApiClient(configuration) as api_client:
+            api_instance = paratranz_client.FilesApi(api_client)
+            print(">>> 正在从 ParaTranz 获取现有文件列表...")
+            try:
+                existing_files_list = await api_instance.get_files(project_id)
+                existing_files_dict = {f.name: f for f in existing_files_list}
+                print(f">>> 成功获取 {len(existing_files_dict)} 个现有文件")
+            except Exception as e:
+                print(f"警告: 获取现有文件列表失败 (可能项目是空的): {e}")
+                existing_files_dict = {}
+
+            sem = asyncio.Semaphore(1)
+
+            async def upload_with_limit(path, file):
+                async with sem:
+                    await upload_file(api_client, project_id, path, file, existing_files_dict)
+
+            for file in files:
+                path = os.path.relpath(os.path.dirname(file), "./Source")
+                if path == ".":
+                    path = ""
+                path = path.replace("\\", "/")
+                if path:
+                    path += "/"
+
+                print(f"准备上传: {file} -> ParaTranz 路径: {path}")
+                tasks.append(upload_with_limit(path=path, file=file))
+
+            await asyncio.gather(*tasks)
+            print(">>> 所有上传任务已提交。")
+            
+    except Exception as e:
+        print(f"致命错误: {e}")
+        import traceback
+        traceback.print_exc()
 
 
 if __name__ == "__main__":
