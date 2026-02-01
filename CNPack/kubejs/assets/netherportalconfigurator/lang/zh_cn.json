@@ -1,6 +1,0 @@
-{
-  "message.netherportalconfigurator.portal_denied": "§7你需要特殊物品才能激活下界传送门！请先找到§r§d%s§7后再试！",
-  "message.netherportalconfigurator.config_error": "§8[下界传送门配置器]无效物品：%s",
-  "advancement.netherportalconfigurator.portal_unlocked.title": "地狱漫游者！",
-  "advancement.netherportalconfigurator.portal_unlocked.desc": "你已获得永久出入下界的权限！"
-}
