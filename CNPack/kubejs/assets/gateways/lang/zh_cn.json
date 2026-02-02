@@ -1,11 +1,11 @@
 {
-	"gateways.basic/blaze": "Blaze Gateway [Expert Mode Only]",
-	"gateways.basic/slime": "Slime Gateway [Expert Mode Only]",
-	"gateways.basic/enderman": "Enderman Gateway [Expert Mode Only]",
+	"gateways.basic/blaze": "烈焰人传送门[仅限专家模式]",
+	"gateways.basic/slime": "史莱姆传送门[仅限专家模式]",
+	"gateways.basic/enderman": "末影人传送门[仅限专家模式]",
     
-	"gateways.overworldian_nights": "Gateway of Overworldian Nights [Expert Mode Only]",
-	"gateways.hellish_fortress": "Gateway of the Hellish Fortress [Expert Mode Only]",
-	"gateways.wizard_gaunlet": "Gateway of the Wizard Gaunlet",
+	"gateways.overworldian_nights": "主世界之夜传送门[仅限专家模式]",
+	"gateways.hellish_fortress": "炼狱要塞传送门[仅限专家模式]",
+	"gateways.wizard_gaunlet": "法师挑战传送门",
 
-    "gateways.endless/blaze": "Endless Blaze Gateway [Expert Mode Only]"
+    "gateways.endless/blaze": "无尽烈焰人传送门[仅限专家模式]"
 }
