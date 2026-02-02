@@ -1,0 +1,16 @@
+{
+  "modifier_id": "tinkertantrum:wroughtslam",
+  "text": [
+    {
+      "text": "Allows using a Shockwave slam attack, similar to the Axe of a Thousand Metals. "
+    },
+    {
+      "text": "Sneak and Use the Tool while grounded to unleash it!"
+    }
+  ],
+  "more_text_space": false,
+  "effects": [
+    "Single Level",
+    "Requires 1 ability slot"
+  ]
+}

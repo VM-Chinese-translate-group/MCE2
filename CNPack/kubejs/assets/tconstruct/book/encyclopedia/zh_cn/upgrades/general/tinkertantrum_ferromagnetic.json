@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tinkertantrum:ferromagnetic",
+  "text": [
+    {
+      "text": "The Item becomes Ferromagnetic, and is subject to Magnetic forces."
+    }
+  ],
+  "more_text_space": false,
+  "effects": [
+    "Usage with a Galena Gauntlet requires Level II+",
+    "Second level requires an Ability slot, and a different recipe",
+    "Levels beyond II have no additional effect"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tinkertantrum:despoil",
+  "text": [
+    {
+      "text": "Tool harvests special drops when killing mobs."
+    }
+  ],
+  "more_text_space": false,
+  "effects": [
+    "Behaves exactly like the Despoil enchantment",
+    "Multiple levels",
+    "Requires 1 upgrade slot per level"
+  ]
+}
