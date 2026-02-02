@@ -1,12 +1,12 @@
 {
-    "ftbquests.gui.save_as_file": "Save as File",
-    "ftbquests.gui.saved_as_file": "Saved as %s",
-    "ftbquests.reward_table.enable_loot_crate": "Loot Crate",
-    "ftbquests.reward_tables": "Reward Tables",
-    "ftbquests.rewards": "§6↓ §nRewards§r §6↓",
-    "ftbquests.task.ftbquests.item.convert_tag": "Convert to Tag item",
-    "ftbquests.task.ftbquests.item.match_nbt.tooltip": "Default: item must be in 'itemfilters:match_nbt' item tag\nFalse: never check NBT\nTrue: always check NBT",
-    "ftbquests.task.ftbquests.item.weak_nbt_match.tooltip": "False: exact NBT match required\nTrue: only match on top-level NBT fields\n   which are in the filter item",
-    "ftbquests.task.max_input": "Max Input",
-    "ftbquests.tasks": "§a§nTasks"
+    "ftbquests.gui.save_as_file": "保存为本地文件",
+    "ftbquests.gui.saved_as_file": "已保存为%s",
+    "ftbquests.reward_table.enable_loot_crate": "战利品箱",
+    "ftbquests.reward_tables": "奖励池",
+    "ftbquests.rewards": "§6↓ §n奖励§r §6↓",
+    "ftbquests.task.ftbquests.item.convert_tag": "转换为标记物品",
+    "ftbquests.task.ftbquests.item.match_nbt.tooltip": "默认：物品必须拥有 'itemfilters:match_nbt' 标签\n否：从不检查NBT\n是：总是检查NBT",
+    "ftbquests.task.ftbquests.item.weak_nbt_match.tooltip": "否：精确匹配 NBT \n是：仅匹配顶层 NBT 字段",
+    "ftbquests.task.max_input": "最大输入",
+    "ftbquests.tasks": "§a§n任务"
 }

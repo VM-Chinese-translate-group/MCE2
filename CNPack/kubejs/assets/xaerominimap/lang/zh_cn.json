@@ -1,7 +1,7 @@
 {
 	"effect.xaerominimap.no_minimap": "§8???",
 	"effect.xaerominimap.no_minimap_harmful": "§8???",
-	"effect.xaerominimap.no_waypoints": "§8LOST!",
+	"effect.xaerominimap.no_waypoints": "§8丢失!",
 	"effect.xaerominimap.no_waypoints_harmful": "§8???",
 	"gui.xaero_box_delete_reached_deathpoints": "Automatically delete deathpoints when you are within 4 blocks from them. This requires the deathpoint to be visible in-game or on the minimap. A deathpoint is protected from deletion for 5 seconds after its creation.",
 	"gui.xaero_box_distance": "Specifies, for which in-game waypoints to show the distance to.",

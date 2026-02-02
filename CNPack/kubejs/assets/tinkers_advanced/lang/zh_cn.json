@@ -1,4 +1,4 @@
 {
-    "modifier.tinkers_advanced.quantum_technology.description": "Adds an Ability slot to your tool.",
-    "modifier.tinkers_advanced.edging_technology.description": "Adds a slot for every Modifier type!"
+    "modifier.tinkers_advanced.quantum_technology.description": "为工具增加1个额外的能力槽",
+    "modifier.tinkers_advanced.edging_technology.description": "为工具分别增加1个额外的能力槽和强化槽！"
 }

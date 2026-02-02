@@ -1,11 +1,11 @@
 {
-	"entity.illager_additions.shogun" : "Shogun",
-	"entity.illager_additions.royal_guard_spearman" : "Royal Guard",
-	"entity.illager_additions.samurai" : "Samurai",
-	"entity.illager_additions.new_samurai" : "Samurai",
-	"entity.illager_additions.spearman" : "Guard",
-	"entity.illager_additions.cowboy" : "Cowboy",
-	"entity.illager_additions.beamloger" : "Beamloger",
+	"entity.illager_additions.shogun" : "幕府将军",
+	"entity.illager_additions.royal_guard_spearman" : "皇家护卫",
+	"entity.illager_additions.samurai" : "武士",
+	"entity.illager_additions.new_samurai" : "武士",
+	"entity.illager_additions.spearman" : "守卫",
+	"entity.illager_additions.cowboy" : "牛仔",
+	"entity.illager_additions.beamloger" : "咒束师",
 
 	"item.illager_additions.spear" : "Spear",
 	"item.illager_additions.katana" : "Katana",

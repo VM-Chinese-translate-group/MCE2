@@ -1,10 +1,10 @@
 {
-  "modifier.tconstruct.writable": "Crystalline",
-  "modifier.tconstruct.writable.flavor": "Forbidden Fruit?",
-  "modifier.tconstruct.writable.description": "Full of so much Void energy, it makes room for another Upgrade!\n(reflavor of Writable",
-  "modifier.tconstruct.recapitated": "Wraught",
-  "modifier.tconstruct.recapitated.flavor": "Atleast one thousand and one Metals!",
-  "modifier.tconstruct.recapitated.description": "Reinforces the Tool enough to resist the stress of another Upgrade!\n(reflavor of Recapitated)",
+  "modifier.tconstruct.writable": "晶质",
+  "modifier.tconstruct.writable.flavor": "禁忌之果？",
+  "modifier.tconstruct.writable.description": "满溢的虚空能量，为工具提供一个额外的升级槽！\n（效果等同于铭刻）",
+  "modifier.tconstruct.recapitated": "锻造",
+  "modifier.tconstruct.recapitated.flavor": "千金万锻始为一",
+  "modifier.tconstruct.recapitated.description": "强化装备，使其能够承受一个额外的升级！\n（效果等同于重置）",
 
-  "advancements.tconstruct.tools.upgrade_slots.description": "Give a tool 6 more upgrade slots using crystalline, wraught, harmonious, resurrected, and gilded"
+  "advancements.tconstruct.tools.upgrade_slots.description": "使用“晶质”“锻造”“和睦”“复生”与“镶金”为工具增加6个额外的升级槽"
 }
