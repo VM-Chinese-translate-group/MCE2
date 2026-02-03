@@ -1,6 +1,6 @@
 {
-  "rage.notify": "Rage: %s",
+  "rage.notify": "怒气：",
   "rage.notify.full": "§4☠️",
-  "adv.rage.full_rage": "Enraged!",
-  "adv.rage.full_rage.desc": "You have brought yourself to full rage by damaging your enemies / by taking damage. Your next attack will do bonus damage!"
+  "adv.rage.full_rage": "激怒！",
+  "adv.rage.full_rage.desc": "伤害敌人/受到伤害使你怒意盈满，下一次攻击将造成额外伤害！"
 }
