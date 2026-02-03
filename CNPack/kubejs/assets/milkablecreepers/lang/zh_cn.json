@@ -1,6 +1,6 @@
 {
-  "effect.milkablecreepers.living_bomb": "§aLiving Bomb",
-  "item.milkablecreepers.creeper_milk": "§aCreeper Milk",
-  "effect.milkablecreepers.living_bomb.description": "Pretty self explanatory I'd say! Mmmmmm Creeper Milk!",
-  "death.milkablecreepers.creeper_milk_explosion": "%1$s couldn't handle their creeper milk!"
+  "effect.milkablecreepers.living_bomb": "§a活体炸弹",
+  "item.milkablecreepers.creeper_milk": "§a苦力怕奶",
+  "effect.milkablecreepers.living_bomb.description": "要我说这挺不言自明了吧！唔……苦力怕奶！",
+  "death.milkablecreepers.creeper_milk_explosion": "%1$s无福消受他的苦力怕奶！"
 }
