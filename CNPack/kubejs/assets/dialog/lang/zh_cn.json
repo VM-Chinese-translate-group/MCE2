@@ -1,6 +1,6 @@
 {
-  "dialog.ui.esc": "Exit Tutorial",
-  "dialog.ui.confirm_esc": "Are you sure you want to exit the tutorial?",
+  "dialog.ui.esc": "退出教程",
+  "dialog.ui.confirm_esc": "你确定要退出该教程吗？",
   "dialog.mce_dialog.speaker.barry": "巴里！",
   "dialog.mce_dialog.speaker.end": "终 -",
   
