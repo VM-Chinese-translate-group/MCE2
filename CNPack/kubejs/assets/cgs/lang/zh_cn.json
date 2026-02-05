@@ -11,16 +11,16 @@
   "item.cgs.round_10mm": "10毫米子弹",
   "item.cgs.steam_engine": "加特林：蒸汽引擎",
 
-  "itemGroup.mod_items": "Create: Gunsmithing",
+  "itemGroup.mod_items": "机械动力：枪械制造",
 
   "info.cgs.fuel": "Right click on a weapon with a fuel item to refuel it",
 
-  "slot.cgs.attachment.engine": "Engine",
-  "slot.cgs.attachment.frame": "Frame",
+  "slot.cgs.attachment.engine": "引擎",
+  "slot.cgs.attachment.frame": "框架",
   "slot.cgs.attachment.chamber": "Chamber",
   "slot.cgs.attachment.head": "Head",
 
-  "info.cgs.air": "Air",
+  "info.cgs.air": "风",
   "info.cgs.burnable": "Fuel",
 
   "item.cgs.flintlock": "燧发枪",
@@ -104,11 +104,11 @@
   "item.cgs.sulfur": "硫",
   "item.cgs.charcoal_dust": "木炭粉",
 
-  "block.cgs.lead_ore": "Lead Ore",
-  "block.cgs.deepslate_lead_ore": "Deepslate Lead Ore",
-  "block.cgs.sulfur_ore": "Sulfur Ore",
-  "block.cgs.raw_lead_block": "Block Of Raw Lead ",
-  "block.cgs.lead_block": "Block Of Lead",
+  "block.cgs.lead_ore": "铅矿石",
+  "block.cgs.deepslate_lead_ore": "深层铅矿石",
+  "block.cgs.sulfur_ore": "硫磺矿石",
+  "block.cgs.raw_lead_block": "粗铅块",
+  "block.cgs.lead_block": "铅块",
 
-  "block.cgs.steel_block": "Block Of Steel"
+  "block.cgs.steel_block": "钢块"
 }
