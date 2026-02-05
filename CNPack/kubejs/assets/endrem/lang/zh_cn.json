@@ -1,71 +1,71 @@
 {
-  "item.endrem.old_eye": "§eOld Eye",
-  "item.endrem.old_eye.description": "§7§oLegends say this eye once belonged to one of the great Sandworms.",
+  "item.endrem.old_eye": "§e远古之眼",
+  "item.endrem.old_eye.description": "§7§o传说此眼曾属于一只巨大的沙虫",
 
-  "item.endrem.rogue_eye": "§2Overgrown Eye",
-  "item.endrem.rogue_eye.description": "§7§oIt writhes and wriggles in your hand.. this item seems very much alive.. Might need to grab the weedkiller..",
+  "item.endrem.rogue_eye": "§2蔓延之眼",
+  "item.endrem.rogue_eye.description": "§7§o它在你手里扭曲蠕动..这件物品看起来很有活力..或许该拿点除草剂来..",
 
-  "item.endrem.nether_eye": "§4Demonic Eye",
-  "item.endrem.nether_eye.description": "§7§oIt was used by a powerful demon in the battle between The Overworld and The Nether. This artifact was later reclaimed when a certain arrogant interloper summoned said Demon. This item inspires courage in a way you've never felt before..",
+  "item.endrem.nether_eye": "§4恶魔之眼",
+  "item.endrem.nether_eye.description": "§7§o它被一个强大的恶魔在主世界和下界之间的战斗中使用。后来，当一个傲慢的闯入者召唤恶魔时，这件神器被收回了。这件物品以一种你从未有过的方式激发勇气..",
 
-  "item.endrem.cold_eye": "§9Frozen Eye",
-  "item.endrem.cold_eye.description": "§7§oThe Frozen Eye is the prized possession of Frostmaw, many have tried to claim this treasure for themselves, many have died.",
+  "item.endrem.cold_eye": "§9寒冰之眼",
+  "item.endrem.cold_eye.description": "§7§o冰冻之眼是霜冻巨兽的至宝，无数人曾想将这宝物据为己有，他们都为此付出了代价。",
 
-  "item.endrem.magical_eye": "§7Wrought Eye",
-  "item.endrem.magical_eye.description": "§7§oWithout this eye, the Ferrous Wroughtnaut has no power. This item contains ancient power that has been carefully protected for over a millenia by the legendary Wroughtnaut!",
+  "item.endrem.magical_eye": "§7熔铸之眼",
+  "item.endrem.magical_eye.description": "§7§o若无此眼，钢铁守护者便形同虚设。此物蕴藏着远古之力，千余年来，一直由这位传奇的守卫者精心保护！",
 
-  "item.endrem.black_eye": "§8Black Eye",
-  "item.endrem.black_eye.description": "§7§oPirate lore says this item allows the user to bend the ocean to their will.. The honourable Captain Cornelia went searching for this relic over a century ago.. She was never heard from again..",
+  "item.endrem.black_eye": "§8漆黑之眼",
+  "item.endrem.black_eye.description": "§7§o海盗传说曾言，得此物者可驭海如臂使指.. 约一个世纪前，可敬的科妮莉亚船长便踏上了寻找这件圣物的征途..自此音讯全无..",
 
-  "item.endrem.lost_eye": "§4Lost Eye",
-  "item.endrem.lost_eye.description": "§7§oIt is told that this item was forged by an ancient blacksmith, their name is tragically lost to time, this artifact is one of the most beautiful things you've ever seen.",
+  "item.endrem.lost_eye": "§4迷离之眼",
+  "item.endrem.lost_eye.description": "§7§o相传，此物乃一位上古铁匠所铸，其名讳已随时间而怅然湮没。而这件遗宝本身，乃是你生平所见至美之物。",
 
-  "item.endrem.wither_eye": "§8Mechanical Eye",
-  "item.endrem.wither_eye.description": "§7§oHas witnessed destruction. Created by an unknown ancient civilization in a futile attempt to harness the power of The Wither for their own ends.",
+  "item.endrem.wither_eye": "§8机械之眼",
+  "item.endrem.wither_eye.description": "§7§o它曾见证毁灭。由一个徒劳地试图掌控凋零之力以期达成一己之私的未知远古文明所打造。",
 
-  "item.endrem.guardian_eye": "§eBlessed Eye",
-  "item.endrem.guardian_eye.description": "§7§oThis eye is believed to have given our ancestors the Blessing of The Sun, which allowed them to conjure powerful beams of light at their foes, no one knows its origin.",
+  "item.endrem.guardian_eye": "§e降福之眼",
+  "item.endrem.guardian_eye.description": "§7§o据信这只眼赐予我们的祖先日之祝福，使他们能够向敌人召唤出强大的光束，没有人知道它的起源。",
 
-  "item.endrem.cursed_eye": "§cBlazing Eye",
-  "item.endrem.cursed_eye.description": "§7§oThe Blazing Eye powers the Nether Gauntlet, this item contains immense raw power. Who constructed these Netherite automatons? and for what purpose? ",
+  "item.endrem.cursed_eye": "§c炽烈之眼",
+  "item.endrem.cursed_eye.description": "§7§o炽烈之眼为下界铁掌供能，此物蕴含着无比的原始伟力。这些下界合金自动机器究竟由何人建造？其目的又究竟为何？",
 
-  "item.endrem.exotic_eye": "§9Sunken Eye",
-  "item.endrem.exotic_eye.description": "§7§oThose who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying.",
+  "item.endrem.exotic_eye": "§9寂没之眼",
+  "item.endrem.exotic_eye.description": "§7§o所有跟着这只眼睛走的人都没再回来过；但有传言说，他们要么是找到了伟大的亚特兰蒂斯城，要么就是在寻找的路上彻底迷了路。",
 
-  "item.endrem.evil_eye": "§8Evil Eye",
-  "item.endrem.evil_eye.description": "§7§oAn unholy talisman said to protect its owner from bad luck. The Masquerader coveted this item for its immense magical power... and to make sure his parties were a great success!",
+  "item.endrem.evil_eye": "§8邪恶之眼",
+  "item.endrem.evil_eye.description": "§7§o一件据说能保护持有者免受厄运的亵渎护符。伪装者垂涎这件物品的巨大魔力...并确保他的盛会取得圆满成功！",
 
-  "item.endrem.undead_eye": "§8Pale Eye",
-  "item.endrem.undead_eye.description": "§7§oThe energy contained inside this vessel is chaotic by nature, making it deeply unstable. Creating this item is considered an act of desecration to the denizens of The Pale Gardens...",
+  "item.endrem.undead_eye": "§8苍白之眼",
+  "item.endrem.undead_eye.description": "§7§o此容器所封存的能量，本性混沌，导致其极度不稳。而对苍白花园的住民而言，打造此物，实属亵渎之举...",
 
-  "item.endrem.cryptic_eye": "§3Angler's Eye",
-  "item.endrem.cryptic_eye.description": "§7§oThe Angler's Eye is said to be a gift given by Neptune himself to only the best and greatest fisherman in the entire Overworld!!",
+  "item.endrem.cryptic_eye": "§3渔夫之眼",
+  "item.endrem.cryptic_eye.description": "§7§o相传，渔夫之眼乃海神涅普顿亲赐之礼，唯有整个主世界最杰出，最伟大的渔夫才有资格获得！！",
 
-  "item.endrem.corrupted_eye": "§8Corrupted Eye",
-  "item.endrem.corrupted_eye.description": "§7§oThe eye of a greedy king that faded in solitude; legend says it will bring infinite fortune at the cost of perpetual misery to its owner.",
+  "item.endrem.corrupted_eye": "§8腐化之眼",
+  "item.endrem.corrupted_eye.description": "§7§o逝于孤独的贪婪国王之眼，传说它会给拥有者带来代价是永恒的悲苦的无尽财富。",
 
-  "item.endrem.witch_eye": "§bSoul Eye",
-  "item.endrem.witch_eye.description": "§7§oThe God King Maledictus ruled over his servants cruelly. He was eventually defeated by an unnamed hero who banished him into a tombstone for all of eternity.",
+  "item.endrem.witch_eye": "§b灵魂之眼",
+  "item.endrem.witch_eye.description": "§7§o昔日神王咒翼灵骸残暴地统治着他的仆从。最终他被一位不知名的英雄击败，并被放逐到一块墓碑中，永世不得翻身。",
 
-  "item.endrem.undead_soul": "§eEternal Soul",
+  "item.endrem.undead_soul": "§e不死之魂",
 
-  "advancements.main.rogue_eye.description": "Get Your First Overgrown Eye",
+  "advancements.main.rogue_eye.description": "获得一颗蔓延之眼",
 
-  "advancements.main.magical_eye.title": "Eye of a Thousand Metals",
-  "advancements.main.magical_eye.description": "Get Your First Wraught Eye",
+  "advancements.main.magical_eye.title": "千金之眼",
+  "advancements.main.magical_eye.description": "获得一颗熔铸之眼",
 
-  "advancements.main.wither_eye.description": "Get Your First Mechanical Eye",
+  "advancements.main.wither_eye.description": "获得一颗机械之眼",
 
-  "advancements.main.guardian_eye.title": "Blessed?",
-  "advancements.main.guardian_eye.description": "Get Your First Blessed Eye",
+  "advancements.main.guardian_eye.title": "受祝福的？",
+  "advancements.main.guardian_eye.description": "获得一颗降福之眼",
 
-  "advancements.main.cursed_eye.description": "Get Your First Blazing Eye",
+  "advancements.main.cursed_eye.description": "获得一颗炽烈之眼",
 
-  "advancements.main.witch_eye.title": "The Soul Within",
-  "advancements.main.witch_eye.description": "Get Your First Soul Eye",
+  "advancements.main.witch_eye.title": "内在之魂",
+  "advancements.main.witch_eye.description": "获得一颗灵魂之眼",
 
-  "advancements.main.evil_eye.title": "A Real 'Blessing'",
+  "advancements.main.evil_eye.title": "真正的‘祝福’",
 
-  "advancements.main.exotic_eye.title": "This is not Atlantis..",
-  "advancements.main.exotic_eye.description": "Get Your First Exotic Eye"
+  "advancements.main.exotic_eye.title": "这不是亚特兰提斯..",
+  "advancements.main.exotic_eye.description": "获得一颗寂没之眼"
 }
