@@ -1,14 +1,14 @@
 {
   "key.ias_spellbooks.ias_spellbooks_switch": "Illage and Spell-age Switch",
 
-  "rarity.ias_spellbooks:legendary.name": "Legendary",
-  "rarity.ias_spellbooks:mythic.name": "Mythic",
+  "rarity.ias_spellbooks:legendary.name": "传奇",
+  "rarity.ias_spellbooks:mythic.name": "神话",
   "rarity.ias_spellbooks:signature.name": "Signature",
-  "ias_spellbooks.legendary": "Legendary",
-  "ias_spellbooks.mythic": "Mythic",
+  "ias_spellbooks.legendary": "传奇",
+  "ias_spellbooks.mythic": "神话",
   "ias_spellbooks.signature": "Signature",
 
-  "item.ias_spellbooks.creating_material.desc": "§2Crafting Item",
+  "item.ias_spellbooks.creating_material.desc": "§2合成物品",
   "item.ias_spellbooks.weapon_material.desc": "§2Weapon Upgrade Item",
   "item.ias_spellbooks.special_material.desc": "§2Special Item",
 
