@@ -3,30 +3,30 @@
 
   "rarity.ias_spellbooks:legendary.name": "传奇",
   "rarity.ias_spellbooks:mythic.name": "神话",
-  "rarity.ias_spellbooks:signature.name": "Signature",
+  "rarity.ias_spellbooks:signature.name": "专属",
   "ias_spellbooks.legendary": "传奇",
   "ias_spellbooks.mythic": "神话",
-  "ias_spellbooks.signature": "Signature",
+  "ias_spellbooks.signature": "专属",
 
   "item.ias_spellbooks.creating_material.desc": "§2合成物品",
-  "item.ias_spellbooks.weapon_material.desc": "§2Weapon Upgrade Item",
-  "item.ias_spellbooks.special_material.desc": "§2Special Item",
+  "item.ias_spellbooks.weapon_material.desc": "§2武器升级物品",
+  "item.ias_spellbooks.special_material.desc": "§2特殊物品",
 
-  "item.ias_spellbooks.book_of_dark_mutations": "Book Of Dark Mutations",
-  "item.ias_spellbooks.magispellers_legacy": "Magispeller's Legacy",
+  "item.ias_spellbooks.book_of_dark_mutations": "暗黑突变之书",
+  "item.ias_spellbooks.magispellers_legacy": "魔法师的遗物",
 
-  "item.ias_spellbooks.book_of_dark_mutations.guide": "Can be obtained by defeating Freakager and Ragno. You can find them as village raid bosses.",
-  "item.ias_spellbooks.magispellers_legacy.guide": "Can be obtained by defeating The Magispeller. They spawn in village raids as bosses.",
+  "item.ias_spellbooks.book_of_dark_mutations.guide": "可通过击败怪人和腐败蜘蛛获得。你可以在村庄袭击中的Boss中找到他们。",
+  "item.ias_spellbooks.magispellers_legacy.guide": "可通过击败魔法师获得。他们在村庄袭击中作为Boss出现。",
 
-  "effect.ias_spellbooks.ragno_timer": "Ragno Timer",
+  "effect.ias_spellbooks.ragno_timer": "腐败蜘蛛计时器",
 
-  "effect.ias_spellbooks.ragno_timer.description": "Controls despawn time for summoned entities.",
+  "effect.ias_spellbooks.ragno_timer.description": "控制召唤物的消失时间。",
 
-  "spell.ias_spellbooks.venomous_reborn": "Venomous Reborn",
-  "spell.ias_spellbooks.dragline": "Dragline",
-  "spell.ias_spellbooks.restorative_rain": "Restorative Rain",
-  "spell.ias_spellbooks.silken_breath": "Silken Breath",
-  "spell.ias_spellbooks.blazing_imprint": "Blazing Imprint",
+  "spell.ias_spellbooks.venomous_reborn": "毒液重生",
+  "spell.ias_spellbooks.dragline": "牵引丝线",
+  "spell.ias_spellbooks.restorative_rain": "治愈之雨",
+  "spell.ias_spellbooks.silken_breath": "丝之吐息",
+  "spell.ias_spellbooks.blazing_imprint": "炽焰印记",
   "spell.ias_spellbooks.pumpkin_spice": "Pumpkin Spice",
 
   "spell.ias_spellbooks.venomous_reborn.guide": "Cast to summon a rideable Ragno, that'll protect and fight for you. However, beware: its will is not fully tameable, and its ferocity may prove unpredictable. Can only be obtained by defeating Freakager & Ragno.",
