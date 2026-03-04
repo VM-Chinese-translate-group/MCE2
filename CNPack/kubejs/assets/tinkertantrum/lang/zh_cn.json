@@ -1,10 +1,10 @@
 {
-  "modifier.tinkertantrum.quarky": "Quarky",
-  "modifier.tinkertantrum.quarky.flavor": "...is a mod by Vazkii",
-  "modifier.tinkertantrum.quarky.description": "Increases Damage a little for each Item on your hotbar from a mod by Vazkii, scaled to the stack's Size out of its maximum.",
+  "modifier.tinkertantrum.quarky": "夸克",
+  "modifier.tinkertantrum.quarky.flavor": "...是由Vaskii制作的mod",
+  "modifier.tinkertantrum.quarky.description": "快捷栏中每个来自Vazkii制作的模组的物品都会提供少量伤害加成。加成比例基于该物品当前堆叠数量占最大堆叠数的百分比，各格物品独立计算。",
 
   "modifier.tinkertantrum.overcharging": "Overcharging",
-  "modifier.tinkertantrum.overcharging.flavor": "1.21 Jigawatts!",
+  "modifier.tinkertantrum.overcharging.flavor": "1.21吉瓦！",
   "modifier.tinkertantrum.overcharging.description": "Builds up Overslime on equipped Armor as you deal Damage.",
 
   "modifier.tinkertantrum.ferromagnetic": "Ferromagnetic",
