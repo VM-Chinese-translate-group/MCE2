@@ -1,44 +1,44 @@
 {
   "modifier.tinkertantrum.quarky": "夸克",
-  "modifier.tinkertantrum.quarky.flavor": "...是由Vaskii制作的mod",
+  "modifier.tinkertantrum.quarky.flavor": "...是由Vazkii制作的mod",
   "modifier.tinkertantrum.quarky.description": "快捷栏中每个来自Vazkii制作的模组的物品都会提供少量伤害加成。加成比例基于该物品当前堆叠数量占最大堆叠数的百分比，各格物品独立计算。",
 
-  "modifier.tinkertantrum.overcharging": "Overcharging",
+  "modifier.tinkertantrum.overcharging": "超充能",
   "modifier.tinkertantrum.overcharging.flavor": "1.21吉瓦！",
-  "modifier.tinkertantrum.overcharging.description": "Builds up Overslime on equipped Armor as you deal Damage.",
+  "modifier.tinkertantrum.overcharging.description": "随着你造成的伤害而在盔甲上积累超充黏液",
 
-  "modifier.tinkertantrum.ferromagnetic": "Ferromagnetic",
-  "modifier.tinkertantrum.ferromagnetic.flavor": "Shocking? No, I don't think so.", "_comment1": "This is still kinda a Placeholder",
-  "modifier.tinkertantrum.ferromagnetic.description": "This item is Ferromagnetic, and can be manipulated by Magnetic forces.",
+  "modifier.tinkertantrum.ferromagnetic": "铁磁体",
+  "modifier.tinkertantrum.ferromagnetic.flavor": "这是什么雷霆玩意？", "_comment1": "高低也是个占位符",
+  "modifier.tinkertantrum.ferromagnetic.description": "这个物品具有铁磁性，可以受磁场影响。",
 
-  "modifier.tinkertantrum.overmending": "Overmending",
-  "modifier.tinkertantrum.overmending.flavor": "Might be Overpowered",
-  "modifier.tinkertantrum.overmending.description": "Collects XP when equipped, and converts it to Overslime over time.",
-  "description.tinkertantrum.overmending.charge": "XP Stored: $1%s / $2%s",
+  "modifier.tinkertantrum.overmending": "超级修复",
+  "modifier.tinkertantrum.overmending.flavor": "可能有点太强了",
+  "modifier.tinkertantrum.overmending.description": "装备时会收集经验，并逐渐转化为超充粘液",
+  "description.tinkertantrum.overmending.charge": "已存储经验：$1%s / $2%s",
 
-  "modifier.tinkertantrum.veinmining": "Vein Mining",
-  "modifier.tinkertantrum.veinmining.flavor": "Yeah yeah, you miss the Keybind, we know.",
-  "modifier.tinkertantrum.veinmining.description": "Allows the Tool to Vein Mine. Higher levels won't Vein Mine any better than the Enchantment can.",
+  "modifier.tinkertantrum.veinmining": "连锁挖矿",
+  "modifier.tinkertantrum.veinmining.flavor": "你还是忘不掉你的飘号键，对吧？",
+  "modifier.tinkertantrum.veinmining.description": "允许连锁挖掘。更高等级的效果不会优于连锁挖掘附魔。",
 
-  "modifier.tinkertantrum.deflecting": "Deflecting",
-  "modifier.tinkertantrum.deflecting.flavor": "While you were Mining and Crafting, I Studied the Blade.",
-  "modifier.tinkertantrum.deflecting.description": "Allows the Tool to briefly Block after landing a hit.",
+  "modifier.tinkertantrum.deflecting": "反弹",
+  "modifier.tinkertantrum.deflecting.flavor": "有些人在挖矿合成，而有些人在练剑。",
+  "modifier.tinkertantrum.deflecting.description": "允许工具在命中目标后短暂格挡。",
 
-  "modifier.tinkertantrum.wroughtslam": "Wroughtslam",
-  "modifier.tinkertantrum.wroughtslam.flavor": "Smashing!",
-  "modifier.tinkertantrum.wroughtslam.description": "Sneak and Use the Tool to unleash a shockwave attack!",
+  "modifier.tinkertantrum.wroughtslam": "钝击",
+  "modifier.tinkertantrum.wroughtslam.flavor": "粉碎！",
+  "modifier.tinkertantrum.wroughtslam.description": "潜行使用工具来释放冲击波！",
 
-  "modifier.tinkertantrum.despoil": "Despoil",
-  "modifier.tinkertantrum.despoil.flavor": "Yummy :)",
-  "modifier.tinkertantrum.despoil.description": "Tool harvests special drops when killing mobs.",
+  "modifier.tinkertantrum.despoil": "劫掠",
+  "modifier.tinkertantrum.despoil.flavor": "豪赤：）",
+  "modifier.tinkertantrum.despoil.description": "击杀怪物时获得特殊掉落。",
 
-  "modifier.tinkertantrum.vampire_slayer": "Vampire Slayer",
-  "modifier.tinkertantrum.vampire_slayer.flavor": "Buffy, Van Helsing, and the Belmonts.",
-  "modifier.tinkertantrum.vampire_slayer.description": "Tool does bonus damage to Vampiric creatures!",
-  "modifier.tinkertantrum.vampire_slayer.attack_damage": "Vampire Damage",
+  "modifier.tinkertantrum.vampire_slayer": "吸血鬼杀手",
+  "modifier.tinkertantrum.vampire_slayer.flavor": "巴菲、范海辛，以及贝尔蒙特家族。",
+  "modifier.tinkertantrum.vampire_slayer.description": "工具会对吸血鬼生物造成额外伤害！",
+  "modifier.tinkertantrum.vampire_slayer.attack_damage": "吸血鬼伤害",
 
 
-  "material.tinkertantrum.enchanted_amethyst": "Enchanted Alloy",
-  "material.tinkertantrum.enchanted_amethyst.flavor": "You can stop asking about Veinmining now!",
-  "material.tinkertantrum.enchanted_amethyst.encyclopedia": "Allows the Tool to Vein Mine, just like the Enchantment! Higher levels won't Vein Mine any better than the Enchantment can."
+  "material.tinkertantrum.enchanted_amethyst": "附魔合金",
+  "material.tinkertantrum.enchanted_amethyst.flavor": "别再问连锁挖矿的事了！",
+  "material.tinkertantrum.enchanted_amethyst.encyclopedia": "允许连锁挖掘，就像连锁挖掘附魔那样！更高等级的效果不会优于连锁挖掘附魔。"
 }
