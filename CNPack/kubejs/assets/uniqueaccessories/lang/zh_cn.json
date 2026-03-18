@@ -46,8 +46,8 @@
   "item.uniqueaccessories.withered_heart": "枯萎之心",
 
 
-  "curios.identifier.feet": "Feet",
-  "curios.modifiers.feet": "When worn as feet:",
+  "curios.identifier.feet": "足饰",
+  "curios.modifiers.feet": "作为足饰佩戴时：",
 
 
   "entity.uniqueaccessories.golden_egg": "金蛋",
@@ -116,7 +116,7 @@
 
   "tooltip.uniqueaccessories.moon_stone.desc1": "效果仅在夜晚生效",
   "tooltip.uniqueaccessories.moon_stone.desc2": "攻击伤害 +%1$s / 箭矢伤害 +%2$s%% / 攻击速度 +%3$s",
-  "tooltip.uniqueaccessories.moon_stone.desc3": "护甲 +%1$s / 暴击几率 +%2$s%% / 挖掘速度 +%3$s%%",
+  "tooltip.uniqueaccessories.moon_stone.desc3": "护甲 +%1$s / 暴击率 +%2$s%% / 挖掘速度 +%3$s%%",
   "tooltip.uniqueaccessories.moon_stone.desc4": "每%1$s秒恢复1点生命值",
 
   "tooltip.uniqueaccessories.ninjutsu_manual.desc1": "潜行移动速度 +200%",
@@ -166,7 +166,7 @@
 
   "tooltip.uniqueaccessories.sun_stone.desc1": "效果仅在白天生效",
   "tooltip.uniqueaccessories.sun_stone.desc2": "攻击伤害 +%1$s / 箭矢伤害 +%2$s%% / 攻击速度 +%3$s",
-  "tooltip.uniqueaccessories.sun_stone.desc3": "护甲 +%1$s / 暴击几率 +%2$s%% / 挖掘速度 +%3$s%%",
+  "tooltip.uniqueaccessories.sun_stone.desc3": "护甲 +%1$s / 暴击率 +%2$s%% / 挖掘速度 +%3$s%%",
   "tooltip.uniqueaccessories.sun_stone.desc4": "每%1$s秒恢复1点生命值",
 
   "tooltip.uniqueaccessories.supreme_meat.desc1": "增强你驯服的狼：攻击伤害 +%1$s / 护甲 +%2$s / 移动速度 +%3$s%%",
