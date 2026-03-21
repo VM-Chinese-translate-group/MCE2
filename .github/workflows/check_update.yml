@@ -31,7 +31,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Force Clean Workspace
         run: |
@@ -39,7 +39,7 @@ jobs:
           git reset --hard HEAD
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3'
 
@@ -115,10 +115,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3'
       
@@ -186,12 +186,12 @@ jobs:
           cp report_dist/index.html diff_report_pr_${{ needs.update-and-create-pr.outputs.pr_number }}.html
 
       - name: Upload Report for Pages Deployment
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./report_dist # 上传部署目录
 
       - name: Upload Report for Archival
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: diff-report-pr-${{ needs.update-and-create-pr.outputs.pr_number }}
           path: diff_report_pr_${{ needs.update-and-create-pr.outputs.pr_number }}.html
@@ -222,7 +222,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout repository to gain context
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Post Link to PR Comment
         env:
