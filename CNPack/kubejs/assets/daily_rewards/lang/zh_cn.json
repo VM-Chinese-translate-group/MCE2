@@ -11,7 +11,7 @@
     "text.daily_rewards.reward_screen_none": "每日奖励",
     "text.daily_rewards.rewarded_item_empty": "奖励物品为空，请检查日志与配置文件！",
     "text.daily_rewards.rewarded_item": "恭喜%1$s本月在该世界得到了%2$s作为%3$s天的奖赏。",
-    "text.daily_rewards.unclaimed_rewarded_item": "%1$s你有未领取的每日奖励，记得在%2$s天内领取!",
+    "text.daily_rewards.unclaimed_rewarded_item": "%1$s你有未领取的每日奖励，记得在%2$s天内领取！",
     "text.daily_rewards.unclaimed_rewarded_item_today": "%1$s你有未领取的每日奖励，记得今天领取一下！！！",
     "text.daily_rewards.unclaimed_special_rewarded_item": "%1$s你有未领取的特殊奖励，记得在%2$s天内领取!",
     "text.daily_rewards.unclaimed_special_rewarded_item_today": "%1$s你有未领取的特殊奖励，记得今天领取一下！！！",

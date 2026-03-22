@@ -1,6 +1,6 @@
 {
   "modifier.tinkertantrum.quarky": "夸克",
-  "modifier.tinkertantrum.quarky.flavor": "...是由Vazkii制作的mod",
+  "modifier.tinkertantrum.quarky.flavor": "…是由Vazkii制作的mod",
   "modifier.tinkertantrum.quarky.description": "快捷栏中每个来自Vazkii制作的模组的物品都会提供少量伤害加成。加成比例基于该物品当前堆叠数量占最大堆叠数的百分比，各格物品独立计算。",
 
   "modifier.tinkertantrum.overcharging": "超充能",

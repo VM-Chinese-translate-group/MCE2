@@ -1,7 +1,7 @@
 {
 	"effect.xaerominimap.no_minimap": "§8???",
 	"effect.xaerominimap.no_minimap_harmful": "§8???",
-	"effect.xaerominimap.no_waypoints": "§8丢失!",
+	"effect.xaerominimap.no_waypoints": "§8丢失！",
 	"effect.xaerominimap.no_waypoints_harmful": "§8???",
 	"gui.xaero_box_delete_reached_deathpoints": "当距离死亡点4格范围内时，将自动删除该死亡点。此操作要求死亡点在游戏内或小地图上处于可见状态。死亡点在创建后的5秒内受到保护，不会被删除。",
 	"gui.xaero_box_distance": "用于指定游戏内哪些路径点将显示距离信息。",
