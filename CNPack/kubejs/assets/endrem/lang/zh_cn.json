@@ -8,8 +8,8 @@
   "item.endrem.nether_eye": "§4恶魔之眼",
   "item.endrem.nether_eye.description": "§7§o它被一个强大的恶魔在主世界和下界之间的战斗中使用。后来，当一个傲慢的闯入者召唤恶魔时，这件神器被收回了。这件物品以一种你从未有过的方式激发勇气……",
 
-  "item.endrem.cold_eye": "§9寒冰之眼",
-  "item.endrem.cold_eye.description": "§7§o冰冻之眼是霜冻巨兽的至宝，无数人曾想将这宝物据为己有，他们都为此付出了代价。",
+  "item.endrem.cold_eye": "§9冰封之眼",
+  "item.endrem.cold_eye.description": "§7§o冰封之眼是霜冻巨兽的至宝，无数人曾想将这宝物据为己有，他们都为此付出了代价。",
 
   "item.endrem.magical_eye": "§7熔铸之眼",
   "item.endrem.magical_eye.description": "§7§o若无此眼，钢铁守护者便形同虚设。此物蕴藏着远古之力，千余年来，一直由这位传奇的守卫者精心保护！",
@@ -51,7 +51,7 @@
 
   "advancements.main.rogue_eye.description": "获得一颗蔓延之眼",
 
-  "advancements.main.magical_eye.title": "千金之眼",
+  "advancements.main.magical_eye.title": "千锻之眼",
   "advancements.main.magical_eye.description": "获得一颗熔铸之眼",
 
   "advancements.main.wither_eye.description": "获得一颗机械之眼",
