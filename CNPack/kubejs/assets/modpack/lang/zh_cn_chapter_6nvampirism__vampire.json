@@ -1,0 +1,13 @@
+{
+    "ftbquests.chapter.6nvampirism__vampire.quest3820144262196356503.description1":"吸血鬼森林生物群系只存在于独特的吸血鬼口袋维度中，你可以通过传送门进入这个维度。",
+    "ftbquests.chapter.6nvampirism__vampire.quest3820144262196356503.description2":"制作染血暗石砖，然后将它们以下图所示放置在一个2x2的洞周围。用一瓶吸血鬼之血（用钉桩杀死吸血鬼）右击传送门来激活。",
+    "ftbquests.chapter.6nvampirism__vampire.quest3820144262196356503.image0":"{image:modpack:textures/vampire_forest_portal.png width:220 height:150 align:center} ",
+    "ftbquests.chapter.6nvampirism__vampire.quest3820144262196356503.subtitle":"创建通往&d吸血鬼森林&r的传送门",
+    "ftbquests.chapter.6nvampirism__vampire.quest3820144262196356503.title":"吸血鬼森林维度",
+    "ftbquests.chapter.6nvampirism__vampire.quest8326319295618980948.description1":"使用吸血鬼尖牙后，你将获得一个名为“吸血之疾”的药水效果，它大约会持续游戏中的一天。效果结束后，你就会变成吸血鬼。如果你不想变成吸血鬼，可以随时喝牛奶来取消该效果。",
+    "ftbquests.chapter.6nvampirism__vampire.quest8326319295618980948.description2":"即将推出！",
+    "ftbquests.chapter.6nvampirism__vampire.quest8326319295618980948.image0":"{image:vampirism:textures/item/vampire_fang.png width:100 height:100 align:1}",
+    "ftbquests.chapter.6nvampirism__vampire.quest8326319295618980948.subtitle":"&o右击吸血鬼尖牙，就可以开始吸血鬼化",
+    "ftbquests.chapter.6nvampirism__vampire.quest8326319295618980948.title":"&e成为吸血鬼",
+    "ftbquests.chapter.6nvampirism__vampire.title":"&7血族传说 - 吸血鬼"
+}
