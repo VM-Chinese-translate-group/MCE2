@@ -23,7 +23,7 @@ jobs:
       changed: ${{ steps.commit.outputs.changed }}
 
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -76,7 +76,7 @@ jobs:
 
       - name: Upload Error Report Artifact
         if: ${{ env.error_report_exists == 'true' }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: error-report
           path: error_report.html
@@ -92,17 +92,44 @@ jobs:
 
     steps:
       - name: Checkout code for Release
-        uses: actions/checkout@v5
-        with:
-          ref: 'main'
+        uses: actions/checkout@v6
 
       - name: Download Error Report Artifact (if exists)
         id: download_error
         continue-on-error: true
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v7
         with:
           name: error-report
           path: ./
+
+      - name: Parse Target Version from modpack.json
+        id: parse_version
+        run: |
+          MC_VERSION=$(jq -r '.mcVersion // empty' .github/configs/modpack.json)
+          LOADER=$(jq -r '.loader // empty' .github/configs/modpack.json)
+          echo "mc_version=$MC_VERSION" >> $GITHUB_ENV
+          echo "loader=$LOADER" >> $GITHUB_ENV
+
+      - name: Download latest VMTU matching version
+        if: ${{ env.mc_version != '' && env.loader != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p ./CNPack/mods
+          # 通过 GitHub CLI 提取 VMTU 仓库的最新 Release
+          # 使用通配符匹配包含目标 MC 版本和 Loader 且以 .jar 结尾的附件
+          gh release download \
+            --repo vm-chinese-translate-group/VMTranslationUpdateMod \
+            --pattern "*${{ env.loader }}*${{ env.mc_version }}*.jar" \
+            --dir ./CNPack/mods \
+            --clobber
+            
+          # 验证是否成功下载
+          if [ -z "$(ls -A ./CNPack/mods/*.jar 2>/dev/null)" ]; then
+            echo "Warning: No matching VMTU jar found for ${{ env.mc_version }} and ${{ env.loader }}"
+          else
+            echo "Successfully downloaded VMTU matching ${{ env.mc_version }} and ${{ env.loader }}"
+          fi
 
       - name: Get current datetime for tag
         id: datetime

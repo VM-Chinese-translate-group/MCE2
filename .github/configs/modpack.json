@@ -1,0 +1,28 @@
+{
+  "packId": 1243287,
+  "packName": "MC Eternal 2",
+  "versionPattern": "MC Eternal 2-{version}",
+  "mcVersion": "1.20.1", 
+  "loader": "forge",
+  "updateMethod": "api",
+  "infoFilePath": "CNPack/modpackinfo.json",
+  "sourceDir": "Source",
+  "attentionList": {
+    "folders": [
+      {
+        "path": "config/ftbquests/quests",
+        "ignoreDeletions": false
+      }
+    ],
+    "filePatterns": [
+      {
+        "pattern": "kubejs/assets/*/lang/en_us.json",
+        "ignoreDeletions": true
+      }
+    ]
+  },
+  "exclusionPatterns": [
+    "**/lang/*.*",
+    "!**/lang/en_us.*"
+  ]
+}
