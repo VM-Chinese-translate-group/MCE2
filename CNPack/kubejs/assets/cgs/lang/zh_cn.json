@@ -13,25 +13,25 @@
 
   "itemGroup.mod_items": "机械动力：枪械制造",
 
-  "info.cgs.fuel": "Right click on a weapon with a fuel item to refuel it",
+  "info.cgs.fuel": "手持所需燃料后右击武器，即可为其补充燃料",
 
   "slot.cgs.attachment.engine": "引擎",
-  "slot.cgs.attachment.frame": "框架",
-  "slot.cgs.attachment.chamber": "Chamber",
-  "slot.cgs.attachment.head": "Head",
+  "slot.cgs.attachment.frame": "枪身组件",
+  "slot.cgs.attachment.chamber": "链式弹膛",
+  "slot.cgs.attachment.head": "头部组件",
 
-  "info.cgs.air": "风",
-  "info.cgs.burnable": "Fuel",
+  "info.cgs.air": "（背罐）空气",
+  "info.cgs.burnable": "燃料",
 
   "item.cgs.flintlock": "燧发枪",
   "item.cgs.shotgun": "霰弹枪",
   "item.cgs.nailgun": "钉枪",
   "item.cgs.gatling": "加特林机枪",
   "item.cgs.blazegun": "烈焰枪",
-  "item.cgs.launcher": "发射器",
+  "item.cgs.launcher": "便携式火箭发射器",
   "item.cgs.hammer": "气动锤",
   "item.cgs.axe": "气动斧",
-  "item.cgs.frag_grenade": "破片手榴弹",
+  "item.cgs.frag_grenade": "碎片手雷",
 
   "item.cgs.barrel": "枪管",
   "item.cgs.barrel_sturdy": "坚固枪管",
@@ -46,7 +46,7 @@
 
   "item.cgs.round_gatling": "加特林子弹",
   "item.cgs.round_revolver": "左轮子弹",
-  "item.cgs.round_shotgun": "霰弹枪子弹",
+  "item.cgs.round_shotgun": "霰弹",
   "item.cgs.round_shotgun_blank": "霰弹枪空包弹",
   "item.cgs.paper_cartridge": "纸质弹药筒",
   "item.cgs.nail": "钉子",
@@ -54,16 +54,16 @@
   "item.cgs.rocket_small": "小型火箭",
   "item.cgs.spear": "矛",
 
-  "item.cgs.scope": "瞄具",
+  "item.cgs.scope": "瞄准镜",
   "item.cgs.stock": "枪托",
   "item.cgs.bayonet": "刺刀",
   "item.cgs.big_bayonet": "大型刺刀",
 
-  "item.cgs.iron_sight": "加特林：金属瞄具",
+  "item.cgs.iron_sight": "加特林：机械瞄具",
   "item.cgs.gatling_drum": "加特林机枪：弹鼓",
 
   "item.cgs.round_belt": "左轮手枪：弹药链",
-  "item.cgs.auto_fire": "左轮手枪：自动开火",
+  "item.cgs.auto_fire": "左轮手枪：全自动",
   "item.cgs.long_barrel": "左轮手枪：加长枪管",
 
   "item.cgs.shotgun_drum": "霰弹枪：弹鼓",
@@ -84,12 +84,12 @@
   "item.cgs.flintlock_mortar_barrel": "燧发枪：迫击炮管",
 
   "item.cgs.hammer_chamber": "锤：枪膛",
-  "item.cgs.hammer_stone": "石制锤头",
-  "item.cgs.hammer_iron": "铁制锤头",
+  "item.cgs.hammer_stone": "石锤头",
+  "item.cgs.hammer_iron": "铁锤头",
   "item.cgs.hammer_diamond": "钻石锤头",
   "item.cgs.hammer_netherite": "下界合金锤头",
-  "item.cgs.axe_stone": "石制斧刃",
-  "item.cgs.axe_iron": "铁制斧刃",
+  "item.cgs.axe_stone": "石斧刃",
+  "item.cgs.axe_iron": "铁斧刃",
   "item.cgs.axe_diamond": "钻石斧刃",
   "item.cgs.axe_netherite": "下界合金斧刃",
 
