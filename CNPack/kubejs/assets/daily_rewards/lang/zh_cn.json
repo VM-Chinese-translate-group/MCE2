@@ -2,7 +2,7 @@
     "text.daily_rewards.special_rewards.title": "每日蛋糕 (%1$s)",
     "text.daily_rewards.next_special_reward.in": "离下一个每日蛋糕还有 %1$s",
     "text.daily_rewards.daily_rewards.title": "奖励 (%1$s)",
-    "text.daily_rewards.claim_rewards": "点击%1$s，来领取你的每日奖励吧！",
+    "text.daily_rewards.claim_rewards": "使用命令“%1$s”来领取你的每日奖励吧！",
     "text.daily_rewards.next_reward.in": "离下一个奖励还有 %1$s",
     "text.daily_rewards.next_reward.reload": "重载以领取奖励！",
     "text.daily_rewards.next_special_reward.reload": "重载以领取特殊奖励！",
