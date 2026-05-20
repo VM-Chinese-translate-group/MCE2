@@ -1,0 +1,1235 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "701563945253F512"
+	icon: {
+		Count: 1
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	id: "1095C058506D2A05"
+	images: [
+		{
+			height: 6.0d
+			image: "botania:textures/gui/paper_left.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0612244897959187d
+			y: -2.2551020408163254d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.1469387755102d
+			y: 2.8591836734693814d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.861224489795916d
+			y: 2.8591836734693814d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.1469387755102d
+			y: 2.0020408163265273d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.861224489795916d
+			y: 2.0020408163265273d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/alfheim_portal_activated"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.004081632653055d
+			y: 2.8591836734693814d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.1469387755102d
+			y: 1.1448979591836732d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.861224489795916d
+			y: 1.1448979591836732d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.004081632653055d
+			y: 1.1448979591836732d
+		}
+		{
+			height: 6.0d
+			image: "botania:textures/gui/paper_left.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -1.3598639455782475d
+			y: 6.731632653061233d
+		}
+		{
+			height: 0.5d
+			image: "botania:block/brown_mushroom"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.383673469387766d
+			y: 4.184013605442196d
+		}
+		{
+			height: 0.5d
+			image: "botania:block/manastar"
+			rotation: 20.0d
+			width: 0.5d
+			x: -1.5238095238095255d
+			y: 4.131122448979603d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.3571428571428541d
+			y: 2.012074829931983d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.012074829931983d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.285714285714292d
+			y: 4.772278911564641d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			icon: "botania:apothecary_default"
+			id: "2524C59A32F0DA28"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "34784FFFDE14FC51"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "132A7F9AAF76F3FD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.botania.quest2676481344635197992.subtitle}"
+			tasks: [{
+				id: "4C826485E4D4D537"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest2676481344635197992.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["534740624C012CBF"]
+			description: [
+				"{ftbquests.chapter.botania.quest696260986371080398.description1}"
+				""
+				"{ftbquests.chapter.botania.quest696260986371080398.description2}"
+				"{ftbquests.chapter.botania.quest696260986371080398.description3}"
+				""
+				"{ftbquests.chapter.botania.quest696260986371080398.description4}"
+				"{ftbquests.chapter.botania.quest696260986371080398.description5}"
+				"{ftbquests.chapter.botania.quest696260986371080398.description6}"
+			]
+			id: "09A99DAD9B9C80CE"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "10B6B92B280E935B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.botania.quest696260986371080398.subtitle}"
+			tasks: [
+				{
+					id: "338A914328CD0034"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "508D4FE90F2B5FCE"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "3A222B0EE7E27384"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mce2:botania/basic_generating_flower"
+						}
+					}
+					title: "{ftbquests.chapter.botania.quest696260986371080398.task.4188957946427896708.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quest696260986371080398.title}"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2524C59A32F0DA28"]
+			description: [""]
+			icon: "botania:pure_daisy"
+			id: "534740624C012CBF"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2CD28AD363FD008B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "50D1AB43F24FD615"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+				{
+					id: "1597755C91249085"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					id: "08EA89801001D978"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quest6000835819420593343.title}"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.botania.quest7875371975904872838.description1}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description2}"
+				""
+				"{ftbquests.chapter.botania.quest7875371975904872838.description3}"
+				""
+				"{ftbquests.chapter.botania.quest7875371975904872838.description4}"
+				""
+				"{ftbquests.chapter.botania.quest7875371975904872838.description5}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description6}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description7}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description8}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description9}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description10}"
+				""
+				"{ftbquests.chapter.botania.quest7875371975904872838.description11}"
+				""
+				"{ftbquests.chapter.botania.quest7875371975904872838.description12}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description13}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description14}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description15}"
+				""
+				"{ftbquests.chapter.botania.quest7875371975904872838.description16}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description17}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description18}"
+			]
+			id: "6D4AF11629E04986"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "77CB4CB067A362F6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.botania.quest7875371975904872838.subtitle}"
+			tasks: [{
+				id: "2C1EBB89070F54F9"
+				item: {
+					Count: 1
+					id: "botania:lexicon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest7875371975904872838.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D4AF11629E04986"]
+			description: ["{ftbquests.chapter.botania.quest7917003710928581595.description1}"]
+			id: "6DDED8EDD358F3DB"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "7C815689BC15AF52"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7CD417C060E8E9D2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.botania.quest7917003710928581595.subtitle}"
+			tasks: [{
+				id: "0E70AE06CC0904B7"
+				item: {
+					Count: 1
+					id: "botania:lexicon"
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				match_nbt: true
+				title: "{ftbquests.chapter.botania.quest7917003710928581595.task.1040522858138764471.title}"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "{ftbquests.chapter.botania.quest7917003710928581595.title}"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["534740624C012CBF"]
+			description: [
+				"{ftbquests.chapter.botania.quest5088047349113092864.description1}"
+				""
+				"{ftbquests.chapter.botania.quest5088047349113092864.description2}"
+				""
+				"{ftbquests.chapter.botania.quest5088047349113092864.description3}"
+				"{ftbquests.chapter.botania.quest5088047349113092864.description4}"
+				"{ftbquests.chapter.botania.quest5088047349113092864.description5}"
+			]
+			id: "469C601B3C40FB00"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4A5198EE987F931B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "54BF84F2BD090A4C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.botania.quest5088047349113092864.subtitle}"
+			tasks: [{
+				id: "5A466E90ACF4EBFD"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest5088047349113092864.title}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09A99DAD9B9C80CE"]
+			description: [
+				"{ftbquests.chapter.botania.quest7126936400966812386.description1}"
+				""
+				"{ftbquests.chapter.botania.quest7126936400966812386.description2}"
+			]
+			id: "62E7F6E5846D82E2"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "451CF2EB1155AD74"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6A3019F0D49E7A45"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.botania.quest7126936400966812386.subtitle}"
+			tasks: [
+				{
+					id: "754B137377EB2E58"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "7D6C3DA95F0C8446"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "4DB02664AC3DE750"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+				{
+					id: "2EA7987C85BCDFFB"
+					item: "botania:mana_string"
+					type: "item"
+				}
+				{
+					id: "506C5614689E141E"
+					item: "botania:mana_powder"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quest7126936400966812386.title}"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"62E7F6E5846D82E2"
+				"7D6C3DA95F0C8446"
+				"4DB02664AC3DE750"
+			]
+			description: [""]
+			icon: "botania:runic_altar"
+			id: "712FF3A7BCD998F3"
+			min_required_dependencies: 1
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "253A3E0373CCB04E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "049E586E50F2CD7F"
+					item: "botania:runic_altar"
+					type: "item"
+				}
+				{
+					advancement: "botania:main/rune_pickup"
+					criterion: ""
+					icon: "botania:rune_water"
+					id: "5458B11594715EAD"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quest8156005351944722675.title}"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["712FF3A7BCD998F3"]
+			description: [
+				"{ftbquests.chapter.botania.quest6653458311892948285.description1}"
+				""
+				"{ftbquests.chapter.botania.quest6653458311892948285.description2}"
+			]
+			id: "5C55D515483FD53D"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "0C9525A75D3F2AA3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4565A8EA33FAB463"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6152AF0624908A20"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "6FB1D279B2CBCD1E"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "23E5D2F7B06701E1"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "18B8FFDDA13EE6B3"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					id: "2398DD0FB4A73461"
+					item: "botania:rune_spring"
+					type: "item"
+				}
+				{
+					id: "7ADBCAFE070E7CE8"
+					item: "botania:rune_summer"
+					type: "item"
+				}
+				{
+					id: "2D7C710BBF83E9F1"
+					item: "botania:rune_autumn"
+					type: "item"
+				}
+				{
+					id: "075373A105E3284D"
+					item: "botania:rune_winter"
+					type: "item"
+				}
+				{
+					id: "004A0586F1472803"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+				{
+					id: "3ABF1E63EC772FCB"
+					item: "botania:rune_lust"
+					type: "item"
+				}
+				{
+					id: "4C8E83CCC7EF5FF6"
+					item: "botania:rune_gluttony"
+					type: "item"
+				}
+				{
+					id: "424BAD66FB0F89AD"
+					item: "botania:rune_greed"
+					type: "item"
+				}
+				{
+					id: "6D1263439ED8D101"
+					item: "botania:rune_sloth"
+					type: "item"
+				}
+				{
+					id: "701C5E24DB0A100B"
+					item: "botania:rune_wrath"
+					type: "item"
+				}
+				{
+					id: "78A15979D8DB9861"
+					item: "botania:rune_envy"
+					type: "item"
+				}
+				{
+					id: "328DE9C2C743EFD5"
+					item: "botania:rune_pride"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quest6653458311892948285.title}"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5C55D515483FD53D"
+				"18B8FFDDA13EE6B3"
+				"23E5D2F7B06701E1"
+				"6FB1D279B2CBCD1E"
+				"004A0586F1472803"
+				"6152AF0624908A20"
+			]
+			description: [
+				"{ftbquests.chapter.botania.quest1224632961744829523.description1}"
+				""
+				"{ftbquests.chapter.botania.quest1224632961744829523.description2}"
+				"{ftbquests.chapter.botania.quest1224632961744829523.description3}"
+				""
+				"{ftbquests.chapter.botania.quest1224632961744829523.description4}"
+				""
+				"{ftbquests.chapter.botania.quest1224632961744829523.description5}"
+			]
+			icon: "botania:terra_plate"
+			id: "10FEC530B908FC53"
+			min_required_dependencies: 5
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "73C137C9BC69F4DC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5AC5DA2C3A710B73"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.botania.quest1224632961744829523.subtitle}"
+			tasks: [
+				{
+					id: "12CD7FA257769E3D"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					hasCustomPicture: false
+					icon: "minecraft:lapis_block"
+					id: "695FC871D1105C97"
+					ignoreState: false
+					layer: true
+					name: "terra_plate"
+					rightclick: false
+					title: "{ftbquests.chapter.botania.quest1224632961744829523.task.7593007887934315671.title}"
+					type: "questsadditions:structure"
+				}
+				{
+					count: 2L
+					id: "0A9D9C8C371E2CD1"
+					item: "botania:spark"
+					type: "item"
+				}
+				{
+					id: "51D5881E73FB20A1"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quest1224632961744829523.title}"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10FEC530B908FC53"]
+			description: [
+				"{ftbquests.chapter.botania.quest7265581909575970881.description1}"
+				""
+				"{ftbquests.chapter.botania.quest7265581909575970881.description2}"
+				"{ftbquests.chapter.botania.quest7265581909575970881.description3}"
+			]
+			id: "64D4884086C7B041"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "3111A38DE33A1938"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "62946BDF139DDAE1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.botania.quest7265581909575970881.subtitle}"
+			tasks: [
+				{
+					id: "410205C71E594BA8"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3B5DE751C9A9CADE"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quest7265581909575970881.title}"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"62E7F6E5846D82E2"
+				"754B137377EB2E58"
+			]
+			description: [
+				"{ftbquests.chapter.botania.quest4881124679431418323.description1}"
+				""
+				"{ftbquests.chapter.botania.quest4881124679431418323.description2}"
+			]
+			id: "43BD3D08DDE6F1D3"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "2E6EFA5FF9BC9409"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0FC0BE101DB1B83A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60035FF7D644E794"
+				item: "botania:obedience_stick"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest4881124679431418323.title}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.botania.quest8326499692880917124.description1}"
+				""
+				"{ftbquests.chapter.botania.quest8326499692880917124.description2}"
+				"{ftbquests.chapter.botania.quest8326499692880917124.description3}"
+			]
+			id: "738DAB5AE090F284"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "27175113B51C2256"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.botania.quest8326499692880917124.subtitle}"
+			tasks: [{
+				id: "346567F558BFFBCB"
+				item: "botania:hydroangeas"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest8326499692880917124.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.botania.quest6167608624577498497.description1}"
+				""
+				"{ftbquests.chapter.botania.quest6167608624577498497.description2}"
+			]
+			id: "5597BF5DDD93CD81"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "6205D151F9FCFC4D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.botania.quest6167608624577498497.subtitle}"
+			tasks: [{
+				id: "6B3BAA2AB473F34D"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest6167608624577498497.title}"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.botania.quest3995646614224903605.description1}"
+				"{ftbquests.chapter.botania.quest3995646614224903605.description2}"
+				"{ftbquests.chapter.botania.quest3995646614224903605.description3}"
+			]
+			id: "3773636D00DE1DB5"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "762BA9D2ADC3DD1A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.botania.quest3995646614224903605.subtitle}"
+			tasks: [{
+				id: "088A499B6680E1AF"
+				item: "botania:thermalily"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest3995646614224903605.title}"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.botania.quest3080700386101472968.description1}"
+				"{ftbquests.chapter.botania.quest3080700386101472968.description2}"
+				""
+				"{ftbquests.chapter.botania.quest3080700386101472968.description3}"
+			]
+			id: "2AC0D8ADCCFCAEC8"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "30061A726AA85080"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.botania.quest3080700386101472968.subtitle}"
+			tasks: [{
+				id: "585FB7F3425CD0FD"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest3080700386101472968.title}"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.botania.quest3677527691542608483.description1}"
+				"{ftbquests.chapter.botania.quest3677527691542608483.description2}"
+				""
+				"{ftbquests.chapter.botania.quest3677527691542608483.description3}"
+			]
+			id: "330933F37A0F3A63"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "300F0A0862ECF145"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "385CF325261C0D09"
+				item: "botania:munchdew"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest3677527691542608483.title}"
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.botania.quest6007728143980019821.description1}"
+				"{ftbquests.chapter.botania.quest6007728143980019821.description2}"
+			]
+			id: "535FBCEAA90BC06D"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "06BC6BC001143033"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "3C5D9095394DD429"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest6007728143980019821.title}"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.botania.quest8862898077166756742.description1}"
+				"{ftbquests.chapter.botania.quest8862898077166756742.description2}"
+				"{ftbquests.chapter.botania.quest8862898077166756742.description3}"
+			]
+			id: "7AFF56D7F2046386"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1FAC3A968B48C4F6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "59EC0E493D948DBF"
+				item: "botania:gourmaryllis"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest8862898077166756742.title}"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: ["{ftbquests.chapter.botania.quest514164780489394565.description1}"]
+			id: "0722AE24C9164985"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "570BC2481FE16233"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "02D5C858095578AF"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest514164780489394565.title}"
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.botania.quest7332193940488596700.description1}"
+				""
+				"{ftbquests.chapter.botania.quest7332193940488596700.description2}"
+				"{ftbquests.chapter.botania.quest7332193940488596700.description3}"
+				""
+				"{ftbquests.chapter.botania.quest7332193940488596700.description4}"
+			]
+			id: "65C12F8A8F182CDC"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "77C59E6D934CF109"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7F6F297E9635985A"
+				item: "botania:rafflowsia"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest7332193940488596700.title}"
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.botania.quest8942867177925075877.description1}"
+				""
+				"{ftbquests.chapter.botania.quest8942867177925075877.description2}"
+			]
+			id: "7C1B725125B963A5"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4F55DB83F63F7E68"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.botania.quest8942867177925075877.subtitle}"
+			tasks: [{
+				id: "3748C9B5B06513B4"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest8942867177925075877.title}"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.botania.quest413671051139902500.description1}"
+				"{ftbquests.chapter.botania.quest413671051139902500.description2}"
+				""
+				"{ftbquests.chapter.botania.quest413671051139902500.description3}"
+			]
+			id: "05BDA7A1190E6C24"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3C5101FF3B7E5DA4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.botania.quest413671051139902500.subtitle}"
+			tasks: [{
+				id: "4551CE438AFAD84A"
+				item: "botania:shulk_me_not"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest413671051139902500.title}"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.botania.quest6311959951768629779.description1}"
+				"{ftbquests.chapter.botania.quest6311959951768629779.description2}"
+				"{ftbquests.chapter.botania.quest6311959951768629779.description3}"
+			]
+			id: "5798962249A93213"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7F6CADC3B02A3589"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "52DC9F7B4BA3E979"
+				item: "botania:spectrolus"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest6311959951768629779.title}"
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			description: ["{ftbquests.chapter.botania.quest8735345195644695492.description1}"]
+			id: "793A2E2C70D133C4"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0522621A2F0CC63A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "79FB78B2DB67581B"
+				item: "botania:narslimmus"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.botania.quest8735345195644695492.title}"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["64D4884086C7B041"]
+			description: [
+				"{ftbquests.chapter.botania.quest702429581693393127.description1}"
+				""
+				"{ftbquests.chapter.botania.quest702429581693393127.description2}"
+			]
+			id: "09BF87FBA08F98E7"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "35ADF5348182FD8E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5A8619C0CF7D0E95"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2B2AB96F58D3270E"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+				{
+					id: "2B53BD8E601FC026"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+				{
+					id: "4B71E28DB01B8BB4"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+				{
+					id: "71837E1CE0906666"
+					item: "botania:dreamwood"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quest702429581693393127.title}"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09BF87FBA08F98E7"]
+			description: [
+				"{ftbquests.chapter.botania.quest1237442985485991883.description1}"
+				""
+				"{ftbquests.chapter.botania.quest1237442985485991883.description2}"
+			]
+			id: "112C47D6CBB0FFCB"
+			rewards: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "585D94E29EE662DF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "17613BB136694D60"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					count: 4L
+					id: "36ADB68FBABF1619"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+				{
+					hasCustomPicture: false
+					icon: "minecraft:beacon"
+					id: "3D9FE7E661F48C7B"
+					ignoreState: false
+					layer: true
+					name: "ritual_of_gaia"
+					rightclick: false
+					title: "{ftbquests.chapter.botania.quest1237442985485991883.task.4440522734282509435.title}"
+					type: "questsadditions:structure"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quest1237442985485991883.title}"
+			x: 15.0d
+			y: 2.0d
+		}
+	]
+	title: "{ftbquests.chapter.botania.title}"
+}

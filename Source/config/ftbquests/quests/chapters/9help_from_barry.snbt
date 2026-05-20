@@ -1,0 +1,137 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "9help_from_barry"
+	group: "53833FE85BBBE6D0"
+	icon: {
+		Count: 1
+		id: "rats:cheese"
+		tag: { }
+	}
+	id: "63EF9023D9FBE489"
+	images: [{
+		height: 2.0d
+		image: "modpack:textures/barry.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: -0.009523809523805937d
+		y: -0.8023809523809469d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.9help_from_barry.quest1814751871587322833.description1}"
+				"{ftbquests.chapter.9help_from_barry.quest1814751871587322833.description2}"
+				""
+				"{ftbquests.chapter.9help_from_barry.quest1814751871587322833.description3}"
+				"{ftbquests.chapter.9help_from_barry.quest1814751871587322833.description4}"
+				"{ftbquests.chapter.9help_from_barry.quest1814751871587322833.image0}"
+				""
+				"{ftbquests.chapter.9help_from_barry.quest1814751871587322833.description5}"
+			]
+			icon: {
+				Count: 1
+				id: "rats:trash_can"
+				tag: { }
+			}
+			id: "192F4B3655700BD1"
+			rewards: [{
+				id: "295FC3D5394C6C37"
+				item: {
+					Count: 1
+					id: "rats:cheese"
+					tag: {
+						BrewChewPotionData: {
+							Potions: [{
+								Effects: [
+									{
+										Amplifier: 0
+										Duration: 300
+										Effect: "rats:plague"
+									}
+									{
+										Amplifier: 0
+										Duration: 300
+										Effect: "irons_spellbooks:antigravity"
+									}
+									{
+										Amplifier: 0
+										Duration: 300
+										Effect: "alexscaves:sugar_rush"
+									}
+									{
+										Amplifier: 0
+										Duration: 300
+										Effect: "minecraft:fire_resistance"
+									}
+								]
+							}]
+						}
+						display: {
+							Lore: [
+								"{\"text\":\" \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"translate\":\"lore.mce2.help_from_barry.1\"}],\"translate\":\"lore.mce2.help_from_barry.2\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.3\"}],\"translate\":\"lore.mce2.help_from_barry.4\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.5\"}],\"translate\":\"lore.mce2.help_from_barry.6\"}"
+								"{\"text\":\" \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"translate\":\"lore.mce2.help_from_barry.7\"}],\"translate\":\"lore.mce2.help_from_barry.2\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.3\"}],\"translate\":\"lore.mce2.help_from_barry.4\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.5\"}],\"translate\":\"lore.mce2.help_from_barry.6\"}"
+								"{\"text\":\" \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"translate\":\"lore.mce2.help_from_barry.8\"}],\"translate\":\"lore.mce2.help_from_barry.2\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.3\"}],\"translate\":\"lore.mce2.help_from_barry.4\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.5\"}],\"translate\":\"lore.mce2.help_from_barry.6\"}"
+								"{\"text\":\" \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"translate\":\"lore.mce2.help_from_barry.9\"}],\"translate\":\"lore.mce2.help_from_barry.2\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.3\"}],\"translate\":\"lore.mce2.help_from_barry.4\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.5\"}],\"translate\":\"lore.mce2.help_from_barry.6\"}"
+							]
+							Name: "{\"translate\":\"name.mce2.help_from_barry.1\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.9help_from_barry.quest1814751871587322833.subtitle}"
+			tasks: [{
+				id: "3AA86C3F1FA9FE0A"
+				title: "{ftbquests.chapter.9help_from_barry.quest1814751871587322833.task.4226747268657184266.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.9help_from_barry.quest1814751871587322833.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.9help_from_barry.quest6865454650382366581.image0}"
+				""
+				"{ftbquests.chapter.9help_from_barry.quest6865454650382366581.description1}"
+				""
+				"{ftbquests.chapter.9help_from_barry.quest6865454650382366581.description2}"
+			]
+			id: "5F46FEA139983775"
+			rewards: [{
+				command: "/loot give {p} loot kubejs:quest/frostmaw"
+				console: true
+				elevate_perms: true
+				id: "0FF388EE4038AB6A"
+				type: "command"
+			}]
+			subtitle: "{ftbquests.chapter.9help_from_barry.quest6865454650382366581.subtitle}"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "7D8C5AFC4FF47C92"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.9help_from_barry.quest6865454650382366581.title}"
+			x: -2.0d
+			y: 2.0d
+		}
+	]
+	title: "{ftbquests.chapter.9help_from_barry.title}"
+}

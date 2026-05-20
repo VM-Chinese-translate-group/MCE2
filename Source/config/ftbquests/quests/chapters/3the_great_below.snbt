@@ -1,0 +1,1011 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3the_great_below"
+	group: "0194595A09DF4755"
+	icon: "thegreatbelow:beam_block"
+	id: "2093117385E8FF1D"
+	images: [
+		{
+			dependency: "20D7639E7B4A9C96"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.9880952380952337d
+			y: -0.745238095238097d
+		}
+		{
+			dependency: "20D7639E7B4A9C96"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.75d
+			y: 0.016666666666662167d
+		}
+		{
+			dependency: "6741B77BBC23A95C"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: -90.0d
+			width: 1.0d
+			x: 2.297619047619044d
+			y: 0.016666666666662167d
+		}
+		{
+			dependency: "20D7639E7B4A9C96"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 180.0d
+			width: 1.0d
+			x: 3.011904761904759d
+			y: 0.754761904761903d
+		}
+		{
+			dependency: "6248503684C49C89"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 180.0d
+			width: 1.0d
+			x: 2.9642857142857224d
+			y: 3.930952380952373d
+		}
+		{
+			dependency: "6741B77BBC23A95C"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.8571428571428683d
+			y: 3.0380952380952344d
+		}
+		{
+			dependency: "6248503684C49C89"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: -90.0d
+			width: 1.0d
+			x: 2.1071428571428683d
+			y: 3.0023809523809497d
+		}
+		{
+			dependency: "6248503684C49C89"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.000000000000007d
+			y: 2.109523809523804d
+		}
+		{
+			dependency: "20D7639E7B4A9C96"
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_active"
+			rotation: 180.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependency: "6248503684C49C89"
+			height: 1.0d
+			image: "the_bumblezone:block/super_candle/candle_wick_lit_soul_2_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.3285714285714505d
+			y: 1.3273809523809526d
+		}
+		{
+			dependency: "26E27FB78FB855CE"
+			height: 1.0d
+			image: "minecraft:textures/particle/sculk_soul_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.014285714285734d
+			y: -0.6440476190476225d
+		}
+		{
+			height: 1.0d
+			image: "modpack:textures/title_great_below.png"
+			rotation: 0.0d
+			width: 9.592417061611375d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependency: "6248503684C49C89"
+			height: 1.0d
+			image: "modpack:textures/title_great_below_1.png"
+			rotation: 0.0d
+			width: 10.56842105263158d
+			x: 3.0d
+			y: -3.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest7440429801458084188.description1}"
+				"{ftbquests.chapter.3the_great_below.quest7440429801458084188.description2}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest7440429801458084188.description3}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest7440429801458084188.description4}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest7440429801458084188.description5}"
+			]
+			id: "6741B77BBC23A95C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw {p} {\"translate\":\"message.mce2.the_great_below.1\",\"italic\":true,\"color\":\"dark_gray\"}"
+					console: true
+					icon: {
+						Count: 1
+						id: "minecraft:wither_rose"
+						tag: { }
+					}
+					id: "1904176D6494CD17"
+					title: "{ftbquests.chapter.3the_great_below.quest7440429801458084188.reward.1802591509461388567.title}"
+					type: "command"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2640320E2432C96F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3922401D889A6F90"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36703B5E497BDA3C"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest7440429801458084188.subtitle}"
+			tasks: [{
+				id: "2C1D01CDCE864250"
+				item: {
+					Count: 1
+					id: "kubejs:mobdrop_endermanheart_beating"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.3the_great_below.quest7440429801458084188.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6741B77BBC23A95C"]
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest2366469661530954902.description1}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest2366469661530954902.description2}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest2366469661530954902.description3}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest2366469661530954902.description4}"
+			]
+			hide_until_deps_complete: true
+			id: "20D7639E7B4A9C96"
+			invisible: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "597E75EF0A12165C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "326CB2EA9C4E8511"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50B90EC9FC934F53"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest2366469661530954902.subtitle}"
+			tasks: [{
+				id: "7381ACBFBD89DC42"
+				item: {
+					Count: 1
+					id: "kubejs:artifact_beating_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.3the_great_below.quest2366469661530954902.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20D7639E7B4A9C96"]
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description1}"
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description2}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description3}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description4}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description5}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description6}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description7}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description8}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest2801942344544835022.description9}"
+			]
+			hide_until_deps_complete: true
+			id: "26E27FB78FB855CE"
+			invisible: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "640855572F83603E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0BFB684D1C3E92E2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42FA0794F610ED05"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest2801942344544835022.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:reinforced_deepslate"
+					tag: { }
+				}
+				id: "071074176E32A326"
+				structure: "minecraft:ancient_city"
+				title: "{ftbquests.chapter.3the_great_below.quest2801942344544835022.task.509034401874748198.title}"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26E27FB78FB855CE"]
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest7081998609126038665.description1}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest7081998609126038665.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "blighted_beasts:seer"
+				}
+			}
+			id: "6248503684C49C89"
+			invisible: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at {p} run playsound minecraft:entity.warden.sonic_boom master {p} ~ ~ ~"
+					console: true
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "kubejs:artifact_beating_heart"
+						tag: { }
+					}
+					id: "66BB5BACCA1C4803"
+					silent: true
+					title: "{ftbquests.chapter.3the_great_below.quest7081998609126038665.reward.7402611210196895747.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw {p} {\"translate\":\"message.mce2.the_great_below.2\",\"italic\":true,\"color\":\"aqua\"}"
+					console: true
+					icon: {
+						Count: 1
+						id: "netherexp:sculk_grinder"
+						tag: { }
+					}
+					id: "01A3CC5570C3085D"
+					ignore_reward_blocking: true
+					title: "{ftbquests.chapter.3the_great_below.quest7081998609126038665.reward.118162682577881181.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/effect give {p} minecraft:darkness 6"
+					console: true
+					icon: {
+						Count: 1
+						id: "minecraft:sculk_sensor"
+						tag: { }
+					}
+					id: "1F2F580CFAE32B29"
+					title: "{ftbquests.chapter.3the_great_below.quest7081998609126038665.reward.2247111551853210409.title}"
+					type: "command"
+				}
+				{
+					command: "/titles add {p} titles:great_below"
+					console: true
+					icon: {
+						Count: 1
+						id: "titles:title_scroll_uncommon"
+						tag: { }
+					}
+					id: "3E57EBE779AB9556"
+					title: "{ftbquests.chapter.3the_great_below.quest7081998609126038665.reward.4492318532736619862.title}"
+					type: "command"
+				}
+				{
+					id: "133299A55105E3F4"
+					item: {
+						Count: 1
+						id: "minecraft:silence_armor_trim_smithing_template"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "1BB3A71168BC4CBF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "10E77376C6159100"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D77362817E4AE70"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.3the_great_below.quest7081998609126038665.subtitle}"
+			tasks: [{
+				dimension: "thegreatbelow:thegreatbelow"
+				icon: {
+					Count: 1
+					id: "minecraft:echo_shard"
+					tag: { }
+				}
+				id: "1F1E155EB340725D"
+				title: "{ftbquests.chapter.3the_great_below.quest7081998609126038665.task.2242253160955540061.title}"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.3the_great_below.quest7081998609126038665.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest3006543653022302605.description1}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest3006543653022302605.description2}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest3006543653022302605.description3}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest3006543653022302605.description4}"
+			]
+			hide_until_deps_complete: true
+			id: "29B96385E819818D"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "696793274C047C4A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "752C34E4826E2ABD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "429F3115A10731F3"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.3the_great_below.quest3006543653022302605.subtitle}"
+			tasks: [{
+				block: "mekanism:deepslate_osmium_ore"
+				block_type: 0
+				checkItem: false
+				id: "6679187E997E703E"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.3the_great_below.quest3006543653022302605.title}"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description1}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description2}"
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description3}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description4}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description5}"
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description6}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description7}"
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description8}"
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description9}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest6247438391413844562.description10}"
+			]
+			id: "56B35C1DDC5C2A52"
+			invisible: true
+			rewards: [
+				{
+					id: "0BF7E8AF04FB655F"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "unknown"
+							pages: [
+								"{\"translate\":\"page.mce2.the_great_below.1\"}"
+								"{\"translate\":\"page.mce2.the_great_below.2\"}"
+								"{\"translate\":\"page.mce2.the_great_below.3\"}"
+								"{\"translate\":\"page.mce2.the_great_below.4\"}"
+								"{\"translate\":\"page.mce2.the_great_below.5\"}"
+							]
+							resolved: 1b
+							title: "The Great Below"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "7E5653B93B92D81F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "02C2DF95E728F930"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10EC17164B7C831E"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.3the_great_below.quest6247438391413844562.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "324E50F6668C179F"
+				item: {
+					Count: 8
+					id: "irons_spellbooks:ancient_knowledge_fragment"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.3the_great_below.quest6247438391413844562.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest4410541287236254589.description1}"
+				"{ftbquests.chapter.3the_great_below.quest4410541287236254589.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "3D3563EEC4E93B7D"
+			invisible: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "129E7A70144AC87D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "25A9516468A5F5CF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A35B8C5089390BB"
+					item: "thegreatbelow:murmur_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.3the_great_below.quest4410541287236254589.subtitle}"
+			tasks: [{
+				id: "62FBD4F6497D5652"
+				item: {
+					Count: 1
+					id: "blighted_beasts:sculk_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.3the_great_below.quest4410541287236254589.title}"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest6971832541181744625.description1}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest6971832541181744625.description2}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest6971832541181744625.description3}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "60C0ECC202A595F1"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "283D248422B3961A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "33A224409B5F7FEF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "625C37A3E275F2AB"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+			]
+			secret: true
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest6971832541181744625.subtitle}"
+			tasks: [{
+				id: "6D506A73B0C02772"
+				item: {
+					Count: 1
+					id: "thegreatbelow:gone_music_disc"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.3the_great_below.quest6971832541181744625.title}"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest3654542305767777682.description1}"
+				"{ftbquests.chapter.3the_great_below.quest3654542305767777682.description2}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest3654542305767777682.description3}"
+			]
+			id: "32B78ADD4FECE592"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5B06D6AABE65B9DB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "11D072BF03100D83"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15443BDF0B20B544"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.3the_great_below.quest3654542305767777682.subtitle}"
+			tasks: [{
+				id: "2BDED14454E034BC"
+				item: {
+					Count: 1
+					id: "thegreatbelow:echo_location_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6741B77BBC23A95C"]
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest198991247268647306.description1}"
+				"{ftbquests.chapter.3the_great_below.quest198991247268647306.description2}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest198991247268647306.description3}"
+			]
+			hide_until_deps_complete: true
+			id: "02C2F57C2EDC118A"
+			optional: true
+			rewards: [{
+				id: "7AA10D55DF051753"
+				item: "kubejs:mobdrop_endermanheart_beating"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.3the_great_below.quest198991247268647306.subtitle}"
+			tasks: [{
+				id: "27FCD3243B62E668"
+				points: false
+				type: "xp"
+				value: 10L
+			}]
+			title: "{ftbquests.chapter.3the_great_below.quest198991247268647306.title}"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20D7639E7B4A9C96"]
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest6775160473424327599.description1}"
+				"{ftbquests.chapter.3the_great_below.quest6775160473424327599.description2}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest6775160473424327599.description3}"
+			]
+			hide_until_deps_complete: true
+			id: "5E06348DE2B973AF"
+			optional: true
+			rewards: [{
+				id: "6C3F73C108CBC47B"
+				item: "kubejs:artifact_beating_heart"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.3the_great_below.quest6775160473424327599.subtitle}"
+			tasks: [{
+				id: "0AD6B8811FF6A343"
+				points: false
+				type: "xp"
+				value: 10L
+			}]
+			title: "{ftbquests.chapter.3the_great_below.quest6775160473424327599.title}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest2999565740627604691.description1}"
+				"{ftbquests.chapter.3the_great_below.quest2999565740627604691.description2}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest2999565740627604691.description3}"
+				"{ftbquests.chapter.3the_great_below.quest2999565740627604691.description4}"
+			]
+			id: "29A09926128A34D3"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "64FC8C6EB405DA93"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "32DBB73B2EB2D8F5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18303C2DB4D335FF"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.3the_great_below.quest2999565740627604691.subtitle}"
+			tasks: [{
+				id: "101B31978D123BF4"
+				item: "thegreatbelow:warden_distractor_item"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest4049633149525118869.description1}"
+				"{ftbquests.chapter.3the_great_below.quest4049633149525118869.description2}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest4049633149525118869.description3}"
+				"{ftbquests.chapter.3the_great_below.quest4049633149525118869.description4}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest4049633149525118869.description5}"
+				"{ftbquests.chapter.3the_great_below.quest4049633149525118869.description6}"
+			]
+			id: "38332FE4C4174F95"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "40D3AF04529D2D34"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "330ADB8462DB5E80"
+					item: "minecraft:lodestone"
+					type: "item"
+				}
+				{
+					id: "78A075E2E5F1B4EF"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.3the_great_below.quest4049633149525118869.subtitle}"
+			tasks: [{
+				id: "60A1E0B66AB65454"
+				item: "supplementaries:slice_map"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.3the_great_below.quest4049633149525118869.title}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: ["{ftbquests.chapter.3the_great_below.quest5808195703244842872.description1}"]
+			id: "509ADB380DDBE778"
+			rewards: [
+				{
+					id: "07FA7BF10EF3B51F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77374A00404E7B97"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2EEA198911C5F495"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.3the_great_below.quest5808195703244842872.subtitle}"
+			tasks: [{
+				id: "05E9371B8096D8D4"
+				item: "blighted_beasts:beckon"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.3the_great_below.quest5808195703244842872.title}"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.3the_great_below.quest7826939557932270969.description1}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest7826939557932270969.description2}"
+				""
+				"{ftbquests.chapter.3the_great_below.quest7826939557932270969.description3}"
+				"{ftbquests.chapter.3the_great_below.quest7826939557932270969.description4}"
+			]
+			id: "6C9EE00F1D018579"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					amount: 1500L
+					currency: "eternalcurrencies:coins"
+					id: "7CAC9C1AEBFA2BDA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:soulreaver"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "214ABD66F913EFAD"
+					title: "{ftbquests.chapter.3the_great_below.quest7826939557932270969.reward.2398938001491357613.title}"
+					type: "command"
+				}
+				{
+					count: 8
+					id: "14A036051C9A28BA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4CCCFD4D465D4D58"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.3the_great_below.quest7826939557932270969.subtitle}"
+			tasks: [{
+				id: "6A3A5BDC13E1510A"
+				item: {
+					Count: 1
+					id: "thegreatbelow:soul_reaver_axe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.3the_great_below.quest7826939557932270969.title}"
+			x: 3.0d
+			y: 9.0d
+		}
+	]
+	title: "{ftbquests.chapter.3the_great_below.title}"
+}

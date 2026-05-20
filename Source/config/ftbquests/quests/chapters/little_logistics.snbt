@@ -1,0 +1,820 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "little_logistics"
+	group: "3EBF424A99DA33B7"
+	icon: "littlelogistics:tug"
+	id: "572AA25B3278DBD1"
+	images: [{
+		height: 6.0d
+		image: "modpack:textures/littlelogistics.png"
+		rotation: -25.0d
+		width: 6.0d
+		x: -7.5d
+		y: -6.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A8875DB724D07B8"]
+			description: [
+				"{ftbquests.chapter.little_logistics.quest1132804425442421982.description1}"
+				"{ftbquests.chapter.little_logistics.quest1132804425442421982.image0}"
+			]
+			id: "0FB8879F827C6CDE"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "09042EB8E4E13777"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7BBE9C6AE89C0C83"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.little_logistics.quest1132804425442421982.subtitle}"
+			tasks: [{
+				id: "6EC2F4566302C346"
+				item: "littlelogistics:tug"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest1132804425442421982.title}"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8875DB724D07B8"]
+			description: ["{ftbquests.chapter.little_logistics.quest5065055546952293929.description1}"]
+			id: "464AB12F23B69E29"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "661AA412F553DD89"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest5065055546952293929.subtitle}"
+			tasks: [{
+				id: "3447372AEA7D0719"
+				item: "littlelogistics:barge"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest5065055546952293929.title}"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8875DB724D07B8"]
+			description: [
+				"{ftbquests.chapter.little_logistics.quest1798596922765939990.description1}"
+				""
+				"{ftbquests.chapter.little_logistics.quest1798596922765939990.description2}"
+				""
+				"{ftbquests.chapter.little_logistics.quest1798596922765939990.description3}"
+				""
+				"{ftbquests.chapter.little_logistics.quest1798596922765939990.description4}"
+			]
+			id: "18F5E65F33931516"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "024619A485BC94D9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest1798596922765939990.subtitle}"
+			tasks: [{
+				id: "5EBC264685752D69"
+				item: "littlelogistics:fishing_barge"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest1798596922765939990.title}"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8875DB724D07B8"]
+			description: ["{ftbquests.chapter.little_logistics.quest4899181738854545640.description1}"]
+			id: "43FD63D5A28178E8"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "1E8206E21B22084F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest4899181738854545640.subtitle}"
+			tasks: [{
+				id: "1AAD6349CA2E567A"
+				item: "littlelogistics:seater_barge"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest4899181738854545640.title}"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8875DB724D07B8"]
+			description: ["{ftbquests.chapter.little_logistics.quest2830243802434079436.description1}"]
+			id: "27470BBE37D58ACC"
+			rewards: [
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "179DEA59ABE79AC7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6645A4F7E7894831"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.little_logistics.quest2830243802434079436.subtitle}"
+			tasks: [{
+				id: "7FC22DFB8F242827"
+				item: "littlelogistics:vacuum_barge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8875DB724D07B8"]
+			description: ["{ftbquests.chapter.little_logistics.quest1327741295653984262.description1}"]
+			id: "126D15AC79129806"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "36B3378821E1B8FC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "068491DBA8D79502"
+				item: "littlelogistics:fluid_barge"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest1327741295653984262.title}"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8875DB724D07B8"]
+			description: [
+				"{ftbquests.chapter.little_logistics.quest7504262846487614581.description1}"
+				"{ftbquests.chapter.little_logistics.quest7504262846487614581.image0}"
+			]
+			id: "68247F4CB20E5475"
+			rewards: [
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "77FFE382D6C3ADBC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7EBC39FF3305551C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.little_logistics.quest7504262846487614581.subtitle}"
+			tasks: [{
+				id: "0D49134EB1598938"
+				item: "littlelogistics:energy_tug"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest7504262846487614581.title}"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest2663572735216363219.description1}"
+				"{ftbquests.chapter.little_logistics.quest2663572735216363219.image0}"
+			]
+			id: "24F6E94A5BFCA6D3"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0346746EF3B98D8E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest2663572735216363219.subtitle}"
+			tasks: [{
+				count: 6L
+				id: "02F72B02ED551A59"
+				item: "littlelogistics:spring"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest2663572735216363219.title}"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			description: ["{ftbquests.chapter.little_logistics.quest4451988307702994969.description1}"]
+			id: "3DC8A3C738D45819"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4B6A3717ADCE9912"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest4451988307702994969.subtitle}"
+			tasks: [{
+				id: "1CB5AEFE0B93C316"
+				item: "littlelogistics:conductors_wrench"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest4451988307702994969.title}"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5CFD5B47B679D472"]
+			description: [
+				"{ftbquests.chapter.little_logistics.quest1879144242102611776.description1}"
+				"{ftbquests.chapter.little_logistics.quest1879144242102611776.image0}"
+			]
+			id: "1A140FBB683F2F40"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "300CE69FB26364ED"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "127F8621B63BE919"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:conductor"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "1715BE9B228BEA5D"
+					title: "{ftbquests.chapter.little_logistics.quest1879144242102611776.reward.1663445210892069469.title}"
+					type: "command"
+				}
+			]
+			subtitle: "{ftbquests.chapter.little_logistics.quest1879144242102611776.subtitle}"
+			tasks: [{
+				id: "152A66C88B7A122D"
+				item: "littlelogistics:steam_locomotive"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest1879144242102611776.title}"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CFD5B47B679D472"]
+			description: ["{ftbquests.chapter.little_logistics.quest5170293077805537516.description1}"]
+			id: "47C092292F4298EC"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "43399E56FAF02F82"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest5170293077805537516.subtitle}"
+			tasks: [{
+				id: "148CF9526BB6A9D1"
+				item: "littlelogistics:chest_car"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest5170293077805537516.title}"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CFD5B47B679D472"]
+			description: ["{ftbquests.chapter.little_logistics.quest2657050948322168081.description1}"]
+			id: "24DFBDC284DB8D11"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "63EE5CB193AF1302"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest2657050948322168081.subtitle}"
+			tasks: [{
+				id: "4ED9E5A4E2300E48"
+				item: "littlelogistics:seater_car"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest2657050948322168081.title}"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CFD5B47B679D472"]
+			description: [
+				"{ftbquests.chapter.little_logistics.quest5253123029841354180.description1}"
+				"{ftbquests.chapter.little_logistics.quest5253123029841354180.image0}"
+			]
+			id: "48E6D7903B1E1DC4"
+			rewards: [{
+				id: "218C94BB4A724300"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						HideFlags: 33
+						display: {
+							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+						}
+						type: "quest_loot"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest5253123029841354180.subtitle}"
+			tasks: [{
+				id: "7F40C6E3CFB25CB9"
+				item: "littlelogistics:energy_locomotive"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest273289739866056458.description1}"
+				""
+				"{ftbquests.chapter.little_logistics.quest273289739866056458.description2}"
+			]
+			id: "03CAEB920979A70A"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "23686D9B5860AF6C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest273289739866056458.subtitle}"
+			tasks: [
+				{
+					id: "0771ABF18C15E566"
+					item: "littlelogistics:tug_route"
+					type: "item"
+				}
+				{
+					id: "2A3FEAA5F2C8C339"
+					item: "littlelogistics:locomotive_route"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.little_logistics.quest273289739866056458.title}"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest5140866844602035820.description1}"
+				""
+				"{ftbquests.chapter.little_logistics.quest5140866844602035820.description2}"
+			]
+			id: "475807285E166E6C"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "31C342FDD6119225"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest5140866844602035820.subtitle}"
+			tasks: [
+				{
+					count: 3L
+					id: "3D311AFF8BCCB15D"
+					item: "littlelogistics:car_dock_rail"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "14D02FFD62494C04"
+					item: "littlelogistics:locomotive_dock_rail"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.little_logistics.quest5140866844602035820.title}"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest7519860857900034760.description1}"
+				""
+				"{ftbquests.chapter.little_logistics.quest7519860857900034760.description2}"
+			]
+			id: "685BE99BBB7EEAC8"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "3FC9DD64218D4F15"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:logician"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "6D7D4CD56B6C5CAB"
+					title: "{ftbquests.chapter.little_logistics.quest7519860857900034760.reward.7889546601736985771.title}"
+					type: "command"
+				}
+			]
+			subtitle: "{ftbquests.chapter.little_logistics.quest7519860857900034760.subtitle}"
+			tasks: [
+				{
+					count: 5L
+					id: "181EDCDF79D92FCA"
+					item: "littlelogistics:junction_rail"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4B06FEC94AE74B5A"
+					item: "littlelogistics:tee_junction_rail"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "51C0162A52A80084"
+					item: "littlelogistics:switch_rail"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.little_logistics.quest7519860857900034760.title}"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest9131040494743236859.description1}"
+				""
+				"{ftbquests.chapter.little_logistics.quest9131040494743236859.description2}"
+			]
+			id: "7EB7F8F39EE0B0FB"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "72F79076E10DFC04"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest9131040494743236859.subtitle}"
+			tasks: [
+				{
+					id: "143522F9214211AA"
+					item: "littlelogistics:automatic_tee_junction_rail"
+					type: "item"
+				}
+				{
+					id: "1F4F497408998991"
+					item: "littlelogistics:automatic_switch_rail"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.little_logistics.quest9131040494743236859.title}"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest139261473912140665.description1}"
+				""
+				"{ftbquests.chapter.little_logistics.quest139261473912140665.description2}"
+			]
+			id: "01EEC1929B6E3379"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4CEBAAA94C61C08B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest139261473912140665.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "17FC2CAF40D3CB5C"
+				item: "littlelogistics:guide_rail_tug"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest139261473912140665.title}"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest576190117492136544.description1}"
+				""
+				"{ftbquests.chapter.little_logistics.quest576190117492136544.description2}"
+			]
+			id: "07FF09DBEC359A60"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "1DBB8DB336027E89"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest576190117492136544.subtitle}"
+			tasks: [{
+				count: 3L
+				id: "227E6A952ADFEEB1"
+				item: "littlelogistics:guide_rail_corner"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest576190117492136544.title}"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest1008595360476818342.description1}"
+				"{ftbquests.chapter.little_logistics.quest1008595360476818342.image0}"
+			]
+			id: "0DFF4022F753EBA6"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0995A2A9AC959510"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest1008595360476818342.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "09FD24D593909673"
+				item: "littlelogistics:vessel_detector"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest1008595360476818342.title}"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest7964612773820469101.description1}"
+				""
+				"{ftbquests.chapter.little_logistics.quest7964612773820469101.description2}"
+				""
+				"{ftbquests.chapter.little_logistics.quest7964612773820469101.description3}"
+			]
+			id: "6E87FD1E951B8F6D"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "1790C853F050A4C8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest7964612773820469101.subtitle}"
+			tasks: [
+				{
+					count: 2L
+					id: "347EF1A3D56357EF"
+					item: "littlelogistics:tug_dock"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "486B1E023173E888"
+					item: "littlelogistics:barge_dock"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.little_logistics.quest7964612773820469101.title}"
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest2288535419894105959.description1}"
+				"{ftbquests.chapter.little_logistics.quest2288535419894105959.image0}"
+			]
+			id: "1FC282D6D6B00767"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "40CB5DBEDA03C6EE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest2288535419894105959.subtitle}"
+			tasks: [{
+				id: "00CDC87065678BD7"
+				item: "littlelogistics:fluid_hopper"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest2288535419894105959.title}"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest7870284123144003810.description1}"
+				"{ftbquests.chapter.little_logistics.quest7870284123144003810.image0}"
+			]
+			id: "6D38DDB6216520E2"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "7076B76E5075FE17"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest7870284123144003810.subtitle}"
+			tasks: [{
+				id: "1B0E64374364CDA5"
+				item: "littlelogistics:vessel_charger"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest7870284123144003810.title}"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest1248452092992590013.description1}"
+				"{ftbquests.chapter.little_logistics.quest1248452092992590013.image0}"
+			]
+			id: "1153649061EA90BD"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "244DD320A16892F9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.little_logistics.quest1248452092992590013.subtitle}"
+			tasks: [{
+				id: "4B8E220051DC5B4C"
+				item: "littlelogistics:rapid_hopper"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest1248452092992590013.title}"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest6700612184159409266.description1}"
+				""
+				"{ftbquests.chapter.little_logistics.quest6700612184159409266.description2}"
+				""
+				"{ftbquests.chapter.little_logistics.quest6700612184159409266.description3}"
+				""
+				"{ftbquests.chapter.little_logistics.quest6700612184159409266.description4}"
+			]
+			id: "5CFD5B47B679D472"
+			subtitle: "{ftbquests.chapter.little_logistics.quest6700612184159409266.subtitle}"
+			tasks: [{
+				id: "428D335D6E790746"
+				title: "{ftbquests.chapter.little_logistics.quest6700612184159409266.task.4795545654597846854.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest6700612184159409266.title}"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CFD5B47B679D472"]
+			description: ["{ftbquests.chapter.little_logistics.quest5661018526537158929.description1}"]
+			id: "4E8FFA5B45271111"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "1605A57874627C22"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "24E8C27E7F347E60"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.little_logistics.quest5661018526537158929.subtitle}"
+			tasks: [{
+				id: "4D807B5DC4168249"
+				item: "littlelogistics:fluid_car"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest5661018526537158929.title}"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest5370672141015254968.description1}"
+				""
+				"{ftbquests.chapter.little_logistics.quest5370672141015254968.description2}"
+			]
+			id: "4A8875DB724D07B8"
+			subtitle: "{ftbquests.chapter.little_logistics.quest5370672141015254968.subtitle}"
+			tasks: [{
+				id: "2BD231BE945A2AB6"
+				title: "{ftbquests.chapter.little_logistics.quest5370672141015254968.task.3157640983342623414.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.little_logistics.quest5370672141015254968.title}"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.little_logistics.quest5162509602933638741.description1}"
+				""
+				"{ftbquests.chapter.little_logistics.quest5162509602933638741.description2}"
+				"{ftbquests.chapter.little_logistics.quest5162509602933638741.image0}"
+				"{ftbquests.chapter.little_logistics.quest5162509602933638741.description3}"
+			]
+			id: "47A4EB21B8670655"
+			rewards: [{
+				id: "7FA0A73A44230865"
+				item: "brewinandchewin:ham_and_cheese_sandwich"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.little_logistics.quest5162509602933638741.subtitle}"
+			tasks: [{
+				id: "4D648807D80D7341"
+				title: "{ftbquests.chapter.little_logistics.quest5162509602933638741.task.5576731805862425409.title}"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+	]
+	title: "{ftbquests.chapter.little_logistics.title}"
+}

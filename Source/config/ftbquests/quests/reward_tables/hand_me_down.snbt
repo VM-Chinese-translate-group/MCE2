@@ -1,0 +1,108 @@
+{
+	id: "7A4FB9A7FDF16754"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "alexsmobs:fedora"
+				tag: {
+					Damage: 24
+					Enchantments: [
+						{
+							id: "minecraft:fire_protection"
+							lvl: 3
+						}
+						{
+							id: "cursery:curse_poison"
+							lvl: 2
+						}
+					]
+					display: {
+						Lore: [
+							"{\"translate\":\"lore.mce2.bosses.3\"}"
+							"{\"translate\":\"lore.mce2.hand_me_down.1\"}"
+						]
+						Name: "{\"translate\":\"name.mce2.hand_me_down.1\"}"
+					}
+					itemModifier: "modifiers:rash"
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:gray_rune"
+					}
+					rpgloot.randomize: 0b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecolonies:pirate_shoes"
+				tag: {
+					AS_Amulet_Holder: [I;
+						-1227576764
+						-1560065926
+						-2081613911
+						2036351875
+					]
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"translate\":\"lore.mce2.bosses.3\"}"
+							"{\"translate\":\"lore.mce2.hand_me_down.2\"}"
+						]
+						Name: "{\"translate\":\"name.mce2.hand_me_down.2\"}"
+					}
+					itemModifier: "modifiers:jagged"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:leather_chestplate"
+				tag: {
+					AttributeModifiers: [{
+						Amount: -0.002d
+						AttributeName: "generic.movement_speed"
+						Name: "1751425048388"
+						Slot: "chest"
+						UUID: [I;
+							-12561
+							40661
+							214620
+							-81322
+						]
+					}]
+					Damage: 0
+					HideFlags: 128
+					Trim: {
+						material: "amethyst"
+						pattern: "vex"
+					}
+					display: {
+						Lore: [
+							"[\"\",{\"translate\":\"lore.mce2.mailbox.3\",\"italic\":false}]"
+							"[\"Not the correct size.\"]"
+						]
+						Name: "[\"\",{\"translate\":\"name.mce2.mailbox.1\",\"italic\":false,\"color\":\"aqua\"}]"
+						color: 15961002
+					}
+				}
+			}
+		}
+	]
+	title: "{ftbquests.loot_table.8813467126958483284.title}"
+}

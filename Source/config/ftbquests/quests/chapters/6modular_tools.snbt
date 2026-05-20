@@ -1,0 +1,2443 @@
+{
+	autofocus_id: "7F93E0A3E1788C79"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6modular_tools"
+	group: "12BCDDCCCA65FD77"
+	icon: {
+		Count: 1
+		id: "tconstruct:tinkers_anvil"
+		tag: {
+			texture: "emendatusenigmatica:steel_block"
+		}
+	}
+	id: "781E3789949DB186"
+	images: [
+		{
+			height: 1.5d
+			image: "tconstruct:textures/block/smeltery/seared/bricks.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 12.0d
+			image: "minecraft:textures/misc/scorched_letter.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 5.0d
+			image: "create:entity/blueprint_medium"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.273809523809518d
+			y: 2.999999999999986d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.75d
+			y: 4.023809523809533d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.5357142857142847d
+			y: 4.000000000000007d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.392857142857146d
+			y: 4.023809523809533d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.7261904761904745d
+			y: 4.023809523809533d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: -135.0d
+			width: 1.0d
+			x: 3.578571428571408d
+			y: 3.5010204081632708d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.63095238095238d
+			y: 0.023809523809532607d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.392857142857146d
+			y: 0.04761904761905811d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.63095238095238d
+			y: 0.0238095238095255d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 9.369047619047613d
+			y: 0.0238095238095255d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			order: -1
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.4571428571428555d
+			y: 4.028571428571439d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 3.171428571428578d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.972789115646258d
+			y: 2.4795918367346914d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.028571428571425d
+			y: 1.421428571428578d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.06428571428571d
+			y: 0.6714285714285708d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.06428571428571d
+			y: -0.614285714285721d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.06428571428571d
+			y: -1.3642857142857139d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.028571428571425d
+			y: -2.507142857142867d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 6.06428571428571d
+			y: -3.5785714285714363d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: -135.0d
+			width: 1.0d
+			x: 4.292857142857123d
+			y: 2.7295918367346985d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: -90.0d
+			width: 1.0d
+			x: 10.67142857142857d
+			y: 0.028571428571424917d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: -135.0d
+			width: 1.0d
+			x: 7.385714285714286d
+			y: -1.2928571428571445d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: 6.671428571428571d
+			y: -0.5428571428571445d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/great_hammer"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.55952380952381d
+			y: 1.2380952380952337d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 1.0d
+			image: "minecraft:item/chain"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.3333333333333286d
+			y: -5.666666666666643d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 1.0d
+			image: "minecraft:item/soul_lantern"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.2857142857142776d
+			y: -4.952380952380928d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 1.0d
+			image: "tconstruct:block/geode/ender/cluster"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.095238095238095d
+			y: -9.309523809523807d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 2.0d
+			image: "tconstruct:block/geode/ender/cluster"
+			order: -1
+			rotation: 90.0d
+			width: 2.0d
+			x: 13.571428571428577d
+			y: -4.69047619047619d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 12.0d
+			image: "modpack:textures/scorched_letter1.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 1.0d
+			image: "tconstruct:block/geode/ender/cluster"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: 13.0d
+			y: -5.404761904761898d
+		}
+		{
+			dependency: "253E532D09E3AA9B"
+			height: 1.5d
+			image: "tconstruct:block/geode/ender/cluster"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.80952380952381d
+			y: -9.452380952380949d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 2.0d
+			image: "tconstruct:block/geode/ichor/cluster"
+			order: -1
+			rotation: 45.0d
+			width: 2.0d
+			x: 5.190476190476183d
+			y: -6.2380952380952195d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 1.5d
+			image: "tconstruct:block/geode/ichor/cluster"
+			order: -1
+			rotation: 15.0d
+			width: 1.5d
+			x: 4.523809523809518d
+			y: -6.523809523809504d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 2.0d
+			image: "tconstruct:block/geode/ichor/cluster"
+			order: -1
+			rotation: -30.0d
+			width: 2.0d
+			x: -0.9047619047619122d
+			y: -6.476190476190453d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 1.0d
+			image: "tconstruct:block/geode/ichor/cluster"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: -1.238095238095248d
+			y: -5.285714285714256d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: 8.57142857142857d
+			y: -0.5714285714285623d
+		}
+		{
+			dependency: "5B5A340DB47B9C89"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			order: -1
+			rotation: -135.0d
+			width: 1.0d
+			x: 9.428571428571416d
+			y: -1.2857142857142705d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 45.0d
+			width: 1.0d
+			x: 10.61904761904762d
+			y: -0.5714285714285694d
+		}
+		{
+			dependency: "5D2ED1168A45A14A"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: -135.0d
+			width: 1.0d
+			x: 11.523809523809533d
+			y: -1.4761904761904816d
+		}
+		{
+			height: 5.4d
+			image: "chipped:block/oak_planks/ctm/crated_oak_planks_ctm/3"
+			order: -2
+			rotation: 0.0d
+			width: 5.4d
+			x: 9.321428571428548d
+			y: 2.999999999999993d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.013605442176868d
+			y: 3.006802721088448d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.270748299319742d
+			y: 3.863945578231295d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.870748299319743d
+			y: 3.006802721088441d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.727891156462576d
+			y: 3.006802721088441d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.585034013605437d
+			y: 3.006802721088441d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.44217687074829d
+			y: 3.006802721088441d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.127891156462582d
+			y: 3.863945578231295d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.985034013605436d
+			y: 3.863945578231295d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.813605442176865d
+			y: 3.863945578231295d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.099319727891157d
+			y: 4.692517006802724d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.29931972789116d
+			y: 4.692517006802724d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/slime/dirt/sky"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.556462585034012d
+			y: 5.121088435374155d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.5d
+			image: "tconstruct:block/slime/sapling/sky"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: 13.77551020408162d
+			y: 2.102040816326543d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.5d
+			image: "tconstruct:block/geode/sky/cluster"
+			order: -1
+			rotation: 125.0d
+			width: 1.5d
+			x: 15.537414965986386d
+			y: 5.244897959183675d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "tconstruct:block/geode/sky/cluster"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 14.727891156462576d
+			y: 5.721088435374149d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.047619047619037d
+			y: 6.333333333333343d
+		}
+		{
+			dependency: "35A0BA1BB8DDE343"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/tc_logo.png"
+			rotation: 0.0d
+			width: 5.08d
+			x: 1.1428571428571388d
+			y: 1.9642857142857153d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "minecraft:block/target_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.035714285714278d
+			y: 1.4642857142857082d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 1.0d
+			image: "quark:block/stripped_bamboo_post_connect"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.035714285714278d
+			y: 2.249999999999993d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 0.8d
+			image: "minecraft:item/arrow"
+			order: -1
+			rotation: 45.0d
+			width: 0.8d
+			x: 15.321428571428577d
+			y: 1.4642857142857153d
+		}
+		{
+			dependency: "41713364F7276A5C"
+			height: 0.8d
+			image: "minecraft:item/arrow"
+			order: -1
+			rotation: 60.0d
+			width: 0.8d
+			x: 15.323809523809537d
+			y: 1.1751700680271995d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest6063084324205586109.description1}"
+				"{ftbquests.chapter.6modular_tools.quest6063084324205586109.description2}"
+				"{ftbquests.chapter.6modular_tools.quest6063084324205586109.description3}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest6063084324205586109.description4}"
+				"{ftbquests.chapter.6modular_tools.quest6063084324205586109.image0}"
+				""
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "54246711BB8366BD"
+			rewards: [
+				{
+					id: "4C7DA29A350ED393"
+					item: "tconstruct:bacon"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "470801D793C77DD0"
+					item: "tconstruct:seared_brick"
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6063084324205586109.subtitle}"
+			tasks: [
+				{
+					id: "5E26E19BA05262AC"
+					item: {
+						Count: 1
+						id: "tconstruct:part_builder"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "724A7B766099AAC9"
+					item: {
+						Count: 1
+						id: "tconstruct:tinker_station"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "614440B893714189"
+					item: "tconstruct:part_chest"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6modular_tools.quest6063084324205586109.title}"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B5A340DB47B9C89"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest6714533989195293002.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest6714533989195293002.description2}"
+				"{ftbquests.chapter.6modular_tools.quest6714533989195293002.image0}"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "5D2ED1168A45A14A"
+			rewards: [
+				{
+					id: "1C0BEFFBE6C88DC1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7F6041B8A8FA45B2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "6D7BBF2726B34B0A"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6714533989195293002.subtitle}"
+			tasks: [{
+				advancement: "tconstruct:tools/modified"
+				criterion: ""
+				id: "0941D5559A9F58C1"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest6714533989195293002.title}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["033F072A5A4913D0"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest3864293108512318275.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest3864293108512318275.description2}"
+				"{ftbquests.chapter.6modular_tools.quest3864293108512318275.description3}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest3864293108512318275.description4}"
+				"{ftbquests.chapter.6modular_tools.quest3864293108512318275.image0}"
+				"{ftbquests.chapter.6modular_tools.quest3864293108512318275.description5}"
+				"{ftbquests.chapter.6modular_tools.quest3864293108512318275.description6}"
+			]
+			hide_until_deps_visible: true
+			id: "35A0BA1BB8DDE343"
+			rewards: [
+				{
+					count: 2
+					id: "35E7A1D5860F7668"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7A9AC1FBC3A5EC12"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest3864293108512318275.subtitle}"
+			tasks: [
+				{
+					icon: "tconstruct:seared_fuel_tank"
+					id: "1F03ED9C97882BBB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:seared_tanks"
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest3864293108512318275.task.2234891096918862779.title}"
+					type: "item"
+				}
+				{
+					count: 46L
+					id: "55C3973D89CD2CA5"
+					item: "tconstruct:seared_bricks"
+					type: "item"
+				}
+				{
+					id: "3984226396078F98"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2B9754DAB1266BF8"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "12A7D02044A4C640"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "6765BAD2186682B4"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "2AD86572E49DEFBE"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					advancement: "tconstruct:smeltery/structure"
+					criterion: ""
+					id: "4C12719F83E9C659"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.6modular_tools.quest3864293108512318275.title}"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["54246711BB8366BD"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest1255622575787882566.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest1255622575787882566.description2}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest1255622575787882566.description3}"
+				"{ftbquests.chapter.6modular_tools.quest1255622575787882566.description4}"
+				"{ftbquests.chapter.6modular_tools.quest1255622575787882566.image0}"
+			]
+			hide_until_deps_visible: true
+			icon: "tconstruct:seared_melter"
+			id: "116CDE1481CC3846"
+			rewards: [
+				{
+					id: "245B3AD8C08D8E85"
+					item: "tconstruct:bacon"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "13758162728F965F"
+					item: "tconstruct:seared_brick"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "4B5D5E7E93155CAC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest1255622575787882566.subtitle}"
+			tasks: [
+				{
+					id: "5867F7FFCC51181B"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "1B53F1765C5668CF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tconstruct:seared_heater"
+								}
+								{
+									Count: 1b
+									id: "itemfilters:tag"
+									tag: {
+										value: "tconstruct:seared_tanks"
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest1255622575787882566.task.1969182952748640463.title}"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3963953F6F13EBBD"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "6C551E5AD1AF2F9B"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["116CDE1481CC3846"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest233913584131314640.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest233913584131314640.description2}"
+			]
+			hide_until_deps_visible: true
+			id: "033F072A5A4913D0"
+			rewards: [
+				{
+					id: "21A60B58BA86E3CE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F8DB909D270F59A"
+					item: "tconstruct:seared_brick"
+					random_bonus: 14
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "519D7170628E44C9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest233913584131314640.subtitle}"
+			tasks: [{
+				id: "53B009F706E3DB34"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["35A0BA1BB8DDE343"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest7307083725288463531.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest7307083725288463531.description2}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest7307083725288463531.description3}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest7307083725288463531.description4}"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "6567F9EEFDDB5CAB"
+			rewards: [
+				{
+					id: "07BF4A7412A7909F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "772138044A7A9D9C"
+					item: "tconstruct:cast_chest"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "20ED29705B6CE042"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2BBC80C98E312F70"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest7307083725288463531.subtitle}"
+			tasks: [{
+				id: "04234FD4A04EBD4A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:casts/gold"
+					}
+				}
+				title: "{ftbquests.chapter.6modular_tools.quest7307083725288463531.task.298169774977760586.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest7307083725288463531.title}"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6567F9EEFDDB5CAB"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest6582631038822620297.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest6582631038822620297.description2}"
+			]
+			id: "5B5A340DB47B9C89"
+			rewards: [
+				{
+					command: "/titles add {p} titles:blacksmith"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "53A894AE11A94547"
+					title: "{ftbquests.chapter.6modular_tools.quest6582631038822620297.reward.6028231576576935239.title}"
+					type: "command"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "1828DB02A7F9BF49"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "458779EFA81D02DF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6582631038822620297.subtitle}"
+			tasks: [{
+				id: "35C739BE6E406D96"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tconstruct:tinkers_anvil"
+								tag: {
+									texture: "tcintegrations:bronze_block"
+								}
+							}
+							{
+								Count: 1b
+								id: "tconstruct:scorched_anvil"
+								tag: {
+									texture: "tcintegrations:bronze_block"
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.6modular_tools.quest6582631038822620297.task.3875129494431886742.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest6582631038822620297.title}"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D88B45349B3E660"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest4938089121248284493.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest4938089121248284493.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "44879DE485398F4D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "096DF123B315591A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest4938089121248284493.subtitle}"
+			tasks: [{
+				id: "7BBF8BC1FB3A8DE8"
+				item: "tconstruct:foundry_controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0D88B45349B3E660"]
+			hide_until_deps_complete: true
+			id: "1CF88664139833C6"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1C695C2A29C6C8A7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest2087566191669818310.subtitle}"
+			tasks: [{
+				id: "4C74EE2F8C1AFD91"
+				item: "tconstruct:raw_cobalt"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest2087566191669818310.title}"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0D88B45349B3E660"]
+			description: ["{ftbquests.chapter.6modular_tools.quest6181614303346329035.description1}"]
+			hide_until_deps_complete: true
+			id: "55C98175116E85CB"
+			rewards: [
+				{
+					id: "26096F38B55D0101"
+					item: "tconstruct:ichor_cake"
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "2550A136FF013EA6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6181614303346329035.subtitle}"
+			tasks: [{
+				id: "1ECCD166322F70EC"
+				item: "tconstruct:ichor_slime_crystal_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["116CDE1481CC3846"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest7502738598785217589.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest7502738598785217589.description2}"
+			]
+			id: "681F15011F347435"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "547957C4FE16B9BF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest7502738598785217589.subtitle}"
+			tasks: [
+				{
+					id: "48F520681FD9092B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tconstruct:blank_sand_cast"
+								}
+								{
+									Count: 1b
+									id: "tconstruct:blank_red_sand_cast"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest7502738598785217589.task.5257143771607927083.title}"
+					type: "item"
+				}
+				{
+					advancement: "tconstruct:smeltery/sand_casting"
+					criterion: ""
+					id: "7634108C9D5510F5"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.6modular_tools.quest7502738598785217589.title}"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D88B45349B3E660"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest9170114888775097651.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest9170114888775097651.description2}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest9170114888775097651.image0}"
+			]
+			id: "7F42CAE7EEF5DD33"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "1C4E9E7925D58F69"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "31A4B78923E170A1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest9170114888775097651.subtitle}"
+			tasks: [{
+				id: "7ED52F088914A08A"
+				item: "tconstruct:blazing_blood_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest9170114888775097651.title}"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D2ED1168A45A14A"]
+			description: ["{ftbquests.chapter.6modular_tools.quest8308225809221579304.description1}"]
+			hide_until_deps_complete: true
+			id: "734CBF5AC8627228"
+			rewards: [
+				{
+					command: "/titles add {p} titles:tinkerer"
+					icon: "titles:title_scroll_common"
+					id: "09D9D5DB679281CE"
+					title: "{ftbquests.chapter.6modular_tools.quest8308225809221579304.reward.709833554599772622.title}"
+					type: "command"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7E76361B51F1AAF9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "17D00EDA28A43F03"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest8308225809221579304.subtitle}"
+			tasks: [{
+				advancement: "tconstruct:tools/upgrade_slots"
+				criterion: ""
+				id: "4FAF7F5F6530ECBC"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest8308225809221579304.title}"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			description: ["{ftbquests.chapter.6modular_tools.quest3958266379760260780.description1}"]
+			id: "36EE964CF3FB56AC"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5DAD993131E791DC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6991F4EBFB58B509"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest3958266379760260780.subtitle}"
+			tasks: [{
+				advancement: "tconstruct:tools/one_shot"
+				criterion: ""
+				id: "592E720FFC5A9322"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest3958266379760260780.title}"
+			x: 8.273809523809518d
+			y: 3.999999999999986d
+		}
+		{
+			id: "583F265517CF4856"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "026C9B958B328411"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "191444737679F8AA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6358843345783965782.subtitle}"
+			tasks: [{
+				advancement: "tconstruct:world/piggybackpack"
+				criterion: ""
+				id: "2B6128B9EC76B67B"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest6358843345783965782.title}"
+			x: 10.273809523809518d
+			y: 1.9999999999999858d
+		}
+		{
+			dependencies: ["72B878D6A0C6EDFC"]
+			description: ["{ftbquests.chapter.6modular_tools.quest8263922066239934642.description1}"]
+			id: "72AF5955C9BE50B2"
+			rewards: [
+				{
+					id: "7B28A58A8212F4D5"
+					item: "tconstruct:ender_cake"
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "670BDC1477E32B76"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "782B47E172F73C96"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
+							}
+							type: "curious_box"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AE0BB55FF23B2F5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest8263922066239934642.subtitle}"
+			tasks: [{
+				advancement: "tconstruct:world/slimesuit"
+				criterion: ""
+				id: "6AE2CA91F989A84B"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest8263922066239934642.title}"
+			x: 10.0d
+			y: -5.5238095238095255d
+		}
+		{
+			id: "4D4EF0D1706F4855"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5429464866E8D087"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4F1A538D04E75B95"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest5570654571429054549.subtitle}"
+			tasks: [{
+				advancement: "tconstruct:tools/travelers_gear"
+				criterion: ""
+				id: "5D7B2500C94EEBE0"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest5570654571429054549.title}"
+			x: 8.273809523809518d
+			y: 1.9999999999999858d
+		}
+		{
+			dependencies: ["5B5A340DB47B9C89"]
+			hide_until_deps_complete: true
+			id: "7F93E0A3E1788C79"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "435367A2DB0C2C81"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest9192938258860379257.subtitle}"
+			tasks: [{
+				advancement: "tconstruct:foundry/plate_armor"
+				criterion: ""
+				id: "60307357290D204B"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest9192938258860379257.title}"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F42CAE7EEF5DD33"]
+			id: "79E769228689D3EB"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "007075A337ACF494"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "330109A623D81DFA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest8784105195216425963.subtitle}"
+			tasks: [{
+				id: "13202188B3371B6A"
+				item: "tinkers_advanced:blaze_netherite"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest8784105195216425963.title}"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44879DE485398F4D"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest1263446603564665503.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest1263446603564665503.description2}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest1263446603564665503.description3}"
+				"{ftbquests.chapter.6modular_tools.quest1263446603564665503.description4}"
+			]
+			icon: "tconstruct:foundry_controller"
+			id: "1188A9FDEE254A9F"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "089A5191831C2DBB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "115E3A97C3A3388C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest1263446603564665503.subtitle}"
+			tasks: [
+				{
+					count: 40L
+					id: "764ECB4202A843C4"
+					item: "tconstruct:scorched_bricks"
+					type: "item"
+				}
+				{
+					id: "1A8346F7CA49C754"
+					item: "tconstruct:foundry_controller"
+					type: "item"
+				}
+				{
+					id: "0391AE9807F777BA"
+					item: "tconstruct:scorched_drain"
+					type: "item"
+				}
+				{
+					id: "2AB455612B6AE215"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:scorched_tanks"
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest1263446603564665503.task.3077178321229505045.title}"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "584B883128EA5CE8"
+					item: { Count: 2, id: "tconstruct:scorched_faucet" }
+					type: "item"
+				}
+				{
+					id: "1ECF568583CDAA0D"
+					item: "tconstruct:scorched_table"
+					type: "item"
+				}
+				{
+					id: "7B1D06F57DAD185C"
+					item: "tconstruct:scorched_basin"
+					type: "item"
+				}
+				{
+					advancement: "tconstruct:foundry/structure"
+					criterion: ""
+					id: "7D9EFC389D3E76CC"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.6modular_tools.quest1263446603564665503.title}"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7F42CAE7EEF5DD33"
+				"1CF88664139833C6"
+			]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest4475832041336582219.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest4475832041336582219.description2}"
+			]
+			icon: "tconstruct:manyullyn_ingot"
+			id: "3E1D5987122DB04B"
+			min_required_tasks: 1
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "474B9A97FE620E75"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2F9CCCF9BE4FE5CC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest4475832041336582219.subtitle}"
+			tasks: [
+				{
+					id: "45A78721E94EF8D6"
+					item: "tconstruct:manyullyn_ingot"
+					type: "item"
+				}
+				{
+					id: "74CC2A2F59492D0F"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:manyullyn"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest4475832041336582219.task.8416148186498411791.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6modular_tools.quest4475832041336582219.title}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: ["{ftbquests.chapter.6modular_tools.quest4715606793569921628.image0}"]
+			id: "41713364F7276A5C"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "7D34E1FDDAFE69C6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3B12E406CF5583D9"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest4715606793569921628.subtitle}"
+			tasks: [{
+				advancement: "tconstruct:world/sky_island"
+				criterion: ""
+				id: "6A9B032F89F5769A"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest4715606793569921628.title}"
+			x: 10.273809523809518d
+			y: 3.999999999999986d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest6904236423079979380.description1}"
+				"{ftbquests.chapter.6modular_tools.quest6904236423079979380.description2}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest6904236423079979380.description3}"
+			]
+			hide_until_deps_complete: true
+			icon: "tinkers_advanced:activated_chromatic_steel"
+			id: "5FD0C67252FEE974"
+			min_required_tasks: 1
+			rewards: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "59C31D89313E5CF6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "445712A329F80731"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
+							}
+							type: "curious_box"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:origin"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "44E12299780E68CE"
+					title: "{ftbquests.chapter.6modular_tools.quest6904236423079979380.reward.4963286306878548174.title}"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6904236423079979380.subtitle}"
+			tasks: [
+				{
+					id: "243FE163BABDD3AE"
+					item: "tinkers_advanced:activated_chromatic_steel"
+					type: "item"
+				}
+				{
+					id: "494B9E60340380DE"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tinkers_advanced:activated_chromatic_steel"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest6904236423079979380.task.5281489124048732382.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6modular_tools.quest6904236423079979380.title}"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest1737919734479855.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest1737919734479855.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "tinkers_advanced:densium_ingot"
+			id: "00062CA0F86BFBEF"
+			min_required_tasks: 1
+			rewards: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "74852C72037AA948"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "748DEB43D3EB8485"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
+							}
+							type: "curious_box"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest1737919734479855.subtitle}"
+			tasks: [
+				{
+					id: "7CED44918652E8A9"
+					item: "tinkers_advanced:densium_ingot"
+					type: "item"
+				}
+				{
+					id: "214B7A2AC12D6944"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tinkers_advanced:densium"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest1737919734479855.task.2399145550553114948.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6modular_tools.quest1737919734479855.title}"
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest5519425952437127199.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest5519425952437127199.description2}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest5519425952437127199.description3}"
+			]
+			icon: "tconstruct:encyclopedia"
+			id: "4C98F0A91B16481F"
+			optional: true
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest5519425952437127199.subtitle}"
+			tasks: [{
+				id: "1E28479CFDCBB91A"
+				title: "{ftbquests.chapter.6modular_tools.quest5519425952437127199.task.2173065559804721434.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest5519425952437127199.title}"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B5A340DB47B9C89"]
+			description: ["{ftbquests.chapter.6modular_tools.quest3019130782516603636.description1}"]
+			hide_until_deps_complete: true
+			id: "29E61B735E596AF4"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "15F585AFA6C5FD80"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest3019130782516603636.subtitle}"
+			tasks: [{
+				id: "6041AADD7D050295"
+				item: "tinkersjewelry:merlinite"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest3019130782516603636.title}"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29E61B735E596AF4"]
+			id: "60330C7050A76B5A"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "40DD169B5EDE4CFF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6931897927982345050.subtitle}"
+			tasks: [{
+				id: "00E3BB9245A6F07B"
+				item: {
+					Count: 1
+					id: "tinkersjewelry:ring"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "bb503890-647f-4465-915b-7118014ec13c"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:copper"
+							"tconstruct:rock"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tinkersjewelry:ductile"
+							}
+							{
+								level: 1
+								name: "tinkersjewelry:armor_gem"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:durability": 1243.0f
+							"tinkersjewelry:amplification": 0.963f
+						}
+					}
+				}
+				match_nbt: false
+				tags: [""]
+				title: "{ftbquests.chapter.6modular_tools.quest6931897927982345050.task.64101056621506683.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest6931897927982345050.title}"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5D2ED1168A45A14A"]
+			description: ["{ftbquests.chapter.6modular_tools.quest7969182908326692106.description1}"]
+			id: "6E9839A1F0ED450A"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3988B7D123D54C8F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest7969182908326692106.subtitle}"
+			tasks: [{
+				count: 5L
+				id: "6134AE73FFBD7C93"
+				item: "tconstruct:silky_cloth"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest7969182908326692106.title}"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			hide_until_deps_complete: true
+			id: "72B878D6A0C6EDFC"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "45AB582DAA416C0F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest8266489979254271484.subtitle}"
+			tasks: [{
+				id: "3E5523F6EC4D858A"
+				item: "tconstruct:ender_slime_crystal_block"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest8266489979254271484.title}"
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: ["{ftbquests.chapter.6modular_tools.quest7908777659668048058.description1}"]
+			hide_until_deps_complete: true
+			id: "6DC19F61040F28BA"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "5A1C722BFE093F9C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest7908777659668048058.subtitle}"
+			tasks: [{
+				id: "3E18218BC40AA93B"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest7908777659668048058.title}"
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5D2ED1168A45A14A"]
+			description: ["{ftbquests.chapter.6modular_tools.quest4968261617980394668.description1}"]
+			id: "44F2CF9E5AEDCCAC"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "182A0665404551FA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest4968261617980394668.subtitle}"
+			tasks: [{
+				id: "43101D3F05E05215"
+				item: "tconstruct:modifier_worktable"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest4968261617980394668.title}"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest3388387364943783041.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest3388387364943783041.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "mekanism:pellet_antimatter"
+			id: "2F05F85B20E56481"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "6C0C64957713F068"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest3388387364943783041.subtitle}"
+			tasks: [{
+				id: "2185EAF992D447A5"
+				title: "{ftbquests.chapter.6modular_tools.quest3388387364943783041.task.2415595132785280933.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest3388387364943783041.title}"
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: ["{ftbquests.chapter.6modular_tools.quest5578353283382513995.description1}"]
+			hide_until_deps_complete: true
+			id: "4D6A4AC17FA6114B"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "0C44646435DC35AD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest5578353283382513995.subtitle}"
+			tasks: [{
+				id: "48368A253BABAAB6"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest5578353283382513995.title}"
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1CF88664139833C6"
+				"7F42CAE7EEF5DD33"
+			]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest2811851770140616771.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest2811851770140616771.description2}"
+			]
+			icon: "tconstruct:hepatizon_ingot"
+			id: "2705B4498048E843"
+			min_required_tasks: 1
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "16EDA0B35FC1F3E6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "11E5545C0488967B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest2811851770140616771.subtitle}"
+			tasks: [
+				{
+					id: "18BA47AF8A70F225"
+					item: "tconstruct:hepatizon_ingot"
+					type: "item"
+				}
+				{
+					id: "4F8E9551A4BC0E9F"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:hepatizon"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest2811851770140616771.task.5732683553577897631.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6modular_tools.quest2811851770140616771.title}"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38E247B9906A65AF"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest2843619504521227537.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest2843619504521227537.description2}"
+			]
+			icon: "tconstruct:slimesteel_ingot"
+			id: "277690DF8B5C2D11"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "2314A5366CF89DC9"
+					item: "tconstruct:sky_cake"
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "56AEEB76A2B093A7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "6F44B8360FC66E6F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest2843619504521227537.subtitle}"
+			tasks: [
+				{
+					id: "53AB6947E2843FAB"
+					item: "tconstruct:slimesteel_ingot"
+					type: "item"
+				}
+				{
+					id: "59B20B33656D67A6"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:slimesteel"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest2843619504521227537.task.6463240730602989478.title}"
+					type: "item"
+				}
+			]
+			x: 15.371768707483007d
+			y: 3.635714285714265d
+		}
+		{
+			dependencies: ["35A0BA1BB8DDE343"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest7374364957448922126.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest7374364957448922126.description2}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest7374364957448922126.description3}"
+			]
+			hide_until_deps_complete: true
+			icon: "tconstruct:rose_gold_ingot"
+			id: "665701DB94D4E40E"
+			min_required_tasks: 1
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "10DB2103621785D4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest7374364957448922126.subtitle}"
+			tasks: [
+				{
+					id: "10D6A8A9D1B9DA54"
+					item: "tconstruct:rose_gold_ingot"
+					type: "item"
+				}
+				{
+					id: "204116E8A57AE4E9"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								Material: "tconstruct:rose_gold"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.6modular_tools.quest7374364957448922126.task.2324164071164404969.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6modular_tools.quest7374364957448922126.title}"
+			x: 6.047619047619037d
+			y: 5.6190476190476275d
+		}
+		{
+			dependencies: ["6A9B032F89F5769A"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest4098917473177986479.description1}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest4098917473177986479.description2}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest4098917473177986479.description3}"
+				""
+				"{ftbquests.chapter.6modular_tools.quest4098917473177986479.description4}"
+			]
+			hide_until_deps_complete: true
+			icon: "tconstruct:sky_slime_ball"
+			id: "38E247B9906A65AF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4ABCC4578BAD88AC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:sticky"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "15358290185B1E1C"
+					title: "{ftbquests.chapter.6modular_tools.quest4098917473177986479.reward.1528271203957677596.title}"
+					type: "command"
+				}
+			]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest4098917473177986479.subtitle}"
+			tasks: [{
+				id: "388E12E7355F5C84"
+				item: "tconstruct:sky_slime"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest4098917473177986479.title}"
+			x: 13.902380952380966d
+			y: 3.635714285714265d
+		}
+		{
+			dependencies: ["6A9B032F89F5769A"]
+			hide_until_deps_complete: true
+			id: "0291CBE3951F2B11"
+			optional: true
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "73F377749E254253"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "63CA1166C2FD276D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.6modular_tools.quest185153238018763537.subtitle}"
+			tasks: [{
+				advancement: "tconstruct:tools/perfect_aim"
+				criterion: ""
+				id: "72587954FDFD1357"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest185153238018763537.title}"
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D2ED1168A45A14A"]
+			description: ["{ftbquests.chapter.6modular_tools.quest6446483670756320524.description1}"]
+			id: "597682BE5DC9650C"
+			optional: true
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "472A3C8BEE5C8663"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "005C15A44010C8BD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest6446483670756320524.subtitle}"
+			tasks: [{
+				id: "17E221E6D7C4271D"
+				item: "amethyst_tools:enchanted_alloy"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F42CAE7EEF5DD33"]
+			description: [
+				"{ftbquests.chapter.6modular_tools.quest2565454048275645685.description1}"
+				""
+				""
+				"{ftbquests.chapter.6modular_tools.quest2565454048275645685.description2}"
+			]
+			id: "239A52DD530EC4F5"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "178BD90C2EA6646C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6modular_tools.quest2565454048275645685.subtitle}"
+			tasks: [{
+				id: "6058001AFD2DCD41"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6modular_tools.quest2565454048275645685.title}"
+			x: 3.0d
+			y: -2.0d
+		}
+	]
+	title: "{ftbquests.chapter.6modular_tools.title}"
+}

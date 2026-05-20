@@ -1,0 +1,51 @@
+{
+	hide_tooltip: true
+	id: "3E11B3F8CECBDB53"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "holiday_hamper"
+	}
+	loot_size: 4
+	order_index: 25
+	rewards: [
+		{ item: "tropicraft:purple_beach_float", only_one: true }
+		{ item: "tropicraft:exploding_coconut", only_one: true }
+		{
+			item: {
+				Count: 1b
+				id: "tropicraft:pina_colada"
+				tag: {
+					display: {
+						Lore: ["{\"translate\":\"lore.mce2.holiday_hamper.1\"}"]
+						Name: "{\"translate\":\"lore.mce2.holiday_hamper.2\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1
+				id: "etched:boombox"
+				tag: {
+					HideFlags: 32
+					Record: {
+						Count: 1b
+						id: "tropicraft:music_disc_eastern_isles"
+					}
+					display: {
+						Lore: ["{\"translate\":\"lore.mce2.holiday_hamper.3\"}"]
+						Name: "{\"translate\":\"lore.mce2.holiday_hamper.4\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+	]
+	title: "{ftbquests.loot_table.4472553786158340947.title}"
+}

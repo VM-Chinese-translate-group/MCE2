@@ -1,0 +1,2967 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6ars_nouveau"
+	group: "701563945253F512"
+	icon: "ars_nouveau:summon_focus"
+	id: "511BD5CE8926D782"
+	images: [
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "ars_ocultas:item/_glyph_template_augment"
+			rotation: 0.0d
+			width: 1.25d
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ars_nouveau:item/glyph_template"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ars_ocultas:item/_glyph_template_component"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/present"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/magebloom_fiber"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -3.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest1632489574655337693.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest1632489574655337693.description2}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest1632489574655337693.description3}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest1632489574655337693.description4}"
+			]
+			id: "16A7C49E6CDC24DD"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "6ABF15BEC73EB2E3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "41A775370F801D26"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:novice"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "47DEE3AFD85ACFD7"
+					title: "{ftbquests.chapter.6ars_nouveau.quest1632489574655337693.reward.5178826965911261143.title}"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1632489574655337693.subtitle}"
+			tasks: [{
+				id: "2EC8F31C4C5F5F1C"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest1632489574655337693.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16A7C49E6CDC24DD"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest713732984852247486.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest713732984852247486.description2}"
+			]
+			id: "09E7B05E4298F3BE"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "231D9A9DAFE072C9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest713732984852247486.subtitle}"
+			tasks: [{
+				id: "340CE39CD9B2E224"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest713732984852247486.title}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16A7C49E6CDC24DD"]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest6428348609994875522.description1}"]
+			icon: "ars_nouveau:glyph_break"
+			id: "593615007F1EE282"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "13332BAD88BB09B5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6428348609994875522.subtitle}"
+			tasks: [{
+				id: "54912B6F8E91CED7"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest6428348609994875522.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09E7B05E4298F3BE"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest8091979056604434901.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest8091979056604434901.description2}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest8091979056604434901.description3}"
+			]
+			icon: "ars_nouveau:imbuement_chamber"
+			id: "704C7C142ECED1D5"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "5BB7E41B5CDFF627"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6EF3E4630F1ABD26"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8091979056604434901.subtitle}"
+			tasks: [
+				{
+					id: "7FA42959E1DF370F"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "47C24052675D777F"
+					item: { Count: 16, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7E623AF5CBAA4449"
+					item: { Count: 32, id: "ars_nouveau:sourcestone" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6ars_nouveau.quest8091979056604434901.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["704C7C142ECED1D5"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest8386196330815859766.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest8386196330815859766.description2}"
+				"{ftbquests.chapter.6ars_nouveau.quest8386196330815859766.description3}"
+			]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "7461C12182F6AC36"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "43DD3D827BF45463"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7E6DB510089844FF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8386196330815859766.subtitle}"
+			tasks: [
+				{
+					id: "48D1A1A73292EABA"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "40734E285E933A88"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3DB5E34E9AAEB839"
+					item: { Count: 8, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6ars_nouveau.quest8386196330815859766.title}"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest4401962050215285245.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest4401962050215285245.description2}"
+			]
+			icon: "ars_nouveau:alteration_table"
+			id: "3D16E9297DD511FD"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "5A7A1EA6FDFD43E5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "436A0B61692BE136"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest4401962050215285245.subtitle}"
+			tasks: [
+				{
+					id: "5132E28CCDED428F"
+					item: "ars_nouveau:alteration_table"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5E714593025BF5EF"
+					item: { Count: 4, id: "ars_nouveau:blank_thread" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6ars_nouveau.quest4401962050215285245.title}"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest5092987292921951183.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest5092987292921951183.description2}"
+			]
+			id: "46ADECF58830F3CF"
+			rewards: [
+				{
+					id: "78BB86ED8F4E1454"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "0AE58635DFC78BE9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:mage"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "6DD9F788CCAE3340"
+					title: "{ftbquests.chapter.6ars_nouveau.quest5092987292921951183.reward.7915629987001938752.title}"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest5092987292921951183.subtitle}"
+			tasks: [{
+				id: "0ACF7B0558E19C24"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest5092987292921951183.title}"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest6366189940669881278.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest6366189940669881278.description2}"
+			]
+			icon: "ars_nouveau:ritual_brazier"
+			id: "58594005824B1BBE"
+			rewards: [
+				{
+					id: "1BF9B00FCECFFB96"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "128E023CD73AA744"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6366189940669881278.subtitle}"
+			tasks: [
+				{
+					id: "41753F72864AF56E"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+				{
+					id: "561D16414B68CE16"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6ars_nouveau.quest6366189940669881278.title}"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58594005824B1BBE"]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest8498920708791534161.description1}"]
+			id: "75F23B5AFDBB0251"
+			optional: true
+			rewards: [
+				{
+					id: "74124A59E78B8F98"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7ED6DC44B563CC26"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8498920708791534161.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "0B9E3B20B302D60C"
+				item: "ars_additions:ender_source_jar"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest8498920708791534161.title}"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"46ADECF58830F3CF"
+				"58594005824B1BBE"
+			]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest1178402648113310521.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest1178402648113310521.description2}"
+			]
+			id: "105A86F70B2C6B39"
+			rewards: [
+				{
+					id: "36420EC10D4E6E4D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "111905BFF2B46150"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1178402648113310521.subtitle}"
+			tasks: [{
+				id: "3504BC2B707E7067"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest1178402648113310521.title}"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["105A86F70B2C6B39"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest6760671136898949844.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest6760671136898949844.description2}"
+			]
+			id: "5DD2BA94561922D4"
+			rewards: [
+				{
+					id: "5016684AE973ABAA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "6C76B77E64F2C04C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:archmage"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "521EE2791A5EB03B"
+					title: "{ftbquests.chapter.6ars_nouveau.quest6760671136898949844.reward.5917415970172743739.title}"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6760671136898949844.subtitle}"
+			tasks: [{
+				id: "64808A383C864FCF"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest6760671136898949844.title}"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest500076666743231204.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest500076666743231204.description2}"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ars_nouveau:dominion_wand"
+				tag: { }
+			}
+			id: "06F0A11431B112E4"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "17A21F0CEA33E402"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest500076666743231204.subtitle}"
+			tasks: [{
+				id: "2FD7CB58D855F04D"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest500076666743231204.title}"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest5987445443655017728.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest5987445443655017728.description2}"
+			]
+			icon: "ars_nouveau:bookwyrm_charm"
+			id: "5317ADE87D16A500"
+			rewards: [
+				{
+					id: "68825C251030B872"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "505FE1913AD57C65"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest5987445443655017728.subtitle}"
+			tasks: [
+				{
+					id: "052CB4902D5469C4"
+					item: { Count: 2, id: "ars_nouveau:bookwyrm_charm" }
+					type: "item"
+				}
+				{
+					id: "315E94081246EA2B"
+					item: "ars_nouveau:storage_lectern"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6ars_nouveau.quest5987445443655017728.title}"
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest3696895013685088404.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest3696895013685088404.description2}"
+			]
+			icon: "ars_nouveau:drygmy_charm"
+			id: "334E026D8E9CD094"
+			rewards: [
+				{
+					id: "1D6D44FA465354CB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3F99C6541143C69D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3696895013685088404.subtitle}"
+			tasks: [
+				{
+					id: "75A744774B9A0F47"
+					item: "ars_nouveau:drygmy_charm"
+					type: "item"
+				}
+				{
+					id: "015AB6B0E5C6004D"
+					item: "ars_nouveau:mob_jar"
+					type: "item"
+				}
+				{
+					id: "672399D14AF8B8AD"
+					item: "ars_nouveau:ritual_containment"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6ars_nouveau.quest3696895013685088404.title}"
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest3983535491974252707.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest3983535491974252707.description2}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest3983535491974252707.description3}"
+			]
+			icon: "ars_nouveau:wixie_charm"
+			id: "37485C6C9D4948A3"
+			rewards: [
+				{
+					id: "6F8FAA94EB0CC66C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75CC15886DE41F83"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "679154E1B52A3EC2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3983535491974252707.subtitle}"
+			tasks: [
+				{
+					id: "535EF3464C851A24"
+					item: "ars_nouveau:wixie_charm"
+					type: "item"
+				}
+				{
+					id: "04654C43079ECD4D"
+					item: "ars_nouveau:potion_jar"
+					type: "item"
+				}
+				{
+					id: "4451D6D3433D3FBC"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6ars_nouveau.quest3983535491974252707.title}"
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest8554396458790911664.description1}"
+				"{ftbquests.chapter.6ars_nouveau.quest8554396458790911664.description2}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest8554396458790911664.description3}"
+			]
+			id: "76B7524192177EB0"
+			rewards: [
+				{
+					id: "1413AB944F3BEF9A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "16C496D60F662AD5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8554396458790911664.subtitle}"
+			tasks: [{
+				id: "2C1DDD5294725FB9"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest8554396458790911664.title}"
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest3523431862790130151.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest3523431862790130151.description2}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest3523431862790130151.description3}"
+			]
+			id: "30E5BE9C7BE609E7"
+			rewards: [
+				{
+					id: "225BD248F4E15C12"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "51F6E2582E781802"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3523431862790130151.subtitle}"
+			tasks: [{
+				id: "7D9B5DBD789506DA"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest3523431862790130151.title}"
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest2693503864728485980.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest2693503864728485980.description2}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ars_nouveau:dominion_wand"
+				tag: { }
+			}
+			id: "25613F7E8248805C"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5100B856081545A1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest2693503864728485980.subtitle}"
+			tasks: [{
+				id: "4C93F5987AE2C7C1"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest2693503864728485980.title}"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest6934791060665182714.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest6934791060665182714.description2}"
+			]
+			id: "603D53BA4280A9FA"
+			rewards: [
+				{
+					id: "0069AD192FE72AF6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3AE63F0F20C3558B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6934791060665182714.subtitle}"
+			tasks: [{
+				id: "4ACA62E8354F321B"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest1042109646352036292.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest1042109646352036292.description2}"
+			]
+			id: "0E765133B7D231C4"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "7B4ABE80137A10E1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1042109646352036292.subtitle}"
+			tasks: [{
+				id: "5EE7EBAE6348772B"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest4001168636046501613.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest4001168636046501613.description2}"
+			]
+			id: "378701ACE5FC66ED"
+			rewards: [
+				{
+					id: "276825DC153E2225"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2F733B6C08C585CB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest4001168636046501613.subtitle}"
+			tasks: [{
+				id: "434C11BEE855E3E4"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest4333407990760746475.description1}"]
+			id: "3C235B9BB4222DEB"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "4AA349D882469DC1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest4333407990760746475.subtitle}"
+			tasks: [{
+				id: "700A355EE5AC3CBA"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest6777619425302759287.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest6777619425302759287.description2}"
+			]
+			id: "5E0EF0F53BF54777"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "5531AE970F98E472"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6777619425302759287.subtitle}"
+			tasks: [{
+				id: "66FEAA09F204F24F"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest7699686721731128878.description1}"]
+			id: "6ADAC8475A936E2E"
+			rewards: [
+				{
+					id: "1F74077625E6B9FB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "44A3ED8E2D39D92C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest7699686721731128878.subtitle}"
+			tasks: [{
+				id: "3F6B405D07F57326"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest5130845766476150652.description1}"]
+			id: "47346D0A4C20B77C"
+			rewards: [
+				{
+					id: "57922068C726DD3A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "588BAF22FFE6AB39"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest5130845766476150652.subtitle}"
+			tasks: [{
+				id: "74B5BDCE6A625DCA"
+				item: "ars_nouveau:relay_splitter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest8677206923754542145.description1}"]
+			id: "786BA1B92CF31441"
+			rewards: [
+				{
+					id: "3A9F16EC4FD15B5E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "60FB3E082D1CC291"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8677206923754542145.subtitle}"
+			tasks: [{
+				id: "7B3385C12CE5F121"
+				item: "ars_nouveau:relay_deposit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["105A86F70B2C6B39"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest468570710573133268.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest468570710573133268.description2}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest468570710573133268.description3}"
+				"{ftbquests.chapter.6ars_nouveau.quest468570710573133268.description4}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest468570710573133268.description5}"
+			]
+			id: "0680B29423DD2DD4"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "29554BA63B6972EF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest468570710573133268.subtitle}"
+			tasks: [{
+				id: "5DBF7CF40043162C"
+				item: { Count: 5, id: "ars_elemental:mark_of_mastery" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest468570710573133268.title}"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest5554214260530054686.description1}"]
+			id: "4D148871454D861E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "0C33D48BF1CDFCE9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest5554214260530054686.subtitle}"
+			tasks: [{
+				id: "44EFA6965759B0A4"
+				item: "ars_nouveau:relay_warp"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25613F7E8248805C"]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest6873592567670387422.description1}"]
+			id: "5F63E805BEC232DE"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "474EA09037303D2E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6873592567670387422.subtitle}"
+			tasks: [{
+				id: "389F82D61E5668C8"
+				item: "ars_nouveau:relay_collector"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest1067474142861811412.description1}"]
+			icon: "artifacts:villager_hat"
+			id: "0ED06E13C4315ED4"
+			optional: true
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4942D239F9ECA5AC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "096280563DF32009"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1067474142861811412.subtitle}"
+			tasks: [{
+				id: "0BF372AB99944BBC"
+				title: "{ftbquests.chapter.6ars_nouveau.quest1067474142861811412.task.861158035099503548.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest1067474142861811412.title}"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16A7C49E6CDC24DD"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest3100263248829927820.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest3100263248829927820.description2}"
+			]
+			icon_scale: 0.75d
+			id: "2B0658FFB8B4D18C"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "2D95D039F70E8B67"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3100263248829927820.subtitle}"
+			tasks: [{
+				id: "5C1EAE2A29D3E84D"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest3100263248829927820.title}"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest8978428038065178146.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest8978428038065178146.description2}"
+			]
+			id: "7C99C8BB1A484622"
+			rewards: [
+				{
+					id: "3580172EA8D36D71"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "0BC61CD00B4A4067"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8978428038065178146.subtitle}"
+			tasks: [{
+				id: "5AD1E1D8B973FBB7"
+				item: "ars_elemental:siren_charm"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest8978428038065178146.title}"
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest1359251399325533492.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest1359251399325533492.description2}"
+			]
+			id: "12DD07F231404534"
+			rewards: [
+				{
+					id: "07511094C2157A29"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "73A5AED53E894173"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1359251399325533492.subtitle}"
+			tasks: [{
+				id: "68D20AD00094575D"
+				item: "ars_elemental:firenando_charm"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest1359251399325533492.title}"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest7081421567467758449.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest7081421567467758449.description2}"
+			]
+			icon: "ars_nouveau:ritual_binding"
+			id: "6246436589B4A371"
+			optional: true
+			rewards: [
+				{
+					id: "48DB36C209F11C8E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "200863EC7F642CFD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest7081421567467758449.subtitle}"
+			tasks: [{
+				id: "58F24FD0F14DF599"
+				item: "ars_nouveau:ritual_binding"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest7081421567467758449.title}"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest1163634139096979832.description1}"]
+			id: "10260F1595649978"
+			rewards: [
+				{
+					id: "24CBA2149ADD304B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "6407AACD52FA5557"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1163634139096979832.subtitle}"
+			tasks: [{
+				id: "3BCB967131126A45"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest1163634139096979832.title}"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0680B29423DD2DD4"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.description2}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "ars_elemental:fire_robes"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3812FAFD073C4D4D"
+			rewards: [
+				{
+					id: "6C7619A58688E6B1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "194209231C265876"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.subtitle}"
+			tasks: [
+				{
+					id: "4668462F66FFF7A6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_elemental:fire_hat"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:air_hat"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:earth_hat"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:aqua_hat"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.task.5073382149638322086.title}"
+					type: "item"
+				}
+				{
+					id: "71EB3E88EDE7D20A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_elemental:aqua_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:earth_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:fire_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:air_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.task.8208723503640728074.title}"
+					type: "item"
+				}
+				{
+					id: "47A03AB5F46C03D7"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_elemental:aqua_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:earth_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:fire_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:air_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.task.5161189726130799575.title}"
+					type: "item"
+				}
+				{
+					id: "0729C804EB5F4F5F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_elemental:aqua_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:earth_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:fire_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_elemental:air_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.task.516163555764948831.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6ars_nouveau.quest4040567780359818573.title}"
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest1713077221331956008.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest1713077221331956008.description2}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest1713077221331956008.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:arcanist_hood"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "17C612A8124DF128"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "4E240BFEBB2F1860"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1713077221331956008.subtitle}"
+			tasks: [
+				{
+					id: "6125BA0D08C2CF01"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:sorcerer_hood"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:arcanist_hood"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:battlemage_hood"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BE76507A940984F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:sorcerer_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:arcanist_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:battlemage_robes"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CCBFAB458E3558E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:sorcerer_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:arcanist_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:battlemage_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02C3D07D23ADA9F5"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:sorcerer_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:arcanist_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:battlemage_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1AE06E3FCE761CC0"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6ars_nouveau.quest1713077221331956008.title}"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DD2BA94561922D4"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest3060798320281964911.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest3060798320281964911.description2}"
+			]
+			id: "2A7A23DB0184D16F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "15159EC741F3209D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3060798320281964911.subtitle}"
+			tasks: [{
+				id: "779F9970773FB4EC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:wand"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:spell_crossbow"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_eye"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:spell_bow"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_mirror"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "arsdelight:enchanters_knife"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:spell_horn"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.6ars_nouveau.quest3060798320281964911.task.8619776920126469356.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest3060798320281964911.title}"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["704C7C142ECED1D5"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest669780487893273726.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest669780487893273726.description2}"
+			]
+			id: "094B89CE1A5DCC7E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "66F4D2ACDD33E62A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest669780487893273726.subtitle}"
+			tasks: [{
+				id: "5AE8100C2D356BAC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_elemental:anima_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:abjuration_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:conjuration_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:air_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:earth_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:fire_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:manipulation_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:water_essence"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.6ars_nouveau.quest669780487893273726.task.6550503302494514092.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest669780487893273726.title}"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest1405013850608372509.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest1405013850608372509.description2}"
+			]
+			id: "137F9CA72E040B1D"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "641327C855C9F5A6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1405013850608372509.subtitle}"
+			tasks: [{
+				id: "59CE2E49B966C42C"
+				item: "ars_additions:source_spawner"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest1405013850608372509.title}"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["704C7C142ECED1D5"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest13645231974346434.description1}"
+				"{ftbquests.chapter.6ars_nouveau.quest13645231974346434.description2}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest13645231974346434.description3}"
+			]
+			id: "00307A4424B56EC2"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7C771586E5DB8A4B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest13645231974346434.subtitle}"
+			tasks: [{
+				id: "14CC8688648E4261"
+				item: {
+					Count: 1
+					id: "ars_nouveau:warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest13645231974346434.title}"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7461C12182F6AC36"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest3301473361300658236.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest3301473361300658236.description2}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest3301473361300658236.description3}"
+			]
+			icon: "ars_elemental:curio_bag"
+			id: "2DD13087B7BD983C"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "36007E94ED86B019"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3301473361300658236.subtitle}"
+			tasks: [
+				{
+					id: "676486EC637E5E6D"
+					item: "ars_nouveau:ring_of_greater_discount"
+					type: "item"
+				}
+				{
+					id: "14C6A65035B7FF30"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:amulet_of_mana_boost"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:amulet_of_mana_regen"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.6ars_nouveau.quest3301473361300658236.task.1497066789576113968.title}"
+					type: "item"
+				}
+				{
+					id: "65299A52EC571F77"
+					item: "ars_elemental:curio_bag"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6ars_nouveau.quest3301473361300658236.title}"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16A7C49E6CDC24DD"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest6774707883097787924.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest6774707883097787924.description2}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest6774707883097787924.description3}"
+			]
+			id: "5E0498ECFD150E14"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3B2897AB43E6F12C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6774707883097787924.subtitle}"
+			tasks: [{
+				id: "24BA393589087690"
+				item: {
+					Count: 1
+					id: "ars_nouveau:novice_spell_book"
+					tag: {
+						color: 14
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest6774707883097787924.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06F0A11431B112E4"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest7053694026841503284.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest7053694026841503284.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ars_additions:advanced_dominion_wand"
+				tag: { }
+			}
+			id: "61E3C158682EB634"
+			optional: true
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest7053694026841503284.subtitle}"
+			tasks: [{
+				id: "30B12A62366FBD5A"
+				title: "{ftbquests.chapter.6ars_nouveau.quest7053694026841503284.task.3508632186006781274.title}"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			description: ["{ftbquests.chapter.6ars_nouveau.quest2712824993549677726.description1}"]
+			icon: "occultism:book_of_binding_djinni"
+			id: "25A5E3F55E54749E"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4AAB85FA873E8D91"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest2712824993549677726.subtitle}"
+			tasks: [{
+				id: "6B4CEA9CF82F9C97"
+				title: "{ftbquests.chapter.6ars_nouveau.quest2712824993549677726.task.7731812620187966615.title}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "1A39D87C0BC3F4AE"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4EB6BBB537C96448"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1889779545943569582.subtitle}"
+			tasks: [{
+				id: "4D943DC323B39C03"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest1889779545943569582.title}"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest3071101175549525019.description1}"]
+			id: "2A9EBE3F6DE9FC1B"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "06AA70CAE11D4D96"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3071101175549525019.subtitle}"
+			tasks: [{
+				id: "56843191369E345A"
+				item: "ars_nouveau:spell_turret"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest3496204302656674615.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest3496204302656674615.description2}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest3496204302656674615.description3}"
+			]
+			id: "3085034A220B1B37"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3496204302656674615.subtitle}"
+			tasks: [{
+				id: "233233A97698E1EF"
+				item: "ars_nouveau:timer_spell_turret"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: ["{ftbquests.chapter.6ars_nouveau.quest3577040949924519338.description1}"]
+			id: "31A433CABF46DDAA"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1EDB390893829CB3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest3577040949924519338.subtitle}"
+			tasks: [{
+				id: "4CBFF12E0A4B763C"
+				item: "ars_nouveau:rotating_spell_turret"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A39D87C0BC3F4AE"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest5592118723553049074.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest5592118723553049074.description2}"
+			]
+			id: "4D9B3259CB30B9F2"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "1D277CCE7B7953CA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest5592118723553049074.subtitle}"
+			tasks: [{
+				id: "1D13DC8E5C666221"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_elemental:earth_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:water_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:fire_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:air_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:manipulation_turret"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.6ars_nouveau.quest5592118723553049074.task.2095260755651093025.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest5592118723553049074.title}"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest1164741233404720590.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest1164741233404720590.description2}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "arsdelight:enchanters_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1029FDFB1056B5CE"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4909E5973995E5A6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1164741233404720590.subtitle}"
+			tasks: [{
+				id: "74925BE79DC4D0B3"
+				title: "{ftbquests.chapter.6ars_nouveau.quest1164741233404720590.task.8399877305341890739.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.6ars_nouveau.quest1164741233404720590.title}"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest6704590078034196169.description1}"
+				""
+				""
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.6ars_nouveau.quest6704590078034196169.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5317ADE87D16A500\"}}]"
+				""
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.6ars_nouveau.quest6704590078034196169.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"10260F1595649978\"}}]"
+			]
+			id: "5D0B7D274DD636C9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7F61E198BC6515AE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest6704590078034196169.subtitle}"
+			tasks: [{
+				id: "4779F358E1960E97"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58594005824B1BBE"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest4523794502517780930.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest4523794502517780930.description2}"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "ars_nouveau:ritual_brazier"
+			id: "3EC7BF21C76FF1C2"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "41875D0B6C1831CB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest4523794502517780930.subtitle}"
+			tasks: [{
+				id: "6391FEE6B9BEBA87"
+				title: "{ftbquests.chapter.6ars_nouveau.quest4523794502517780930.task.7174795948290128519.title}"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest4602690920586531150.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest4602690920586531150.description2}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest4602690920586531150.description3}"
+			]
+			id: "3FE00B019479D14E"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5047BD2B443C0FBA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest4602690920586531150.subtitle}"
+			tasks: [{
+				id: "774BBCEB930E4B88"
+				item: "ars_nouveau:ritual_containment"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest8316057956919480497.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest8316057956919480497.description2}"
+			]
+			id: "736892A6C5BF10B1"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "30578C83F840399A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8316057956919480497.subtitle}"
+			tasks: [{
+				id: "62A9FDDDCD18C749"
+				item: "ars_additions:ritual_locate_structure"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest1552436564682879001.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest1552436564682879001.description2}"
+			]
+			id: "158B5CD496403019"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4E2068D67494A01F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1552436564682879001.subtitle}"
+			tasks: [{
+				id: "472AA02B77854E67"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest8763180275074725328.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest8763180275074725328.description2}"
+			]
+			id: "799D1207E689F5D0"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0105F235848A5D28"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest8763180275074725328.subtitle}"
+			tasks: [{
+				id: "29AC407B17A38508"
+				item: "ars_nouveau:ritual_flight"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EC7BF21C76FF1C2"]
+			description: [
+				"{ftbquests.chapter.6ars_nouveau.quest1814063052560408747.description1}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest1814063052560408747.description2}"
+				""
+				"{ftbquests.chapter.6ars_nouveau.quest1814063052560408747.description3}"
+			]
+			id: "192CD8BC280620AB"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "286D6E2D428AB49A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6ars_nouveau.quest1814063052560408747.subtitle}"
+			tasks: [{
+				id: "6818FBEF403F5205"
+				item: "ars_nouveau:ritual_scrying"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+	]
+	title: "{ftbquests.chapter.6ars_nouveau.title}"
+}

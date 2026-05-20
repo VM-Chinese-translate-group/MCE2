@@ -1,0 +1,2501 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "challenges"
+	group: "372D1188C5A9B800"
+	icon: {
+		Count: 1
+		id: "rats:rat_king_crown"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "63C6B1366C9C179A"
+	images: [{
+		height: 20.0d
+		image: "modpack:textures/mc-eternal-book-challenge-comm.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 4.0d
+		y: 5.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5F1C1F46B63CF828"
+			rewards: [
+				{
+					id: "2D24D53207A750B3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:deathbane"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "5F35CA25829786CE"
+					title: "{ftbquests.chapter.challenges.quest6853387121516673064.reward.6860611869822387918.title}"
+					type: "command"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "063D6A0F32E5AF1F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "456FD00326F36EC6"
+					item: {
+						Count: 1
+						id: "rats:plague_scythe"
+						tag: {
+							AS_Amulet_Holder: [I;
+								-1227576764
+								-1560065926
+								-2081613911
+								2036351875
+							]
+							Damage: 0
+							Unbreakable: 1b
+							display: {
+								Lore: ["{\"translate\":\"lore.mce2.challenges.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.challenges.2\"}"
+							}
+							etstlib_tool_uuid: "e749a354-00e9-4f72-bc8f-a699c97d9067"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66A4A8B0BDA07C21"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.challenges.quest6853387121516673064.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "artifacts:obsidian_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5BFFFC2DFE485118"
+				stat: "minecraft:time_since_death"
+				title: "{ftbquests.chapter.challenges.quest6853387121516673064.task.6629294450982539544.title}"
+				type: "stat"
+				value: 12102000
+			}]
+			title: "{ftbquests.chapter.challenges.quest6853387121516673064.title}"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "1921D3C6C9376D64"
+			optional: true
+			rewards: [
+				{
+					id: "57E8127968AC140F"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+				{
+					id: "44D67900CFDC6ADE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71D93A38CD1E43F2"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				days: 50
+				id: "7DC4D8E58BCA24A5"
+				type: "questsadditions:days"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "7FDA4FAD275365F2"
+			optional: true
+			rewards: [
+				{
+					id: "5CBA9A228D649D5D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5501F8BC46B435DB"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+				{
+					id: "78C79B9C8D4DE505"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				days: 100
+				id: "626450DBB120B167"
+				type: "questsadditions:days"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "33FD61B0BA0B7E0B"
+			optional: true
+			rewards: [
+				{
+					id: "7293E15F656361D7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F43AD9DD75E6C44"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				days: 150
+				id: "7F4B36734B565D6C"
+				type: "questsadditions:days"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "2C6B2C3F6CD8692F"
+			optional: true
+			rewards: [
+				{
+					id: "2790DCB7339693AF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F8E8D74E69DC0A3"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				days: 200
+				id: "0923D389D7EF21EA"
+				type: "questsadditions:days"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			id: "4A7697691FBAF6E9"
+			optional: true
+			rewards: [
+				{
+					id: "1B1AA34E68F57FDD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FF738F0BD3CE9AE"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				days: 350
+				id: "3E0E3142B044D68E"
+				type: "questsadditions:days"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "3C8F77EBC06819F7"
+			optional: true
+			rewards: [
+				{
+					id: "3F9199022F807FF7"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					id: "21E9B37C7FA53D54"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				days: 500
+				id: "22C47585868D70DB"
+				type: "questsadditions:days"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			id: "2F9495018AC5F546"
+			optional: true
+			rewards: [
+				{
+					id: "4E6202F9E0D746A3"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					id: "06A42FD05F60A8DA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				days: 1000
+				id: "20D72E0D9EADF30D"
+				type: "questsadditions:days"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "2F1421D4A7FB5CD2"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "49D311A3A5630485"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "6BB9D44F9CBA914D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7266BE9A85552932"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest3392373616551877842.subtitle}"
+			tasks: [
+				{
+					id: "21137AA9A25CAB4F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "goety:death_scythe"
+						tag: {
+							AS_Amulet_Holder: [I;
+								-1227576764
+								-1560065926
+								-2081613911
+								2036351875
+							]
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C06E4BE253AFB2B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "rats:plague_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "32FB4A32B293AC10"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dreadsteel:dreadsteel_scythe"
+					}
+					type: "item"
+				}
+				{
+					id: "7C076A4186D6A0C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "goety:dark_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.challenges.quest3392373616551877842.title}"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "1861DE101214637E"
+			optional: true
+			rewards: [
+				{
+					id: "720CB13543B1A05F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:national_hero"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "21081C69D2D6D614"
+					title: "{ftbquests.chapter.challenges.quest1756929490255373182.reward.2380183643899745812.title}"
+					type: "command"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "52B7E196A0F4EF45"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "00CC7AAA7A7DD85C"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.challenges.quest1756929490255373182.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragon_horn"
+				}
+				id: "7DFDBF135C8B182E"
+				stat: "minecraft:raid_win"
+				type: "stat"
+				value: 100
+			}]
+			title: "{ftbquests.chapter.challenges.quest1756929490255373182.title}"
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				""
+				"{ftbquests.chapter.challenges.quest6492590628068786334.description1}"
+			]
+			id: "5A1A50C6EA12009E"
+			optional: true
+			rewards: [
+				{
+					id: "13B4AC12942B611B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:timelord"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "1BFA50BC20FC458D"
+					title: "{ftbquests.chapter.challenges.quest6492590628068786334.reward.2016012552139195789.title}"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "2841D0447FE26012"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "04307DD4EAD53A9F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "32D99FFC3432D266"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.challenges.quest6492590628068786334.subtitle}"
+			tasks: [{
+				icon: "supplementaries:clock_block"
+				id: "37977CF70BD55992"
+				stat: "minecraft:play_time"
+				title: "{ftbquests.chapter.challenges.quest6492590628068786334.task.4005807794066643346.title}"
+				type: "stat"
+				value: 8640000
+			}]
+			title: "{ftbquests.chapter.challenges.quest6492590628068786334.title}"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "2AD4A366AC884971"
+			optional: true
+			rewards: [
+				{
+					id: "00B94CC276069144"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0618D89636C355D9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:diamond_fishing_rod"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:lure"
+									lvl: 6
+								}
+								{
+									id: "minecraft:luck_of_the_sea"
+									lvl: 4
+								}
+							]
+							Unbreakable: 1b
+							display: {
+								Lore: ["{\"translate\":\"lore.mce2.challenges.3\"}"]
+								Name: "{\"translate\":\"lore.mce2.challenges.4\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:master_angler"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "712EF8F3DD71113D"
+					title: "{ftbquests.chapter.challenges.quest3086271306032236913.reward.8155729701490463037.title}"
+					type: "command"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "46CD957CFFE96B19"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1BCC004A24638034"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest3086271306032236913.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "rats:fisherman_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "56FE0B4CF7477A43"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 5000
+			}]
+			title: "{ftbquests.chapter.challenges.quest3086271306032236913.title}"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "3882A9A911C68E64"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "7064AA59361F74D7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:borg"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "2147CCD0C48E468A"
+					title: "{ftbquests.chapter.challenges.quest4072003556709142116.reward.2398110523621000842.title}"
+					type: "command"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "5952E1E96E6D0D18"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7F485DDB022507F6"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest4072003556709142116.subtitle}"
+			tasks: [
+				{
+					id: "395158D44241BF2B"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "682280439E2E4615"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_2_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7AF83F3C2D6543B9"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_3_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2F9603361E749FF1"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_4_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.challenges.quest4072003556709142116.title}"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			description: ["{ftbquests.chapter.challenges.quest3149441517464418428.description1}"]
+			id: "2BB5105FA955787C"
+			incompatible: ["099610C83CC67421"]
+			optional: true
+			rewards: [
+				{
+					id: "00F093699E74F1DB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01A985D13C2D4B7F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "rats:filth_corruption"
+					}
+					type: "item"
+				}
+				{
+					amount: 1000L
+					currency: "eternalcurrencies:coins"
+					id: "77C53D0688E0D986"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:patient"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "75C16C5877360ABC"
+					title: "{ftbquests.chapter.challenges.quest3149441517464418428.reward.8485182300155677372.title}"
+					type: "command"
+				}
+				{
+					id: "737585AAC565A2D5"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest3149441517464418428.subtitle}"
+			tasks: [{
+				days: 100
+				id: "673F2D14DBC8E253"
+				type: "questsadditions:days"
+			}]
+			title: "{ftbquests.chapter.challenges.quest3149441517464418428.title}"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			description: ["{ftbquests.chapter.challenges.quest1775034021665636693.description1}"]
+			id: "18A23009C59D0155"
+			optional: true
+			rewards: [
+				{
+					id: "3FFA2BCC061A6946"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "embellishedenchanting:hex"
+									lvl: 4
+								}
+								{
+									id: "allurement:launch"
+									lvl: 7
+								}
+							]
+							HideFlags: 1
+							Unbreakable: 1b
+							display: {
+								Lore: ["{\"translate\":\"lore.mce2.challenges.5\"}"]
+								Name: "{\"translate\":\"lore.mce2.challenges.6\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "quark:orange_rune"
+							}
+							rpgloot.randomize: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:master_chef"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "4807F30E0FEAEDBF"
+					title: "{ftbquests.chapter.challenges.quest1775034021665636693.reward.5190384337289932223.title}"
+					type: "command"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "73FEB83AC9DB275E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1838CD41D55F0DD8"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest1775034021665636693.subtitle}"
+			tasks: [
+				{
+					advancement: "farmersdelight:main/master_chef"
+					criterion: ""
+					id: "62B448A20B1F8024"
+					type: "advancement"
+				}
+				{
+					id: "13000D0F5A22DC02"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ends_delight:steamed_dragon_egg"
+					}
+					type: "item"
+				}
+				{
+					advancement: "ends_delight:root"
+					criterion: ""
+					id: "6AE28577CE44E412"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.challenges.quest1775034021665636693.title}"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			description: ["{ftbquests.chapter.challenges.quest4176940204329355588.description1}"]
+			id: "39F778FC47194944"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "0A77DA2472BB8EA9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08A7E0FF2EF3F4E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "rats:rat_and_sickle_banner_pattern"
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:the_millionare"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "41C61D6A61ED9270"
+					title: "{ftbquests.chapter.challenges.quest4176940204329355588.reward.4739508000600724080.title}"
+					type: "command"
+				}
+				{
+					id: "6CEAF5EC2A6A07C7"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 1
+							author: "The Grand Nagus"
+							display: {
+								Lore: ["{\"translate\":\"lore.mce2.challenges.7\"}"]
+							}
+							pages: [
+								"{\"translate\":\"page.mce2.challenges.1\"}"
+								"{\"translate\":\"page.mce2.challenges.2\"}"
+								"{\"translate\":\"page.mce2.challenges.3\"}"
+								"{\"translate\":\"page.mce2.challenges.4\"}"
+								"{\"translate\":\"page.mce2.challenges.5\"}"
+								"{\"translate\":\"page.mce2.challenges.6\"}"
+								"{\"translate\":\"page.mce2.challenges.7\"}"
+								"{\"translate\":\"page.mce2.challenges.8\"}"
+								"{\"translate\":\"page.mce2.challenges.9\"}"
+								"{\"translate\":\"page.mce2.challenges.10\"}"
+								"{\"translate\":\"page.mce2.challenges.11\"}"
+								"{\"translate\":\"page.mce2.challenges.12\"}"
+								"{\"translate\":\"page.mce2.challenges.13\"}"
+								"{\"translate\":\"page.mce2.challenges.14\"}"
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:orange_rune"
+							}
+							rpgloot.randomize: 0b
+							title: "§6The Rules of Acquisition"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "72900964FE47CDEB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2E1200CE3696B5A1"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest4176940204329355588.subtitle}"
+			tasks: [{
+				amount: 1000000L
+				currency: "eternalcurrencies:coins"
+				id: "3085C28176991036"
+				type: "eternalcurrencies:currency"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "233A1A4CF1D00625"
+			optional: true
+			rewards: [
+				{
+					id: "5653557347C2755A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:weezer_blue_album"
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:music_collector"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "5047F40F416D9BD6"
+					title: "{ftbquests.chapter.challenges.quest2538370257753474597.reward.5784860592740080598.title}"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "0B7777F5A1CA97EC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "09D5B9984B09E9B1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "198591C79ACD0E32"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest2538370257753474597.subtitle}"
+			tasks: [
+				{
+					id: "15F3EC92CED3E9C0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+					}
+					type: "item"
+				}
+				{
+					id: "3F6AEED6E947CA6E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+					}
+					type: "item"
+				}
+				{
+					id: "297E1885CD4F54DD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "cataclysm:music_disc_netherite_monstrosity"
+					}
+					type: "item"
+				}
+				{
+					id: "522920E1690B8438"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "cataclysm:music_disc_ender_guardian"
+					}
+					type: "item"
+				}
+				{
+					id: "70CA1834252E8307"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "cataclysm:music_disc_ignis"
+					}
+					type: "item"
+				}
+				{
+					id: "0DAED55B67912DDD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "mowziesmobs:music_disc_petiole"
+					}
+					type: "item"
+				}
+				{
+					id: "7909AEA13DCAC5D9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "rats:music_disc_mice_on_venus"
+					}
+					type: "item"
+				}
+				{
+					id: "5B9874A515734EF6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "rats:music_disc_living_mice"
+					}
+					type: "item"
+				}
+				{
+					id: "58D7AB077206D5F5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "alexsmobs:music_disc_thime"
+					}
+					type: "item"
+				}
+				{
+					id: "2805EC00EC988646"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "alexsmobs:music_disc_daze"
+					}
+					type: "item"
+				}
+				{
+					id: "635F988EB455FE43"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:music_disc_13"
+					}
+					type: "item"
+				}
+				{
+					id: "07A23099CBF30069"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:music_disc_cat"
+					}
+					type: "item"
+				}
+				{
+					id: "61AB83442834CA24"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:music_disc_chirp"
+					}
+					type: "item"
+				}
+				{
+					id: "5250360A9A24D4A1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:music_disc_mall"
+					}
+					type: "item"
+				}
+				{
+					id: "26EB12C88B0C47B8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:music_disc_stal"
+					}
+					type: "item"
+				}
+				{
+					id: "623146D4FF77C8DD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:music_disc_ward"
+					}
+					type: "item"
+				}
+				{
+					id: "40A7767DE0A7EB97"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:music_disc_pigstep"
+					}
+					type: "item"
+				}
+				{
+					id: "504342B5BEE2D3A8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquamirae:music_disc_forsaken_drownage"
+					}
+					type: "item"
+				}
+				{
+					id: "6ACA8761F13ADB0F"
+					item: "alexscaves:music_disc_tasty"
+					type: "item"
+				}
+				{
+					id: "6C4341F31D716516"
+					item: "alexscaves:music_disc_fusion"
+					type: "item"
+				}
+				{
+					id: "5083D3567969E791"
+					item: "cloudstorage:music_disc_drift"
+					type: "item"
+				}
+				{
+					id: "2A348EEB00E7948D"
+					item: "cataclysm:music_disc_ancient_remnant"
+					type: "item"
+				}
+				{
+					id: "3300A8E2FC25DC27"
+					item: "cataclysm:music_disc_maledictus"
+					type: "item"
+				}
+				{
+					id: "0AC865BD4B5371BC"
+					item: {
+						Count: 1
+						id: "thegreatbelow:gone_music_disc"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6945EB2F28C161D2"
+					item: "vanillabackport:music_disc_lava_chicken"
+					type: "item"
+				}
+				{
+					id: "5AD85D3C30670D29"
+					item: "mce2lib:main_theme_music_disc"
+					type: "item"
+				}
+				{
+					id: "4EA9F27202930825"
+					item: "thegreatbelow:ghosts_music_disc"
+					type: "item"
+				}
+				{
+					id: "1DF517A46531C602"
+					item: "botania:record_gaia_2"
+					type: "item"
+				}
+				{
+					id: "47CEA0395A39FF81"
+					item: "cataclysm:music_disc_the_harbinger"
+					type: "item"
+				}
+				{
+					id: "39A782935D820A34"
+					item: "ars_nouveau:music_disc_aria_biblio"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.challenges.quest2538370257753474597.title}"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			description: ["{ftbquests.chapter.challenges.quest4511936365458450053.description1}"]
+			id: "3E9D9E3818516685"
+			optional: true
+			rewards: [
+				{
+					id: "4B5B1C1EC56FE776"
+					item: {
+						Count: 1
+						id: "minecraft:stick"
+						tag: {
+							Enchantments: [{
+								id: "knockback"
+								lvl: 10
+							}]
+							display: {
+								Lore: ["\"For motivation!\""]
+								Name: "\"Simon's Poking Stick \""
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EA75FEE5B0B6BF3"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1885617427
+									464863725
+									-1849818526
+									1551285631
+								]
+								Name: "Honeydew"
+								Properties: {
+									textures: [{
+										Signature: "v3DgDIrC0HRVKuwiKu49LgOPzKV2bXDPIxZzxm89EH7wAx6SuaLEpcE4wupHwmC7jGM4Z6487qHeJeqX7uXPxZ72eEgANoaQ5Yij8Ohs0C5SN6+w9VqPovVJSNXkwWUJtMJaSz/iggQH8gYIKddPOA2SDNqdR8s0k5WV/0OQFdmUkcfX4uFj63e7C2XEjgDoUfD+1+WyVffoJErpCbyl5a0+rpJazdZl8uAv64cTES8tMdXdJS9+M9DooAyjCi2ozRnDPk0Xdz7r56KEehWDzQGISxvw9WmzNsxM05t0VPDYcY3fdrrGyEYgWs43YtIl0fl00Cya/6oHN/0kLf06WrIB8mr2+XMRSvO11kR07WpbEv3SoJxOgseflHNmw35yDGTgdsN6L2R1GLNETC2CrtI2xitVS85tvZ7U+p2rughjZA3AUDcw4ahEq4O6Ge0T6HNTPcn+Dn/3T0907P9dxoxnl4JrHuup8p+mIN/rpy+sNtQzuZvw6oBjGkrfMUABDjcxkdLXL/Wp5KAE89OVjF1bMsbHtelhk3qW7EiL6iH/Y76hf5mrVH5eHrtHYams/FVW2SEmay+pEMUeqsARVdiHL2xkJYgnYGphhZMbld4RJhiEceHXHj/hqGp/3F7f63e7Lst+EBQScbjVC13I3unGbR3lZxv5+OoDbywDMjA="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc0ODEwMjgwMDAxNywKICAicHJvZmlsZUlkIiA6ICI4ZjliYzJlZDFiYjU0MWVkOTFiZTAyNjI1Yzc2YmQ3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJIb25leWRldyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hYjQxMzFlYmY0Mjc2NDg5ZmNjYTE2ODBmYjk5MWEwNzc2YzljZDQ4NmRmMzY4MDliZmVhZjhiZGMxMzhhMjQ1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "08D0FAF446588401"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "70F6013CCEBEAFA7"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.challenges.quest4511936365458450053.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 100000L
+				id: "15363F95BE298C23"
+				item: "jaffactory:jaffa_cake"
+				title: "{ftbquests.chapter.challenges.quest4511936365458450053.task.1528479035911932963.title}"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "iceandfire:armor_silver_metal_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3559C9BEB665DBE3"
+			optional: true
+			rewards: [
+				{
+					id: "555249D9C99D7200"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_lightning_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "allurement:vengeance"
+								lvl: 4
+							}]
+							Unbreakable: 1b
+							display: {
+								Lore: [
+									"{\"text\":\"   \"}"
+									"{\"translate\":\"lore.mce2.challenges.8\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.challenges.1\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "quark:red_rune"
+							}
+							rpgloot.randomize: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28980623BB60FED6"
+					item: "iceandfire:dragonsteel_lightning_block"
+					type: "item"
+				}
+				{
+					id: "2544154DFFD37819"
+					item: "iceandfire:dragonsteel_ice_block"
+					type: "item"
+				}
+				{
+					id: "636220392BA09D4F"
+					item: "iceandfire:dragonsteel_fire_block"
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:dragon_slayer"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "10DAFAB1AC4B0F0F"
+					title: "{ftbquests.chapter.challenges.quest3844325577878526947.reward.1214558690536525583.title}"
+					type: "command"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "50DC35728DE61D42"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5385F5A2746C434A"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest3844325577878526947.subtitle}"
+			tasks: [
+				{
+					entity: "iceandfire:fire_dragon"
+					icon: {
+						Count: 1
+						id: "alexsmobs:tab_icon"
+						tag: {
+							DisplayEntityType: "iceandfire:fire_dragon"
+						}
+					}
+					id: "2DB516563F80E11C"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "iceandfire:ice_dragon"
+					icon: {
+						Count: 1
+						id: "alexsmobs:tab_icon"
+						tag: {
+							DisplayEntityType: "iceandfire:ice_dragon"
+						}
+					}
+					id: "57B3EB02A9120E39"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "iceandfire:lightning_dragon"
+					icon: {
+						Count: 1
+						id: "alexsmobs:tab_icon"
+						tag: {
+							DisplayEntityType: "iceandfire:lightning_dragon"
+						}
+					}
+					id: "5117E25A6D6AD477"
+					type: "kill"
+					value: 50L
+				}
+			]
+			title: "{ftbquests.chapter.challenges.quest3844325577878526947.title}"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.challenges.quest5245909642508231407.description1}"
+				"{ftbquests.chapter.challenges.quest5245909642508231407.image0}"
+			]
+			icon: "titles:title_scroll_rare"
+			id: "48CD37069D7FE2EF"
+			rewards: [
+				{
+					amount: 10L
+					currency: "eternalcurrencies:coins"
+					id: "26E85C4D785F0B5C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4D87FF62EC6D6503"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.challenges.quest5245909642508231407.subtitle}"
+			tasks: [{
+				id: "7E73744AAA758DBE"
+				title: "{ftbquests.chapter.challenges.quest5245909642508231407.task.9111754335136878014.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.challenges.quest5245909642508231407.title}"
+			x: -2.5238095238095255d
+			y: -1.5714285714285694d
+		}
+		{
+			id: "772AF9C279534A05"
+			optional: true
+			rewards: [
+				{
+					id: "09F0B476CF048C85"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "create:honeyed_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "0206B8C686F777FD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B37DB076329CBD3"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				days: 10
+				id: "430D177730A2DD9B"
+				type: "questsadditions:days"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "5379FD478EF6ACCF"
+			optional: true
+			rewards: [
+				{
+					command: "/titles add {p} titles:mr_electric"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "0EF672DD9B345BB1"
+					title: "{ftbquests.chapter.challenges.quest6015117261113044175.reward.1078175456919051185.title}"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "282D447CE46B7DF2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "451A9638E7E364AF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1DDF9B9D0E189E9F"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest6015117261113044175.subtitle}"
+			tasks: [{
+				icon: "mekanism:resistive_heater"
+				id: "584D87091ADF75D2"
+				max_input: 1000000000000000000L
+				title: "{ftbquests.chapter.challenges.quest6015117261113044175.task.6362890321719686610.title}"
+				type: "forge_energy"
+				value: 1000000000000000000L
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "6B02725E1530943B"
+			optional: true
+			rewards: [
+				{
+					command: "/titles add {p} titles:tiny_potato"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_common"
+					id: "3391A536F4D39348"
+					title: "{ftbquests.chapter.challenges.quest7710851260419707963.reward.3715932823011693384.title}"
+					type: "command"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "477E597A7ED9EE1C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "549358CE84A1FB85"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest7710851260419707963.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 1000000L
+				id: "462A757C87457DD1"
+				item: "botania:tiny_potato"
+				title: "{ftbquests.chapter.challenges.quest7710851260419707963.task.5055982709382675921.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.challenges.quest7710851260419707963.title}"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3348CB91A5659884"
+				"35EB3BAAC2AD189B"
+				"511BD5CE8926D782"
+				"1095C058506D2A05"
+				"101F545333568603"
+				"4CCB133226B619C1"
+				"091DFC1661BC6A6C"
+				"144BAE20D6EA1C4B"
+				"41A4C8DD57C58D66"
+				"05E7EE0908681ACD"
+				"1A7BFC6C498CE232"
+				"1E2DE0DC5D73868D"
+				"781E3789949DB186"
+				"354EC5421E6F7BCD"
+				"538184534666C3C4"
+				"7E48450A71FC0BCF"
+				"221EC6993D3ED04F"
+				"21CD0B400036DF54"
+				"06911768DBF8A5A5"
+				"2093117385E8FF1D"
+			]
+			description: ["{ftbquests.chapter.challenges.quest3918710953294087847.description1}"]
+			icon: "titles:title_scroll_uncommon"
+			id: "36620ED98C86C6A7"
+			rewards: [
+				{
+					command: "/titles add {p} titles:loremaster"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "643B91E57C589E0E"
+					title: "{ftbquests.chapter.challenges.quest3918710953294087847.reward.7222526842238443022.title}"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw @a [{\"text\":\"\"},{\"translate\":\"message.mce2.challenges.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.challenges.2\"}] "
+					console: true
+					elevate_perms: true
+					icon: "etched:radio"
+					id: "0101958C6BCD1EBD"
+					title: "{ftbquests.chapter.challenges.quest3918710953294087847.reward.72503499351203517.title}"
+					type: "command"
+				}
+				{
+					id: "43DBCBC4A79A5151"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.challenges.quest3918710953294087847.subtitle}"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "titles:title_fragment"
+				id: "6811343CA3BB7B1A"
+				title: "{ftbquests.chapter.challenges.quest3918710953294087847.task.7498832289598241562.title}"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.challenges.quest3918710953294087847.title}"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.challenges.quest8115777220850313945.description1}"
+				"{ftbquests.chapter.challenges.quest8115777220850313945.description2}"
+				"{ftbquests.chapter.challenges.quest8115777220850313945.description3}"
+				"{ftbquests.chapter.challenges.quest8115777220850313945.description4}"
+			]
+			id: "70A1086214FD6AD9"
+			optional: true
+			rewards: [
+				{
+					command: "/titles add {p} titles:egg"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "29768140ED89DB31"
+					title: "{ftbquests.chapter.challenges.quest8115777220850313945.reward.2987717518670027569.title}"
+					type: "command"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "3177057EC1B0AD54"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "024977E8962C5162"
+					item: "mce2lib:chicken_nugget_summon"
+					type: "item"
+				}
+				{
+					id: "2B1714741BB55EFB"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest8115777220850313945.subtitle}"
+			tasks: [
+				{
+					entity: "minecraft:chicken"
+					icon: "minecraft:chicken"
+					id: "45D8A379D8C92450"
+					type: "kill"
+					value: 500000L
+				}
+				{
+					consume_items: true
+					count: 800000L
+					id: "55B252B0B16A6959"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.challenges.quest8115777220850313945.title}"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.challenges.quest5211646346371013304.description1}"
+				"{ftbquests.chapter.challenges.quest5211646346371013304.description2}"
+				"{ftbquests.chapter.challenges.quest5211646346371013304.description3}"
+				""
+				"{ftbquests.chapter.challenges.quest5211646346371013304.description4}"
+				""
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "ghastcow:ghast_cow"
+				}
+			}
+			id: "48537CBD52681AB8"
+			optional: true
+			rewards: [
+				{
+					command: "/titles add {p} titles:ghow"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "6F095FAF0E97DB2C"
+					title: "{ftbquests.chapter.challenges.quest5211646346371013304.reward.8001031418469145388.title}"
+					type: "command"
+				}
+				{
+					id: "2A6C107C4B910D66"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "328978EA2E97AD33"
+					item: {
+						Count: 1
+						id: "artifacts:eternal_steak"
+						tag: {
+							AS_Amulet_Holder: [I;
+								-1227576764
+								-1560065926
+								-2081613911
+								2036351875
+							]
+							Damage: 0
+							Enchantments: [
+								{
+									id: "tombstone:soulbound"
+									lvl: 1
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 5
+								}
+							]
+							display: {
+								Lore: ["{\"translate\":\"lore.mce2.challenges.9\"}"]
+								Name: "{\"translate\":\"lore.mce2.challenges.10\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:white_rune"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "055BC2B5681D4B00"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest5211646346371013304.subtitle}"
+			tasks: [{
+				entity: "ghastcow:ghast_cow"
+				icon: {
+					Count: 1
+					id: "artifacts:everlasting_beef"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "482A39DDAF6660DE"
+				title: "{ftbquests.chapter.challenges.quest5211646346371013304.task.5200032344045936862.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "2A12275C0891BB98"
+			rewards: [
+				{
+					command: "/titles add {p} titles:angel"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "688BDCF0348DE9F5"
+					title: "{ftbquests.chapter.challenges.quest3031528775408008088.reward.7533357725939263989.title}"
+					type: "command"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "09A8E4C13C9E7A4B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "21CBD76B9EF96376"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest3031528775408008088.subtitle}"
+			tasks: [{
+				advancement: "mowziesmobs:sculptor_challenge"
+				criterion: ""
+				id: "68FB618A7D59374A"
+				title: "{ftbquests.chapter.challenges.quest3031528775408008088.task.7564747246535259978.title}"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.challenges.quest1508817133578834933.description1}"
+				"{ftbquests.chapter.challenges.quest1508817133578834933.description2}"
+			]
+			id: "14F065305DFD53F5"
+			rewards: [
+				{
+					command: "/titles add {p} titles:die"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_common"
+					id: "1365D7093281C20B"
+					title: "{ftbquests.chapter.challenges.quest1508817133578834933.reward.1397759693870449163.title}"
+					type: "command"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "745D12BCB677F47D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7371B9B9E1D1C4DC"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.challenges.quest1508817133578834933.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragon_skull_fire"
+				}
+				id: "0DF5C00B564E1983"
+				stat: "minecraft:deaths"
+				title: "{ftbquests.chapter.challenges.quest1508817133578834933.task.1005921246712306051.title}"
+				type: "stat"
+				value: 100
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.challenges.quest63909497621471834.description1}"
+				"{ftbquests.chapter.challenges.quest63909497621471834.description2}"
+			]
+			id: "00E30D597780625A"
+			optional: true
+			rewards: [
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "1284C9E55FD236E9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6372888FE6CC4C56"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:trashperson"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "4878192B49691F91"
+					title: "{ftbquests.chapter.challenges.quest63909497621471834.reward.5221951441642004369.title}"
+					type: "command"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest63909497621471834.subtitle}"
+			tasks: [{
+				count: 500L
+				id: "61E2CFC3EFFF44F0"
+				item: "rats:plastic_waste"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.challenges.quest63909497621471834.title}"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.challenges.quest627689187293864018.description1}"
+				"{ftbquests.chapter.challenges.quest627689187293864018.description2}"
+				""
+				"{ftbquests.chapter.challenges.quest627689187293864018.description3}"
+			]
+			hide_dependency_lines: true
+			id: "08B5FFFD7E012052"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					command: "/titles add {p} titles:goat"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "626960F9F8D32E9A"
+					title: "{ftbquests.chapter.challenges.quest627689187293864018.reward.7091305715009269402.title}"
+					type: "command"
+				}
+				{
+					id: "7106E7CFDA5EC67A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6698540E60FCD9C9"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:yearn_goat_horn"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53F192EF99822E0B"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.challenges.quest627689187293864018.subtitle}"
+			tasks: [{
+				icon: "skillcloaks:prayer_hood"
+				id: "3ACA45E5C5866A57"
+				observe_type: 5
+				timer: 1000L
+				title: "{ftbquests.chapter.challenges.quest627689187293864018.task.4236275252659120727.title}"
+				to_observe: "minecraft:goat"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.challenges.quest627689187293864018.title}"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: ["{ftbquests.chapter.challenges.quest5497200196616777365.description1}"]
+			id: "4C49FA74128CEE95"
+			rewards: [
+				{
+					amount: 3500L
+					currency: "eternalcurrencies:coins"
+					id: "53327789AB4B75B4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "78D2A656AEC25566"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p}  titles:godzilla"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "5D2DF03A7B532A06"
+					title: "{ftbquests.chapter.challenges.quest5497200196616777365.reward.6714286753447094790.title}"
+					type: "command"
+				}
+				{
+					id: "61157E5AC217713C"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest5497200196616777365.subtitle}"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_tremorzilla"
+				criterion: ""
+				icon: "alexscaves:waste_drum"
+				id: "116EB152780DB546"
+				title: "{ftbquests.chapter.challenges.quest5497200196616777365.task.1256136313842545990.title}"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: ["{ftbquests.chapter.challenges.quest3597581435051051636.description1}"]
+			id: "31ED2D411EC20A74"
+			rewards: [
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "4F56D3427353A962"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "4821242C9614CE38"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:nuke"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "074DBF126B7B6BD2"
+					title: "{ftbquests.chapter.challenges.quest3597581435051051636.reward.526286817305783250.title}"
+					type: "command"
+				}
+				{
+					id: "1097E19BD3F4F614"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest3597581435051051636.subtitle}"
+			tasks: [{
+				id: "71320C2F137A9170"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.challenges.quest3597581435051051636.title}"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "5F35EB74F5A77156"
+			optional: true
+			rewards: [
+				{
+					id: "2DE7B197CF29606B"
+					item: "skillcloaks:max_cloak"
+					type: "item"
+				}
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "5EB2310E499C4FD2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 8
+					id: "64DA7E2150C71DD4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18F77902FDB3FB3C"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:skill"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "0D6B48FB4BB71223"
+					title: "{ftbquests.chapter.challenges.quest6860648494938943830.reward.966946789145383459.title}"
+					type: "command"
+				}
+			]
+			subtitle: "{ftbquests.chapter.challenges.quest6860648494938943830.subtitle}"
+			tasks: [
+				{
+					id: "5654CCA80063E2D6"
+					item: "skillcloaks:agility_cloak"
+					type: "item"
+				}
+				{
+					id: "4780A61A346340EA"
+					item: "skillcloaks:attack_cloak"
+					type: "item"
+				}
+				{
+					id: "0570C6646BEF341D"
+					item: "skillcloaks:construction_cloak"
+					type: "item"
+				}
+				{
+					id: "02CB72CBA52047BC"
+					item: "skillcloaks:cooking_cloak"
+					type: "item"
+				}
+				{
+					id: "63ECEFAC310FD5D8"
+					item: "skillcloaks:crafting_cloak"
+					type: "item"
+				}
+				{
+					id: "2420507857E30114"
+					item: "skillcloaks:defence_cloak"
+					type: "item"
+				}
+				{
+					id: "39AD579BBE16D284"
+					item: "skillcloaks:farming_cloak"
+					type: "item"
+				}
+				{
+					id: "2EF9180F7866833B"
+					item: "skillcloaks:firemaking_cloak"
+					type: "item"
+				}
+				{
+					id: "585FFC4CB2A6DDFB"
+					item: "skillcloaks:fishing_cloak"
+					type: "item"
+				}
+				{
+					id: "707B49295B215AEC"
+					item: "skillcloaks:fletching_cloak"
+					type: "item"
+				}
+				{
+					id: "4FB2D23D9B7370D7"
+					item: "skillcloaks:herblore_cloak"
+					type: "item"
+				}
+				{
+					id: "28CE5060389B5F96"
+					item: "skillcloaks:hitpoints_cloak"
+					type: "item"
+				}
+				{
+					id: "7B2916B2A84681B2"
+					item: "skillcloaks:hunter_cloak"
+					type: "item"
+				}
+				{
+					id: "6ED8C96401C6D8D3"
+					item: "skillcloaks:magic_cloak"
+					type: "item"
+				}
+				{
+					id: "389440ED1F96B99C"
+					item: "skillcloaks:mining_cloak"
+					type: "item"
+				}
+				{
+					id: "530F84004A0FD131"
+					item: "skillcloaks:prayer_cloak"
+					type: "item"
+				}
+				{
+					id: "37608133F35B6F74"
+					item: "skillcloaks:ranging_cloak"
+					type: "item"
+				}
+				{
+					id: "1DE42920A3CDF1EC"
+					item: "skillcloaks:runecraft_cloak"
+					type: "item"
+				}
+				{
+					id: "1D93412DCA112A25"
+					item: "skillcloaks:slayer_cloak"
+					type: "item"
+				}
+				{
+					id: "6F1EC2BEF49E944C"
+					item: "skillcloaks:strength_cloak"
+					type: "item"
+				}
+				{
+					id: "47763F81BCF2B095"
+					item: "skillcloaks:thieving_cloak"
+					type: "item"
+				}
+				{
+					id: "24AE4C04D5C638D3"
+					item: "skillcloaks:woodcutting_cloak"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.challenges.quest6860648494938943830.title}"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: ["{ftbquests.chapter.challenges.quest8361597504342229435.description1}"]
+			id: "740A5CA0E91C81BB"
+			optional: true
+			rewards: [
+				{
+					id: "6786D0C9A7FA63F6"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					id: "69126D058D047B3F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:stinky"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "369FC710E68FD3B6"
+					title: "{ftbquests.chapter.challenges.quest8361597504342229435.reward.3936083474746692534.title}"
+					type: "command"
+				}
+			]
+			secret: true
+			subtitle: "{ftbquests.chapter.challenges.quest8361597504342229435.subtitle}"
+			tasks: [{
+				icon: "rats:garbage_pile"
+				id: "78D75DD658F2E993"
+				observe_type: 0
+				timer: 200L
+				title: "{ftbquests.chapter.challenges.quest8361597504342229435.task.8707531579740842387.title}"
+				to_observe: "rats:garbage_pile"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.challenges.quest8361597504342229435.title}"
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	title: "{ftbquests.chapter.challenges.title}"
+}

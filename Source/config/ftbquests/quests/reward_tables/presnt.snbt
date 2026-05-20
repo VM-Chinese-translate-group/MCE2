@@ -1,0 +1,28 @@
+{
+	hide_tooltip: true
+	icon: "supplementaries:present_purple"
+	id: "1D440C86A56F58F6"
+	loot_size: 1
+	order_index: 10
+	rewards: [{
+		item: {
+			Count: 1b
+			ForgeCaps: {
+				"dungeons_libraries:built_in_enchantments": {
+					BuiltInEnchantments: [ ]
+				}
+			}
+			id: "itemcapes:cape"
+			tag: {
+				CapeType: "challenge_cape"
+				display: {
+					Lore: ["{\"translate\":\"lore.mce2.presnt.1\"}"]
+					Name: "{\"translate\":\"lore.mce2.presnt.2\"}"
+				}
+				rpgloot.randomize: 0b
+			}
+		}
+	}]
+	title: "{ftbquests.loot_table.2108824297956923638.title}"
+	use_title: true
+}

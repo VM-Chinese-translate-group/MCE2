@@ -1,0 +1,951 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6storage_solutions"
+	group: "12BCDDCCCA65FD77"
+	icon: "cloudstorage:cloud_chest"
+	id: "06911768DBF8A5A5"
+	images: [
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 0.4642857142857153d
+			y: -4.017857142857142d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 1.3571428571428612d
+			y: -4.017857142857142d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 0.9285714285714235d
+			y: -3.9107142857142883d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 2.2857142857142847d
+			y: -4.017857142857142d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 1.8214285714285694d
+			y: -4.053571428571431d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 2.7142857142857153d
+			y: -3.9821428571428577d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 3.5357142857142847d
+			y: -3.9821428571428577d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 4.0d
+			y: -3.9821428571428577d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 4.857142857142861d
+			y: -3.946428571428573d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 4.428571428571438d
+			y: -4.017857142857142d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 5.285714285714285d
+			y: -4.053571428571431d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 90.0d
+			width: 0.7d
+			x: 5.678571428571431d
+			y: -3.9821428571428577d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904766303d
+			y: -3.404761904761891d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: -0.01666666666666572d
+			y: -2.5761904761904653d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904766303d
+			y: -3.0333333333333243d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: -0.01666666666666572d
+			y: -1.7761904761904646d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: -0.01666666666666572d
+			y: -2.1761904761904702d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: -0.4333333333333158d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: 0.33809523809524933d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: -1.4619047619047478d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: 0.6809523809523981d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.06904761904763035d
+			y: -0.0047619047618923105d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.011904761904773409d
+			y: 1.0523809523809646d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: -0.04523809523808353d
+			y: 1.3666666666666742d
+		}
+		{
+			dependency: "4789D17B88722641"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.040476190476198326d
+			y: 1.652380952380966d
+		}
+		{
+			dependency: "58042E701E7AD105"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependency: "58042E701E7AD105"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 3.011904761904759d
+			y: -5.488095238095244d
+		}
+		{
+			dependency: "58042E701E7AD105"
+			height: 0.7d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 0.7d
+			x: 3.011904761904759d
+			y: -4.583333333333336d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest1230308487237257067.description1}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest1230308487237257067.description2}"
+			]
+			id: "1112EF0CF9ECC76B"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "403D29D05E0048E5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "113B04B6DB80A76E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest1230308487237257067.subtitle}"
+			tasks: [{
+				id: "10E1D863C70FBBD4"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						accentColor: 16383998
+						mainColor: 16383998
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4789D17B88722641"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest1331893865331605548.description1}"
+				"{ftbquests.chapter.6storage_solutions.quest1331893865331605548.description2}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest1331893865331605548.description3}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest1331893865331605548.description4}"
+			]
+			hide_until_deps_complete: true
+			id: "127BD669F19CC02C"
+			optional: true
+			rewards: [
+				{
+					amount: 10L
+					currency: "eternalcurrencies:coins"
+					id: "36BFB24455926443"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "082201EE0A372329"
+					item: "cloudstorage:guide_book"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest1331893865331605548.subtitle}"
+			tasks: [{
+				id: "63B4C0E2B51D2241"
+				title: "{ftbquests.chapter.6storage_solutions.quest1331893865331605548.task.7184579385496511041.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest5855474249964766856.description1}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest5855474249964766856.description2}"
+			]
+			id: "5142D2CE8498C688"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "53010AF36C9C5F8C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "13515AE9874AF508"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest5855474249964766856.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "44833EB5E42CEBB4"
+				item: { Count: 4, id: "cloudstorage:balloon_bit" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6storage_solutions.quest5855474249964766856.title}"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5142D2CE8498C688"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest6342245234327081221.description1}"
+				"{ftbquests.chapter.6storage_solutions.quest6342245234327081221.description2}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest6342245234327081221.description3}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest6342245234327081221.description4}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest6342245234327081221.description5}"
+			]
+			id: "58042E701E7AD105"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "7374AEB1C713287E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "06E932A966E37F4D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7781E34954689A46"
+					item: "cloudstorage:balloon_arrow"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest6342245234327081221.subtitle}"
+			tasks: [{
+				id: "4244ECE730F65A55"
+				item: { Count: 9, id: "cloudstorage:cloud_chest" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6storage_solutions.quest6342245234327081221.title}"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["58042E701E7AD105"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description1}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description2}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description3}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description4}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description5}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description6}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description7}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description8}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description9}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description10}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description11}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description12}"
+				"{ftbquests.chapter.6storage_solutions.quest6387756813148639473.description13}"
+			]
+			id: "58A5DEFA4F4E50F1"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "14B5CC9257BB5E9A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "68A411DAEBF3E7FC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46C9150BBAB07C62"
+					table_id: 659864593193856198L
+					type: "choice"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest6387756813148639473.subtitle}"
+			tasks: [
+				{
+					id: "15B0ABD7BCA6CC03"
+					item: "cloudstorage:balloon"
+					type: "item"
+				}
+				{
+					advancement: "cloudstorage:cloudstorage/upload"
+					criterion: ""
+					id: "10C60C6A896383D8"
+					type: "advancement"
+				}
+				{
+					id: "5A4A06C9732877B3"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6storage_solutions.quest6387756813148639473.title}"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["58042E701E7AD105"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest8783560930516150637.description1}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest8783560930516150637.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "79E57A21066A296D"
+			optional: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "47C26D49F0FDC33B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "659DB06B01D215F0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest8783560930516150637.subtitle}"
+			tasks: [{
+				icon: "cloudstorage:static_cloud_chest"
+				id: "5AD5375CA360B7B5"
+				structure: "cloudstorage:sky_temple"
+				title: "{ftbquests.chapter.6storage_solutions.quest8783560930516150637.task.6545198504470427573.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.6storage_solutions.quest8783560930516150637.title}"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest7088540476840328377.description1}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest7088540476840328377.description2}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest7088540476840328377.description3}"
+			]
+			id: "625F8E01CA0BBCB9"
+			rewards: [
+				{
+					count: 2
+					id: "46952A4EE8BF02CC"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "2B56BC62246C6729"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest7088540476840328377.subtitle}"
+			tasks: [{
+				id: "7CB71B3866F7E65A"
+				item: "botania:corporea_spark"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6storage_solutions.quest7088540476840328377.title}"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6EA0A00013557D2A"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest1002792636566905210.description1}"
+				"{ftbquests.chapter.6storage_solutions.quest1002792636566905210.description2}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest1002792636566905210.description3}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest1002792636566905210.description4}"
+				"{ftbquests.chapter.6storage_solutions.quest1002792636566905210.description5}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest1002792636566905210.description6}"
+				"{ftbquests.chapter.6storage_solutions.quest1002792636566905210.description7}"
+			]
+			id: "0DEAA29705F2A17A"
+			rewards: [
+				{
+					count: 3
+					id: "60D9146FB47C3F90"
+					item: "kubejs:corporea_crystal"
+					type: "item"
+				}
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "66770D1194BAA06F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest1002792636566905210.subtitle}"
+			tasks: [
+				{
+					id: "6E86A34B37D22F59"
+					item: "botania:corporea_spark_master"
+					type: "item"
+				}
+				{
+					id: "6DD5C91F62C1286D"
+					item: "botania:corporea_index"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6storage_solutions.quest1002792636566905210.title}"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["625F8E01CA0BBCB9"]
+			description: ["{ftbquests.chapter.6storage_solutions.quest7971547262630591786.description1}"]
+			id: "6EA0A00013557D2A"
+			rewards: [
+				{
+					count: 3
+					id: "1257004BEBE8A6AF"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "7B3F792B0814C387"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest7971547262630591786.subtitle}"
+			tasks: [{
+				id: "4B4591C85A6C901F"
+				item: "kubejs:corporea_crystal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6storage_solutions.quest7971547262630591786.title}"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0DEAA29705F2A17A"
+				"695FC871D1105C97"
+			]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description1}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description2}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description3}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description4}"
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description5}"
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description6}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description7}"
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description8}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description9}"
+				"{ftbquests.chapter.6storage_solutions.quest4125464960892640882.description10}"
+			]
+			hide_until_deps_complete: true
+			id: "3940988637539E72"
+			rewards: [
+				{
+					count: 3
+					id: "6FDCEEFCA18FFCC6"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "119C92A602CD0B4F"
+					item: "botania:red_string"
+					type: "item"
+				}
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "69E1145ABD817720"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest4125464960892640882.subtitle}"
+			tasks: [{
+				id: "403E6ADA1EFF9D79"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mce2:botania/corporea_automation_device"
+					}
+				}
+				title: "{ftbquests.chapter.6storage_solutions.quest4125464960892640882.task.4629254952038931833.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6storage_solutions.quest4125464960892640882.title}"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6EA0A00013557D2A"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest845555765133778316.description1}"
+				"{ftbquests.chapter.6storage_solutions.quest845555765133778316.description2}"
+				"{ftbquests.chapter.6storage_solutions.quest845555765133778316.description3}"
+				"{ftbquests.chapter.6storage_solutions.quest845555765133778316.description4}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest845555765133778316.description5}"
+				"{ftbquests.chapter.6storage_solutions.quest845555765133778316.description6}"
+			]
+			id: "0BBC047D0A951D8C"
+			rewards: [
+				{
+					count: 3
+					id: "05479B8673F323B7"
+					item: "botania:corporea_crystal_cube"
+					type: "item"
+				}
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "07F18AE152C6950D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest845555765133778316.subtitle}"
+			tasks: [{
+				id: "455A8FBD8E5B3C51"
+				item: "botania:corporea_crystal_cube"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6storage_solutions.quest845555765133778316.title}"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1914150BEBE05F9E"
+				"26B5D1430104B5A1"
+			]
+			description: ["{ftbquests.chapter.6storage_solutions.quest2164703156864056007.description1}"]
+			id: "1E0A920D550C7AC7"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "151D7433F08F8C1B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest2164703156864056007.subtitle}"
+			tasks: [{
+				id: "1DC86128ACCFF313"
+				item: "integratedterminals:part_terminal_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest6133261066555854827.description1}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest6133261066555854827.description2}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest6133261066555854827.description3}"
+			]
+			id: "551DB871D2CB8FEB"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "70FF12E06970BC42"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest6133261066555854827.subtitle}"
+			tasks: [{
+				id: "440E6AF5E2A32353"
+				item: "integrateddynamics:crystalized_menril_chunk"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E8025C11C76068A"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest2789365629935990177.description1}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest2789365629935990177.description2}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest2789365629935990177.description3}"
+			]
+			id: "26B5D1430104B5A1"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "6CB7BCA1022E569E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest2789365629935990177.subtitle}"
+			tasks: [{
+				id: "38869DCCA28D998B"
+				item: "integrateddynamics:variable"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E8025C11C76068A"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest1807092491428585374.description1}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest1807092491428585374.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.6storage_solutions.quest1807092491428585374.description3}"
+			]
+			id: "1914150BEBE05F9E"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0BED262C60FE1908"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest1807092491428585374.subtitle}"
+			tasks: [{
+				id: "199593F6EF871C4A"
+				item: "integratedterminals:menril_glass"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["551DB871D2CB8FEB"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest9115327157134296714.description1}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest9115327157134296714.description2}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest9115327157134296714.description3}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest9115327157134296714.description4}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.6storage_solutions.quest9115327157134296714.description5}"
+			]
+			id: "7E8025C11C76068A"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "6BB6733334E74044"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest9115327157134296714.subtitle}"
+			tasks: [
+				{
+					id: "527C0DE28EA32794"
+					item: "integrateddynamics:squeezer"
+					type: "item"
+				}
+				{
+					id: "0C3DA3AB55E35B28"
+					item: "integrateddynamics:drying_basin"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E0A920D550C7AC7"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.quest1744617770773368089.description1}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest1744617770773368089.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.6storage_solutions.quest1744617770773368089.description3}"
+				""
+				"{ftbquests.chapter.6storage_solutions.quest1744617770773368089.description4}"
+			]
+			id: "1836209E7FC7CD19"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "7AF3827AA32775EF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6storage_solutions.quest1744617770773368089.subtitle}"
+			tasks: [
+				{
+					id: "30A87EECC1CC7EA0"
+					item: "integrateddynamics:cable"
+					type: "item"
+				}
+				{
+					id: "1C252A9DB4E01CB4"
+					item: "integratedtunnels:part_interface_item"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.6storage_solutions.quest1744617770773368089.title}"
+			x: 9.0d
+			y: 1.0d
+		}
+	]
+	title: "{ftbquests.chapter.6storage_solutions.title}"
+}

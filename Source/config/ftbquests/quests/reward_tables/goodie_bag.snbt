@@ -1,0 +1,105 @@
+{
+	empty_weight: 100.0f
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "blue_skies:loot_bag"
+		tag: {
+			Rarity: 0
+		}
+	}
+	id: "5DAE368999CA7D72"
+	loot_size: 3
+	order_index: 0
+	rewards: [
+		{ item: "artifacts:whoopee_cushion" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:written_book"
+				tag: {
+					Enchantments: [{
+						id: "ars_nouveau:reactive"
+						lvl: 1
+					}]
+					HideFlags: 1
+					author: "adam989911"
+					display: {
+						Lore: ["{\"translate\":\"lore.mce2.goodie_bag.1\"}"]
+					}
+					pages: [
+						"{\"translate\":\"page.mce2.goodie_bag.1\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.2\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.3\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.4\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.5\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.6\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.7\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.8\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.9\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.10\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.11\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.12\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.13\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.14\"}"
+						"{\"translate\":\"page.mce2.goodie_bag.15\"}"
+					]
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:rainbow_rune"
+					}
+					resolved: 1b
+					title: "§7Animals Vol 1."
+				}
+			}
+		}
+		{ item: "rats:rat_arrow" }
+		{
+			item: {
+				Count: 1
+				id: "immersive_weathering:flower_crown"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:black_banner"
+				tag: {
+					BlockEntityTag: {
+						Patterns: [{
+							Color: 0
+							Pattern: "ratb"
+						}]
+						id: "minecraft:banner"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:piano"
+				tag: {
+					display: {
+						Name: "{\"translate\":\"name.mce2.goodie_bag.1\"}"
+					}
+					enabled_tracks: [I; ]
+					melody: "immersive_melodies:melodies/sus.midi"
+					playing: 1b
+					start_time: 37509L
+				}
+			}
+		}
+	]
+	title: "{ftbquests.loot_table.6750392856093556082.title}"
+	use_title: true
+}

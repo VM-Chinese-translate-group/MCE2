@@ -1,0 +1,162 @@
+{
+	icon: "resourcefulbees:crafting_bee_box"
+	id: "5C7BEE7FBCE29B42"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "packed_lunch"
+	}
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:hot_cocoa"
+				tag: {
+					display: {
+						Lore: ["{\"translate\":\"lore.mce2.packed_lunch.1\"}"]
+					}
+					rpgloot.randomize: 0b
+				}
+			}
+			random_bonus: 3
+			weight: 3.0f
+		}
+		{
+			count: 6
+			item: {
+				Count: 1
+				id: "farmersdelight:honey_cookie"
+				tag: {
+					display: {
+						Lore: ["{\"translate\":\"lore.mce2.packed_lunch.2\"}"]
+					}
+					rpgloot.randomize: 0b
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:mixed_salad"
+				tag: {
+					display: {
+						Lore: ["{\"translate\":\"lore.mce2.packed_lunch.3\"}"]
+					}
+					rpgloot.randomize: 0b
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:pasta_with_meatballs"
+				tag: {
+					display: {
+						Lore: ["{\"translate\":\"lore.mce2.packed_lunch.4\"}"]
+						Name: "{\"translate\":\"lore.mce2.packed_lunch.5\"}"
+					}
+					rpgloot.randomize: 0b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "thermal:pbj_sandwich"
+				tag: {
+					display: {
+						Lore: ["{\"translate\":\"lore.mce2.packed_lunch.6\"}"]
+					}
+					rpgloot.randomize: 0b
+				}
+			}
+			weight: 3.0f
+		}
+		{ count: 3, item: "create:honeyed_apple", random_bonus: 3, weight: 5.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "farmersdelight:vegetable_soup"
+				tag: {
+					StoredEffect: {
+						Effects: [{
+							EffectAmplifier: 1
+							EffectDuration: 3600
+							EffectName: "minecraft:strength"
+						}]
+					}
+					display: {
+						Lore: [
+							"{\"translate\":\"lore.mce2.packed_lunch.7\"}"
+							"{\"text\":\"\"}"
+							"{\"translate\":\"lore.mce2.packed_lunch.8\"}"
+							"{\"translate\":\"lore.mce2.packed_lunch.9\"}"
+							"{\"translate\":\"lore.mce2.packed_lunch.10\"}"
+						]
+						Name: "{\"translate\":\"name.mce2.packed_lunch.1\"}"
+					}
+				}
+			}
+		}
+		{
+			amount: 100L
+			currency: "eternalcurrencies:coins"
+			ignore_reward_blocking: true
+			title: "&6Lunch Money"
+			type: "eternalcurrencies:currency"
+		}
+		{
+			item: {
+				Count: 1
+				id: "some_assembly_required:sandwich"
+				tag: {
+					BlockEntityTag: {
+						Sandwich: [
+							{
+								Count: 1b
+								id: "some_assembly_required:bread_slice"
+							}
+							{
+								Count: 1b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:fire_resistance"
+								}
+							}
+							{
+								Count: 1b
+								id: "some_assembly_required:bread_slice"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "rats:assorted_vegetables"
+				tag: {
+					display: {
+						Lore: ["[\"\",{\"translate\":\"lore.mce2.mom_market.1\",\"color\":\"green\"}]"]
+					}
+				}
+			}
+		}
+		{ item: "milkablecreepers:creeper_milk" }
+	]
+	title: "{ftbquests.loot_table.6664182306022005570.title}"
+}

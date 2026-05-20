@@ -1,0 +1,107 @@
+{
+	id: "30B2DEAE390170BF"
+	loot_size: 1
+	order_index: 34
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "gtbcs_geomancy_plus:geo"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:fire"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:ice"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:lightning"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:holy"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:ender"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:blood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:evocation"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:nature"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "cataclysm_spellbooks:abyssal"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "cataclysm_spellbooks:technomancy"
+				}
+			}
+		}
+	]
+	title: "manuscript"
+}

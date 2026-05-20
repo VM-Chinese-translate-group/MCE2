@@ -1,0 +1,1074 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mining"
+	group: "12BCDDCCCA65FD77"
+	icon: {
+		Count: 1
+		id: "gonefishing:sunken_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1E2DE0DC5D73868D"
+	images: [
+		{
+			height: 1.0d
+			image: "prehistoricfauna:textures/items/thagomizer_pickaxe.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 12.0d
+			image: "minecraft:textures/misc/scorched_letter.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/item/lantern.png"
+			rotation: 3.0d
+			width: 1.0d
+			x: -2.5357142857142847d
+			y: -1.9464285714285765d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/item/chain.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.4693877551020407d
+			y: -2.5714285714285694d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4789D17B88722641"]
+			description: [
+				"{ftbquests.chapter.mining.quest4156035262804243701.description1}"
+				""
+				"{ftbquests.chapter.mining.quest4156035262804243701.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "39AD340D4971B4F5"
+			rewards: [
+				{
+					count: 8
+					id: "0F0252950C4B16DA"
+					item: {
+						Count: 1
+						id: "minecraft:lantern"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "1AD33577E76AA501"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mining.quest4156035262804243701.subtitle}"
+			tasks: [{
+				id: "3486D6580A337C12"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5239A5F8AE9FC855"]
+			id: "16B5F7BDC893B4EE"
+			rewards: [
+				{
+					id: "78BA8632CC0157CD"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "74854F92028659FF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "03A405CDF5B8F763"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mining.quest1636486434105046254.subtitle}"
+			tasks: [{
+				id: "6846CE31AE41E313"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39AD340D4971B4F5"]
+			description: ["{ftbquests.chapter.mining.quest5924949272282777685.description1}"]
+			id: "5239A5F8AE9FC855"
+			rewards: [
+				{
+					count: 3
+					id: "2779D8C032FB8FB8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "03CCB9B4C2B0C3C7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "216CAE9C787D3398"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mining.quest5924949272282777685.subtitle}"
+			tasks: [{
+				id: "65193D8BFFCA4291"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39AD340D4971B4F5"]
+			hide_dependency_lines: true
+			id: "106D4AB2F2861EAD"
+			rewards: [
+				{
+					count: 32
+					id: "6C06980C26B6A938"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "40B8A8ED3361ACB8"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "1336B60F93482E27"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.mining.quest1183684409501818541.subtitle}"
+			tasks: [
+				{
+					count: 32L
+					id: "5EB238FCA048A3CD"
+					item: {
+						Count: 1
+						id: "minecraft:raw_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 45L
+					id: "0758477ABD826A79"
+					item: {
+						Count: 1
+						id: "minecraft:raw_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "26684842E083AB87"
+					item: {
+						Count: 1
+						id: "minecraft:raw_copper"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mining.quest1183684409501818541.title}"
+			x: -0.8d
+			y: -0.8d
+		}
+		{
+			dependencies: ["39AD340D4971B4F5"]
+			hide_dependency_lines: true
+			id: "71B5F14976D96DF4"
+			rewards: [
+				{
+					count: 32
+					id: "2772C64444C341B9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "1EEC015920382C19"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44C4194469768FBE"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:lucky_rock"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+							display: {
+								Name: "{\"translate\":\"name.mce2.mining.1\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "637A4AA08A9BB73C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.mining.quest8193720394899353076.subtitle}"
+			tasks: [
+				{
+					count: 8L
+					id: "562A186F4BABA0A0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3AA0A063611EE1F6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "125049987EB0AE7F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "41C52D2D76E27B85"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mining.quest8193720394899353076.title}"
+			x: 0.8d
+			y: -0.8d
+		}
+		{
+			dependencies: ["39AD340D4971B4F5"]
+			hide_dependency_lines: true
+			id: "6BF472202E3C5BEE"
+			rewards: [
+				{
+					count: 8
+					id: "0ECAEE794F7946D4"
+					item: {
+						Count: 1
+						id: "minecraft:glow_berries"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "39AFC150E6DE8685"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "46AFA9B16C50D859"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "63EF4C45B672463C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.mining.quest7778967938915916782.subtitle}"
+			tasks: [{
+				count: 64L
+				id: "7FAC63CEA2FA1521"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mining.quest7778967938915916782.title}"
+			x: -1.221428571428575d
+			y: -0.3795918367346971d
+		}
+		{
+			dependencies: ["39AD340D4971B4F5"]
+			description: ["{ftbquests.chapter.mining.quest9041398380452631684.description1}"]
+			hide_dependency_lines: true
+			id: "7D797FEC73ABD484"
+			rewards: [
+				{
+					id: "7AF195613837C4EB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01E96B87FF3A38DE"
+					item: {
+						Count: 1
+						id: "tconstruct:pickaxe"
+						tag: {
+							Damage: 0
+							HideFlags: 3
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.mining.1\"}"
+									"{\"translate\":\"lore.mce2.mining.2\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.mining.2\"}"
+							}
+							etstlib_tool_uuid: "ec5f2ea8-d0d6-4b26-ba94-9b0853f6a4a5"
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:copper"
+								"tconstruct:pig_iron"
+								"tconstruct:electrum"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:autosmelt"
+								}
+								{
+									level: 3
+									name: "tconstruct:haste"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:tasty"
+								}
+								{
+									level: 1
+									name: "tconstruct:experienced"
+								}
+								{
+									level: 1
+									name: "tconstruct:pierce"
+								}
+								{
+									level: 1
+									name: "tconstruct:dwarven"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: { }
+							tic_persistent_data: {
+								"tconstruct:creative": {
+									upgrades: 1
+								}
+								"tconstruct:haste": 45
+								upgrades: -1
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:attack_damage": 1.7249999f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:durability": 346.5f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 14.450001f
+							}
+							tic_upgrades: [
+								{
+									level: 1s
+									name: "tconstruct:autosmelt"
+								}
+								{
+									level: 3s
+									name: "tconstruct:haste"
+								}
+								{
+									level: 1s
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 1s
+									name: "tconstruct:emerald"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+								"tconstruct:rarity": 1
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "6B9F5244C8E30A39"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.mining.quest9041398380452631684.subtitle}"
+			tasks: [{
+				block: "minecraft:stone"
+				block_type: 0
+				checkItem: false
+				id: "160C560760F01942"
+				type: "questsadditions:break"
+				value: 4664L
+			}]
+			title: "{ftbquests.chapter.mining.quest9041398380452631684.title}"
+			x: 1.2642857142857196d
+			y: -0.3795918367346971d
+		}
+		{
+			dependencies: [
+				"71B5F14976D96DF4"
+				"106D4AB2F2861EAD"
+				"6BF472202E3C5BEE"
+			]
+			description: ["{ftbquests.chapter.mining.quest6410433765430371974.description1}"]
+			hide_dependency_lines: true
+			id: "58F66F8BB4A5A686"
+			rewards: [
+				{
+					id: "1E4D2B9BFA1499F3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "134190DC291A8002"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.mining.quest6410433765430371974.subtitle}"
+			tasks: [{
+				biome: "minecraft:dripstone_caves"
+				icon: {
+					Count: 1
+					id: "minecraft:dripstone_block"
+					tag: { }
+				}
+				id: "681D67B3FE0C4388"
+				title: "{ftbquests.chapter.mining.quest6410433765430371974.task.7502266577028137864.title}"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"71B5F14976D96DF4"
+				"106D4AB2F2861EAD"
+				"6BF472202E3C5BEE"
+			]
+			description: ["{ftbquests.chapter.mining.quest3281582345321303253.description1}"]
+			hide_dependency_lines: true
+			id: "2D8A85C1AA11CCD5"
+			rewards: [
+				{
+					command: "/titles add {p}titles:dwarf"
+					elevate_perms: true
+					icon: "titles:title_scroll_uncommon"
+					id: "1751F3FB18D062B6"
+					title: "{ftbquests.chapter.mining.quest3281582345321303253.reward.1680392395764556470.title}"
+					type: "command"
+				}
+				{
+					id: "020296474C359E3C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "15A0AABCCFCCDF97"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.mining.quest3281582345321303253.subtitle}"
+			tasks: [{
+				biome: "minecraft:lush_caves"
+				icon: {
+					Count: 1
+					id: "minecraft:glow_berries"
+					tag: { }
+				}
+				id: "3FF3FC9541AFDB07"
+				title: "{ftbquests.chapter.mining.quest3281582345321303253.task.4608304561712519943.title}"
+				type: "biome"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58F45881D48D9534"]
+			description: ["{ftbquests.chapter.mining.quest3460186953449756008.description1}"]
+			hide_dependency_lines: true
+			id: "30050DB388D05568"
+			rewards: [
+				{
+					id: "72BA2CD288243683"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "4C80FF79B6708515"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 1500L
+					currency: "eternalcurrencies:coins"
+					id: "3D214116C59B03E2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.mining.quest3460186953449756008.subtitle}"
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/discover_primordial_caves"
+					criterion: ""
+					id: "2405B19FE084E32E"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/discover_forlorn_hollows"
+					criterion: ""
+					id: "73F1F7F8116084B9"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/discover_toxic_caves"
+					criterion: ""
+					id: "58669C73C47A14FA"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/discover_abyssal_chasm"
+					criterion: ""
+					id: "267C8A94E3E0D3DE"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/discover_candy_cavity"
+					criterion: ""
+					id: "3492D870FB1E804A"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/discover_magnetic_caves"
+					criterion: ""
+					id: "50875908566D7E2F"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.mining.quest3460186953449756008.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39AD340D4971B4F5"]
+			description: [
+				"{ftbquests.chapter.mining.quest8033327730336826704.description1}"
+				""
+				"{ftbquests.chapter.mining.quest8033327730336826704.description2}"
+				""
+				"{ftbquests.chapter.mining.quest8033327730336826704.description3}"
+				"{ftbquests.chapter.mining.quest8033327730336826704.description4}"
+				""
+				"{ftbquests.chapter.mining.quest8033327730336826704.description5}"
+			]
+			hide_dependency_lines: true
+			id: "6F7C1D0223058550"
+			rewards: [
+				{
+					count: 3
+					id: "3329E87169F12312"
+					item: {
+						Count: 1
+						id: "mekanism:block_charcoal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0F32412E80FC2F0A"
+					item: {
+						Count: 1
+						id: "minecraft:amethyst_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "21B12599109501E6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4915FE1FF748DE62"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "{ftbquests.chapter.mining.quest8033327730336826704.subtitle}"
+			tasks: [{
+				id: "310FA1963FDAD265"
+				item: {
+					Count: 1
+					id: "immersive_machinery:tunnel_digger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mining.quest8033327730336826704.title}"
+			x: -1.9761904761904745d
+			y: 2.761904761904752d
+		}
+		{
+			dependencies: ["5239A5F8AE9FC855"]
+			description: [
+				"{ftbquests.chapter.mining.quest2823051759884533869.description1}"
+				"{ftbquests.chapter.mining.quest2823051759884533869.description2}"
+				""
+				"{ftbquests.chapter.mining.quest2823051759884533869.description3}"
+				"{ftbquests.chapter.mining.quest2823051759884533869.description4}"
+			]
+			hide_dependency_lines: true
+			id: "272D7E9E5275806D"
+			rewards: [
+				{
+					id: "4D6E37CF431CDEB6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "6C55239FCEB7B3C3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "{ftbquests.chapter.mining.quest2823051759884533869.subtitle}"
+			tasks: [{
+				id: "56AE37E65F02C816"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mce2:mininggadgets"
+					}
+				}
+				only_from_crafting: true
+				title: "{ftbquests.chapter.mining.quest2823051759884533869.task.6245991195785480214.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mining.quest2823051759884533869.title}"
+			x: 2.0d
+			y: 2.761904761904752d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.mining.quest4971210052405956054.description1}"
+				""
+				"{ftbquests.chapter.mining.quest4971210052405956054.description2}"
+				""
+				"{ftbquests.chapter.mining.quest4971210052405956054.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					Rainbow: 1b
+				}
+			}
+			id: "44FD49343D820DD6"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "017EA6371E3A5BE9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.mining.quest4971210052405956054.subtitle}"
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/root"
+					criterion: ""
+					icon: "minecraft:stripped_oak_log"
+					id: "53C881772ABEEB80"
+					title: "{ftbquests.chapter.mining.quest4971210052405956054.task.6037217649308396416.title}"
+					type: "advancement"
+				}
+				{
+					id: "1F4F38E35DA16E30"
+					item: "alexscaves:spelunkery_table"
+					type: "item"
+				}
+				{
+					advancement: "alexscaves:alexscaves/cave_tablet"
+					criterion: ""
+					id: "71574DF96C9B64BF"
+					title: "{ftbquests.chapter.mining.quest4971210052405956054.task.8167082182924002495.title}"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.mining.quest4971210052405956054.title}"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44FD49343D820DD6"]
+			description: [
+				"{ftbquests.chapter.mining.quest6409845484295132468.description1}"
+				""
+				"{ftbquests.chapter.mining.quest6409845484295132468.description2}"
+				""
+				"{ftbquests.chapter.mining.quest6409845484295132468.description3}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.mining.quest6409845484295132468.description4}"
+				""
+				"{ftbquests.chapter.mining.quest6409845484295132468.description5}"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_map"
+				tag: {
+					Filled: 1b
+				}
+			}
+			id: "58F45881D48D9534"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5CF2837863AD8D03"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "43098D38126E69A4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mining.quest6409845484295132468.subtitle}"
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/cave_codex"
+					criterion: ""
+					id: "7E6FB54AE3ED3399"
+					title: "{ftbquests.chapter.mining.quest6409845484295132468.task.9110699904449983385.title}"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/cave_map"
+					criterion: ""
+					id: "567F0EEFBE248A92"
+					title: "{ftbquests.chapter.mining.quest6409845484295132468.task.6232716832154094226.title}"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.mining.quest6409845484295132468.title}"
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	title: "{ftbquests.chapter.mining.title}"
+}
