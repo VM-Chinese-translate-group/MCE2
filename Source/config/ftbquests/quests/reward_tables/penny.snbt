@@ -1,0 +1,34 @@
+{
+	id: "5A39920C0FF1F852"
+	loot_size: 1
+	order_index: 20
+	rewards: [{
+		item: {
+			Count: 1
+			id: "ftbquests:lootcrate"
+			tag: {
+				Enchantments: [{
+					id: "ars_nouveau:reactive"
+					lvl: 1
+				}]
+				HideFlags: 33
+				display: {
+					Lore: [
+						"{\"translate\":\"lore.mce2.occultism.1\"}"
+						"{\"translate\":\"lore.mce2.high_risk.1\"}"
+					]
+					Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+				}
+				"quark:RuneAttached": 1b
+				"quark:RuneColor": {
+					Count: 1b
+					id: "quark:rainbow_rune"
+				}
+				rpgloot.randomize: 0b
+				type: "quest_loot"
+			}
+		}
+		weight: 10.0f
+	}]
+	title: "{ftbquests.loot_table.6501388117590800466.title}"
+}

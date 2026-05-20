@@ -1,0 +1,59 @@
+{
+	hide_tooltip: true
+	id: "031850ED17CA9970"
+	loot_crate: {
+		color: 5592405
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "forgotten_trashcan"
+	}
+	loot_size: 4
+	order_index: 28
+	rewards: [
+		{ count: 3, item: "rats:cheese", only_one: true }
+		{
+			item: {
+				Count: 1
+				id: "farmersrespite:green_tea_cookie"
+				tag: {
+					display: {
+						Lore: [
+							"{\"translate\":\"lore.mce2.forgotten_trashcan.1\"}"
+							"{\"translate\":\"lore.mce2.forgotten_trashcan.2\"}"
+						]
+						Name: "{\"translate\":\"name.mce2.forgotten_trashcan.1\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+		{ item: "alexscaves:green_soylent" }
+		{ item: "rats:raw_rat" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:paper"
+				tag: {
+					display: {
+						Lore: [
+							"{\"translate\":\"lore.mce2.dev.2\" ,\"color\":\"gray\",\"italic\":true}"
+							"{\"translate\":\"lore.mce2.dev.3\",\"color\":\"red\",\"italic\":true}"
+							"{\"translate\":\"lore.mce2.dev.4\",\"color\":\"dark_red\",\"underlined\":true}"
+							"{\"translate\":\"lore.mce2.dev.5\",\"color\":\"gray\",\"italic\":true}"
+							"{\"translate\":\"lore.mce2.dev.6\",\"color\":\"gray\",\"italic\":true}"
+							"{\"translate\":\"lore.mce2.dev.7\",\"color\":\"gray\",\"italic\":true}"
+							"{\"translate\":\"lore.mce2.dev.8\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true}"
+						]
+						Name: "{\"translate\":\"name.mce2.dev.1\",\"color\":\"dark_gray\",\"italic\":true}"
+					}
+				}
+			}
+			only_one: true
+			weight: 4.0f
+		}
+	]
+	title: "{ftbquests.loot_table.223017160791464304.title}"
+}

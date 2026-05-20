@@ -1,0 +1,1945 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "bosses"
+	group: "53833FE85BBBE6D0"
+	icon: "rats:golden_rat_skull"
+	id: "322E6D520538A4F1"
+	images: [
+		{
+			height: 20.0d
+			image: "modpack:textures/bossbook.png"
+			rotation: 0.2d
+			width: 20.0d
+			x: 6.345238095238095d
+			y: 5.63095238095238d
+		}
+		{
+			corner: true
+			dependency: "635E94D6AB74B9D9"
+			height: 1.3d
+			image: "modpack:textures/mc-eternal-gems-comm-gem-8.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 0.36142857142857365d
+			y: 3.6000000000000014d
+		}
+		{
+			corner: true
+			dependency: "061E529BEA06143B"
+			height: 1.3d
+			image: "modpack:textures/mc-eternal-gems-comm-gem-8.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 4.53d
+			y: 3.6d
+		}
+		{
+			corner: true
+			dependency: "3EE3E2913158A875"
+			height: 1.3d
+			image: "modpack:textures/mc-eternal-gems-comm-gem-8.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 3.085714285714282d
+			y: 3.6000000000000014d
+		}
+		{
+			dependency: "0162F2A9F032B442"
+			height: 1.3d
+			image: "modpack:textures/mc-eternal-gems-comm-gem-8.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 1.7d
+			y: 3.6258503401360613d
+		}
+		{
+			corner: true
+			dependency: "6C5F3002C2B7C68C"
+			height: 1.3d
+			image: "modpack:textures/mc-eternal-gems-comm-gem-9.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 3.1011904761904816d
+			y: 1.288095238095238d
+		}
+		{
+			corner: true
+			dependency: "6B99D9083276026D"
+			height: 1.3d
+			image: "modpack:textures/mc-eternal-gems-comm-gem-9.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 4.55d
+			y: 1.288095238095238d
+		}
+		{
+			corner: true
+			dependency: "2E84DFAD10C02EB1"
+			height: 1.3d
+			image: "modpack:textures/mc-eternal-gems-comm-gem-9.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 1.7d
+			y: 1.288095238095238d
+		}
+		{
+			dependency: "39BF898B24417156"
+			height: 1.3d
+			image: "modpack:textures/mc-eternal-gems-comm-gem-9.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 0.4d
+			y: 1.288095238095238d
+		}
+		{
+			dependency: "320F677D8A962681"
+			height: 1.3d
+			image: "modpack:textures/mc-eternal-gems-comm-gem-10.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 0.34693877551020336d
+			y: 5.938775510204081d
+		}
+		{
+			dependency: "7505BE829530541C"
+			height: 1.3d
+			image: "modpack:textures/mc-eternal-gems-comm-gem-10.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 1.7d
+			y: 5.93d
+		}
+		{
+			corner: true
+			dependency: "76F98E53D8839A11"
+			height: 1.3d
+			image: "modpack:textures/mc-eternal-gems-comm-gem-7.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 3.1055900621118013d
+			y: 5.9378881987577685d
+		}
+		{
+			corner: true
+			dependency: "516CEC98C05CC1EB"
+			height: 1.3d
+			image: "modpack:textures/mc-eternal-gems-comm-gem-7.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 4.511111d
+			y: 5.938775510204081d
+		}
+		{
+			height: 4.0d
+			image: "modpack:textures/mc-eternal-sticky-note-difficulty-mode.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			height: 8.0d
+			image: "modpack:textures/elegant_letter.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 20.0d
+			y: 3.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.bosses.quest8573039856442382865.description1}"
+				""
+				"{ftbquests.chapter.bosses.quest8573039856442382865.description2}"
+				""
+				"{ftbquests.chapter.bosses.quest8573039856442382865.description3}"
+				"{ftbquests.chapter.bosses.quest8573039856442382865.image0}"
+			]
+			icon: {
+				Count: 1
+				id: "endrem:corrupted_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "76F98E53D8839A11"
+			rewards: [
+				{
+					command: "/titles add {p} titles:goblinbane"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_common"
+					id: "29675BF8BA282F99"
+					title: "{ftbquests.chapter.bosses.quest8573039856442382865.reward.2983454401989455769.title}"
+					type: "command"
+				}
+				{
+					id: "3FE9C9C45AFA8687"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "3F78AAB633882353"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0D7A541646793988"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "0CC339E18FA0319F"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.bosses.quest8573039856442382865.subtitle}"
+			tasks: [{
+				id: "202DB88496FB2526"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bosses.quest8573039856442382865.title}"
+			x: 7.408163265306136d
+			y: 2.551020408163275d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.bosses.quest8432355345379120156.description1}"
+				""
+				"{ftbquests.chapter.bosses.quest8432355345379120156.description2}"
+				""
+				"{ftbquests.chapter.bosses.quest8432355345379120156.description3}"
+				""
+				"{ftbquests.chapter.bosses.quest8432355345379120156.description4}"
+				"{ftbquests.chapter.bosses.quest8432355345379120156.image0}"
+			]
+			icon: {
+				Count: 1
+				id: "endrem:black_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7505BE829530541C"
+			rewards: [
+				{
+					command: "/titles add {p} titles:pirate_captain"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "05C6F9447B89C2BB"
+					title: "{ftbquests.chapter.bosses.quest8432355345379120156.reward.416294088104067771.title}"
+					type: "command"
+				}
+				{
+					id: "2BE401E54D438D1C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "02568A8EB45BCAB9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5D92B1C879F9B36A"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "39A963E65EA4C2C2"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.bosses.quest8432355345379120156.subtitle}"
+			tasks: [{
+				id: "3FFEE71D12B54F2E"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bosses.quest8432355345379120156.title}"
+			x: 8.996598639455804d
+			y: 0.06462585034014268d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.bosses.quest7753466862724579949.description1}"
+				""
+				"{ftbquests.chapter.bosses.quest7753466862724579949.description2}"
+				"{ftbquests.chapter.bosses.quest7753466862724579949.image0}"
+			]
+			icon: {
+				Count: 1
+				id: "endrem:cold_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B99D9083276026D"
+			rewards: [
+				{
+					command: "/titles add {p} titles:the_frozen"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "6C22DED1D418EE12"
+					title: "{ftbquests.chapter.bosses.quest7753466862724579949.reward.7792035298092314130.title}"
+					type: "command"
+				}
+				{
+					id: "2CE5D2CD0F68C6EB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "367A5C9BE68A8748"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6B43CC7B04A5C6EC"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "220C732DA8DB36E2"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.bosses.quest7753466862724579949.subtitle}"
+			tasks: [{
+				id: "18E3151544F6AAF8"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bosses.quest7753466862724579949.title}"
+			x: 11.91496598639457d
+			y: 0.14625850340136992d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.bosses.quest4161195811415355734.description1}"
+				""
+				"{ftbquests.chapter.bosses.quest4161195811415355734.description2}"
+				""
+				"{ftbquests.chapter.bosses.quest4161195811415355734.description3}"
+				""
+				"{ftbquests.chapter.bosses.quest4161195811415355734.description4}"
+				""
+				"{ftbquests.chapter.bosses.quest4161195811415355734.description5}"
+				"{ftbquests.chapter.bosses.quest4161195811415355734.image0}"
+			]
+			icon: {
+				Count: 1
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "39BF898B24417156"
+			rewards: [
+				{
+					command: "/titles add {p} titles:the_spiritcaller"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "3746FC00D92544E2"
+					title: "{ftbquests.chapter.bosses.quest4161195811415355734.reward.3983148001029080290.title}"
+					type: "command"
+				}
+				{
+					id: "48B7D8A3E6247DB7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70731B195045AA9F"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "44EEC80D10DB2FA7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "5C0483B7941AAA1C"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.bosses.quest4161195811415355734.subtitle}"
+			tasks: [{
+				id: "7AA27D450A1F0A88"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bosses.quest4161195811415355734.title}"
+			x: 7.690476190476225d
+			y: 3.9829931972789225d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.bosses.quest99908953448821826.image0}"
+				"{ftbquests.chapter.bosses.quest99908953448821826.description1}"
+				"{ftbquests.chapter.bosses.quest99908953448821826.description2}"
+				""
+				"{ftbquests.chapter.bosses.quest99908953448821826.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0162F2A9F032B442"
+			rewards: [
+				{
+					id: "25C43F3919397ADC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "cataclysm:music_disc_ignis"
+					}
+					type: "item"
+				}
+				{
+					id: "361BE4B903D3DD31"
+					item: "iceandfire:dragonegg_red"
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:demon_slayer"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_uncommon"
+					id: "00D5CEEED941D81B"
+					title: "{ftbquests.chapter.bosses.quest99908953448821826.reward.60181695281879067.title}"
+					type: "command"
+				}
+				{
+					id: "7FE25BFCB061768C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DEE3DEF76AA15AE"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "0A2228EC66381FDF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "7C5510C41B8981C4"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.bosses.quest99908953448821826.subtitle}"
+			tasks: [{
+				id: "0B51833A2F5CF98F"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bosses.quest99908953448821826.title}"
+			x: 8.792517006802761d
+			y: 5.329931972789126d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.bosses.quest7809013067298621068.description1}"
+				"{ftbquests.chapter.bosses.quest7809013067298621068.description2}"
+				""
+				"{ftbquests.chapter.bosses.quest7809013067298621068.description3}"
+				"{ftbquests.chapter.bosses.quest7809013067298621068.image0}"
+			]
+			icon: {
+				Count: 1
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C5F3002C2B7C68C"
+			rewards: [
+				{
+					command: "/titles add {p} titles:sun_burnt"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_uncommon"
+					id: "0BD0DF048DAFC694"
+					title: "{ftbquests.chapter.bosses.quest7809013067298621068.reward.851425540222994068.title}"
+					type: "command"
+				}
+				{
+					id: "7FC42FAFF83BEB9D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "1FAD598C93411507"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4E77A7926CD808AC"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "3E62191E217C1EC8"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.bosses.quest7809013067298621068.subtitle}"
+			tasks: [{
+				id: "54DAA9A9BDC6E761"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bosses.quest7809013067298621068.title}"
+			x: 10.44557823129253d
+			y: -0.22108843537414202d
+		}
+		{
+			dependencies: ["46C671151AE613A1"]
+			description: ["{ftbquests.chapter.bosses.quest3755364829256556249.description1}"]
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			icon: "alexsmobs:void_worm_eye"
+			id: "341DBC6A59D51ED9"
+			optional: true
+			rewards: [
+				{
+					command: "/titles add {p} titles:voidlord"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "72FD7EB5624CE117"
+					title: "{ftbquests.chapter.bosses.quest3755364829256556249.reward.8285918206934966551.title}"
+					type: "command"
+				}
+				{
+					amount: 2500L
+					currency: "eternalcurrencies:coins"
+					id: "1536238B30EE4C6D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4077746F2C42331D"
+					item: {
+						Count: 1
+						id: "dreadsteel:dreadsteel_scythe"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 10
+							}]
+							display: {
+								Lore: ["{\"translate\":\"lore.mce2.bosses.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.bosses.2\"}"
+							}
+							dmcloot.rarity: "legendary"
+							dmcloot.swiftness: 15
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "quark:blue_rune"
+							}
+							rpgloot.randomize: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.95d
+			subtitle: "{ftbquests.chapter.bosses.quest3755364829256556249.subtitle}"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "alexsmobs:void_worm_eye"
+				id: "232C885B1F64CEA9"
+				title: "{ftbquests.chapter.bosses.quest3755364829256556249.task.2534550615252848297.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.bosses.quest3755364829256556249.title}"
+			x: 10.369047619047613d
+			y: 2.702380952380949d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.bosses.quest3607215615440725633.description1}"
+				""
+				"{ftbquests.chapter.bosses.quest3607215615440725633.description2}"
+				""
+				"{ftbquests.chapter.bosses.quest3607215615440725633.description3}"
+				""
+				"{ftbquests.chapter.bosses.quest3607215615440725633.description4}"
+				""
+				"{ftbquests.chapter.bosses.quest3607215615440725633.description5}"
+				"{ftbquests.chapter.bosses.quest3607215615440725633.image0}"
+			]
+			icon: {
+				Count: 1
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "320F677D8A962681"
+			rewards: [
+				{
+					command: "/titles add {p} titles:the_withered"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "1B4BA990B8644E49"
+					title: "{ftbquests.chapter.bosses.quest3607215615440725633.reward.1966852101311319625.title}"
+					type: "command"
+				}
+				{
+					id: "3848E5B0FFDAF535"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48241B98A7E5D003"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "41A885CF6C1762A8"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "63A30E83E889B880"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.bosses.quest3607215615440725633.subtitle}"
+			tasks: [{
+				id: "49F1A8CD12054ACB"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bosses.quest3607215615440725633.title}"
+			x: 13.221088435374163d
+			y: 4.044217687074841d
+		}
+		{
+			description: [
+				""
+				"{ftbquests.chapter.bosses.quest7160324107286133209.description1}"
+				""
+				"{ftbquests.chapter.bosses.quest7160324107286133209.description2}"
+				"{ftbquests.chapter.bosses.quest7160324107286133209.image0}"
+			]
+			icon: {
+				Count: 1
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "635E94D6AB74B9D9"
+			rewards: [
+				{
+					id: "5FF63397134FA77C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "cataclysm:music_disc_netherite_monstrosity"
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:vanquisher"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_uncommon"
+					id: "112006616A786B76"
+					title: "{ftbquests.chapter.bosses.quest7160324107286133209.reward.1233993313367386998.title}"
+					type: "command"
+				}
+				{
+					id: "346D96B444AC8567"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "0B7C0EB41AFE1977"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1EC0EE88EE297F40"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "18F9A9AEB07E1600"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.bosses.quest7160324107286133209.subtitle}"
+			tasks: [{
+				id: "702D1C1AA83E16EB"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bosses.quest7160324107286133209.title}"
+			x: 13.057823129251716d
+			y: 1.2278911564625972d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.bosses.quest440880643128562747.description1}"
+				"{ftbquests.chapter.bosses.quest440880643128562747.description2}"
+				"{ftbquests.chapter.bosses.quest440880643128562747.image0}"
+				"{ftbquests.chapter.bosses.quest440880643128562747.description3}"
+				""
+				"{ftbquests.chapter.bosses.quest440880643128562747.description4}"
+			]
+			id: "061E529BEA06143B"
+			rewards: [
+				{
+					command: "/titles add {p} titles:the_guardian"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "5B0BB798D05CA73C"
+					title: "{ftbquests.chapter.bosses.quest440880643128562747.reward.6560539149153904444.title}"
+					type: "command"
+				}
+				{
+					id: "285666BE5A7C702B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "7D2E0B66316BED4F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3AD3C5CBD3CB44A6"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "536987978C3F1550"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.bosses.quest440880643128562747.subtitle}"
+			tasks: [{
+				id: "7E28F286737EA4A9"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bosses.quest440880643128562747.title}"
+			x: 12.200680272108876d
+			y: 5.207482993197296d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.bosses.quest3352049957073858225.image0}"
+				"{ftbquests.chapter.bosses.quest3352049957073858225.description1}"
+				""
+				"{ftbquests.chapter.bosses.quest3352049957073858225.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2E84DFAD10C02EB1"
+			rewards: [
+				{
+					command: "/titles add {p} titles:ironside"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_uncommon"
+					id: "06439A84E2F5C8D9"
+					title: "{ftbquests.chapter.bosses.quest3352049957073858225.reward.451374283201300697.title}"
+					type: "command"
+				}
+				{
+					id: "498648B9C07706AC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "38279D8A49BE2C1C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "68B64FAB94B63CD4"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "6D69F36729A6A366"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.bosses.quest3352049957073858225.subtitle}"
+			tasks: [{
+				id: "12EA848687AB1062"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bosses.quest3352049957073858225.title}"
+			x: 7.9d
+			y: 1.1d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.bosses.quest5867324555363402219.description1}"
+				""
+				"{ftbquests.chapter.bosses.quest5867324555363402219.description2}"
+				""
+				"{ftbquests.chapter.bosses.quest5867324555363402219.description3}"
+				"{ftbquests.chapter.bosses.quest5867324555363402219.image0}"
+			]
+			icon: {
+				Count: 1
+				id: "endrem:witch_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "516CEC98C05CC1EB"
+			rewards: [
+				{
+					command: "/titles add {p} titles:dame_fortuna"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "41F792DC0BE7C683"
+					title: "{ftbquests.chapter.bosses.quest5867324555363402219.reward.4753429405503047299.title}"
+					type: "command"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "152FEBD788213CC9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6D892EB0B155031E"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					id: "5681BEA39E8A81C5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "00F78DC44DE55701"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.bosses.quest5867324555363402219.subtitle}"
+			tasks: [{
+				id: "710165FB8FDE1035"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bosses.quest5867324555363402219.title}"
+			x: 10.486394557823168d
+			y: 5.840136054421784d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.bosses.quest4531714763290880117.description1}"
+				"{ftbquests.chapter.bosses.quest4531714763290880117.description2}"
+				""
+				"{ftbquests.chapter.bosses.quest4531714763290880117.description3}"
+				""
+				"{ftbquests.chapter.bosses.quest4531714763290880117.description4}"
+				""
+				"{ftbquests.chapter.bosses.quest4531714763290880117.description5}"
+				"{ftbquests.chapter.bosses.quest4531714763290880117.image0}"
+			]
+			id: "3EE3E2913158A875"
+			rewards: [
+				{
+					command: "/titles add {p} titles:the_immortal"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "6F3BD211F59D65F1"
+					title: "{ftbquests.chapter.bosses.quest4531714763290880117.reward.8015230936412939761.title}"
+					type: "command"
+				}
+				{
+					id: "7838DBDAAF175753"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "116A754C0E661281"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "4E866C947DAE887B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "6762337856012415"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.bosses.quest4531714763290880117.subtitle}"
+			tasks: [{
+				id: "371F374B9BEDADC0"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bosses.quest4531714763290880117.title}"
+			x: 13.486394557823147d
+			y: 2.595238095238109d
+		}
+		{
+			dependencies: ["253E532D09E3AA9B"]
+			description: [
+				"{ftbquests.chapter.bosses.quest7768807002001649286.description1}"
+				""
+			]
+			hide_until_deps_visible: true
+			id: "6BD058CEB2E02E86"
+			invisible: true
+			rewards: [
+				{
+					icon: {
+						Count: 1b
+						id: "mceletters:elegant_letter"
+						tag: {
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"message.mce2.bosses.1\"}"
+								]
+								Name: "{\"italic\":false,\"color\":\"dark_green\",\"font\":\"runelic:runelic\",\"translate\":\"name.mce2.bosses.1\"}"
+							}
+						}
+					}
+					id: "5D43D03C81FEC70F"
+					title: "{ftbquests.chapter.bosses.quest7768807002001649286.reward.6720444027264485135.title}"
+					type: "random"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "080AD8D8677D71A0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "hexagon"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.bosses.quest7768807002001649286.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "6CA697653A4B121F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "mceletters:elegant_letter"
+						tag: {
+							opened: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "35C820A4FE048ED3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:lantern"
+					}
+					title: "{ftbquests.chapter.bosses.quest7768807002001649286.task.3875383372360748755.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses.quest7768807002001649286.title}"
+			x: 12.8d
+			y: -1.6d
+		}
+		{
+			dependencies: ["2E84DFAD10C02EB1"]
+			description: ["{ftbquests.chapter.bosses.quest7137369629242663414.description1}"]
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			hide_until_deps_visible: true
+			id: "630D07DCC5ABA1F6"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "4B98D449E0496AA2"
+					type: "custom"
+				}
+				{
+					command: "/effect give {p} mowziesmobs:sunblock 500"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "mowziesmobs:sunblock_staff"
+					}
+					id: "0C9D08C99586098B"
+					title: "{ftbquests.chapter.bosses.quest7137369629242663414.reward.908892361688746379.title}"
+					type: "command"
+				}
+				{
+					id: "115ECE1C96D757C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "jellyfishing:triple_gooberberry_sunrise"
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:pet"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "titles:title_scroll_uncommon"
+					}
+					id: "3E3BCE1B88B2B6B4"
+					title: "{ftbquests.chapter.bosses.quest7137369629242663414.reward.4484404471630313140.title}"
+					type: "command"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "556B067806B0FAA9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "{ftbquests.chapter.bosses.quest7137369629242663414.subtitle}"
+			tasks: [{
+				consume_items: true
+				id: "357627B15106F1CD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "fishyweaponry:salmondagger"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "cursed:midas"
+								lvl: 1
+							}
+							{
+								id: "cursed:misfortune"
+								lvl: 1
+							}
+							{
+								id: "embellishedenchanting:antigravity"
+								lvl: 3
+							}
+							{
+								id: "embellishedenchanting:annihilation"
+								lvl: 3
+							}
+							{
+								id: "minecraft:fire_aspect"
+								lvl: 3
+							}
+						]
+						Unbreakable: 1b
+						display: {
+							Lore: [
+								"{\"translate\":\"lore.mce2.bosses.3\"}"
+								"{\"translate\":\"lore.mce2.bosses.4\"}"
+							]
+							Name: "{\"translate\":\"name.mce2.bosses.2\"}"
+						}
+						itemModifier: "modifiers:sharp"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 11.9d
+			y: -1.4d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.bosses.quest4404459266648913869.description1}"
+				""
+				"{ftbquests.chapter.bosses.quest4404459266648913869.description2}"
+				"{ftbquests.chapter.bosses.quest4404459266648913869.description3}"
+				""
+				"{ftbquests.chapter.bosses.quest4404459266648913869.description4}"
+				""
+				"{ftbquests.chapter.bosses.quest4404459266648913869.description5}"
+				"{ftbquests.chapter.bosses.quest4404459266648913869.description6}"
+				"{ftbquests.chapter.bosses.quest4404459266648913869.image0}"
+			]
+			icon: "endrem:ancient_portal_frame"
+			id: "3D1FC85E004937CD"
+			rewards: [{
+				id: "3E8C5969D03E84C5"
+				item: {
+					Count: 1
+					id: "domesticationinnovation:sinister_carrot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.bosses.quest4404459266648913869.subtitle}"
+			tasks: [{
+				disable_toast: true
+				id: "5C25465F983C7E12"
+				title: "{ftbquests.chapter.bosses.quest4404459266648913869.task.6639790602017603090.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.bosses.quest4404459266648913869.title}"
+			x: -0.20376984126982478d
+			y: -0.9704365079364905d
+		}
+		{
+			dependencies: ["21E8E86EA4485926"]
+			id: "18F900271434CBB7"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "79AEBE5BE51F0E7D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:sunken"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_uncommon"
+					id: "0A4479D4F9FF8D44"
+					title: "{ftbquests.chapter.bosses.quest1799469693953952695.reward.739850194429906244.title}"
+					type: "command"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "10B1EE68CA75D65B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7B995CBC23939571"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "70350E803EAE3C4F"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bosses.quest1799469693953952695.subtitle}"
+			tasks: [{
+				id: "2ABC3ABF671186F0"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.55952380952379d
+			y: 0.5059523809523796d
+		}
+		{
+			dependencies: ["21E8E86EA4485926"]
+			id: "0A715F82561D4E3E"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "6E4452798BB882C8"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:xp"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "04B713FBA413BDAE"
+					title: "{ftbquests.chapter.bosses.quest752487626142731838.reward.339762268400237998.title}"
+					type: "command"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "0708DF78672531A1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4A919290315AE87B"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "095E2FB0285B275D"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bosses.quest752487626142731838.subtitle}"
+			tasks: [{
+				id: "531C226A8B381A3A"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.773809523809497d
+			y: 3.077380952380949d
+		}
+		{
+			dependencies: ["21E8E86EA4485926"]
+			id: "6868E856376060F7"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "6DE980252C89B742"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:lich_eye"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_uncommon"
+					id: "0D4027ADE5C68066"
+					title: "{ftbquests.chapter.bosses.quest7523518634516308215.reward.954806748840362086.title}"
+					type: "command"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "6F4914129DDDF69C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "25F375D382429440"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "361B8679CBB228FB"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bosses.quest7523518634516308215.subtitle}"
+			tasks: [{
+				id: "12D5F140D8B093DC"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.773809523809497d
+			y: 0.4702380952380949d
+		}
+		{
+			dependencies: ["21E8E86EA4485926"]
+			id: "44648584BA862F2B"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "6B260143ED2CE0E2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:evil_eye"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_uncommon"
+					id: "5FBAD66E034E01EF"
+					title: "{ftbquests.chapter.bosses.quest4928210697361698603.reward.6898061547261526511.title}"
+					type: "command"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "5B5AF20B08783D7D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "573E5566F5584ED9"
+					item: "kubejs:artifact_endergem"
+					type: "item"
+				}
+				{
+					icon: "biomancy:fleshkin_chest"
+					id: "6B9D233E0492D3F6"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bosses.quest4928210697361698603.subtitle}"
+			tasks: [{
+				id: "36DFB80191128E18"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.55952380952379d
+			y: 3.1130952380952337d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.bosses.quest2443458359748745510.description1}"
+				"{ftbquests.chapter.bosses.quest2443458359748745510.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "goety:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "21E8E86EA4485926"
+			rewards: [
+				{
+					id: "59C149FB8AA5EDB3"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					amount: 10L
+					currency: "eternalcurrencies:coins"
+					id: "3CD51785BAB8A3BC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses.quest2443458359748745510.subtitle}"
+			tasks: [{
+				id: "58480ACED9382A33"
+				title: "{ftbquests.chapter.bosses.quest2443458359748745510.task.6361346357184703027.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.bosses.quest2443458359748745510.title}"
+			x: 18.666666666666643d
+			y: 1.8630952380952337d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "all_started"
+			description: [
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description1}"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description2}"
+				""
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description3}"
+				""
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description4}"
+				""
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description5}"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description6}"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description7}"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description8}"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description9}"
+				"{ftbquests.chapter.bosses.quest1829358634823403967.description10}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
+			id: "19632FFC6B7149BF"
+			optional: true
+			rewards: [
+				{
+					id: "0788FFB2967A774C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5BAC7BFE2C31CDC1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C795EB7241BFD6B"
+					item: {
+						Count: 1
+						id: "farmersdelight:grilled_salmon"
+						tag: {
+							display: {
+								Lore: [
+									"{\"translate\":\"lore.mce2.bosses.5\"}"
+									"{\"translate\":\"lore.mce2.bosses.6\"}"
+								]
+								Name: "{\"translate\":\"name.mce2.bosses.3\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "513F9AD219BB077A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "rsquare"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.bosses.quest1829358634823403967.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "39FD61C57BBD576E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3BFAD968A5D80F01"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "farmersdelight:chicken_sandwich"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "394F05E6F2FBA075"
+					item: {
+						Count: 1
+						id: "minecraft:amethyst_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "78B4452CCBCF264F"
+					item: {
+						Count: 1
+						id: "minecraft:glow_ink_sac"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3C2E1F3BC58C64B9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/silver"
+						}
+					}
+					title: "{ftbquests.chapter.bosses.quest1829358634823403967.task.4336437832782210233.title}"
+					type: "item"
+				}
+				{
+					id: "100F2404E0CA97E3"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses.quest1829358634823403967.title}"
+			x: -1.017857142857146d
+			y: -0.9166666666666643d
+		}
+	]
+	title: "{ftbquests.chapter.bosses.title}"
+}

@@ -1,0 +1,64 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vampirism__hunter"
+	group: "701563945253F512"
+	icon: "vampirism:item_garlic"
+	id: "52FDEA33A9076353"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"{ftbquests.chapter.vampirism__hunter.quest6838801563490709196.description1}"
+			"{ftbquests.chapter.vampirism__hunter.quest6838801563490709196.image0}"
+			""
+			"{ftbquests.chapter.vampirism__hunter.quest6838801563490709196.description2}"
+		]
+		id: "5EE84DC9D93FEECC"
+		incompatible: ["738D0748DDD99C54"]
+		optional: true
+		rewards: [
+			{
+				amount: 250L
+				currency: "eternalcurrencies:coins"
+				id: "0571C69BC9399983"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}
+			{
+				id: "619F190294D22DD0"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						HideFlags: 33
+						display: {
+							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+						}
+						type: "quest_loot"
+					}
+				}
+				type: "item"
+			}
+		]
+		subtitle: "{ftbquests.chapter.vampirism__hunter.quest6838801563490709196.subtitle}"
+		tasks: [{
+			id: "1618A5334A7B52DE"
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "vampirism:injection_garlic"
+			}
+			type: "item"
+		}]
+		title: "{ftbquests.chapter.vampirism__hunter.quest6838801563490709196.title}"
+		x: 2.0d
+		y: 0.0d
+	}]
+	title: "{ftbquests.chapter.vampirism__hunter.title}"
+}

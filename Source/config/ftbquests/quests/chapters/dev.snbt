@@ -1,0 +1,720 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dev"
+	group: "12BCDDCCCA65FD77"
+	id: "3F5F5331D7F0E669"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			hide_until_deps_visible: true
+			icon: "undergarden:mogmoss"
+			id: "757234016AD66E49"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.clthe_nether.1\",\"color\":\"dark_red\",\"bold\":true},{\"translate\":\"message.mce2.dev.1\"}]"
+				icon: "autumnity:red_maple_sapling"
+				id: "1A0517AB986A5101"
+				title: "{ftbquests.chapter.dev.quest8462883830474632777.reward.1874930845633630465.title}"
+				type: "command"
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.dev.quest8462883830474632777.subtitle}"
+			tasks: [{
+				dimension: "midnight:the_midnight"
+				disable_toast: true
+				id: "39D3F87D1451E5A3"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.dev.quest8462883830474632777.title}"
+			x: 0.0d
+			y: -0.1d
+		}
+		{
+			description: ["{ftbquests.chapter.dev.quest4294137544383696301.description1}"]
+			disable_toast: true
+			id: "3B97D75865A88DAD"
+			rewards: [{
+				auto: "enabled"
+				id: "30A31047D86E715D"
+				item: {
+					Count: 1
+					id: "ftbquests:book"
+					tag: {
+						display: {
+							Lore: [
+								"{\"translate\":\"lore.mce2.bosses.3\"}"
+								"{\"translate\":\"lore.mce2.dev.1\"}"
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.dev.quest4294137544383696301.subtitle}"
+			tasks: [{
+				block: "minecraft:logs"
+				block_type: 1
+				checkItem: false
+				id: "2CF28C7ABA71E31C"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.dev.quest4294137544383696301.title}"
+			x: 1.0d
+			y: -0.1d
+		}
+		{
+			id: "70147B2F28595BEB"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw {p} {\"translate\":\"message.mce2.dev.2\",\"italic\":true,\"color\":\"dark_gray\"}"
+					console: true
+					id: "624172FF6FE62976"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add {p} the_desecrator"
+					console: true
+					id: "6C150BA13188A288"
+					team_reward: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "18FF477E06EEDB12"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "11C63B988512F565"
+			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				id: "369BF8740B018820"
+				item: "kubejs:mobdrop_endermanheart_beating"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "warwither:war_wither"
+				id: "3D8C819AAAE3E303"
+				secret: true
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "31EA68E22CCC44CB"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw {p} {\"translate\":\"message.mce2.dev.3\",\"italic\":true,\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"message.mce2.dev.4\",\"color\":\"gold\"}]}}"
+				console: true
+				elevate_perms: true
+				id: "265DF6C4B9A97718"
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "3FFB354201BB453A"
+				secret: true
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "0C604AD6F5D6D10C"
+			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				id: "33C8FCB4BADDADD5"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "1AE59A49C8330386"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "008603DC679289D0"
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				id: "13F8D34CD238E9A5"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: {
+						display: {
+							Lore: [
+								"{\"translate\":\"lore.mce2.dev.2\" ,\"color\":\"gray\",\"italic\":true}"
+								"{\"translate\":\"lore.mce2.dev.3\",\"color\":\"red\",\"italic\":true}"
+								"{\"translate\":\"lore.mce2.dev.4\",\"color\":\"dark_red\",\"underlined\":true}"
+								"{\"translate\":\"lore.mce2.dev.5\",\"color\":\"gray\",\"italic\":true}"
+								"{\"translate\":\"lore.mce2.dev.6\",\"color\":\"gray\",\"italic\":true}"
+								"{\"translate\":\"lore.mce2.dev.7\",\"color\":\"gray\",\"italic\":true}"
+								"{\"translate\":\"lore.mce2.dev.8\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true}"
+							]
+							Name: "{\"translate\":\"name.mce2.dev.1\",\"color\":\"dark_gray\",\"italic\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78B64AC468A6042B"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: {
+						display: {
+							Lore: [
+								"{\"translate\":\"lore.mce2.dev.9\"}"
+								"{\"translate\":\"lore.mce2.dev.10\"}"
+								"{\"text\":\"\"}"
+								"{\"translate\":\"lore.mce2.dev.11\"}"
+								"{\"text\":\"\"}"
+								"{\"translate\":\"lore.mce2.dev.12\"}"
+								"{\"translate\":\"lore.mce2.dev.13\"}"
+								"{\"translate\":\"lore.mce2.dev.14\"}"
+								"{\"translate\":\"lore.mce2.dev.15\"}"
+								"{\"text\":\"\"}"
+							]
+							Name: "{\"translate\":\"name.mce2.dev.2\"}"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.dev.quest37721892044573136.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: ["{ftbquests.chapter.dev.quest3872601178615469033.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "quest_loot"
+				}
+			}
+			id: "35BE3E41082253E9"
+			optional: true
+			rewards: [{
+				id: "0ABFCC834230AB28"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						HideFlags: 33
+						display: {
+							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+						}
+						type: "quest_loot"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dev.quest3872601178615469033.subtitle}"
+			tasks: [{
+				id: "607465DCA45BABDF"
+				type: "custom"
+			}]
+			title: "{ftbquests.chapter.dev.quest3872601178615469033.title}"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			icon: "uniqueaccessories:starved_wolf_skull"
+			id: "34AD4C86A5CFCBF5"
+			invisible: true
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				id: "608FE65403028EA0"
+				item: {
+					Count: 1
+					id: "petcapturetool:capture_tool"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"For the Captains eyes only! -Devinchat\",\"color\":\"gray\",\"italic\":true}"]
+						}
+						entity: {
+							AbsorptionAmount: 0.0f
+							ActiveEffects: [{
+								Ambient: 0b
+								Amplifier: 1b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 375
+								Id: 10
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:regeneration"
+								pufferfish_unofficial_additions.modified: 0b
+							}]
+							Age: 0
+							Air: 300s
+							AngerTime: 0
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							Attributes: [
+								{
+									Base: 0.1d
+									Name: "caelus:fall_flying"
+								}
+								{
+									Base: 16.0d
+									Modifiers: [{
+										Amount: -0.03613903002587129d
+										Name: "Random spawn bonus"
+										Operation: 1
+										UUID: [I;
+											-1969829220
+											67586756
+											-1972836228
+											1664935804
+										]
+									}]
+									Name: "minecraft:generic.follow_range"
+								}
+								{
+									Base: 0.0d
+									Name: "obscure_api:regeneration"
+								}
+								{
+									Base: 1.0d
+									Name: "obscure_api:healing_power"
+								}
+								{
+									Base: 0.0d
+									Name: "minecraft:generic.armor_toughness"
+								}
+								{
+									Base: 0.30000001192092896d
+									Name: "minecraft:generic.movement_speed"
+								}
+								{
+									Base: 1.0d
+									Name: "irons_spellbooks:fire_magic_resist"
+								}
+								{
+									Base: 1.0d
+									Name: "irons_spellbooks:holy_magic_resist"
+								}
+								{
+									Base: 1.0d
+									Name: "irons_spellbooks:nature_magic_resist"
+								}
+								{
+									Base: 1.0d
+									Name: "irons_spellbooks:eldritch_magic_resist"
+								}
+								{
+									Base: 1.0d
+									Name: "irons_spellbooks:evocation_magic_resist"
+								}
+								{
+									Base: 1.0d
+									Name: "irons_spellbooks:blood_magic_resist"
+								}
+								{
+									Base: 1.0d
+									Name: "irons_spellbooks:ice_magic_resist"
+								}
+								{
+									Base: 0.0d
+									Name: "forge:step_height_addition"
+								}
+								{
+									Base: 1.0d
+									Name: "forge:swim_speed"
+								}
+								{
+									Base: 1.0d
+									Name: "irons_spellbooks:lightning_magic_resist"
+								}
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+								{
+									Base: 4.0d
+									Name: "minecraft:generic.attack_damage"
+								}
+								{
+									Base: 0.0d
+									Name: "minecraft:generic.knockback_resistance"
+								}
+								{
+									Base: 1.0d
+									Name: "irons_spellbooks:ender_magic_resist"
+								}
+								{
+									Base: NaNd
+									Name: "puffish_attributes:healing"
+								}
+								{
+									Base: 0.0d
+									Name: "minecraft:generic.armor"
+								}
+								{
+									Base: 20.0d
+									Modifiers: [{
+										Amount: 100.0d
+										Name: "health boost pet upgrade"
+										Operation: 0
+										UUID: [I;
+											1433278053
+											-1961869112
+											-1885483109
+											376368878
+										]
+									}]
+									Name: "minecraft:generic.max_health"
+								}
+							]
+							BaguData: { }
+							BalmData: { }
+							Brain: {
+								memories: { }
+							}
+							CanPickUpLoot: 0b
+							CanUpdate: 1b
+							CitadelData: {
+								CollarSwapCooldown: 20
+								HasPetCollar: 1b
+								SafePetHealth: 120.0d
+								StoredPetEnchantments: [
+									{
+										id: "domesticationinnovation:health_boost"
+										lvl: 10s
+									}
+									{
+										id: "domesticationinnovation:tethered_teleport"
+										lvl: 1s
+									}
+									{
+										id: "domesticationinnovation:fireproof"
+										lvl: 1s
+									}
+									{
+										id: "domesticationinnovation:total_recall"
+										lvl: 1s
+									}
+									{
+										id: "domesticationinnovation:void_cloud"
+										lvl: 1s
+									}
+									{
+										id: "domesticationinnovation:deflection"
+										lvl: 1s
+									}
+									{
+										id: "domesticationinnovation:gluttonous"
+										lvl: 1s
+									}
+									{
+										id: "domesticationinnovation:intimidation"
+										lvl: 2s
+									}
+								]
+							}
+							CollarColor: 14b
+							CustomName: "{\"text\":\"Long Boi\"}"
+							DICommand: 1
+							DeathTime: 0s
+							EntityJSData: { }
+							FallDistance: 0.0f
+							FallFlying: 0b
+							Fire: -1s
+							FireType: "minecraft:"
+							ForcedAge: 0
+							ForgeCaps: {
+								"botania:loonium_drop": { }
+								"brewinandchewin:raging": {
+									stacks: 0
+									ticks_until_reset: 0
+								}
+								"brewinandchewin:tipsy_numbed_hearts": {
+									numbed_health: 0.0f
+									ticks_until_damage: 0
+								}
+								"cataclysm:charge_cap": {
+									ChargeDamage: 0.0f
+									ChargeTime: 0
+									KnockbackSpeed: 0.0f
+									dx: 0.0f
+									dz: 0.0f
+									isCharge: 0b
+									timer: 0
+								}
+								"cataclysm:hook_cap": {
+									hasHook: 0b
+								}
+								"cataclysm:parry_cap": {
+									frame: 0
+								}
+								"cataclysm:render_rush_cap": {
+									damage: 0.0f
+									isRush: 0b
+									timer: 0
+								}
+								"cataclysm:tentacle_cap": {
+									getLastTentacleID: 0
+									hasTentacle: 0b
+								}
+								"curios:inventory": {
+									Curios: [ ]
+								}
+								"framework:synced_entity_data": [ ]
+								"goety:misc": {
+									ambientSoundTime: 0
+									clientTargetID: 0
+									customSpinTexture: "textures/entity/trident_riptide.png"
+									freezeLevel: 0
+									mobTargetID: 0
+									shakeTime: 0
+									shieldCool: 0
+									shieldTime: 0
+									shields: 0
+								}
+								"iceandfire:entity_data": {
+									chainedData: { }
+									chickenData: {
+										timeUntilNextEgg: -1
+									}
+									frozenData: {
+										frozenTicks: 0
+										isFrozen: 0b
+									}
+									miscData: {
+										hasDismounted: 0b
+										loveTicks: 0
+										lungeTicks: 0
+									}
+									sirenData: {
+										charmTime: 0
+										charmedById: -1
+										isCharmed: 0b
+									}
+								}
+								"mekanism:radiation": {
+									radiation: 1.0E-7d
+								}
+								"mowziesmobs:ability": { }
+								"mowziesmobs:frozen": {
+									freezeDecayDelay: 0
+									freezeProgress: 0.0f
+									frozen: 0b
+									frozenPitch: 0.0f
+									frozenRenderYawOffset: 0.0f
+									frozenSwingProgress: 0.0f
+									frozenWalkAnimPosition: 0.0f
+									frozenWalkAnimSpeed: 0.0f
+									frozenYaw: 0.0f
+									frozenYawHead: 0.0f
+									prevFrozen: 0b
+									prevHasAI: 1b
+								}
+								"mowziesmobs:frozen_cap": {
+									freezeDecayDelay: 0
+									freezeProgress: 0.0f
+									frozen: 0b
+									frozenPitch: 0.0f
+									frozenRenderYawOffset: 0.0f
+									frozenSwingProgress: 0.0f
+									frozenWalkAnimPosition: 0.0f
+									frozenWalkAnimSpeed: 0.0f
+									frozenYaw: 0.0f
+									frozenYawHead: 0.0f
+									prevFrozen: 0b
+									prevHasAI: 1b
+								}
+								"mowziesmobs:last_damage": { }
+								"mowziesmobs:living_cap": { }
+								"pneumaticcraft:hacking": { }
+								"royalvariations:cap": {
+									flashTick: 0
+									gazeTick: 0
+									markedTick: 0
+								}
+								"structure_gel:gel_entity": {
+									portal: "structure_gel:empty"
+								}
+								"tcompat:frozen": {
+									frozenTicks: 0
+									isFrozen: 0b
+								}
+								"tcompat:vampire_healing": { }
+								"tcompat:void_touched": {
+									Amplifier: 0
+									Duration: 0
+									TimeLeft: 0
+									Voided: 0b
+								}
+								"tconstruct:persistent_data": { }
+								"the_bumblezone:entity_dim_component": {
+									non_bz_dimensiontype_namespace: "minecraft"
+									non_bz_dmensiontype_path: "overworld"
+								}
+								"the_bumblezone:living_entity_data": {
+									missed_paralysis: 0
+								}
+								"the_bumblezone:original_flying_speed": {
+									original_flying_speed: 0.2f
+								}
+								"tombstone:cap_familiar": {
+									familiar_active: 0b
+								}
+								"vampirism:iextendedcreature": {
+									bloodLevel: 5
+									maxBlood: 5
+									poisonousBlood: 0b
+								}
+								"witherreincarnated:possessed_capability": {
+									PossessedFor: 0
+									PossessionCooldown: 0
+									PossessionTime: 0
+								}
+							}
+							ForgeData: {
+								insanelib: {
+									tags: {
+										spawn_type: 12b
+									}
+								}
+								"quark:PetTime": 874265L
+							}
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							HandItems: [
+								{ }
+								{ }
+							]
+							Health: 120.0f
+							HurtByTimestamp: 0
+							HurtTime: 0s
+							InLove: 0
+							Invulnerable: 0b
+							IsBewereager: 0b
+							IsCuredBewereager: 0b
+							LeftHanded: 0b
+							Motion: [
+								0.0d
+								-0.0784000015258789d
+								0.0d
+							]
+							OnGround: 1b
+							Owner: [I;
+								1602358329
+								1484997522
+								-1317785307
+								-1408900212
+							]
+							PersistenceRequired: 0b
+							PortalCooldown: 0
+							Pos: [
+								-167.5d
+								71.0d
+								-34.5d
+							]
+							Rotation: [
+								-62.15683f
+								0.0f
+							]
+							Sitting: 1b
+							UUID: [I;
+								-8442982
+								-1605089808
+								-1152416821
+								-1913495932
+							]
+							YouthPotion: 0b
+							ad_astra_giselle_addon: {
+								"ad_astra_giselle_addon:proof_duration": {
+									"ad_astra_giselle_addon:acid_rain": 0
+									"ad_astra_giselle_addon:gravity": 0
+									"ad_astra_giselle_addon:hot_temperature": 0
+									"ad_astra_giselle_addon:oxygen": 0
+								}
+							}
+							combatSuccess: 0
+							cpaCooldown: 0
+							cpadidTP: 0b
+							"forge:spawn_type": "SPAWN_EGG"
+							id: "minecraft:wolf"
+							rolledTraits: 1b
+						}
+					}
+				}
+				team_reward: false
+				title: "&6The Return of Longboi"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EEE06C7B620F231"
+				nbt: {
+					UUID: [I;
+						1602358329
+						1484997522
+						-1317785307
+						-1408900212
+					]
+				}
+				type: "questsadditions:playernbt"
+			}]
+			title: "&6The Return of Longboi"
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	title: "{ftbquests.chapter.dev.title}"
+}
