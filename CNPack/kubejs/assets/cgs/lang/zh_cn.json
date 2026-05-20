@@ -2,113 +2,12 @@
   "item.cgs.revolver": "黄铜左轮手枪",
   "item.cgs.round_revolver_piercing": "左轮穿甲弹",
   "item.cgs.round_gatling_piercing": "加特林穿甲弹",
-  "item.cgs.round_shotgun_incendiary": "霰弹枪燃烧弹",
+  "item.cgs.round_shotgun_incindary": "Shotgun Incindary Round",
   "item.cgs.press_form_7mm": "7毫米弹壳冲压模具",
   "item.cgs.press_form_10mm": "10毫米弹壳冲压模具",
   "item.cgs.shell_7mm": "7毫米弹壳",
   "item.cgs.shell_10mm": "10毫米弹壳",
   "item.cgs.round_7mm": "7毫米子弹",
   "item.cgs.round_10mm": "10毫米子弹",
-  "item.cgs.steam_engine": "加特林：蒸汽引擎",
-
-  "itemGroup.mod_items": "机械动力：枪械制造",
-
-  "info.cgs.fuel": "手持所需燃料后右击武器，即可为其补充燃料",
-
-  "slot.cgs.attachment.engine": "引擎",
-  "slot.cgs.attachment.frame": "枪身组件",
-  "slot.cgs.attachment.chamber": "链式弹膛",
-  "slot.cgs.attachment.head": "头部组件",
-
-  "info.cgs.air": "（背罐）空气",
-  "info.cgs.burnable": "燃料",
-
-  "item.cgs.flintlock": "燧发枪",
-  "item.cgs.shotgun": "霰弹枪",
-  "item.cgs.nailgun": "钉枪",
-  "item.cgs.gatling": "加特林机枪",
-  "item.cgs.blazegun": "烈焰枪",
-  "item.cgs.launcher": "发射器",
-  "item.cgs.hammer": "气动锤",
-  "item.cgs.axe": "气动斧",
-  "item.cgs.frag_grenade": "碎片手雷",
-
-  "item.cgs.barrel": "枪管",
-  "item.cgs.barrel_sturdy": "坚固枪管",
-
-  "item.cgs.press_form_gatling": "加特林弹壳冲压模具",
-  "item.cgs.press_form_revolver": "左轮弹壳冲压模具",
-  "item.cgs.press_form_shotgun": "霰弹枪弹壳冲压模具",
-
-  "item.cgs.shell_gatling": "加特林弹壳",
-  "item.cgs.shell_revolver": "左轮弹壳",
-  "item.cgs.shell_shotgun": "霰弹弹壳",
-
-  "item.cgs.round_gatling": "加特林子弹",
-  "item.cgs.round_revolver": "左轮子弹",
-  "item.cgs.round_shotgun": "霰弹",
-  "item.cgs.round_shotgun_blank": "霰弹枪空包弹",
-  "item.cgs.paper_cartridge": "纸质弹药筒",
-  "item.cgs.nail": "钉子",
-  "item.cgs.rocket": "火箭",
-  "item.cgs.rocket_small": "小型火箭",
-  "item.cgs.spear": "矛",
-
-  "item.cgs.scope": "瞄准镜",
-  "item.cgs.stock": "枪托",
-  "item.cgs.bayonet": "刺刀",
-  "item.cgs.big_bayonet": "大型刺刀",
-
-  "item.cgs.iron_sight": "加特林：机械瞄具",
-  "item.cgs.gatling_drum": "加特林机枪：弹鼓",
-
-  "item.cgs.round_belt": "左轮手枪：弹药链",
-  "item.cgs.auto_fire": "左轮手枪：全自动",
-  "item.cgs.long_barrel": "左轮手枪：加长枪管",
-
-  "item.cgs.shotgun_drum": "霰弹枪：弹鼓",
-  "item.cgs.shotgun_pump": "霰弹枪：自动装填",
-  "item.cgs.shotgun_long_barrel": "霰弹枪：加长枪管",
-  "item.cgs.shotgun_spread_barrel": "霰弹枪：散射枪管",
-
-  "item.cgs.nailgun_splitter": "钉枪：分裂枪管",
-
-  "item.cgs.potion_tank": "药水储罐",
-
-  "item.cgs.launcher_auto": "自动发射器",
-  "item.cgs.ballistazooka": "弩炮火箭筒",
-  "item.cgs.launcher_hook": "气动钩",
-  "item.cgs.item_launcher": "物品发射器",
-
-  "item.cgs.flintlock_long_barrel": "燧发枪：滑膛枪管",
-  "item.cgs.flintlock_mortar_barrel": "燧发枪：迫击炮管",
-
-  "item.cgs.hammer_chamber": "锤：枪膛",
-  "item.cgs.hammer_stone": "石锤头",
-  "item.cgs.hammer_iron": "铁锤头",
-  "item.cgs.hammer_diamond": "钻石锤头",
-  "item.cgs.hammer_netherite": "下界合金锤头",
-  "item.cgs.axe_stone": "石斧刃",
-  "item.cgs.axe_iron": "铁斧刃",
-  "item.cgs.axe_diamond": "钻石斧刃",
-  "item.cgs.axe_netherite": "下界合金斧刃",
-
-  "item.cgs.raw_lead": "粗铅",
-  "item.cgs.lead_ingot": "铅锭",
-  "item.cgs.lead_nugget": "铅粒",
-  "item.cgs.steel_ingot": "钢锭",
-  "item.cgs.steel_nugget": "钢粒",
-  "item.cgs.steel_sheet": "钢板",
-  "item.cgs.guano": "粪便",
-  "item.cgs.niter": "硝石",
-  "item.cgs.sulfur": "硫",
-  "item.cgs.charcoal_dust": "木炭粉",
-
-  "block.cgs.lead_ore": "铅矿石",
-  "block.cgs.deepslate_lead_ore": "深层铅矿石",
-  "block.cgs.sulfur_ore": "硫磺矿石",
-  "block.cgs.raw_lead_block": "粗铅块",
-  "block.cgs.lead_block": "铅块",
-
-  "block.cgs.steel_block": "钢块"
+  "item.cgs.steam_engine": "加特林：蒸汽引擎"
 }
