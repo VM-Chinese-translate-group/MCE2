@@ -1,9 +1,9 @@
 {
-  "block.vista.television": "Television",
-  "item.vista.cassette": "Cassette",
-  "item.vista.hollow_cassette": "Hollow Cassette",
+  "block.vista.television": "电视机",
+  "item.vista.cassette": "磁带盒",
+  "item.vista.hollow_cassette": "空磁带盒",
   "item.vista.picture_tape": "Picture Tape",
-  "block.vista.viewfinder": "Viewfinder",
+  "block.vista.viewfinder": "取景器",
   "tooltip.vista.cassette.tape": "Tape: %s",
   "tooltip.vista.hollow_cassette.linked": "Linked to [%1$s, %2$s, %3$s]",
   "tooltip.vista.hollow_cassette.linked_unknown": "Linked to invalid location",
@@ -27,8 +27,8 @@
   "subtitles.vista.television.eject": "Cassette Eject",
   "subtitles.vista.television.insert": "Cassette Insert",
   "message.vista.viewfinder.control": "Press %1$s to Dismount, %2$s to Lock/Unlock",
-  "item.vista.music_disc_sojourn": "Music Disc",
+  "item.vista.music_disc_sojourn": "音乐唱片",
   "item.vista.music_disc_sojourn.desc": "Hlzfss - Sojourn",
   "advancements.husbandry.vista.absolute_cinema.description": "Play a Cassette on a large screen Television.",
-  "advancements.husbandry.vista.absolute_cinema.title": "Absolute Cinema"
+  "advancements.husbandry.vista.absolute_cinema.title": "这才是真正的电影"
 }
