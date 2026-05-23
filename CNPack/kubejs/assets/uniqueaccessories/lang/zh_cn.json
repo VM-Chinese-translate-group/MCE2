@@ -214,15 +214,15 @@
   "adv.uniqueaccessories.get_epic_from_box.title": "大奖！！！！",
   "adv.uniqueaccessories.get_epic_from_box.desc": "从饰品盒中获得史诗级饰品",
 
-  "ua.category.belt": "Belt",
-  "ua.category.charm": "Charm",
-  "ua.category.feet": "Feet",
+  "ua.category.belt": "腰带",
+  "ua.category.charm": "护符",
+  "ua.category.feet": "足饰",
   "ua.category.loot": "Loot",
 
 
-  "ua.screen.title.global": "Unique Accessories - Client",
-  "ua.screen.title.server_ro": "Unique Accessories  - Client",
-  "ua.screen.title.world": "Unique Accessories - Client",
+  "ua.screen.title.global": "Unique Accessories - 客户端",
+  "ua.screen.title.server_ro": "Unique Accessories - 客户端",
+  "ua.screen.title.world": "Unique Accessories - 客户端",
 
 
   "ua.config.ancientChiselMining": "古代凿子：挖掘速度",
@@ -411,10 +411,10 @@
   "ua.config.loot.chances.tool_belt.village_savanna_house": "工具腰带：热带草原房屋箱子几率",
   "ua.config.loot.chances.tool_belt.village_snowy_house": "工具腰带：雪原房屋箱子几率",
   "ua.config.loot.chances.tool_belt.village_taiga_house": "工具腰带：针叶林房屋箱子几率",
-  "ua.config.loot.chances.waist_warmer.village_desert_house": "Waist Warmer: Desert House Chance",
-  "ua.config.loot.chances.waist_warmer.village_plains_house": "Waist Warmer: Plains House Chance",
-  "ua.config.loot.chances.waist_warmer.village_savanna_house": "Waist Warmer: Savanna House Chance",
-  "ua.config.loot.chances.waist_warmer.village_snowy_house": "Waist Warmer: Snowy House Chance",
-  "ua.config.loot.chances.waist_warmer.village_taiga_house": "Waist Warmer: Taiga House Chance",
+  "ua.config.loot.chances.waist_warmer.village_desert_house": "工具腰带：沙漠房屋箱子几率",
+  "ua.config.loot.chances.waist_warmer.village_plains_house": "工具腰带：平原房屋箱子几率",
+  "ua.config.loot.chances.waist_warmer.village_savanna_house": "工具腰带：热带草原房屋箱子几率",
+  "ua.config.loot.chances.waist_warmer.village_snowy_house": "工具腰带：雪原房屋箱子几率",
+  "ua.config.loot.chances.waist_warmer.village_taiga_house": "工具腰带：针叶林房屋箱子几率",
   "ua.config.loot.chances.withered_heart.nether_bridge": "枯萎之心：下界要塞里的箱子几率"
 }
