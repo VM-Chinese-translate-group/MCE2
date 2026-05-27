@@ -27,10 +27,10 @@
   "spell.ias_spellbooks.restorative_rain": "治愈之雨",
   "spell.ias_spellbooks.silken_breath": "丝之吐息",
   "spell.ias_spellbooks.blazing_imprint": "炽焰印记",
-  "spell.ias_spellbooks.pumpkin_spice": "南瓜香料",
+  "spell.ias_spellbooks.pumpkin_spice": "南瓜把戏",
 
-  "spell.ias_spellbooks.venomous_reborn.guide": "召唤可骑乘的腐败蜘蛛，它会保护你并为你战斗。但要小心：无法完全驯服它的意志，而它的凶猛可能难以预测。只能通过击败怪人和腐败蜘蛛获得。",
-  "spell.ias_spellbooks.dragline.guide": "编织一个魔法蜘蛛网困住目标，逐渐将它们拉向施法者。只能通过击败怪人和腐败蜘蛛获得。",
+  "spell.ias_spellbooks.venomous_reborn.guide": "召唤可骑乘的腐败蜘蛛，它会保护你并为你战斗。但要小心：你无法完全驯服它的意志，它的凶猛程度也可能超出你想象。只能通过击败怪人和腐败蜘蛛获得。",
+  "spell.ias_spellbooks.dragline.guide": "编织一张魔法蛛网困住目标，将它们逐渐拉向施法者。只能通过击败怪人和腐败蜘蛛获得。",
   "spell.ias_spellbooks.restorative_rain.guide": "将多个黑暗治疗药水抛向空中，形成一场可治疗附近实体的雨。只能通过击败魔法师获得。",
   "spell.ias_spellbooks.silken_breath.guide": "喷出一股灰烬和蛛丝，造成伤害并将实体缠绕在黏着的蛛网中。只能通过击败怪人和腐败蜘蛛获得。",
   "spell.ias_spellbooks.blazing_imprint.guide": "在一条直线上召唤多个小恶魔。这些生物会向上跳跃，点燃命中的任何实体并造成伤害。只能通过击败灵魂感应师获得。",
