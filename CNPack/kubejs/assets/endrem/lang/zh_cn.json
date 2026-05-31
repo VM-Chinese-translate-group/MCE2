@@ -1,33 +1,33 @@
 {
   "item.endrem.old_eye": "§e远古之眼",
-  "item.endrem.old_eye.description": "§7§o传说此眼曾属于一只巨大的沙虫",
+  "item.endrem.old_eye.description": "§7§o传说此眼曾属于一只巨大的沙虫。",
 
   "item.endrem.rogue_eye": "§2蔓延之眼",
   "item.endrem.rogue_eye.description": "§7§o它在你手里扭曲蠕动…这件物品看起来很有活力…或许该拿点除草剂来……",
 
   "item.endrem.nether_eye": "§4恶魔之眼",
-  "item.endrem.nether_eye.description": "§7§o它被一个强大的恶魔在主世界和下界之间的战斗中使用。后来，当一个傲慢的闯入者召唤恶魔时，这件神器被收回了。这件物品以一种你从未有过的方式激发勇气……",
+  "item.endrem.nether_eye.description": "§7§o主世界和下界大战时，此物属于一位强大的恶魔。后来，有位狂妄的闯入者召唤了这位恶魔，至此，这件造物才重现于世。它能赐予你难以想象的勇气……",
 
   "item.endrem.cold_eye": "§9冰封之眼",
-  "item.endrem.cold_eye.description": "§7§o冰封之眼是霜冻巨兽的至宝，无数人曾想将这宝物据为己有，他们都为此付出了代价。",
+  "item.endrem.cold_eye.description": "§7§o冰封之眼是霜冻巨兽的至宝，无数人曾想将这宝物据为己有，他们都为此付出了死亡的代价。",
 
   "item.endrem.magical_eye": "§7熔铸之眼",
-  "item.endrem.magical_eye.description": "§7§o若无此眼，钢铁守护者便形同虚设。此物蕴藏着远古之力，千余年来，一直由这位传奇的守卫者精心保护！",
+  "item.endrem.magical_eye.description": "§7§o若无此眼，钢铁守护者便形同虚设。此物蕴藏着远古之力，千余年来，一直由这位传奇的守卫者悉心保护！",
 
   "item.endrem.black_eye": "§8漆黑之眼",
-  "item.endrem.black_eye.description": "§7§o海盗传说曾言，得此物者可驭海如臂使指……约一个世纪前，可敬的科妮莉亚船长便踏上了寻找这件圣物的征途……自此音讯全无……",
+  "item.endrem.black_eye.description": "§7§o海盗间流传着这样的传说：得此物者可驭海如臂使指…约一个世纪前，可敬的科妮莉亚船长便踏上了寻找这件圣物的征途……自此音讯全无……",
 
-  "item.endrem.lost_eye": "§4迷离之眼",
+  "item.endrem.lost_eye": "§4迷失之眼",
   "item.endrem.lost_eye.description": "§7§o相传，此物乃一位上古铁匠所铸，其名讳已随时间而怅然湮没。而这件遗宝本身，乃是你生平所见至美之物。",
 
   "item.endrem.wither_eye": "§8机械之眼",
-  "item.endrem.wither_eye.description": "§7§o它曾见证毁灭。由一个徒劳地试图掌控凋零之力以期达成一己之私的未知远古文明所打造。",
+  "item.endrem.wither_eye.description": "§7§o它曾见证毁灭。某个未知的远古文明铸成此物，妄图驾驭凋零之力为己所用——只是，终究是枉费心机。",
 
-  "item.endrem.guardian_eye": "§e降福之眼",
-  "item.endrem.guardian_eye.description": "§7§o据信这只眼赐予我们的祖先日之祝福，使他们能够向敌人召唤出强大的光束，没有人知道它的起源。",
+  "item.endrem.guardian_eye": "§e耀福之眼",
+  "item.endrem.guardian_eye.description": "§7§o相传，此眼曾赐予我们的祖先“日之祝福”，使他们能够凝聚耀眼光束，攻击敌人。只是，其起源早已无从考证。",
 
   "item.endrem.cursed_eye": "§c炽烈之眼",
-  "item.endrem.cursed_eye.description": "§7§o炽烈之眼为下界铁掌供能，此物蕴含着无比的原始伟力。这些下界合金自动机器究竟由何人建造？其目的又究竟为何？",
+  "item.endrem.cursed_eye.description": "§7§o炽烈之眼为下界铁掌供能，蕴含着磅礴的原始之力。究竟是谁打造了这些下界合金傀儡？又是出于何种目的？",
 
   "item.endrem.exotic_eye": "§9寂没之眼",
   "item.endrem.exotic_eye.description": "§7§o所有跟着这只眼睛走的人都没再回来过；但有传言说，他们要么是找到了伟大的亚特兰蒂斯城，要么就是在寻找的路上彻底迷了路。",
