@@ -2,7 +2,7 @@
   "block.vista.television": "电视机",
   "item.vista.cassette": "盒式磁带",
   "item.vista.hollow_cassette": "空磁带盒",
-  "item.vista.picture_tape": "Picture Tape",
+  "item.vista.picture_tape": "贴画胶带",
   "block.vista.viewfinder": "取景器",
   "tooltip.vista.cassette.tape": "磁带：%s",
   "tooltip.vista.hollow_cassette.linked": "链接至 [%1$s,%2$s,%3$s]",
@@ -24,11 +24,11 @@
   "cassette_tape.vista.us.tooltip": "MehVahdJukaar - Us",
   "cassette_tape.vista.67.tooltip": "MehVahdJukaar - 67",
   "cassette_tape.vista.mc_98.tooltip": "Plantkillable - Mc 98",
-  "subtitles.vista.television.eject": "Cassette Eject",
-  "subtitles.vista.television.insert": "Cassette Insert",
+  "subtitles.vista.television.eject": "退出磁带",
+  "subtitles.vista.television.insert": "插入磁带",
   "message.vista.viewfinder.control": "按下%1$s来脱离，%2$s切换锁定",
   "item.vista.music_disc_sojourn": "音乐唱片",
   "item.vista.music_disc_sojourn.desc": "Hlzfss - Sojourn",
-  "advancements.husbandry.vista.absolute_cinema.description": "Play a Cassette on a large screen Television.",
+  "advancements.husbandry.vista.absolute_cinema.description": "在大屏电视上播放磁带",
   "advancements.husbandry.vista.absolute_cinema.title": "这才是真正的电影"
 }

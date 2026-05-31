@@ -93,7 +93,7 @@
 
   "info.royalvariations.item_info": "§8按住Shift以查看tooltip",
   "info.royalvariations.worn": "§f装备时：",
-  "info.royalvariations.royal_knight_armor.0": "§7套装效果:",
+  "info.royalvariations.royal_knight_armor.0": "§7套装效果：",
   "info.royalvariations.royal_knight_armor.1": "§8-当你的生命值降低至40%以下，你和附近的宠物获得临时的额外防御值",
   "info.royalvariations.royal_arrow.0": "§8具有更高伤害与击退效果",
   "info.royalvariations.royal_arrow.1": "§8使用§7皇家弓§8射击时会标记目标",
@@ -112,7 +112,7 @@
   "info.royalvariations.telelocator.active": "§8长按右键4秒以传送至锚点位置",
   "info.royalvariations.telelocator.Pos": "§6坐标：",
   "info.royalvariations.telelocator.PosNum": "§fX: %d, Y: %d, Z: %d",
-  "info.royalvariations.telelocator.PosDim": "§6维度: §f%d",
+  "info.royalvariations.telelocator.PosDim": "§6维度：§f%d",
   "info.royalvariations.telelocator.outDim": "传送锚点位于其他维度",
 
   "subtitle.royalvariations.royal_enderman_cast": "末影人施法",
