@@ -1,16 +1,16 @@
 {
   "itemGroup.enchlibathome": "Enchantment Library at Home",
-  "block.enchlibathome.library": "魔咒图书馆",
+  "block.enchlibathome.library": "附魔图书馆",
   "block.enchlibathome.ender_library": "亚历山大图书馆",
-  "enchlibathome.ench.library": "魔咒图书馆",
+  "enchlibathome.ench.library": "附魔图书馆",
   "tooltip.enchlib.capacity": "等级容量：%s",
   "tooltip.enchlib.max_lvl": "可用最高等级：%s",
   "tooltip.enchlib.points": "存储的点数：%s/%s",
   "tooltip.enchlib.unavailable": "下一等级不可用",
   "tooltip.enchlib.extracting": "将提取%s级",
   "tooltip.enchlib.cost": "消耗点数：%s",
-  "tooltip.enchlib.item": "存储%d个魔咒",
-  "info.enchlibathome.library": "魔咒图书馆可以存储魔咒。放入附魔书即可保存其中的魔咒。左键点击存储的魔咒提取一级，Shift+单击提取可用最高等级。",
-  "enchantment.level.16": "XVI",
-  "enchantment.level.31": "XXXI"
+  "tooltip.enchlib.item": "已存储%d个魔咒",
+  "info.enchlibathome.library": "附魔图书馆可以存储附魔。放入附魔书即可保存其中的附魔。左键已存储的附魔将提取一级，Shift+单击可直接提取至当前可用的最高等级。",
+  "enchantment.level.16": "XVI(16级)",
+  "enchantment.level.31": "XXXI(33级)"
 }
