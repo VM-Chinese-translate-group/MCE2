@@ -464,7 +464,7 @@
 				}
 				{
 					id: "726A67E0A99C0A2B"
-					item: "irons_restrictions:fragment"
+					item: "irons_spellbooks:common_ink"
 					type: "item"
 				}
 			]
@@ -623,11 +623,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "0353D0438E7EC42C"
-					item: "irons_restrictions:unfinished_manuscript"
-					type: "item"
-				}
 			]
 			tasks: [{
 				id: "461985041258E475"
@@ -714,20 +709,13 @@
 			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest2055641086258977452.description1}"]
 			icon: "irons_spellbooks:cinder_essence"
 			id: "1C871AAD3C2A1AAC"
-			rewards: [
-				{
-					amount: 150L
-					currency: "eternalcurrencies:coins"
-					id: "14DDDBFEAF88DC53"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "19859559847CC1B6"
-					item: "irons_restrictions:unfinished_manuscript"
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "14DDDBFEAF88DC53"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "74D716796B517B4C"
 				item: "irons_spellbooks:cinder_essence"
@@ -3204,7 +3192,7 @@
 				}
 				{
 					id: "24030E0286AD6B7E"
-					item: "irons_restrictions:unfinished_manuscript"
+					item: "irons_spellbooks:common_ink"
 					type: "item"
 				}
 			]
@@ -3253,11 +3241,6 @@
 							type: "quest_loot"
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "5AD9E761350C38BD"
-					item: "irons_restrictions:unfinished_manuscript"
 					type: "item"
 				}
 			]
@@ -3472,7 +3455,6 @@
 								Count: 1b
 								id: "irons_spellbooks:protection_upgrade_orb"
 							}
-						
 							{
 								Count: 1b
 								id: "cataclysm_spellbooks:abyssal_upgrade_orb"
@@ -3547,7 +3529,7 @@
 				}
 				{
 					id: "2FC246AC23A53391"
-					item: "irons_restrictions:unfinished_manuscript"
+					item: "irons_spellbooks:common_ink"
 					type: "item"
 				}
 			]
@@ -4968,7 +4950,7 @@
 				}
 				{
 					id: "69AECCDE4EE09A48"
-					item: "irons_restrictions:unfinished_manuscript"
+					item: "irons_spellbooks:common_ink"
 					type: "item"
 				}
 			]
@@ -5066,7 +5048,7 @@
 				}
 				{
 					id: "6B8DFD3501314129"
-					item: "irons_restrictions:unfinished_manuscript"
+					item: "irons_spellbooks:common_ink"
 					type: "item"
 				}
 				{
@@ -5121,17 +5103,6 @@
 						}
 					}
 					type: "item"
-				}
-				{
-					id: "29CE145D49CB9C2B"
-					item: "irons_restrictions:unfinished_manuscript"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3440C553C4EFDD70"
-					table_id: 3509111899537109183L
-					type: "choice"
 				}
 			]
 			tasks: [{
@@ -5251,97 +5222,6 @@
 			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1220284491402482986.title}"
 			x: 4.0d
 			y: -23.0d
-		}
-		{
-			dependencies: ["5161C98079099E9B"]
-			description: [
-				"Most spells except for the default Fireball (and spells that are imbued to weapons) must be researched before they can be cast! The &eUnfinished Manuscript&r can be crafted and researchs one random spell upon being used! It has a 30% chance of failure however!"
-				""
-				"&6Tip:&r You can craft finished manuscripts for each spell school to pick what spell you want to unlock! This is far more reliable!"
-			]
-			id: "5A219058111F3D94"
-			rewards: [
-				{
-					amount: 50L
-					currency: "eternalcurrencies:coins"
-					id: "56FEA88D6A71BF28"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6C6C05BB71CDEE33"
-					table_id: 3509111899537109183L
-					type: "choice"
-				}
-			]
-			subtitle: "Obtain an &eUnfinished Manuscript"
-			tasks: [{
-				id: "256A24EBBF01A67D"
-				item: "irons_restrictions:unfinished_manuscript"
-				type: "item"
-			}]
-			title: "The Wizardly Scholar"
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["308882A4A4DF3E7F"]
-			description: ["In order to be powerful enough to cast Legendary Spells, you must craft and use the &eLegendary Upgrade"]
-			id: "3E2C1A3F65EA95EC"
-			optional: true
-			rewards: [
-				{
-					amount: 500L
-					currency: "eternalcurrencies:coins"
-					id: "6501EF1EC1A26896"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "29E14368C816C9E6"
-					table_id: 3509111899537109183L
-					type: "choice"
-				}
-			]
-			subtitle: "Craft an &eLegendary Upgrade"
-			tasks: [{
-				id: "54B22563434BAB40"
-				item: "irons_restrictions:legendary_upgrade"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["5A219058111F3D94"]
-			description: ["In order to be powerful enough to cast Epic Spells, you must craft and use the &eEpic Upgrade"]
-			id: "308882A4A4DF3E7F"
-			optional: true
-			rewards: [
-				{
-					amount: 250L
-					currency: "eternalcurrencies:coins"
-					id: "71802B9289962765"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7FF0748B443F2CB9"
-					table_id: 3509111899537109183L
-					type: "choice"
-				}
-			]
-			subtitle: "Craft an &eEpic Upgrade"
-			tasks: [{
-				id: "17C1EDDE0C0BD49E"
-				item: "irons_restrictions:epic_upgrade"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.0d
 		}
 	]
 	title: "{ftbquests.chapter.irons_spells_and_spellbooks.title}"
