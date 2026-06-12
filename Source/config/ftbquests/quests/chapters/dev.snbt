@@ -169,8 +169,29 @@
 			id: "008603DC679289D0"
 			invisible: true
 			rewards: [{
-				auto: "enabled"
-				id: "13F8D34CD238E9A5"
+				id: "44C571460736D538"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"1x Rat - 24 Hours \" ,\"color\":\"gray\",\"italic\":true}"
+								"{\"text\":\"Status: LATE!\",\"color\":\"red\",\"italic\":true}"
+								"{\"text\":\"RETURN ON TIME OR FACE FINES!\",\"color\":\"dark_red\",\"underlined\":true}"
+								"{\"text\":\"YOU WOULDN'T STEAL A CAR\",\"color\":\"gray\",\"italic\":true}"
+								"{\"text\":\"YOU WOULDN'T STEAL A HANDBAG\",\"color\":\"gray\",\"italic\":true}"
+								"{\"text\":\"YOU WOULDN'T STEAL A TELEVISION\",\"color\":\"gray\",\"italic\":true}"
+								"{\"text\":\"SO DON'T STEAL A RAT! RAT THEFT IS A CRIME!\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true}"
+							]
+							Name: "{\"text\":\"Rent-a-Rat Reciept\",\"color\":\"dark_gray\",\"italic\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "241ADA611CF6C65A"
 				item: {
 					Count: 1
 					id: "minecraft:paper"
@@ -189,32 +210,6 @@
 						}
 					}
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "78B64AC468A6042B"
-				item: {
-					Count: 1
-					id: "minecraft:paper"
-					tag: {
-						display: {
-							Lore: [
-								"{\"translate\":\"lore.mce2.dev.9\"}"
-								"{\"translate\":\"lore.mce2.dev.10\"}"
-								"{\"text\":\"\"}"
-								"{\"translate\":\"lore.mce2.dev.11\"}"
-								"{\"text\":\"\"}"
-								"{\"translate\":\"lore.mce2.dev.12\"}"
-								"{\"translate\":\"lore.mce2.dev.13\"}"
-								"{\"translate\":\"lore.mce2.dev.14\"}"
-								"{\"translate\":\"lore.mce2.dev.15\"}"
-								"{\"text\":\"\"}"
-							]
-							Name: "{\"translate\":\"name.mce2.dev.2\"}"
-						}
-					}
-				}
-				match_nbt: true
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.dev.quest37721892044573136.title}"
