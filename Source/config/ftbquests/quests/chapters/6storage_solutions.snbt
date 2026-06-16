@@ -946,6 +946,63 @@
 			x: 9.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.ae2_presses.description1}"
+				""
+				"{ftbquests.chapter.6storage_solutions.ae2_presses.description2}"
+			]
+			id: "6711C1381BD92D29"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7399BD30AE5F15C8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6storage_solutions.ae2_presses.subtitle}"
+			tasks: [{
+				id: "6D7D3AC767A24668"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:inscriber_presses"
+					}
+				}
+				title: "{ftbquests.chapter.6storage_solutions.ae2_presses.task.any_ae_press}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6storage_solutions.ae2_presses.title}"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: [
+				"{ftbquests.chapter.6storage_solutions.create_storage.description1}"
+				""
+				"{ftbquests.chapter.6storage_solutions.create_storage.description2}"
+			]
+			id: "04AF0CE919AC29C3"
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "21FCC1A080553C9C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "{ftbquests.chapter.6storage_solutions.create_storage.subtitle}"
+			tasks: [{
+				id: "53331E2587A66B8A"
+				item: "create:packager"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.6storage_solutions.create_storage.title}"
+			x: 2.0d
+			y: 1.0d
+		}
 	]
 	title: "{ftbquests.chapter.6storage_solutions.title}"
 }

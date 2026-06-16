@@ -88,15 +88,6 @@
 			y: 0.0d
 		}
 		{
-			dependency: "6248503684C49C89"
-			height: 1.0d
-			image: "the_bumblezone:block/super_candle/candle_wick_lit_soul_2_e"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.3285714285714505d
-			y: 1.3273809523809526d
-		}
-		{
 			dependency: "26E27FB78FB855CE"
 			height: 1.0d
 			image: "minecraft:textures/particle/sculk_soul_8.png"
@@ -153,7 +144,7 @@
 					type: "command"
 				}
 				{
-					amount: 150L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "2640320E2432C96F"
 					ignore_reward_blocking: true
@@ -211,7 +202,7 @@
 			invisible: true
 			rewards: [
 				{
-					amount: 150L
+					amount: 75L
 					currency: "eternalcurrencies:coins"
 					id: "597E75EF0A12165C"
 					ignore_reward_blocking: true
@@ -278,7 +269,7 @@
 			invisible: true
 			rewards: [
 				{
-					amount: 150L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "640855572F83603E"
 					ignore_reward_blocking: true
@@ -464,7 +455,7 @@
 			id: "29B96385E819818D"
 			rewards: [
 				{
-					amount: 150L
+					amount: 75L
 					currency: "eternalcurrencies:coins"
 					id: "696793274C047C4A"
 					ignore_reward_blocking: true
@@ -547,13 +538,6 @@
 					type: "item"
 				}
 				{
-					amount: 150L
-					currency: "eternalcurrencies:coins"
-					id: "7E5653B93B92D81F"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
 					id: "02C2DF95E728F930"
 					item: {
 						Count: 1
@@ -572,6 +556,13 @@
 					id: "10EC17164B7C831E"
 					item: "thegreatbelow:sculk_pizza"
 					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "1395AA92C4901CA1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "{ftbquests.chapter.3the_great_below.quest6247438391413844562.subtitle}"
@@ -600,7 +591,7 @@
 			invisible: true
 			rewards: [
 				{
-					amount: 150L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "129E7A70144AC87D"
 					ignore_reward_blocking: true
@@ -709,7 +700,7 @@
 			id: "32B78ADD4FECE592"
 			rewards: [
 				{
-					amount: 150L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "5B06D6AABE65B9DB"
 					ignore_reward_blocking: true
@@ -870,7 +861,7 @@
 			id: "38332FE4C4174F95"
 			rewards: [
 				{
-					amount: 75L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "40D3AF04529D2D34"
 					ignore_reward_blocking: true
@@ -923,7 +914,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "2EEA198911C5F495"
 					ignore_reward_blocking: true

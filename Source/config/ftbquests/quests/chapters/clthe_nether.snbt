@@ -536,6 +536,13 @@
 					}
 					type: "item"
 				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "2EEDC35E55DFC386"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
 			]
 			shape: "square"
 			size: 0.9d
@@ -644,7 +651,7 @@
 					type: "command"
 				}
 				{
-					amount: 150L
+					amount: 75L
 					currency: "eternalcurrencies:coins"
 					id: "40ADCABBE1FE58D4"
 					ignore_reward_blocking: true
@@ -841,7 +848,7 @@
 					type: "item"
 				}
 				{
-					amount: 250L
+					amount: 75L
 					currency: "eternalcurrencies:coins"
 					id: "344228EF5249389A"
 					ignore_reward_blocking: true
@@ -925,7 +932,7 @@
 					type: "command"
 				}
 				{
-					amount: 500L
+					amount: 75L
 					currency: "eternalcurrencies:coins"
 					id: "5F93B7173B48DC4E"
 					ignore_reward_blocking: true
@@ -1092,7 +1099,7 @@
 			id: "3CC4D8AC7D27AE94"
 			rewards: [
 				{
-					amount: 150L
+					amount: 75L
 					currency: "eternalcurrencies:coins"
 					id: "46DF11C5DF6152F4"
 					ignore_reward_blocking: true

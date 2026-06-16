@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "barrys_yard_sale"
 	group: "12BCDDCCCA65FD77"
-	icon: "rats:rat_fez"
+	icon: "artifacts:helium_flamingo"
 	id: "1F7C2620408EB5A8"
 	images: [
 		{
@@ -23,7 +23,7 @@
 			rotation: 0.0d
 			width: 4.0d
 			x: 7.0d
-			y: 1.0d
+			y: 0.9d
 		}
 		{
 			height: 18.0d
@@ -89,6 +89,7 @@
 			y: 5.56845238095238d
 		}
 		{
+			color: 11833005
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_s"
@@ -98,6 +99,7 @@
 			y: 7.0d
 		}
 		{
+			color: 11833005
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_h"
@@ -107,6 +109,7 @@
 			y: 7.0d
 		}
 		{
+			color: 11833005
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_o"
@@ -116,6 +119,7 @@
 			y: 7.0d
 		}
 		{
+			color: 11833005
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_p"
@@ -278,6 +282,7 @@
 			y: 5.425595238095241d
 		}
 		{
+			color: 15453067
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/exclamation_mark"
@@ -287,6 +292,7 @@
 			y: 7.0d
 		}
 		{
+			color: 15453067
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_o"
@@ -296,6 +302,7 @@
 			y: 7.0d
 		}
 		{
+			color: 15453067
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_p"
@@ -305,6 +312,7 @@
 			y: 7.0d
 		}
 		{
+			color: 15453067
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_e"
@@ -314,6 +322,7 @@
 			y: 7.0d
 		}
 		{
+			color: 15453067
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_n"
@@ -339,6 +348,175 @@
 			width: 0.5d
 			x: 13.03571428571427d
 			y: 7.427380952380936d
+		}
+		{
+			dependency: "0D88B45349B3E660"
+			height: 0.5d
+			image: "iceandfire:textures/tinkers/battlesign/mod_flame.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 7.035714285714285d
+			y: 11.433333333333337d
+		}
+		{
+			dependency: "13049AEB2F8829E1"
+			height: 0.5d
+			image: "iceandfire:textures/tinkers/battlesign/mod_flame.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 7.0d
+			y: 9.44761904761905d
+		}
+		{
+			color: 5570456
+			dependency: "13049AEB2F8829E1"
+			height: 12.0d
+			image: "hexcasting:block/akashic_bookshelf"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_r"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_s"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_o"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_u"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_r"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: 25.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_c"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_s"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: 6.0d
+		}
+		{
+			color: 15453067
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_four"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 11.0d
+		}
+		{
+			color: 9419963
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_s"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.0d
+			y: 11.0d
+		}
+		{
+			color: 9419963
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_a"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 11.0d
+		}
+		{
+			color: 9419963
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_l"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.0d
+			y: 11.0d
+		}
+		{
+			color: 9419963
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 11.0d
 		}
 	]
 	order_index: 8
@@ -508,8 +686,21 @@
 			icon: "rats:trash_can"
 			id: "13049AEB2F8829E1"
 			rewards: [{
-				id: "4D51F27A637F7E3A"
-				item: "rats:rat_burger"
+				id: "0A0AFF685DD9728A"
+				item: {
+					Count: 1
+					id: "rats:rat_fez"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 2s
+						}]
+						RepairCost: 1
+						display: {
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.2\"}"
+						}
+					}
+				}
 				type: "item"
 			}]
 			size: 3.0d
@@ -524,38 +715,28 @@
 			y: 3.0357142857143202d
 		}
 		{
-			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest277601772858404221.description1}"]
+			description: [
+				"Can store 1x non boss entities."
+				"{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.description1}"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "ftbquests:lootcrate"
-				tag: {
-					type: "curious_box"
-				}
-			}
+			icon: "enderio:empty_soul_vial"
 			id: "03DA3D57743E6D7D"
 			rewards: [{
-				id: "296E7ED46A5B1314"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "curious_box"
-					}
-				}
+				id: "5EBF4160B5C10026"
+				item: "enderio:empty_soul_vial"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest277601772858404221.subtitle}"
+			subtitle: "Purchase Soul Vial"
 			tasks: [{
-				amount: 400L
+				amount: 1200L
 				currency: "eternalcurrencies:coins"
 				id: "33EFA8A71793A0E6"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest277601772858404221.title}"
+			title: "&eYard Sale:&r Soul Vial"
 			x: 1.0d
 			y: 8.0d
 		}
@@ -737,7 +918,7 @@
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.subtitle}"
 			tasks: [{
-				amount: 500L
+				amount: 800L
 				currency: "eternalcurrencies:coins"
 				id: "603DAAE5844659DD"
 				type: "eternalcurrencies:currency"
@@ -763,7 +944,7 @@
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest7324273562586749414.subtitle}"
 			tasks: [{
-				amount: 350L
+				amount: 100L
 				currency: "eternalcurrencies:coins"
 				id: "376BA5950114D0F5"
 				type: "eternalcurrencies:currency"
@@ -774,27 +955,24 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: [
-				"{ftbquests.chapter.barrys_yard_sale.quest2871863604006338682.description1}"
-				"{ftbquests.chapter.barrys_yard_sale.quest2871863604006338682.description2}"
-			]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest2871863604006338682.description2}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "mce2lib:porkus_summon"
+			icon: "uniqueaccessories:blade_shoes"
 			id: "27DAE8BB682BC07A"
 			rewards: [{
-				id: "5059FD3E1A7C12FC"
-				item: "mce2lib:porkus_summon"
+				id: "6FB1F990D8EDCDAB"
+				item: "uniqueaccessories:blade_shoes"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest2871863604006338682.subtitle}"
+			subtitle: "Purchase Blade Shoes"
 			tasks: [{
-				amount: 800L
+				amount: 300L
 				currency: "eternalcurrencies:coins"
 				id: "5D5494F38BA16309"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest2871863604006338682.title}"
+			title: "&eYard Sale:&r Blade Shoes"
 			x: 11.0d
 			y: 8.0d
 		}
@@ -820,7 +998,7 @@
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.subtitle}"
 			tasks: [{
-				amount: 500L
+				amount: 100L
 				currency: "eternalcurrencies:coins"
 				id: "1A22D494123B5A2B"
 				type: "eternalcurrencies:currency"
@@ -830,91 +1008,55 @@
 			y: 12.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"]
+			description: [
+				"&8\"Whoa! is that a grilled cheese deluxe from Cheezer's?\""
+				"&8\"Yes it is.\""
+				"&8\"How did you manage this?\""
+				"&8\"I bought it... with &omoney.&r\""
+				"&8\"Nice!\""
+			]
+			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
-				id: "cgs:shotgun"
+				id: "brewinandchewin:ham_and_cheese_sandwich"
 				tag: {
-					Ammo: "cgs:round_shotgun"
-					AmmoCount: 2
-					FireMode: "ntgl:semi"
-					ThrowMode: "ntgl:safe"
 					display: {
-						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.1\"}"
+						Lore: ["{\"text\":\"Give me a Grilled Cheese Deluxe and make it snappy, 'cause we're astronauts and we gotta get back up in space. Know what I'm sayin'?\",\"color\":\"gray\",\"italic\":true}"]
+						Name: "{\"text\":\"Grilled Cheese Deluxe\",\"color\":\"yellow\",\"italic\":false}"
 					}
-					variant: "default"
 				}
 			}
 			id: "76AE8F18AD0E7279"
-			rewards: [
-				{
-					id: "2F7B5099818D6B27"
-					item: {
-						Count: 1
-						id: "cgs:shotgun"
-						tag: {
-							Ammo: "cgs:round_shotgun"
-							AmmoCount: 2
-							FireMode: "ntgl:semi"
-							display: {
-								Name: "{\"translate\":\"name.mce2.barrys_yard_sale.1\"}"
-							}
-							variant: "default"
+			rewards: [{
+				count: 2
+				id: "3864E37CAE719B5C"
+				item: {
+					Count: 1
+					id: "brewinandchewin:ham_and_cheese_sandwich"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Give me a Grilled Cheese Deluxe and make it snappy, 'cause we're astronauts and we gotta get back up in space. Know what I'm sayin'?\",\"color\":\"gray\",\"italic\":true}"]
+							Name: "{\"text\":\"Grilled Cheese Deluxe\",\"color\":\"yellow\",\"italic\":false}"
 						}
 					}
-					type: "item"
 				}
-				{
-					count: 45
-					id: "199F91DD09062B74"
-					item: "cgs:round_shotgun"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.subtitle}"
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Purchase 2x Grilled Cheese Delux"
 			tasks: [{
-				amount: 3500L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "7C01FD149595D34D"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.title}"
-			x: 8.0d
-			y: 10.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["13049AEB2F8829E1"]
-			description: [
-				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description1}"
-				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description2}"
-				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description3}"
-				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description4}"
-				""
-				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description5}"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			icon: "petcapturetool:capture_tool"
-			id: "0D54B09097CA96F2"
-			rewards: [{
-				id: "10F50DE1FFBFB2C3"
-				item: "petcapturetool:capture_tool"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.subtitle}"
-			tasks: [{
-				amount: 500L
-				currency: "eternalcurrencies:coins"
-				id: "0CC79025F886B2F2"
-				type: "eternalcurrencies:currency"
-			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.title}"
+			title: "&eYard Sale:&r Grilled Cheese Delux"
 			x: 7.0d
-			y: 12.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
@@ -948,42 +1090,30 @@
 				type: "eternalcurrencies:currency"
 			}]
 			title: "{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.title}"
-			x: 7.0d
-			y: 8.0d
+			x: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
 			description: ["{ftbquests.chapter.barrys_yard_sale.quest2054178622665004686.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "iceandfire:gorgon_head"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "artifacts:cloud_in_a_bottle"
 			id: "1C81E892E526168E"
 			rewards: [{
-				id: "430FB04899067347"
-				item: {
-					Count: 1
-					id: "iceandfire:gorgon_head"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "208C4E970828621C"
+				item: "artifacts:cloud_in_a_bottle"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest2054178622665004686.subtitle}"
+			subtitle: "Purchase a Cloud in a Bottle"
 			tasks: [{
-				amount: 800L
+				amount: 1200L
 				currency: "eternalcurrencies:coins"
 				id: "2A62CC68B32A1663"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest2054178622665004686.title}"
-			x: 7.0d
+			title: "&eYard Sale:&r Cloud in a Bottle"
+			x: 5.0d
 			y: 10.0d
 		}
 		{
@@ -1011,7 +1141,11 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest488986572967293936.description1}"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest7251631020990889252.description1}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest488986572967293936.description1}"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "alexscaves:nuclear_bomb"
@@ -1060,92 +1194,47 @@
 			description: ["{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "rats:rat_fez"
-				tag: {
-					Enchantments: [{
-						id: "minecraft:unbreaking"
-						lvl: 2s
-					}]
-					RepairCost: 1
-					display: {
-						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.2\"}"
-					}
-				}
-			}
+			icon: "artifacts:pickaxe_heater"
 			id: "0315618E959F4C6D"
 			rewards: [{
-				id: "563B996F4115403A"
-				item: {
-					Count: 1
-					id: "rats:rat_fez"
-					tag: {
-						Enchantments: [{
-							id: "minecraft:unbreaking"
-							lvl: 2s
-						}]
-						RepairCost: 1
-						display: {
-							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.2\"}"
-						}
-					}
-				}
+				id: "5B636509EECD59E0"
+				item: "artifacts:pickaxe_heater"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.subtitle}"
+			subtitle: "Purchase Pickaxe Heater"
 			tasks: [{
-				amount: 80L
+				amount: 400L
 				currency: "eternalcurrencies:coins"
-				id: "0A15BC4964BCA57A"
+				id: "168BB3FADE55193D"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.title}"
-			x: 1.0d
+			title: "&eYard Sale:&r Pickaxe Heater"
+			x: 6.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.description1}"]
+			description: [
+				"&7Barry has all sorts of advanced technology just lying around..."
+				"{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.description1}"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "irons_spellbooks:druidic_spell_book"
-				tag: {
-					ISB_Spells: {
-						data: [ ]
-						maxSpells: 10
-						mustEquip: 1b
-						spellWheel: 1b
-					}
-				}
-			}
+			icon: "uniqueaccessories:rocket_shoes"
 			id: "1D7CF402C2122B38"
 			rewards: [{
-				id: "00CA8BB7AFB5FCAC"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:druidic_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
+				id: "55B6E490F5B26404"
+				item: "uniqueaccessories:rocket_shoes"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.subtitle}"
+			subtitle: "Purchase Rocket Boots"
 			tasks: [{
-				amount: 500L
+				amount: 800L
 				currency: "eternalcurrencies:coins"
 				id: "4B04842062FB6833"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.title}"
+			title: "&eFor Sale:&r Rocket Boots"
 			x: 4.0d
 			y: 12.0d
 		}
@@ -1314,8 +1403,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.barrys_yard_sale.quest7606498130980492879.title}"
-			x: 6.0d
-			y: 10.0d
+			x: 11.0d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
@@ -1376,21 +1465,21 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
-			icon: "rats:rat_upgrade_biplane_mount"
+			icon: "rats:plague_tome"
 			id: "5198C6BA616C90BC"
 			rewards: [{
-				id: "2FA7A7AD9D341AD8"
-				item: "rats:rat_upgrade_biplane_mount"
+				id: "60D55B637EE85994"
+				item: "rats:plague_tome"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest5879667817332904124.subtitle}"
+			subtitle: "Purchase Plague Tome"
 			tasks: [{
 				amount: 1500L
 				currency: "eternalcurrencies:coins"
 				id: "7E68A9874146A055"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest5879667817332904124.title}"
+			title: "&eYard Sale:&r Plague Tome"
 			x: 11.0d
 			y: 10.0d
 		}
@@ -1425,6 +1514,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Trade Quest"
 			tasks: [{
 				consume_items: true
 				id: "1ECD295F04A40E25"
@@ -1432,30 +1522,45 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.barrys_yard_sale.quest8721869539636658863.title}"
-			x: 12.0d
-			y: 12.0d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest7251631020990889252.description1}"]
+			description: [
+				"&3<wave>All hail the Magic Conch!"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description7}"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "betterarcheology:bomb"
+			icon: {
+				Count: 1
+				id: "alexscaves:magic_conch"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "64A2F7FE285D7D24"
 			rewards: [{
-				id: "0F019438B4EB9A13"
-				item: "betterarcheology:bomb"
+				id: "5889891DEA8DD5F0"
+				item: {
+					Count: 1
+					id: "alexscaves:magic_conch"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest7251631020990889252.subtitle}"
+			subtitle: "Purchase a Magic Conch"
 			tasks: [{
-				amount: 50L
+				amount: 3000L
 				currency: "eternalcurrencies:coins"
 				id: "5373BE04DAD7309A"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest7251631020990889252.title}"
+			title: "&eYard Sale:&r Magic Conch"
 			x: 10.0d
 			y: 10.0d
 		}
@@ -1508,71 +1613,25 @@
 		{
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest5598003291864492318.description1}"]
+			description: ["Contains a random curio from &dUnique Accessories"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
-			icon: {
-				Count: 1
-				id: "minecraft:potion"
-				tag: {
-					CustomPotionColor: 16333189
-					CustomPotionEffects: [{
-						Ambient: 0b
-						Amplifier: 0b
-						CurativeItems: [{
-							Count: 1b
-							id: "minecraft:milk_bucket"
-						}]
-						Duration: 33600
-						Id: 326
-						ShowIcon: 1b
-						ShowParticles: 1b
-						"forge:id": "species:tanked"
-						pufferfish_unofficial_additions.modified: 0b
-					}]
-					display: {
-						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.7\"}"
-					}
-				}
-			}
+			icon: "uniqueaccessories:accessory_box"
 			id: "4DB01A559F0CE91E"
 			rewards: [{
-				id: "30D78D47A2D79D4A"
-				item: {
-					Count: 1
-					id: "minecraft:potion"
-					tag: {
-						CustomPotionColor: 16333189
-						CustomPotionEffects: [{
-							Ambient: 0b
-							Amplifier: 1b
-							CurativeItems: [{
-								Count: 1b
-								id: "minecraft:milk_bucket"
-							}]
-							Duration: 33600
-							Id: 326
-							ShowIcon: 1b
-							ShowParticles: 1b
-							"forge:id": "species:tanked"
-							pufferfish_unofficial_additions.modified: 0b
-						}]
-						display: {
-							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.7\"}"
-						}
-					}
-				}
+				id: "2532B1D65287CB5D"
+				item: "uniqueaccessories:accessory_box"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest5598003291864492318.subtitle}"
+			subtitle: "Purchase Accessory Box"
 			tasks: [{
-				amount: 450L
+				amount: 800L
 				currency: "eternalcurrencies:coins"
 				id: "2A2A47445211E79E"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest5598003291864492318.title}"
+			title: "&eYard Sale:&r Accessory Box"
 			x: 13.0d
 			y: 10.0d
 		}
@@ -1604,26 +1663,41 @@
 			dependencies: ["13049AEB2F8829E1"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "thegreatbelow:sculk_pizza"
+			icon: {
+				Count: 1
+				id: "alexsmobs:squid_grapple"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0FFA5A220162A749"
 			rewards: [{
-				id: "2F90B037B0B1DF0E"
-				item: "thegreatbelow:sculk_pizza"
+				id: "040F0F08053CC44B"
+				item: {
+					Count: 1
+					id: "alexsmobs:squid_grapple"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
-			subtitle: "Purchase Sculk Pizza"
+			subtitle: "Purchase Grappling Squok"
 			tasks: [{
-				amount: 150L
+				amount: 1200L
 				currency: "eternalcurrencies:coins"
 				id: "05AFBC5C39AD4FBB"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Sculk Pizza "
+			title: "&eYard Sale:&r Grappling Squok"
 			x: 6.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["13049AEB2F8829E1"]
+			dependencies: [
+				"13049AEB2F8829E1"
+				"0D88B45349B3E660"
+			]
 			description: ["{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description7}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1634,16 +1708,17 @@
 				item: "mekanismgenerators:wind_generator"
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "Purchase Wind Generator"
 			tasks: [{
-				amount: 2500L
+				amount: 1800L
 				currency: "eternalcurrencies:coins"
 				id: "640DF55935494627"
 				type: "eternalcurrencies:currency"
 			}]
 			title: "&eYard Sale:&r Wind Generator"
-			x: 5.0d
-			y: 10.0d
+			x: 7.0d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -1671,37 +1746,1027 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
+			description: ["Functions as a teleport home. Can be upgraded to teleport across vast distances."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
-				id: "alexsmobs:dimensional_carver"
+				id: "relics:magic_mirror"
 				tag: {
-					Damage: 0
+					abilities: {
+						teleport: {
+							points: 0
+							stats: {
+								cooldown: 66.52711d
+								distance: 941.19752d
+							}
+						}
+					}
 				}
 			}
 			id: "2ABA52C2E7B0CEF8"
 			rewards: [{
-				id: "39FC0AD586F95840"
+				id: "3EC036C22CAD0D3F"
 				item: {
 					Count: 1
-					id: "alexsmobs:dimensional_carver"
+					id: "relics:magic_mirror"
 					tag: {
-						Damage: 0
+						abilities: {
+							teleport: {
+								points: 0
+								stats: {
+									cooldown: 66.52711d
+									distance: 941.19752d
+								}
+							}
+						}
 					}
 				}
 				type: "item"
 			}]
-			subtitle: "Purchase Dimensional Carver"
+			subtitle: "Purchase Magic Mirror"
 			tasks: [{
-				amount: 5000L
+				amount: 1500L
 				currency: "eternalcurrencies:coins"
 				id: "0DE4D40860669FD1"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Dimensional Carver"
+			title: "&eYard Sale:&r Magic Mirror"
 			x: 4.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "rats:rattling_gun"
+			id: "5C641A5CF549A58E"
+			rewards: [{
+				id: "77AF18E99E91A900"
+				item: "rats:rattling_gun"
+				type: "item"
+			}]
+			subtitle: "Purchase Rattling Gun"
+			tasks: [{
+				amount: 2500L
+				currency: "eternalcurrencies:coins"
+				id: "3A695963BE00D912"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Rattling Gun"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "cgs:revolver"
+				tag: {
+					Ammo: "cgs:round_revolver"
+					AmmoCount: 6
+					ThrowMode: "ntgl:safe"
+					variant: "default"
+				}
+			}
+			id: "45BB06188AA63B35"
+			rewards: [{
+				id: "4FA0E76FB8767F8A"
+				item: {
+					Count: 1
+					id: "cgs:revolver"
+					tag: {
+						Ammo: "cgs:round_revolver"
+						AmmoCount: 6
+						ThrowMode: "ntgl:safe"
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase Brass Revolver"
+			tasks: [{
+				amount: 1500L
+				currency: "eternalcurrencies:coins"
+				id: "0F6206062600A756"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Brass Revolver"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"45BB06188AA63B35"
+			]
+			description: ["&dRepeatable"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "cgs:round_revolver"
+			id: "0FC70BB8232B65A1"
+			rewards: [{
+				count: 8
+				id: "1D3F486F4FD37A03"
+				item: "cgs:round_revolver"
+				type: "item"
+			}]
+			subtitle: "Purchase 8x Revolver Round"
+			tasks: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "237440A1ABAA12DC"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Revolver Round"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"76AE8F18AD0E7279"
+			]
+			description: ["&dRepeatable"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "cgs:round_shotgun"
+			id: "7E0ACB8CB00A25E4"
+			rewards: [{
+				count: 4
+				id: "49B8D6624C097A38"
+				item: "cgs:round_shotgun"
+				type: "item"
+			}]
+			subtitle: "Purchase 4x Shotgun Shell"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2BDBFAF41C9F3224"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Shotgun Shell"
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description2}"
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description3}"
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description4}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description5}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "petcapturetool:capture_tool"
+			id: "334E9812999399F2"
+			rewards: [{
+				id: "16C50CD2253C18F4"
+				item: "petcapturetool:capture_tool"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.subtitle}"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "43418F5EC2A87FB1"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.title}"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:spyglass"
+			id: "1EDA8609011FAC72"
+			rewards: [{
+				id: "1E5CAFB5D0513455"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			subtitle: "Purchase a Spyglass"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "029100C95086BA03"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Spyglass"
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"0D88B45349B3E660"
+			]
+			description: [
+				"This item only exists because of the misery experienced by CaptainSparklez and X33n while exploring the Crimson Forest..."
+				""
+				"&4<wave>Expert Mode Unlock"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "kubejs:crimson"
+			id: "09B1B5A7DB948866"
+			rewards: [{
+				id: "59EC806FCCE832BB"
+				item: "kubejs:crimson"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase a Can of Mosquito Repellent"
+			tasks: [{
+				amount: 300L
+				currency: "eternalcurrencies:coins"
+				id: "7AD127757CF025A7"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Can of Mosquito Repellent"
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"The Barry Quest Coin Buyback Scheme™"
+				"{image:dialog:textures/portraits/barry_angry.png width:100 height:100 align:center}"
+				"&o&7\"I love money -Barry\""
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "27FC1098AAB6E3CD"
+			rewards: [{
+				id: "60951C21A8B415E8"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			subtitle: "&3500 Coins = 1 Emerald Block"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "241D163EC23825C0"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&7Currency Conversion: &eCoins -> &aEmeralds"
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"13049AEB2F8829E1"
+				"1EDA8609011FAC72"
+			]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.description1}"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "uniqueaccessories:ender_lens"
+			id: "1D44458459160E23"
+			rewards: [{
+				id: "383BB8AE75F47AB0"
+				item: "uniqueaccessories:ender_lens"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "Purchase a Ender Lens"
+			tasks: [{
+				amount: 800L
+				currency: "eternalcurrencies:coins"
+				id: "526868BB3B88E4B1"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Ender Lens"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"&7Just when you thought a vegetable couldn't possibly dial your phone number... &osuddenly onion rings!"
+				"{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.description1}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "artifacts:onion_ring"
+			id: "165489BAAD22C600"
+			rewards: [{
+				id: "40E6A46976C38DE9"
+				item: "artifacts:onion_ring"
+				type: "item"
+			}]
+			subtitle: "Purchase a Onion Ring"
+			tasks: [{
+				amount: 800L
+				currency: "eternalcurrencies:coins"
+				id: "6D4010A12513E5AE"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Onion Ring"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"&7Maybe consulting a Doctor isn't such a bad idea..."
+				"{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.description1}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ramcompat:tendon_lump"
+				tag: {
+					abilities: {
+						tendon: {
+							points: 0
+							stats: {
+								cooldown: 7.8559d
+								damage: 4.93086d
+								distance: 3.96478d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+					}
+				}
+			}
+			id: "2F2FB91A687244CC"
+			rewards: [{
+				id: "0B856110A3486E13"
+				item: {
+					Count: 1
+					id: "ramcompat:tendon_lump"
+					tag: {
+						abilities: {
+							tendon: {
+								points: 0
+								stats: {
+									cooldown: 7.8559d
+									damage: 4.93086d
+									distance: 3.96478d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase a Tendon Lump"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "7F9CBF5BF05CC316"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Tendon Lump"
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"&6Hint:&r Effective at killing targets with high health regeneration by obliterating them. May destroy drops in the process."
+				""
+				"&7\"And Saint Attila raised the hand grenade up on high, saying, 'O Lord, bless this thy hand grenade, that with it thou mayst blow thine enemies to tiny bits.\""
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "royalvariations:royal_bomb"
+			id: "588FB3B1BC1E4BB5"
+			rewards: [{
+				id: "1BB8E031C01E0E8B"
+				item: "royalvariations:royal_bomb"
+				type: "item"
+			}]
+			subtitle: "Purchase Royal Bomb"
+			tasks: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "5B47B562930E61DA"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Royal Bomb"
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"&7The Pet Protection Program"
+				"Combine with a Pet Collar Tag in an Anvil and give to a pet of your choice."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:total_recall"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "4EF3FBAA1DC0C775"
+			rewards: [{
+				id: "5214F45179EAB489"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "domesticationinnovation:total_recall"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase a Total Recall Enchanted Book"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "60478E73D26DA71E"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Enchanted Book"
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"13049AEB2F8829E1"
+				"0D88B45349B3E660"
+			]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"
+				""
+				"&4<wave>Expert Mode Unlock"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "bosses_of_mass_destruction:levitation_block"
+			id: "06A82AA644B0E424"
+			rewards: [{
+				id: "383E48390B5D7CB4"
+				item: "bosses_of_mass_destruction:levitation_block"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase Table of Elevation"
+			tasks: [{
+				amount: 3500L
+				currency: "eternalcurrencies:coins"
+				id: "57A1ECC39F8DB7B1"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Table of Elevation"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"0D88B45349B3E660"
+			]
+			description: ["&4<wave>Expert Mode Unlock"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "2AE765A52A06EFE2"
+			rewards: [{
+				id: "57DDC27C3E07B552"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase Enchanted Book Mending"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "6F5B7CEDF4AE269B"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Enchanted Book"
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"13049AEB2F8829E1"
+				"0D88B45349B3E660"
+			]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"
+				""
+				"&4<wave>Expert Mode Unlock"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "artifacts:obsidian_skull"
+			id: "3F859593DDDD5E05"
+			rewards: [{
+				id: "51C9D1AEAF7A7559"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase Obsidian Skull"
+			tasks: [{
+				amount: 800L
+				currency: "eternalcurrencies:coins"
+				id: "0A41746EDF914B55"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Obsidian Skull"
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"13049AEB2F8829E1"
+				"0D88B45349B3E660"
+			]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"
+				""
+				"&4<wave>Expert Mode Unlock"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "cgs:shotgun"
+				tag: {
+					Ammo: {
+						"ntgl:primary": "cgs:round_shotgun"
+					}
+					AmmoCount: 2
+					FireMode: "ntgl:semi"
+					ThrowMode: "ntgl:safe"
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.1\"}"
+					}
+					variant: "default"
+				}
+			}
+			id: "42D43F3DA5D1E624"
+			rewards: [{
+				id: "174761EC1CAF124F"
+				item: {
+					Count: 1
+					id: "cgs:shotgun"
+					tag: {
+						Ammo: "cgs:round_shotgun"
+						AmmoCount: 2
+						FireMode: "ntgl:semi"
+						display: {
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.1\"}"
+						}
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.subtitle}"
+			tasks: [{
+				amount: 3500L
+				currency: "eternalcurrencies:coins"
+				id: "5FAC040CFD8019B5"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.title}"
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:iron_ingot"
+			id: "08C5214888BEA5E2"
+			rewards: [{
+				id: "60A63B32518DA778"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Purchase 1x Iron Ingot"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "289038BD218E7914"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Iron Ingot"
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:gold_ingot"
+			id: "2FEDD85B1CF6D296"
+			rewards: [{
+				id: "47338695F865277B"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Purchase 1x Gold Ingot"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "49ADC5D308436806"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Gold Ingot"
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:lapis_lazuli"
+			id: "07732F6FD2CD9DE5"
+			rewards: [{
+				count: 8
+				id: "6B410B3A10DBC271"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			subtitle: "Purchase 8x Lapis Lazuli"
+			tasks: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "2BC94C96A7550DFA"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Lapis Lazuli"
+			x: 23.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:redstone"
+			id: "7373709CC336E7C2"
+			rewards: [{
+				count: 8
+				id: "1FD4EA5A0452B0D5"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			subtitle: "Purchase 8x Redstone Dust"
+			tasks: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "3F0F8A23842FB071"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Redstone Dust"
+			x: 25.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:andesite"
+			id: "35B08EA2C52AF225"
+			rewards: [{
+				count: 32
+				id: "738653273831B844"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			subtitle: "Purchase 32x Andesite"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "568048AFCBF1010B"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Andesite"
+			x: 19.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:coal"
+			id: "6E92B25CDA351117"
+			rewards: [{
+				count: 8
+				id: "4867195BD618C357"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Purchase 8x Coal"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "12C956F580BFDF81"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Coal"
+			x: 21.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:copper_ingot"
+			id: "7C369F798404E5E1"
+			rewards: [{
+				count: 8
+				id: "04AD5F0B516AD13F"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			subtitle: "Purchase 8x Copper Ingot"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7E0882F9DBF12AEA"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Copper Ingot"
+			x: 23.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:amethyst_shard"
+			id: "26EC6AD4D4825D0D"
+			rewards: [{
+				count: 3
+				id: "01F63BF118CEB779"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			subtitle: "Purchase 3x Amethyst Shard"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0C5F2BDAAE458CBA"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Amethyst Shard"
+			x: 25.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"5239A5F8AE9FC855"
+			]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:diamond"
+			id: "5E2BDD00B1DC5C84"
+			rewards: [{
+				id: "34E84901687AF637"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase 1x Diamond"
+			tasks: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "78512C862AFA312A"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Diamond"
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+			]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "irons_spellbooks:mithril_ingot"
+			id: "16E642957DB29855"
+			rewards: [{
+				id: "7ABA06DC1F3D38B1"
+				item: "irons_spellbooks:mithril_ingot"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase 1x Mithril Ingot"
+			tasks: [{
+				amount: 250L
+				currency: "eternalcurrencies:coins"
+				id: "60584D9737FD8A0F"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Mithril Ingot"
+			x: 22.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+				"0D88B45349B3E660"
+			]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:netherite_ingot"
+			id: "4978FCE18A3CFA07"
+			rewards: [{
+				id: "01F26F2C5A2EFD6E"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase 1x Netherite Ingot"
+			tasks: [{
+				amount: 300L
+				currency: "eternalcurrencies:coins"
+				id: "5338076A0F409659"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Netherite Ingot"
+			x: 25.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+			]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:quartz"
+			id: "5D70D666EE9C9D35"
+			rewards: [{
+				count: 8
+				id: "52A0EB5634E3215A"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase 8x Nether Quartz"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7C1C208A2E52BFB6"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Nether Quartz"
+			x: 19.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+				"6248503684C49C89"
+			]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mekanism:ingot_uranium"
+			id: "74B7CB25E2C8B6BA"
+			rewards: [{
+				id: "5225880D3F0591C1"
+				item: "mekanism:ingot_uranium"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase 1x Uranium Ingot"
+			tasks: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "465B62EA205444F8"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Uranium Ingot"
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+				"6248503684C49C89"
+			]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mekanism:ingot_osmium"
+			id: "50D63E5D3A583FF9"
+			rewards: [{
+				id: "23D7EF01F572D5F2"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase 1x Osmium Ingot"
+			tasks: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "6CA7C2EC5FAD36EE"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Osmium Ingot"
+			x: 25.0d
+			y: 2.0d
 		}
 	]
 	title: "{ftbquests.chapter.barrys_yard_sale.title}"

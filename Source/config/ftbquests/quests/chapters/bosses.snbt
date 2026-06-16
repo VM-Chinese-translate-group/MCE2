@@ -198,7 +198,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "3F78AAB633882353"
 					ignore_reward_blocking: true
@@ -284,7 +284,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "02568A8EB45BCAB9"
 					ignore_reward_blocking: true
@@ -366,7 +366,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "367A5C9BE68A8748"
 					ignore_reward_blocking: true
@@ -459,7 +459,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "44EEC80D10DB2FA7"
 					ignore_reward_blocking: true
@@ -560,7 +560,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "0A2228EC66381FDF"
 					ignore_reward_blocking: true
@@ -638,7 +638,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "1FAD598C93411507"
 					ignore_reward_blocking: true
@@ -676,9 +676,12 @@
 		}
 		{
 			dependencies: ["46C671151AE613A1"]
-			description: ["{ftbquests.chapter.bosses.quest3755364829256556249.description1}"]
+			description: [
+				"Slay these four End Bosses and be rewarded with a weapon <shake>&d&lWORTHY&r of your strength.."
+				""
+				"Welcome to &dMaster Mode!"
+			]
 			hide_dependency_lines: true
-			hide_text_until_complete: true
 			icon: "alexsmobs:void_worm_eye"
 			id: "341DBC6A59D51ED9"
 			optional: true
@@ -693,7 +696,7 @@
 					type: "command"
 				}
 				{
-					amount: 2500L
+					amount: 8100L
 					currency: "eternalcurrencies:coins"
 					id: "1536238B30EE4C6D"
 					ignore_reward_blocking: true
@@ -732,15 +735,38 @@
 				}
 			]
 			size: 0.95d
-			subtitle: "{ftbquests.chapter.bosses.quest3755364829256556249.subtitle}"
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				icon: "alexsmobs:void_worm_eye"
-				id: "232C885B1F64CEA9"
-				title: "{ftbquests.chapter.bosses.quest3755364829256556249.task.2534550615252848297.title}"
-				type: "kill"
-				value: 1L
-			}]
+			subtitle: "&6Master Mode Challange"
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "quark:dragon_scale"
+					id: "232C885B1F64CEA9"
+					title: "{ftbquests.chapter.bosses.quest3755364829256556249.task.2534550615252848297.title}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexsmobs:void_worm"
+					icon: "alexsmobs:void_worm_eye"
+					id: "15F546D990425B4C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "cataclysm:void_core"
+					id: "775368F4ADDD2D81"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					icon: "bosses_of_mass_destruction:obsidian_heart"
+					id: "08D33FB096C58D90"
+					type: "kill"
+					value: 1L
+				}
+			]
 			title: "{ftbquests.chapter.bosses.quest3755364829256556249.title}"
 			x: 10.369047619047613d
 			y: 2.702380952380949d
@@ -802,7 +828,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "41A885CF6C1762A8"
 					ignore_reward_blocking: true
@@ -893,7 +919,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "0B7C0EB41AFE1977"
 					ignore_reward_blocking: true
@@ -970,7 +996,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "7D2E0B66316BED4F"
 					ignore_reward_blocking: true
@@ -1052,7 +1078,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "38279D8A49BE2C1C"
 					ignore_reward_blocking: true
@@ -1121,7 +1147,7 @@
 					type: "command"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "152FEBD788213CC9"
 					ignore_reward_blocking: true
@@ -1220,7 +1246,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "4E866C947DAE887B"
 					ignore_reward_blocking: true
@@ -1280,7 +1306,7 @@
 					type: "random"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "080AD8D8677D71A0"
 					ignore_reward_blocking: true
@@ -1343,7 +1369,7 @@
 					type: "custom"
 				}
 				{
-					command: "/effect give {p} mowziesmobs:sunblock 500"
+					command: "/effect give {p} mowziesmobs:sunblock 100"
 					icon: {
 						Count: 1b
 						ForgeCaps: {
@@ -1386,7 +1412,7 @@
 					type: "command"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "556B067806B0FAA9"
 					ignore_reward_blocking: true
@@ -1514,7 +1540,7 @@
 					type: "command"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "10B1EE68CA75D65B"
 					ignore_reward_blocking: true
@@ -1579,7 +1605,7 @@
 					type: "command"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "0708DF78672531A1"
 					ignore_reward_blocking: true
@@ -1644,7 +1670,7 @@
 					type: "command"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "6F4914129DDDF69C"
 					ignore_reward_blocking: true
@@ -1709,7 +1735,7 @@
 					type: "command"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "5B5AF20B08783D7D"
 					ignore_reward_blocking: true

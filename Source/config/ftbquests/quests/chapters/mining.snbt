@@ -44,6 +44,30 @@
 			x: -2.4693877551020407d
 			y: -2.5714285714285694d
 		}
+		{
+			height: 1.5d
+			image: "fairylights:entity/letter/exclamation_mark"
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.035714285714278d
+			y: -3.4821428571428648d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: -88.0d
+			width: 0.8d
+			x: 5.499999999999993d
+			y: -1.375000000000007d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/raw_gold_block/ctm/massive_raw_gold_block_bricks/0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 4.0d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -545,7 +569,7 @@
 								}
 								{
 									level: 1
-									name: "tconstruct:experienced"
+									name: "tconstruct:shock"
 								}
 								{
 									level: 1
@@ -569,8 +593,6 @@
 								upgrades: -1
 							}
 							tic_stats: {
-								"tconstruct:accuracy": 0.85f
-								"tconstruct:armor_toughness": 1.0f
 								"tconstruct:attack_damage": 1.7249999f
 								"tconstruct:attack_speed": 1.2f
 								"tconstruct:durability": 346.5f
@@ -1068,6 +1090,210 @@
 			title: "{ftbquests.chapter.mining.quest6409845484295132468.title}"
 			x: 1.0d
 			y: 3.0d
+		}
+		{
+			description: [
+				"The Dwarven Depths is an infinite &o(and dangerous)&r mining dimension. "
+				"You can discover large ore deposits, mithril and dragons! Come prepared!"
+				""
+				"&eTip:&r You are afraid of the dark while in this dimension, who knows what lurks in the shadows..."
+			]
+			id: "07CDE536ABCAB8A8"
+			rewards: [
+				{
+					count: 3
+					id: "200EE2EABB700034"
+					item: "tconstruct:jeweled_apple"
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "6884B4BBB21206DB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Custom Mining Dimension"
+			tasks: [
+				{
+					id: "57654D59A3AB149B"
+					item: "minecraft:raw_gold_block"
+					type: "item"
+				}
+				{
+					id: "5E81DCB981891629"
+					item: {
+						Count: 1
+						id: "hexcasting:jeweler_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eThe Dwarven Depths"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07CDE536ABCAB8A8"]
+			description: [
+				"The blocks needed to create the portal frame can be created by &dRight-Clicking&r on a &eRaw Gold Block&r with the &eJeweler's Hammer"
+				""
+				"&6Tip&r: This portal must be flat, you can &3Ponder&r for more information!"
+			]
+			id: "73A4291CB69C6AB8"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "30C7C7243683F694"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6A6F908ED1D53F16"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Create &eAncient Dwarven Portal Blocks&r"
+			tasks: [{
+				icon: "kubejs:ancient_portal_stone"
+				id: "46C059FC142A1652"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:ancient_portal_stone"
+				type: "observation"
+			}]
+			title: "&6Dwarven Depths Portal!"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73A4291CB69C6AB8"]
+			description: [
+				"The &3Heat of Diamond&r is a rare item that can be dropped by &eStonelings&r underground."
+				"You must locate one and use it as the portal activation item!"
+			]
+			id: "01699A30B1C5B833"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "451B927D57EE99F1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "52EA562B45398528"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15F1EF5647A86826"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							CustomPotionColor: 16333189
+							CustomPotionEffects: [{
+								Ambient: 0b
+								Amplifier: 1b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 33600
+								Id: 326
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "species:tanked"
+								pufferfish_unofficial_additions.modified: 0b
+							}]
+							display: {
+								Name: "{\"translate\":\"name.mce2.barrys_yard_sale.7\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find a Heart of Diamond"
+			tasks: [{
+				id: "311C3CB12A598560"
+				item: "quark:diamond_heart"
+				type: "item"
+			}]
+			title: "&3Inner Beauty"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01699A30B1C5B833"]
+			description: [
+				"The &6Dwarven Depths&r can be a &overy dangerous&r place, monsters have adapted to this harsh enviroment, becoming scarier than their Overworld cousins. The darkness itself claws at your mind. Some foul magic has caused fire resistance to not work.."
+				""
+				"&eTip:&r Watch out for <shake>Shelob..."
+			]
+			id: "5F16592E377C17AE"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "66E6E9C022E202A0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "67ACEAC496534CE1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Enter The Dwarven Depths"
+			tasks: [{
+				dimension: "mce:dwarven_depths"
+				id: "1B81DD838952D76D"
+				type: "dimension"
+			}]
+			title: "&eI am a Dwarf!"
+			x: 5.0d
+			y: 4.0d
 		}
 	]
 	title: "{ftbquests.chapter.mining.title}"

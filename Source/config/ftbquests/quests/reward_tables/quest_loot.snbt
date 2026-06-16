@@ -1761,42 +1761,6 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "wonderful_enchantments:phoenix_dive"
-						lvl: 2s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "wonderful_enchantments:horse_frost_walker"
-						lvl: 2s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "ensorcellation:bulwark"
-						lvl: 1s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
 						id: "create:potato_recovery"
 						lvl: 2s
 					}]
@@ -5352,15 +5316,6 @@
 			}
 		}
 		{ item: "cgs:ballistazooka" }
-		{
-			item: {
-				Count: 1
-				id: "pneumaticcraft:micromissiles"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
 		{ count: 12, item: "cgs:round_revolver" }
 		{
 			item: {
@@ -5376,7 +5331,6 @@
 		{ item: "cataclysm_spellbooks:mechanical_brace" }
 		{ item: "rats:vial_of_sentience" }
 		{ item: "irons_spellbooks:graybeard_staff" }
-		{ item: "irons_restrictions:unfinished_manuscript" }
 		{
 			item: {
 				Count: 1
@@ -5456,7 +5410,6 @@
 		{ item: "species:chaindelier" }
 		{ item: "species:youth_potion" }
 		{ item: "species:ancient_pinecone" }
-		{ item: "royalvariations:spectral_gauntlet" }
 		{
 			item: {
 				Count: 1
@@ -5467,15 +5420,6 @@
 			}
 		}
 		{ count: 3, item: "royalvariations:royal_bomb" }
-		{
-			item: {
-				Count: 1
-				id: "royalvariations:royal_staff"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
 		{ item: "alekiships:cannon" }
 		{ item: "enderio:enderman_head" }
 		{ item: "netherexp:ectoplasm_bucket" }
@@ -5554,6 +5498,578 @@
 				}
 			}
 		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					CustomPotionColor: 16333189
+					CustomPotionEffects: [{
+						Ambient: 0b
+						Amplifier: 1b
+						CurativeItems: [{
+							Count: 1b
+							id: "minecraft:milk_bucket"
+						}]
+						Duration: 33600
+						Id: 326
+						ShowIcon: 1b
+						ShowParticles: 1b
+						"forge:id": "species:tanked"
+						pufferfish_unofficial_additions.modified: 0b
+					}]
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.7\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1479480850
+							551765588
+							-1869922526
+							-753427457
+						]
+						Name: "Sips_"
+						Properties: {
+							textures: [{
+								Signature: "ipEhzWvelU444IYP/4qAM+6VIHuVu17t/l2AYcji6Q7U7WTc/Ls0wvhT4MsP/Q/sngVOEr5CmUDgtV93XNBMP47tw8QjpX16w5HfhYNPOq7wAJ1745UYfgTTuUScKuKRYqCFlE7nWkKVUcFocOjiGy4AsIClb7ez94yOxdaYoNRwuOeIQGWO2skyHrfR35m5KsXsxRmmpw1Zoci3udDJqTLWtbKERNc/XwWOy7MqAk46AYIWZ6Cs7oWmUpfZ9MnM/zfSVFksesm2t6MZS9zBhmy7C6iRDl19y1tMmpRRPgw7LqxNlHi6zeGWD/MnhcRxh1IQXA3MAS78x+9NouRM8iZg7ufEIYOg4B2NEP33+4AYZcFfVFTut1OKyKK52m/VgwFkbU68sMPwekH1ZamZwJ658572kbXOs3RglTzTUIxZiouJl8zBvAd+5i/YlPgSSsV21QD2o5GDU3uaA06wMwtvMipOzYlrsTWg8EX14a82KJkCO3bEMNc69h0cySBMcGmIgCEBwqBvBuC8C1BfOecBqdTR5RM1pbTOMA6B22DumNBRbIwsLiv79BSUcl4lkrxQk1FibBRUugQR+2dx4YB5krWbC4gzoDh4uCxsqhgG20VhEMQTDntivZwJM2nA5z9QK9gsLMTuBMe+XTt0arMCC/PgJaaRU985QDZJiJw="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTc4MDkzODgyMTcwNywKICAicHJvZmlsZUlkIiA6ICJhN2QwZTllZTIwZTM0NjU0OTA4YjNmMjJkMzE3OWJmZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaXBzXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNzhiMWRiYjRlOTMzZmFkZTVmNWE5NjIxYjZiMzBhN2Y0M2NmYzZlMTkzYzYzNjM5Zjg2MjcyYjBiYjE1ZDYiCiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1602358329
+							1484997522
+							-1317785307
+							-1408900212
+						]
+						Name: "CaptainSparklez"
+						Properties: {
+							textures: [{
+								Signature: "eriRDUKRrOtBdWX+yznnygKllJpgov8hYwhJpm/Mjmvqub9cOtefF8doIQ4swSCxuq4xHNPQCC0AB8vEuUXcwTama4lib9YpaekFT/Nnz7cQBBqtI/5JZMa0zgEyakkg5gQ6zHjqkyUQpo12Dxp/6DYO/fqjXRjFMu3NP3cYeZ2cD58/Tx8Z/QMQxKLiInLsKHDX8tnQC0jJLZZ7jHiqDU+s3Z0FxdF0LfimImQ3lS3pF1O38r7y2ZtAC/31eMloAPEtynwLNZmTHUafy0Q4pAPxvMWwZYZtazpRWPd/pnN1SXeUW6N39yFDFGT+OvPYEcWmVN1JW7yCKw8P0Drbn8dYu25Vayto/iw2T5PwV4/H4sInbDR7pb3awZjkzsOBqesaHa6Af+NV6VOG8TcFFde+92GmyUJb+wYqwvfp+RqZ1VkXWsz9xryaTBxuPDGB0YMtNac+d+PAE8f0f33F7uL8sHuNx/PDrdYcdbTepTc759mz9li1mU8A0GQRCSuKXqXysQkTPhZvM4QXR1NOpb5QbHIFKvieREzfOrOY3Dc6q48t274+dnqCPC3Ljt3PrLVoqOJTiPBFYM5kslGg3x78Wjmo6y6DMsorUxunR9AIhVBTJu56a6mCocdfwqf+OymV08JplfNhMwvaTWH+IKQ+Kqmu1LUomo5DucVO99E="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTc4MDkzOTQ3MjQ2NCwKICAicHJvZmlsZUlkIiA6ICI1ZjgyMGMzOTU4ODM0MzkyYjE3NDMxMjVhYzA1ZTM4YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXB0YWluU3BhcmtsZXoiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U2MWQ0Y2MyZTU0MTA1NzU1YjdlMGE1MDgwODY2ODMwOGVhMWNkZGQyMjQzZWYyMjk0ZTExOTkzM2FlMWQ2NyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUzY2FjOGI3NzlmZTQxMzgzZTY3NWVlMmI4NjA3MWE3MTY1OGYyMTgwZjU2ZmJjZThhYTMxNWVhNzBlMmVkNiIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							970557305
+							-1079489430
+							-1982064587
+							361057730
+						]
+						Name: "X33N"
+						Properties: {
+							textures: [{
+								Signature: "MS4GRh6gwb0DKziSyEWHsW4zELFfsJyGZCuayF+zXoFdED1J3t4QC6vY5gjKt6D5sFd+evtrBSa9h0YTpp0zUnukoztgf/JIFilyOtMbKTtKN+fNaNLmU9AcLBmtPsYgjcocDWuN81hr8DozrYBV8PsQTbYqHUTa3qadtJ7TEpl6mljL4ONS4pw043IEcfpZZE8di1h+r9RQ4EwaMXDSgjwp6etw+bB9grTaSbB+w2WnW5YOwC7Y8y9wsgRDD03CbFAAXsOuntvNcA2v/infwzAOXt1JYOCR+95pebfGfIuH1KsorOlI8/lQ+t1dYLuWzgRc9Yl/84mHNdms1bymo+cCGGWerbgTyifpyjAIr+heGQBg58c573rB0C8vwGmXTPcfCJ92PcNr9Oe/T1SNAtT3seNdDe5FXNJg8calMPSI5umbvG0+/n4pCqiUNokFDhimlXjYXC1UbwmnxrLkx/QRujFEt92XJpyDQLpHnXhEhMWWnHBaOAHTi4rECNksHwmLQ1tiP6Zvz7XIh9ELpIcLhMOjr2b0Ry90tGCjUEU1pc05ZkOO4yah2F4xcuXJaO408eprLk+t6pOd2RtAPD48C8Ejr7dFh9JawfSEVd1tXnLTccUm5qCFRdgsSLnK1REv8VSSu17KPyaTrteIjhQdQSGuktefbsnRscqznq8="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTc4MDkzOTQ4NTQwMiwKICAicHJvZmlsZUlkIiA6ICIzOWQ5ODc3OWJmYTg0YzZhODlkYzE4MzUxNTg1NGRjMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJYMzNOIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E2MmIwYzU1YzJmMmFmMWExZTRlMTdhYWI3ODQ2Y2JjZWM2MDE1ZTNhMWE1YzRiMmM1MGJkMGNhYWQxMTA0NDEiCiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							745372477
+							1987332888
+							-1920550038
+							1887348964
+						]
+						Name: "Xephos"
+						Properties: {
+							textures: [{
+								Signature: "KNHsvxWA7u7uhj1YAkIDNRhygvELCCs+DYy6Is12kEzLW2n+94U8SZwTno3wX4c8xy+JPutU+SWvK9UAHxJWzvz0yVMLIxwvCMrKsq1QnczBoTU8h8yssKlqhUYtZpRfWykZp8dzBqOEN+kjiGt7eFY1zZ3ZLr66fUjocFelky2x6CEpYnaYTAUqHZxWPonACH4V2lbU2yjvccl57eBa0MkYhndaFdmR3A5wFPhFXvAqdGcFojlZD553fcVKp6sYkM9HQT78CsLP2PjaJVX5RI4oM1Ji6eE+gtDMTeC/dg7QgCBe4vR85r3LDs21KppvtD9D9do2Wi03lxnFaab+qEVgj78uJYpnmRMiNtxZDV71UglriUt5zn53eZH/VB8mb0+PYd7YO3GI/eResBxAU15Y/NyM8ziz2Fx12r4i5rlmzprpvx5kYTX+u++30LUHiuQZDkgZFx8kG1ZhIB2xjN9hTwebSJQO3PB5DUlt/V2Bs5sYgzUg7ZIjoCKTMppby7+h43Ijw2YPoP0jxsM1lQPiAJY/TcSB1KQP5EKjyllPM3Ay4psyIRTKcomS+uw3JMknFF9QSVMgMkIsThR/dgtnFlVqr/t+9MyLbHvPYZfPzksG6TstDhNN4lGQ3yer3wEpZXDEE+6+tV32WdBqAWl/qngbn4nGx5jyupvs/0k="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTc4MDkzOTQ5NDg2OSwKICAicHJvZmlsZUlkIiA6ICIyYzZkN2IzZDc2NzQ0YjE4OGQ4NmJiNmE3MDdlYThlNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJYZXBob3MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU3MWJjNmExMDhlOTEyNTI5YTFjNTNlYWUyN2E3Nzk5YjE4NDBmZDQ3YjIzZDQwNGY5MWIyODhmNjJmNjM0NCIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1227576764
+							-1560065926
+							-2081613911
+							2036351875
+						]
+						Name: "adam989911"
+						Properties: {
+							textures: [{
+								Signature: "TR+tfl3L3C0hF8OsYUs+70RcOvu0OoktucmvEqMdLumwEVAjMj5AqQh3LaPTC89w7+0qpwjEd/Vj4JqeIf/fwUYtFzvgRiRnaSYf9x84Kvu+nv5e718/7vFzuOAI10rSKJRWOsBd5NePR+hAaQZhpW7BjGV6Ej9j0jG4nWJiHBLvC6jqZXoL5G1nMvZSHfrCFOfQwc7A4MZ8I9SzHsjF6K88sEiWUCgkTNK6Bly1YB+hJZO3hksTwFSHARKXI1JpnfDcqSaFCT6x1pssrQPQLZi27790hfpvN2kRnW/z6UWGm5o+mAfvR7z/TjpJJADVSIE+zs64E58JliHF8XAokyzsTTkb1CMVKJDnLYzy+dbIIi7eSLbVE7LBIQtYoDYaZFYPorXC8XgEMUiVUorfrXu1BmjEgTHXylGI13k2XTUULIPRck2LQof0fRhhEHqPr5ABuCsWSVQ07nzDDul22WhZ3F4Zuc/httAK56t54dOTItss8/ccAKxaaiz5AYIa7D2uW42EICSfQ+gphW8tji+MF/yZ1jCKtV8UjZCbL4dqAc0f7I9IEWDDxxpQVaLniSmwDDSVvDj60qc+tCEHZ5L8LxAWJ98ZNRtDgnRNfwr8mqrY0XpHp6237TuqGj4LFTxet06WfHa4PDYKqgDcW5R6o+jaCjAgUw9em+ltaU4="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTc4MDkzOTUxMzAzMiwKICAicHJvZmlsZUlkIiA6ICJiNmQ0YWE0NGEzMDM0ODdhODNlZDE3YTk3OTYwNDM4MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJhZGFtOTg5OTExIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNiNjc2NzE3ODQ1YmU1YWZhZjU1ZTdiOThlODhjMmY5YjNmODUzNTEyODZlMzIzMmFhNmY5ZjU2Y2EyODgwYjgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							2111135339
+							-244627452
+							-1913311408
+							-149349587
+						]
+						Name: "LividCoffee"
+						Properties: {
+							textures: [{
+								Signature: "FUYxzhY2Xh0QfmF3ZhOjSceGyf5+c6Rwhf/dz7yeRYnJJHemtwlw0QmyMYB0YTiMXiU54fidJoL5s6P+T7KXEnq2QooZkd0vbrRolIrELXh3AIOn5giniJ80E5Dz/UUu7Gdv5CDJ71EdKKuQNBFfUwy8lpD7hbzkkD34YXmI2Lof1+lS23zkXmHwR0ASpzp05Oe8P6BH6rxRkCSQrErff2tTWtz0Y8QFbJS5gHm8bHgqxOFk16Y++EAuZBP5cXv+9c2TNyQmfF4+S6BapuWJoxQsZeOGt0UYJ7rg3ZIiQtK2oY4/hzNrNFCzXQtOVxO06iceTTACT5z41vKn9vGrBQaxufdxwc7Py95SWh77mET7YueZKam024zXc8RhSOgfMosJasrqadxZwaYYAzQWakZujZltKcFkukvG0TPi+2IUKa3uCliIgcAf3g3d0a/eacKGwGRTH1U8+DHSOIbFpHkyP50EP2/CB8uJAHkhWKF5zXVYERa6d9qfHqnITCB8S3G2xv/7Hci6PU68P7B8fioubjFMV4+nHGZtTrqmbFdDXAbGde4t38CAmXxxq1otpQFMU55ZgzCzO4VPqzwUDAU/Jr9vzCOD+//YBEuHAwJg2OFoNKICpa5lXIQBeAvuWdZDs58wVTF8GfJ9+LzOZXYGKkfw1zbkizo9wgBupaA="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTc4MDkzOTU0MzI2MCwKICAicHJvZmlsZUlkIiA6ICI3ZGQ1NWU2YmYxNmI0ODA0OGRmNTJmNTBmNzE5MWIyZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaXZpZENvZmZlZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MGQ0ZDdkYmI1YzZmZjNmZWJmMjU4NDUxOGE3MjE1N2U1ZTA4Y2Q2OTI2MmU4NThjMTA2YjYzOTMxZTMxMjUyIgogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-728249245
+							1642809362
+							-1664548365
+							-1453889225
+						]
+						Name: "BobaWitch"
+						Properties: {
+							textures: [{
+								Signature: "ceoCGSGFsU7GdazeNFGin4x/reg78bzboDhKSN1bEB98qCh4zV7EV23DuQQ788mQufOWRXQ/JpOA1v7UVgXpw2q47JE8uy+pdqFqpvINMtCM4yJ8ABtodhsqTl/g7wTMG+Q1JfezuSL3TUh9OFZB64C5T7tIxL+lxdOeDQf1d9h1nzFieiEcxWdGReVl9nTMxXkCN/L0AqXXiHAvxuFeX9Y26L2ezuRm5gefJj7atqy9SrLe8bHgG/bOJeeIvAXkY8d6SSXhk82N7HZS/2PIbrLqsOBvFXFtKxKzmXckDN2lCmk2zh+bdEK/hBLPkk0PRH+XqgRAXDG9aOhb6TWI8czT5ZsGesvN9AJxbGrgAQipXpeyT4Oamxs4xxqhIO0HJSOQlkmS8qd4ZA92VV0gjLWIFHDZZs6lVep1xoTKr9Xpa4IP6UfIhVGjrixGVqAMc0isyGjgV3lZQRryiJswBkTovce/Ii1QHQL/xQJbX/cW1ECj+axDnyaCvl0zxQNSipN2+ekHfCyV97vAyhz6WEn9rlsUoU5f3k0+Q7i9fyhwc+TUYqvRgxg7IgicsTbj2MatPcEhStg44DnMrKhSo+PNYgYOcRxqXcV0JIWYiie0WHIoEP28xjG8xFq7jBbWJriF1U4DIbEjZpMFwUSzY5vINgzS6qnio0/hc+OInWU="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTc4MDkzOTc1NDU1NywKICAicHJvZmlsZUlkIiA6ICJkNDk3Y2M2MzYxZWI0ODEyOWNjOTAxZjNhOTU3NjkzNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCb2JhV2l0Y2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDVmZWM1ZWNlOTBmMTgxZDI1YWY1ZjhkNDMzYjFkMDNiYzJiN2FjNzEwMjc5ZDRiNmMyYjBlZTQ5NzM4NGU0OCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+		}
+		{ item: "kubejs:crimson" }
+		{
+			item: {
+				Count: 1
+				id: "hexcasting:jeweler_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 8, item: "thermal:sushi_maki" }
+		{ item: "iceandfire:dragonegg_amythest" }
+		{
+			count: 6
+			item: {
+				Count: 1
+				id: "cgs:frag_grenade"
+				tag: {
+					Ammo: "ntgl:round10mm"
+					AmmoCount: 0
+					ThrowMode: "ntgl:safe"
+					variant: "default"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:autoloader_crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 3, item: "irons_spellbooks:rare_ink" }
+		{ count: 3, item: "irons_spellbooks:common_ink" }
+		{ count: 3, item: "irons_spellbooks:uncommon_ink" }
+		{ count: 3, item: "irons_spellbooks:epic_ink" }
+		{ item: "irons_spellbooks:legendary_ink" }
+		{ item: "irons_spellbooks:greater_conjurers_talisman" }
+		{ count: 6, item: "species:wicked_wax" }
+		{ item: "farmersdelight:glow_berry_custard" }
+		{
+			item: {
+				Count: 1
+				id: "tombstone:fishing_rod_of_misadventure"
+				tag: {
+					enchant: 1b
+				}
+			}
+		}
+		{ count: 2, item: "irons_spellbooks:icy_fang" }
+		{ count: 3, item: "irons_spellbooks:blank_rune" }
+		{ item: "createrailwaysnavigator:navigator" }
+		{
+			item: {
+				Count: 1
+				id: "powergrid:electrozapper"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "powergrid:electrobaton"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 3, item: "powergrid:growth_lamp" }
+		{ item: "powergrid:potato_battery" }
+		{ item: "powergrid:mv_switch" }
+		{ count: 8, item: "powergrid:light_bulb" }
+		{ count: 25, item: "alexscaves:candy_cane_block" }
+		{ item: "goety:raiding_horn" }
+		{ item: "aquaculture:treasure_chest" }
+		{ item: "alexscaves:grottoceratops_egg" }
+		{ count: 8, item: "species:wicked_treat" }
+		{ item: "alexscaves:tremorzilla_egg" }
+		{ item: "alexscaves:tremorsaurus_egg" }
+		{
+			item: {
+				Count: 1
+				id: "biomancy:despoil_sickle"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:novelty_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:onion_ring" }
+		{
+			item: {
+				Count: 1
+				id: "raccompat:vine_ring"
+				tag: {
+					abilities: {
+						vine: {
+							points: 0
+							stats: {
+								cooldown: 23.98062d
+								length: 14.99183d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "raccompat:desolate_pendant"
+				tag: {
+					abilities: {
+						desolate: {
+							points: 0
+							stats: {
+								chance: 0.06954d
+								damage: 0.21997d
+							}
+						}
+						devastate: {
+							points: 0
+							stats: {
+								cooldown: 34.53383d
+								count: 1.70835d
+							}
+						}
+					}
+				}
+			}
+		}
+		{ count: 16, item: "royalvariations:royal_arrow" }
+		{ item: "royalvariations:spectral_gauntlet" }
+		{ item: "royalvariations:royal_upgrade_smithing_template" }
+		{ count: 8, item: "royalvariations:royal_armor_fragments" }
+		{ count: 12, item: "royalvariations:royal_bone_meal" }
+		{ item: "royalvariations:royal_telelocator" }
+		{ count: 12, item: "ae2:tiny_tnt" }
+		{
+			item: {
+				Count: 1
+				id: "createbigcannons:he_shell"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:micromissiles"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:straddleboard"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mob_grinding_utils:solid_xp_baby" }
+		{ item: "create:blaze_burner" }
+		{
+			item: {
+				Count: 1
+				id: "masquerader_mod:evoker_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mekanism:robit" }
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:hither_thither_wand"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:portal"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+			}
+		}
+		{ item: "irons_spellbooks:arcane_anvil" }
+		{ item: "irons_spellbooks:cooldown_ring" }
+		{ item: "irons_spellbooks:fireward_ring" }
+		{ item: "irons_spellbooks:amethyst_resonance_charm" }
+		{ item: "irons_spellbooks:silver_ring" }
+		{ item: "irons_spellbooks:mana_ring" }
+		{ item: "irons_spellbooks:emerald_stoneplate_ring" }
+		{ item: "irons_spellbooks:heavy_chain_necklace" }
+		{ item: "alexscaves:nuclear_bomb" }
+		{ item: "delightful:smore" }
+		{
+			item: {
+				Count: 1
+				id: "ars_additions:water_breathing_charm"
+				tag: {
+					charges: 1000
+				}
+			}
+		}
+		{ item: "alexscaves:grottoceratops_egg" }
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:micromissiles"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "scannable:scanner"
+				tag: {
+					energy: 5000
+				}
+			}
+		}
+		{ item: "pneumaticcraft:universal_sensor" }
+		{ item: "betterarcheology:growth_totem" }
+		{ item: "artifacts:chorus_totem" }
+		{
+			item: {
+				Count: 1
+				id: "betterarcheology:torrent_totem"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "betterarcheology:soul_totem"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "betterarcheology:radiance_totem" }
+		{ item: "cataclysm_spellbooks:engineers_power_glove" }
+		{ item: "rats:manhole" }
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:wayward_compass"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:speed_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "irons_spellbooks:tyros_statue" }
+		{ item: "irons_spellbooks:ice_spider_egg" }
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:ghostly_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "farmersdelight:honey_glazed_ham" }
+		{
+			item: {
+				Count: 1
+				id: "ars_additions:fire_resistance_charm"
+				tag: {
+					charges: 1000
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ars_additions:ender_mask_charm"
+				tag: {
+					charges: 100
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ars_additions:fall_prevention_charm"
+				tag: {
+					charges: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ars_additions:golden_charm"
+				tag: {
+					charges: 1000
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ars_additions:night_vision_charm"
+				tag: {
+					charges: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ars_additions:powdered_snow_walk_charm"
+				tag: {
+					charges: 1000
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ars_additions:sonic_boom_protection_charm"
+				tag: {
+					charges: 3
+				}
+			}
+		}
+		{ count: 8, item: "alexsmobs:banana" }
+		{ item: "alexsmobs:vine_lasso" }
+		{
+			item: {
+				Count: 1
+				id: "complicated_bees:scoop"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "transmog:transmogrification_table" }
+		{ item: "kubejs:crimson" }
+		{ count: 4, item: "irons_spellbooks:book_stack" }
+		{ item: "pneumaticcraft:programming_puzzle" }
+		{ item: "thermal:xp_stew" }
+		{
+			item: {
+				Count: 1
+				id: "bosses_of_mass_destruction:earthdive_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "bosses_of_mass_destruction:mob_ward" }
 	]
 	title: "{ftbquests.loot_table.5682295257556819944.title}"
 	use_title: true
