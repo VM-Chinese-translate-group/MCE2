@@ -479,9 +479,10 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "4F5EE0EB2149A569"
-					item: "artifacts:panic_necklace"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "591D4EDA1C8AE342"
+					table_id: 58638758524816517L
+					type: "choice"
 				}
 			]
 			shape: "pentagon"

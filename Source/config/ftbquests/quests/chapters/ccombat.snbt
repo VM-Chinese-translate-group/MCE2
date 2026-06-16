@@ -26,21 +26,12 @@
 			description: ["{ftbquests.chapter.ccombat.quest3721296494547814032.description1}"]
 			hide_dependency_lines: true
 			id: "33A4B3720D6DC690"
-			rewards: [
-				{
-					amount: 50L
-					currency: "eternalcurrencies:coins"
-					id: "0CA2D530462E5AC7"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					count: 20
-					id: "259BAF28F8E1DA1C"
-					item: "minecraft:arrow"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "259BAF28F8E1DA1C"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
 			size: 0.8d
 			subtitle: "{ftbquests.chapter.ccombat.quest3721296494547814032.subtitle}"
 			tasks: [{
@@ -101,7 +92,7 @@
 			hide_dependency_lines: true
 			id: "114DC7895D34A4CC"
 			rewards: [{
-				amount: 50L
+				amount: 25L
 				currency: "eternalcurrencies:coins"
 				id: "5BFFE1EA31874462"
 				ignore_reward_blocking: true
@@ -189,26 +180,16 @@
 			rewards: [{
 				amount: 50L
 				currency: "eternalcurrencies:coins"
-				id: "26164EA7379614A5"
+				id: "00A9316A3D536C99"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
 			subtitle: "{ftbquests.chapter.ccombat.quest8250330562576551879.subtitle}"
 			tasks: [{
-				id: "59A38541F2A1B204"
+				id: "740AC227300987C6"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"dungeons_gear:bow": {
-							crossbowChargeTime: 0
-							fuseShotCounter: 0
-							lastFiredTime: 0L
-						}
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "minecraft:crossbow"
+					id: "clockwork:barrel_crossbow"
 					tag: {
 						Damage: 0
 					}

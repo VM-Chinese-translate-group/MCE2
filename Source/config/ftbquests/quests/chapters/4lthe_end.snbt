@@ -368,6 +368,48 @@
 			x: -2.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["46C671151AE613A1"]
+			description: [
+				"You did it! You killed that oversized whelp and brought chaos to the world!"
+				"&4<shake>Muahahah!! &o<shake>Excellent! "
+				""
+				"Now without further delay, trade me that object you got from slaying the &dEternal Ender Dragon&r and I will reward you handsomely!"
+				""
+				"{image:modpack:textures/barry-the-rat-demon-transparent-no-white.png width:100 height:100 align:center}"
+				""
+				"&7All of a sudden Barry seems awful scary... :("
+				""
+				"&6Note:&r This Quest is optional"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "32215D06BAD919AD"
+			optional: true
+			rewards: [{
+				id: "656F3ED8D4A992C7"
+				item: {
+					Count: 1
+					id: "mce2lib:amethyst_helmet"
+					tag: {
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 3.0d
+			subtitle: "Trade With Barry"
+			tasks: [{
+				consume_items: true
+				id: "6B1176AB27C4AD25"
+				item: "kubejs:artifact_runestone_dark_inscribed_large"
+				type: "item"
+			}]
+			title: "&dA Deal With The Devil"
+			x: 8.0d
+			y: 0.0d
+		}
 	]
 	title: "{ftbquests.chapter.4lthe_end.title}"
 }

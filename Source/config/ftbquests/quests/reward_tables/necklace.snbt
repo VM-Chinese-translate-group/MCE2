@@ -1,0 +1,11 @@
+{
+	id: "00D053A3E3F10C85"
+	loot_size: 1
+	order_index: 35
+	rewards: [
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:flame_pendant" }
+		{ item: "artifacts:thorn_pendant" }
+	]
+	title: "necklace"
+}

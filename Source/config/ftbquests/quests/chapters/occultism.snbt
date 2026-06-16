@@ -294,27 +294,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -499,27 +482,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -978,27 +944,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1037,27 +986,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1179,27 +1111,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1332,27 +1247,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1463,27 +1361,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1574,27 +1455,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1651,27 +1515,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1856,27 +1703,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1956,27 +1786,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2017,27 +1830,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2331,27 +2127,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2389,27 +2168,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2447,27 +2209,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2505,27 +2250,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2563,27 +2291,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2621,27 +2332,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2679,27 +2373,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2737,27 +2414,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2811,27 +2471,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2875,27 +2518,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -2947,27 +2573,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3019,27 +2628,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3091,27 +2683,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3163,27 +2738,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3235,27 +2793,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3307,27 +2848,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3379,27 +2903,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3451,27 +2958,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3523,27 +3013,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3595,27 +3068,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3667,27 +3123,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3739,27 +3178,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3811,27 +3233,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3883,27 +3288,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -3955,27 +3343,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4128,27 +3499,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4242,27 +3596,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4345,27 +3682,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4411,27 +3731,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4480,27 +3783,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4591,27 +3877,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4679,27 +3948,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4786,27 +4038,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4872,27 +4107,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -4966,27 +4184,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -5062,27 +4263,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -5324,27 +4508,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -5410,27 +4577,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"translate\":\"lore.mce2.occultism.1\"}"
-									"{\"translate\":\"lore.mce2.occultism.2\"}"
-									"{\"translate\":\"lore.mce2.bosses.3\"}"
-									"{\"translate\":\"lore.mce2.occultism.3\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
