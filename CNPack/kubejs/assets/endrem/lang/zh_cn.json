@@ -2,8 +2,8 @@
   "item.endrem.old_eye": "§e远古之眼",
   "item.endrem.old_eye.description": "§7§o传说此眼曾属于一只巨大的沙虫。",
 
-  "item.endrem.rogue_eye": "§2蔓延之眼",
-  "item.endrem.rogue_eye.description": "§7§o它在你手里扭曲蠕动…这件物品看起来很有活力…或许该拿点除草剂来……",
+  "item.endrem.rogue_eye": "§2蔓生之眼",
+  "item.endrem.rogue_eye.description": "§7§o它在你手里扭曲蠕动…这件物品看起来充满了生命力…或许该拿点除草剂来……",
 
   "item.endrem.nether_eye": "§4恶魔之眼",
   "item.endrem.nether_eye.description": "§7§o主世界和下界大战时，此物属于一位强大的恶魔。后来，有位狂妄的闯入者召唤了这位恶魔，至此，这件造物才重现于世。它能赐予你难以想象的勇气……",
@@ -35,11 +35,11 @@
   "item.endrem.evil_eye": "§8邪恶之眼",
   "item.endrem.evil_eye.description": "§7§o据说这个邪异护符能保护持有者免受厄运。假面者垂涎它巨大的魔力…寄希望于用它的力量保证舞会圆满成功！",
 
-  "item.endrem.undead_eye": "§8Lich Eye",
-  "item.endrem.undead_eye.description": "§7§oThe energy contained inside this vessel is chaotic by nature, making it deeply unstable. The Night Lich resides in an ancient tower in the coldest reaches of the Overworld.",
+  "item.endrem.undead_eye": "§8巫妖之眼",
+  "item.endrem.undead_eye.description": "§7§o这只眼睛里封存的能量本质混沌，因此极度不稳，而它的主人已重回主世界。祂不惧极寒，居住在古老高塔上——正是巫妖。",
 
-  "item.endrem.cryptic_eye": "§3渔夫之眼",
-  "item.endrem.cryptic_eye.description": "§7§o相传，渔夫之眼乃海神涅普顿亲赐之礼，唯有整个主世界最杰出，最伟大的渔夫才有资格获得！！",
+  "item.endrem.cryptic_eye": "§3垂钓者之眼",
+  "item.endrem.cryptic_eye.description": "§7§o相传，垂钓者之眼乃海神涅普顿亲赐之礼，唯有主世界最杰出，最伟大的垂钓者才有资格获得！！",
 
   "item.endrem.corrupted_eye": "§8腐化之眼",
   "item.endrem.corrupted_eye.description": "§7§o逝于孤独的贪婪国王之眼，传说它会给拥有者带来代价是永恒的悲苦的无尽财富。",
