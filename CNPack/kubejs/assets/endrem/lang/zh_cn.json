@@ -36,36 +36,36 @@
   "item.endrem.evil_eye.description": "§7§o据说这个邪异护符能保护持有者免受厄运。假面者垂涎它巨大的魔力…寄希望于用它的力量保证舞会圆满成功！",
 
   "item.endrem.undead_eye": "§8巫妖之眼",
-  "item.endrem.undead_eye.description": "§7§o这只眼睛里封存的能量本质混沌，因此极度不稳，而它的主人已重回主世界。祂不惧极寒，居住在古老高塔上——正是巫妖。",
+  "item.endrem.undead_eye.description": "§7§o这只眼睛里封存的能量本质混沌，因此极度不稳，而它的主人——那位不惧极寒，居住在古老高塔上的巫妖，已悄然回归主世界。",
 
   "item.endrem.cryptic_eye": "§3垂钓者之眼",
   "item.endrem.cryptic_eye.description": "§7§o相传，垂钓者之眼乃海神涅普顿亲赐之礼，唯有主世界最杰出，最伟大的垂钓者才有资格获得！！",
 
   "item.endrem.corrupted_eye": "§8腐化之眼",
-  "item.endrem.corrupted_eye.description": "§7§o逝于孤独的贪婪国王之眼，传说它会给拥有者带来代价是永恒的悲苦的无尽财富。",
+  "item.endrem.corrupted_eye.description": "§7§o贪婪的国王在孤寂中死去，只留下了这只眼睛。传说，拥有可得无尽财宝，却永陷悲苦之中。",
 
   "item.endrem.witch_eye": "§b灵魂之眼",
-  "item.endrem.witch_eye.description": "§7§o昔日神王咒翼灵骸残暴地统治着他的仆从。最终他被一位不知名的英雄击败，并被放逐到一块墓碑中，永世不得翻身。",
+  "item.endrem.witch_eye.description": "§7§o神王咒翼灵骸以暴虐的手段统御麾下仆从。最终，一位无名英雄将其击败，永世封印在一座墓碑之中。",
 
   "item.endrem.undead_soul": "§e不死之魂",
 
-  "advancements.main.rogue_eye.description": "获得一颗蔓延之眼",
+  "advancements.main.rogue_eye.description": "获得你的第一颗蔓生之眼",
 
-  "advancements.main.magical_eye.title": "千锻之眼",
-  "advancements.main.magical_eye.description": "获得一颗熔铸之眼",
+  "advancements.main.magical_eye.title": "千锤百炼，得成此眼",
+  "advancements.main.magical_eye.description": "获得你的第一颗熔铸之眼",
 
-  "advancements.main.wither_eye.description": "获得一颗机械之眼",
+  "advancements.main.wither_eye.description": "获得你的第一颗机械之眼",
 
   "advancements.main.guardian_eye.title": "受祝福的？",
-  "advancements.main.guardian_eye.description": "获得一颗降福之眼",
+  "advancements.main.guardian_eye.description": "获得你的第一颗耀福之眼",
 
-  "advancements.main.cursed_eye.description": "获得一颗炽烈之眼",
+  "advancements.main.cursed_eye.description": "获得你的第一颗炽烈之眼",
 
-  "advancements.main.witch_eye.title": "内在之魂",
-  "advancements.main.witch_eye.description": "获得一颗灵魂之眼",
+  "advancements.main.witch_eye.title": "笼中魂",
+  "advancements.main.witch_eye.description": "获得你的第一颗灵魂之眼",
 
-  "advancements.main.evil_eye.title": "真正的‘祝福’",
+  "advancements.main.evil_eye.title": "真正的“祝福”",
 
-  "advancements.main.exotic_eye.title": "这不是亚特兰提斯…",
-  "advancements.main.exotic_eye.description": "获得一颗寂没之眼"
+  "advancements.main.exotic_eye.title": "这不是亚特兰蒂斯…",
+  "advancements.main.exotic_eye.description": "获得你的第一颗沉没之眼"
 }
