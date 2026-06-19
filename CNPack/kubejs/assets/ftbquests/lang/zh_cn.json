@@ -5,8 +5,8 @@
     "ftbquests.reward_tables": "奖励池",
     "ftbquests.rewards": "§6↓ §n奖励§r §6↓",
     "ftbquests.task.ftbquests.item.convert_tag": "转换为标记物品",
-    "ftbquests.task.ftbquests.item.match_nbt.tooltip": "默认：物品必须拥有 'itemfilters:match_nbt' 标签\n否：从不检查NBT\n是：总是检查NBT",
-    "ftbquests.task.ftbquests.item.weak_nbt_match.tooltip": "否：精确匹配 NBT \n是：仅匹配顶层 NBT 字段",
+    "ftbquests.task.ftbquests.item.match_nbt.tooltip": "默认：物品必须拥有“itemfilters:match_nbt”标签\nFalse：从不检查NBT\nTrue：总是检查NBT",
+    "ftbquests.task.ftbquests.item.weak_nbt_match.tooltip": "False：精确匹配NBT\nTrue：仅匹配过滤物品\n      NBT的根标签 ",
     "ftbquests.task.max_input": "最大输入",
     "ftbquests.tasks": "§a§n任务"
 }
