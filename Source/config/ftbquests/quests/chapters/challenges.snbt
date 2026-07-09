@@ -732,38 +732,22 @@
 			tasks: [
 				{
 					id: "395158D44241BF2B"
-					item: {
-						Count: 1
-						id: "ad_astra:tier_1_rocket"
-						tag: { }
-					}
+					item: "ad_astra:tier_1_rocket"
 					type: "item"
 				}
 				{
 					id: "682280439E2E4615"
-					item: {
-						Count: 1
-						id: "ad_astra:tier_2_rocket"
-						tag: { }
-					}
+					item: "ad_astra:tier_2_rocket"
 					type: "item"
 				}
 				{
 					id: "7AF83F3C2D6543B9"
-					item: {
-						Count: 1
-						id: "ad_astra:tier_3_rocket"
-						tag: { }
-					}
+					item: "ad_astra:tier_3_rocket"
 					type: "item"
 				}
 				{
 					id: "2F9603361E749FF1"
-					item: {
-						Count: 1
-						id: "ad_astra:tier_4_rocket"
-						tag: { }
-					}
+					item: "ad_astra:tier_4_rocket"
 					type: "item"
 				}
 			]
@@ -778,31 +762,7 @@
 			optional: true
 			rewards: [
 				{
-					id: "00F093699E74F1DB"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "blackmarket_cache"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "01A985D13C2D4B7F"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "rats:filth_corruption"
-					}
-					type: "item"
-				}
-				{
-					amount: 1000L
+					amount: 2500L
 					currency: "eternalcurrencies:coins"
 					id: "77C53D0688E0D986"
 					ignore_reward_blocking: true
@@ -815,11 +775,6 @@
 					id: "75C16C5877360ABC"
 					title: "{ftbquests.chapter.challenges.quest3149441517464418428.reward.8485182300155677372.title}"
 					type: "command"
-				}
-				{
-					id: "737585AAC565A2D5"
-					item: "kubejs:chocolate_coin"
-					type: "item"
 				}
 			]
 			subtitle: "{ftbquests.chapter.challenges.quest3149441517464418428.subtitle}"
@@ -1357,16 +1312,12 @@
 				}
 				{
 					id: "0AC865BD4B5371BC"
-					item: {
-						Count: 1
-						id: "thegreatbelow:gone_music_disc"
-						tag: { }
-					}
+					item: "thegreatbelow:gone_music_disc"
 					type: "item"
 				}
 				{
 					id: "6945EB2F28C161D2"
-					item: "vanillabackport:music_disc_lava_chicken"
+					item: "minecraft:music_disc_lava_chicken"
 					type: "item"
 				}
 				{

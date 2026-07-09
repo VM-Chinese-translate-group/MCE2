@@ -725,13 +725,13 @@
 			icon: "enderio:empty_soul_vial"
 			id: "03DA3D57743E6D7D"
 			rewards: [{
-				id: "5EBF4160B5C10026"
+				id: "55382B7A8B1BEFBB"
 				item: "enderio:empty_soul_vial"
 				type: "item"
 			}]
 			subtitle: "Purchase Soul Vial"
 			tasks: [{
-				amount: 1200L
+				amount: 800L
 				currency: "eternalcurrencies:coins"
 				id: "33EFA8A71793A0E6"
 				type: "eternalcurrencies:currency"
@@ -743,79 +743,68 @@
 		{
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest879587116138330832.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "ftbquests:lootcrate"
-				tag: {
-					type: "barry_s_trash"
-				}
-			}
+			icon: "irons_spellbooks:blank_rune"
 			id: "0C34EBD2666F7AD0"
 			rewards: [{
-				id: "431FEA566D80D76E"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "barry_s_trash"
-					}
-				}
+				id: "66A6BF75B94F31A2"
+				item: "irons_spellbooks:blank_rune"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest879587116138330832.subtitle}"
+			subtitle: "Purchase Blank Runestone"
 			tasks: [{
-				amount: 500L
+				amount: 250L
 				currency: "eternalcurrencies:coins"
 				id: "3A6C1F57602DE2AF"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest879587116138330832.title}"
+			title: "&eYard Sale:&r Blank Runestone"
 			x: 10.0d
 			y: 8.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest2575455854356296849.description1}"]
+			description: [
+				"Contains items which are illegal or exceptionally rare. Also contains useless items. "
+				""
+				"&6&nHigh risk. High reward."
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
-					type: "cheesy_cache"
+					type: "blackmarket_cache"
 				}
 			}
 			id: "23BDDB74459B7491"
 			rewards: [{
-				id: "197B2B854518B5BB"
+				id: "3D697F10F7105585"
 				item: {
 					Count: 1
 					id: "ftbquests:lootcrate"
 					tag: {
-						type: "cheesy_cache"
+						type: "blackmarket_cache"
 					}
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest2575455854356296849.subtitle}"
+			subtitle: "Contains 1x Item from <wave>&l&d<wave>THE BLACK <wave>MARKET"
 			tasks: [{
-				amount: 150L
+				amount: 2500L
 				currency: "eternalcurrencies:coins"
 				id: "40FDCA5AFA29B0E1"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest2575455854356296849.title}"
+			title: "&eYard Sale:&r Unclaimed Black Market Container"
 			x: 5.0d
 			y: 12.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest6912393888080576994.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "artifacts:helium_flamingo"
@@ -827,7 +816,7 @@
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest6912393888080576994.subtitle}"
 			tasks: [{
-				amount: 1200L
+				amount: 1000L
 				currency: "eternalcurrencies:coins"
 				id: "6E96EBCCC7C568C5"
 				type: "eternalcurrencies:currency"
@@ -874,7 +863,7 @@
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.subtitle}"
 			tasks: [{
-				amount: 4500L
+				amount: 2500L
 				currency: "eternalcurrencies:coins"
 				id: "15D985D888F354CB"
 				type: "eternalcurrencies:currency"
@@ -967,7 +956,7 @@
 			}]
 			subtitle: "Purchase Blade Shoes"
 			tasks: [{
-				amount: 300L
+				amount: 250L
 				currency: "eternalcurrencies:coins"
 				id: "5D5494F38BA16309"
 				type: "eternalcurrencies:currency"
@@ -989,11 +978,11 @@
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "vanillabackport:music_disc_lava_chicken"
+			icon: "minecraft:music_disc_lava_chicken"
 			id: "160FEAD5EF3B96C3"
 			rewards: [{
 				id: "2D9CA78605E260DB"
-				item: "vanillabackport:music_disc_lava_chicken"
+				item: "minecraft:music_disc_lava_chicken"
 				type: "item"
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.subtitle}"
@@ -1059,37 +1048,42 @@
 			y: 10.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.description1}"]
+			description: [
+				"&6Tip&r: Very useful for combat when you are low on mana! "
+				""
+				"&7&oMonster Energy for wizards."
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
-				id: "amethyst_tools:amethyst_goat_horn"
+				id: "minecraft:potion"
 				tag: {
-					Damage: 0
+					Potion: "irons_spellbooks:instant_mana_four"
 				}
 			}
 			id: "1B07F007D678FF25"
 			rewards: [{
-				id: "085D513390A7E75C"
+				id: "0BE0ECB2D0450D35"
 				item: {
 					Count: 1
-					id: "amethyst_tools:amethyst_goat_horn"
+					id: "minecraft:potion"
 					tag: {
-						Damage: 0
+						Potion: "irons_spellbooks:instant_mana_four"
 					}
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.subtitle}"
+			subtitle: "Purchase Potion of Mana IV"
 			tasks: [{
-				amount: 350L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "402EEE608482552C"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.title}"
+			title: "&eYard Sale: &rPotion of Mana"
 			x: 8.0d
 			y: 10.0d
 		}
@@ -1157,7 +1151,7 @@
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest488986572967293936.subtitle}"
 			tasks: [{
-				amount: 15000L
+				amount: 10000L
 				currency: "eternalcurrencies:coins"
 				id: "75A99232C9E867F3"
 				type: "eternalcurrencies:currency"
@@ -1191,24 +1185,28 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.description1}"]
+			description: [
+				"&7\"If I could save time in a bottle. The first thing that I'd like to do. Is to save every day till eternity passes away. Just to spend them with you.\""
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.description1}"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "artifacts:pickaxe_heater"
+			icon: "tiab:time_in_a_bottle"
 			id: "0315618E959F4C6D"
 			rewards: [{
-				id: "5B636509EECD59E0"
-				item: "artifacts:pickaxe_heater"
+				id: "5DEB574C80DE660C"
+				item: "tiab:time_in_a_bottle"
 				type: "item"
 			}]
-			subtitle: "Purchase Pickaxe Heater"
+			subtitle: "Purchase Time in a Bottle"
 			tasks: [{
-				amount: 400L
+				amount: 5000L
 				currency: "eternalcurrencies:coins"
 				id: "168BB3FADE55193D"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Pickaxe Heater"
+			title: "&eYard Sale:&r Time in a Bottle"
 			x: 6.0d
 			y: 10.0d
 		}
@@ -1891,7 +1889,7 @@
 			can_repeat: true
 			dependencies: [
 				"13049AEB2F8829E1"
-				"76AE8F18AD0E7279"
+				"42D43F3DA5D1E624"
 			]
 			description: ["&dRepeatable"]
 			hide_dependency_lines: true
@@ -2073,7 +2071,7 @@
 			}]
 			subtitle: "Purchase a Onion Ring"
 			tasks: [{
-				amount: 800L
+				amount: 500L
 				currency: "eternalcurrencies:coins"
 				id: "6D4010A12513E5AE"
 				type: "eternalcurrencies:currency"
@@ -2767,6 +2765,108 @@
 			title: "&eYard Sale:&r Osmium Ingot"
 			x: 25.0d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0D88B45349B3E660"
+				"13049AEB2F8829E1"
+			]
+			description: [
+				"Entered Expert Mode before you were fully ready? Miss the good old days when generic monsters didn't have full sets of armor and over 100 health? Consider the &eScroll of Regret!&r"
+				""
+				"Removes Expert Mode and returns you to Normal Mode, until you enter The Nether once more!"
+				""
+				"&dNote:&r This action can only be performed once! "
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "kubejs:regret_scroll"
+			id: "6CE313CDF58C2A92"
+			optional: true
+			rewards: [{
+				id: "0A3842E489B4D40C"
+				item: "kubejs:regret_scroll"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Purchase a Scroll of Regret"
+			tasks: [{
+				amount: 250L
+				currency: "eternalcurrencies:coins"
+				id: "40DDEE0EDD915286"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eRegrets? I've Had a Few"
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"Upon interacting, will send you your balance privately in chat."
+				""
+				"{image:ftblibrary:icons/money width:20 height:20 align:center}"
+				""
+				"&7\"I like money\" - Mr Krabs"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest1370390521532918241.description3}"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "kubejs:chocolate_coin"
+			id: "31D0A00A61208B58"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/execute as @p run ec checkbalance eternalcurrencies:coins"
+					elevate_perms: true
+					icon: "eternalcurrencies:debit_card"
+					id: "268B1E937396F9E4"
+					title: "&eAuto Check Balance"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p run playsound iceandfire:gold_pile_step master @p ~ ~ ~"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "tconstruct:maille"
+						tag: {
+							Material: "tconstruct:gold"
+						}
+					}
+					id: "079E5604519F48CA"
+					title: "&6Sound Effect"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Check Coin Balance"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2CF0B135C5F979B4"
+					title: "&6Check Coin Balance &e(Click)"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					elapsedTime: 30L
+					icon: "supplementaries:clock_block"
+					id: "4F506784312D6A10"
+					title: "Cooldown"
+					type: "questsadditions:time"
+				}
+			]
+			title: "&eCheck Balance"
+			x: -3.0d
+			y: 3.0d
 		}
 	]
 	title: "{ftbquests.chapter.barrys_yard_sale.title}"

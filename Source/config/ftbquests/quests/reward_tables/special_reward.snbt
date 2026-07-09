@@ -4,24 +4,6 @@
 	loot_size: 1
 	order_index: 31
 	rewards: [
-		{
-			item: {
-				Count: 1
-				id: "relics:magic_mirror"
-				tag: {
-					abilities: {
-						teleport: {
-							points: 0
-							stats: {
-								cooldown: 80.97289d
-								distance: 501.34549d
-							}
-						}
-					}
-				}
-			}
-		}
-		{ item: "mce2lib:porkus_summon" }
 		{ item: "artifacts:cloud_in_a_bottle" }
 		{
 			item: {
@@ -34,6 +16,7 @@
 				}
 			}
 		}
+		{ item: "uniqueaccessories:accessory_box" }
 	]
 	title: "{ftbquests.loot_table.1718805351174656688.title}"
 }

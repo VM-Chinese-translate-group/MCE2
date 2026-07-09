@@ -859,7 +859,6 @@
 			y: 4.0d
 		}
 		{
-			can_repeat: true
 			description: [
 				"{ftbquests.chapter.rats.quest4018331349832384671.description1}"
 				"{ftbquests.chapter.rats.quest4018331349832384671.description2}"

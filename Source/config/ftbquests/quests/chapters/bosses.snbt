@@ -696,7 +696,7 @@
 					type: "command"
 				}
 				{
-					amount: 8100L
+					amount: 1500L
 					currency: "eternalcurrencies:coins"
 					id: "1536238B30EE4C6D"
 					ignore_reward_blocking: true

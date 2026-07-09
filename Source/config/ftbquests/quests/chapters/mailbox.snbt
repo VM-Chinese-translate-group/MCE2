@@ -549,8 +549,8 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "4725AF9A0E8EC9FB"
-					item: "artifacts:kitty_slippers"
+					id: "78DA180885229195"
+					item: "artifacts:running_shoes"
 					type: "item"
 				}
 			]
@@ -765,7 +765,6 @@
 			y: 4.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["0901DBD03773B644"]
 			description: [
 				"{ftbquests.chapter.introduction.quest6920559528164792937.description1}"
