@@ -871,7 +871,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "46EE806F0A17707C"
 					ignore_reward_blocking: true
@@ -941,7 +941,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "4E1A4B5D8389F2DF"
 					ignore_reward_blocking: true
@@ -1024,7 +1024,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "74BBEDBB5A899EFA"
 					ignore_reward_blocking: true
@@ -1065,7 +1065,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "17CD6B54F1E55C75"
 					ignore_reward_blocking: true
@@ -1105,7 +1105,7 @@
 					type: "random"
 				}
 				{
-					amount: 250L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "3BC34FDA3AA0C8AF"
 					ignore_reward_blocking: true
@@ -1139,7 +1139,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "419881CEE6592887"
 					ignore_reward_blocking: true
@@ -1190,7 +1190,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "07860D80A472FF19"
 					ignore_reward_blocking: true
@@ -1234,7 +1234,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "22957042073F4D2E"
 					ignore_reward_blocking: true
@@ -1274,7 +1274,7 @@
 					type: "random"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "14230D6ECA4D4B8D"
 					ignore_reward_blocking: true
@@ -1314,7 +1314,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "6B4FD11BD6D8903E"
 					ignore_reward_blocking: true
@@ -1348,7 +1348,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "27023DADB2EDE2B1"
 					ignore_reward_blocking: true
@@ -1394,7 +1394,7 @@
 					type: "random"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "1A917DC44CD2E1A9"
 					ignore_reward_blocking: true
@@ -1429,7 +1429,7 @@
 					type: "item"
 				}
 				{
-					amount: 250L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "544A2CD8250B7636"
 					ignore_reward_blocking: true
@@ -1463,7 +1463,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "4517CA745950D9BF"
 					ignore_reward_blocking: true
@@ -1497,7 +1497,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "34D73FCF221D8905"
 					ignore_reward_blocking: true
@@ -1537,7 +1537,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "3322FDDD982B8548"
 					ignore_reward_blocking: true
@@ -1577,7 +1577,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "1B0F89A9DCE25640"
 					ignore_reward_blocking: true
@@ -1617,7 +1617,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "2E02BED721AECEAA"
 					ignore_reward_blocking: true
@@ -1657,7 +1657,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "5AB30985554C1EE2"
 					ignore_reward_blocking: true
@@ -1692,7 +1692,7 @@
 			id: "6D87086232516F07"
 			rewards: [
 				{
-					amount: 250L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "44E98941973FC3D8"
 					ignore_reward_blocking: true
@@ -1732,7 +1732,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "1B0D48E97F0D22DF"
 					ignore_reward_blocking: true
@@ -1772,7 +1772,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "4F10FA5325596E34"
 					ignore_reward_blocking: true
@@ -1818,7 +1818,7 @@
 					type: "random"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "11A0598D027C5097"
 					ignore_reward_blocking: true
@@ -1852,7 +1852,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "58B81D38019DE45E"
 					ignore_reward_blocking: true
@@ -1892,7 +1892,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "7FA0B69D698A45ED"
 					ignore_reward_blocking: true
@@ -1932,7 +1932,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "2156E3BA77E986E3"
 					ignore_reward_blocking: true
@@ -1972,7 +1972,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "39FE85972710D5E6"
 					ignore_reward_blocking: true
@@ -2012,7 +2012,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "7733A5C66ABCFEA1"
 					ignore_reward_blocking: true
@@ -2052,7 +2052,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "50CB2269ABF82E57"
 					ignore_reward_blocking: true
@@ -2092,7 +2092,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "3EE6F41FFD342C50"
 					ignore_reward_blocking: true
@@ -2138,7 +2138,7 @@
 					type: "random"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "7BBB2E8599170F16"
 					ignore_reward_blocking: true
@@ -2178,7 +2178,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "0C7213EEF5604F30"
 					ignore_reward_blocking: true
@@ -2221,7 +2221,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "2A1D1E2A3DD4E6EF"
 					ignore_reward_blocking: true
@@ -2261,7 +2261,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "5CD67EFE26A542F5"
 					ignore_reward_blocking: true
@@ -2296,7 +2296,7 @@
 			id: "327CFFB01545E1F2"
 			rewards: [
 				{
-					amount: 250L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "01CE4AF3224B6589"
 					ignore_reward_blocking: true
@@ -2402,7 +2402,7 @@
 			id: "410EFB70748D6EE2"
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "692DB218111CD77D"
 					ignore_reward_blocking: true
@@ -2447,7 +2447,7 @@
 			id: "7556FC23E3D19EEF"
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "32372DFA83550A78"
 					ignore_reward_blocking: true
@@ -2481,7 +2481,7 @@
 			id: "3A58ADE2E58485C5"
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "245E74282CEEA764"
 					ignore_reward_blocking: true
@@ -2515,7 +2515,7 @@
 			id: "1D5D605432230DDE"
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "0B162FF425DB3A3B"
 					ignore_reward_blocking: true
@@ -2549,7 +2549,7 @@
 			id: "2D0CAAA08451927D"
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "7A2B85354D73728C"
 					ignore_reward_blocking: true
@@ -2582,7 +2582,7 @@
 			hide_dependency_lines: true
 			id: "120EB493F7442852"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "7CCCE03AE6FCDEAB"
 				ignore_reward_blocking: true
@@ -2609,7 +2609,7 @@
 			id: "4A1132CCDF1C24A3"
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "16099B0B7CE7D8CA"
 					ignore_reward_blocking: true
@@ -2654,7 +2654,7 @@
 			id: "077A1A2802DB7F14"
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "2A26A242D034DC20"
 					ignore_reward_blocking: true
@@ -2688,7 +2688,7 @@
 			id: "31C709AAEF7662DC"
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "002A35C2F44376BA"
 					ignore_reward_blocking: true
@@ -2722,7 +2722,7 @@
 			id: "0BE05D606AA93EBE"
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "27D7233B2F1BF896"
 					ignore_reward_blocking: true
@@ -2756,7 +2756,7 @@
 			id: "14CF6995310A7222"
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "20611DB2C562FF99"
 					ignore_reward_blocking: true
@@ -2789,7 +2789,7 @@
 			hide_dependency_lines: true
 			id: "59598533E60BDCF1"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "2935CF4432027EEE"
 				ignore_reward_blocking: true
@@ -2816,7 +2816,7 @@
 			id: "08716E92515FF414"
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "6882151FF017A80C"
 					ignore_reward_blocking: true
@@ -2849,7 +2849,7 @@
 			hide_dependency_lines: true
 			id: "69BB49A6E68BA733"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "674707DD31E48DF7"
 				ignore_reward_blocking: true

@@ -77,11 +77,6 @@
 			id: "03FCEB26ED8148CF"
 			rewards: [
 				{
-					id: "6C6AA47F1B911A79"
-					table_id: 7907762097638722541L
-					type: "random"
-				}
-				{
 					command: "/titles add {p} titles:end"
 					console: true
 					icon: "titles:title_scroll_rare"
@@ -108,6 +103,13 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "3C9A6D13AB57272C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			shape: "pentagon"
@@ -146,7 +148,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 200L
 					currency: "eternalcurrencies:coins"
 					id: "0BB63B5A2E014256"
 					ignore_reward_blocking: true
@@ -201,7 +203,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 200L
 					currency: "eternalcurrencies:coins"
 					id: "1B0ECD3FFD5C7E69"
 					ignore_reward_blocking: true
@@ -285,22 +287,6 @@
 					type: "command"
 				}
 				{
-					id: "73DFD09C4BEF810B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "relics:magic_mirror"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
 					command: "/titles add {p} titles:doom"
 					console: true
 					icon: "titles:title_scroll_rare"
@@ -309,7 +295,7 @@
 					type: "command"
 				}
 				{
-					amount: 5000L
+					amount: 1500L
 					currency: "eternalcurrencies:coins"
 					id: "3B3FFAE44C23FA48"
 					ignore_reward_blocking: true

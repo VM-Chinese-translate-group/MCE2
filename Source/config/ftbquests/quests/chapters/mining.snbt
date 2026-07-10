@@ -68,6 +68,15 @@
 			x: 5.0d
 			y: 4.0d
 		}
+		{
+			dependency: "1B5CD795ACD7D0E5"
+			height: 1.0d
+			image: "constructs_casting:block/mithril_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 4.0d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -85,15 +94,11 @@
 				{
 					count: 8
 					id: "0F0252950C4B16DA"
-					item: {
-						Count: 1
-						id: "minecraft:lantern"
-						tag: { }
-					}
+					item: "minecraft:lantern"
 					type: "item"
 				}
 				{
-					amount: 50L
+					amount: 25L
 					currency: "eternalcurrencies:coins"
 					id: "1AD33577E76AA501"
 					ignore_reward_blocking: true
@@ -125,7 +130,7 @@
 					type: "item"
 				}
 				{
-					amount: 150L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "74854F92028659FF"
 					ignore_reward_blocking: true
@@ -197,7 +202,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "216CAE9C787D3398"
 					ignore_reward_blocking: true
@@ -273,31 +278,19 @@
 				{
 					count: 32L
 					id: "5EB238FCA048A3CD"
-					item: {
-						Count: 1
-						id: "minecraft:raw_gold"
-						tag: { }
-					}
+					item: "minecraft:raw_gold"
 					type: "item"
 				}
 				{
 					count: 45L
 					id: "0758477ABD826A79"
-					item: {
-						Count: 1
-						id: "minecraft:raw_iron"
-						tag: { }
-					}
+					item: "minecraft:raw_iron"
 					type: "item"
 				}
 				{
 					count: 32L
 					id: "26684842E083AB87"
-					item: {
-						Count: 1
-						id: "minecraft:raw_copper"
-						tag: { }
-					}
+					item: "minecraft:raw_copper"
 					type: "item"
 				}
 			]
@@ -437,11 +430,7 @@
 				{
 					count: 8
 					id: "0ECAEE794F7946D4"
-					item: {
-						Count: 1
-						id: "minecraft:glow_berries"
-						tag: { }
-					}
+					item: "minecraft:glow_berries"
 					type: "item"
 				}
 				{
@@ -675,7 +664,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "134190DC291A8002"
 					ignore_reward_blocking: true
@@ -686,11 +675,7 @@
 			subtitle: "{ftbquests.chapter.mining.quest6410433765430371974.subtitle}"
 			tasks: [{
 				biome: "minecraft:dripstone_caves"
-				icon: {
-					Count: 1
-					id: "minecraft:dripstone_block"
-					tag: { }
-				}
+				icon: "minecraft:dripstone_block"
 				id: "681D67B3FE0C4388"
 				title: "{ftbquests.chapter.mining.quest6410433765430371974.task.7502266577028137864.title}"
 				type: "biome"
@@ -732,7 +717,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "15A0AABCCFCCDF97"
 					ignore_reward_blocking: true
@@ -743,11 +728,7 @@
 			subtitle: "{ftbquests.chapter.mining.quest3281582345321303253.subtitle}"
 			tasks: [{
 				biome: "minecraft:lush_caves"
-				icon: {
-					Count: 1
-					id: "minecraft:glow_berries"
-					tag: { }
-				}
+				icon: "minecraft:glow_berries"
 				id: "3FF3FC9541AFDB07"
 				title: "{ftbquests.chapter.mining.quest3281582345321303253.task.4608304561712519943.title}"
 				type: "biome"
@@ -858,21 +839,13 @@
 				{
 					count: 3
 					id: "3329E87169F12312"
-					item: {
-						Count: 1
-						id: "mekanism:block_charcoal"
-						tag: { }
-					}
+					item: "mekanism:block_charcoal"
 					type: "item"
 				}
 				{
 					count: 16
 					id: "0F32412E80FC2F0A"
-					item: {
-						Count: 1
-						id: "minecraft:amethyst_shard"
-						tag: { }
-					}
+					item: "minecraft:amethyst_shard"
 					type: "item"
 				}
 				{
@@ -903,11 +876,7 @@
 			subtitle: "{ftbquests.chapter.mining.quest8033327730336826704.subtitle}"
 			tasks: [{
 				id: "310FA1963FDAD265"
-				item: {
-					Count: 1
-					id: "immersive_machinery:tunnel_digger"
-					tag: { }
-				}
+				item: "immersive_machinery:tunnel_digger"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mining.quest8033327730336826704.title}"
@@ -982,6 +951,8 @@
 				"{ftbquests.chapter.mining.quest4971210052405956054.description2}"
 				""
 				"{ftbquests.chapter.mining.quest4971210052405956054.description3}"
+				""
+				"{ftbquests.chapter.mining.quest4971210052405956054.description4}"
 			]
 			icon: {
 				Count: 1
@@ -1258,6 +1229,7 @@
 				"The &6Dwarven Depths&r can be a &overy dangerous&r place, monsters have adapted to this harsh enviroment, becoming scarier than their Overworld cousins. The darkness itself claws at your mind. Some foul magic has caused fire resistance to not work.."
 				""
 				"&eTip:&r Watch out for <shake>Shelob..."
+				"&eTip:&r Nightvison does not work here..."
 			]
 			id: "5F16592E377C17AE"
 			rewards: [
@@ -1283,6 +1255,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "4BC235266ECB06B9"
+					item: "iceandfire:dragonscales_red"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "Enter The Dwarven Depths"
@@ -1293,6 +1270,442 @@
 			}]
 			title: "&eI am a Dwarf!"
 			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F16592E377C17AE"]
+			description: [
+				"This strange ore seems to be harder than even Diamond! In addition, you can feel a strong magical presence just by being nearby."
+				""
+				"It would appear we need a Netherite Pickaxe to harvest it though! &oI have a feeling&r it has the potencial to make some very strong armor and magical weapons!"
+				""
+				"&6Hint:&r Mithril only generates in The Dwarven Depths and needs at least mining level Netherite. "
+			]
+			id: "0CB492E8A8951DB3"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "16E939B9730588D6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			secret: true
+			subtitle: "Find Mithril Ore"
+			tasks: [{
+				icon: "irons_spellbooks:deepslate_mithril_ore"
+				id: "26B4ED81446554D0"
+				observe_type: 0
+				timer: 100L
+				title: "Strange Discovery"
+				to_observe: "irons_spellbooks:deepslate_mithril_ore"
+				type: "observation"
+			}]
+			title: "&bA Strange Discovery"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0CB492E8A8951DB3"]
+			description: [
+				"Mithril is a rare, silver-like metal that is both lighter than silk and stronger than steel. It can be used to forge unique weapons and powerful armor!"
+				""
+				"&7\"Mithril! All folk desired it. It could be beaten like copper, and polished like glass; and the Dwarves could make of it a metal, light and yet harder than tempered steel. Its beauty was like to that of common silver, but the beauty of Mithril did not tarnish or grow dim.\""
+			]
+			id: "1B5CD795ACD7D0E5"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "573FA70294C4A816"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "243445D1FC925502"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47B4021E7027B32C"
+					item: "irons_spellbooks:mithril_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			secret: true
+			subtitle: "Stronger Than Steel!"
+			tasks: [{
+				id: "79D6691E382617EC"
+				item: "irons_spellbooks:mithril_scrap"
+				type: "item"
+			}]
+			title: "&bPride of The Dwarves"
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01699A30B1C5B833"]
+			description: [
+				"Legend says that the shadows themselves manifest into all sorts of forms and consume unprepared miners who venture forth into &6The Dwarven Depths. "
+				""
+				"Thankfully for us, we are &oalways&r prepared!"
+				""
+				"I've heard that a &eGolden Lantern&r held in your main-hand or off-hand will ward off the darkness and allow us to avoid death by darkness. Death by all of the other evil creatures here however is still quite likely..."
+			]
+			hide_until_deps_complete: true
+			id: "02B45BDF4BA650B6"
+			optional: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "1EF536B455B4D62A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "612DC61787B6410D"
+					item: "iceandfire:dragonscales_red"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a &eGolden Lantern"
+			tasks: [{
+				id: "467ED66E4CCB7624"
+				item: "ars_additions:golden_lantern"
+				type: "item"
+			}]
+			title: "&6The Darkness Within"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B5CD795ACD7D0E5"]
+			description: ["The Dwarves were expert blacksmiths, they forged powerful magical artifacts out of Mithril and Gold that lasted thousands of years.. Many however, are lost to time.."]
+			hide_until_deps_complete: true
+			id: "5FD5D011656AA6C8"
+			optional: true
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "1F5F91459EA19996"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4BB67D6FD761F472"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Craft a &eDwarven Ring"
+			tasks: [{
+				id: "461E93B0AC5077C9"
+				item: "kubejs:dwarven_ring"
+				type: "item"
+			}]
+			title: "&6Dwarven Magic &r&7(Dwarven Artifact)"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B5CD795ACD7D0E5"]
+			description: [
+				"The Dwarves worshipped many gods in their eons spent deep underground, this heart was said to be a vessel for one of the most powerful gods.. "
+				""
+				"Wielding it however is said to come at a great price to ones soul.."
+			]
+			hide_until_deps_complete: true
+			id: "6FF29F158989387A"
+			optional: true
+			rewards: [
+				{
+					amount: 350L
+					currency: "eternalcurrencies:coins"
+					id: "0BD090FAA6789F71"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3E4D4840DDC3EBE4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Craft a &eHeart of Lorkhan"
+			tasks: [{
+				id: "1728530196833DD9"
+				item: "kubejs:lorkhan_heart"
+				type: "item"
+			}]
+			title: "&dThe Heart of a Dead God &r&7(Dwarven Artifact)"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F16592E377C17AE"]
+			description: [
+				"Shelob is a dangerous creature that lurks in the darkness of The Dwarven Depths, if it all possible you should avoid her... &oHer soul is trapped here and thus can never truly die.. "
+				""
+				"She spends her time laying spider eggs and hunting down adventurers who make a tasty snack!"
+			]
+			id: "0AB14603388854DF"
+			invisible: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2D6819BE8F801EC3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "154C9B3A3E6AC807"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find Shelob (or be found by Shelob!)"
+			tasks: [{
+				icon: "goety:snaring_focus"
+				id: "4DF4ACDC0EC09010"
+				observe_type: 5
+				timer: 0L
+				title: "Spot Shelob"
+				to_observe: "goety:brood_mother"
+				type: "observation"
+			}]
+			title: "&4<shake>Shelob!"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1B5CD795ACD7D0E5"]
+			description: ["Of the many powerful artifacts the dwarves made with Mithril, the power of flight was one of them. By using the magical properties of Mithril and by doing a ritual, they were able to fly within a certain radius!"]
+			hide_until_deps_complete: true
+			id: "6E62B800B8B7950F"
+			optional: true
+			rewards: [{
+				amount: 350L
+				currency: "eternalcurrencies:coins"
+				id: "3E4D5375792A59B2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			subtitle: "Craft a &eTablet of Flight"
+			tasks: [{
+				id: "44D3C6604F460389"
+				item: "ars_nouveau:ritual_flight"
+				type: "item"
+			}]
+			title: "&3Flight at Home!&r &7(Dwarven Artifact)"
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1B5CD795ACD7D0E5"]
+			description: [
+				"The Dwarves forged powerful weapons with &eWeapon Parts&r crafted from &eMithril&r."
+				""
+				"These magical weapons had unique properties and held incredible power. Perhaps we can craft some ourselves... "
+			]
+			hide_until_deps_complete: true
+			id: "4A172C10FE75B62F"
+			rewards: [{
+				amount: 250L
+				currency: "eternalcurrencies:coins"
+				id: "288774C799C7230E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft &eWeapon Parts"
+			tasks: [{
+				id: "1B11016257D66C2D"
+				item: "irons_spellbooks:weapon_parts"
+				type: "item"
+			}]
+			title: "&bDwarven Might!"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1B5CD795ACD7D0E5"
+				"4A172C10FE75B62F"
+			]
+			description: ["By infusing a &dTwilight Gale&r with a &eLightning Dragon Heart&r, it seems to grow far more powerful..."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "72E79CD7E578931C"
+			optional: true
+			rewards: [{
+				id: "11C5F764F0702554"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:twilight_gale"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 8s
+						}]
+						RepairCost: 1
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:volt_strike"
+								index: 0
+								level: 10
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Upgrade Twilight Gale"
+			tasks: [
+				{
+					consume_items: true
+					id: "41B3CBC8468F3EA3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:twilight_gale"
+						tag: {
+							Damage: 0
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:volt_strike"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4AC2CA184CF0E699"
+					item: "iceandfire:lightning_dragon_heart"
+					type: "item"
+				}
+			]
+			title: "&eWeapon Upgrade:&r Twilight Gale"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5F16592E377C17AE"]
+			hide_until_deps_complete: true
+			id: "247D7FC0632850F0"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "73F997CE84608E8A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "24B8722C9B0CC6F0"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 15x Dwarven Cave Rat"
+			tasks: [{
+				entity: "alexscaves:corrodent"
+				icon: "rats:corrupt_rat_skull"
+				id: "354C8B0118FBD3EB"
+				title: "Kill 15x Dwarven Cave Rat"
+				type: "kill"
+				value: 15L
+			}]
+			title: "&4Oversized Rodents"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F16592E377C17AE"]
+			hide_until_deps_complete: true
+			id: "6F3857D330E22C6E"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "264C9E0A39F52E16"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3D9ECFB219139C36"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 15x Earthern Elementals"
+			tasks: [{
+				entity: "thermal:basalz"
+				icon: "thermal:basalz_powder"
+				id: "6B1A73AB721CB66B"
+				title: "Kill 15x Dwarven Cave Rat"
+				type: "kill"
+				value: 15L
+			}]
+			title: "&4The Earthern "
+			x: 6.0d
 			y: 4.0d
 		}
 	]

@@ -2111,7 +2111,7 @@
 		{
 			dependencies: ["5C433B46F78658D6"]
 			description: ["{ftbquests.chapter.occultism.quest7245643308122934904.description1}"]
-			icon: "vanillabackport:dried_ghast"
+			icon: "minecraft:dried_ghast"
 			id: "648DB2331DDA8E78"
 			rewards: [
 				{
@@ -4630,3 +4630,5 @@
 	]
 	title: "{ftbquests.chapter.occultism.title}"
 }
+
+

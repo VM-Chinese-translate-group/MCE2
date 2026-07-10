@@ -36,7 +36,7 @@
 					Damage: 0
 				}
 			}
-			weight: 300.0f
+			weight: 700.0f
 		}
 		{
 			item: {
@@ -50,7 +50,7 @@
 			}
 			weight: 300.0f
 		}
-		{ item: "iceandfire:dragonsteel_lightning_ingot", weight: 20.0f }
+		{ item: "iceandfire:dragonsteel_lightning_ingot", weight: 100.0f }
 		{ item: "create:schematicannon", weight: 800.0f }
 		{ item: "create:cuckoo_clock", weight: 800.0f }
 		{ item: "rats:rat_upgrade_tnt_survivor", weight: 20.0f }
@@ -167,7 +167,7 @@
 				id: "iceandfire:dragonscales_red"
 			}
 			random_bonus: 15
-			weight: 250.0f
+			weight: 1000.0f
 		}
 		{
 			item: {
@@ -180,7 +180,7 @@
 				id: "iceandfire:dragonscales_copper"
 			}
 			random_bonus: 10
-			weight: 250.0f
+			weight: 1000.0f
 		}
 		{
 			item: {
@@ -205,7 +205,7 @@
 				id: "iceandfire:dragonscales_black"
 			}
 			random_bonus: 10
-			weight: 250.0f
+			weight: 1000.0f
 		}
 		{ item: "iceandfire:ice_dragon_blood", weight: 800.0f }
 		{ item: "iceandfire:fire_dragon_blood", weight: 800.0f }
@@ -413,7 +413,7 @@
 			weight: 1000.0f
 		}
 		{ item: "rats:rat_upgrade_golem_mount", weight: 20.0f }
-		{ item: "rats:oratchalcum_ingot", random_bonus: 10, weight: 20.0f }
+		{ item: "rats:oratchalcum_ingot", random_bonus: 10, weight: 1000.0f }
 		{
 			item: {
 				Count: 1
@@ -875,17 +875,7 @@
 					Damage: 0
 				}
 			}
-			weight: 100.0f
-		}
-		{
-			item: {
-				Count: 1
-				id: "ftbquests:lootcrate"
-				tag: {
-					type: "hats_hats_hats"
-				}
-			}
-			weight: 500.0f
+			weight: 600.0f
 		}
 		{ item: "rats:plague_tome", weight: 300.0f }
 		{ item: "rats:filth_corruption", weight: 300.0f }
@@ -903,7 +893,7 @@
 					Damage: 0
 				}
 			}
-			weight: 20.0f
+			weight: 200.0f
 		}
 		{
 			item: {
@@ -913,7 +903,7 @@
 					Damage: 0
 				}
 			}
-			weight: 20.0f
+			weight: 200.0f
 		}
 		{
 			item: {
@@ -925,7 +915,7 @@
 				}
 				id: "cataclysm:void_core"
 			}
-			weight: 380.0f
+			weight: 800.0f
 		}
 		{
 			item: {
@@ -937,7 +927,7 @@
 				}
 				id: "minecraft:heart_of_the_sea"
 			}
-			weight: 1000.0f
+			weight: 1500.0f
 		}
 		{
 			item: {
@@ -1048,7 +1038,7 @@
 					Damage: 0
 				}
 			}
-			weight: 20.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1063,7 +1053,7 @@
 					Damage: 0
 				}
 			}
-			weight: 20.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1093,7 +1083,7 @@
 					Damage: 0
 				}
 			}
-			weight: 20.0f
+			weight: 800.0f
 		}
 		{
 			item: {
@@ -1108,7 +1098,7 @@
 					Damage: 0
 				}
 			}
-			weight: 20.0f
+			weight: 800.0f
 		}
 		{
 			item: {
@@ -1123,7 +1113,7 @@
 					Damage: 0
 				}
 			}
-			weight: 20.0f
+			weight: 800.0f
 		}
 		{
 			item: {
@@ -1138,7 +1128,7 @@
 					Damage: 0
 				}
 			}
-			weight: 20.0f
+			weight: 800.0f
 		}
 		{
 			item: {
@@ -1157,7 +1147,7 @@
 					}]
 				}
 			}
-			weight: 20.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1278,31 +1268,7 @@
 					}]
 				}
 			}
-			weight: 20.0f
-		}
-		{
-			item: {
-				Count: 1
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "aquamirae:treasure_pouch"
-			}
-			weight: 2000.0f
-		}
-		{
-			item: {
-				Count: 1
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "aquamirae:pirate_pouch"
-			}
-			weight: 2800.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1581,19 +1547,6 @@
 			weight: 1000.0f
 		}
 		{
-			count: 8
-			item: {
-				Count: 1
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "quark:ravager_hide"
-			}
-			weight: 1000.0f
-		}
-		{
 			item: {
 				Count: 1
 				ForgeCaps: {
@@ -1736,7 +1689,7 @@
 					}
 				}
 			}
-			weight: 250.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1766,25 +1719,13 @@
 				id: "botania:tiny_potato"
 				tag: {
 					display: {
-						Name: "{\"translate\":\"name.mce2.blackmarket_cache.3\"}"
-					}
-				}
-			}
-			weight: 250.0f
-		}
-		{
-			item: {
-				Count: 1
-				id: "botania:tiny_potato"
-				tag: {
-					display: {
 						Name: "{\"translate\":\"name.mce2.blackmarket_cache.4\"}"
 					}
 				}
 			}
 			weight: 350.0f
 		}
-		{ item: "rats:chunky_cheese_token", weight: 200.0f }
+		{ item: "rats:chunky_cheese_token", weight: 500.0f }
 		{
 			item: {
 				Count: 1
@@ -1808,7 +1749,7 @@
 			}
 			weight: 800.0f
 		}
-		{ item: "bosses_of_mass_destruction:mob_ward", weight: 400.0f }
+		{ item: "bosses_of_mass_destruction:mob_ward", weight: 800.0f }
 		{
 			item: {
 				Count: 1
@@ -1817,7 +1758,7 @@
 					Damage: 0
 				}
 			}
-			weight: 150.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1827,7 +1768,7 @@
 					Damage: 0
 				}
 			}
-			weight: 150.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1837,7 +1778,7 @@
 					Damage: 0
 				}
 			}
-			weight: 150.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1847,7 +1788,7 @@
 					Damage: 0
 				}
 			}
-			weight: 150.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1857,7 +1798,7 @@
 					Damage: 0
 				}
 			}
-			weight: 150.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1867,7 +1808,7 @@
 					Damage: 0
 				}
 			}
-			weight: 150.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1877,7 +1818,7 @@
 					Damage: 0
 				}
 			}
-			weight: 150.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1887,7 +1828,7 @@
 					Damage: 0
 				}
 			}
-			weight: 150.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1897,7 +1838,7 @@
 					Damage: 0
 				}
 			}
-			weight: 150.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1907,7 +1848,7 @@
 					Damage: 0
 				}
 			}
-			weight: 150.0f
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1917,22 +1858,10 @@
 					Damage: 0
 				}
 			}
-			weight: 150.0f
+			weight: 500.0f
 		}
-		{
-			item: {
-				Count: 1
-				id: "alexscaves:nuclear_bomb"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "untitledduckmod:duck_sack"
-				tag: { }
-			}
-		}
+		{ item: "alexscaves:nuclear_bomb", weight: 600.0f }
+		{ item: "untitledduckmod:duck_sack", weight: 500.0f }
 		{
 			item: {
 				Count: 1
@@ -1941,14 +1870,13 @@
 					Damage: 0
 				}
 			}
+			weight: 400.0f
 		}
-		{ item: "nuke_bay:nuke_bay" }
-		{ count: 3, item: "bfr:solidified_waste" }
-		{ item: "vampiresneedumbrellas:creative_umbrella" }
-		{ item: "minecraft:bedrock" }
-		{ item: "kubejs:mobdrop_endermanheart_beating" }
-		{ item: "iceandfire:ice_dragon_heart" }
-		{ item: "bosses_of_mass_destruction:obsidian_heart" }
+		{ item: "nuke_bay:nuke_bay", weight: 500.0f }
+		{ item: "vampiresneedumbrellas:creative_umbrella", weight: 400.0f }
+		{ item: "kubejs:mobdrop_endermanheart_beating", weight: 700.0f }
+		{ item: "iceandfire:ice_dragon_heart", weight: 900.0f }
+		{ item: "bosses_of_mass_destruction:obsidian_heart", weight: 100.0f }
 		{
 			item: {
 				Count: 1
@@ -1964,6 +1892,7 @@
 					UseTime: 0
 				}
 			}
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -1973,6 +1902,7 @@
 					Damage: 0
 				}
 			}
+			weight: 600.0f
 		}
 		{
 			item: {
@@ -1984,6 +1914,7 @@
 					variant: "default"
 				}
 			}
+			weight: 500.0f
 		}
 		{
 			item: {
@@ -2023,13 +1954,159 @@
 					etstlib_tool_uuid: "e749a354-00e9-4f72-bc8f-a699c97d9067"
 				}
 			}
+			weight: 500.0f
 		}
 		{
 			amount: 5000L
 			currency: "eternalcurrencies:coins"
 			ignore_reward_blocking: true
 			type: "eternalcurrencies:currency"
+			weight: 500.0f
 		}
+		{
+			amount: 10000L
+			currency: "eternalcurrencies:coins"
+			ignore_reward_blocking: true
+			type: "eternalcurrencies:currency"
+			weight: 200.0f
+		}
+		{ item: "kubejs:dwarven_ring", weight: 600.0f }
+		{ item: "kubejs:lorkhan_heart", weight: 600.0f }
+		{ count: 3, item: "kubejs:ingot_thousand_metals", weight: 600.0f }
+		{ count: 3, item: "mekanism:osmium_ore", weight: 600.0f }
+		{ item: "cataclysm:abyssal_sacrifice", weight: 600.0f }
+		{ item: "tinkers_advanced:neutronite_ingot" }
+		{ item: "tinkers_advanced:activated_chromatic_steel", weight: 300.0f }
+		{ item: "tconstruct:knightmetal_block", weight: 600.0f }
+		{ item: "vampirism:sunscreen_beacon", weight: 500.0f }
+		{ item: "immersive_aircraft:warship", weight: 600.0f }
+		{ item: "immersive_aircraft:biplane", weight: 600.0f }
+		{ item: "immersive_aircraft:engine", weight: 600.0f }
+		{ item: "immersive_aircraft:rotary_cannon", weight: 600.0f }
+		{
+			item: {
+				Count: 1
+				id: "cgs:revolver"
+				tag: {
+					Ammo: {
+						"ntgl:primary": "cgs:round_revolver"
+					}
+					AmmoCount: {
+						"ntgl:primary": 6
+					}
+					ThrowMode: "ntgl:safe"
+					variant: "default"
+				}
+			}
+			weight: 500.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "cgs:launcher"
+				tag: {
+					Ammo: {
+						"ntgl:primary": "cgs:rocket"
+					}
+					AmmoCount: {
+						"ntgl:primary": 4
+					}
+					ThrowMode: "ntgl:safe"
+					variant: "default"
+				}
+			}
+			weight: 500.0f
+		}
+		{ item: "alexscaves:tremorsaurus_egg" }
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:extinction_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 600.0f
+		}
+		{ item: "alexscaves:tectonic_shard", weight: 800.0f }
+		{ item: "alexscaves:submarine", weight: 800.0f }
+		{ item: "alexscaves:conversion_crucible", weight: 800.0f }
+		{ item: "alexscaves:sack_of_sating", weight: 800.0f }
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:magic_conch"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 800.0f
+		}
+		{ item: "alexscaves:tremorzilla_egg", weight: 300.0f }
+		{ count: 12, item: "royalvariations:royal_bomb", weight: 1000.0f }
+		{ item: "constructs_casting:mithril_block", weight: 800.0f }
+		{ item: "tconstruct:cobalt_block", weight: 800.0f }
+		{ count: 3, item: "mekanismgenerators:wind_generator", weight: 400.0f }
+		{
+			item: {
+				Count: 1
+				id: "mekanism:mekasuit_bodyarmor"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "16000000"
+						}]
+					}
+				}
+			}
+			weight: 150.0f
+		}
+		{ item: "mekanism:pellet_antimatter", weight: 350.0f }
+		{ item: "mekanism:teleportation_core", weight: 350.0f }
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:boots_plating"
+				tag: {
+					Material: "tinkers_advanced:antimatter"
+				}
+			}
+			weight: 50.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:micromissiles"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 1000.0f
+		}
+		{ count: 3, item: "tinkers_advanced:blaze_netherite", weight: 800.0f }
+		{ item: "tinkers_advanced:voltaic_crystal", weight: 100.0f }
+		{ item: "tinkers_advanced:disintegrate_crystal", weight: 300.0f }
+		{ item: "tinkers_advanced:resonance_crystal", weight: 500.0f }
+		{ count: 3, item: "tinkers_advanced:iridium_chunk", weight: 100.0f }
+		{ item: "iceandfire:ghost_ingot", weight: 1100.0f }
+		{ item: "iceandfire:dragonegg_red", weight: 400.0f }
+		{ item: "iceandfire:dragonegg_amythest", weight: 400.0f }
+		{ item: "ends_delight:steamed_dragon_egg", weight: 700.0f }
+		{ item: "ends_delight:fried_dragon_egg", weight: 700.0f }
+		{ item: "iceandfire:dragonegg_blue", weight: 400.0f }
+		{
+			item: {
+				Count: 1
+				id: "rats:plague_doctor_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 500.0f
+		}
+		{ item: "rats:psionic_rat_brain", weight: 500.0f }
+		{ count: 20, item: "minecraft:echo_shard", weight: 600.0f }
 	]
 	title: "{ftbquests.loot_table.7907762097638722541.title}"
 	use_title: true

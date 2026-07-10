@@ -396,6 +396,8 @@
 				""
 				""
 				"{ftbquests.chapter.clthe_nether.quest4312427528071586179.description4}"
+				""
+				"&6Hint:&r Craft the &dNether Invasion Gateway&r it drops the Palantir!"
 			]
 			icon: "kubejs:nether_item"
 			id: "3BD8D1FD1252A183"
@@ -618,7 +620,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["3CC4D8AC7D27AE94"]
+			dependencies: ["0D88B45349B3E660"]
 			description: ["{ftbquests.chapter.clthe_nether.quest5157911034145560134.image0}"]
 			icon: {
 				Count: 1
@@ -629,27 +631,6 @@
 			}
 			id: "479494C1FD505646"
 			rewards: [
-				{
-					count: 4
-					id: "499CCB10A1085A62"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:netherite_scrap"
-					}
-					type: "item"
-				}
-				{
-					command: "/titles add {p} titles:demon_slayer"
-					icon: "titles:title_scroll_uncommon"
-					id: "4676D913C6156C6D"
-					title: "{ftbquests.chapter.clthe_nether.quest5157911034145560134.reward.5077484308857711725.title}"
-					type: "command"
-				}
 				{
 					amount: 75L
 					currency: "eternalcurrencies:coins"
@@ -676,31 +657,23 @@
 			shape: "square"
 			size: 0.9d
 			subtitle: "{ftbquests.chapter.clthe_nether.quest5157911034145560134.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "cataclysm:monstrous_helm"
-						tag: {
-							Damage: 0
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					id: "73FC03E173898FC7"
-					structure: "cataclysm:soul_black_smith"
-					type: "structure"
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
 				}
-				{
-					entity: "cataclysm:netherite_monstrosity"
-					id: "026217D042DC3BFF"
-					type: "kill"
-					value: 1L
-				}
-			]
+				id: "73FC03E173898FC7"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
 			title: "{ftbquests.chapter.clthe_nether.quest5157911034145560134.title}"
 			x: 3.0d
 			y: 0.0d
@@ -787,20 +760,6 @@
 								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
 							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 6
-					id: "78523C3FF9FC65BD"
-					item: {
-						Count: 1
-						id: "minecraft:firework_rocket"
-						tag: {
-							Fireworks: {
-								Flight: 2b
-							}
 						}
 					}
 					type: "item"
