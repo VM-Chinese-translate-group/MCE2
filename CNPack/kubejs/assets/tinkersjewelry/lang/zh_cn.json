@@ -8,16 +8,16 @@
   "item.tinkersjewelry.prehnite": "葡萄石",
   "item.tinkersjewelry.rubellite": "红碧玺",
 
-  "item.tinkersjewelry.ring.description": "戒指是一种饰品，不同的宝石能为其提供不同的效果。",
-  "item.tinkersjewelry.ring": "戒指",
+  "item.tinkersjewelry.ring.description": "指环是一种饰品，不同的宝石能为其提供不同的效果。",
+  "item.tinkersjewelry.ring": "指环",
 
-  "item.tinkersjewelry.gem.description": "宝石提供材料特性。",
+  "item.tinkersjewelry.gem.description": "宝石提供材料特性",
   "item.tinkersjewelry.gem": "切制宝石",
 
-  "item.tinkersjewelry.plain_ring.description": "戒指是一类构造简单的饰品，其效果取决于镶嵌的宝石。",
+  "item.tinkersjewelry.plain_ring.description": "指环是一种饰品，不同的宝石能为其提供不同的效果。",
   "item.tinkersjewelry.plain_ring": "素圆指环",
 
-  "item.tinkersjewelry.plain_ring_cast": "素圆指环金质铸模",
+  "item.tinkersjewelry.plain_ring_cast": "素圆指环铸模",
   "item.tinkersjewelry.plain_ring_sand_cast": "素圆指环沙子铸模",
   "item.tinkersjewelry.plain_ring_red_sand_cast": "素圆指环红沙铸模",
 
