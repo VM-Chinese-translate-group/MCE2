@@ -1,0 +1,10 @@
+{
+  "formatVersion": 1,
+  "name": "MC Eternal 2简中汉化",
+  "description": "永恒的MC2简体中文汉化，记得额外下载i18n模组",
+  "modpackVersionRange": "[1.3,)",
+  "authors": [
+    "VM汉化组"
+  ],
+  "url": "https://vmct-cn.top/modpacks/mce2/"
+}

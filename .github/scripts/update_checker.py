@@ -1,25 +1,29 @@
-# .github/scripts/update_checker.py
-
 import os
 import sys
 import json
 import zipfile
 import shutil
-import filecmp
 import requests
 import re
 import subprocess
-from pathlib import Path
+import uuid
+from pathlib import Path, PurePosixPath
+
+from sync_pack_info import sync_pack_info
+
+
+REQUEST_TIMEOUT = (10, 120)
 
 
 def set_github_output(name, value):
     """Sets an output variable for GitHub Actions."""
     if "GITHUB_OUTPUT" in os.environ:
-        with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-            f.write(f"{name}={value}\n")
+        delimiter = f"ghadelimiter_{uuid.uuid4().hex}"
+        with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+            f.write(f"{name}<<{delimiter}\n{value}\n{delimiter}\n")
     else:
         # Fallback for local testing
-        print(f"::set-output name={name}::{value}")
+        print(f"{name}={value}")
 
 
 def run_command(command):
@@ -54,11 +58,39 @@ def get_file_hash(filepath):
     return h.hexdigest()
 
 
+def resolve_repo_path(repo_root, configured_path, field_name):
+    """Resolves a configured relative path while keeping it inside the repo."""
+    if not isinstance(configured_path, str) or not configured_path.strip():
+        raise ValueError(f"Config field '{field_name}' must be a non-empty path.")
+    raw_path = Path(configured_path)
+    if raw_path.is_absolute() or ".." in raw_path.parts:
+        raise ValueError(f"Config field '{field_name}' must stay inside the repository.")
+    resolved = (Path(repo_root).resolve() / raw_path).resolve()
+    if not resolved.is_relative_to(Path(repo_root).resolve()):
+        raise ValueError(f"Config field '{field_name}' must stay inside the repository.")
+    return resolved
+
+
+def validate_scoped_path(configured_path, field_name):
+    """Validates a relative folder path or glob that must stay below its root."""
+    if not isinstance(configured_path, str) or not configured_path.strip():
+        raise ValueError(f"Config field '{field_name}' must be a non-empty path.")
+    normalized = PurePosixPath(configured_path.replace("\\", "/"))
+    if (
+        normalized.is_absolute()
+        or not normalized.parts
+        or ".." in normalized.parts
+        or ":" in normalized.parts[0]
+    ):
+        raise ValueError(f"Config field '{field_name}' must stay inside its root.")
+    return normalized.as_posix()
+
+
 def download_file(url, dest_path):
     """Downloads a file from a URL to a destination path."""
     print(f"Downloading from {url} to {dest_path}...")
     try:
-        with requests.get(url, stream=True) as r:
+        with requests.get(url, stream=True, timeout=REQUEST_TIMEOUT) as r:
             r.raise_for_status()
             with open(dest_path, "wb") as f:
                 for chunk in r.iter_content(chunk_size=8192):
@@ -72,17 +104,29 @@ def extract_clean_version(full_name, pattern):
     Extracts a clean version string from a full name using a pattern.
     Example: "Techopolis 3-7.0" with pattern "Techopolis 3-{version}" -> "7.0"
     """
-    if not pattern or "{version}" not in pattern:
+    if not pattern:
         return full_name
-    try:
-        prefix, suffix = pattern.split("{version}")
-        regex_pattern = f"^{re.escape(prefix)}(.*){re.escape(suffix)}$"
-        match = re.match(regex_pattern, full_name)
-        if match:
-            return match.group(1).strip()
-    except ValueError:
-        print(f"Warning: Invalid version pattern '{pattern}'.")
-    return full_name
+    if pattern.count("{version}") != 1:
+        raise ValueError(
+            "versionPattern must contain exactly one '{version}' placeholder."
+        )
+
+    prefix, suffix = pattern.split("{version}")
+    regex_pattern = f"{re.escape(prefix)}(.*){re.escape(suffix)}"
+    match = re.fullmatch(regex_pattern, full_name)
+    if not match:
+        raise ValueError(
+            f"CurseForge file name '{full_name}' does not match versionPattern "
+            f"'{pattern}'. Update versionPattern to match the file name exactly."
+        )
+
+    clean_version = match.group(1).strip()
+    if not clean_version:
+        raise ValueError(
+            f"CurseForge file name '{full_name}' produced an empty version using "
+            f"versionPattern '{pattern}'."
+        )
+    return clean_version
 
 
 def reconstruct_full_name(clean_version, pattern):
@@ -95,15 +139,55 @@ def reconstruct_full_name(clean_version, pattern):
     return pattern.replace("{version}", clean_version)
 
 
-def compare_folders(dcmp, added_files, deleted_files, changed_files):
-    for name in dcmp.right_only:
-        added_files.add(Path(dcmp.right) / name)
-    for name in dcmp.left_only:
-        deleted_files.add(Path(dcmp.left) / name)
-    for name in dcmp.diff_files:
-        changed_files.add(Path(dcmp.right) / name)
-    for sub_dcmp in dcmp.subdirs.values():
-        compare_folders(sub_dcmp, added_files, deleted_files, changed_files)
+def safe_extract_zip(archive_path, destination):
+    """Extracts a ZIP archive without allowing members to escape destination."""
+    destination = Path(destination).resolve()
+    destination.mkdir(parents=True, exist_ok=True)
+
+    with zipfile.ZipFile(archive_path, "r") as archive:
+        for member in archive.infolist():
+            member_path = PurePosixPath(member.filename.replace("\\", "/"))
+            if member_path.is_absolute() or ".." in member_path.parts:
+                raise ValueError(f"Unsafe path in ZIP archive: {member.filename}")
+
+            target = (destination / Path(*member_path.parts)).resolve()
+            if not target.is_relative_to(destination):
+                raise ValueError(f"Unsafe path in ZIP archive: {member.filename}")
+
+        archive.extractall(destination)
+
+
+def compare_file_trees(old_root, new_root):
+    """Returns changed, added, and deleted files below two directory roots."""
+    old_root = Path(old_root)
+    new_root = Path(new_root)
+    old_files = (
+        {
+            path.relative_to(old_root)
+            for path in old_root.rglob("*")
+            if path.is_file() and path.name != ".DS_Store"
+        }
+        if old_root.is_dir()
+        else set()
+    )
+    new_files = (
+        {
+            path.relative_to(new_root)
+            for path in new_root.rglob("*")
+            if path.is_file() and path.name != ".DS_Store"
+        }
+        if new_root.is_dir()
+        else set()
+    )
+
+    added_files = {new_root / path for path in new_files - old_files}
+    deleted_files = {old_root / path for path in old_files - new_files}
+    updated_files = {
+        new_root / path
+        for path in old_files & new_files
+        if get_file_hash(old_root / path) != get_file_hash(new_root / path)
+    }
+    return updated_files, added_files, deleted_files
 
 
 def generate_pr_body(
@@ -173,20 +257,93 @@ def apply_exclusion_rules(file_set, exclusion_patterns, root_path):
     return kept_files
 
 
+def collect_changes(source_dir, new_source_root, attention_list, exclusion_patterns):
+    """Collects effective source changes according to attention and exclusion rules."""
+    source_dir = Path(source_dir)
+    new_source_root = Path(new_source_root)
+    updated_files, added_files, deleted_files = set(), set(), set()
+    file_patterns = attention_list.get("filePatterns", [])
+    folders = attention_list.get("folders", [])
+
+    if not file_patterns and not folders:
+        updated_files, added_files, deleted_files = compare_file_trees(
+            source_dir, new_source_root
+        )
+    else:
+        for item in file_patterns:
+            pattern = validate_scoped_path(item["pattern"], "attentionList.filePatterns")
+            ignore_deletions = item.get("ignoreDeletions", False)
+            old_matches = {path for path in source_dir.glob(pattern) if path.is_file()}
+            new_matches = {
+                path for path in new_source_root.glob(pattern) if path.is_file()
+            }
+            old_relative = {path.relative_to(source_dir) for path in old_matches}
+            new_relative = {
+                path.relative_to(new_source_root) for path in new_matches
+            }
+
+            for relative_path in old_relative | new_relative:
+                old_file = source_dir / relative_path
+                new_file = new_source_root / relative_path
+                if relative_path not in new_relative:
+                    if not ignore_deletions:
+                        deleted_files.add(old_file)
+                elif relative_path not in old_relative:
+                    added_files.add(new_file)
+                elif get_file_hash(old_file) != get_file_hash(new_file):
+                    updated_files.add(new_file)
+
+        for item in folders:
+            folder_path = validate_scoped_path(item["path"], "attentionList.folders")
+            ignore_deletions = item.get("ignoreDeletions", False)
+            changed, added, deleted = compare_file_trees(
+                source_dir / folder_path, new_source_root / folder_path
+            )
+            updated_files.update(changed)
+            added_files.update(added)
+            if not ignore_deletions:
+                deleted_files.update(deleted)
+
+    updated_files = apply_exclusion_rules(
+        updated_files, exclusion_patterns, new_source_root
+    )
+    added_files = apply_exclusion_rules(
+        added_files, exclusion_patterns, new_source_root
+    )
+    deleted_files = apply_exclusion_rules(
+        deleted_files, exclusion_patterns, source_dir
+    )
+    return updated_files, added_files, deleted_files
+
+
 def main():
     # --- Configuration and Setup ---
-    api_key = os.getenv("CF_API_KEY")
+    api_key = (os.getenv("CF_API_KEY") or "").strip()
 
-    repo_root = Path(".")
+    repo_root = Path(".").resolve()
     config_path = repo_root / ".github" / "configs" / "modpack.json"
     with open(config_path, "r", encoding="utf-8") as f:
         config = json.load(f)
 
+    if config.get("configured", True) is not True:
+        sys.exit(
+            "Error: .github/configs/modpack.json is still a template. "
+            "Complete the configuration and set 'configured' to true."
+        )
+
     pack_id, pack_name = config["packId"], config["packName"]
     update_method = config.get("updateMethod", "api")
+    if not isinstance(pack_id, int) or pack_id < 1:
+        sys.exit("Error: config field 'packId' must be a positive integer.")
+    if not isinstance(pack_name, str) or not pack_name.strip():
+        sys.exit("Error: config field 'packName' must be a non-empty string.")
+    if update_method not in {"api", "cursethebeast"}:
+        sys.exit("Error: config field 'updateMethod' must be 'api' or 'cursethebeast'.")
     version_pattern = config.get("versionPattern")
-    info_file_path = repo_root / config["infoFilePath"]
-    source_dir = repo_root / config["sourceDir"]
+    info_file_path = resolve_repo_path(
+        repo_root, config["infoFilePath"], "infoFilePath"
+    )
+    source_dir = resolve_repo_path(repo_root, config["sourceDir"], "sourceDir")
     attention_list = config.get("attentionList", {})
     exclusion_patterns = config.get("exclusionPatterns", [])
 
@@ -242,12 +399,29 @@ def main():
                 "Error: CurseForge API key (CF_API_KEY) not found. Required for 'api' update method."
             )
 
-        headers = {"x-api-key": api_key}
+        headers = {"Accept": "application/json", "x-api-key": api_key}
         api_url = f"https://api.curseforge.com/v1/mods/{pack_id}/files?pageSize=50"
         try:
-            response = requests.get(api_url, headers=headers)
+            response = requests.get(api_url, headers=headers, timeout=REQUEST_TIMEOUT)
             response.raise_for_status()
             files_data = response.json()["data"]
+        except requests.exceptions.HTTPError as e:
+            status_code = e.response.status_code if e.response is not None else None
+            if status_code in (401, 403):
+                sys.exit(
+                    f"Error: CurseForge API rejected CF_API_KEY (HTTP {status_code}). "
+                    "The current REST API still uses the /v1 endpoint and x-api-key "
+                    "header. Generate or verify an authorized key using the official "
+                    "instructions at https://docs.curseforge.com/rest-api/ (third-party "
+                    "services must apply for API access), then save the raw key (without "
+                    "quotes) as the CF_API_KEY secret in the PARATRANZ_ENV environment."
+                )
+            if status_code == 429:
+                sys.exit(
+                    "Error: CurseForge API rate limit exceeded (HTTP 429). "
+                    "Wait before rerunning the workflow."
+                )
+            sys.exit(f"Error fetching data from CurseForge API: {e}")
         except requests.exceptions.RequestException as e:
             sys.exit(f"Error fetching data from CurseForge API: {e}")
         except (KeyError, IndexError):
@@ -265,7 +439,14 @@ def main():
         latest_version_id = latest_file_info["id"]
         latest_download_url = latest_file_info["downloadUrl"]
 
-        if local_full_name == latest_full_name:
+        try:
+            latest_clean_version = extract_clean_version(
+                latest_full_name, version_pattern
+            )
+        except ValueError as e:
+            sys.exit(f"Error: {e}")
+
+        if local_clean_version == latest_clean_version:
             print("Already up to date. Exiting.")
             return
 
@@ -285,7 +466,6 @@ def main():
                 f"Warning: Could not find version ID for local version '{local_full_name}'. Diff report will not be generated."
             )
 
-        latest_clean_version = extract_clean_version(latest_full_name, version_pattern)
         print(
             f"New version found: {latest_clean_version} (Full name: {latest_full_name}, ID: {latest_version_id})"
         )
@@ -318,54 +498,14 @@ def main():
         print(f"Downloading LATEST version ({latest_clean_version})...")
         download_file(latest_download_url, zip_path)
 
-    with zipfile.ZipFile(zip_path, "r") as z:
-        z.extractall(extract_dir)
+    safe_extract_zip(zip_path, extract_dir)
     new_source_root = extract_dir / "overrides"
     if not new_source_root.exists():
         sys.exit("Error: 'overrides' directory not found in the downloaded archive.")
 
     # --- Compare files and detect changes---
-    updated_files, added_files, deleted_files = set(), set(), set()
-    for item in attention_list.get("filePatterns", []):
-        pattern = item["pattern"]
-        ignore_deletions = item.get("ignoreDeletions", False)
-        old_matches = set(source_dir.glob(pattern))
-        new_matches = set(new_source_root.glob(pattern))
-        relative_paths_from_old = {p.relative_to(source_dir) for p in old_matches}
-        relative_paths_from_new = {p.relative_to(new_source_root) for p in new_matches}
-        for rel_path in relative_paths_from_old.union(relative_paths_from_new):
-            old_f, new_f = source_dir / rel_path, new_source_root / rel_path
-            if not new_f.exists():
-                if not ignore_deletions:
-                    deleted_files.add(old_f)
-            elif not old_f.exists():
-                added_files.add(new_f)
-            elif get_file_hash(old_f) != get_file_hash(new_f):
-                updated_files.add(new_f)
-    for item in attention_list.get("folders", []):
-        folder_rel_str = item["path"]
-        ignore_deletions = item.get("ignoreDeletions", False)
-        old_d, new_d = source_dir / folder_rel_str, new_source_root / folder_rel_str
-        if not new_d.exists():
-            if old_d.exists() and not ignore_deletions:
-                deleted_files.add(old_d)
-            continue
-        if not old_d.exists():
-            added_files.add(new_d)
-            continue
-        dcmp = filecmp.dircmp(str(old_d), str(new_d), ignore=[".DS_Store"])
-        f_add, f_del, f_change = set(), set(), set()
-        compare_folders(dcmp, f_add, f_del, f_change)
-        added_files.update(f_add)
-        updated_files.update(f_change)
-        if not ignore_deletions:
-            deleted_files.update(f_del)
-
-    added_files = apply_exclusion_rules(
-        added_files, exclusion_patterns, new_source_root
-    )
-    updated_files = apply_exclusion_rules(
-        updated_files, exclusion_patterns, new_source_root
+    updated_files, added_files, deleted_files = collect_changes(
+        source_dir, new_source_root, attention_list, exclusion_patterns
     )
 
     if not any([updated_files, added_files, deleted_files]):
@@ -386,12 +526,7 @@ def main():
         else:
             shutil.copy2(item, dest)
 
-    with open(info_file_path, "r+", encoding="utf-8") as f:
-        data = json.load(f)
-        data["modpack"]["version"] = latest_clean_version
-        f.seek(0)
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.truncate()
+    patch_file_path = sync_pack_info(info_file_path, latest_clean_version)
 
     pr_body = generate_pr_body(
         pack_name,
@@ -411,6 +546,7 @@ def main():
     set_github_output("local_version_id", local_version_id or "")
     set_github_output("new_version_id", latest_version_id or "")
     set_github_output("info_file_path", str(info_file_path.relative_to(repo_root)))
+    set_github_output("patch_file_path", str(patch_file_path.relative_to(repo_root)))
     set_github_output("source_dir", str(config["sourceDir"]))
 
     shutil.rmtree(temp_root, ignore_errors=True)

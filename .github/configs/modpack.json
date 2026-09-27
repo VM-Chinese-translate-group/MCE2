@@ -1,4 +1,5 @@
 {
+  "configured": true,
   "packId": 1243287,
   "packName": "MC Eternal 2",
   "versionPattern": "MC Eternal 2-{version}",
@@ -7,6 +8,10 @@
   "updateMethod": "api",
   "infoFilePath": "CNPack/modpackinfo.json",
   "sourceDir": "Source",
+  "paratranz": {
+    "jsonSplits": [],
+    "pathRedirects": []
+  },
   "attentionList": {
     "folders": [
       {

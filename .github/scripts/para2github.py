@@ -1,44 +1,32 @@
 import json
 import os
 import re
-import sys
 import shutil
+import sys
 from collections import OrderedDict
-from pathlib import Path
-
-import requests
+from pathlib import Path, PurePosixPath
 
 from LangSpliter import merge_all_to_snbt
-
-TOKEN: str = os.getenv("API_TOKEN", "")
-GH_TOKEN: str = os.getenv("GH_TOKEN", "")
-PROJECT_ID: str = os.getenv("PROJECT_ID", "")
-FILE_URL: str = f"https://paratranz.cn/api/projects/{PROJECT_ID}/files/"
-
-if not TOKEN or not PROJECT_ID:
-    raise EnvironmentError("环境变量 API_TOKEN 或 PROJECT_ID 未设置。")
-
-# 初始化列表
-file_id_list: list[int] = []
-file_path_list: list[str] = []
+from paratranz_api import ParaTranzClient
+from paratranz_json_split import (
+    is_legacy_split_source,
+    load_paratranz_config,
+    merge_split_translations,
+    redirect_path,
+    split_for_remote_path,
+)
 
 
-def fetch_json(url: str, headers: dict[str, str]) -> list[dict[str, str]]:
-    response = requests.get(url, headers=headers)
-    response.raise_for_status()
-    return response.json()
-
-
-def translate(file_id: int) -> tuple[list[str], list[str]]:
+def translate(
+    client: ParaTranzClient, project_id: int, file_id: int
+) -> tuple[list[str], list[str]]:
     """
     获取指定文件的翻译内容并返回键值对列表
 
     :param file_id: 文件ID
     :return: 包含键和值的元组列表
     """
-    url = f"https://paratranz.cn/api/projects/{PROJECT_ID}/files/{file_id}/translation"
-    headers = {"Authorization": TOKEN, "accept": "*/*"}
-    translations = fetch_json(url, headers)
+    translations = client.get_file_translation(project_id, file_id)
 
     keys, values = [], []
 
@@ -56,19 +44,21 @@ def translate(file_id: int) -> tuple[list[str], list[str]]:
     return keys, values
 
 
-def get_files() -> None:
-    """
-    获取项目中的文件列表并提取文件ID和路径
-    """
-    headers = {"Authorization": TOKEN, "accept": "*/*"}
-    files = fetch_json(FILE_URL, headers)
+def safe_relative_path(path_str: str) -> Path:
+    normalized = PurePosixPath(path_str.replace("\\", "/"))
+    if (
+        normalized.is_absolute()
+        or not normalized.parts
+        or ".." in normalized.parts
+        or ":" in normalized.parts[0]
+    ):
+        raise ValueError(f"ParaTranz 返回了不安全的文件路径：{path_str}")
+    return Path(*normalized.parts)
 
-    for file in files:
-        file_id_list.append(file["id"])
-        file_path_list.append(file["name"])
 
-
-def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
+def save_translation(
+    zh_cn_dict: dict[str, str], path: Path, path_redirects=None
+) -> None:
     """
     保存翻译内容到指定的 JSON 文件，并保持与源文件完全相同的格式。
     （已修复 \n 等转义字符被错误解析的问题）
@@ -76,9 +66,13 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
     :param zh_cn_dict: 翻译内容的字典
     :param path: 原始文件路径
     """
-    dir_path = Path("CNPack") / path.parent
+    source_relative_path = PurePosixPath(path.as_posix())
+    output_relative_path = redirect_path(
+        source_relative_path, path_redirects or []
+    )
+    dir_path = Path("CNPack") / Path(*output_relative_path.parent.parts)
     dir_path.mkdir(parents=True, exist_ok=True)
-    zh_cn_filename = path.name.replace("en_us", "zh_cn")
+    zh_cn_filename = output_relative_path.name.replace("en_us", "zh_cn")
     file_path = dir_path / zh_cn_filename
     source_path = Path("Source") / path
 
@@ -126,7 +120,35 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
             )
 
 
-def process_translation(file_id: int, path: Path) -> dict[str, str]:
+def is_json_or_serialized_json(value: str) -> bool:
+    """
+    检测一个字符串是否包含JSON格式的内容。
+    
+    :param value: 要检测的字符串值（已进行转义符转换）
+    :return: 如果是有效的JSON格式则返回True，否则返回False
+    """
+    value = value.strip()
+    if not value:
+        return False
+
+    if (value.startswith("{") and value.endswith("}")) or \
+       (value.startswith("[") and value.endswith("]")):
+        try:
+            json.loads(value)
+            return True
+        except (json.JSONDecodeError, ValueError):
+            pass
+    
+    return False
+
+
+def process_translation(
+    client: ParaTranzClient,
+    project_id: int,
+    file_id: int,
+    path: Path,
+    translated_only: bool = False,
+) -> dict[str, str]:
     """
     处理单个文件的翻译，返回翻译字典
 
@@ -134,7 +156,7 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
     :param path: 文件路径
     :return: 翻译内容字典
     """
-    keys, values = translate(file_id)
+    keys, values = translate(client, project_id, file_id)
 
     source_file_path = Path("Source") / path
     try:
@@ -189,47 +211,68 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
     for key, value in zip(keys, values):
         value = re.sub(r'\\"', '"', value)
 
-        # 增加一个判断：如果值像一个JSON对象（以{开头，以}结尾），则跳过全局替换
-        is_json_like = value.strip().startswith("{") and value.strip().endswith("}")
+        contains_json = is_json_or_serialized_json(value)
 
-        if (
-            is_quest_file
-            and not is_json_like
-            and "image" not in value
-            and not value.startswith('["')
-            and '"color": ' not in value
-        ):
+        if is_quest_file and not contains_json and "image" not in value:
             value = value.replace(" ", "\u00a0")
 
         zh_cn_dict[key] = value
 
+    if translated_only:
+        return {key: zh_cn_dict[key] for key in keys}
     return zh_cn_dict
 
 
 def main() -> None:
-    print(">>> 启动下载合并工作流...")
-    get_files()
-    print(f">>> 从 ParaTranz 获取到 {len(file_id_list)} 个文件")
-    
-    ftb_quests_lang_dir = None  # 用于记录FTB Quests语言文件所在的目录
-    modpack_lang_merged_dict = {} # 用于收集拆分的 modpack 语言文件
-    modpack_lang_base_path = Path("kubejs/assets/modpack/lang/en_us.json")
+    token = os.getenv("API_TOKEN", "")
+    project_id_value = os.getenv("PROJECT_ID", "")
+    if not token or not project_id_value:
+        raise EnvironmentError("环境变量 API_TOKEN 或 PROJECT_ID 未设置。")
+    try:
+        project_id = int(project_id_value)
+    except ValueError as error:
+        raise ValueError("环境变量 PROJECT_ID 必须是整数。") from error
 
-    for file_id, path_str in zip(file_id_list, file_path_list):
+    client = ParaTranzClient(token)
+    remote_files = client.get_files(project_id)
+    split_configs, path_redirects = load_paratranz_config()
+    split_parts = {config: [] for config in split_configs}
+    ftb_quests_lang_dir = None  # 用于记录FTB Quests语言文件所在的目录
+
+    for remote_file in remote_files:
+        if not isinstance(remote_file, dict):
+            raise RuntimeError("ParaTranz 文件列表包含非对象条目。")
+        file_id = remote_file.get("id")
+        path_str = remote_file.get("name")
+        if not isinstance(file_id, int) or not isinstance(path_str, str):
+            raise RuntimeError("ParaTranz 文件列表包含无效条目。")
         if "TM" in path_str:  # 跳过 TM 文件
             continue
 
-        path = Path(path_str)
-
-        if "kubejs/assets/modpack/lang/" in path_str and "en_us_" in path.name:
-            print(f"  - 处理拆分文件: {path_str}")
-            zh_cn_dict = process_translation(file_id, path)
-            modpack_lang_merged_dict.update(zh_cn_dict)
+        remote_path = PurePosixPath(path_str.replace("\\", "/"))
+        path = safe_relative_path(path_str)
+        split_config = split_for_remote_path(remote_path, split_configs)
+        if split_config:
+            source_path = Path(*split_config.path.parts)
+            split_parts[split_config].append(
+                process_translation(
+                    client,
+                    project_id,
+                    file_id,
+                    source_path,
+                    translated_only=True,
+                )
+            )
             continue
-    
-        zh_cn_dict = process_translation(file_id, path)
+        if is_legacy_split_source(remote_path, split_configs):
+            print(f"忽略已由 JSON 分片配置接管的旧文件：{path_str}")
+            continue
+        if path.suffix.lower() != ".json" or "en_us" not in path.name:
+            print(f"跳过不受支持的 ParaTranz 文件：{path_str}")
+            continue
+        zh_cn_dict = process_translation(client, project_id, file_id, path)
 
-        save_translation(zh_cn_dict, path)
+        save_translation(zh_cn_dict, path, path_redirects)
 
         # 打印日志时，文件名也相应地从 en_us 变为 zh_cn
         log_path = re.sub("en_us", "zh_cn", path_str)
@@ -241,11 +284,11 @@ def main() -> None:
         ):
             ftb_quests_lang_dir = Path("CNPack") / path.parent
 
-    # 处理收集到的 modpack 语言文件合并
-    if modpack_lang_merged_dict:
-        print(f"正在保存合并后的 modpack 语言文件...")
-        save_translation(modpack_lang_merged_dict, modpack_lang_base_path)
-        print(f"合并后的文件已生成：CNPack/kubejs/assets/modpack/lang/zh_cn.json")
+    for config, parts in split_parts.items():
+        merged = merge_split_translations(Path("Source"), config, parts)
+        source_path = Path(*config.path.parts)
+        save_translation(merged, source_path, path_redirects)
+        print(f"已合并 ParaTranz JSON 分片：{config.path.as_posix()}")
 
     # 在所有文件处理完毕后，如果检测到了 FTB Quests 文件，则执行合并
     if ftb_quests_lang_dir and ftb_quests_lang_dir.exists():

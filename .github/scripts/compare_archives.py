@@ -1,17 +1,15 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import argparse
 import difflib
 import hashlib
 import os
 import pathlib
 import tarfile
+import json
 import tempfile
 import zipfile
-import json
 from collections import deque
 from html import escape
+from pathlib import PurePosixPath
 
 CSS_STYLES = """
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
@@ -239,14 +237,14 @@ JS_SCRIPT = """
     }
 
     function buildTree() {
-        state.tree = { name: "root", children: {}, isFolder: true, path: "", expanded: true, stats: {a:0, m:0, r:0} };
+        state.tree = { name: "root", children: Object.create(null), isFolder: true, path: "", expanded: true, stats: {a:0, m:0, r:0} };
         state.files.forEach(f => {
             let current = state.tree;
             f.path.split('/').forEach((part, i, arr) => {
                 const isFile = i === arr.length - 1;
-                if (!current.children[part]) {
-                    current.children[part] = { 
-                        name: part, isFolder: !isFile, children: {}, expanded: false, fileData: isFile ? f : null, stats: {a:0, m:0, r:0}
+                if (!Object.hasOwn(current.children, part)) {
+                    current.children[part] = {
+                        name: part, isFolder: !isFile, children: Object.create(null), expanded: false, fileData: isFile ? f : null, stats: {a:0, m:0, r:0}
                     };
                 }
                 current = current.children[part];
@@ -355,7 +353,7 @@ JS_SCRIPT = """
             <div class="node-content ${statusClass} ${state.currentFileId === f.id ? 'active' : ''}" onclick="selectFile('${f.id}')">
                 <span class="node-indent" style="width:${depth*16}px"></span>
                 <span class="node-icon">${f.is_binary?'📦':'📄'}</span>
-                <span class="node-name">${node.name}</span>
+                <span class="node-name">${escape(node.name)}</span>
                 <div class="node-meta">${statsHtml}</div>
                 <div class="status-bar"></div>
             </div>`;
@@ -380,7 +378,7 @@ JS_SCRIPT = """
         content.innerHTML = `
             <span class="node-indent" style="width:${depth*16}px"></span>
             <span class="node-icon">${expanded?'📂':'📁'}</span> 
-            <span class="node-name" style="font-weight:600">${node.name}</span>
+            <span class="node-name" style="font-weight:600">${escape(node.name)}</span>
             <div class="node-meta">${statsHtml}</div>
             <div class="status-bar" style="background:transparent"></div>`;
 
@@ -404,8 +402,8 @@ JS_SCRIPT = """
         container.className = 'diff-container active';
 
         let html = `<div class="file-header">
-            <h2>${file.name}</h2>
-            <div class="file-path">${file.path}</div>
+            <h2>${escape(file.name)}</h2>
+            <div class="file-path">${escape(file.path)}</div>
         </div><div class="diff-scroll-area">`;
 
         if (file.is_binary) {
@@ -564,13 +562,14 @@ class ArchiveComparator:
         if diff == 0:
             return "0 B"
         abs_diff = abs(diff)
-        unit = "B"
-        for u in ["B", "KB", "MB"]:
-            if abs_diff < 1024:
+        units = ["B", "KB", "MB", "GB", "TB"]
+        unit = units[0]
+        for unit in units:
+            if abs_diff < 1024 or unit == units[-1]:
                 break
             abs_diff /= 1024
-            unit = u
-        return f"{'+' if diff > 0 else ''}{abs_diff:.1f} {unit}"
+        sign = "+" if diff > 0 else "-"
+        return f"{sign}{abs_diff:.1f} {unit}"
 
     def build_inline_diff(self, old_text, new_text):
         matcher = difflib.SequenceMatcher(None, old_text, new_text)
@@ -619,7 +618,7 @@ class ArchiveComparator:
                     parts = line.split(" ")
                     old_line = int(parts[1].split(",")[0].replace("-", "")) - 1
                     new_line = int(parts[2].split(",")[0].replace("+", "")) - 1
-                except:
+                except (IndexError, ValueError):
                     pass
             elif line.startswith("+"):
                 new_line += 1
@@ -662,18 +661,32 @@ class ArchiveComparator:
             self._write()
 
     def _extract(self, arc, dest):
-        try:
-            if arc.endswith((".zip", ".jar")):
-                with zipfile.ZipFile(arc, "r") as z:
-                    z.extractall(dest)
-            elif arc.endswith((".tar.gz", ".tar")):
-                with tarfile.open(arc, "r:*") as t:
-                    t.extractall(dest)
-            else:
-                with zipfile.ZipFile(arc, "r") as z:
-                    z.extractall(dest)
-        except Exception:
-            pass
+        destination = pathlib.Path(dest).resolve()
+        destination.mkdir(parents=True, exist_ok=True)
+
+        def validate_member(name):
+            member_path = PurePosixPath(name.replace("\\", "/"))
+            if member_path.is_absolute() or ".." in member_path.parts:
+                raise ValueError(f"Unsafe path in archive: {name}")
+            target = (destination / pathlib.Path(*member_path.parts)).resolve()
+            if not target.is_relative_to(destination):
+                raise ValueError(f"Unsafe path in archive: {name}")
+
+        lower_name = str(arc).lower()
+        if lower_name.endswith((".tar.gz", ".tar")):
+            with tarfile.open(arc, "r:*") as archive:
+                for member in archive.getmembers():
+                    validate_member(member.name)
+                    if member.issym() or member.islnk():
+                        raise ValueError(
+                            f"Archive links are not supported: {member.name}"
+                        )
+                archive.extractall(destination, filter="data")
+        else:
+            with zipfile.ZipFile(arc, "r") as archive:
+                for member in archive.infolist():
+                    validate_member(member.filename)
+                archive.extractall(destination)
 
     def _compare(self, d1, d2):
         p1, p2 = pathlib.Path(d1), pathlib.Path(d2)
@@ -730,6 +743,9 @@ class ArchiveComparator:
             "meta": {"old_label": self.old_label, "new_label": self.new_label},
         }
         data = json.dumps(payload, ensure_ascii=False)
+        data = data.replace("&", "\\u0026").replace("<", "\\u003c").replace(
+            ">", "\\u003e"
+        )
         html = HTML_SHELL.format(css=CSS_STYLES, js=JS_SCRIPT, json_data=data)
         with open(self.output_path, "w", encoding="utf-8") as f:
             f.write(html)

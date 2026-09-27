@@ -23,17 +23,17 @@ jobs:
       changed: ${{ steps.commit.outputs.changed }}
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: "3"
+          cache: pip
+          cache-dependency-path: .github/requirements-ftb.txt
 
       - name: Install dependencies
-        run: |
-          pip install requests
-          pip install git+https://github.com/YuanXiaCN/ftb-snbt-lib-fork.git
+        run: python -m pip install -r .github/requirements-ftb.txt
 
       - name: Configure Git
         run: |
@@ -42,44 +42,22 @@ jobs:
 
       - name: Sync translations from Paratranz
         run: python .github/scripts/para2github.py
-
-      - name: Run FTB Color Checker Script
-        run: python .github/scripts/check_ftb_colors.py ./CNPack
-        continue-on-error: true
-
-      - name: Check if error_report.html was generated
-        id: check_report
-        run: |
-          if [ -f error_report.html ]; then
-            echo "error_report_exists=true" >> $GITHUB_ENV
-          else
-            echo "error_report_exists=false" >> $GITHUB_ENV
-          fi
         
       - name: Commit and Push changes
         id: commit
         run: |
-          # 检查工作区，如果没有任何更改，则提前退出
-          if [[ -z $(git status --porcelain) ]]; then
+          # 只提交下载到 CNPack 的译文；检查报告保留为构建产物，不进入仓库。
+          git add -A -- CNPack
+          if git diff --cached --quiet; then
             echo "No changes detected from Paratranz. Nothing to commit."
             echo "changed=false" >> $GITHUB_OUTPUT
             exit 0
           fi
 
-          git rm --cached --ignore-unmatch error_report.html
-
-          git add .
           git commit -m '从Paratranz同步翻译'
           git push
 
           echo "changed=true" >> $GITHUB_OUTPUT
-
-      - name: Upload Error Report Artifact
-        if: ${{ env.error_report_exists == 'true' }}
-        uses: actions/upload-artifact@v6
-        with:
-          name: error-report
-          path: error_report.html
 
   release:
     name: Create Release
@@ -92,15 +70,9 @@ jobs:
 
     steps:
       - name: Checkout code for Release
-        uses: actions/checkout@v6
-
-      - name: Download Error Report Artifact (if exists)
-        id: download_error
-        continue-on-error: true
-        uses: actions/download-artifact@v7
+        uses: actions/checkout@v7
         with:
-          name: error-report
-          path: ./
+          ref: ${{ github.ref_name }}
 
       - name: Parse Target Version from modpack.json
         id: parse_version
@@ -110,26 +82,54 @@ jobs:
           echo "mc_version=$MC_VERSION" >> $GITHUB_ENV
           echo "loader=$LOADER" >> $GITHUB_ENV
 
-      - name: Download latest VMTU matching version
+      - name: Find latest VMTU matching version
+        id: vmtu
         if: ${{ env.mc_version != '' && env.loader != '' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir -p ./CNPack/mods
-          # 通过 GitHub CLI 提取 VMTU 仓库的最新 Release
-          # 使用通配符匹配包含目标 MC 版本和 Loader 且以 .jar 结尾的附件
-          gh release download \
-            --repo vm-chinese-translate-group/VMTranslationUpdateMod \
-            --pattern "*${{ env.loader }}*${{ env.mc_version }}*.jar" \
-            --dir ./CNPack/mods \
-            --clobber
-            
-          # 验证是否成功下载
-          if [ -z "$(ls -A ./CNPack/mods/*.jar 2>/dev/null)" ]; then
-            echo "Warning: No matching VMTU jar found for ${{ env.mc_version }} and ${{ env.loader }}"
-          else
-            echo "Successfully downloaded VMTU matching ${{ env.mc_version }} and ${{ env.loader }}"
+          RELEASE=$(gh release view --repo vm-chinese-translate-group/VMTranslationUpdateMod --json tagName,assets)
+          ASSETS=$(printf '%s' "$RELEASE" | jq -r '.assets[].name')
+          ESCAPED_VERSION=$(printf '%s' "$mc_version" | sed 's/[][\\.^$*+?{}|()]/\\&/g')
+          EXACT_FILE=$(printf '%s\n' "$ASSETS" | grep -Fi -- "$loader" | grep -E -- "${ESCAPED_VERSION}([^0-9]|$)" | head -n 1 || true)
+          if [ -z "$EXACT_FILE" ]; then
+            echo "Warning: No matching VMTU jar found for $mc_version and $loader"
+            exit 0
           fi
+          TAG=$(printf '%s' "$RELEASE" | jq -r '.tagName')
+          ASSET_HASH=$(printf '%s' "$RELEASE" | jq -c --arg name "$EXACT_FILE" '{tagName, asset: (.assets[] | select(.name == $name) | {id, name, updatedAt, size})}' | sha256sum | cut -d ' ' -f 1)
+          echo "file=$EXACT_FILE" >> "$GITHUB_OUTPUT"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "cache_key=vmtu-v1-$ASSET_HASH" >> "$GITHUB_OUTPUT"
+
+      - name: Cache VMTU download
+        id: vmtu_cache
+        if: steps.vmtu.outputs.file != ''
+        uses: actions/cache@v6
+        with:
+          path: ${{ runner.temp }}/vmtu-download
+          key: ${{ steps.vmtu.outputs.cache_key }}
+
+      - name: Download VMTU on cache miss
+        if: steps.vmtu.outputs.file != '' && steps.vmtu_cache.outputs.cache-hit != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VMTU_FILE: ${{ steps.vmtu.outputs.file }}
+          VMTU_TAG: ${{ steps.vmtu.outputs.tag }}
+        run: |
+          gh release download "$VMTU_TAG" \
+            --repo vm-chinese-translate-group/VMTranslationUpdateMod \
+            --pattern "$VMTU_FILE" \
+            --dir "$RUNNER_TEMP/vmtu-download" \
+            --clobber
+
+      - name: Copy VMTU into patch
+        if: steps.vmtu.outputs.file != ''
+        env:
+          VMTU_FILE: ${{ steps.vmtu.outputs.file }}
+        run: |
+          mkdir -p ./CNPack/mods
+          cp -- "$RUNNER_TEMP/vmtu-download/$VMTU_FILE" ./CNPack/mods/
 
       - name: Get current datetime for tag
         id: datetime
@@ -145,10 +145,7 @@ jobs:
           name: "测试版构建 ${{ env.datetime }}"
           body: |
             自动生成的最新汉化补丁
-
-            ${{ steps.download_error.outcome == 'success' && '⚠ 注意：本次同步检测到 FTB 任务文本颜色可能存在错误，详见 release 附带的 error_report.html。' || '✔ 未发现异常颜色，FTB任务颜色字符检查通过。' }}
           artifacts: |
             VM-CNPack-${{ env.datetime }}.zip
-            error_report.html
           draft: false
           prerelease: true

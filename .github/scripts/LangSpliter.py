@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 LangSpliter 命令行工具
 
