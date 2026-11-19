@@ -60,7 +60,8 @@
     "item.mce2.quest_loot.desc.3": "“这些用途各异的杂物是在任务大师的储物箱中发现的，现在已重新打包作为你的奖励！”",
 
     "tooltip.mce2.occultism.stable_wormhole.fragile": "不稳定！拾起时虫洞就会破裂！",
-    "tooltip.mce2.dwarvendepths.golden_lantern": "§6可以让你在矮人深域中无畏黑暗，不受伤害。",
+    "tooltip.mce2.dwarvendepths.golden_lantern": "Allows you to brave the darkness in The Dwarven Depths without taking damage.",
+    "tooltip.mce2.glimmering_lantern_lights": "Places Conjured Lights when clicking a block.",
     "tooltip.mce2.ae2.facade.can_be_made_with_more_things": "可用大多数方块制作",
     "tooltip.mce2.generic.can_be_dyed": "可被染色",
     "tooltip.mce2.generic.item_trash_can": "（物品垃圾桶）",
@@ -204,6 +205,10 @@
     "tooltip.mce2.kubejs.king_ring.1": "§7§o我曾经统治世界，一声令下，区块就会加载。而现在每晚我都要躲藏起来，躲避我曾屠杀的怪物……",
     "tooltip.mce2.kubejs.lorkhan_heart": "§7生命值降低到一半以下时，获得30秒的§e止心术§r§7—§7有10分钟冷却时间",
     "tooltip.mce2.kubejs.lorkhan_heart.1": "§7§o一件矮人曾崇拜的强大遗物，或许它与矮人们的消失有关……",
+    "tooltip.mce2.kubejs.blue_band": "§7Gain §eMagic Resistance§r§7 and §eNightvision§r§7 at night time",
+    "tooltip.mce2.kubejs.blue_band.1": "§7§oA powerful ancient relic that protects its user from magic at certain times of the day, once belonged to BlueDazing",
+    "tooltip.mce2.kubejs.warden_curio": "§7Upon equipping, become quieter in The Great Below and Deep Dark",
+    "tooltip.mce2.kubejs.warden_curio.1": "§7§oThe corruption from The Void Blossom has changed this previously useless item into something much more sinister..",
 
     "loot_table.mce:cave_tablet_random.name": "随机洞穴石板",
 
